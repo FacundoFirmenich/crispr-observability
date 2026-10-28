@@ -1,6 +1,6 @@
 # CRISPR observability: computational companion
 
-Version **0.3.3 / MP03D**. Public code, numerical data and editable figures for
+Version **0.3.4 / MP03D**. Public code, numerical data and editable figures for
 a retrospective genome-editing readout audit. The complete manuscript and
 supplement are held privately pending the author's chosen preprint deposition.
 
@@ -21,7 +21,12 @@ biological replication. Source experiments remain attributable to Sousa et al.
 
 ## Public assets
 
-- `interactive/epistemic_graph.html`: self-contained offline evidence explorer.
+- `interactive/supergraph/crispr_supergraph.html`: separate dark spatial graph,
+  adapted from the actual published *Beyond Redfield* KwanTube companion.
+  Its side filters, navigable SVG canvas and inspector retain that interface
+  while presenting CRISPR-specific claims, evidence, falsifiers and boundaries.
+- `interactive/epistemic_graph.html`: existing self-contained white evidence explorer,
+  preserved byte for byte.
   Download and open locally; GitHub's source viewer does not execute HTML.
   Four views expose conjunctive support paths, event partitions, conditional
   hulls, sensitivity profiles, source fingerprints and CSV/JSON/SVG exports.
@@ -48,9 +53,14 @@ python3 figures/code/generate_figures.py
 The plotting source uses an explicit standalone coordinate contract and frozen
 numerical tables. It does not require manuscript prose.
 
-## Interactive companion
+## Interactive companions
 
-The explorer contains 21 nodes and eight typed AND hyperedges. Its source model
+The dark supergraph is a separate tool. Its corresponding editable source,
+model builder, provenance and GPLv3 notice are in
+[interactive/supergraph/README.md](interactive/supergraph/README.md). It does not
+replace or restyle the white explorer. Both tools work offline without a CDN.
+
+The preserved white explorer contains 21 nodes and eight typed AND hyperedges. Its source model
 keeps accepted events, non-events and unknown records separate under each declared
 event, observer and reference. Completion controls choose integer hypothetical
 unknown labels without changing the data. See [interactive/README.md](interactive/README.md)
@@ -65,9 +75,12 @@ excluded from the public source inventory.
 
 Current personal and institutional acknowledgments are in [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md).
 The verified author identity is in `metadata/AUTHOR_PROFILE_VERIFIED.json`.
-MIT applies only to the original-code allowlist in `metadata/LICENSE_SCOPE.json`;
-source observations, scientific data, graphics and third-party software retain
-their distinct attribution and applicable terms. See `raw_replay/DATA_NOTICE.md`.
+MIT applies only to the original-code allowlist in `metadata/LICENSE_SCOPE.json`.
+The separate KwanTube-derived supergraph code is distributed under GPL-3.0-only,
+with the complete license and modification notice in `interactive/supergraph/`.
+Scientific observations, data, figures and source publications retain their
+distinct attribution and applicable terms; neither code license relicenses them.
+See `raw_replay/DATA_NOTICE.md`.
 
 No preprint DOI is assigned by this repository. The private manuscript and
 supplement will be linked only after the author elects to deposit them.

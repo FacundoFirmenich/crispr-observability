@@ -1,0 +1,331 @@
+<!doctype html>
+<!-- SPDX-License-Identifier: GPL-3.0-only
+Derived interface: Facundo Firmenich, KwanTube v3.5.1.1, published spatial epistemic map.
+Source: Zenodo record 20102651, FacundoFirmenich/KwanTube-v.3.5.1.1.zip.
+Adaptation: CRISPR observability. Scientific data are separately attributed.
+-->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><title>CRISPR observability · Scientific supergraph</title><style>
+
+:root {
+  --bg: #0a0e1a; --panel: #111527; --panel2: #1a1f35; --ink: #e8edf5;
+  --muted: #8892b0; --line: #2e3750; --supported: #4ade80; --candidate: #38bdf8;
+  --conditional: #fbbf24; --fails: #fb7185; --blocked: #94a3b8; --open: #c084fc;
+  --constraint: #f59e0b; --glow: rgba(96,165,250,0.3);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.5);
+  --radius: 10px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: radial-gradient(ellipse at 20% 0%, #172554 0%, var(--bg) 55%);
+  color:var(--ink);
+  overflow:hidden;
+}
+body::before {
+  content:'';
+  position:fixed;
+  inset:0;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><path d="M30 10a10 10 0 0 1 0 20 10 10 0 0 1 0-20z" fill="rgba(100,150,250,0.03)"/></svg>');
+  z-index:-1;
+}
+header {
+  padding:14px 24px;
+  border-bottom:1px solid var(--line);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  backdrop-filter:blur(12px);
+  background:rgba(10,14,26,0.8);
+  z-index:50;
+}
+h1 { font-size:20px; font-weight:600; letter-spacing:0.3px; }
+.subtitle { color:var(--muted); font-size:13px; margin-top:2px; }
+.header-controls { display:flex; gap:8px; }
+.header-controls button {
+  background:var(--panel2);
+  color:var(--ink);
+  border:1px solid var(--line);
+  border-radius:6px;
+  padding:6px 12px;
+  cursor:pointer;
+  font-size:12px;
+  transition:border-color 0.2s, box-shadow 0.2s;
+}
+.header-controls button:hover {
+  border-color:#60a5fa;
+  box-shadow:0 0 8px var(--glow);
+}
+.app {
+  display:grid;
+  grid-template-columns:260px 1fr 320px;
+  height:calc(100vh - 60px);
+}
+.app.hide-left { grid-template-columns:1fr 320px; }
+.app.hide-left .canvas-wrap { grid-column:1; }
+.app.hide-left .inspector { grid-column:2; }
+.app.hide-right { grid-template-columns:260px 1fr; }
+.app.hide-right aside { grid-column:1; }
+.app.hide-right .canvas-wrap { grid-column:2; }
+.app.hide-both { grid-template-columns:1fr; }
+.app.hide-both .canvas-wrap { grid-column:1; }
+aside, .inspector {
+  background:rgba(15,20,35,0.96);
+  border-right:1px solid var(--line);
+  padding:16px;
+  backdrop-filter:blur(8px);
+  overflow-y:auto;
+  opacity:1;
+  min-width:0;
+  transition:opacity 0.3s ease, padding 0.3s ease;
+}
+.app.hide-left aside,
+.app.hide-both aside,
+.app.hide-right .inspector,
+.app.hide-both .inspector { display:none; }
+aside {
+  grid-column: 1;
+}
+.inspector {
+  grid-column: 3;
+  border-right:0; 
+  border-left:1px solid var(--line); 
+}
+.canvas-wrap {
+  grid-column: 2;
+  position:relative;
+  overflow:hidden;
+}
+#graph {
+  width:100%;
+  height:100%;
+  display:block;
+  cursor:grab;
+}
+#graph:active { cursor:grabbing; }
+.small { color:var(--muted); font-size:12px; line-height:1.45; }
+.stat {
+  background:var(--panel2);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:10px;
+  margin:8px 0;
+}
+.stat b { display:block; font-size:15px; }
+label.lens {
+  display:block;
+  margin:6px 0;
+  padding:8px;
+  border:1px solid var(--line);
+  border-radius:8px;
+  cursor:pointer;
+  background:#0f172a;
+  transition:border-color 0.2s;
+}
+label.lens:hover { border-color:#60a5fa; }
+input[type="search"], select {
+  width:100%;
+  border:1px solid var(--line);
+  border-radius:8px;
+  background:#0f172a;
+  color:var(--ink);
+  padding:9px;
+  margin:8px 0 12px;
+}
+button.view {
+  border:1px solid var(--line);
+  background:#17213a;
+  color:var(--ink);
+  border-radius:8px;
+  padding:6px 10px;
+  margin:3px 2px;
+  cursor:pointer;
+  font-size:11px;
+  transition:border-color 0.2s, background 0.2s;
+}
+button.view:hover { border-color:#60a5fa; }
+button.view.active { border-color:#60a5fa; background:#1e3a5f; color:#fff; }
+.node rect {
+  stroke-width:1.4;
+  transition:filter 0.15s, stroke-width 0.15s;
+}
+.node:hover rect {
+  filter:drop-shadow(0 0 10px var(--glow));
+  stroke-width:2.2;
+}
+.node text {
+  fill:var(--ink);
+  font-size:12px;
+  pointer-events:none;
+}
+.node .type {
+  fill:var(--muted);
+  font-size:10px;
+  text-transform:uppercase;
+  letter-spacing:0.6px;
+}
+.edge {
+  fill:none;
+  stroke-width:2;
+  transition:opacity 0.2s;
+}
+.edge-label {
+  fill:var(--muted);
+  font-size:10px;
+  paint-order:stroke;
+  stroke:#0a0e1a;
+  stroke-width:3px;
+  pointer-events:none;
+  transition:opacity 0.2s;
+}
+.layer-label {
+  fill:#cbd5e1;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:0.5px;
+  text-anchor:middle;
+}
+.pill {
+  display:inline-block;
+  padding:3px 7px;
+  border-radius:999px;
+  font-size:11px;
+  margin:2px 4px 2px 0;
+  background:#1f2a44;
+  color:var(--muted);
+}
+.supported { color:var(--supported); } .candidate { color:var(--candidate); } .conditional { color:var(--conditional); } .fails { color:var(--fails); } .blocked { color:var(--blocked); } .open { color:var(--open); }
+.artifact { color:#93c5fd; overflow-wrap:anywhere; font-size:12px; }
+.legend-row { display:flex; align-items:center; gap:7px; margin:4px 0; color:var(--muted); font-size:11px; }
+.dot { width:8px; height:8px; border-radius:50%; display:inline-block; }
+.refs-box {
+  background:var(--panel2);
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:10px;
+  margin:10px 0;
+  font-size:11px;
+  color:var(--muted);
+  line-height:1.4;
+}
+.zoom-controls {
+  position:absolute;
+  bottom:16px;
+  right:16px;
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  z-index:20;
+}
+.zoom-controls button {
+  background:rgba(15,20,35,0.9);
+  color:var(--ink);
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:8px;
+  cursor:pointer;
+  font-size:16px;
+  line-height:1;
+  transition:border-color 0.2s, background 0.2s;
+  backdrop-filter:blur(4px);
+}
+.zoom-controls button:hover {
+  border-color:var(--candidate);
+  background:var(--panel);
+}
+#tooltip {
+  position:fixed;
+  background:rgba(10,14,26,0.95);
+  color:var(--ink);
+  padding:8px 12px;
+  border-radius:var(--radius);
+  font-size:12px;
+  pointer-events:none;
+  z-index:200;
+  max-width:280px;
+  border:1px solid var(--line);
+  display:none;
+  line-height:1.4;
+  box-shadow:var(--shadow-md);
+  backdrop-filter:blur(8px);
+  transition:opacity 0.15s;
+}
+.highlight { background:rgba(96,165,250,0.15); border-radius:4px; }
+@media (max-width:1100px) {
+  .app { grid-template-columns:1fr; }
+  aside,.inspector { max-height:none; border:0; }
+  #graph { height:72vh; }
+}
+/* Adapted layout: retain the published dark spatial map, add device and keyboard access. */
+html,body{height:100%;height:100dvh}body{display:flex;flex-direction:column}header{flex:none;gap:14px;min-width:0}header>div{min-width:0}h1{font-size:19px}.subtitle{line-height:1.4}.header-controls{flex-wrap:wrap;justify-content:flex-end;flex:none}.header-controls button,button.view,.zoom-controls button{min-height:40px}.app{flex:1;min-height:0;height:auto;position:relative;grid-template-columns:260px minmax(0,1fr) 320px}.app.hide-left{grid-template-columns:minmax(0,1fr) 320px}.app.hide-right{grid-template-columns:260px minmax(0,1fr)}.app.hide-both{grid-template-columns:minmax(0,1fr)}.canvas-wrap{min-width:0;min-height:0}aside,.inspector{min-height:0}#graph{height:100%;touch-action:none;outline:none}#graph:focus-visible{box-shadow:inset 0 0 0 3px #60a5fa}button:focus-visible,input:focus-visible,select:focus-visible,[role=button]:focus-visible{outline:3px solid #fbbf24;outline-offset:3px}.node:focus-visible rect{stroke-width:3.5;stroke:#fff}.node text{font-size:12px}.node .type{font-size:9px}.node .gate-label{font-weight:800;fill:#fbbf24}.edge-hit:focus-visible{stroke:#fff!important;stroke-width:5!important;stroke-opacity:.7}.inspector p{margin:12px 0;line-height:1.6;font-size:14px}.inspector h2{font-size:19px;line-height:1.4;overflow-wrap:anywhere}.inspector h3,aside h3{font-size:13px;margin:16px 0 8px}.small{overflow-wrap:anywhere}.artifact{display:block;margin:8px 0;color:#93c5fd;text-decoration:underline;text-underline-offset:3px}.stat b{font-size:14px;line-height:1.5;overflow-wrap:anywhere}.stat span{display:block}.legend-row{line-height:1.5}.meta-note{margin:14px 0;line-height:1.5;font-size:11px;color:var(--muted)}.context-card{margin:10px 0;padding:9px;border:1px solid var(--line);border-radius:8px;background:#0f172a;line-height:1.6;font-size:12px}.context-card b{color:#e8edf5}.context-card strong{color:#4ade80}.context-card .unknown{color:#fbbf24}.context-card .exact{font-family:ui-monospace,monospace;font-size:10px;overflow-wrap:anywhere}.map-hint{position:absolute;top:12px;left:14px;right:14px;pointer-events:none;color:var(--muted);font-size:11px;line-height:1.4;background:rgba(10,14,26,.78);padding:7px 10px;border-radius:6px;z-index:3;max-width:610px}.map-hint strong{color:#cbd5e1}.canvas-note{position:absolute;left:14px;bottom:12px;color:var(--muted);font-size:10px;line-height:1.4;max-width:calc(100% - 78px);padding:6px 9px;border-radius:6px;background:rgba(10,14,26,.82);pointer-events:none}.zoom-controls{bottom:20px}.zoom-controls button{min-width:44px;min-height:44px}.refs-box{margin-top:10px}.refs-box b{color:#cbd5e1}.note-status{border-left:3px solid #fbbf24;padding-left:9px;margin:12px 0;color:#cbd5e1;font-size:12px;line-height:1.5}.node-options{font-size:12px}.node-options select{margin-top:5px}.inspector ul{padding-left:18px}.inspector li{margin:8px 0;line-height:1.5}.inspector .pill{font-size:11px}.inspector button.linklike{color:#93c5fd;background:transparent;border:0;cursor:pointer;text-decoration:underline;text-align:left;font:inherit;line-height:1.6}.inspector .metrics{margin-top:8px;line-height:1.6}.inspector .metrics>div{border-bottom:1px solid #26324b;padding:7px 0}.inspector .metrics b{color:#cbd5e1}.integrity{color:#4ade80}.error-banner{position:absolute;inset:15px;z-index:500;padding:20px;border:2px solid #fb7185;background:#111527;border-radius:10px;color:#fff}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}#tooltip{max-width:min(300px,calc(100vw - 20px));overflow-wrap:anywhere}button[aria-pressed=true]{border-color:#60a5fa;background:#1e3a5f}.close-panel{display:none}.empty-text{fill:#cbd5e1;font-size:17px;text-anchor:middle}.mini-btns{display:flex;flex-wrap:wrap;gap:5px}.mini-btns button{background:#17213a;border:1px solid var(--line);color:#e8edf5;border-radius:7px;padding:7px 10px;min-height:40px;cursor:pointer}.mobile-backdrop{display:none}select,input{min-height:42px}input[type=checkbox]{accent-color:#60a5fa;margin-right:5px;width:16px;height:16px;vertical-align:middle}label.lens{min-height:40px;font-size:12px}.status-key{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}.detail-legend{font-size:11px;color:#8892b0}#contextMetrics{margin-top:5px}#scopeText{font-size:12px;line-height:1.6}#nodePicker{margin-bottom:6px}#resetView{white-space:nowrap}.source-hash{font-family:ui-monospace,monospace;font-size:10px;overflow-wrap:anywhere;color:#8892b0}.inspector details{margin-top:16px}.inspector details summary{cursor:pointer;min-height:40px;font-size:12px;font-weight:600}.inspector details p{font-size:12px}
+@media(min-width:861px) and (max-width:1150px){.app{grid-template-columns:230px minmax(0,1fr) 285px}.app.hide-left{grid-template-columns:minmax(0,1fr) 285px}.app.hide-right{grid-template-columns:230px minmax(0,1fr)}.app.hide-both{grid-template-columns:minmax(0,1fr)}aside,.inspector{padding:13px}header{padding:12px 16px}h1{font-size:17px}.subtitle{font-size:11px}.header-controls{max-width:350px}}
+@media(max-width:860px){header{padding:12px;display:block}h1{font-size:17px}.subtitle{font-size:11px;margin:4px 0 10px}.header-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;max-width:none}.header-controls button{padding:7px 5px;min-height:42px;font-size:11px}.app,.app.hide-left,.app.hide-right,.app.hide-both{display:grid;grid-template-columns:minmax(0,1fr);height:auto}.canvas-wrap,.app.hide-left .canvas-wrap,.app.hide-right .canvas-wrap,.app.hide-both .canvas-wrap{grid-column:1;grid-row:1}aside,.inspector,.app.hide-left aside,.app.hide-right .inspector{display:block;position:absolute;inset:0 auto 0 0;width:min(350px,calc(100% - 20px));max-height:none;z-index:110;border-right:1px solid #475675;background:#111827;box-shadow:8px 0 35px #0009;padding:16px;grid-column:1;grid-row:1}.inspector,.app.hide-left .inspector{inset:0 0 0 auto;border-left:1px solid #475675;box-shadow:-8px 0 35px #0009;grid-column:1;grid-row:1}.app.hide-left aside,.app.hide-both aside,.app.hide-right .inspector,.app.hide-both .inspector{display:none}#graph{height:100%;min-height:280px}.close-panel{display:block;background:#17213a;border:1px solid var(--line);border-radius:7px;color:#e8edf5;min-height:42px;padding:8px 12px;margin:0 0 12px auto}.map-hint{font-size:10px;top:8px;left:8px;right:8px;max-width:none;padding:7px;line-height:1.5}.canvas-note{font-size:9px;left:8px;bottom:8px;max-width:calc(100% - 65px)}.zoom-controls{bottom:15px;right:10px;gap:5px}.mobile-backdrop:not([hidden]){display:block;position:absolute;inset:0;background:#0006;z-index:100;border:0}.node text{font-size:12px}#tooltip{display:none!important}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style></head><body>
+<header><div><h1>CRISPR observability · Scientific supergraph</h1><div class="subtitle">Premises → mechanisms → conditional constraints → evidence → revision tests → scope</div></div><div class="header-controls"><button id="toggleLeft" aria-controls="leftPanel" aria-expanded="true">Filters</button><button id="toggleRight" aria-controls="rightPanel" aria-expanded="true">Inspector</button><button id="focusGraph">Focus graph</button><button id="exportSVG">Export SVG</button><button id="exportJSON">Export view</button><button id="resetView">Reset</button></div></header>
+<main class="app" id="appLayout"><button class="mobile-backdrop" id="backdrop" aria-label="Close panel" hidden></button>
+<aside id="leftPanel" aria-label="Graph filters"><button class="close-panel" id="closeLeft">Back to graph</button><div class="stat"><b id="validationStat"></b><span class="small">Verified numerical source identities</span><span id="integrityStat" class="small integrity">Checking embedded data…</span></div><div class="stat"><b id="visibleStat"></b><span class="small">Visible nodes / typed links</span></div><label class="small" for="preparation">Preparation for contextual readouts</label><select id="preparation"></select><label class="small" for="domain">Declared event</label><select id="domain"></select><p class="small" id="domainDefinition"></p><p class="meta-note">Preparation and event select preserved witness metrics; the dependency map is shared.</p><label class="sr-only" for="search">Search scientific map</label><input id="search" type="search" placeholder="Search claims, mechanisms, sources…"><h3>Lenses</h3><div id="lenses"></div><h3>Quick views</h3><div id="viewBtns"><button class="view active" data-view="all">All core routes</button><button class="view" data-view="supported">Recorded evidence</button><button class="view" data-view="conditional">Conditional support</button><button class="view" data-view="open">Revision tests</button><button class="view" data-view="blocked">Scope boundaries</button></div><div id="refsBox" class="refs-box"></div><h3>Source detail</h3><label class="lens"><input type="checkbox" id="showSources">Show 22 source-file nodes</label><p class="detail-legend">Source links remain available in the inspector when their nodes are hidden.</p><h3>Accessible node selection</h3><div class="node-options"><label for="nodePicker" class="small">Choose a visible node</label><select id="nodePicker"></select></div><h3>Legend</h3><div id="legend"></div><p class="meta-note">AND gates require every listed premise. A map filter changes navigation, not archived evidence or scientific truth.</p><details><summary class="small">Reference and license</summary><p class="meta-note">Adapted from the published full-canvas KwanTube map accompanying <em>Beyond Redfield</em>, release v3.5.1.1. Derived interface: GPL-3.0-only. Source data retain separate attribution and terms.</p></details></aside>
+<section class="canvas-wrap" aria-label="Spatial scientific map"><div class="map-hint"><strong>Explore the graph:</strong> drag to pan · wheel or pinch to zoom · select a node or a link · 0 to fit</div><div class="zoom-controls"><button id="zoomIn" aria-label="Zoom in">+</button><button id="zoomOut" aria-label="Zoom out">−</button><button id="zoomFit" aria-label="Fit graph">Fit</button></div><svg id="graph" role="group" aria-label="Interactive scientific graph: arrow keys pan, plus and minus zoom, zero fits" tabindex="0"></svg><div class="canvas-note">Conditional finite-record bounds · no molecular accuracy calibration<br><span id="canvasStatus"></span></div></section>
+<section class="inspector" id="rightPanel" aria-label="Scientific inspector"><button class="close-panel" id="closeRight">Back to graph</button><h2 id="iTitle">Select a node or a link</h2><div id="iMeta" class="small">Inspect its scientific role, sources and limits.</div><p id="iSummary"></p><div id="iDetails" class="small"></div><div id="iConjunction"></div><h3>Artifacts</h3><div id="iArtifacts" class="small">None selected.</div><h3>Metrics and definitions</h3><div id="iMetrics" class="small metrics">None selected.</div><h3>Contextual witnessed readouts</h3><p class="small">The selected preparation and event change these preserved numbers; they do not change the graph's historical evidence.</p><div id="contextMetrics"></div><details><summary>Interpretation contract</summary><p id="scopeText"></p><p class="source-hash" id="dataHash"></p></details></section>
+</main><div id="tooltip"></div><div id="live" class="sr-only" aria-live="polite"></div>
+<script type="application/json" id="supergraph-data">__SUPERGRAPH_DATA__</script>
+<script>
+/* SPDX-License-Identifier: GPL-3.0-only. Adapted spatial interface, KwanTube v3.5.1.1. */
+(()=>{'use strict';
+const raw=document.getElementById('supergraph-data').textContent;
+const GRAPH=JSON.parse(raw),EXPECTED='__EMBEDDED_SHA256__',INPUT_SHA='__INPUT_SHA256__';
+const NS='http://www.w3.org/2000/svg',COLORS={supported:'#4ade80',candidate:'#38bdf8',conditional:'#fbbf24',fails:'#fb7185',blocked:'#94a3b8',open:'#c084fc',constraint:'#f59e0b',neutral:'#64748b'};
+const $=id=>document.getElementById(id),fmt=n=>Number(n).toLocaleString('en-US'),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const svg=$('graph'),app=$('appLayout'),canvas=document.querySelector('.canvas-wrap');
+const nodes=new Map(GRAPH.nodes.map(n=>[n.id,n])),edges=new Map(GRAPH.edges.map(e=>[e.id,e]));
+let activeLenses=new Set(GRAPH.lenses.map(l=>l.id)),quickView='all',search='',showSources=false,selected=null;
+let preparation=GRAPH.preparations[0].id,domain=GRAPH.target_domains[0].id;
+const mobile=()=>matchMedia('(max-width:860px)').matches;
+let leftHidden=mobile(),rightHidden=mobile(),transform={x:0,y:0,k:1},layout={width:1320,height:900},lastVisible={nodes:[],edges:[]},ready=false,needsFit=true;
+let tipTimer,searchTimer,resizeTimer;const pointers=new Map();let gesture=null,moved=false;
+const sourceURL=path=>'https://github.com/FacundoFirmenich/crispr-observability/blob/'+encodeURIComponent("Ulalito's-Island")+'/'+path.split('/').map(encodeURIComponent).join('/');
+function s(tag,attrs={},text){const n=document.createElementNS(NS,tag);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);if(text!==undefined)n.textContent=text;return n;}
+function say(t){$('live').textContent=t;}
+function color(status){return COLORS[status]||COLORS.neutral;}
+function label(v){return String(v).replace(/_/g,' ');}
+function download(name,text,type){const b=new Blob([text],{type}),u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);}
+function validate(){if(nodes.size!==GRAPH.nodes.length||edges.size!==GRAPH.edges.length)throw Error('Duplicate graph identifiers');for(const e of GRAPH.edges)if(!nodes.has(e.source)||!nodes.has(e.target))throw Error('Unresolved graph link');for(const h of GRAPH.hyperedges)if(!nodes.has(h.conclusion)||!h.premises.every(id=>nodes.has(id)))throw Error('Unresolved conjunction');for(const r of GRAPH.context_metrics.witness_observations)if(![r.N,r.E,r.NE,r.U].every(Number.isInteger)||r.E+r.NE+r.U!==r.N)throw Error('Invalid frozen record partition');}
+function state(){return{lenses:[...activeLenses],view:quickView,search,details:showSources,preparation,domain,selected:selected?{...selected}:null,leftHidden,rightHidden,transform:{...transform}};}
+function storeView(){const v=state();try{history.replaceState(null,'','#view='+encodeURIComponent(JSON.stringify(v)));}catch{}}
+function loadView(){try{const h=new URLSearchParams(location.hash.slice(1));if(!h.has('view'))return;const v=JSON.parse(h.get('view'));if(Array.isArray(v.lenses))activeLenses=new Set(v.lenses.filter(x=>GRAPH.lenses.some(l=>l.id===x)));if(['all','supported','conditional','open','blocked'].includes(v.view))quickView=v.view;if(typeof v.search==='string')search=v.search.slice(0,200);showSources=v.details===true;if(GRAPH.preparations.some(p=>p.id===v.preparation))preparation=v.preparation;if(GRAPH.target_domains.some(d=>d.id===v.domain))domain=v.domain;if(v.selected&&((v.selected.kind==='node'&&nodes.has(v.selected.id))||(v.selected.kind==='edge'&&edges.has(v.selected.id))))selected=v.selected;if(typeof v.leftHidden==='boolean')leftHidden=v.leftHidden;if(typeof v.rightHidden==='boolean')rightHidden=v.rightHidden;if(v.transform&&['x','y','k'].every(k=>Number.isFinite(v.transform[k]))&&v.transform.k>=.15&&v.transform.k<=4){transform={...v.transform};needsFit=false;}}catch{}}
+function layoutState(){app.classList.toggle('hide-left',leftHidden&&!rightHidden);app.classList.toggle('hide-right',rightHidden&&!leftHidden);app.classList.toggle('hide-both',leftHidden&&rightHidden);$('toggleLeft').setAttribute('aria-expanded',String(!leftHidden));$('toggleRight').setAttribute('aria-expanded',String(!rightHidden));$('backdrop').hidden=!mobile()||(leftHidden&&rightHidden);$('focusGraph').textContent=leftHidden&&rightHidden?'Show panels':'Focus graph';}
+function updateLayout(fit=false){layoutState();if(fit)needsFit=true;requestAnimationFrame(()=>{render();storeView();});}
+function visibleNode(n){if(n.optional_detail&&!showSources)return false;const lensOk=!n.lenses?.length||n.lenses.some(l=>activeLenses.has(l));const viewOk=quickView==='all'||n.status===quickView||(quickView==='conditional'&&n.type==='conjunction');const hay=[n.label,n.type,n.status,n.status_original,n.summary,n.details,...(n.artifacts||[])].join(' ').toLowerCase();return lensOk&&viewOk&&(!search||hay.includes(search));}
+function visibleEdge(e,ids){return(!e.lenses?.length||e.lenses.some(l=>activeLenses.has(l)))&&ids.has(e.source)&&ids.has(e.target);}
+function applyTransform(){const v=$('viewport');if(v)v.setAttribute('transform',`translate(${transform.x},${transform.y}) scale(${transform.k})`);}
+function fitGraph(persist=true){const w=svg.clientWidth||700,h=svg.clientHeight||650,k=Math.min(1.15,Math.max(.15,Math.min((w-30)/layout.width,(h-110)/layout.height)));transform={x:(w-layout.width*k)/2,y:65+(h-85-layout.height*k)/2,k};applyTransform();if(persist)storeView();}
+function zoom(factor,cx=svg.clientWidth/2,cy=svg.clientHeight/2){const k=Math.min(4,Math.max(.15,transform.k*factor)),ratio=k/transform.k;transform={x:cx-(cx-transform.x)*ratio,y:cy-(cy-transform.y)*ratio,k};applyTransform();storeView();}
+function connectedIds(){if(!selected)return null;const out=new Set();if(selected.kind==='edge'){const e=edges.get(selected.id);out.add(e.source);out.add(e.target);}else{out.add(selected.id);for(const e of GRAPH.edges){if(e.source===selected.id)out.add(e.target);if(e.target===selected.id)out.add(e.source);}}return out;}
+function showTooltip(evt,item){if(mobile())return;clearTimeout(tipTimer);tipTimer=setTimeout(()=>{const t=$('tooltip');t.innerHTML='<b>'+esc(item.label)+'</b><br>'+esc(item.summary||item.relation||'');t.style.display='block';const b=t.getBoundingClientRect();t.style.left=Math.max(8,Math.min(innerWidth-b.width-8,evt.clientX+14))+'px';t.style.top=Math.max(8,Math.min(innerHeight-b.height-8,evt.clientY+12))+'px';},100);}
+function hideTooltip(){clearTimeout(tipTimer);$('tooltip').style.display='none';}
+function select(item,kind,open=true){selected={id:item.id,kind};if(open&&mobile()){rightHidden=false;leftHidden=true;layoutState();}inspect();render();storeView();say(item.label);}
+function inspect(){const item=selected?(selected.kind==='node'?nodes.get(selected.id):edges.get(selected.id)):null;if(!item){$('iTitle').textContent='Select a node or a link';$('iMeta').textContent='Inspect its scientific role, sources and limits.';$('iSummary').textContent='';$('iDetails').textContent='';$('iConjunction').replaceChildren();$('iArtifacts').textContent='None selected.';$('iMetrics').textContent='None selected.';return;}
+$('iTitle').textContent=item.label;$('iMeta').innerHTML='<span class="pill">'+esc(selected.kind==='edge'?label(item.relation):label(item.type))+'</span><span class="pill '+esc(item.status)+'">'+esc(label(item.status))+'</span>'+(item.status_original?'<span class="pill">'+esc(label(item.status_original))+'</span>':'');$('iSummary').textContent=item.summary||'';$('iDetails').textContent=item.details||item.scope||'';
+const c=$('iConjunction');c.replaceChildren();if(selected.kind==='edge'){const p=document.createElement('p');p.className='small';p.textContent=nodes.get(item.source).label+' → '+nodes.get(item.target).label;c.append(p);}if(item.required_premises){const p=document.createElement('p');p.className='note-status';p.textContent='AND support requires every listed premise. These dependencies are declared, not an automatic proof of molecular truth.';c.append(p);const ul=document.createElement('ul');for(const id of item.required_premises){const li=document.createElement('li'),b=document.createElement('button');b.className='linklike';b.textContent=nodes.get(id).label;b.addEventListener('click',()=>select(nodes.get(id),'node'));li.append(b);ul.append(li);}c.append(ul);}if(item.falsification){const p=document.createElement('p');p.className='note-status';p.textContent='Revision condition: '+item.falsification;c.append(p);}
+const a=$('iArtifacts');a.replaceChildren();for(const path of item.artifacts||[]){const link=document.createElement('a');link.className='artifact';link.href=sourceURL(path);link.target='_blank';link.rel='noopener';link.textContent=path;a.append(link);}if(!a.childNodes.length)a.textContent='None.';
+const mm=$('iMetrics');mm.replaceChildren();for(const[k,v]of Object.entries(item.metrics||{})){const div=document.createElement('div'),b=document.createElement('b');b.textContent=label(k)+': ';div.append(b,document.createTextNode(typeof v==='object'?JSON.stringify(v):String(v)));mm.append(div);}if(!mm.childNodes.length)mm.textContent='None.';if(item.source_identity){const p=document.createElement('p');p.className='source-hash';p.textContent='Source SHA-256: '+item.source_identity.sha256;mm.append(p);}}
+function renderContext(){const target=GRAPH.target_domains.find(x=>x.id===domain);$('domainDefinition').textContent=target.definition;const box=$('contextMetrics');box.replaceChildren();const rows=GRAPH.context_metrics.witness_observations.filter(r=>r.preparation===preparation&&r.event===domain);for(const r of rows){const c=document.createElement('div');c.className='context-card';c.innerHTML='<b>'+esc(r.condition)+' · '+esc(r.run)+'</b><br><strong>['+Number(r.L_pp).toFixed(5)+', '+Number(r.H_pp).toFixed(5)+']%</strong><br>N '+fmt(r.N)+' · E '+fmt(r.E)+' · NE '+fmt(r.NE)+' · <span class="unknown">U '+fmt(r.U)+'</span><div class="exact">Exact: '+esc(r.L_exact)+' ; '+esc(r.H_exact)+'</div>';box.append(c);}const p=document.createElement('p');p.className='note-status';p.textContent='Common-string witness; original raw denominators. These are conditional identification hulls under correct accepted labels, not confidence intervals.';box.append(p);$('canvasStatus').textContent=preparation+' · '+target.label;}
+function wrapText(str,max=25){const words=str.split(/\s+/),lines=[''];for(const w of words){const i=lines.length-1;if((lines[i]+' '+w).trim().length>max&&lines[i])lines.push(w);else lines[i]=(lines[i]+' '+w).trim();}if(lines.length>2)return[lines[0],lines[1].slice(0,max-1)+'…'];return lines;}
+function render(){const vis=GRAPH.nodes.filter(visibleNode),ids=new Set(vis.map(n=>n.id)),es=GRAPH.edges.filter(e=>visibleEdge(e,ids));lastVisible={nodes:vis.map(n=>n.id),edges:es.map(e=>e.id)};const grouped=GRAPH.layers.map(l=>vis.filter(n=>n.layer===l));const step=78,nodeW=184,nodeH=66,column=223;layout={width:GRAPH.layers.length*column+20,height:Math.max(440,Math.max(1,...grouped.map(a=>a.length))*step+80)};const positions={};grouped.forEach((arr,i)=>{const y0=(layout.height-arr.length*step)/2+step/2;arr.forEach((n,j)=>positions[n.id]={x:120+i*column,y:y0+j*step});});
+svg.setAttribute('viewBox',`0 0 ${svg.clientWidth||800} ${svg.clientHeight||650}`);svg.replaceChildren();const defs=s('defs');for(const[st,col]of Object.entries(COLORS)){const m=s('marker',{id:'arrow-'+st,markerWidth:8,markerHeight:8,refX:8,refY:4,orient:'auto',markerUnits:'userSpaceOnUse'});m.append(s('path',{d:'M0 1L7 4L0 7Z',fill:col}));defs.append(m);}svg.append(defs);const vp=s('g',{id:'viewport'});vp.append(s('rect',{x:-4000,y:-4000,width:10000,height:10000,fill:'transparent',class:'canvas-bg'}));GRAPH.layers.forEach((l,i)=>vp.append(s('text',{x:120+i*column,y:20,class:'layer-label'},l)));
+const conn=connectedIds();for(const e of es){const a=positions[e.source],b=positions[e.target],forward=b.x>=a.x,ax=a.x+(forward?nodeW/2:-nodeW/2),bx=b.x+(forward?-nodeW/2:nodeW/2),mx=(ax+bx)/2;let d;if(a.x===b.x)d=`M${a.x+92},${a.y} C${a.x+150},${a.y} ${b.x+150},${b.y} ${b.x+92},${b.y}`;else d=`M${ax},${a.y}C${mx},${a.y} ${mx},${b.y} ${bx},${b.y}`;const linked=!conn||(conn.has(e.source)&&conn.has(e.target)),opacity=linked?.7:.07;const path=s('path',{d,class:'edge',stroke:color(e.status),'marker-end':'url(#arrow-'+e.status+')',opacity});path.style.pointerEvents='none';if(e.relation.includes('revision')||e.status==='blocked'||e.status==='open')path.setAttribute('stroke-dasharray','6 5');vp.append(path);const hit=s('path',{d,class:'edge-hit','data-edge-id':e.id,role:'button',tabindex:0,'aria-label':e.label+': '+nodes.get(e.source).label+' to '+nodes.get(e.target).label,fill:'none',stroke:'transparent','stroke-width':14});hit.style.cursor='pointer';hit.addEventListener('click',ev=>{ev.stopPropagation();if(!moved)select(e,'edge');});hit.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();select(e,'edge');}});hit.addEventListener('pointerenter',ev=>showTooltip(ev,e));hit.addEventListener('pointerleave',hideTooltip);vp.append(hit);if(selected?.kind==='edge'&&selected.id===e.id){const t=s('text',{x:mx,y:(a.y+b.y)/2-6,class:'edge-label'},e.label);vp.append(t);}}
+for(const n of vis){const p=positions[n.id],g=s('g',{class:'node','data-node-id':n.id,role:'button',tabindex:0,'aria-label':n.label+', '+label(n.type)+', '+label(n.status),'aria-pressed':String(selected?.kind==='node'&&selected.id===n.id)});g.style.cursor='pointer';g.style.opacity=!conn||conn.has(n.id)?'1':'.18';const sel=selected?.kind==='node'&&selected.id===n.id;g.append(s('rect',{x:p.x-nodeW/2,y:p.y-nodeH/2,width:nodeW,height:nodeH,rx:n.type==='conjunction'?22:10,fill:sel?'#1e3050':'#11182c',stroke:color(n.status),'stroke-width':sel?2.7:1.4}));const lines=wrapText(n.label);lines.forEach((t,i)=>g.append(s('text',{x:p.x-nodeW/2+10,y:p.y-12+i*15,class:n.type==='conjunction'?'gate-label':''},t)));g.append(s('text',{x:p.x-nodeW/2+10,y:p.y+23,class:'type'},label(n.type)+' / '+label(n.status)));g.append(s('title',{},n.label));g.addEventListener('click',ev=>{ev.stopPropagation();if(!moved)select(n,'node');});g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();select(n,'node');}});g.addEventListener('pointerenter',ev=>showTooltip(ev,n));g.addEventListener('pointerleave',hideTooltip);vp.append(g);}if(!vis.length)vp.append(s('text',{x:layout.width/2,y:layout.height/2,class:'empty-text'},'No nodes match these filters. Reset or broaden the selection.'));svg.append(vp);$('visibleStat').textContent=vis.length+' / '+es.length;const picker=$('nodePicker'),old=picker.value;picker.replaceChildren();const placeholder=document.createElement('option');placeholder.value='';placeholder.textContent='Select a visible node…';picker.append(placeholder);for(const n of vis){const o=document.createElement('option');o.value=n.id;o.textContent=n.label;picker.append(o);}picker.value=selected?.kind==='node'&&ids.has(selected.id)?selected.id:old;if(needsFit){fitGraph(false);needsFit=false;}else applyTransform();$('refsBox').textContent=GRAPH.paper_refs[quickView]||GRAPH.paper_refs.all;}
+function syncControls(){$('search').value=search;$('showSources').checked=showSources;$('preparation').value=preparation;$('domain').value=domain;for(const cb of $('lenses').querySelectorAll('input'))cb.checked=activeLenses.has(cb.value);for(const b of $('viewBtns').querySelectorAll('button')){const active=b.dataset.view===quickView;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));}}
+function exportSVG(){const copy=svg.cloneNode(true);copy.setAttribute('xmlns',NS);const v=copy.querySelector('#viewport');v.removeAttribute('transform');copy.setAttribute('viewBox',`0 0 ${layout.width} ${layout.height}`);copy.setAttribute('width',layout.width);copy.setAttribute('height',layout.height);const style=s('style',{},'.node text{fill:#e8edf5;font:12px system-ui}.node .type{fill:#8892b0;font-size:9px}.node .gate-label{fill:#fbbf24;font-weight:800}.layer-label{fill:#cbd5e1;font:700 13px system-ui;text-anchor:middle}.edge{fill:none;stroke-width:2}.edge-label{fill:#cbd5e1;font:11px system-ui}.edge-hit{display:none}');copy.prepend(style);const bg=s('rect',{width:layout.width,height:layout.height,fill:'#0a0e1a'});copy.insertBefore(bg,copy.firstChild.nextSibling);download('crispr-observability-supergraph.svg',new XMLSerializer().serializeToString(copy),'image/svg+xml;charset=utf-8');}
+function reset(){activeLenses=new Set(GRAPH.lenses.map(l=>l.id));quickView='all';search='';showSources=false;selected=null;preparation=GRAPH.preparations[0].id;domain=GRAPH.target_domains[0].id;leftHidden=mobile();rightHidden=mobile();needsFit=true;syncControls();layoutState();inspect();renderContext();render();try{history.replaceState(null,'',location.pathname+location.search);}catch{}say('Default graph restored. Archived data unchanged.');}
+function pointerDistance(){const a=[...pointers.values()];return Math.hypot(a[0].x-a[1].x,a[0].y-a[1].y);}
+svg.addEventListener('pointerdown',e=>{if(e.button!==0&&e.pointerType==='mouse')return;hideTooltip();pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});moved=false;if(pointers.size===1){const target=e.target.closest?.('[data-node-id],[data-edge-id]');gesture={x:e.clientX,y:e.clientY,tx:transform.x,ty:transform.y,tap:target?{kind:target.hasAttribute('data-node-id')?'node':'edge',id:target.getAttribute('data-node-id')||target.getAttribute('data-edge-id')}:null,pointerType:e.pointerType};}else if(pointers.size===2)gesture={distance:pointerDistance(),k:transform.k,x:transform.x,y:transform.y};if(e.target===svg||e.target.classList.contains('canvas-bg')||e.pointerType!=='mouse')svg.setPointerCapture(e.pointerId);});
+svg.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size===1&&gesture?.tx!==undefined){const dx=e.clientX-gesture.x,dy=e.clientY-gesture.y;if(Math.hypot(dx,dy)>5)moved=true;if(moved){transform.x=gesture.tx+dx;transform.y=gesture.ty+dy;applyTransform();}}else if(pointers.size===2&&gesture?.distance){moved=true;const k=Math.max(.15,Math.min(4,gesture.k*pointerDistance()/gesture.distance)),r=k/gesture.k,a=[...pointers.values()],rect=svg.getBoundingClientRect(),cx=(a[0].x+a[1].x)/2-rect.left,cy=(a[0].y+a[1].y)/2-rect.top;transform={x:cx-(cx-gesture.x)*r,y:cy-(cy-gesture.y)*r,k};applyTransform();}});
+function pointerEnd(e){const tapped=!moved&&gesture?.pointerType!=='mouse'?gesture?.tap:null;pointers.delete(e.pointerId);if(!pointers.size){gesture=null;if(tapped)select(tapped.kind==='node'?nodes.get(tapped.id):edges.get(tapped.id),tapped.kind);if(moved)storeView();setTimeout(()=>moved=false,0);}else{const a=[...pointers.values()][0];gesture={x:a.x,y:a.y,tx:transform.x,ty:transform.y};}}
+svg.addEventListener('pointerup',pointerEnd);svg.addEventListener('pointercancel',pointerEnd);svg.addEventListener('wheel',e=>{e.preventDefault();const r=svg.getBoundingClientRect();zoom(e.deltaY>0?.9:1.1,e.clientX-r.left,e.clientY-r.top);},{passive:false});svg.addEventListener('keydown',e=>{if(e.target!==svg)return;const p={ArrowLeft:[35,0],ArrowRight:[-35,0],ArrowUp:[0,35],ArrowDown:[0,-35]};if(p[e.key]){e.preventDefault();transform.x+=p[e.key][0];transform.y+=p[e.key][1];applyTransform();storeView();}else if(['+','='].includes(e.key)){e.preventDefault();zoom(1.2);}else if(e.key==='-'){e.preventDefault();zoom(1/1.2);}else if(e.key==='0'){e.preventDefault();fitGraph();}});
+async function integrity(){if(globalThis.crypto?.subtle){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(raw)),sha=[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('');if(sha!==EXPECTED)throw Error('Embedded graph fingerprint mismatch');$('integrityStat').textContent='Embedded graph fingerprint verified';}else $('integrityStat').textContent='Embedded fingerprint available; verify with Python offline.';ready=true;}
+try{validate();loadView();for(const l of GRAPH.lenses){const lab=document.createElement('label');lab.className='lens';const cb=document.createElement('input');cb.type='checkbox';cb.value=l.id;cb.checked=activeLenses.has(l.id);cb.addEventListener('change',()=>{cb.checked?activeLenses.add(l.id):activeLenses.delete(l.id);needsFit=true;render();storeView();});lab.append(cb,document.createTextNode(l.label));$('lenses').append(lab);}for(const p of GRAPH.preparations){const o=document.createElement('option');o.value=p.id;o.textContent=p.id;$('preparation').append(o);}for(const d of GRAPH.target_domains){const o=document.createElement('option');o.value=d.id;o.textContent=d.label;$('domain').append(o);}for(const[st,desc]of [['supported','Recorded or source-verified'],['conditional','Conditional support / AND gate'],['constraint','Declared premise'],['open','Future revision test'],['blocked','Scope boundary']]){const row=document.createElement('div');row.className='legend-row';row.innerHTML='<span class="dot" style="background:'+COLORS[st]+'"></span>'+desc;$('legend').append(row);}$('validationStat').textContent=GRAPH.summary.validation;$('scopeText').textContent=GRAPH.map_semantics+' '+GRAPH.source_scope.interpretation;$('dataHash').textContent='Embedded graph SHA-256: '+EXPECTED+' · Input model file SHA-256: '+INPUT_SHA;syncControls();layoutState();inspect();renderContext();render();integrity().catch(fatal);
+for(const b of $('viewBtns').querySelectorAll('button'))b.addEventListener('click',()=>{quickView=b.dataset.view;syncControls();needsFit=true;render();storeView();});$('search').addEventListener('input',e=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>{search=e.target.value.toLowerCase();needsFit=true;render();storeView();},120);});$('showSources').addEventListener('change',e=>{showSources=e.target.checked;needsFit=true;render();storeView();});$('nodePicker').addEventListener('change',e=>{if(nodes.has(e.target.value))select(nodes.get(e.target.value),'node');});for(const id of ['preparation','domain'])$(id).addEventListener('change',()=>{preparation=$('preparation').value;domain=$('domain').value;renderContext();storeView();});$('toggleLeft').addEventListener('click',()=>{leftHidden=!leftHidden;if(mobile()&&!leftHidden)rightHidden=true;updateLayout();});$('toggleRight').addEventListener('click',()=>{rightHidden=!rightHidden;if(mobile()&&!rightHidden)leftHidden=true;updateLayout();});$('focusGraph').addEventListener('click',()=>{const both=leftHidden&&rightHidden;leftHidden=both?false:true;rightHidden=both?(mobile()?true:false):true;updateLayout(true);});for(const id of ['closeLeft','closeRight','backdrop'])$(id).addEventListener('click',()=>{leftHidden=true;rightHidden=true;updateLayout();});$('zoomIn').addEventListener('click',()=>zoom(1.2));$('zoomOut').addEventListener('click',()=>zoom(1/1.2));$('zoomFit').addEventListener('click',()=>fitGraph());$('exportSVG').addEventListener('click',exportSVG);$('exportJSON').addEventListener('click',()=>download('crispr-observability-supergraph-view.json',JSON.stringify({embeddedGraphSHA256:EXPECTED,inputModelSHA256:INPUT_SHA,state:state(),selected:selected?{...selected,item:selected.kind==='node'?nodes.get(selected.id):edges.get(selected.id)}:null,visible:lastVisible,context:GRAPH.context_metrics.witness_observations.filter(r=>r.preparation===preparation&&r.event===domain)},null,2),'application/json;charset=utf-8'));$('resetView').addEventListener('click',reset);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&mobile()){leftHidden=true;rightHidden=true;updateLayout();$('graph').focus();}});new ResizeObserver(()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>render(),50);}).observe(canvas);window.addEventListener('hashchange',()=>{loadView();syncControls();layoutState();inspect();renderContext();render();});window.CRISP_SUPERGRAPH={get ready(){return ready;},getState:state,getVisible:()=>({...lastVisible}),getSelected:()=>selected?{...selected,item:selected.kind==='node'?nodes.get(selected.id):edges.get(selected.id)}:null,graphCounts:{nodes:GRAPH.nodes.length,edges:GRAPH.edges.length,hyperedges:GRAPH.hyperedges.length},dataSHA256:EXPECTED,fit:fitGraph,selectNode:id=>select(nodes.get(id),'node'),selectEdge:id=>select(edges.get(id),'edge')};
+}catch(e){fatal(e);}function fatal(e){console.error(e);ready=false;const n=document.createElement('div');n.className='error-banner';n.setAttribute('role','alert');n.textContent='This graph could not be verified: '+String(e.message||e);canvas.append(n);$('integrityStat').textContent='Verification failed';}
+})();
+</script></body></html>

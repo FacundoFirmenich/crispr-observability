@@ -1,5 +1,5 @@
 {
-  "version": "0.3.3",
+  "version": "0.3.4",
   "edition": "MP03D",
   "status": "PUBLIC_COMPUTATIONAL_COMPANION_PRIVATE_MANUSCRIPTS",
   "public_release": true,
@@ -10,11 +10,11 @@
   "human_final_approval": null,
   "author_current_programme_attribution": "Facundo Firmenich",
   "ORCID": "0009-0002-6578-3811",
-  "license": "MIT limited to exact original-code allowlist; manuscript/data terms remain separate",
+  "license": "MIT for enumerated original code; GPL-3.0-only for enumerated KwanTube-derived supergraph component; scientific data/manuscript terms separate",
   "data_rights_status": "PUBLIC_SRA_SNAPSHOT_REDISTRIBUTION_DOCUMENTED; source attribution and terms retained; no MIT data relicensing",
   "native_scope": "Two scopes: exact derived-table arithmetic and raw-observer reconstruction with frozen alignment projections",
   "raw_pipeline_included": false,
-  "remote_CI_run": false,
+  "remote_CI_run": true,
   "raw_observer_replay_included": true,
   "fresh_alignment_included": false,
   "canonical_review_command": "python3 code/run_review_checks.py",
@@ -54,5 +54,27 @@
   "publication_note": "The author reserves formal manuscript deposition to a chosen preprint server. Withdrawal cannot reverse prior public dissemination or guarantee removal of external caches.",
   "interactive_companion_included": true,
   "interactive_companion": "interactive/epistemic_graph.html",
-  "interactive_browser_QA_status": "PENDING_EXECUTION"
+  "interactive_browser_QA_status": "PASS_AT_2bcb4715968621729c9901f1a0917041a85ed95e",
+  "verified_remote_CI": {
+    "commit": "2bcb4715968621729c9901f1a0917041a85ed95e",
+    "explorer_browser_run": 40781008213,
+    "computational_companion_run": 40781008005,
+    "conclusion": "success",
+    "scope": "Completed prior-version checks, including the unchanged white explorer; not a claim that the new supergraph has passed before its own CI execution."
+  },
+  "interactive_companions": [
+    {
+      "path": "interactive/epistemic_graph.html",
+      "name": "White evidence and readout explorer",
+      "preserved_sha256": "29fc7fce6805bb50b4a6b2c8340d745d07552bad4b8fa7d5b359a7d35bad6445",
+      "browser_QA": "PASS_AT_2bcb4715968621729c9901f1a0917041a85ed95e"
+    },
+    {
+      "path": "interactive/supergraph/crispr_supergraph.html",
+      "name": "KwanTube-derived dark spatial supergraph",
+      "browser_QA": "PENDING_OWN_CI_EXECUTION",
+      "code_license": "GPL-3.0-only"
+    }
+  ],
+  "new_supergraph_preserves_existing_explorer_and_data": true
 }

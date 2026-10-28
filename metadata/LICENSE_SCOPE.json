@@ -1,5 +1,5 @@
 {
-  "status": "SCOPED_MIT_ORIGINAL_CODE",
+  "status": "MIXED_SCOPED_CODE_LICENSES",
   "copyright_and_authorship_final_human_approval": "Author instructed preparation of the GitHub repository on 2026-10-28; code license is limited to the original-code allowlist.",
   "license_file": "code/LICENSE",
   "repository_wide_license": false,
@@ -64,7 +64,20 @@
   "no_third_party_relicensing": true,
   "scientific_manuscript_license": null,
   "derived_data_license": null,
-  "notice": "MIT grant applies to the explicitly enumerated original programme code and build configuration only. It does not assign MIT terms to scientific text, input observations, derived data, third-party code, external runtimes or referenced actions. Original interactive CSS/JavaScript/template and builder code are enumerated separately. The generated HTML is a mixed artifact: code retains the scoped MIT grant while embedded scientific data retain source terms. No KwanTube code is copied or relicensed.",
-  "license": "MIT",
-  "copyright_notice": "Copyright (c) 2026 Facundo Firmenich"
+  "notice": "MIT applies only to exact_original_code_allowlist. The existing white explorer was independently implemented, with no KwanTube source copied, and is unchanged. The separate dark spatial supergraph adapts the actual KwanTube interface distributed under GNU GPLv3; its code is enumerated in exact_gpl_code_allowlist and retains GPL-3.0-only terms. Both generated HTML files mix code with scientific data: the code retains its stated license, while embedded numerical data, scientific claims, observations and source publications retain their separate terms. No scientific data or manuscript is relicensed.",
+  "license": "MIT and GPL-3.0-only, separately scoped; no repository-wide license",
+  "copyright_notice": "Copyright (c) 2026 Facundo Firmenich",
+  "exact_gpl_code_allowlist": [
+    ".github/workflows/supergraph-checks.yml",
+    "code/check_supergraph_browser.cjs",
+    "interactive/supergraph/code/build_reference_graph_model.py",
+    "interactive/supergraph/code/build_supergraph.py",
+    "interactive/supergraph/code/check_supergraph.py",
+    "interactive/supergraph/code/verify_reference_graph_model.py",
+    "interactive/supergraph/crispr_supergraph.template.html"
+  ],
+  "gpl_license_file": "interactive/supergraph/LICENSE",
+  "gpl_upstream": "FacundoFirmenich/KwanTube; published Beyond Redfield companion, Zenodo record 20102651, KwanTube-v.3.5.1.1.zip",
+  "gpl_derived_component": "interactive/supergraph/",
+  "gpl_generated_artifact": "interactive/supergraph/crispr_supergraph.html (GPL-3.0-only interface code; embedded scientific data retain source terms)"
 }

@@ -1,0 +1,13 @@
+{
+  "html": "crispr_supergraph.html",
+  "html_sha256": "19ae4eac0eb949faeea90027be2151a0257613766ea3370b2390d6f9dd75c31c",
+  "input_json_sha256": "9543bfe6e4788703e49bca03752f3e8ac35b2629cec9faa2096515e812f2c976",
+  "embedded_json_sha256": "75b9141869eb27c601803ccf3ecfa02f543780ada6948b4e4f87592dc97cc121",
+  "nodes": 57,
+  "edges": 59,
+  "AND_gates": 8,
+  "reference_architecture": "Published KwanTube v3.5.1.1 immersive spatial SVG map; adapted, not an identical scientific dataset.",
+  "license": "GPL-3.0-only for derived interface/build code; data terms remain separate.",
+  "dependencies": "None: data, CSS and JavaScript embedded; no CDN.",
+  "scope": "Declared evidence navigation; no new biological experiment or molecular accuracy certification."
+}

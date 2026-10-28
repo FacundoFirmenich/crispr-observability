@@ -23,8 +23,11 @@ def public_files():
 def main():
     scope = json.loads((ROOT / 'metadata/LICENSE_SCOPE.json').read_text())
     code = set(scope['exact_original_code_allowlist'])
+    gpl_code = set(scope.get('exact_gpl_code_allowlist', []))
     paths = dict(public_files())
     assert code <= set(paths), sorted(code - set(paths))
+    assert gpl_code <= set(paths), sorted(gpl_code - set(paths))
+    assert not (code & gpl_code), sorted(code & gpl_code)
     notice = ROOT / 'THIRD_PARTY_NOTICES.csv'
     fields = ['asset', 'bundled', 'asset_kind', 'attribution', 'rights_holder_status',
               'source_or_provenance', 'applicable_terms', 'license_assigned_by_candidate',
@@ -34,18 +37,50 @@ def main():
         writer.writeheader()
         for name in sorted(paths):
             original = name in code
+            gpl = name in gpl_code
+            gpl_html = name == 'interactive/supergraph/crispr_supergraph.html'
+            gpl_license = name == 'interactive/supergraph/LICENSE'
+            mit_html = name == 'interactive/epistemic_graph.html'
+            if gpl:
+                kind = 'GPL_COMPONENT_CODE'
+                rights = 'SCOPED_GPL_COMPONENT'
+                terms = 'GPL-3.0-only; complete license and modification notice in interactive/supergraph/'
+                assigned = 'GPL-3.0-only'
+            elif gpl_html:
+                kind = 'MIXED_HTML_GPL_CODE_AND_SCIENTIFIC_DATA'
+                rights = 'CODE_GPL_DATA_TERMS_RETAINED'
+                terms = 'Interface code GPL-3.0-only; embedded scientific data and claims retain separate source terms'
+                assigned = 'GPL-3.0-only_CODE_ONLY'
+            elif gpl_license:
+                kind = 'LICENSE_DOCUMENT'
+                rights = 'FREE_SOFTWARE_FOUNDATION_LICENSE_TEXT'
+                terms = 'Verbatim GNU GPL version 3 license text; copyright Free Software Foundation'
+                assigned = 'NONE'
+            elif original:
+                kind, rights = 'ORIGINAL_CODE', 'SCOPED_ORIGINAL_CODE'
+                terms, assigned = 'MIT scoped by metadata/LICENSE_SCOPE.json', 'MIT_SCOPED'
+            elif mit_html:
+                kind, rights = 'MIXED_HTML_MIT_CODE_AND_SCIENTIFIC_DATA', 'CODE_MIT_DATA_TERMS_RETAINED'
+                terms, assigned = 'Original interface code MIT; embedded scientific data retain separate source terms', 'MIT_CODE_ONLY'
+            else:
+                kind, rights = 'SCIENTIFIC_DATA_FIGURE_OR_METADATA', 'SOURCE_AND_DATA_TERMS_RETAINED'
+                terms = 'Outside software code grants; source attribution and applicable data/text/figure terms retained'
+                assigned = 'NONE'
+            spatial = name.startswith('interactive/supergraph/') or gpl
+            provenance = ('New separate spatial interface adapts the actual published KwanTube Beyond Redfield companion; exact upstream identity and modifications in interactive/supergraph/' if spatial else
+                          'Current computational companion; the existing white interactive interface was independently implemented and remains unchanged')
             writer.writerow({'asset': name, 'bundled': 'yes',
-                'asset_kind': 'ORIGINAL_CODE' if original else 'SCIENTIFIC_DATA_FIGURE_OR_METADATA',
+                'asset_kind': kind,
                 'attribution': 'Facundo Firmenich programme; original CFTR experiments Sousa et al.; upstream sources retain attribution',
-                'rights_holder_status': 'SCOPED_ORIGINAL_CODE' if original else 'SOURCE_AND_DATA_TERMS_RETAINED',
-                'source_or_provenance': 'Current computational companion with source identities retained; independently implemented interactive interface, no KwanTube source code copied',
-                'applicable_terms': 'MIT scoped by metadata/LICENSE_SCOPE.json' if original else 'Outside software MIT grant; source attribution and applicable data/text/figure terms retained',
-                'license_assigned_by_candidate': 'MIT_SCOPED' if original else 'NONE',
+                'rights_holder_status': rights,
+                'source_or_provenance': provenance,
+                'applicable_terms': terms,
+                'license_assigned_by_candidate': assigned,
                 'third_party_relicensing': 'no'})
     files = {name: {'bytes': path.stat().st_size,
                     'sha256': hashlib.sha256(path.read_bytes()).hexdigest()}
              for name, path in public_files() if name != INVENTORY}
-    data = {'edition': 'MP03D', 'version': '0.3.3',
+    data = {'edition': 'MP03D', 'version': '0.3.4',
             'scope': 'Exact current public computational companion source. Complete manuscript and formal supplement remain private. Inventory excludes itself and runtime results/screenshots/dependencies.',
             'files': files}
     (ROOT / INVENTORY).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')

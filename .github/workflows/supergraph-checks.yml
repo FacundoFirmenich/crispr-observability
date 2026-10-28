@@ -1,0 +1,40 @@
+name: Spatial supergraph browser checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  supergraph-browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+      - name: Prepare isolated test runtime
+        shell: bash
+        run: |
+          node --version
+          node -e 'if (+process.versions.node.split(".")[0] < 20) process.exit(1)'
+          google-chrome --version
+          npm install --prefix "$RUNNER_TEMP/supergraph-runtime" --ignore-scripts --no-audit --no-fund --save-exact playwright-core@1.64.1
+      - name: Test rendered spatial map
+        shell: bash
+        env:
+          PLAYWRIGHT_MODULE_PATH: ${{ runner.temp }}/supergraph-runtime/node_modules/playwright-core
+          SUPERGRAPH_QA_OUTPUT: ${{ runner.temp }}/supergraph-qa
+          SUPERGRAPH_FILE: supergraph/crispr_supergraph.html
+        run: node code/check_supergraph_browser.cjs
+      - name: Retain temporary visual QA evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: supergraph-browser-qa
+          path: ${{ runner.temp }}/supergraph-qa/
+          retention-days: 1
+          if-no-files-found: warn

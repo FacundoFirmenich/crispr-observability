@@ -19,3 +19,11 @@ añaden datos biológicos. La reconstrucción y sus límites están documentados
 Los agradecimientos vigentes están en `ACKNOWLEDGMENTS.md`. Las afiliaciones y
 los registros ORCID mantienen sus categorías originales en
 `metadata/AUTHOR_PROFILE_VERIFIED.json`.
+
+La segunda herramienta, `interactive/supergraph/crispr_supergraph.html`, conserva
+la interfaz espacial oscura del compañero publicado de *Beyond Redfield*: filtros
+laterales, mapa navegable e inspector de evidencias. Es una adaptación separada
+bajo GPLv3. El explorador blanco anterior permanece idéntico y disponible.
+El código, la procedencia exacta y las instrucciones de reconstrucción del nuevo
+mapa están en `interactive/supergraph/README.md`; los datos científicos conservan
+sus condiciones de origen.

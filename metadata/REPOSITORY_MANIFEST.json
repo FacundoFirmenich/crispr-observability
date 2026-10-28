@@ -1,6 +1,6 @@
 {
   "edition": "MP03D",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "scope": "Exact current public computational companion source. Complete manuscript and formal supplement remain private. Inventory excludes itself and runtime results/screenshots/dependencies.",
   "files": {
     ".dockerignore": {
@@ -19,6 +19,10 @@
       "bytes": 1279,
       "sha256": "06c7aef9b2176e48fea12ab9a8944c10eeedbb2fddda5fc1b496f03ec3ca837f"
     },
+    ".github/workflows/supergraph-checks.yml": {
+      "bytes": 1369,
+      "sha256": "239f3aaf3747583c2ae1859fdf734ffb45a4a16cc9a23e09b30211c91627eae6"
+    },
     ".gitignore": {
       "bytes": 196,
       "sha256": "874973acf28fd60e39aa0a0d8fa3a8c9ca9b82f26c5c3607a778d345b553238d"
@@ -29,27 +33,27 @@
     },
     "CITATION.cff": {
       "bytes": 1970,
-      "sha256": "42f35cf563cf2a75d7c1960e22a6661632f1b34903b318e5b7fe4996bc3b981f"
+      "sha256": "ae6eaaacd997dec7c2afcd64e4414dfaa4d7a94a7447770874a21b1cc5189001"
     },
     "Dockerfile": {
       "bytes": 744,
       "sha256": "088655d09a42021b2f981bbabdff62dd9b1ff2dc4cdb4df30968c312a269b6db"
     },
     "LEEME_ES.md": {
-      "bytes": 1117,
-      "sha256": "b044b9adfd66a6e14755a0c40cf49894640656319347e7c4d777ae127feb96d2"
+      "bytes": 1634,
+      "sha256": "d4a5a48dcbfddf1a0bc04c97b90ef690db92173df0e5fb529e5fd4f8adfb34e4"
     },
     "LICENSE_SCOPE.md": {
       "bytes": 432,
       "sha256": "22654cb32ce44b02832980aa9d741aa5c967cf3f551bd2d90451eab175f6bdf8"
     },
     "README.md": {
-      "bytes": 3505,
-      "sha256": "2cffefdc91f35b18d49330e5a1a43009cd65e1899e74c9a1a1e9795471cd227f"
+      "bytes": 4343,
+      "sha256": "23fa99cb2170652d31ab4ed7f166b5c4264c81cfaac82e66db4aa5235109606c"
     },
     "THIRD_PARTY_NOTICES.csv": {
-      "bytes": 114951,
-      "sha256": "02de93c4f154ba85366237e63f25571453fbd0e0b505e97a1c76186e022d2c64"
+      "bytes": 117271,
+      "sha256": "77ad07d60f8fc28bf1b3c7115abfbac5349f14e6b5c76aa809aa57c237108643"
     },
     "code/LICENSE": {
       "bytes": 1074,
@@ -67,9 +71,13 @@
       "bytes": 16873,
       "sha256": "0d3037853a11df57644f8ef929fa508b11a6e578c592395370261f1f03c2a301"
     },
+    "code/check_supergraph_browser.cjs": {
+      "bytes": 19757,
+      "sha256": "a356ac05c4555318344a6fba71909be3edaf4c968f401c84f79251df0f28b137"
+    },
     "code/refresh_public_inventory.py": {
-      "bytes": 2980,
-      "sha256": "0c019e1ef8de24aa3eaab0cd5ffb8ac49c0ae25bb6424074e9907aa7182a40a9"
+      "bytes": 4990,
+      "sha256": "6ce35e0e7f4c613e616ce915c41c1f15c34fa08994faea9cb8fbe248d3e680ce"
     },
     "code/run_checks.py": {
       "bytes": 2528,
@@ -679,6 +687,58 @@
       "bytes": 28445,
       "sha256": "d632ecbec1243b79bcedd115b4a336035e0267c055f528c03ecfb18c8aa06c4b"
     },
+    "interactive/supergraph/BUILD_RECEIPT.json": {
+      "bytes": 760,
+      "sha256": "3713677063b1e5238f34f0839b771e24e104b9f0833be8748376b7ba24456538"
+    },
+    "interactive/supergraph/DATA_MODEL.md": {
+      "bytes": 2453,
+      "sha256": "94fd0945be0aa8a7fdb533e70a2b43fc459d24dd64e48c9aab4af07d8c9e521e"
+    },
+    "interactive/supergraph/LICENSE": {
+      "bytes": 35359,
+      "sha256": "3a533678b818eec99c335465d969de54ff90330ae76af8c2cfacb65b2c240557"
+    },
+    "interactive/supergraph/MODEL_CONVERSION_CHECK.json": {
+      "bytes": 684,
+      "sha256": "a0e43a6fdb6fce50333256858f6fdc9a45b4a2a3eb9c1b67aefb26ec9a80e38a"
+    },
+    "interactive/supergraph/README.md": {
+      "bytes": 2719,
+      "sha256": "94c9fb492b2bbc038456021dc08609b0af36ec7ece8e49948488e448ace07e94"
+    },
+    "interactive/supergraph/SOURCE_NOTICE.md": {
+      "bytes": 2215,
+      "sha256": "466ffea1b586a5d4331849e775b0a699ef24dc63f4682447f57ed9c3e6667a5a"
+    },
+    "interactive/supergraph/code/build_reference_graph_model.py": {
+      "bytes": 14835,
+      "sha256": "13494832f758b49a1b37d0e501c0773d07f738e0d2229bd4af6cf2125b893aab"
+    },
+    "interactive/supergraph/code/build_supergraph.py": {
+      "bytes": 2157,
+      "sha256": "f853b2e8e856508314bb9e06b92753ec40cf562a4e71c9695d77ec8f511db115"
+    },
+    "interactive/supergraph/code/check_supergraph.py": {
+      "bytes": 1915,
+      "sha256": "64507dcfeb773a08c43bcf6449f17e2879527ebe92e8f3c297d718e960ed51cd"
+    },
+    "interactive/supergraph/code/verify_reference_graph_model.py": {
+      "bytes": 4028,
+      "sha256": "d22de5e65c89a1d042c8cbdfec776f427b9aebc9871c88d0240de6242ed19b82"
+    },
+    "interactive/supergraph/crispr_supergraph.html": {
+      "bytes": 140001,
+      "sha256": "19ae4eac0eb949faeea90027be2151a0257613766ea3370b2390d6f9dd75c31c"
+    },
+    "interactive/supergraph/crispr_supergraph.template.html": {
+      "bytes": 43093,
+      "sha256": "47e0fd08fbbb24344bb85cef1dc165ab3fbfffb8b9a5a7c28683e8760c867a5a"
+    },
+    "interactive/supergraph/supergraph_model.json": {
+      "bytes": 126680,
+      "sha256": "9543bfe6e4788703e49bca03752f3e8ac35b2629cec9faa2096515e812f2c976"
+    },
     "metadata/AUTHOR_IDENTITY.json": {
       "bytes": 879,
       "sha256": "963460b983a0b0cfd3e4e1ee40ee9090102ca30bda7c2a7a3924a03dd0e5358a"
@@ -704,8 +764,8 @@
       "sha256": "69516761dd0c822ad61b476387f80c8e1c8e5133b111043cece563f19c01e548"
     },
     "metadata/LICENSE_SCOPE.json": {
-      "bytes": 3021,
-      "sha256": "183ccaf2fed32cb6885acf55ece300f64a334bf959cb905333c20e5797b04a17"
+      "bytes": 4015,
+      "sha256": "e50374a8ca3d1b585a527ed1163276a2b9d087e4cee32252c80184f6d3d3792b"
     },
     "metadata/MP02_REPOSITORY_MANIFEST.json": {
       "bytes": 11735,
@@ -744,8 +804,8 @@
       "sha256": "d82805536e74749a6cf9e6b863ee1feb8e3604fe3e25a8278fca8527da4c0962"
     },
     "metadata/RELEASE_STATE.json": {
-      "bytes": 3102,
-      "sha256": "8c7c3ccbbf247ba90dd678f8f9ba7cd53a418fec3385e455b2e41f0d5a4d6f19"
+      "bytes": 4158,
+      "sha256": "01c5962da078a1f44ca88407b44a5b1a2df1c128177dade393c3a79fa1e1ea15"
     },
     "metadata/RUNTIME_SOURCES.json": {
       "bytes": 3209,
