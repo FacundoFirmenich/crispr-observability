@@ -1,0 +1,99 @@
+[
+  {
+    "id": "mutant/baseline/SRR29623265",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "mutant/baseline/SRR29623266",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "mutant/baseline/SRR29623267",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "mutant/baseline/SRR29623268",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "mutant/baseline/SRR29623270",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "mutant/baseline/SRR29623271",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "mutant/baseline/SRR29623272",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "mutant/baseline/SRR29623273",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "mutant/baseline/SRR29623274",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "programmed/baseline/SRR29623265",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "programmed/baseline/SRR29623266",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "programmed/baseline/SRR29623267",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "programmed/baseline/SRR29623268",
+    "state": "FAIL",
+    "errors": [
+      {
+        "file": "CRISPResso_output.fastq.gz",
+        "bytes": 2336704,
+        "error": "Compressed file ended before the end-of-stream marker was reached",
+        "sha256": "c0d3d92cae486f3057ca5e9657938d5a8bedd05df24e14914bfae6b17b67be02"
+      }
+    ]
+  },
+  {
+    "id": "programmed/baseline/SRR29623270",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "programmed/baseline/SRR29623271",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "programmed/baseline/SRR29623272",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "programmed/baseline/SRR29623273",
+    "state": "PASS",
+    "errors": []
+  },
+  {
+    "id": "programmed/baseline/SRR29623274",
+    "state": "PASS",
+    "errors": []
+  }
+]

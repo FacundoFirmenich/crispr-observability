@@ -1,0 +1,61 @@
+{
+  "checked_utc": "2026-10-28T05:30:11.128745+00:00",
+  "sources_type": "Official primary sources and public registry GET; no account, repository creation or CI interaction.",
+  "python_release": {
+    "version": "3.14.10",
+    "official_release_date": "2026-10-25",
+    "url": "https://www.python.org/downloads/release/python-31410/",
+    "web_ref": "turn45view2"
+  },
+  "docker_image": {
+    "tag": "python:3.14.10-slim-bookworm",
+    "manifest_digest": "sha256:5dca57ddc56794d9049dee9ee95a7f071b69d3b018368f2ddc61813649ca2fa0",
+    "digest_body_verified": true,
+    "official_hub_url": "https://hub.docker.com/_/python",
+    "official_image_manifest_url": "https://raw.githubusercontent.com/docker-library/official-images/master/library/python",
+    "registry_manifest_url": "https://registry-1.docker.io/v2/library/python/manifests/3.14.10-slim-bookworm",
+    "registry_date_header": "Wed, 28 Oct 2026 05:29:55 GMT",
+    "media_type": "application/vnd.oci.image.index.v1+json",
+    "retained_manifest": "PYTHON_IMAGE_INDEX.json",
+    "registry_auth_token_retained": false,
+    "image_downloaded_or_executed": false
+  },
+  "actions": [
+    {
+      "repository": "actions/checkout",
+      "release_tag": "v6.0.2",
+      "commit_SHA": "de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "official_release_url": "https://github.com/actions/checkout/releases/tag/v6.0.2",
+      "official_commit_url": "https://github.com/actions/checkout/commit/de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "action_definition_url": "https://raw.githubusercontent.com/actions/checkout/de0fac2e4500dabe0009e67214ff5f5447ce83dd/action.yml",
+      "action_definition_sha256": "11b63452f6e43ffb5ab8bfdaaafb8a915b354318e3ad9bce4eb0686b9e380f90",
+      "source_license": "MIT",
+      "source_license_url": "https://raw.githubusercontent.com/actions/checkout/de0fac2e4500dabe0009e67214ff5f5447ce83dd/LICENSE",
+      "source_license_sha256": "3e855ffa704114a51628ef8f0bf3aeb41728adf9d9070e263bf58aa5640b0eb5",
+      "source_code_bundled": false
+    },
+    {
+      "repository": "actions/setup-python",
+      "release_tag": "v7.1.0",
+      "commit_SHA": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+      "official_release_url": "https://github.com/actions/setup-python/releases/tag/v7.1.0",
+      "official_commit_url": "https://github.com/actions/setup-python/commit/6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+      "action_definition_url": "https://raw.githubusercontent.com/actions/setup-python/6d4fd22b20465ccc0f7354476588e8df7c9ca0e0/action.yml",
+      "action_definition_sha256": "0829b3f54d769f8b25cefd4d856c735bc8e097d6597835b838ebb4da497c838d",
+      "source_license": "MIT",
+      "source_license_url": "https://raw.githubusercontent.com/actions/setup-python/6d4fd22b20465ccc0f7354476588e8df7c9ca0e0/LICENSE",
+      "source_license_sha256": "7d070f6b64d9bcc530fe99cc21eaaa4b3c364e0b2d367d7735671fa202a03b32",
+      "source_code_bundled": false
+    }
+  ],
+  "pinning_guidance": [
+    {
+      "url": "https://docs.github.com/en/actions/reference/security/secure-use",
+      "web_ref": "turn48view1"
+    },
+    {
+      "url": "https://docs.docker.com/build/building/best-practices/",
+      "web_ref": "turn49view3"
+    }
+  ]
+}

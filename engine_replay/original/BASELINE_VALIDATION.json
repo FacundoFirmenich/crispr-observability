@@ -1,0 +1,312 @@
+{
+  "state": "PASS",
+  "baseline_jobs": 18,
+  "checks": [
+    {
+      "reference": "mutant",
+      "run": "SRR29623274",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623274",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623274",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623274",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623274",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623274",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623266",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623266",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623266",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623266",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623266",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623266",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623268",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623268",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623268",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623268",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623268",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623268",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623273",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623273",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623273",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623273",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623273",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623273",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623265",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623265",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623265",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623265",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623265",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623265",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623267",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623267",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623267",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623267",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623267",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623267",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623272",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623272",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623272",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623272",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623272",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623272",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623271",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623271",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "mutant",
+      "run": "SRR29623270",
+      "native_quantification_table_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "counts_exact_match": true
+    },
+    {
+      "reference": "programmed",
+      "run": "SRR29623270",
+      "native_quantification_table_exact_match": true
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-28",
+  "status": "NATIVE_COMBINED_REVIEW_PASS_CONTAINER_AND_REMOTE_CI_NOT_EXECUTED",
+  "native_python": "3.12.14",
+  "native_command": "python3 -B code/run_checks.py",
+  "native_derived_checks": "PASS",
+  "input_and_checker_identities_verified": 5,
+  "python_syntax_ast_check": "PASS",
+  "workflow_and_CFF_structural_check": "PASS",
+  "Docker_executable_available": false,
+  "Docker_build_executed": false,
+  "Docker_run_executed": false,
+  "remote_CI_executed": false,
+  "Python_3_14_10_execution_tested_here": false,
+  "container_and_CI_status": "PREPARED_NOT_EXECUTED",
+  "reports": [
+    "results/review/REVIEW_CHECK_SUMMARY.json",
+    "results/review/raw_replay/VERIFICATION.json",
+    "results/review/arithmetic/SELECTED_P1_ARITHMETIC_CHECK.json",
+    "results/CLEAN_STAGED_INTEGRATED_EXPORT.json"
+  ],
+  "human_final_approval": null,
+  "clean_staged_export_native_check": {
+    "status": "PASS",
+    "method": "Fresh export of staged Git files, with no parent-workspace input tree in the export. This is not an OS filesystem access barrier.",
+    "canonical_command": "python3 code/run_review_checks.py",
+    "python": "3.12.14",
+    "wall_seconds": 16.49248562200046,
+    "under_five_minutes_this_execution": true,
+    "raw_reads": 177006,
+    "unknown_records": 6281,
+    "three_outputs_byte_identical": [
+      {
+        "output": "M1_TARGET_COUNTS.json",
+        "byte_identical": true,
+        "sha256": "3384449b53847526471ad4b6292e8287413317743418dea1098b9dda514243d0",
+        "expected_sha256": "3384449b53847526471ad4b6292e8287413317743418dea1098b9dda514243d0"
+      },
+      {
+        "output": "RAW_UNIVERSE_IDENTITIES.json",
+        "byte_identical": true,
+        "sha256": "b4a0bac8600d601ad68379b70a4c67a84c505b5eead8bb917b8e39ef021b0d27",
+        "expected_sha256": "b4a0bac8600d601ad68379b70a4c67a84c505b5eead8bb917b8e39ef021b0d27"
+      },
+      {
+        "output": "WITNESS_BOUNDS.json",
+        "byte_identical": true,
+        "sha256": "251124c7dc4b8b179fa16ad8c7f2ebb9a64302778e3d4459e6f52330f7e8b022",
+        "expected_sha256": "251124c7dc4b8b179fa16ad8c7f2ebb9a64302778e3d4459e6f52330f7e8b022"
+      }
+    ],
+    "working_output_was_temporary_and_removed": true,
+    "fresh_alignment_engine_executed": false,
+    "Docker_or_remote_CI_executed": false,
+    "runtime_is_not_universal": true
+  },
+  "native_combined_command": "python3 -B code/run_review_checks.py",
+  "canonical_command": "python3 code/run_review_checks.py",
+  "native_combined_check": {
+    "status": "PASS",
+    "version": "0.2.0",
+    "edition": "MP02",
+    "python": "3.12.14",
+    "runtime_seconds": 18.381872798000586,
+    "under_five_minutes_on_this_execution": true,
+    "working_output_was_temporary_and_removed": true,
+    "scope_1": {
+      "status": "PASS",
+      "scope": "Supplied-table/code identities and exact derived-table arithmetic"
+    },
+    "scope_2": {
+      "status": "PASS",
+      "scope": "Observers reconstructed from authentic raw reads with frozen alignment projections",
+      "raw_reads": 177006,
+      "witnessed_records": 170725,
+      "unresolved_records": 6281,
+      "M1_target_rows": 144,
+      "aligned_by_reference": [
+        174752,
+        174760
+      ],
+      "original_comparator_outputs": [
+        {
+          "output": "M1_TARGET_COUNTS.json",
+          "byte_identical": true,
+          "sha256": "3384449b53847526471ad4b6292e8287413317743418dea1098b9dda514243d0",
+          "expected_sha256": "3384449b53847526471ad4b6292e8287413317743418dea1098b9dda514243d0"
+        },
+        {
+          "output": "RAW_UNIVERSE_IDENTITIES.json",
+          "byte_identical": true,
+          "sha256": "b4a0bac8600d601ad68379b70a4c67a84c505b5eead8bb917b8e39ef021b0d27",
+          "expected_sha256": "b4a0bac8600d601ad68379b70a4c67a84c505b5eead8bb917b8e39ef021b0d27"
+        },
+        {
+          "output": "WITNESS_BOUNDS.json",
+          "byte_identical": true,
+          "sha256": "251124c7dc4b8b179fa16ad8c7f2ebb9a64302778e3d4459e6f52330f7e8b022",
+          "expected_sha256": "251124c7dc4b8b179fa16ad8c7f2ebb9a64302778e3d4459e6f52330f7e8b022"
+        }
+      ]
+    },
+    "retained_reports": [
+      "arithmetic/MP02_CHECK_SUMMARY.json",
+      "arithmetic/SELECTED_P1_ARITHMETIC_CHECK.json",
+      "raw_replay/M1_TARGET_COUNTS.json",
+      "raw_replay/RAW_UNIVERSE_IDENTITIES.json",
+      "raw_replay/WITNESS_BOUNDS.json",
+      "raw_replay/VERIFICATION.json"
+    ],
+    "not_claimed": {
+      "fresh_external_alignment": false,
+      "full_historical_pipeline": false,
+      "independent_human_or_biological_validation": false,
+      "molecular_accuracy_calibration": false,
+      "universal_five_minute_runtime": false
+    }
+  },
+  "raw_observer_replayed": true,
+  "fresh_alignment_replayed": false,
+  "B2_source_files_unchanged": 49
+}

@@ -1,0 +1,13 @@
+{
+  "state": "PASS",
+  "command": [
+    "python3",
+    "prepare.py",
+    "--repo",
+    "REPOSITORY",
+    "--work",
+    "EXISTING_DIRECTORY"
+  ],
+  "returncode": 1,
+  "reason": "Existing work directory rejected before write"
+}

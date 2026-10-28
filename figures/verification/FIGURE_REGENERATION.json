@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "source_version": "MP02",
+  "rendering_version": "MP03",
+  "scope": "New vector rendering of frozen source values; originals preserved byte-for-byte.",
+  "source_hashes_verified": true,
+  "figure2_xlim": [
+    -12,
+    45
+  ],
+  "figure2_intervals": 21,
+  "figure3_exact_fraction_hulls": true,
+  "figure4_partition_total": 177006,
+  "matplotlib_version": "3.10.8",
+  "files": [
+    {
+      "path": "inputs/fig1_coordinate_geometry.csv",
+      "sha256": "d825c2883c712adf64ff912e681604accc349e18b86005c31cc8c576e2f591d8",
+      "size_bytes": 128
+    },
+    {
+      "path": "inputs/fig2_native_contrast_intervals.csv",
+      "sha256": "9131a3169b765a258423a48f1b9cdc700e24ccecd86544fe6d046e819a0b3176",
+      "size_bytes": 2017
+    },
+    {
+      "path": "inputs/fig3_truncation_intervals.csv",
+      "sha256": "fa3e32c5bd5930f12ac5ea88e246368db14a17d3e511cdebd3f6aefbc91a913b",
+      "size_bytes": 858
+    },
+    {
+      "path": "inputs/fig4_reference_changes.csv",
+      "sha256": "b32b24467bb60ddd73444c23fdc15ce01df9395e823ae06866fe5d97b4282026",
+      "size_bytes": 113
+    },
+    {
+      "path": "inputs/fig4_witness_partition.csv",
+      "sha256": "d87be8db4573871c14407bcc754e6459c4a7f872788adaa3bd9c59dddc51b379",
+      "size_bytes": 111
+    },
+    {
+      "path": "figures/fig1.pdf",
+      "sha256": "0dbe23b005796020cf4a29828624ee691a98c0849bb6c9edaff02b52be3a6093",
+      "size_bytes": 11053
+    },
+    {
+      "path": "figures/fig1.png",
+      "sha256": "cdc8127dcaaedf2f1ffd2a7d26de06db4df1b5939aaef4a0c995842d2c356754",
+      "size_bytes": 82614
+    },
+    {
+      "path": "figures/fig1.svg",
+      "sha256": "5fd95aaefc59d358b98127012147f940266e6fd0cbe10ed277adea0c55b76f7d",
+      "size_bytes": 6890
+    },
+    {
+      "path": "figures/fig2.pdf",
+      "sha256": "ba5f325efa2d5207e2964a09c2a4adee0fed31713249230a1d5f6e6c8d26d774",
+      "size_bytes": 14628
+    },
+    {
+      "path": "figures/fig2.png",
+      "sha256": "a9298c4aaf513af9f1316e68cd2351b5d13177f1bdfebd7541906fd2eaf583dc",
+      "size_bytes": 108596
+    },
+    {
+      "path": "figures/fig2.svg",
+      "sha256": "ad6907f18ea21ec77259d25212b819f98fe02d85d5cba44d2c4692c187752eda",
+      "size_bytes": 33755
+    },
+    {
+      "path": "figures/fig3.pdf",
+      "sha256": "ca507aaa8a95f0d301fc7d8f54b56bbe7f26cc7d332bb7a85e73bd2ce9c7e587",
+      "size_bytes": 12953
+    },
+    {
+      "path": "figures/fig3.png",
+      "sha256": "ff90f6b57427b68115b82435def868e5a1e155351f97f2ecf148f9a5a819b2e3",
+      "size_bytes": 154816
+    },
+    {
+      "path": "figures/fig3.svg",
+      "sha256": "f9ead55c139feacdaa1427a30e56eeae960e39b9e53f2a1d93845f8b7d4680e0",
+      "size_bytes": 21074
+    },
+    {
+      "path": "figures/fig4.pdf",
+      "sha256": "380d1db088f1be4e57c3f58b57697e6b78193863addf38f78ee28199f1abab67",
+      "size_bytes": 14496
+    },
+    {
+      "path": "figures/fig4.png",
+      "sha256": "00253cda3949c0784be96907b70c0a1982f1e09105d7f96faf645b829bf5ca87",
+      "size_bytes": 141845
+    },
+    {
+      "path": "figures/fig4.svg",
+      "sha256": "01b5334b5477094a60ae9174a76d7f942878c835072243f530a87a5614b514e3",
+      "size_bytes": 21953
+    }
+  ]
+}

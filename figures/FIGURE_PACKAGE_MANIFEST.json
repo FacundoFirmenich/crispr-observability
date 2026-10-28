@@ -1,0 +1,163 @@
+{
+  "edition": "MP03D",
+  "files": {
+    "README.md": {
+      "size_bytes": 3581,
+      "sha256": "8562a6f6a55a49d44eb57cd794ae95e67cc47c1347da1ee8fcf19d4542ccfa1f"
+    },
+    "SOURCE_MANIFEST.json": {
+      "size_bytes": 1243,
+      "sha256": "c486a2eeecbba80a59873ac18eb15c8f60b04e3ac5c6b78feeec3312da29422d"
+    },
+    "code/generate_figures.py": {
+      "size_bytes": 11790,
+      "sha256": "b1138424d0cd888598f50506bd6eb0d03e94d6658fe7e027c4ae836604109cb8"
+    },
+    "figures/fig1.pdf": {
+      "size_bytes": 11053,
+      "sha256": "0dbe23b005796020cf4a29828624ee691a98c0849bb6c9edaff02b52be3a6093"
+    },
+    "figures/fig1.png": {
+      "size_bytes": 82614,
+      "sha256": "cdc8127dcaaedf2f1ffd2a7d26de06db4df1b5939aaef4a0c995842d2c356754"
+    },
+    "figures/fig1.svg": {
+      "size_bytes": 6890,
+      "sha256": "5fd95aaefc59d358b98127012147f940266e6fd0cbe10ed277adea0c55b76f7d"
+    },
+    "figures/fig2.pdf": {
+      "size_bytes": 14628,
+      "sha256": "ba5f325efa2d5207e2964a09c2a4adee0fed31713249230a1d5f6e6c8d26d774"
+    },
+    "figures/fig2.png": {
+      "size_bytes": 108596,
+      "sha256": "a9298c4aaf513af9f1316e68cd2351b5d13177f1bdfebd7541906fd2eaf583dc"
+    },
+    "figures/fig2.svg": {
+      "size_bytes": 33755,
+      "sha256": "ad6907f18ea21ec77259d25212b819f98fe02d85d5cba44d2c4692c187752eda"
+    },
+    "figures/fig3.pdf": {
+      "size_bytes": 12953,
+      "sha256": "ca507aaa8a95f0d301fc7d8f54b56bbe7f26cc7d332bb7a85e73bd2ce9c7e587"
+    },
+    "figures/fig3.png": {
+      "size_bytes": 154816,
+      "sha256": "ff90f6b57427b68115b82435def868e5a1e155351f97f2ecf148f9a5a819b2e3"
+    },
+    "figures/fig3.svg": {
+      "size_bytes": 21074,
+      "sha256": "f9ead55c139feacdaa1427a30e56eeae960e39b9e53f2a1d93845f8b7d4680e0"
+    },
+    "figures/fig4.pdf": {
+      "size_bytes": 14496,
+      "sha256": "380d1db088f1be4e57c3f58b57697e6b78193863addf38f78ee28199f1abab67"
+    },
+    "figures/fig4.png": {
+      "size_bytes": 141845,
+      "sha256": "00253cda3949c0784be96907b70c0a1982f1e09105d7f96faf645b829bf5ca87"
+    },
+    "figures/fig4.svg": {
+      "size_bytes": 21953,
+      "sha256": "01b5334b5477094a60ae9174a76d7f942878c835072243f530a87a5614b514e3"
+    },
+    "inputs/fig1_coordinate_geometry.csv": {
+      "size_bytes": 128,
+      "sha256": "d825c2883c712adf64ff912e681604accc349e18b86005c31cc8c576e2f591d8"
+    },
+    "inputs/fig2_native_contrast_intervals.csv": {
+      "size_bytes": 2017,
+      "sha256": "9131a3169b765a258423a48f1b9cdc700e24ccecd86544fe6d046e819a0b3176"
+    },
+    "inputs/fig3_truncation_intervals.csv": {
+      "size_bytes": 858,
+      "sha256": "fa3e32c5bd5930f12ac5ea88e246368db14a17d3e511cdebd3f6aefbc91a913b"
+    },
+    "inputs/fig4_reference_changes.csv": {
+      "size_bytes": 113,
+      "sha256": "b32b24467bb60ddd73444c23fdc15ce01df9395e823ae06866fe5d97b4282026"
+    },
+    "inputs/fig4_witness_partition.csv": {
+      "size_bytes": 111,
+      "sha256": "d87be8db4573871c14407bcc754e6459c4a7f872788adaa3bd9c59dddc51b379"
+    },
+    "originals/Figure_1_Anchor_Geometry.png": {
+      "size_bytes": 52986,
+      "sha256": "2df481edbcd7e83d73790296d70247bf3ee79b1f128b5ead402c4a525b0d59b3"
+    },
+    "originals/Figure_2_Complete_Intervals.pdf": {
+      "size_bytes": 14683,
+      "sha256": "8fa990af9876ed1de88e969d76e1a752da09c9d715df6af057869db9da44a7e4"
+    },
+    "originals/Figure_2_Complete_Intervals.png": {
+      "size_bytes": 74433,
+      "sha256": "5be4a86893a64f87b00a3769ec24793b57996f759e07be44de5a5c45c553d26d"
+    },
+    "originals/Figure_3_Truncation_Veto.png": {
+      "size_bytes": 104281,
+      "sha256": "b37d2286e62b3297c1e8d9f593ffa71ac7ec5ab580cc294865d661c0e334efca"
+    },
+    "originals/Figure_4_Correspondence_Witness.png": {
+      "size_bytes": 91858,
+      "sha256": "76a4b998490b910e3df0bb8861d050532d0a3ceed221e373515ba5ad9e8d6f11"
+    },
+    "requirements-figures.txt": {
+      "size_bytes": 32,
+      "sha256": "c737c8dcc36687ea341498297497ce6398a67f83f3386337561a4b613d200de9"
+    },
+    "sources/Table_1_Native_Contrast_Intervals.csv": {
+      "size_bytes": 2017,
+      "sha256": "9131a3169b765a258423a48f1b9cdc700e24ccecd86544fe6d046e819a0b3176"
+    },
+    "sources/Table_S3_M1_All_Contrasts.csv": {
+      "size_bytes": 69876,
+      "sha256": "7d26b7e01156827bbf7b64e1385c6abf970e4b86bf5b5d776efdda03e26b8499"
+    },
+    "sources/Table_S4_Original_Ambiguity_Veto.csv": {
+      "size_bytes": 25952,
+      "sha256": "51c869362156b51c23afcfa5d2240b5f46918ad4b9ed9e53e219eac0a6143e80"
+    },
+    "sources/Table_S9_Reference_Changes.csv": {
+      "size_bytes": 28445,
+      "sha256": "d632ecbec1243b79bcedd115b4a336035e0267c055f528c03ecfb18c8aa06c4b"
+    },
+    "sources/WITNESS_BOUNDS.json": {
+      "size_bytes": 21489,
+      "sha256": "251124c7dc4b8b179fa16ad8c7f2ebb9a64302778e3d4459e6f52330f7e8b022"
+    },
+    "sources/anchor_geometry_contract.json": {
+      "size_bytes": 560,
+      "sha256": "90072ae058b0a0d65fb145c6ee778ea2ce37e8a0130084324c978dc70ad8c1eb"
+    },
+    "verification/FIGURE_REGENERATION.json": {
+      "size_bytes": 3167,
+      "sha256": "89235f3825d5a2a7c32439e2809889e02e221a92a8bb2f50d4f490b694794c32"
+    },
+    "verification/VECTOR_STRUCTURE_QA.json": {
+      "size_bytes": 1981,
+      "sha256": "7c1b527316c5e535572d676ae3fdb7dd52f4be9d0b8829ae9d7d083eeb5a62c1"
+    },
+    "verification/VISUAL_QA.json": {
+      "size_bytes": 1659,
+      "sha256": "5540e60d69592d4e51211e4ee9d8c920e9189771dfd0ec68cd33668107ddb7a4"
+    },
+    "verification/fig1.png": {
+      "size_bytes": 42659,
+      "sha256": "4b0b52027d2eb9e5fca90b5f307e9f12915c65499271658ef20cd0627a067d42"
+    },
+    "verification/fig2.png": {
+      "size_bytes": 57481,
+      "sha256": "ba49df8a8a1919c86855275ca2856d6653efccb9549d95e5b54337e1195830aa"
+    },
+    "verification/fig3.png": {
+      "size_bytes": 80866,
+      "sha256": "5631e1eafe1629c8f752a4ff68454c8b2329bcb3f34bf7266bb7902e774f0e39"
+    },
+    "verification/fig4.png": {
+      "size_bytes": 86570,
+      "sha256": "ae6bfeeef22788eb1394c4cfaeddf83d2c1199a6c0ae4fd8d7240b98e73cf4c3"
+    }
+  },
+  "full_manuscript_or_supplement_included": false,
+  "coordinate_contract": "sources/anchor_geometry_contract.json"
+}

@@ -1,0 +1,356 @@
+{
+  "schema": "P1_RAW_REPLAY_PACKAGE/1",
+  "private_research_package": true,
+  "source_data_unmodified": true,
+  "raw_FASTQ_files": 9,
+  "frozen_allele_ZIP_files": 18,
+  "files": [
+    {
+      "path": "DATA_NOTICE.md",
+      "size": 2078,
+      "sha256": "907487d8c330545ab7195a615d2cf363ba249289c854102163429c3c031be4cb",
+      "role": "runner_or_documentation"
+    },
+    {
+      "path": "INPUT_MANIFEST.json",
+      "size": 25816,
+      "sha256": "77e7ffbb65562dd834799c2ce5bac9b2ef70bdb41278907b2d2a6d3a45a9141d",
+      "role": "runner_or_documentation"
+    },
+    {
+      "path": "README.md",
+      "size": 3514,
+      "sha256": "87a4e56b289ae6a782797e882e6388f98eba83e5b0a4c4ae0402df76d5d73d04",
+      "role": "runner_or_documentation"
+    },
+    {
+      "path": "REPLAY.stderr",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "execution_evidence"
+    },
+    {
+      "path": "REPLAY.stdout",
+      "size": 1394,
+      "sha256": "78c47a2f0366dd312bac0c8826414234a1a53680c3de9f288a2543cd07dbeb3b",
+      "role": "execution_evidence"
+    },
+    {
+      "path": "TAMPER.stderr",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "execution_evidence"
+    },
+    {
+      "path": "TAMPER.stdout",
+      "size": 1683,
+      "sha256": "503f3b33d723630f1707b0601a12e307c3e0399982b1d42d6c9d7383aaf7aaaf",
+      "role": "execution_evidence"
+    },
+    {
+      "path": "check_tamper_detection.py",
+      "size": 4998,
+      "sha256": "e85c0c1ac36ca99130f946c9e63d1b43e10edc15558fcbe87c629dcc31d44b72",
+      "role": "runner_or_documentation"
+    },
+    {
+      "path": "expected/M1_TARGET_COUNTS.json",
+      "size": 70039,
+      "sha256": "3384449b53847526471ad4b6292e8287413317743418dea1098b9dda514243d0",
+      "role": "original_result_comparison"
+    },
+    {
+      "path": "expected/RAW_UNIVERSE_IDENTITIES.json",
+      "size": 2334,
+      "sha256": "b4a0bac8600d601ad68379b70a4c67a84c505b5eead8bb917b8e39ef021b0d27",
+      "role": "original_result_comparison"
+    },
+    {
+      "path": "expected/WITNESS_BOUNDS.json",
+      "size": 21489,
+      "sha256": "251124c7dc4b8b179fa16ad8c7f2ebb9a64302778e3d4459e6f52330f7e8b022",
+      "role": "original_result_comparison"
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623265.zip",
+      "size": 197255,
+      "sha256": "dd57b92e4af5568d295c0a75e0b68b616079d0194421222a7cc6acfd7ffc833b",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623266.zip",
+      "size": 158682,
+      "sha256": "cb22b15cb8cd958f0d0a052a0aa2b1f038e0025171bae6d8426d5000282d8622",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623267.zip",
+      "size": 257556,
+      "sha256": "addccf54f19c385a149401fe48338750e1b5f35c2575c203b11e503faeebaba7",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623268.zip",
+      "size": 304609,
+      "sha256": "9ac009d4078e291a4332040d77baffed0d8b84a31f673dc3f7b54b194f9b0fd2",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623270.zip",
+      "size": 261939,
+      "sha256": "388f0287a244ca8d8517dd6c5e59b526f1c6c25922cd6859790c1152cef9f4e6",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623271.zip",
+      "size": 297185,
+      "sha256": "5ef4a5c05f5b713f4a736794e69e1b740e90adb768912c93467360a337cf3a9e",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623272.zip",
+      "size": 202707,
+      "sha256": "3dcfa5d11cb9d35eff39d72749b257e49947f832a2e25bd62f2af77f6695f559",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623273.zip",
+      "size": 99118,
+      "sha256": "a12c262192a97e045391bbb6027749ea686d9230c498e75d062520c6817ca516",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623274.zip",
+      "size": 84897,
+      "sha256": "971778ab6d7d38423869146f42f02f5203f09b6e2e9958d3cad99df428977af1",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623265.zip",
+      "size": 208258,
+      "sha256": "36a5d0b9a7cae3f806ea0611901272ec08b40bdbc9907c623e39743a5dc66f6d",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623266.zip",
+      "size": 167185,
+      "sha256": "6c4db21ea67c3d00ec0062c51c3ee99cb560d48b3070e5f83ba00032b0d09985",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623267.zip",
+      "size": 271398,
+      "sha256": "8e2a0191bfe555903e58c4a3b05681d57de3ca8b5a24afe2331cccc1a3685be0",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623268.zip",
+      "size": 322340,
+      "sha256": "95c2fb5c5acd6eca78ab848abeb489062220268f486a980443a468c0a6a63632",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623270.zip",
+      "size": 256525,
+      "sha256": "ad1c216918c917761442e3e86e9996f8f75a0be8dafb7356b7999f06e8c71463",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623271.zip",
+      "size": 291254,
+      "sha256": "04e78ba9cf33748cce7d804051e922fc85218af89927833d6ea009d8c400b731",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623272.zip",
+      "size": 197797,
+      "sha256": "2a2f69ee85a13e076fbe9585a6a0d0bb1bb09509af58f66c69a6aa750f8e202f",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623273.zip",
+      "size": 101592,
+      "sha256": "2c751c49df0e7eee4163af57b3336889b9670386b7cbf010fdd36b69c72e5239",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623274.zip",
+      "size": 87119,
+      "sha256": "7888e32bd762478ff78a7e67a79860c23d329b7b24c83b71b268581b3d83c766",
+      "role": "frozen_alignment_table"
+    },
+    {
+      "path": "inputs/fastq/SRR29623265.fastq.gz",
+      "size": 1637078,
+      "sha256": "e08c98ebdceb3745b17ca8f92be45900385623c8499f4cbaa63af4dac15c01ae",
+      "role": "authentic_raw_FASTQ"
+    },
+    {
+      "path": "inputs/fastq/SRR29623266.fastq.gz",
+      "size": 1106358,
+      "sha256": "44acba4f80562185c7f3720f500106e4797df1bb5a7bcb182e1225cdb3a89bf7",
+      "role": "authentic_raw_FASTQ"
+    },
+    {
+      "path": "inputs/fastq/SRR29623267.fastq.gz",
+      "size": 2114900,
+      "sha256": "e26c858bf862b755bf333dd7ba9810bf9926ffc2e3d5652c19417adb83e81b16",
+      "role": "authentic_raw_FASTQ"
+    },
+    {
+      "path": "inputs/fastq/SRR29623268.fastq.gz",
+      "size": 2361721,
+      "sha256": "5bcdc1e06d0fcabe90c1e40f03725593aea9c7d4d8d2951e00bf93e4e118ec18",
+      "role": "authentic_raw_FASTQ"
+    },
+    {
+      "path": "inputs/fastq/SRR29623270.fastq.gz",
+      "size": 1220961,
+      "sha256": "25b464764843cb52616451bce61b4a2fb15ca3f41ab275308eee05349eb2ad67",
+      "role": "authentic_raw_FASTQ"
+    },
+    {
+      "path": "inputs/fastq/SRR29623271.fastq.gz",
+      "size": 1583216,
+      "sha256": "af323c3bf66ec6ced0ba12d746d3bcbb03f74ca09788cd1cb9138905687d129c",
+      "role": "authentic_raw_FASTQ"
+    },
+    {
+      "path": "inputs/fastq/SRR29623272.fastq.gz",
+      "size": 2038495,
+      "sha256": "02c9293171e656fedaab5abfeefc1d7683e7d0a25eaa05e13deca2a330420b09",
+      "role": "authentic_raw_FASTQ"
+    },
+    {
+      "path": "inputs/fastq/SRR29623273.fastq.gz",
+      "size": 1665835,
+      "sha256": "92bfda645464e561adf6a8c1f308b57530e400ecc64da1a42fcc494687d247d6",
+      "role": "authentic_raw_FASTQ"
+    },
+    {
+      "path": "inputs/fastq/SRR29623274.fastq.gz",
+      "size": 1340815,
+      "sha256": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736",
+      "role": "authentic_raw_FASTQ"
+    },
+    {
+      "path": "metadata/CRISPRESSO_DESIGN_ORIGINAL.json",
+      "size": 5109,
+      "sha256": "e51802cebb871f82b0d0f8b8bd734dcd9292d2ff0cf1f1091d4ab0bd49f6f4cc",
+      "role": "metadata_provenance"
+    },
+    {
+      "path": "metadata/REFERENCE.json",
+      "size": 799,
+      "sha256": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849",
+      "role": "metadata_provenance"
+    },
+    {
+      "path": "metadata/REFERENCE_PROGRAMMED.json",
+      "size": 954,
+      "sha256": "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad",
+      "role": "metadata_provenance"
+    },
+    {
+      "path": "metadata/RUNS.json",
+      "size": 3234,
+      "sha256": "d86a1059e7517e9fa34d0f25a458164b40d84abd6e9aad3c56ecfb93ec9868b1",
+      "role": "metadata_provenance"
+    },
+    {
+      "path": "results/TAMPER_VERIFICATION.json",
+      "size": 1683,
+      "sha256": "503f3b33d723630f1707b0601a12e307c3e0399982b1d42d6c9d7383aaf7aaaf",
+      "role": "execution_evidence"
+    },
+    {
+      "path": "results/generated/M1_TARGET_COUNTS.json",
+      "size": 70039,
+      "sha256": "3384449b53847526471ad4b6292e8287413317743418dea1098b9dda514243d0",
+      "role": "execution_evidence"
+    },
+    {
+      "path": "results/generated/RAW_UNIVERSE_IDENTITIES.json",
+      "size": 2334,
+      "sha256": "b4a0bac8600d601ad68379b70a4c67a84c505b5eead8bb917b8e39ef021b0d27",
+      "role": "execution_evidence"
+    },
+    {
+      "path": "results/generated/VERIFICATION.json",
+      "size": 844,
+      "sha256": "e32eebdb7f4354255376059bb84bf9ed49f1a8c59c347b4970ebd7e9068f31c5",
+      "role": "execution_evidence"
+    },
+    {
+      "path": "results/generated/WITNESS_BOUNDS.json",
+      "size": 21489,
+      "sha256": "251124c7dc4b8b179fa16ad8c7f2ebb9a64302778e3d4459e6f52330f7e8b022",
+      "role": "execution_evidence"
+    },
+    {
+      "path": "run_raw_replay.py",
+      "size": 16522,
+      "sha256": "6567d059cd5cd753c666ed467faca16e12a23c88361b04a2c84e1258770e9490",
+      "role": "runner_or_documentation"
+    }
+  ],
+  "file_count": 48,
+  "total_bytes": 19093147,
+  "scientific_outputs": [
+    {
+      "output": "M1_TARGET_COUNTS.json",
+      "semantic_match": true,
+      "byte_identical": true,
+      "sha256": "3384449b53847526471ad4b6292e8287413317743418dea1098b9dda514243d0",
+      "bytes": 70039
+    },
+    {
+      "output": "RAW_UNIVERSE_IDENTITIES.json",
+      "semantic_match": true,
+      "byte_identical": true,
+      "sha256": "b4a0bac8600d601ad68379b70a4c67a84c505b5eead8bb917b8e39ef021b0d27",
+      "bytes": 2334
+    },
+    {
+      "output": "WITNESS_BOUNDS.json",
+      "semantic_match": true,
+      "byte_identical": true,
+      "sha256": "251124c7dc4b8b179fa16ad8c7f2ebb9a64302778e3d4459e6f52330f7e8b022",
+      "bytes": 21489
+    }
+  ],
+  "execution": {
+    "status": "PASS",
+    "input_files_checked": 35,
+    "outputs_checked": {
+      "M1_TARGET_COUNTS.json": true,
+      "RAW_UNIVERSE_IDENTITIES.json": true,
+      "WITNESS_BOUNDS.json": true
+    },
+    "raw_reads": 177006,
+    "witnessed_records": 170725,
+    "unresolved_records": 6281,
+    "M1_target_rows": 144,
+    "witness_count_rows": 18,
+    "witness_contrast_rows": 12,
+    "aligned_by_reference": [
+      174752,
+      174760
+    ],
+    "observers_recomputed_from_raw": true,
+    "projection_from_frozen_alignments": true,
+    "external_alignment_engine_rerun": false,
+    "historical_training_rerun": false,
+    "independent_human_verification": false,
+    "new_biological_observations": false,
+    "runtime_seconds": 16.38987430099951,
+    "scope": "Retrospective raw-record observer and frozen-table correspondence reconstruction; no molecular truth or function calibration."
+  },
+  "corruption_checks": {
+    "status": "PASS",
+    "cases": 5,
+    "source_inputs_unchanged": true
+  },
+  "scope": "Observers recomputed from raw; frozen alignment projections and abundance correspondence checked. No CRISPResso realignment, historical training, independent human, new biological observations or molecular truth calibration.",
+  "integration": "Separate companion at publication_02/raw_replay. Does not modify publication_02/repository or MP01. Coordinator must integrate data/third-party notices and durable saving."
+}

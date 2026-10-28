@@ -1,0 +1,56 @@
+[
+  {
+    "run_accession": "SRR29623274",
+    "N": 13762,
+    "sequence_quality_stream_sha256": "c1caa43cbb4aa3aea3da80ebb2d30eb0ed8491b880052823d7402e58d054621a",
+    "fastq_file_sha256": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736"
+  },
+  {
+    "run_accession": "SRR29623266",
+    "N": 13617,
+    "sequence_quality_stream_sha256": "4d131cbd720c668ee4243c23babf04e70bddff1d1c6236f9ffc657927b224540",
+    "fastq_file_sha256": "44acba4f80562185c7f3720f500106e4797df1bb5a7bcb182e1225cdb3a89bf7"
+  },
+  {
+    "run_accession": "SRR29623268",
+    "N": 29956,
+    "sequence_quality_stream_sha256": "6cb79aa2fa59b9da78827e4f48e79825efbb5143da304b248d6fa1301c80a17b",
+    "fastq_file_sha256": "5bcdc1e06d0fcabe90c1e40f03725593aea9c7d4d8d2951e00bf93e4e118ec18"
+  },
+  {
+    "run_accession": "SRR29623273",
+    "N": 17177,
+    "sequence_quality_stream_sha256": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0",
+    "fastq_file_sha256": "92bfda645464e561adf6a8c1f308b57530e400ecc64da1a42fcc494687d247d6"
+  },
+  {
+    "run_accession": "SRR29623265",
+    "N": 21041,
+    "sequence_quality_stream_sha256": "a4f8f9822ae0e05dc4c1c345dd354182fc97574ea490362e857dea875802bf82",
+    "fastq_file_sha256": "e08c98ebdceb3745b17ca8f92be45900385623c8499f4cbaa63af4dac15c01ae"
+  },
+  {
+    "run_accession": "SRR29623267",
+    "N": 27024,
+    "sequence_quality_stream_sha256": "8fb1089651cfee5ea58340e5ba5dbf388948ac00b51a5ae880cdc9ff923559a0",
+    "fastq_file_sha256": "e26c858bf862b755bf333dd7ba9810bf9926ffc2e3d5652c19417adb83e81b16"
+  },
+  {
+    "run_accession": "SRR29623272",
+    "N": 20573,
+    "sequence_quality_stream_sha256": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5",
+    "fastq_file_sha256": "02c9293171e656fedaab5abfeefc1d7683e7d0a25eaa05e13deca2a330420b09"
+  },
+  {
+    "run_accession": "SRR29623271",
+    "N": 19184,
+    "sequence_quality_stream_sha256": "b8ee1df0dcf47162402fa9c4a8d48285037a1d9893c1ede889d89ac09f00f28e",
+    "fastq_file_sha256": "af323c3bf66ec6ced0ba12d746d3bcbb03f74ca09788cd1cb9138905687d129c"
+  },
+  {
+    "run_accession": "SRR29623270",
+    "N": 14672,
+    "sequence_quality_stream_sha256": "838daf32964c9016330e0686e2aed24f1cfca7af24a929295a140f0987f18aab",
+    "fastq_file_sha256": "25b464764843cb52616451bce61b4a2fb15ca3f41ab275308eee05349eb2ad67"
+  }
+]

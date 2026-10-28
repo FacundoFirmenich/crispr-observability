@@ -1,0 +1,16 @@
+{
+  "sequence": "AGGGTCCAGACTTCACTTCTAATGATGATTATGGGAGAACTGGAGCCTTCAGAGGGTAAAATTAAGCACAGTGGAAGAATTTCATTCTGTTCTCAGTTTTCCTGGATTATGCCTGGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAGCGTCATCAAAGCATGCCAACTAGAAGAGGTAAGAAACTATGTGAAAACTTTTTG",
+  "length": 227,
+  "source": "post hoc reference stress test: observed untreated flanks plus published full programmed core; computational reference, not an observed new molecule",
+  "modal_count": 279,
+  "core_start_0": 114,
+  "core_end_exclusive_0": 154,
+  "coding_end_exclusive_0": 156,
+  "left_boundary_flank_0": 113,
+  "right_boundary_flank_0": 156,
+  "mutant_core": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATG",
+  "exact_programmed_core": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACG",
+  "native_peptide": "GTIKENIIFGVSYD",
+  "source_sha256": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736",
+  "parent_reference_sha256": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849"
+}

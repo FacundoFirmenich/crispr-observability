@@ -1,0 +1,506 @@
+{
+  "state": "PREPARATION_PASS_NO_ENGINE_ATTACHED_NO_ENGINE_JOBS_RUN",
+  "raw_records": 177006,
+  "quality_pass_records": 175010,
+  "OAT_grid_jobs_prepared": 126,
+  "stock_jobs_awaiting_engine_attachment": 18,
+  "identities": [
+    {
+      "run": "SRR29623274",
+      "N_raw": 13762,
+      "sequence_quality_stream_sha256": "c1caa43cbb4aa3aea3da80ebb2d30eb0ed8491b880052823d7402e58d054621a"
+    },
+    {
+      "run": "SRR29623266",
+      "N_raw": 13617,
+      "sequence_quality_stream_sha256": "4d131cbd720c668ee4243c23babf04e70bddff1d1c6236f9ffc657927b224540"
+    },
+    {
+      "run": "SRR29623268",
+      "N_raw": 29956,
+      "sequence_quality_stream_sha256": "6cb79aa2fa59b9da78827e4f48e79825efbb5143da304b248d6fa1301c80a17b"
+    },
+    {
+      "run": "SRR29623273",
+      "N_raw": 17177,
+      "sequence_quality_stream_sha256": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0"
+    },
+    {
+      "run": "SRR29623265",
+      "N_raw": 21041,
+      "sequence_quality_stream_sha256": "a4f8f9822ae0e05dc4c1c345dd354182fc97574ea490362e857dea875802bf82"
+    },
+    {
+      "run": "SRR29623267",
+      "N_raw": 27024,
+      "sequence_quality_stream_sha256": "8fb1089651cfee5ea58340e5ba5dbf388948ac00b51a5ae880cdc9ff923559a0"
+    },
+    {
+      "run": "SRR29623272",
+      "N_raw": 20573,
+      "sequence_quality_stream_sha256": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5"
+    },
+    {
+      "run": "SRR29623271",
+      "N_raw": 19184,
+      "sequence_quality_stream_sha256": "b8ee1df0dcf47162402fa9c4a8d48285037a1d9893c1ede889d89ac09f00f28e"
+    },
+    {
+      "run": "SRR29623270",
+      "N_raw": 14672,
+      "sequence_quality_stream_sha256": "838daf32964c9016330e0686e2aed24f1cfca7af24a929295a140f0987f18aab"
+    }
+  ],
+  "copied_dependencies": [
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/DESIGN.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/DESIGN.json",
+      "sha256": "e51802cebb871f82b0d0f8b8bd734dcd9292d2ff0cf1f1091d4ab0bd49f6f4cc"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/REFERENCE.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/REFERENCE.json",
+      "sha256": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/REFERENCE_PROGRAMMED.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/REFERENCE_PROGRAMMED.json",
+      "sha256": "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/results/COUNTS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/results/COUNTS.json",
+      "sha256": "6f712d6cb43af0ce3bb9da69069409757619b5a06c094e7f6c8a0de8ecc8d57c"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/results/REFERENCE_COUNTS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/results/REFERENCE_COUNTS.json",
+      "sha256": "51b8b56e4ce022232a3cb9954313158e3c297d02168e363fd74b98138d9979b8"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/results/SRR29623274.execution.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/results/SRR29623274.execution.json",
+      "sha256": "4053fad9b7bc2583a76a4d4ef268a946ad587122c951143f7aff33273de496c4"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs/CRISPResso_on_SRR29623274/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs/CRISPResso_on_SRR29623274/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "70d13e12f463c910ba35a00f0b514cee56cd88595b44e5469f801c2fdc3f6f59"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623274/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623274/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "590d479bee32de871188abf74ac7b3bbad1ad4dc6123b0ca71e622dbf1f1bd92"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/results/SRR29623266.execution.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/results/SRR29623266.execution.json",
+      "sha256": "2679b991174e1e40e39ba72e2a249568e680a3125b35058a9b05ead7194759a7"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs/CRISPResso_on_SRR29623266/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs/CRISPResso_on_SRR29623266/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "8468dc55d0b9edbfa5e0d37dde0a6a32f23632c208255bc97ce9de9002e78dd5"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623266/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623266/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "063f87f60612397bb6dd6c4a90dd3f41a9c0618f4c88250647eca338717cf17e"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/results/SRR29623268.execution.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/results/SRR29623268.execution.json",
+      "sha256": "1abc3e2cd45cd989de7fea3d03df6428242f88f7e419d212cd772d09aac9e9a3"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs/CRISPResso_on_SRR29623268/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs/CRISPResso_on_SRR29623268/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "21f37e2d97d35821c155e0938fb10b0e5a6f9b6c1a1cfa18c6e8bcbbd2db45d9"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623268/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623268/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "bfd7de6c12ac97acd2549ae213998433f687a5ef073054b73b8fee7e22b75c1c"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/results/SRR29623273.execution.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/results/SRR29623273.execution.json",
+      "sha256": "4c14f6daf23f68275d7b3f2d23169d2e5ff4050848e2906cd1e05d84917c6941"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs/CRISPResso_on_SRR29623273/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs/CRISPResso_on_SRR29623273/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "deb4b0cb1bb73d7436cea4a594f3ef6b08ec650e6d9a5db01321b1ab0560f9f6"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623273/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623273/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "afdce760eedc5afc087fd77a1033a07f5394f302384d24f42c8121c650e3624e"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/results/SRR29623265.execution.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/results/SRR29623265.execution.json",
+      "sha256": "18214d3d8e1ae8c0961c012442f7962bdff6619871b76122b2f4b215edaab7ab"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs/CRISPResso_on_SRR29623265/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs/CRISPResso_on_SRR29623265/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "6157cbf9e7c55f84ef449fbbebec1025820c3cddff5206d75c3552b6018a3946"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623265/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623265/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "dc1d18b7c309cc78b6bef4420a3a771df547cdd9a61a823204239c30038396f3"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/results/SRR29623267.execution.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/results/SRR29623267.execution.json",
+      "sha256": "314509b00c43c564f7a352b703c7ef417471189e9b95ce2898801f1c94401851"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs/CRISPResso_on_SRR29623267/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs/CRISPResso_on_SRR29623267/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "17a45fa0057d3a215ef430ccea1f0800d57ce8e2b68ae572763ff1cfdb21efad"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623267/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623267/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "8ee822ed0c3e0e5c0befb1f9a2d72a8b670c17e364652d63ad722ccfab3edcc6"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/results/SRR29623272.execution.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/results/SRR29623272.execution.json",
+      "sha256": "e5a8f66ef95408bb2e3c6c7b38ac9f886ca95c88caeee1bc2a73a8d491f231a1"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs/CRISPResso_on_SRR29623272/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs/CRISPResso_on_SRR29623272/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "10acea9112f4fb8321f0928105b7debaafbc91db69a316acc5dc950de9f47715"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623272/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623272/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "64cca5da8330c465ac863019e9c0c6c050303aab3f5f18dbaa1f2fa685307efd"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/results/SRR29623271.execution.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/results/SRR29623271.execution.json",
+      "sha256": "f6aaf4628e6c1aabf3885a4726d8ca602939d29ae56783d7cf33abb735a3b633"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs/CRISPResso_on_SRR29623271/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs/CRISPResso_on_SRR29623271/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "dc06c54c3724c6295a6ab889eae05a37a502564ad04a990274d0a293b97ee9b7"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623271/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623271/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "ff9458db05b0b00361a0608098b8ae87f411726be6a9659c0c33408cc5c9925a"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/results/SRR29623270.execution.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/results/SRR29623270.execution.json",
+      "sha256": "72ae2102f42e5a935d93e28ec893b23029be0f6e3f5b061cee6f12f44400bbf0"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs/CRISPResso_on_SRR29623270/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs/CRISPResso_on_SRR29623270/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "73e08fea24111a000dc2473afb54409b44499e8a8d50ffe77bc082cbf98eedba"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623270/CRISPResso_quantification_of_editing_frequency.txt",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/restored/m2/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623270/CRISPResso_quantification_of_editing_frequency.txt",
+      "sha256": "6867fa893a3c8df137b57064411cb250670be0e67b8b4de2b1b784899ad8afdb"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/raw_replay/inputs/fastq/SRR29623274.fastq.gz",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623274.fastq.gz",
+      "sha256": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/raw_replay/inputs/fastq/SRR29623266.fastq.gz",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623266.fastq.gz",
+      "sha256": "44acba4f80562185c7f3720f500106e4797df1bb5a7bcb182e1225cdb3a89bf7"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/raw_replay/inputs/fastq/SRR29623268.fastq.gz",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623268.fastq.gz",
+      "sha256": "5bcdc1e06d0fcabe90c1e40f03725593aea9c7d4d8d2951e00bf93e4e118ec18"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/raw_replay/inputs/fastq/SRR29623273.fastq.gz",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623273.fastq.gz",
+      "sha256": "92bfda645464e561adf6a8c1f308b57530e400ecc64da1a42fcc494687d247d6"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/raw_replay/inputs/fastq/SRR29623265.fastq.gz",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623265.fastq.gz",
+      "sha256": "e08c98ebdceb3745b17ca8f92be45900385623c8499f4cbaa63af4dac15c01ae"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/raw_replay/inputs/fastq/SRR29623267.fastq.gz",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623267.fastq.gz",
+      "sha256": "e26c858bf862b755bf333dd7ba9810bf9926ffc2e3d5652c19417adb83e81b16"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/raw_replay/inputs/fastq/SRR29623272.fastq.gz",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623272.fastq.gz",
+      "sha256": "02c9293171e656fedaab5abfeefc1d7683e7d0a25eaa05e13deca2a330420b09"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/raw_replay/inputs/fastq/SRR29623271.fastq.gz",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623271.fastq.gz",
+      "sha256": "af323c3bf66ec6ced0ba12d746d3bcbb03f74ca09788cd1cb9138905687d129c"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/raw_replay/inputs/fastq/SRR29623270.fastq.gz",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623270.fastq.gz",
+      "sha256": "25b464764843cb52616451bce61b4a2fb15ca3f41ab275308eee05349eb2ad67"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/BASELINE_FILE_INTEGRITY_AUDIT.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/BASELINE_FILE_INTEGRITY_AUDIT.json",
+      "sha256": "ce71adb2df5e38ab38ad59d4eaf126fec5aec695403a1b44e57113d23f9bf4ec"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/BASELINE_REFERENCE_TRANSITIONS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/BASELINE_REFERENCE_TRANSITIONS.json",
+      "sha256": "3ed6dd0b9246eaecbdaec57699bc9be8ab4dd28e392569c3865fafa9f047a682"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/BASELINE_RETRY_STATUS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/BASELINE_RETRY_STATUS.json",
+      "sha256": "b472abfa6d3171735b4cfa76b9760de676e72578944dbd917b21adc66c47bb48"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/BASELINE_STATUS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/BASELINE_STATUS.json",
+      "sha256": "11b9e4b1813dce22f303ee1445cce11c8ebe9896fa6e32d5e510fdfdaccd70fe"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/BASELINE_VALIDATION.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/BASELINE_VALIDATION.json",
+      "sha256": "43d15291b2befec0d7f76f14dca6717f649f7b03eb74f2f914a3299d1ac95cd5"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/CLOSED_FILE_MANIFEST.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/CLOSED_FILE_MANIFEST.json",
+      "sha256": "c249f98f0bdfbc41d787930ada3052b6d937d1f340b9da75c707356a931a7fda"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/CONFLICT_EXAMPLES.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/CONFLICT_EXAMPLES.json",
+      "sha256": "a1bc47f0c74fd83ad6230768b5fe8cddcd8efc5467d400b0cc1fb20b19079f3f"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/CONTRASTS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/CONTRASTS.json",
+      "sha256": "0313176fac9d21e23f5dfbb7401e6a082482d164ee0eaf02f824d90dc417857e"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/ENGINE_ENVIRONMENT.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/ENGINE_ENVIRONMENT.json",
+      "sha256": "0d5fb7589f809f3e94c37f2939443c82d1f52fdc69cab2e9c9f797a9850f2876"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/FINAL_OUTPUT_INTEGRITY.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/FINAL_OUTPUT_INTEGRITY.json",
+      "sha256": "659f2fe87b4e551531cd60605ad563534bb673b33ed6845589d8d493bb4de3f1"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/FINDINGS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/FINDINGS.json",
+      "sha256": "38f049a613cde0ac57d91c5befb17f327c77732d4d48e4b417024346c414a6b6"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/GRID.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/GRID.json",
+      "sha256": "bb9a013a085ea01794c71c9e031390f62f2555b0a21310294c54a8300a50ca0c"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/GRID_FREEZE.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/GRID_FREEZE.json",
+      "sha256": "41c2e6862b1fc6a86fbf4bddc58d699065c046caf565d84cae1e8d5d4e0bdc20"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/INPUT_MANIFEST.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/INPUT_MANIFEST.json",
+      "sha256": "711546229f861ea3cd2cd2ad1c81c43b51069ff38b87a0709f32efb60467c8c7"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/INPUT_REPAIR.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/INPUT_REPAIR.json",
+      "sha256": "7c82bf513429ad43e1f187dc8bf47dd35227ee66de6cef5037c52e8796e010a3"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/JOBS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/JOBS.json",
+      "sha256": "1a0deb08d2e5a431ca72f0c1f412d7740b4eb078e4f5229d20e431c8994a4bdb"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/JOB_STATUS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/JOB_STATUS.json",
+      "sha256": "e001926496f9fc3facf382210ba7ce2f57e9c05074da9f429521a0901c1f8f64"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/JOINT_LABELS.jsonl.gz",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/JOINT_LABELS.jsonl.gz",
+      "sha256": "ee0462a3bfd45992e16f5bcc4f787a05531f01677defb7828e8bf5e5ccfb28d5"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/JOINT_LABEL_LEGEND.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/JOINT_LABEL_LEGEND.json",
+      "sha256": "2aa5409d00c3d5715bddf03819517a87e24d54bcbbd746445a9fe02c1221a8ce"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/JOINT_STABILITY.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/JOINT_STABILITY.json",
+      "sha256": "305aa99483d2d8dfb477451a8236d740537efe3c6befe10f8028e87a54e2ff70"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/OAT_STATUS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/OAT_STATUS.json",
+      "sha256": "851f9276f2855cb8b77d6fa963fc6504e32b24d0354e43c4811dd3549a19f3f9"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/PILOT_STATUS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/PILOT_STATUS.json",
+      "sha256": "7eac2b552639552db6548f0513fa538058a2de6cec4ce71be494fce3fe0de7d7"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/PILOT_VALIDATION.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/PILOT_VALIDATION.json",
+      "sha256": "bef6ad5ebf587b08acd077b8ee833aa2b6dcfd2c0ee13e6910eec3682bf281c1"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/REPLAY.md",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/REPLAY.md",
+      "sha256": "aa0e440ff4c81b17332db570f826ce3f08bd4b925f234df4216abff9f674830d"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/RESULTS_NOTE.md",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/RESULTS_NOTE.md",
+      "sha256": "aa510f81f53aa2d6b4d7816a571e4aabb14256a78acb108036d306fbaebb2851"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/SENSITIVITY_RANGES.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/SENSITIVITY_RANGES.json",
+      "sha256": "4f55bb2cacfbbf988e6527e5b5cb20396393d96240d0be78b1161bb1efb8d778"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/STOCK_PROFILE.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/STOCK_PROFILE.json",
+      "sha256": "3c7206dc80fd7d636e279ba7f91f2f4904d65936cc1e8645106bd496fc9c53d2"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/STOCK_PROFILE_FREEZE.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/STOCK_PROFILE_FREEZE.json",
+      "sha256": "68d7a91d7e50267ec206aac416cd91052fd1bbf3781cd699eec1b34c90e0ded3"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/STOCK_STATUS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/STOCK_STATUS.json",
+      "sha256": "ae9976a27ae7c3193d5725e0a6b5ffd3c273b7013c27b381ecfd6e9ffaf172f9"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/SUMMARIES.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/SUMMARIES.json",
+      "sha256": "6cbed4647d2eb01e9af6a97a410f7f568801dced416b8f74cfcef24b57e771b6"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/TRANSITIONS.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/TRANSITIONS.json",
+      "sha256": "23058b667393fba57a34144fe12df44440c44ac83726b8805dc3ec3e52aafc4f"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/VERIFICATION.json",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/VERIFICATION.json",
+      "sha256": "5b6f265eb890e148437a6d6d23272b2b88c3f9f4652c842c3bc2dd49381bd7c1"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/build_findings.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/build_findings.py",
+      "sha256": "96a636bc2fd4c8aa8c47256d4caa8855e9525e2ca0b97d44702902dd2ff71816"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/checked_run.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/checked_run.py",
+      "sha256": "dfc3da16a100fbe92cb818539edfbdee5d56e31a3f52cccb6e2c3ba5c0c50b29"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/close_manifest.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/close_manifest.py",
+      "sha256": "efbb77da6dbb2742b4c3a7c2e322c01d280c23f463f012fe4eb8217a5fa8b4a8"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/repair_input_66.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/repair_input_66.py",
+      "sha256": "b98e34221daab15e06bf5adb4e8dad978451a532e438cf1df623a2bc5619c932"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/run_grid.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/run_grid.py",
+      "sha256": "e30604c1a4ac6d0f2da2cb92f2ff526e47651daa25b8df9f17ea35339dc19475"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/run_profiles.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/run_profiles.py",
+      "sha256": "11d3aa2d8006580b9f014ecaf2fe23b853960e084779daa328360c9ba1754696"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/staged_run.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/staged_run.py",
+      "sha256": "e66fcbe4655cd8d1b2a1179d696965221112298704fe80569c95ac293230c2ca"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/summarize_grid.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/antecedent/original_sensitivity_metadata/summarize_grid.py",
+      "sha256": "4bf1e4b1c6c1b143c66987fe901254582521b41e5e3fee3eadac9e02e9da3f54"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/run_grid.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_02/sensitivity/run_grid.py",
+      "sha256": "e30604c1a4ac6d0f2da2cb92f2ff526e47651daa25b8df9f17ea35339dc19475"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/run_profiles.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_02/sensitivity/run_profiles.py",
+      "sha256": "11d3aa2d8006580b9f014ecaf2fe23b853960e084779daa328360c9ba1754696"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/checked_run.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_02/sensitivity/checked_run.py",
+      "sha256": "dfc3da16a100fbe92cb818539edfbdee5d56e31a3f52cccb6e2c3ba5c0c50b29"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/staged_run.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_02/sensitivity/staged_run.py",
+      "sha256": "e66fcbe4655cd8d1b2a1179d696965221112298704fe80569c95ac293230c2ca"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/summarize_grid.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_02/sensitivity/summarize_grid.py",
+      "sha256": "4bf1e4b1c6c1b143c66987fe901254582521b41e5e3fee3eadac9e02e9da3f54"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/build_findings.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_02/sensitivity/build_findings.py",
+      "sha256": "96a636bc2fd4c8aa8c47256d4caa8855e9525e2ca0b97d44702902dd2ff71816"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/crispr-observability/engine_replay/original/close_manifest.py",
+      "destination": "/workspace/scratch/61c50c721c17/mp03_audit/final_preparation_work/publication_02/sensitivity/close_manifest.py",
+      "sha256": "efbb77da6dbb2742b4c3a7c2e322c01d280c23f463f012fe4eb8217a5fa8b4a8"
+    }
+  ],
+  "engine_commit_required": "1fc4b629e5400a48d6569b0ab4b8d1766f33636f",
+  "engine_redistributed": false,
+  "stock_defaults_verified_against_engine": false,
+  "staging_patch": {
+    "before_sha256": "e66fcbe4655cd8d1b2a1179d696965221112298704fe80569c95ac293230c2ca",
+    "after_sha256": "e7544bedace7c407eab9feaa830914079bfad710b3ba0349b4c15fc49c8e6a30",
+    "reason": "Unique scratch root; scientific parameters unchanged"
+  },
+  "retrospective_scope": "Historical outcomes are already known. New freeze timestamps describe only this fresh computational replay; they are not prospective validation.",
+  "excluded_original_outputs": "Original 144 full alignment directories and failed attempts are not included in this compact source package. The original closed manifest is retained as provenance, not as a claim those bytes are present."
+}

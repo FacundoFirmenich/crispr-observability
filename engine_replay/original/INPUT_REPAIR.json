@@ -1,0 +1,11 @@
+{
+  "state": "EXACT_FROZEN_INPUT_RESTORED",
+  "created_utc": "2026-10-28T05:34:26.110444+00:00",
+  "run": "SRR29623266",
+  "problem": "Local Q30 file truncated after manifest creation; cause not established. Both baseline attempts failed with gzip end-of-stream error.",
+  "preserved_bad_sha256": "ac7c974a88078998304a6cd5640f5c312d2916ff1f4b0f2c989bc226a09844b4",
+  "restored_sha256": "3f2270de64816081ca95de9d9471cb9f94f88fbb2d368514979dbf809cd9ad02",
+  "expected_sha256": "3f2270de64816081ca95de9d9471cb9f94f88fbb2d368514979dbf809cd9ad02",
+  "raw_identity_verified": true,
+  "Q30_pass": 13498
+}

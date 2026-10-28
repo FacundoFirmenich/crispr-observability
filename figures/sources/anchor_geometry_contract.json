@@ -1,0 +1,26 @@
+{
+  "kind": "explanatory_coordinate_geometry",
+  "coordinate_convention": "zero-based half-open",
+  "read_end": 224,
+  "rows": [
+    {
+      "label": "Unshifted edge anchor",
+      "start": 210,
+      "end": 222,
+      "read_end": 224
+    },
+    {
+      "label": "Shifted edge anchor",
+      "start": 213,
+      "end": 225,
+      "read_end": 224
+    },
+    {
+      "label": "Shifted inner anchor",
+      "start": 206,
+      "end": 218,
+      "read_end": 224
+    }
+  ],
+  "scope": "Coordinate illustration; not a new observed molecule or universal geometry."
+}

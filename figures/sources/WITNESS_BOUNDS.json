@@ -1,0 +1,764 @@
+{
+  "counts": [
+    {
+      "run_accession": "SRR29623274",
+      "condition": "untreated",
+      "source_replica": 1,
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "c1caa43cbb4aa3aea3da80ebb2d30eb0ed8491b880052823d7402e58d054621a",
+      "N": 13762,
+      "E": 0,
+      "NE": 13176,
+      "U": 586,
+      "L_exact": "0",
+      "H_exact": "293/6881",
+      "L_pp": 0.0,
+      "H_pp": 4.258102020055224
+    },
+    {
+      "run_accession": "SRR29623274",
+      "condition": "untreated",
+      "source_replica": 1,
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "c1caa43cbb4aa3aea3da80ebb2d30eb0ed8491b880052823d7402e58d054621a",
+      "N": 13762,
+      "E": 1,
+      "NE": 13175,
+      "U": 586,
+      "L_exact": "1/13762",
+      "H_exact": "587/13762",
+      "L_pp": 0.007266385699752943,
+      "H_pp": 4.265368405754978
+    },
+    {
+      "run_accession": "SRR29623266",
+      "condition": "untreated",
+      "source_replica": 2,
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "4d131cbd720c668ee4243c23babf04e70bddff1d1c6236f9ffc657927b224540",
+      "N": 13617,
+      "E": 0,
+      "NE": 13290,
+      "U": 327,
+      "L_exact": "0",
+      "H_exact": "109/4539",
+      "L_pp": 0.0,
+      "H_pp": 2.4014100022031286
+    },
+    {
+      "run_accession": "SRR29623266",
+      "condition": "untreated",
+      "source_replica": 2,
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "4d131cbd720c668ee4243c23babf04e70bddff1d1c6236f9ffc657927b224540",
+      "N": 13617,
+      "E": 0,
+      "NE": 13290,
+      "U": 327,
+      "L_exact": "0",
+      "H_exact": "109/4539",
+      "L_pp": 0.0,
+      "H_pp": 2.4014100022031286
+    },
+    {
+      "run_accession": "SRR29623268",
+      "condition": "untreated",
+      "source_replica": 3,
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "6cb79aa2fa59b9da78827e4f48e79825efbb5143da304b248d6fa1301c80a17b",
+      "N": 29956,
+      "E": 0,
+      "NE": 29172,
+      "U": 784,
+      "L_exact": "0",
+      "H_exact": "196/7489",
+      "L_pp": 0.0,
+      "H_pp": 2.617171852049673
+    },
+    {
+      "run_accession": "SRR29623268",
+      "condition": "untreated",
+      "source_replica": 3,
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "6cb79aa2fa59b9da78827e4f48e79825efbb5143da304b248d6fa1301c80a17b",
+      "N": 29956,
+      "E": 0,
+      "NE": 29172,
+      "U": 784,
+      "L_exact": "0",
+      "H_exact": "196/7489",
+      "L_pp": 0.0,
+      "H_pp": 2.617171852049673
+    },
+    {
+      "run_accession": "SRR29623273",
+      "condition": "mock",
+      "source_replica": 1,
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0",
+      "N": 17177,
+      "E": 2,
+      "NE": 16475,
+      "U": 700,
+      "L_exact": "2/17177",
+      "H_exact": "702/17177",
+      "L_pp": 0.011643476742155207,
+      "H_pp": 4.0868603364964775
+    },
+    {
+      "run_accession": "SRR29623273",
+      "condition": "mock",
+      "source_replica": 1,
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0",
+      "N": 17177,
+      "E": 2,
+      "NE": 16475,
+      "U": 700,
+      "L_exact": "2/17177",
+      "H_exact": "702/17177",
+      "L_pp": 0.011643476742155207,
+      "H_pp": 4.0868603364964775
+    },
+    {
+      "run_accession": "SRR29623265",
+      "condition": "mock",
+      "source_replica": 2,
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "a4f8f9822ae0e05dc4c1c345dd354182fc97574ea490362e857dea875802bf82",
+      "N": 21041,
+      "E": 0,
+      "NE": 20528,
+      "U": 513,
+      "L_exact": "0",
+      "H_exact": "513/21041",
+      "L_pp": 0.0,
+      "H_pp": 2.4380970486193623
+    },
+    {
+      "run_accession": "SRR29623265",
+      "condition": "mock",
+      "source_replica": 2,
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "a4f8f9822ae0e05dc4c1c345dd354182fc97574ea490362e857dea875802bf82",
+      "N": 21041,
+      "E": 0,
+      "NE": 20528,
+      "U": 513,
+      "L_exact": "0",
+      "H_exact": "513/21041",
+      "L_pp": 0.0,
+      "H_pp": 2.4380970486193623
+    },
+    {
+      "run_accession": "SRR29623267",
+      "condition": "mock",
+      "source_replica": 3,
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "8fb1089651cfee5ea58340e5ba5dbf388948ac00b51a5ae880cdc9ff923559a0",
+      "N": 27024,
+      "E": 0,
+      "NE": 26392,
+      "U": 632,
+      "L_exact": "0",
+      "H_exact": "79/3378",
+      "L_pp": 0.0,
+      "H_pp": 2.3386619301361753
+    },
+    {
+      "run_accession": "SRR29623267",
+      "condition": "mock",
+      "source_replica": 3,
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "8fb1089651cfee5ea58340e5ba5dbf388948ac00b51a5ae880cdc9ff923559a0",
+      "N": 27024,
+      "E": 0,
+      "NE": 26392,
+      "U": 632,
+      "L_exact": "0",
+      "H_exact": "79/3378",
+      "L_pp": 0.0,
+      "H_pp": 2.3386619301361753
+    },
+    {
+      "run_accession": "SRR29623272",
+      "condition": "PE treated",
+      "source_replica": 1,
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5",
+      "N": 20573,
+      "E": 3539,
+      "NE": 15870,
+      "U": 1164,
+      "L_exact": "3539/20573",
+      "H_exact": "4703/20573",
+      "L_pp": 17.202158168473243,
+      "H_pp": 22.860059301025615
+    },
+    {
+      "run_accession": "SRR29623272",
+      "condition": "PE treated",
+      "source_replica": 1,
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5",
+      "N": 20573,
+      "E": 3563,
+      "NE": 15846,
+      "U": 1164,
+      "L_exact": "509/2939",
+      "H_exact": "4727/20573",
+      "L_pp": 17.3188159237836,
+      "H_pp": 22.976717056335975
+    },
+    {
+      "run_accession": "SRR29623271",
+      "condition": "PE treated",
+      "source_replica": 2,
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "b8ee1df0dcf47162402fa9c4a8d48285037a1d9893c1ede889d89ac09f00f28e",
+      "N": 19184,
+      "E": 5605,
+      "NE": 12670,
+      "U": 909,
+      "L_exact": "5605/19184",
+      "H_exact": "3257/9592",
+      "L_pp": 29.217055879899917,
+      "H_pp": 33.955379482902416
+    },
+    {
+      "run_accession": "SRR29623271",
+      "condition": "PE treated",
+      "source_replica": 2,
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "b8ee1df0dcf47162402fa9c4a8d48285037a1d9893c1ede889d89ac09f00f28e",
+      "N": 19184,
+      "E": 5673,
+      "NE": 12602,
+      "U": 909,
+      "L_exact": "5673/19184",
+      "H_exact": "3291/9592",
+      "L_pp": 29.571517931609673,
+      "H_pp": 34.309841534612175
+    },
+    {
+      "run_accession": "SRR29623270",
+      "condition": "PE treated",
+      "source_replica": 3,
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "838daf32964c9016330e0686e2aed24f1cfca7af24a929295a140f0987f18aab",
+      "N": 14672,
+      "E": 3706,
+      "NE": 10300,
+      "U": 666,
+      "L_exact": "1853/7336",
+      "H_exact": "1093/3668",
+      "L_pp": 25.258996728462378,
+      "H_pp": 29.798255179934568
+    },
+    {
+      "run_accession": "SRR29623270",
+      "condition": "PE treated",
+      "source_replica": 3,
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "universe_sha256": "838daf32964c9016330e0686e2aed24f1cfca7af24a929295a140f0987f18aab",
+      "N": 14672,
+      "E": 3741,
+      "NE": 10265,
+      "U": 666,
+      "L_exact": "3741/14672",
+      "H_exact": "4407/14672",
+      "L_pp": 25.49754634678299,
+      "H_pp": 30.03680479825518
+    }
+  ],
+  "contrasts": [
+    {
+      "preparation": 1,
+      "control": "mock",
+      "treated": "SRR29623272",
+      "comparator": "SRR29623273",
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "L_exact": "46347157/353382421",
+      "H_exact": "80742285/353382421",
+      "L_pp": 13.115297831976763,
+      "H_pp": 22.84841582428346,
+      "treated_counts": {
+        "N": 20573,
+        "E": 3539,
+        "NE": 15870,
+        "U": 1164
+      },
+      "control_counts": {
+        "N": 17177,
+        "E": 2,
+        "NE": 16475,
+        "U": 700
+      }
+    },
+    {
+      "preparation": 1,
+      "control": "mock",
+      "treated": "SRR29623272",
+      "comparator": "SRR29623273",
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "L_exact": "6679915/50483203",
+      "H_exact": "81154533/353382421",
+      "L_pp": 13.231955587287121,
+      "H_pp": 22.96507357959382,
+      "treated_counts": {
+        "N": 20573,
+        "E": 3563,
+        "NE": 15846,
+        "U": 1164
+      },
+      "control_counts": {
+        "N": 17177,
+        "E": 2,
+        "NE": 16475,
+        "U": 700
+      }
+    },
+    {
+      "preparation": 1,
+      "control": "untreated",
+      "treated": "SRR29623272",
+      "comparator": "SRR29623274",
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "L_exact": "2617710/20223259",
+      "H_exact": "4703/20573",
+      "L_pp": 12.944056148418017,
+      "H_pp": 22.860059301025615,
+      "treated_counts": {
+        "N": 20573,
+        "E": 3539,
+        "NE": 15870,
+        "U": 1164
+      },
+      "control_counts": {
+        "N": 13762,
+        "E": 0,
+        "NE": 13176,
+        "U": 586
+      }
+    },
+    {
+      "preparation": 1,
+      "control": "untreated",
+      "treated": "SRR29623272",
+      "comparator": "SRR29623274",
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "L_exact": "5279665/40446518",
+      "H_exact": "9290343/40446518",
+      "L_pp": 13.053447518028623,
+      "H_pp": 22.96945067063622,
+      "treated_counts": {
+        "N": 20573,
+        "E": 3563,
+        "NE": 15846,
+        "U": 1164
+      },
+      "control_counts": {
+        "N": 13762,
+        "E": 1,
+        "NE": 13175,
+        "U": 586
+      }
+    },
+    {
+      "preparation": 2,
+      "control": "mock",
+      "treated": "SRR29623271",
+      "comparator": "SRR29623265",
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "L_exact": "108093413/403650544",
+      "H_exact": "3257/9592",
+      "L_pp": 26.778958831280555,
+      "H_pp": 33.955379482902416,
+      "treated_counts": {
+        "N": 19184,
+        "E": 5605,
+        "NE": 12670,
+        "U": 909
+      },
+      "control_counts": {
+        "N": 21041,
+        "E": 0,
+        "NE": 20528,
+        "U": 513
+      }
+    },
+    {
+      "preparation": 2,
+      "control": "mock",
+      "treated": "SRR29623271",
+      "comparator": "SRR29623265",
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "L_exact": "109524201/403650544",
+      "H_exact": "3291/9592",
+      "L_pp": 27.13342088299031,
+      "H_pp": 34.309841534612175,
+      "treated_counts": {
+        "N": 19184,
+        "E": 5673,
+        "NE": 12602,
+        "U": 909
+      },
+      "control_counts": {
+        "N": 21041,
+        "E": 0,
+        "NE": 20528,
+        "U": 513
+      }
+    },
+    {
+      "preparation": 2,
+      "control": "untreated",
+      "treated": "SRR29623271",
+      "comparator": "SRR29623266",
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "L_exact": "23350039/87076176",
+      "H_exact": "3257/9592",
+      "L_pp": 26.815645877696788,
+      "H_pp": 33.955379482902416,
+      "treated_counts": {
+        "N": 19184,
+        "E": 5605,
+        "NE": 12670,
+        "U": 909
+      },
+      "control_counts": {
+        "N": 13617,
+        "E": 0,
+        "NE": 13290,
+        "U": 327
+      }
+    },
+    {
+      "preparation": 2,
+      "control": "untreated",
+      "treated": "SRR29623271",
+      "comparator": "SRR29623266",
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "L_exact": "23658691/87076176",
+      "H_exact": "3291/9592",
+      "L_pp": 27.170107929406548,
+      "H_pp": 34.309841534612175,
+      "treated_counts": {
+        "N": 19184,
+        "E": 5673,
+        "NE": 12602,
+        "U": 909
+      },
+      "control_counts": {
+        "N": 13617,
+        "E": 0,
+        "NE": 13290,
+        "U": 327
+      }
+    },
+    {
+      "preparation": 3,
+      "control": "mock",
+      "treated": "SRR29623270",
+      "comparator": "SRR29623267",
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "L_exact": "2839945/12390504",
+      "H_exact": "1093/3668",
+      "L_pp": 22.920334798326202,
+      "H_pp": 29.798255179934568,
+      "treated_counts": {
+        "N": 14672,
+        "E": 3706,
+        "NE": 10300,
+        "U": 666
+      },
+      "control_counts": {
+        "N": 27024,
+        "E": 0,
+        "NE": 26392,
+        "U": 632
+      }
+    },
+    {
+      "preparation": 3,
+      "control": "mock",
+      "treated": "SRR29623270",
+      "comparator": "SRR29623267",
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "L_exact": "5739005/24781008",
+      "H_exact": "4407/14672",
+      "L_pp": 23.158884416646814,
+      "H_pp": 30.03680479825518,
+      "treated_counts": {
+        "N": 14672,
+        "E": 3741,
+        "NE": 10265,
+        "U": 666
+      },
+      "control_counts": {
+        "N": 27024,
+        "E": 0,
+        "NE": 26392,
+        "U": 632
+      }
+    },
+    {
+      "preparation": 3,
+      "control": "untreated",
+      "treated": "SRR29623270",
+      "comparator": "SRR29623268",
+      "event": "CTT_full_SE2_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "L_exact": "12439261/54939304",
+      "H_exact": "1093/3668",
+      "L_pp": 22.641824876412706,
+      "H_pp": 29.798255179934568,
+      "treated_counts": {
+        "N": 14672,
+        "E": 3706,
+        "NE": 10300,
+        "U": 666
+      },
+      "control_counts": {
+        "N": 29956,
+        "E": 0,
+        "NE": 29172,
+        "U": 784
+      }
+    },
+    {
+      "preparation": 3,
+      "control": "untreated",
+      "treated": "SRR29623270",
+      "comparator": "SRR29623268",
+      "event": "native_local_peptide_on_witnessed_observed_coding",
+      "observer": "triple_observed_coding_witness",
+      "L_exact": "25140637/109878608",
+      "H_exact": "4407/14672",
+      "L_pp": 22.880374494733314,
+      "H_pp": 30.03680479825518,
+      "treated_counts": {
+        "N": 14672,
+        "E": 3741,
+        "NE": 10265,
+        "U": 666
+      },
+      "control_counts": {
+        "N": 29956,
+        "E": 0,
+        "NE": 29172,
+        "U": 784
+      }
+    }
+  ],
+  "domains": [
+    {
+      "run_accession": "SRR29623274",
+      "condition": "untreated",
+      "source_replica": 1,
+      "N_raw": 13762,
+      "counts": {
+        "triple_resolved": 13176,
+        "identical_observed_coding_witness": 13176,
+        "missing_correspondence_witness": 382,
+        "common_quality_fail": 204
+      },
+      "resolved_intersections": {
+        "target1_mut1_prog1": 13176,
+        "target0_mut1_prog1": 372,
+        "target0_mut0_prog0": 9,
+        "target0_mut0_prog1": 1
+      }
+    },
+    {
+      "run_accession": "SRR29623266",
+      "condition": "untreated",
+      "source_replica": 2,
+      "N_raw": 13617,
+      "counts": {
+        "triple_resolved": 13290,
+        "identical_observed_coding_witness": 13290,
+        "common_quality_fail": 119,
+        "missing_correspondence_witness": 208
+      },
+      "resolved_intersections": {
+        "target1_mut1_prog1": 13290,
+        "target0_mut1_prog1": 201,
+        "target0_mut0_prog0": 7
+      }
+    },
+    {
+      "run_accession": "SRR29623268",
+      "condition": "untreated",
+      "source_replica": 3,
+      "N_raw": 29956,
+      "counts": {
+        "triple_resolved": 29172,
+        "identical_observed_coding_witness": 29172,
+        "common_quality_fail": 279,
+        "missing_correspondence_witness": 505
+      },
+      "resolved_intersections": {
+        "target1_mut1_prog1": 29172,
+        "target0_mut1_prog1": 486,
+        "target0_mut0_prog0": 19
+      }
+    },
+    {
+      "run_accession": "SRR29623273",
+      "condition": "mock",
+      "source_replica": 1,
+      "N_raw": 17177,
+      "counts": {
+        "triple_resolved": 16477,
+        "identical_observed_coding_witness": 16477,
+        "missing_correspondence_witness": 410,
+        "common_quality_fail": 290
+      },
+      "resolved_intersections": {
+        "target1_mut1_prog1": 16477,
+        "target0_mut1_prog1": 401,
+        "target0_mut0_prog0": 9
+      }
+    },
+    {
+      "run_accession": "SRR29623265",
+      "condition": "mock",
+      "source_replica": 2,
+      "N_raw": 21041,
+      "counts": {
+        "triple_resolved": 20528,
+        "identical_observed_coding_witness": 20528,
+        "common_quality_fail": 186,
+        "missing_correspondence_witness": 327
+      },
+      "resolved_intersections": {
+        "target1_mut1_prog1": 20528,
+        "target0_mut1_prog1": 320,
+        "target0_mut0_prog0": 7
+      }
+    },
+    {
+      "run_accession": "SRR29623267",
+      "condition": "mock",
+      "source_replica": 3,
+      "N_raw": 27024,
+      "counts": {
+        "triple_resolved": 26392,
+        "identical_observed_coding_witness": 26392,
+        "common_quality_fail": 219,
+        "missing_correspondence_witness": 413
+      },
+      "resolved_intersections": {
+        "target1_mut1_prog1": 26392,
+        "target0_mut1_prog1": 398,
+        "target0_mut0_prog0": 15
+      }
+    },
+    {
+      "run_accession": "SRR29623272",
+      "condition": "PE treated",
+      "source_replica": 1,
+      "N_raw": 20573,
+      "counts": {
+        "missing_correspondence_witness": 773,
+        "triple_resolved": 19439,
+        "identical_observed_coding_witness": 19409,
+        "common_quality_fail": 361,
+        "different_coding": 30,
+        "different_observed_coding": 0,
+        "equal_native_labels_different_coding": 1
+      },
+      "resolved_intersections": {
+        "target0_mut1_prog1": 629,
+        "target1_mut1_prog1": 19439,
+        "target0_mut0_prog0": 103,
+        "target0_mut0_prog1": 33,
+        "target0_mut1_prog0": 7,
+        "target1_mut0_prog1": 1
+      }
+    },
+    {
+      "run_accession": "SRR29623271",
+      "condition": "PE treated",
+      "source_replica": 2,
+      "N_raw": 19184,
+      "counts": {
+        "common_quality_fail": 202,
+        "triple_resolved": 18309,
+        "identical_observed_coding_witness": 18275,
+        "missing_correspondence_witness": 673,
+        "different_coding": 34,
+        "equal_native_labels_different_coding": 13,
+        "different_observed_coding": 0
+      },
+      "resolved_intersections": {
+        "target1_mut1_prog1": 18309,
+        "target0_mut0_prog0": 150,
+        "target0_mut1_prog1": 444,
+        "target0_mut0_prog1": 24,
+        "target1_mut0_prog0": 15,
+        "target0_mut1_prog0": 28,
+        "target1_mut0_prog1": 11,
+        "target1_mut1_prog0": 1
+      }
+    },
+    {
+      "run_accession": "SRR29623270",
+      "condition": "PE treated",
+      "source_replica": 3,
+      "N_raw": 14672,
+      "counts": {
+        "triple_resolved": 14025,
+        "identical_observed_coding_witness": 14006,
+        "common_quality_fail": 136,
+        "missing_correspondence_witness": 511,
+        "different_coding": 19,
+        "different_observed_coding": 0,
+        "equal_native_labels_different_coding": 4
+      },
+      "resolved_intersections": {
+        "target1_mut1_prog1": 14025,
+        "target0_mut1_prog1": 372,
+        "target0_mut0_prog1": 16,
+        "target0_mut0_prog0": 98,
+        "target1_mut0_prog1": 12,
+        "target0_mut1_prog0": 6,
+        "target1_mut0_prog0": 6,
+        "target1_mut1_prog0": 1
+      }
+    }
+  ],
+  "aligned_by_reference": [
+    174752,
+    174760
+  ]
+}

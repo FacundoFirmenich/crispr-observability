@@ -1,0 +1,38 @@
+name: MP02 arithmetic and raw-observer review checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  review-checks:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Checkout reviewed files
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - name: Set up exact Python version
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.14.10'
+      - name: Check arithmetic then raw observers with frozen alignments
+        run: python -B code/run_review_checks.py
+
+  container:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout reviewed files
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - name: Build checker container
+        run: docker build --pull -t mp02-review-checks:0.2.0 .
+      - name: Run both review scopes without network
+        run: docker run --rm --network none --read-only --tmpfs /tmp:rw,noexec,nosuid,size=16m mp02-review-checks:0.2.0

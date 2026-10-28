@@ -1,0 +1,55 @@
+name: Localized scientific feedback
+description: Correct a specific claim, calculation, table, figure or reproducibility step.
+title: "[Scientific feedback] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Exact location
+      description: File and line, section, table, figure or quoted claim; include the Git commit used.
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Critical
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+  - type: dropdown
+    id: correction_type
+    attributes:
+      label: Correction type
+      options:
+        - Factual error
+        - Overstatement
+        - Omission
+        - Ambiguity
+        - Computational or reproducibility failure
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and proposed correction
+      description: Give the observed problem, evidence and precise replacement or repair.
+    validations:
+      required: true
+  - type: textarea
+    id: conclusion
+    attributes:
+      label: Conclusion and scope affected
+      description: State which conclusion changes and under which event, universe, observer or biological domain.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification required
+      description: Specify the data, command, experiment or primary reference needed to decide the correction.
+    validations:
+      required: true

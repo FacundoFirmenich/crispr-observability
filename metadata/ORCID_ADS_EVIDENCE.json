@@ -1,0 +1,77 @@
+{
+  "status": "PRIMARY_ORCID_RECORD_READ_SUCCESS",
+  "api_URL": "https://pub.orcid.org/v3.0/0009-0002-6578-3811/record",
+  "api_local_file": "orcid_record_api.html",
+  "actual_content": "JSON (extension inherited from absent content-type header)",
+  "api_sha256": "e1cff2e2b1c9c9f1c2c75e1c34218349cde6d20d526a79b5675be4e8d50c69d7",
+  "public_record_json_URL": "https://orcid.org/0009-0002-6578-3811/public-record.json",
+  "public_record_json_local_file": "orcid_public_record_json.html",
+  "public_record_json_sha256": "02a822e0d2768642104b40e6de8640bba7c2b15a5d0f2cb09b5c28bcee295e31",
+  "NASA_ADS_source_ORCID_records": [
+    {
+      "put_code": 201730663,
+      "title": "Multi-Planar Hierarchy in Pan-American Seismic Fractality: A Bayesian Resolution to the Projection Paradox",
+      "type": "working-paper",
+      "publication_date": {
+        "year": {
+          "value": "2025"
+        },
+        "month": {
+          "value": "12"
+        },
+        "day": null
+      },
+      "journal_title": {
+        "value": "EarthArXiv eprints"
+      },
+      "url": null,
+      "external_ids": {
+        "external-id": [
+          {
+            "external-id-type": "bibcode",
+            "external-id-value": "2025EaArX...X5RF3VF",
+            "external-id-normalized": {
+              "value": "2025EaArX...X5RF3VF",
+              "transient": true
+            },
+            "external-id-normalized-error": null,
+            "external-id-url": null,
+            "external-id-relationship": "self"
+          },
+          {
+            "external-id-type": "doi",
+            "external-id-value": "10.31223/x5rf3v",
+            "external-id-normalized": {
+              "value": "10.31223/x5rf3v",
+              "transient": true
+            },
+            "external-id-normalized-error": null,
+            "external-id-url": null,
+            "external-id-relationship": "self"
+          }
+        ]
+      },
+      "source": {
+        "source-orcid": null,
+        "source-client-id": {
+          "uri": "https://orcid.org/client/APP-BA5POB6F5D7CTHX2",
+          "path": "APP-BA5POB6F5D7CTHX2",
+          "host": "orcid.org"
+        },
+        "source-name": {
+          "value": "NASA Astrophysics Data System"
+        },
+        "assertion-origin-orcid": null,
+        "assertion-origin-client-id": null,
+        "assertion-origin-name": null
+      },
+      "ORCID_path": "/0009-0002-6578-3811/work/201730663"
+    }
+  ],
+  "ADS_direct_page_status": {
+    "HTTP": 202,
+    "body_bytes": 0,
+    "direct_record_content_verified": false
+  },
+  "no_fabricated_bibcode": true
+}

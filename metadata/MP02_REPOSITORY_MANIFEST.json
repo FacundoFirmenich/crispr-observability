@@ -1,0 +1,342 @@
+{
+  "version": "0.2.0",
+  "edition": "MP02",
+  "status": "LOCAL_REVIEW_CANDIDATE_NOT_PUBLISHED",
+  "scope": "Exact derived-table arithmetic plus raw-observer reconstruction using frozen alignments; no external alignment engine execution.",
+  "self_excluded": true,
+  "generated_outputs_excluded": [
+    "results/",
+    "raw_replay/results/",
+    "raw_replay/*.stdout",
+    "raw_replay/*.stderr"
+  ],
+  "git_metadata_excluded": ".git/",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 305,
+      "sha256": "29f17d3a55a7ab0f8411b2d38dd109bced4232eed1637a81a16ed093d1e31e12"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 158,
+      "sha256": "c1df8be840123906d2f539f5dac640f9bb441978ea52dcf62e4e2d04649a6e15"
+    },
+    {
+      "path": ".github/workflows/derived-checks.yml",
+      "bytes": 1206,
+      "sha256": "c735e6d1e6ee04047254ef4cff80336465e3b3b2de45bb475332fa2079deb6d8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 78,
+      "sha256": "f274f4df955a2a96b7a6b6bff629929e22a55ae6e41b236b6d7900514c01be72"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1323,
+      "sha256": "a7c488408bd57be970ab7026858e7feeef241b7d01d5447e9d7a1d5bc6fc8ee5"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 744,
+      "sha256": "088655d09a42021b2f981bbabdff62dd9b1ff2dc4cdb4df30968c312a269b6db"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7475,
+      "sha256": "e6fe58c919168c3a72a1b6cf1a259b509b539f67443fce37811783af7e1bc5c5"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.csv",
+      "bytes": 25324,
+      "sha256": "cda421afba108eaf24fef8e98ba57254de647fe890b0ed77c1cacdc60280a620"
+    },
+    {
+      "path": "code/LICENSE",
+      "bytes": 1468,
+      "sha256": "f0d32ba1eeb4c0d0b3e31af5b0a036fcdcfa69a0d6e531374c9b40606243aa00"
+    },
+    {
+      "path": "code/check_selected_p1_tables.py",
+      "bytes": 16873,
+      "sha256": "0d3037853a11df57644f8ef929fa508b11a6e578c592395370261f1f03c2a301"
+    },
+    {
+      "path": "code/run_checks.py",
+      "bytes": 2528,
+      "sha256": "f1d2964edef34c74254f6fb08d4f36da9646b293f45283fed8d8637d3878a613"
+    },
+    {
+      "path": "code/run_review_checks.py",
+      "bytes": 5266,
+      "sha256": "0809eb5a43af84c9545c31a1908e294a88cbf71f385fba5e57b7da234a2cedfc"
+    },
+    {
+      "path": "docs/REPRODUCTION_SCOPE.md",
+      "bytes": 5511,
+      "sha256": "643346a1d04e985a254255b4ae63356f2a48eee06c1a7522aca41bcbd6dace65"
+    },
+    {
+      "path": "metadata/DERIVED_INPUT_MANIFEST.json",
+      "bytes": 2445,
+      "sha256": "6f9be3e465b88deac6e6a601cdc2b312ec3566ece47e0aa558cce064f2e1b5c6"
+    },
+    {
+      "path": "metadata/EXECUTION_STATUS.json",
+      "bytes": 4797,
+      "sha256": "821e76db2a726828d63a108da7ad893a9955b7fc664f6d393925fcaab902d218"
+    },
+    {
+      "path": "metadata/INSPECTED_SCIENTIFIC_WORKFLOWS.json",
+      "bytes": 1197,
+      "sha256": "69516761dd0c822ad61b476387f80c8e1c8e5133b111043cece563f19c01e548"
+    },
+    {
+      "path": "metadata/LICENSE_SCOPE.json",
+      "bytes": 1463,
+      "sha256": "12c2056d4094d0a7569b1ddd2da2fa027fb7e066b96bc81a71e54d364dfec523"
+    },
+    {
+      "path": "metadata/PYTHON_IMAGE_INDEX.json",
+      "bytes": 6546,
+      "sha256": "5dca57ddc56794d9049dee9ee95a7f071b69d3b018368f2ddc61813649ca2fa0"
+    },
+    {
+      "path": "metadata/RAW_REPLAY_INTEGRATION.json",
+      "bytes": 6282,
+      "sha256": "d82805536e74749a6cf9e6b863ee1feb8e3604fe3e25a8278fca8527da4c0962"
+    },
+    {
+      "path": "metadata/RELEASE_STATE.json",
+      "bytes": 901,
+      "sha256": "870c809c55b8be7044a766dff48130a5d74d1a7aa80c2840962ecd55e0d1e952"
+    },
+    {
+      "path": "metadata/RUNTIME_SOURCES.json",
+      "bytes": 3209,
+      "sha256": "c08726f0064871486c97872d0190658639e81bc865c339466a9fb100247697d4"
+    },
+    {
+      "path": "raw_replay/DATA_NOTICE.md",
+      "bytes": 2078,
+      "sha256": "907487d8c330545ab7195a615d2cf363ba249289c854102163429c3c031be4cb"
+    },
+    {
+      "path": "raw_replay/INPUT_MANIFEST.json",
+      "bytes": 25816,
+      "sha256": "77e7ffbb65562dd834799c2ce5bac9b2ef70bdb41278907b2d2a6d3a45a9141d"
+    },
+    {
+      "path": "raw_replay/PACKAGE_MANIFEST.json",
+      "bytes": 12256,
+      "sha256": "1fe11581088ffc6e355514fb345d0d23f49692bde38842b85091506cd5d8d3cb"
+    },
+    {
+      "path": "raw_replay/README.md",
+      "bytes": 3514,
+      "sha256": "87a4e56b289ae6a782797e882e6388f98eba83e5b0a4c4ae0402df76d5d73d04"
+    },
+    {
+      "path": "raw_replay/check_tamper_detection.py",
+      "bytes": 4998,
+      "sha256": "e85c0c1ac36ca99130f946c9e63d1b43e10edc15558fcbe87c629dcc31d44b72"
+    },
+    {
+      "path": "raw_replay/expected/M1_TARGET_COUNTS.json",
+      "bytes": 70039,
+      "sha256": "3384449b53847526471ad4b6292e8287413317743418dea1098b9dda514243d0"
+    },
+    {
+      "path": "raw_replay/expected/RAW_UNIVERSE_IDENTITIES.json",
+      "bytes": 2334,
+      "sha256": "b4a0bac8600d601ad68379b70a4c67a84c505b5eead8bb917b8e39ef021b0d27"
+    },
+    {
+      "path": "raw_replay/expected/WITNESS_BOUNDS.json",
+      "bytes": 21489,
+      "sha256": "251124c7dc4b8b179fa16ad8c7f2ebb9a64302778e3d4459e6f52330f7e8b022"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/mutant/SRR29623265.zip",
+      "bytes": 197255,
+      "sha256": "dd57b92e4af5568d295c0a75e0b68b616079d0194421222a7cc6acfd7ffc833b"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/mutant/SRR29623266.zip",
+      "bytes": 158682,
+      "sha256": "cb22b15cb8cd958f0d0a052a0aa2b1f038e0025171bae6d8426d5000282d8622"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/mutant/SRR29623267.zip",
+      "bytes": 257556,
+      "sha256": "addccf54f19c385a149401fe48338750e1b5f35c2575c203b11e503faeebaba7"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/mutant/SRR29623268.zip",
+      "bytes": 304609,
+      "sha256": "9ac009d4078e291a4332040d77baffed0d8b84a31f673dc3f7b54b194f9b0fd2"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/mutant/SRR29623270.zip",
+      "bytes": 261939,
+      "sha256": "388f0287a244ca8d8517dd6c5e59b526f1c6c25922cd6859790c1152cef9f4e6"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/mutant/SRR29623271.zip",
+      "bytes": 297185,
+      "sha256": "5ef4a5c05f5b713f4a736794e69e1b740e90adb768912c93467360a337cf3a9e"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/mutant/SRR29623272.zip",
+      "bytes": 202707,
+      "sha256": "3dcfa5d11cb9d35eff39d72749b257e49947f832a2e25bd62f2af77f6695f559"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/mutant/SRR29623273.zip",
+      "bytes": 99118,
+      "sha256": "a12c262192a97e045391bbb6027749ea686d9230c498e75d062520c6817ca516"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/mutant/SRR29623274.zip",
+      "bytes": 84897,
+      "sha256": "971778ab6d7d38423869146f42f02f5203f09b6e2e9958d3cad99df428977af1"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/programmed/SRR29623265.zip",
+      "bytes": 208258,
+      "sha256": "36a5d0b9a7cae3f806ea0611901272ec08b40bdbc9907c623e39743a5dc66f6d"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/programmed/SRR29623266.zip",
+      "bytes": 167185,
+      "sha256": "6c4db21ea67c3d00ec0062c51c3ee99cb560d48b3070e5f83ba00032b0d09985"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/programmed/SRR29623267.zip",
+      "bytes": 271398,
+      "sha256": "8e2a0191bfe555903e58c4a3b05681d57de3ca8b5a24afe2331cccc1a3685be0"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/programmed/SRR29623268.zip",
+      "bytes": 322340,
+      "sha256": "95c2fb5c5acd6eca78ab848abeb489062220268f486a980443a468c0a6a63632"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/programmed/SRR29623270.zip",
+      "bytes": 256525,
+      "sha256": "ad1c216918c917761442e3e86e9996f8f75a0be8dafb7356b7999f06e8c71463"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/programmed/SRR29623271.zip",
+      "bytes": 291254,
+      "sha256": "04e78ba9cf33748cce7d804051e922fc85218af89927833d6ea009d8c400b731"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/programmed/SRR29623272.zip",
+      "bytes": 197797,
+      "sha256": "2a2f69ee85a13e076fbe9585a6a0d0bb1bb09509af58f66c69a6aa750f8e202f"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/programmed/SRR29623273.zip",
+      "bytes": 101592,
+      "sha256": "2c751c49df0e7eee4163af57b3336889b9670386b7cbf010fdd36b69c72e5239"
+    },
+    {
+      "path": "raw_replay/inputs/alleles/programmed/SRR29623274.zip",
+      "bytes": 87119,
+      "sha256": "7888e32bd762478ff78a7e67a79860c23d329b7b24c83b71b268581b3d83c766"
+    },
+    {
+      "path": "raw_replay/inputs/fastq/SRR29623265.fastq.gz",
+      "bytes": 1637078,
+      "sha256": "e08c98ebdceb3745b17ca8f92be45900385623c8499f4cbaa63af4dac15c01ae"
+    },
+    {
+      "path": "raw_replay/inputs/fastq/SRR29623266.fastq.gz",
+      "bytes": 1106358,
+      "sha256": "44acba4f80562185c7f3720f500106e4797df1bb5a7bcb182e1225cdb3a89bf7"
+    },
+    {
+      "path": "raw_replay/inputs/fastq/SRR29623267.fastq.gz",
+      "bytes": 2114900,
+      "sha256": "e26c858bf862b755bf333dd7ba9810bf9926ffc2e3d5652c19417adb83e81b16"
+    },
+    {
+      "path": "raw_replay/inputs/fastq/SRR29623268.fastq.gz",
+      "bytes": 2361721,
+      "sha256": "5bcdc1e06d0fcabe90c1e40f03725593aea9c7d4d8d2951e00bf93e4e118ec18"
+    },
+    {
+      "path": "raw_replay/inputs/fastq/SRR29623270.fastq.gz",
+      "bytes": 1220961,
+      "sha256": "25b464764843cb52616451bce61b4a2fb15ca3f41ab275308eee05349eb2ad67"
+    },
+    {
+      "path": "raw_replay/inputs/fastq/SRR29623271.fastq.gz",
+      "bytes": 1583216,
+      "sha256": "af323c3bf66ec6ced0ba12d746d3bcbb03f74ca09788cd1cb9138905687d129c"
+    },
+    {
+      "path": "raw_replay/inputs/fastq/SRR29623272.fastq.gz",
+      "bytes": 2038495,
+      "sha256": "02c9293171e656fedaab5abfeefc1d7683e7d0a25eaa05e13deca2a330420b09"
+    },
+    {
+      "path": "raw_replay/inputs/fastq/SRR29623273.fastq.gz",
+      "bytes": 1665835,
+      "sha256": "92bfda645464e561adf6a8c1f308b57530e400ecc64da1a42fcc494687d247d6"
+    },
+    {
+      "path": "raw_replay/inputs/fastq/SRR29623274.fastq.gz",
+      "bytes": 1340815,
+      "sha256": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736"
+    },
+    {
+      "path": "raw_replay/metadata/CRISPRESSO_DESIGN_ORIGINAL.json",
+      "bytes": 5109,
+      "sha256": "e51802cebb871f82b0d0f8b8bd734dcd9292d2ff0cf1f1091d4ab0bd49f6f4cc"
+    },
+    {
+      "path": "raw_replay/metadata/REFERENCE.json",
+      "bytes": 799,
+      "sha256": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849"
+    },
+    {
+      "path": "raw_replay/metadata/REFERENCE_PROGRAMMED.json",
+      "bytes": 954,
+      "sha256": "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad"
+    },
+    {
+      "path": "raw_replay/metadata/RUNS.json",
+      "bytes": 3234,
+      "sha256": "d86a1059e7517e9fa34d0f25a458164b40d84abd6e9aad3c56ecfb93ec9868b1"
+    },
+    {
+      "path": "raw_replay/run_raw_replay.py",
+      "bytes": 16522,
+      "sha256": "6567d059cd5cd753c666ed467faca16e12a23c88361b04a2c84e1258770e9490"
+    },
+    {
+      "path": "tables/Table_S10_Resolved_Label_Revocations.csv",
+      "bytes": 3776,
+      "sha256": "13195150c788d3c716dcd3fa2a0975fe504c091900af3550ac49c78370b5b371"
+    },
+    {
+      "path": "tables/Table_S1_Primary_Run_Manifest.csv",
+      "bytes": 1078,
+      "sha256": "1175870205d08647eb47c0e440a7d09e5d4a1b99bcf5f66c61756c863c4e47ff"
+    },
+    {
+      "path": "tables/Table_S7_Coding_Witness_Counts.csv",
+      "bytes": 4258,
+      "sha256": "e32593f3d09b7c5947b0756126391c1a25230a02a6e89eb87f4bf72ed6f39f48"
+    },
+    {
+      "path": "tables/Table_S8_Coding_Witness_Contrasts.csv",
+      "bytes": 3408,
+      "sha256": "b8cc585373bd074c225bdc836af3957621a5426b7cc80a566a80c6583997a967"
+    }
+  ],
+  "file_count": 65
+}

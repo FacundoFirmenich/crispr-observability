@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "method": "All four final vectorPDFpages rendered with pdftoppm and visually inspected individually. Source originals inspected first for numerical/semantic correspondence.",
+  "reviewer": "figures agent",
+  "python_version": "3.12.14",
+  "figures": [
+    {
+      "figure": 1,
+      "pdf_sha256": "0dbe23b005796020cf4a29828624ee691a98c0849bb6c9edaff02b52be3a6093",
+      "rendered_page": "verification/fig1.png",
+      "comment": "All three labeled half-open anchors and 224nt read-end line visible; shifted edge anchor crosses read end. No clipping or overlap.",
+      "status": "PASS"
+    },
+    {
+      "figure": 2,
+      "pdf_sha256": "ba5f325efa2d5207e2964a09c2a4adee0fed31713249230a1d5f6e6c8d26d774",
+      "rendered_page": "verification/fig2.png",
+      "comment": "All21intervals and caps visible. Three common-axis panels extend to45 including CFB-26-02upper endpoints38.49562/38.54254. Labels legible.",
+      "status": "PASS"
+    },
+    {
+      "figure": 3,
+      "pdf_sha256": "ca507aaa8a95f0d301fc7d8f54b56bbe7f26cc7d332bb7a85e73bd2ce9c7e587",
+      "rendered_page": "verification/fig3.png",
+      "comment": "All7full-domainintervals visible; lowerpanelshows3targetrows with exactvetoendpoints. Bothaxes and allcaps legible, no overlap.",
+      "status": "PASS"
+    },
+    {
+      "figure": 4,
+      "pdf_sha256": "380d1db088f1be4e57c3f58b57697e6b78193863addf38f78ee28199f1abab67",
+      "rendered_page": "verification/fig4.png",
+      "comment": "Referencechangebars34/58/45 clear; all4witnesscategories and values83/1996/4202/170725 clear. Logscale labeled, no clipping or overlap.",
+      "status": "PASS"
+    }
+  ]
+}

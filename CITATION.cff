@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: >-
+  Cite this software with its version and exact Git commit. The manuscript is a
+  distinct scientific object; no DOI is assigned to this repository.
+type: software
+title: "CRISPR observability: finite-universe bounds and sequence-correspondence checks"
+version: "0.3.2"
+authors:
+  - family-names: "Firmenich"
+    given-names: "Facundo"
+    orcid: "https://orcid.org/0009-0002-6578-3811"
+    email: "f.firmenich@cedesur.org"
+    affiliation: >-
+      Centro de Estudios del Sur (CEDESUR), Spain and Argentina. For this project,
+      academically affiliated with Universidad Nacional Arturo Jauretche (UNAJ),
+      Av. Calchaquí 6200, Florencio Varela, Provincia de Buenos Aires, 1888,
+      Argentina; Universitat de Barcelona (UB), Gran Via de les Corts Catalanes,
+      585, 08007 Barcelona, Spain
+abstract: >-
+  Figures, derived-table arithmetic checks, and raw-observer reconstruction
+  for genome editing readouts. Manuscript and supplement are private. The
+  offline runner reconstructs target observers and a common coding-string
+  witness from nine authentic FASTQ streams using eighteen frozen alignment
+  tables. It verifies conditional finite-universe bounds, contrasts, withdrawal
+  certificates and exact agreement with three preserved result objects. This
+  computational replay does not calibrate molecular accuracy, execute fresh
+  alignment or establish independent biological replication. The original
+  biological experiments are attributable to Sousa et al. Code licensing is
+  scoped in metadata/LICENSE_SCOPE.json; data and scientific text retain
+  separate terms.
+keywords:
+  - "genome editing readouts"
+  - "observability"
+  - "partial identification"
+  - "sequence correspondence"
+  - "CFTR F508del"
+
+repository-code: "https://github.com/FacundoFirmenich/crispr-observability"
+url: "https://github.com/FacundoFirmenich/crispr-observability"
+date-released: "2026-10-28"

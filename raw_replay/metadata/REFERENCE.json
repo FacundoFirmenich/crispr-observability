@@ -1,0 +1,15 @@
+{
+  "sequence": "AGGGTCCAGACTTCACTTCTAATGATGATTATGGGAGAACTGGAGCCTTCAGAGGGTAAAATTAAGCACAGTGGAAGAATTTCATTCTGTTCTCAGTTTTCCTGGATTATGCCTGGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATGAATATAGATACAGAAGCGTCATCAAAGCATGCCAACTAGAAGAGGTAAGAAACTATGTGAAAACTTTTTG",
+  "length": 224,
+  "source": "SRR29623274 untreated full raw modal sequence, first tie resolved lexicographically if needed",
+  "modal_count": 279,
+  "core_start_0": 114,
+  "core_end_exclusive_0": 151,
+  "coding_end_exclusive_0": 153,
+  "left_boundary_flank_0": 113,
+  "right_boundary_flank_0": 153,
+  "mutant_core": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATG",
+  "exact_programmed_core": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACG",
+  "native_peptide": "GTIKENIIFGVSYD",
+  "source_sha256": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736"
+}

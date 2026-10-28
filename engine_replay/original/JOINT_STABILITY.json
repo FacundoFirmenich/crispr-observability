@@ -1,0 +1,1779 @@
+[
+  {
+    "run": "SRR29623274",
+    "scope": "mutant_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 13762,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 13548,
+      "all_U": 214
+    }
+  },
+  {
+    "run": "SRR29623274",
+    "scope": "mutant_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 13762,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 13547,
+      "all_U": 214,
+      "all_E": 1
+    }
+  },
+  {
+    "run": "SRR29623274",
+    "scope": "programmed_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 13762,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 13549,
+      "all_U": 213
+    }
+  },
+  {
+    "run": "SRR29623274",
+    "scope": "programmed_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 13762,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 13548,
+      "all_U": 213,
+      "all_E": 1
+    }
+  },
+  {
+    "run": "SRR29623274",
+    "scope": "both_references_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 13762,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 13548,
+      "all_U": 213,
+      "resolution_disagreement": 1
+    }
+  },
+  {
+    "run": "SRR29623274",
+    "scope": "both_references_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 13762,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 13547,
+      "all_U": 213,
+      "resolution_disagreement": 1,
+      "all_E": 1
+    }
+  },
+  {
+    "run": "SRR29623274",
+    "scope": "both_references_all_profiles",
+    "event": "CTT_plus_full_SE2",
+    "N": 13762,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 13548,
+      "all_U": 213,
+      "resolution_disagreement": 1
+    }
+  },
+  {
+    "run": "SRR29623274",
+    "scope": "both_references_all_profiles",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 13762,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 13547,
+      "all_U": 213,
+      "resolution_disagreement": 1,
+      "all_E": 1
+    }
+  },
+  {
+    "run": "SRR29623266",
+    "scope": "mutant_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 13617,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 13490,
+      "all_U": 125,
+      "resolution_disagreement": 2
+    }
+  },
+  {
+    "run": "SRR29623266",
+    "scope": "mutant_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 13617,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 13490,
+      "all_U": 125,
+      "resolution_disagreement": 2
+    }
+  },
+  {
+    "run": "SRR29623266",
+    "scope": "programmed_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 13617,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 13453,
+      "all_U": 125,
+      "resolution_disagreement": 39
+    }
+  },
+  {
+    "run": "SRR29623266",
+    "scope": "programmed_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 13617,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 13453,
+      "all_U": 125,
+      "resolution_disagreement": 39
+    }
+  },
+  {
+    "run": "SRR29623266",
+    "scope": "both_references_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 13617,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 13453,
+      "all_U": 125,
+      "resolution_disagreement": 39
+    }
+  },
+  {
+    "run": "SRR29623266",
+    "scope": "both_references_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 13617,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 13453,
+      "all_U": 125,
+      "resolution_disagreement": 39
+    }
+  },
+  {
+    "run": "SRR29623266",
+    "scope": "both_references_all_profiles",
+    "event": "CTT_plus_full_SE2",
+    "N": 13617,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 13453,
+      "all_U": 125,
+      "resolution_disagreement": 39
+    }
+  },
+  {
+    "run": "SRR29623266",
+    "scope": "both_references_all_profiles",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 13617,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 13453,
+      "all_U": 125,
+      "resolution_disagreement": 39
+    }
+  },
+  {
+    "run": "SRR29623268",
+    "scope": "mutant_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 29956,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 29651,
+      "all_U": 298,
+      "resolution_disagreement": 7
+    }
+  },
+  {
+    "run": "SRR29623268",
+    "scope": "mutant_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 29956,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 29651,
+      "all_U": 298,
+      "resolution_disagreement": 7
+    }
+  },
+  {
+    "run": "SRR29623268",
+    "scope": "programmed_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 29956,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 29580,
+      "all_U": 297,
+      "resolution_disagreement": 79
+    }
+  },
+  {
+    "run": "SRR29623268",
+    "scope": "programmed_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 29956,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 29580,
+      "all_U": 297,
+      "resolution_disagreement": 79
+    }
+  },
+  {
+    "run": "SRR29623268",
+    "scope": "both_references_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 29956,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 29580,
+      "all_U": 297,
+      "resolution_disagreement": 79
+    }
+  },
+  {
+    "run": "SRR29623268",
+    "scope": "both_references_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 29956,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 29580,
+      "all_U": 297,
+      "resolution_disagreement": 79
+    }
+  },
+  {
+    "run": "SRR29623268",
+    "scope": "both_references_all_profiles",
+    "event": "CTT_plus_full_SE2",
+    "N": 29956,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 29580,
+      "all_U": 297,
+      "resolution_disagreement": 79
+    }
+  },
+  {
+    "run": "SRR29623268",
+    "scope": "both_references_all_profiles",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 29956,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 29580,
+      "all_U": 297,
+      "resolution_disagreement": 79
+    }
+  },
+  {
+    "run": "SRR29623273",
+    "scope": "mutant_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 17177,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 16876,
+      "all_U": 299,
+      "all_E": 2
+    }
+  },
+  {
+    "run": "SRR29623273",
+    "scope": "mutant_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 17177,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 16876,
+      "all_U": 299,
+      "all_E": 2
+    }
+  },
+  {
+    "run": "SRR29623273",
+    "scope": "programmed_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 17177,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 16876,
+      "all_U": 298,
+      "all_E": 2,
+      "resolution_disagreement": 1
+    }
+  },
+  {
+    "run": "SRR29623273",
+    "scope": "programmed_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 17177,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 16876,
+      "all_U": 298,
+      "all_E": 2,
+      "resolution_disagreement": 1
+    }
+  },
+  {
+    "run": "SRR29623273",
+    "scope": "both_references_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 17177,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 16876,
+      "all_U": 298,
+      "all_E": 2,
+      "resolution_disagreement": 1
+    }
+  },
+  {
+    "run": "SRR29623273",
+    "scope": "both_references_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 17177,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 16876,
+      "all_U": 298,
+      "all_E": 2,
+      "resolution_disagreement": 1
+    }
+  },
+  {
+    "run": "SRR29623273",
+    "scope": "both_references_all_profiles",
+    "event": "CTT_plus_full_SE2",
+    "N": 17177,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 16876,
+      "all_U": 298,
+      "all_E": 2,
+      "resolution_disagreement": 1
+    }
+  },
+  {
+    "run": "SRR29623273",
+    "scope": "both_references_all_profiles",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 17177,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 16876,
+      "all_U": 298,
+      "all_E": 2,
+      "resolution_disagreement": 1
+    }
+  },
+  {
+    "run": "SRR29623265",
+    "scope": "mutant_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 21041,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 20843,
+      "all_U": 193,
+      "resolution_disagreement": 5
+    }
+  },
+  {
+    "run": "SRR29623265",
+    "scope": "mutant_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 21041,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 20843,
+      "all_U": 193,
+      "resolution_disagreement": 5
+    }
+  },
+  {
+    "run": "SRR29623265",
+    "scope": "programmed_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 21041,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 20816,
+      "all_U": 193,
+      "resolution_disagreement": 32
+    }
+  },
+  {
+    "run": "SRR29623265",
+    "scope": "programmed_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 21041,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 20816,
+      "all_U": 193,
+      "resolution_disagreement": 32
+    }
+  },
+  {
+    "run": "SRR29623265",
+    "scope": "both_references_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 21041,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 20816,
+      "all_U": 193,
+      "resolution_disagreement": 32
+    }
+  },
+  {
+    "run": "SRR29623265",
+    "scope": "both_references_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 21041,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 20816,
+      "all_U": 193,
+      "resolution_disagreement": 32
+    }
+  },
+  {
+    "run": "SRR29623265",
+    "scope": "both_references_all_profiles",
+    "event": "CTT_plus_full_SE2",
+    "N": 21041,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 20816,
+      "all_U": 193,
+      "resolution_disagreement": 32
+    }
+  },
+  {
+    "run": "SRR29623265",
+    "scope": "both_references_all_profiles",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 21041,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 20816,
+      "all_U": 193,
+      "resolution_disagreement": 32
+    }
+  },
+  {
+    "run": "SRR29623267",
+    "scope": "mutant_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 27024,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 26782,
+      "all_U": 233,
+      "resolution_disagreement": 9
+    }
+  },
+  {
+    "run": "SRR29623267",
+    "scope": "mutant_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 27024,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 26782,
+      "all_U": 233,
+      "resolution_disagreement": 9
+    }
+  },
+  {
+    "run": "SRR29623267",
+    "scope": "programmed_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 27024,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 26735,
+      "all_U": 232,
+      "resolution_disagreement": 57
+    }
+  },
+  {
+    "run": "SRR29623267",
+    "scope": "programmed_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 27024,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 26735,
+      "all_U": 232,
+      "resolution_disagreement": 57
+    }
+  },
+  {
+    "run": "SRR29623267",
+    "scope": "both_references_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 27024,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 26735,
+      "all_U": 232,
+      "resolution_disagreement": 57
+    }
+  },
+  {
+    "run": "SRR29623267",
+    "scope": "both_references_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 27024,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 26735,
+      "all_U": 232,
+      "resolution_disagreement": 57
+    }
+  },
+  {
+    "run": "SRR29623267",
+    "scope": "both_references_all_profiles",
+    "event": "CTT_plus_full_SE2",
+    "N": 27024,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 26735,
+      "all_U": 232,
+      "resolution_disagreement": 57
+    }
+  },
+  {
+    "run": "SRR29623267",
+    "scope": "both_references_all_profiles",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 27024,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 26735,
+      "all_U": 232,
+      "resolution_disagreement": 57
+    }
+  },
+  {
+    "run": "SRR29623272",
+    "scope": "mutant_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 20573,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 16334,
+      "all_E": 3622,
+      "all_U": 478,
+      "resolution_disagreement": 109,
+      "E_NE_conflict": 30
+    }
+  },
+  {
+    "run": "SRR29623272",
+    "scope": "mutant_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 20573,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 16310,
+      "all_E": 3646,
+      "all_U": 478,
+      "resolution_disagreement": 109,
+      "E_NE_conflict": 30
+    }
+  },
+  {
+    "run": "SRR29623272",
+    "scope": "programmed_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 20573,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 16332,
+      "all_E": 3704,
+      "all_U": 457,
+      "resolution_disagreement": 80
+    }
+  },
+  {
+    "run": "SRR29623272",
+    "scope": "programmed_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 20573,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 16308,
+      "all_E": 3728,
+      "all_U": 457,
+      "resolution_disagreement": 80
+    }
+  },
+  {
+    "run": "SRR29623272",
+    "scope": "both_references_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 20573,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 16307,
+      "all_E": 3622,
+      "all_U": 446,
+      "resolution_disagreement": 154,
+      "E_NE_conflict": 44
+    }
+  },
+  {
+    "run": "SRR29623272",
+    "scope": "both_references_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 20573,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 16283,
+      "all_E": 3646,
+      "all_U": 446,
+      "resolution_disagreement": 154,
+      "E_NE_conflict": 44
+    }
+  },
+  {
+    "run": "SRR29623272",
+    "scope": "both_references_all_profiles",
+    "event": "CTT_plus_full_SE2",
+    "N": 20573,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 16307,
+      "all_E": 3622,
+      "all_U": 446,
+      "resolution_disagreement": 154,
+      "E_NE_conflict": 44
+    }
+  },
+  {
+    "run": "SRR29623272",
+    "scope": "both_references_all_profiles",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 20573,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 16283,
+      "all_E": 3646,
+      "all_U": 446,
+      "resolution_disagreement": 154,
+      "E_NE_conflict": 44
+    }
+  },
+  {
+    "run": "SRR29623271",
+    "scope": "mutant_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 19184,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_U": 349,
+      "all_N": 12974,
+      "all_E": 5682,
+      "resolution_disagreement": 172,
+      "E_NE_conflict": 7
+    }
+  },
+  {
+    "run": "SRR29623271",
+    "scope": "mutant_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 19184,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_U": 349,
+      "all_N": 12906,
+      "all_E": 5750,
+      "resolution_disagreement": 172,
+      "E_NE_conflict": 7
+    }
+  },
+  {
+    "run": "SRR29623271",
+    "scope": "programmed_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 19184,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_U": 338,
+      "all_N": 12903,
+      "all_E": 5759,
+      "resolution_disagreement": 184
+    }
+  },
+  {
+    "run": "SRR29623271",
+    "scope": "programmed_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 19184,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_U": 338,
+      "all_N": 12834,
+      "all_E": 5828,
+      "resolution_disagreement": 184
+    }
+  },
+  {
+    "run": "SRR29623271",
+    "scope": "both_references_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 19184,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_U": 302,
+      "all_N": 12873,
+      "all_E": 5682,
+      "resolution_disagreement": 265,
+      "E_NE_conflict": 62
+    }
+  },
+  {
+    "run": "SRR29623271",
+    "scope": "both_references_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 19184,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_U": 302,
+      "all_N": 12804,
+      "all_E": 5750,
+      "resolution_disagreement": 265,
+      "E_NE_conflict": 63
+    }
+  },
+  {
+    "run": "SRR29623271",
+    "scope": "both_references_all_profiles",
+    "event": "CTT_plus_full_SE2",
+    "N": 19184,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_U": 302,
+      "all_N": 12873,
+      "all_E": 5682,
+      "resolution_disagreement": 265,
+      "E_NE_conflict": 62
+    }
+  },
+  {
+    "run": "SRR29623271",
+    "scope": "both_references_all_profiles",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 19184,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_U": 302,
+      "all_N": 12804,
+      "all_E": 5750,
+      "resolution_disagreement": 265,
+      "E_NE_conflict": 63
+    }
+  },
+  {
+    "run": "SRR29623270",
+    "scope": "mutant_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 14672,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 10541,
+      "all_U": 239,
+      "all_E": 3788,
+      "resolution_disagreement": 93,
+      "E_NE_conflict": 11
+    }
+  },
+  {
+    "run": "SRR29623270",
+    "scope": "mutant_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 14672,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70"
+    ],
+    "counts": {
+      "all_N": 10506,
+      "all_U": 239,
+      "all_E": 3823,
+      "resolution_disagreement": 93,
+      "E_NE_conflict": 11
+    }
+  },
+  {
+    "run": "SRR29623270",
+    "scope": "programmed_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 14672,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 10473,
+      "all_U": 213,
+      "all_E": 3844,
+      "resolution_disagreement": 142
+    }
+  },
+  {
+    "run": "SRR29623270",
+    "scope": "programmed_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 14672,
+    "profiles": [
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 10437,
+      "all_U": 213,
+      "all_E": 3879,
+      "resolution_disagreement": 142,
+      "E_NE_conflict": 1
+    }
+  },
+  {
+    "run": "SRR29623270",
+    "scope": "both_references_OAT",
+    "event": "CTT_plus_full_SE2",
+    "N": 14672,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 10459,
+      "all_U": 200,
+      "all_E": 3788,
+      "resolution_disagreement": 170,
+      "E_NE_conflict": 55
+    }
+  },
+  {
+    "run": "SRR29623270",
+    "scope": "both_references_OAT",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 14672,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70"
+    ],
+    "counts": {
+      "all_N": 10423,
+      "all_U": 200,
+      "all_E": 3823,
+      "resolution_disagreement": 170,
+      "E_NE_conflict": 56
+    }
+  },
+  {
+    "run": "SRR29623270",
+    "scope": "both_references_all_profiles",
+    "event": "CTT_plus_full_SE2",
+    "N": 14672,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 10459,
+      "all_U": 200,
+      "all_E": 3788,
+      "resolution_disagreement": 170,
+      "E_NE_conflict": 55
+    }
+  },
+  {
+    "run": "SRR29623270",
+    "scope": "both_references_all_profiles",
+    "event": "native_local_peptide_all_observed_sequences",
+    "N": 14672,
+    "profiles": [
+      "mutant/baseline",
+      "mutant/extend_m1",
+      "mutant/extend_m4",
+      "mutant/open_m10",
+      "mutant/open_m30",
+      "mutant/score_50",
+      "mutant/score_70",
+      "mutant/stock_default_no_guide",
+      "programmed/baseline",
+      "programmed/extend_m1",
+      "programmed/extend_m4",
+      "programmed/open_m10",
+      "programmed/open_m30",
+      "programmed/score_50",
+      "programmed/score_70",
+      "programmed/stock_default_no_guide"
+    ],
+    "counts": {
+      "all_N": 10423,
+      "all_U": 200,
+      "all_E": 3823,
+      "resolution_disagreement": 170,
+      "E_NE_conflict": 56
+    }
+  }
+]

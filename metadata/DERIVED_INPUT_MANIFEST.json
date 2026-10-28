@@ -1,0 +1,54 @@
+{
+  "edition": "MP02",
+  "version": "0.2.0",
+  "scope": "Four derived CSV files, not original reads or the complete analytical inputs.",
+  "source_bioproject": "PRJNA1055086",
+  "source_publication_DOI": "10.1038/s41551-024-01233-3",
+  "source_experimental_attribution": "Sousa et al.; no experiments or editor improvements reassigned.",
+  "raw_FASTQ_included": false,
+  "files": [
+    {
+      "path": "tables/Table_S1_Primary_Run_Manifest.csv",
+      "source": "MP01 selected review candidate/tables/Table_S1_Primary_Run_Manifest.csv",
+      "bytes": 1078,
+      "sha256": "1175870205d08647eb47c0e440a7d09e5d4a1b99bcf5f66c61756c863c4e47ff",
+      "transformation": "byte_identical_copy",
+      "license_assigned": null,
+      "rights_status": "PENDING_DATA_RIGHTS_REVIEW; outside proposed original-code MIT"
+    },
+    {
+      "path": "tables/Table_S7_Coding_Witness_Counts.csv",
+      "source": "MP01 selected review candidate/tables/Table_S7_Coding_Witness_Counts.csv",
+      "bytes": 4258,
+      "sha256": "e32593f3d09b7c5947b0756126391c1a25230a02a6e89eb87f4bf72ed6f39f48",
+      "transformation": "byte_identical_copy",
+      "license_assigned": null,
+      "rights_status": "PENDING_DATA_RIGHTS_REVIEW; outside proposed original-code MIT"
+    },
+    {
+      "path": "tables/Table_S8_Coding_Witness_Contrasts.csv",
+      "source": "MP01 selected review candidate/tables/Table_S8_Coding_Witness_Contrasts.csv",
+      "bytes": 3408,
+      "sha256": "b8cc585373bd074c225bdc836af3957621a5426b7cc80a566a80c6583997a967",
+      "transformation": "byte_identical_copy",
+      "license_assigned": null,
+      "rights_status": "PENDING_DATA_RIGHTS_REVIEW; outside proposed original-code MIT"
+    },
+    {
+      "path": "tables/Table_S10_Resolved_Label_Revocations.csv",
+      "source": "MP01 selected review candidate/tables/Table_S10_Resolved_Label_Revocations.csv",
+      "bytes": 3776,
+      "sha256": "13195150c788d3c716dcd3fa2a0975fe504c091900af3550ac49c78370b5b371",
+      "transformation": "byte_identical_copy",
+      "license_assigned": null,
+      "rights_status": "PENDING_DATA_RIGHTS_REVIEW; outside proposed original-code MIT"
+    }
+  ],
+  "inherited_checker": {
+    "path": "code/check_selected_p1_tables.py",
+    "sha256": "0d3037853a11df57644f8ef929fa508b11a6e578c592395370261f1f03c2a301",
+    "source": "MP01 selected candidate/code/check_selected_p1_tables.py",
+    "transformation": "byte_identical_copy",
+    "bytes": 16873
+  }
+}

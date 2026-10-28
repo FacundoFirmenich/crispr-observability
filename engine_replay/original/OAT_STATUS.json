@@ -1,0 +1,7 @@
+{
+  "state": "COMPLETED",
+  "jobs": 108,
+  "workers": 3,
+  "utc": "2026-10-28T05:45:26.429940+00:00",
+  "method": "staged output + gzip/zip/raw identity verification + fsync + final hash verification"
+}

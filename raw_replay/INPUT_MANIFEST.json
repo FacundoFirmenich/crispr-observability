@@ -1,0 +1,477 @@
+{
+  "schema": "P1_RAW_REPLAY_INPUTS/1",
+  "version": "0.1.0",
+  "packaged_source_root": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project",
+  "scientific_scope": {
+    "observers_from_raw": true,
+    "projection_from_frozen_alignments": true,
+    "CRISPResso_realignment": false,
+    "historical_training": false,
+    "independent_human": false,
+    "new_biological_observations": false
+  },
+  "attribution": {
+    "experiment": "Sousa et al., Nature Biomedical Engineering, doi:10.1038/s41551-024-01233-3",
+    "BioProject": "PRJNA1055086",
+    "programme": "Facundo Firmenich P1/M1-M3/M8",
+    "frozen_alignment_engine": "CRISPResso2 2.3.4; engine not redistributed or rerun"
+  },
+  "rights_scope": "Private research evidence package. Code licensing must not extend to source FASTQ or frozen derived tables. See DATA_NOTICE.md; no general MIT grant is made.",
+  "algorithm_source_provenance": [
+    {
+      "source": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m1/separate_quality_geometry.py",
+      "size": 15071,
+      "sha256": "9859c64dfc0f8846012b2883a8093312d478b4e50cd82d5b789baf0392e94e7f",
+      "role": "historical_algorithm_contract_source_not_executed_by_this_runner"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/code/verify_m2.py",
+      "size": 4983,
+      "sha256": "f8d14a41b66fe560e0ae96dff3964a4e6b2a2583361422584a398dd04fa44a43",
+      "role": "historical_algorithm_contract_source_not_executed_by_this_runner"
+    },
+    {
+      "source": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m3/code/build_witness.py",
+      "size": 7793,
+      "sha256": "c24c32d5e37b8a972807904d90e5b36a744fc42025c42a79261f79c424d11903",
+      "role": "historical_algorithm_contract_source_not_executed_by_this_runner"
+    }
+  ],
+  "files": [
+    {
+      "path": "expected/M1_TARGET_COUNTS.json",
+      "size": 70039,
+      "sha256": "3384449b53847526471ad4b6292e8287413317743418dea1098b9dda514243d0",
+      "role": "authentic_original_M1_result_subset_not_generated_by_this_runner",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "derived_from": [
+        {
+          "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m1/results/COUNTS.json",
+          "sha256": "4c6f641b618c6a26363127db7216185602376043351ad09249f0a5d43548cfcb"
+        }
+      ]
+    },
+    {
+      "path": "expected/RAW_UNIVERSE_IDENTITIES.json",
+      "size": 2334,
+      "sha256": "b4a0bac8600d601ad68379b70a4c67a84c505b5eead8bb917b8e39ef021b0d27",
+      "role": "original_logical_stream_identities_and_packaged_source_file_hashes",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "derived_from": [
+        {
+          "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/DESIGN.json",
+          "sha256": "e51802cebb871f82b0d0f8b8bd734dcd9292d2ff0cf1f1091d4ab0bd49f6f4cc"
+        }
+      ]
+    },
+    {
+      "path": "expected/WITNESS_BOUNDS.json",
+      "size": 21489,
+      "sha256": "251124c7dc4b8b179fa16ad8c7f2ebb9a64302778e3d4459e6f52330f7e8b022",
+      "role": "authentic_original_M3_witness_results_and_M2_frozen_projection_abundances",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "derived_from": [
+        {
+          "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m3/results/WITNESS_COUNTS.json",
+          "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+        },
+        {
+          "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m3/results/WITNESS_CONTRASTS.json",
+          "sha256": "29029bfbf54e17386958bd9362467105bf0d617043b31a5d8c541b3db6589663"
+        },
+        {
+          "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m3/results/WITNESS_DOMAINS.json",
+          "sha256": "e32db67b6085d13cd8b17441f284c8ec514be3229887736559426a2c45fa6051"
+        },
+        {
+          "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/results/PORTABLE_VERIFICATION.json",
+          "sha256": "ce7f373a793258d339d429e14495c788a8639150cc6e146515271d9752f288ac"
+        }
+      ]
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623265.zip",
+      "size": 197255,
+      "sha256": "dd57b92e4af5568d295c0a75e0b68b616079d0194421222a7cc6acfd7ffc833b",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip",
+        "size": 197255,
+        "sha256": "dd57b92e4af5568d295c0a75e0b68b616079d0194421222a7cc6acfd7ffc833b"
+      }
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623266.zip",
+      "size": 158682,
+      "sha256": "cb22b15cb8cd958f0d0a052a0aa2b1f038e0025171bae6d8426d5000282d8622",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip",
+        "size": 158682,
+        "sha256": "cb22b15cb8cd958f0d0a052a0aa2b1f038e0025171bae6d8426d5000282d8622"
+      }
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623267.zip",
+      "size": 257556,
+      "sha256": "addccf54f19c385a149401fe48338750e1b5f35c2575c203b11e503faeebaba7",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip",
+        "size": 257556,
+        "sha256": "addccf54f19c385a149401fe48338750e1b5f35c2575c203b11e503faeebaba7"
+      }
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623268.zip",
+      "size": 304609,
+      "sha256": "9ac009d4078e291a4332040d77baffed0d8b84a31f673dc3f7b54b194f9b0fd2",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip",
+        "size": 304609,
+        "sha256": "9ac009d4078e291a4332040d77baffed0d8b84a31f673dc3f7b54b194f9b0fd2"
+      }
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623270.zip",
+      "size": 261939,
+      "sha256": "388f0287a244ca8d8517dd6c5e59b526f1c6c25922cd6859790c1152cef9f4e6",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip",
+        "size": 261939,
+        "sha256": "388f0287a244ca8d8517dd6c5e59b526f1c6c25922cd6859790c1152cef9f4e6"
+      }
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623271.zip",
+      "size": 297185,
+      "sha256": "5ef4a5c05f5b713f4a736794e69e1b740e90adb768912c93467360a337cf3a9e",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip",
+        "size": 297185,
+        "sha256": "5ef4a5c05f5b713f4a736794e69e1b740e90adb768912c93467360a337cf3a9e"
+      }
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623272.zip",
+      "size": 202707,
+      "sha256": "3dcfa5d11cb9d35eff39d72749b257e49947f832a2e25bd62f2af77f6695f559",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip",
+        "size": 202707,
+        "sha256": "3dcfa5d11cb9d35eff39d72749b257e49947f832a2e25bd62f2af77f6695f559"
+      }
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623273.zip",
+      "size": 99118,
+      "sha256": "a12c262192a97e045391bbb6027749ea686d9230c498e75d062520c6817ca516",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip",
+        "size": 99118,
+        "sha256": "a12c262192a97e045391bbb6027749ea686d9230c498e75d062520c6817ca516"
+      }
+    },
+    {
+      "path": "inputs/alleles/mutant/SRR29623274.zip",
+      "size": 84897,
+      "sha256": "971778ab6d7d38423869146f42f02f5203f09b6e2e9958d3cad99df428977af1",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip",
+        "size": 84897,
+        "sha256": "971778ab6d7d38423869146f42f02f5203f09b6e2e9958d3cad99df428977af1"
+      }
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623265.zip",
+      "size": 208258,
+      "sha256": "36a5d0b9a7cae3f806ea0611901272ec08b40bdbc9907c623e39743a5dc66f6d",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip",
+        "size": 208258,
+        "sha256": "36a5d0b9a7cae3f806ea0611901272ec08b40bdbc9907c623e39743a5dc66f6d"
+      }
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623266.zip",
+      "size": 167185,
+      "sha256": "6c4db21ea67c3d00ec0062c51c3ee99cb560d48b3070e5f83ba00032b0d09985",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip",
+        "size": 167185,
+        "sha256": "6c4db21ea67c3d00ec0062c51c3ee99cb560d48b3070e5f83ba00032b0d09985"
+      }
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623267.zip",
+      "size": 271398,
+      "sha256": "8e2a0191bfe555903e58c4a3b05681d57de3ca8b5a24afe2331cccc1a3685be0",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip",
+        "size": 271398,
+        "sha256": "8e2a0191bfe555903e58c4a3b05681d57de3ca8b5a24afe2331cccc1a3685be0"
+      }
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623268.zip",
+      "size": 322340,
+      "sha256": "95c2fb5c5acd6eca78ab848abeb489062220268f486a980443a468c0a6a63632",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip",
+        "size": 322340,
+        "sha256": "95c2fb5c5acd6eca78ab848abeb489062220268f486a980443a468c0a6a63632"
+      }
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623270.zip",
+      "size": 256525,
+      "sha256": "ad1c216918c917761442e3e86e9996f8f75a0be8dafb7356b7999f06e8c71463",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip",
+        "size": 256525,
+        "sha256": "ad1c216918c917761442e3e86e9996f8f75a0be8dafb7356b7999f06e8c71463"
+      }
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623271.zip",
+      "size": 291254,
+      "sha256": "04e78ba9cf33748cce7d804051e922fc85218af89927833d6ea009d8c400b731",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip",
+        "size": 291254,
+        "sha256": "04e78ba9cf33748cce7d804051e922fc85218af89927833d6ea009d8c400b731"
+      }
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623272.zip",
+      "size": 197797,
+      "sha256": "2a2f69ee85a13e076fbe9585a6a0d0bb1bb09509af58f66c69a6aa750f8e202f",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip",
+        "size": 197797,
+        "sha256": "2a2f69ee85a13e076fbe9585a6a0d0bb1bb09509af58f66c69a6aa750f8e202f"
+      }
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623273.zip",
+      "size": 101592,
+      "sha256": "2c751c49df0e7eee4163af57b3336889b9670386b7cbf010fdd36b69c72e5239",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip",
+        "size": 101592,
+        "sha256": "2c751c49df0e7eee4163af57b3336889b9670386b7cbf010fdd36b69c72e5239"
+      }
+    },
+    {
+      "path": "inputs/alleles/programmed/SRR29623274.zip",
+      "size": 87119,
+      "sha256": "7888e32bd762478ff78a7e67a79860c23d329b7b24c83b71b268581b3d83c766",
+      "role": "frozen_detailed_alignment_allele_table_not_engine",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip",
+        "size": 87119,
+        "sha256": "7888e32bd762478ff78a7e67a79860c23d329b7b24c83b71b268581b3d83c766"
+      }
+    },
+    {
+      "path": "inputs/fastq/SRR29623265.fastq.gz",
+      "size": 1637078,
+      "sha256": "e08c98ebdceb3745b17ca8f92be45900385623c8499f4cbaa63af4dac15c01ae",
+      "role": "authentic_original_FASTQ",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623265.fastq.gz",
+        "size": 1637078,
+        "sha256": "e08c98ebdceb3745b17ca8f92be45900385623c8499f4cbaa63af4dac15c01ae"
+      }
+    },
+    {
+      "path": "inputs/fastq/SRR29623266.fastq.gz",
+      "size": 1106358,
+      "sha256": "44acba4f80562185c7f3720f500106e4797df1bb5a7bcb182e1225cdb3a89bf7",
+      "role": "authentic_original_FASTQ",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623266.fastq.gz",
+        "size": 1106358,
+        "sha256": "44acba4f80562185c7f3720f500106e4797df1bb5a7bcb182e1225cdb3a89bf7"
+      }
+    },
+    {
+      "path": "inputs/fastq/SRR29623267.fastq.gz",
+      "size": 2114900,
+      "sha256": "e26c858bf862b755bf333dd7ba9810bf9926ffc2e3d5652c19417adb83e81b16",
+      "role": "authentic_original_FASTQ",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623267.fastq.gz",
+        "size": 2114900,
+        "sha256": "e26c858bf862b755bf333dd7ba9810bf9926ffc2e3d5652c19417adb83e81b16"
+      }
+    },
+    {
+      "path": "inputs/fastq/SRR29623268.fastq.gz",
+      "size": 2361721,
+      "sha256": "5bcdc1e06d0fcabe90c1e40f03725593aea9c7d4d8d2951e00bf93e4e118ec18",
+      "role": "authentic_original_FASTQ",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623268.fastq.gz",
+        "size": 2361721,
+        "sha256": "5bcdc1e06d0fcabe90c1e40f03725593aea9c7d4d8d2951e00bf93e4e118ec18"
+      }
+    },
+    {
+      "path": "inputs/fastq/SRR29623270.fastq.gz",
+      "size": 1220961,
+      "sha256": "25b464764843cb52616451bce61b4a2fb15ca3f41ab275308eee05349eb2ad67",
+      "role": "authentic_original_FASTQ",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623270.fastq.gz",
+        "size": 1220961,
+        "sha256": "25b464764843cb52616451bce61b4a2fb15ca3f41ab275308eee05349eb2ad67"
+      }
+    },
+    {
+      "path": "inputs/fastq/SRR29623271.fastq.gz",
+      "size": 1583216,
+      "sha256": "af323c3bf66ec6ced0ba12d746d3bcbb03f74ca09788cd1cb9138905687d129c",
+      "role": "authentic_original_FASTQ",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623271.fastq.gz",
+        "size": 1583216,
+        "sha256": "af323c3bf66ec6ced0ba12d746d3bcbb03f74ca09788cd1cb9138905687d129c"
+      }
+    },
+    {
+      "path": "inputs/fastq/SRR29623272.fastq.gz",
+      "size": 2038495,
+      "sha256": "02c9293171e656fedaab5abfeefc1d7683e7d0a25eaa05e13deca2a330420b09",
+      "role": "authentic_original_FASTQ",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623272.fastq.gz",
+        "size": 2038495,
+        "sha256": "02c9293171e656fedaab5abfeefc1d7683e7d0a25eaa05e13deca2a330420b09"
+      }
+    },
+    {
+      "path": "inputs/fastq/SRR29623273.fastq.gz",
+      "size": 1665835,
+      "sha256": "92bfda645464e561adf6a8c1f308b57530e400ecc64da1a42fcc494687d247d6",
+      "role": "authentic_original_FASTQ",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623273.fastq.gz",
+        "size": 1665835,
+        "sha256": "92bfda645464e561adf6a8c1f308b57530e400ecc64da1a42fcc494687d247d6"
+      }
+    },
+    {
+      "path": "inputs/fastq/SRR29623274.fastq.gz",
+      "size": 1340815,
+      "sha256": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736",
+      "role": "authentic_original_FASTQ",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/evidence/v22/v21/sources/fastq/SRR29623274.fastq.gz",
+        "size": 1340815,
+        "sha256": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736"
+      }
+    },
+    {
+      "path": "metadata/CRISPRESSO_DESIGN_ORIGINAL.json",
+      "size": 5109,
+      "sha256": "e51802cebb871f82b0d0f8b8bd734dcd9292d2ff0cf1f1091d4ab0bd49f6f4cc",
+      "role": "historical_alignment_configuration_not_a_current_execution",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/DESIGN.json",
+        "size": 5109,
+        "sha256": "e51802cebb871f82b0d0f8b8bd734dcd9292d2ff0cf1f1091d4ab0bd49f6f4cc"
+      }
+    },
+    {
+      "path": "metadata/REFERENCE.json",
+      "size": 799,
+      "sha256": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849",
+      "role": "frozen_observed_mutant_reference",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/REFERENCE.json",
+        "size": 799,
+        "sha256": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849"
+      }
+    },
+    {
+      "path": "metadata/REFERENCE_PROGRAMMED.json",
+      "size": 954,
+      "sha256": "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad",
+      "role": "frozen_programmed_sensitivity_reference",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "source": {
+        "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/REFERENCE_PROGRAMMED.json",
+        "size": 954,
+        "sha256": "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad"
+      }
+    },
+    {
+      "path": "metadata/RUNS.json",
+      "size": 3234,
+      "sha256": "d86a1059e7517e9fa34d0f25a458164b40d84abd6e9aad3c56ecfb93ec9868b1",
+      "role": "run_metadata_subset",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code.",
+      "derived_from": [
+        {
+          "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m2/DESIGN.json",
+          "sha256": "e51802cebb871f82b0d0f8b8bd734dcd9292d2ff0cf1f1091d4ab0bd49f6f4cc"
+        },
+        {
+          "path": "/workspace/scratch/61c50c721c17/publication_verification/P1/advance_m7/replay/project/advance_m1/results/COUNTS.json",
+          "sha256": "4c6f641b618c6a26363127db7216185602376043351ad09249f0a5d43548cfcb"
+        }
+      ]
+    },
+    {
+      "path": "run_raw_replay.py",
+      "size": 16522,
+      "sha256": "6567d059cd5cd753c666ed467faca16e12a23c88361b04a2c84e1258770e9490",
+      "role": "replay_code_new_minimal_contract_implementation",
+      "rights_scope": "No blanket code license applies; source/derived scientific data unless explicitly marked replay code."
+    }
+  ]
+}

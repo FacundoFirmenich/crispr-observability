@@ -1,0 +1,118 @@
+{
+  "version": "M2.0",
+  "created_utc": "2026-10-27T00:48:10.779027+00:00",
+  "status": "parameters fixed before CRISPResso2 outputs; retrospective sources and earlier observer results known",
+  "question": "Compare an unmodified external alignment engine with existing anchor observers at a matched finite raw denominator and a matched molecular event. Native modified statistics retained separately.",
+  "external_software": {
+    "name": "CRISPResso2",
+    "version": "2.3.4",
+    "tag": "v2.3.4",
+    "commit": "1fc4b629e5400a48d6569b0ab4b8d1766f33636f",
+    "unmodified": true
+  },
+  "scope": "nine unique primary CFB streams PE/mock/untreated; no trims; primary PE-mock and secondary PE-untreated; no new biological units",
+  "runs": [
+    {
+      "run_accession": "SRR29623274",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 1,
+      "raw_reads": 13762,
+      "sequence_quality_stream_sha256": "c1caa43cbb4aa3aea3da80ebb2d30eb0ed8491b880052823d7402e58d054621a"
+    },
+    {
+      "run_accession": "SRR29623266",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 2,
+      "raw_reads": 13617,
+      "sequence_quality_stream_sha256": "4d131cbd720c668ee4243c23babf04e70bddff1d1c6236f9ffc657927b224540"
+    },
+    {
+      "run_accession": "SRR29623268",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 3,
+      "raw_reads": 29956,
+      "sequence_quality_stream_sha256": "6cb79aa2fa59b9da78827e4f48e79825efbb5143da304b248d6fa1301c80a17b"
+    },
+    {
+      "run_accession": "SRR29623273",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 1,
+      "raw_reads": 17177,
+      "sequence_quality_stream_sha256": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0"
+    },
+    {
+      "run_accession": "SRR29623265",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 2,
+      "raw_reads": 21041,
+      "sequence_quality_stream_sha256": "a4f8f9822ae0e05dc4c1c345dd354182fc97574ea490362e857dea875802bf82"
+    },
+    {
+      "run_accession": "SRR29623267",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 3,
+      "raw_reads": 27024,
+      "sequence_quality_stream_sha256": "8fb1089651cfee5ea58340e5ba5dbf388948ac00b51a5ae880cdc9ff923559a0"
+    },
+    {
+      "run_accession": "SRR29623272",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 1,
+      "raw_reads": 20573,
+      "sequence_quality_stream_sha256": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5"
+    },
+    {
+      "run_accession": "SRR29623271",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 2,
+      "raw_reads": 19184,
+      "sequence_quality_stream_sha256": "b8ee1df0dcf47162402fa9c4a8d48285037a1d9893c1ede889d89ac09f00f28e"
+    },
+    {
+      "run_accession": "SRR29623270",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 3,
+      "raw_reads": 14672,
+      "sequence_quality_stream_sha256": "838daf32964c9016330e0686e2aed24f1cfca7af24a929295a140f0987f18aab"
+    }
+  ],
+  "quality": "External exact prefilter arithmetic mean Phred+33 over original entire raw read >=30. Excluded reads stay U within raw N. CRISPResso quality options zero; no trimming or N replacement.",
+  "alignment": {
+    "reference": "single modal observed untreated full-read reference; see REFERENCE.json",
+    "guide": null,
+    "min_score": 60,
+    "gap_open": -20,
+    "gap_extend": -2,
+    "gap_incentive": 0,
+    "quantification_window_coordinates": "114-152",
+    "exclude_left": 0,
+    "exclude_right": 0,
+    "processes": 1,
+    "detailed_alleles": true,
+    "fastq_output": true
+  },
+  "adapter": "Project aligned observed bases over reference core and first two right-motif bases. Include insertions between coding reference positions; insertion at left boundary included if after reference position start-1. Require observed ACGT bases at immediately flanking reference positions start-1 and coding_end_exclusive; all projected coding bases ACGT. Internal deletion columns omitted; end coverage/ambiguous bases =>U. No imputation of reference bases. Native event translates projected coding, full programmed event equals exact programmed core plus first two right-motif bases.",
+  "comparators": [
+    "target",
+    "broad_current",
+    "broad_edge",
+    "compatible_union"
+  ],
+  "comparisons": "All original raw read IDs; gate failures/not aligned/insufficient coverage remain U; E<->NE conflicts retained and investigated, not silently united. Full intervals exact Fraction.",
+  "limitations": [
+    "Reference chosen retrospectively from one observed control; no reference-free truth.",
+    "Native modified frequency and native local peptide are different estimands.",
+    "External pipeline agreement is computational concordance, not truth calibration.",
+    "No independent dataset, biological efficacy or population generalization.",
+    "Any adapter changes after results must be separate named sensitivity with reason and preserved original output."
+  ]
+}

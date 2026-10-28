@@ -1,0 +1,27 @@
+{
+  "scope": "Packaging inspection only; not an execution or reproduction claim.",
+  "records": [
+    {
+      "logical_source_path": "advance_m7/code/recheck_witness.py",
+      "bytes": 5096,
+      "sha256": "482a82b2af8d6615c5f7f750ba3606b1c1f407138dcf8946eb29bcab4c92bb0f",
+      "inspected_scope": "Raw-read and frozen-allele-table common coding witness reconstruction; no engine alignment.",
+      "source_script_bundled_here": false
+    },
+    {
+      "logical_source_path": "advance_m2/code/run_external.py",
+      "bytes": 3043,
+      "sha256": "5e30ac5d9ccc1a7c67a2222c7104ed23f136c42b5552d547f072cb329eab76c8",
+      "inspected_scope": "Fresh separately installed CRISPResso execution on original quality-filtered CFTR reads.",
+      "source_script_bundled_here": false
+    },
+    {
+      "logical_source_path": "S1-02/code/reproduce.py",
+      "bytes": 2807,
+      "sha256": "a8ab460df38090cbce126eba900523168eed6ceb26bd4541c2c07f132adf4795",
+      "inspected_scope": "Clean-directory regeneration from full frozen S1-02 sources; source alignment and merging explicitly not rerun.",
+      "source_script_bundled_here": false
+    }
+  ],
+  "scope_document": "docs/REPRODUCTION_SCOPE.md"
+}

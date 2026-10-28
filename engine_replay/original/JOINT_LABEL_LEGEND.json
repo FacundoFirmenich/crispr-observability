@@ -1,0 +1,26 @@
+{
+  "file": "JOINT_LABELS.jsonl.gz",
+  "unit": "one original raw read identified by run and read_id",
+  "profile_key": "reference/setting",
+  "two_character_label_order": [
+    "CTT_plus_full_SE2",
+    "native_local_peptide_all_observed_sequences"
+  ],
+  "alphabet": {
+    "E": "resolved event",
+    "N": "resolved non-event (NE in count tables)",
+    "U": "unresolved observation status"
+  },
+  "raw_quality_failures": "UU in every profile, retained in original raw N",
+  "OAT_profiles_per_reference": [
+    "baseline",
+    "open_m10",
+    "open_m30",
+    "extend_m1",
+    "extend_m4",
+    "score_50",
+    "score_70"
+  ],
+  "multiple_change_profile_separate_from_OAT": "stock_default_no_guide",
+  "limits": "Paired computational outcomes over the same raw records, not independent molecular truth or biological replication."
+}

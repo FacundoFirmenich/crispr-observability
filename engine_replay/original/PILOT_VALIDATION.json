@@ -1,0 +1,40 @@
+{
+  "state": "PASS",
+  "checks": [
+    {
+      "event": "CTT_plus_full_SE2",
+      "actual": {
+        "N": 20573,
+        "E": 3670,
+        "NE": 16405,
+        "U": 498
+      },
+      "frozen": {
+        "N": 20573,
+        "E": 3670,
+        "NE": 16405,
+        "U": 498
+      },
+      "match": true
+    },
+    {
+      "event": "native_local_peptide_all_observed_sequences",
+      "actual": {
+        "N": 20573,
+        "E": 3694,
+        "NE": 16381,
+        "U": 498
+      },
+      "frozen": {
+        "N": 20573,
+        "E": 3694,
+        "NE": 16381,
+        "U": 498
+      },
+      "match": true
+    },
+    {
+      "native_quantification_table_exact_match": true
+    }
+  ]
+}

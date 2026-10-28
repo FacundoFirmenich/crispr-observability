@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "pdf": "figures/fig1.pdf",
+      "page_count": 1,
+      "embedded_raster_images": 0,
+      "svg_embedded_images": 0,
+      "text": "205\n210\n215\n220\n225\nZero based read coordinate\nUnshifted edge anchor\nShifted edge anchor\nShifted inner anchor\n[210,222)\n[213,225)\n[206,218)\n224 nt read end\n",
+      "rendered_page": "verification/fig1.png"
+    },
+    {
+      "pdf": "figures/fig2.pdf",
+      "page_count": 1,
+      "embedded_raster_images": 0,
+      "svg_embedded_images": 0,
+      "text": "\u221210 0\n10\n20\n30\n40\nPE minus mock (pp)\nCoding witness\nReference label agreement\nProgrammed projection\nMutant projection\nTarget motifs\nInner anchor\nEdge anchor\nCFB-26-16\n\u221210 0\n10\n20\n30\n40\nPE minus mock (pp)\nCFB-26-02\n\u221210 0\n10\n20\n30\n40\nPE minus mock (pp)\nCFB-06-04\n",
+      "rendered_page": "verification/fig2.png"
+    },
+    {
+      "pdf": "figures/fig3.pdf",
+      "page_count": 1,
+      "embedded_raster_images": 0,
+      "svg_embedded_images": 0,
+      "text": "\u2212100\n\u221275\n\u221250\n\u221225\n0\n25\n50\n75\n100\nPE minus mock native interval (pp)\nEdge anchor trim 0\nEdge anchor trim 8\nInner anchor trim 0\nInner anchor trim 8\nTarget motifs trim 0\nTarget motifs trim 8\nTarget trim 8 with original veto\n14\n16\n18\n20\n22\nTarget interval detail (pp)\nTarget motifs trim 0\nTarget motifs trim 8\nTarget trim 8 with original veto\n",
+      "rendered_page": "verification/fig3.png"
+    },
+    {
+      "pdf": "figures/fig4.pdf",
+      "page_count": 1,
+      "embedded_raster_images": 0,
+      "svg_embedded_images": 0,
+      "text": "CFB-26-16\nCFB-26-02\nCFB-06-04\n0\n10\n20\n30\n40\n50\n60\nNE to E read changes\n34\n58\n45\nReference sensitivity\n102\n103\n104\n105\nRecords (log scale)\nDifferent coding\nQuality failure\nMissing correspondence\nCoding witness\n83\n1996\n4202\n170725\nRaw universe 177006\n",
+      "rendered_page": "verification/fig4.png"
+    }
+  ]
+}

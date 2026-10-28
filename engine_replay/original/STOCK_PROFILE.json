@@ -1,0 +1,125 @@
+{
+  "id": "STOCK_DEFAULT_NO_GUIDE",
+  "created_utc": "2026-10-28T05:31:30.632798+00:00",
+  "state": "FIXED_BEFORE_PROFILE_EXECUTION",
+  "parent_grid_sha256": "bb9a013a085ea01794c71c9e031390f62f2555b0a21310294c54a8300a50ca0c",
+  "jobs": 18,
+  "scope": "same nine authenticated Q30 inputs and same two frozen references; single end, no guide, no trimming",
+  "omitted_explicit_options": [
+    "--default_min_aln_score",
+    "--needleman_wunsch_gap_open",
+    "--needleman_wunsch_gap_extend",
+    "--needleman_wunsch_gap_incentive",
+    "--quantification_window_coordinates",
+    "--exclude_bp_from_left",
+    "--exclude_bp_from_right"
+  ],
+  "upstream_default_definitions": {
+    "default_min_aln_score": {
+      "name": "Default Minimum Alignment Score",
+      "keys": [
+        "--default_min_aln_score",
+        "--min_identity_score"
+      ],
+      "help": "Default minimum homology score for a read to align to a reference amplicon",
+      "type": "int",
+      "default": 60,
+      "tools": [
+        "Core",
+        "Batch",
+        "Pooled",
+        "WGS"
+      ]
+    },
+    "needleman_wunsch_gap_open": {
+      "keys": [
+        "--needleman_wunsch_gap_open"
+      ],
+      "help": "Gap open option for Needleman-Wunsch alignment",
+      "type": "int",
+      "default": -20,
+      "tools": [
+        "Core",
+        "Batch",
+        "Pooled",
+        "WGS"
+      ]
+    },
+    "needleman_wunsch_gap_extend": {
+      "keys": [
+        "--needleman_wunsch_gap_extend"
+      ],
+      "help": "Gap extend option for Needleman-Wunsch alignment",
+      "type": "int",
+      "default": -2,
+      "tools": [
+        "Core",
+        "Batch",
+        "Pooled",
+        "WGS"
+      ]
+    },
+    "needleman_wunsch_gap_incentive": {
+      "keys": [
+        "--needleman_wunsch_gap_incentive"
+      ],
+      "help": "Gap incentive value for inserting indels at cut sites",
+      "type": "int",
+      "default": 1,
+      "tools": [
+        "Core",
+        "Batch",
+        "Pooled",
+        "WGS"
+      ]
+    },
+    "quantification_window_coordinates": {
+      "keys": [
+        "-qwc",
+        "--quantification_window_coordinates"
+      ],
+      "type": "str",
+      "help": "Bp positions in the amplicon sequence specifying the quantification window. This parameter overrides values of the '--quantification_window_center', '--cleavage_offset', '--window_around_sgrna' or '--window_around_sgrna' values. Any indels/substitutions outside this window are excluded. Indexes are 0-based, meaning that the first nucleotide is position 0. Ranges are separted by the dash sign (e.g. 'start-stop'), and multiple ranges can be separated by the underscore (_) (can be comma-separated list of values, corresponding to amplicon sequences given in --amplicon_seq e.g. 5-10,5-10_20-30 would specify the 6th-11th bp in the first reference and the 6th-11th and 21st-31st bp in the second reference). A value of 0 disables this filter for a particular amplicon (e.g. 0,90-110 This would disable the quantification window for the first amplicon and specify the quantification window of 90-110 for the second).Note that if there are multiple amplicons provided, and only one quantification window coordinate is provided, the same quantification window will be used for all amplicons and be adjusted to account for insertions/deletions.(default: None)",
+      "default": null,
+      "tools": [
+        "Core",
+        "Batch",
+        "Pooled",
+        "WGS"
+      ]
+    },
+    "exclude_bp_from_left": {
+      "name": "Exclude bp From Left",
+      "keys": [
+        "--exclude_bp_from_left"
+      ],
+      "help": "Exclude bp from the left side of the amplicon sequence for the quantification of the indels",
+      "type": "int",
+      "default": 15,
+      "tools": [
+        "Core",
+        "Batch",
+        "Pooled",
+        "WGS"
+      ]
+    },
+    "exclude_bp_from_right": {
+      "name": "Exclude bp From Right",
+      "keys": [
+        "--exclude_bp_from_right"
+      ],
+      "help": "Exclude bp from the right side of the amplicon sequence for the quantification of the indels",
+      "type": "int",
+      "default": 15,
+      "tools": [
+        "Core",
+        "Batch",
+        "Pooled",
+        "WGS"
+      ]
+    }
+  },
+  "retained_options": "explicit zero internal quality filters; one process; detailed alleles/annotated FASTQ; suppress reports/plots; output/reference/name/input",
+  "interpretation": "Stock alignment/window profile without guide; several settings change jointly, separate from OAT. With no guide, effective quantification includes reference positions except upstream terminal exclusions; effective positions verified in every run info. MODIFIED is not the CFTR native peptide event.",
+  "limits": "Retrospective sensitivity on the same biological genealogy. Custom baseline is not standard defaults."
+}

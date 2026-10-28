@@ -1,0 +1,1334 @@
+[
+  {
+    "run": "SRR29623274",
+    "reference": "mutant",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 13548,
+        "max": 13548
+      },
+      "U": {
+        "min": 214,
+        "max": 214
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 1.5550065397471298,
+        "max": 1.5550065397471298
+      }
+    }
+  },
+  {
+    "run": "SRR29623274",
+    "reference": "mutant",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 1,
+        "max": 1
+      },
+      "NE": {
+        "min": 13547,
+        "max": 13547
+      },
+      "U": {
+        "min": 214,
+        "max": 214
+      },
+      "L_pp": {
+        "min": 0.007266385699752943,
+        "max": 0.007266385699752943
+      },
+      "H_pp": {
+        "min": 1.5622729254468828,
+        "max": 1.5622729254468828
+      }
+    }
+  },
+  {
+    "run": "SRR29623274",
+    "reference": "programmed",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 13549,
+        "max": 13549
+      },
+      "U": {
+        "min": 213,
+        "max": 213
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 1.5477401540473767,
+        "max": 1.5477401540473767
+      }
+    }
+  },
+  {
+    "run": "SRR29623274",
+    "reference": "programmed",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 1,
+        "max": 1
+      },
+      "NE": {
+        "min": 13548,
+        "max": 13548
+      },
+      "U": {
+        "min": 213,
+        "max": 213
+      },
+      "L_pp": {
+        "min": 0.007266385699752943,
+        "max": 0.007266385699752943
+      },
+      "H_pp": {
+        "min": 1.5550065397471298,
+        "max": 1.5550065397471298
+      }
+    }
+  },
+  {
+    "run": "SRR29623266",
+    "reference": "mutant",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 13490,
+        "max": 13492
+      },
+      "U": {
+        "min": 125,
+        "max": 127
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.917970184328413,
+        "max": 0.9326577072776676
+      }
+    }
+  },
+  {
+    "run": "SRR29623266",
+    "reference": "mutant",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 13490,
+        "max": 13492
+      },
+      "U": {
+        "min": 125,
+        "max": 127
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.917970184328413,
+        "max": 0.9326577072776676
+      }
+    }
+  },
+  {
+    "run": "SRR29623266",
+    "reference": "programmed",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 13453,
+        "max": 13492
+      },
+      "U": {
+        "min": 125,
+        "max": 164
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.917970184328413,
+        "max": 1.2043768818388778
+      }
+    }
+  },
+  {
+    "run": "SRR29623266",
+    "reference": "programmed",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 13453,
+        "max": 13492
+      },
+      "U": {
+        "min": 125,
+        "max": 164
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.917970184328413,
+        "max": 1.2043768818388778
+      }
+    }
+  },
+  {
+    "run": "SRR29623268",
+    "reference": "mutant",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 29651,
+        "max": 29658
+      },
+      "U": {
+        "min": 298,
+        "max": 305
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.9947923621311257,
+        "max": 1.0181599679529978
+      }
+    }
+  },
+  {
+    "run": "SRR29623268",
+    "reference": "mutant",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 29651,
+        "max": 29658
+      },
+      "U": {
+        "min": 298,
+        "max": 305
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.9947923621311257,
+        "max": 1.0181599679529978
+      }
+    }
+  },
+  {
+    "run": "SRR29623268",
+    "reference": "programmed",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 29580,
+        "max": 29659
+      },
+      "U": {
+        "min": 297,
+        "max": 376
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.9914541327280011,
+        "max": 1.255174255574843
+      }
+    }
+  },
+  {
+    "run": "SRR29623268",
+    "reference": "programmed",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 29580,
+        "max": 29659
+      },
+      "U": {
+        "min": 297,
+        "max": 376
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.9914541327280011,
+        "max": 1.255174255574843
+      }
+    }
+  },
+  {
+    "run": "SRR29623273",
+    "reference": "mutant",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 2,
+        "max": 2
+      },
+      "NE": {
+        "min": 16876,
+        "max": 16876
+      },
+      "U": {
+        "min": 299,
+        "max": 299
+      },
+      "L_pp": {
+        "min": 0.011643476742155207,
+        "max": 0.011643476742155207
+      },
+      "H_pp": {
+        "min": 1.7523432496943587,
+        "max": 1.7523432496943587
+      }
+    }
+  },
+  {
+    "run": "SRR29623273",
+    "reference": "mutant",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 2,
+        "max": 2
+      },
+      "NE": {
+        "min": 16876,
+        "max": 16876
+      },
+      "U": {
+        "min": 299,
+        "max": 299
+      },
+      "L_pp": {
+        "min": 0.011643476742155207,
+        "max": 0.011643476742155207
+      },
+      "H_pp": {
+        "min": 1.7523432496943587,
+        "max": 1.7523432496943587
+      }
+    }
+  },
+  {
+    "run": "SRR29623273",
+    "reference": "programmed",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 2,
+        "max": 2
+      },
+      "NE": {
+        "min": 16876,
+        "max": 16877
+      },
+      "U": {
+        "min": 298,
+        "max": 299
+      },
+      "L_pp": {
+        "min": 0.011643476742155207,
+        "max": 0.011643476742155207
+      },
+      "H_pp": {
+        "min": 1.746521511323281,
+        "max": 1.7523432496943587
+      }
+    }
+  },
+  {
+    "run": "SRR29623273",
+    "reference": "programmed",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 2,
+        "max": 2
+      },
+      "NE": {
+        "min": 16876,
+        "max": 16877
+      },
+      "U": {
+        "min": 298,
+        "max": 299
+      },
+      "L_pp": {
+        "min": 0.011643476742155207,
+        "max": 0.011643476742155207
+      },
+      "H_pp": {
+        "min": 1.746521511323281,
+        "max": 1.7523432496943587
+      }
+    }
+  },
+  {
+    "run": "SRR29623265",
+    "reference": "mutant",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 20843,
+        "max": 20848
+      },
+      "U": {
+        "min": 193,
+        "max": 198
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.9172567843733663,
+        "max": 0.9410199135022099
+      }
+    }
+  },
+  {
+    "run": "SRR29623265",
+    "reference": "mutant",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 20843,
+        "max": 20848
+      },
+      "U": {
+        "min": 193,
+        "max": 198
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.9172567843733663,
+        "max": 0.9410199135022099
+      }
+    }
+  },
+  {
+    "run": "SRR29623265",
+    "reference": "programmed",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 20816,
+        "max": 20848
+      },
+      "U": {
+        "min": 193,
+        "max": 225
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.9172567843733663,
+        "max": 1.0693408107979658
+      }
+    }
+  },
+  {
+    "run": "SRR29623265",
+    "reference": "programmed",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 20816,
+        "max": 20848
+      },
+      "U": {
+        "min": 193,
+        "max": 225
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.9172567843733663,
+        "max": 1.0693408107979658
+      }
+    }
+  },
+  {
+    "run": "SRR29623267",
+    "reference": "mutant",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 26782,
+        "max": 26791
+      },
+      "U": {
+        "min": 233,
+        "max": 242
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.8621965660153937,
+        "max": 0.8955002960331557
+      }
+    }
+  },
+  {
+    "run": "SRR29623267",
+    "reference": "mutant",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 26782,
+        "max": 26791
+      },
+      "U": {
+        "min": 233,
+        "max": 242
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.8621965660153937,
+        "max": 0.8955002960331557
+      }
+    }
+  },
+  {
+    "run": "SRR29623267",
+    "reference": "programmed",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 26735,
+        "max": 26792
+      },
+      "U": {
+        "min": 232,
+        "max": 289
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.8584961515689757,
+        "max": 1.0694197750148016
+      }
+    }
+  },
+  {
+    "run": "SRR29623267",
+    "reference": "programmed",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 0,
+        "max": 0
+      },
+      "NE": {
+        "min": 26735,
+        "max": 26792
+      },
+      "U": {
+        "min": 232,
+        "max": 289
+      },
+      "L_pp": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "H_pp": {
+        "min": 0.8584961515689757,
+        "max": 1.0694197750148016
+      }
+    }
+  },
+  {
+    "run": "SRR29623272",
+    "reference": "mutant",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 3632,
+        "max": 3690
+      },
+      "NE": {
+        "min": 16366,
+        "max": 16416
+      },
+      "U": {
+        "min": 491,
+        "max": 557
+      },
+      "L_pp": {
+        "min": 17.65420697030088,
+        "max": 17.936129878967577
+      },
+      "H_pp": {
+        "min": 20.206095367714966,
+        "max": 20.44913235794488
+      }
+    }
+  },
+  {
+    "run": "SRR29623272",
+    "reference": "mutant",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 3656,
+        "max": 3714
+      },
+      "NE": {
+        "min": 16342,
+        "max": 16392
+      },
+      "U": {
+        "min": 491,
+        "max": 557
+      },
+      "L_pp": {
+        "min": 17.770864725611236,
+        "max": 18.052787634277937
+      },
+      "H_pp": {
+        "min": 20.322753123025326,
+        "max": 20.565790113255236
+      }
+    }
+  },
+  {
+    "run": "SRR29623272",
+    "reference": "programmed",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 3704,
+        "max": 3704
+      },
+      "NE": {
+        "min": 16374,
+        "max": 16405
+      },
+      "U": {
+        "min": 464,
+        "max": 495
+      },
+      "L_pp": {
+        "min": 18.004180236231953,
+        "max": 18.004180236231953
+      },
+      "H_pp": {
+        "min": 20.25956350556555,
+        "max": 20.410246439508093
+      }
+    }
+  },
+  {
+    "run": "SRR29623272",
+    "reference": "programmed",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 3728,
+        "max": 3728
+      },
+      "NE": {
+        "min": 16350,
+        "max": 16381
+      },
+      "U": {
+        "min": 464,
+        "max": 495
+      },
+      "L_pp": {
+        "min": 18.120837991542313,
+        "max": 18.120837991542313
+      },
+      "H_pp": {
+        "min": 20.376221260875905,
+        "max": 20.526904194818453
+      }
+    }
+  },
+  {
+    "run": "SRR29623271",
+    "reference": "mutant",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 5687,
+        "max": 5758
+      },
+      "NE": {
+        "min": 12990,
+        "max": 13062
+      },
+      "U": {
+        "min": 379,
+        "max": 507
+      },
+      "L_pp": {
+        "min": 29.644495412844037,
+        "max": 30.014595496246873
+      },
+      "H_pp": {
+        "min": 31.912010008340285,
+        "max": 32.28732276897414
+      }
+    }
+  },
+  {
+    "run": "SRR29623271",
+    "reference": "mutant",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 5755,
+        "max": 5826
+      },
+      "NE": {
+        "min": 12922,
+        "max": 12994
+      },
+      "U": {
+        "min": 379,
+        "max": 507
+      },
+      "L_pp": {
+        "min": 29.998957464553794,
+        "max": 30.36905754795663
+      },
+      "H_pp": {
+        "min": 32.26647206005004,
+        "max": 32.6417848206839
+      }
+    }
+  },
+  {
+    "run": "SRR29623271",
+    "reference": "programmed",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 5759,
+        "max": 5815
+      },
+      "NE": {
+        "min": 12909,
+        "max": 13004
+      },
+      "U": {
+        "min": 374,
+        "max": 516
+      },
+      "L_pp": {
+        "min": 30.019808173477898,
+        "max": 30.311718098415348
+      },
+      "H_pp": {
+        "min": 32.21434528773978,
+        "max": 32.70954962468724
+      }
+    }
+  },
+  {
+    "run": "SRR29623271",
+    "reference": "programmed",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 5828,
+        "max": 5884
+      },
+      "NE": {
+        "min": 12840,
+        "max": 12935
+      },
+      "U": {
+        "min": 374,
+        "max": 516
+      },
+      "L_pp": {
+        "min": 30.379482902418683,
+        "max": 30.67139282735613
+      },
+      "H_pp": {
+        "min": 32.57402001668057,
+        "max": 33.06922435362802
+      }
+    }
+  },
+  {
+    "run": "SRR29623270",
+    "reference": "mutant",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 3788,
+        "max": 3838
+      },
+      "NE": {
+        "min": 10549,
+        "max": 10599
+      },
+      "U": {
+        "min": 253,
+        "max": 335
+      },
+      "L_pp": {
+        "min": 25.817884405670664,
+        "max": 26.15866957470011
+      },
+      "H_pp": {
+        "min": 27.760359869138494,
+        "max": 28.10114503816794
+      }
+    }
+  },
+  {
+    "run": "SRR29623270",
+    "reference": "mutant",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 3823,
+        "max": 3873
+      },
+      "NE": {
+        "min": 10514,
+        "max": 10564
+      },
+      "U": {
+        "min": 253,
+        "max": 335
+      },
+      "L_pp": {
+        "min": 26.056434023991276,
+        "max": 26.39721919302072
+      },
+      "H_pp": {
+        "min": 27.998909487459105,
+        "max": 28.33969465648855
+      }
+    }
+  },
+  {
+    "run": "SRR29623270",
+    "reference": "programmed",
+    "event": "CTT_plus_full_SE2",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 3844,
+        "max": 3882
+      },
+      "NE": {
+        "min": 10490,
+        "max": 10560
+      },
+      "U": {
+        "min": 233,
+        "max": 338
+      },
+      "L_pp": {
+        "min": 26.199563794983643,
+        "max": 26.45856052344602
+      },
+      "H_pp": {
+        "min": 28.02617230098146,
+        "max": 28.503271537622684
+      }
+    }
+  },
+  {
+    "run": "SRR29623270",
+    "reference": "programmed",
+    "event": "native_local_peptide_all_observed_sequences",
+    "scope": "OAT_only",
+    "settings": [
+      "baseline",
+      "extend_m1",
+      "extend_m4",
+      "open_m10",
+      "open_m30",
+      "score_50",
+      "score_70"
+    ],
+    "ranges": {
+      "E": {
+        "min": 3880,
+        "max": 3918
+      },
+      "NE": {
+        "min": 10454,
+        "max": 10524
+      },
+      "U": {
+        "min": 233,
+        "max": 338
+      },
+      "L_pp": {
+        "min": 26.444929116684843,
+        "max": 26.703925845147218
+      },
+      "H_pp": {
+        "min": 28.27153762268266,
+        "max": 28.74863685932388
+      }
+    }
+  }
+]

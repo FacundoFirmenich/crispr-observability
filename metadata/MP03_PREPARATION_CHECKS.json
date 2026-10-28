@@ -1,0 +1,23 @@
+{
+  "edition": "MP03",
+  "date": "2026-10-28",
+  "native_replay_status": "PASS",
+  "native_replay_runtime_seconds": 16.013260808002087,
+  "raw_records": 177006,
+  "unresolved_records": 6281,
+  "raw_outputs_byte_identical": 3,
+  "scientific_runner_version": "0.2.0",
+  "yaml_parsed": [
+    "CITATION.cff",
+    ".github/workflows/derived-checks.yml",
+    ".github/workflows/latex.yml",
+    ".github/ISSUE_TEMPLATE/scientific-feedback.yml"
+  ],
+  "CFF_full_schema_validation_performed": false,
+  "github_creation_script_bash_syntax": "PASS",
+  "github_repository_created": false,
+  "hosted_CI_executed": false,
+  "docker_executed": false,
+  "latex_integration_pending": true,
+  "git_commit_pending_root_integration": true
+}

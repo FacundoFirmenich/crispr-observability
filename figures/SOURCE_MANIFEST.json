@@ -1,0 +1,36 @@
+{
+  "version": "MP03D",
+  "scope": "Public numerical and coordinate sources only; no manuscript or supplement prose",
+  "files": [
+    {
+      "local_path": "sources/Table_1_Native_Contrast_Intervals.csv",
+      "size_bytes": 2017,
+      "sha256": "9131a3169b765a258423a48f1b9cdc700e24ccecd86544fe6d046e819a0b3176"
+    },
+    {
+      "local_path": "sources/Table_S3_M1_All_Contrasts.csv",
+      "size_bytes": 69876,
+      "sha256": "7d26b7e01156827bbf7b64e1385c6abf970e4b86bf5b5d776efdda03e26b8499"
+    },
+    {
+      "local_path": "sources/Table_S4_Original_Ambiguity_Veto.csv",
+      "size_bytes": 25952,
+      "sha256": "51c869362156b51c23afcfa5d2240b5f46918ad4b9ed9e53e219eac0a6143e80"
+    },
+    {
+      "local_path": "sources/Table_S9_Reference_Changes.csv",
+      "size_bytes": 28445,
+      "sha256": "d632ecbec1243b79bcedd115b4a336035e0267c055f528c03ecfb18c8aa06c4b"
+    },
+    {
+      "local_path": "sources/WITNESS_BOUNDS.json",
+      "size_bytes": 21489,
+      "sha256": "251124c7dc4b8b179fa16ad8c7f2ebb9a64302778e3d4459e6f52330f7e8b022"
+    },
+    {
+      "local_path": "sources/anchor_geometry_contract.json",
+      "size_bytes": 560,
+      "sha256": "90072ae058b0a0d65fb145c6ee778ea2ce37e8a0130084324c978dc70ad8c1eb"
+    }
+  ]
+}

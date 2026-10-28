@@ -1,0 +1,2521 @@
+{
+  "state": "VERIFIED_FINITE_PARAMETER_SENSITIVITY",
+  "jobs": 144,
+  "custom_baseline_jobs": 18,
+  "one_at_a_time_perturbation_jobs": 108,
+  "stock_default_no_guide_jobs": 18,
+  "biological_raw_records": 177006,
+  "baseline_exact_match_to_frozen": "18/18; native quantification tables and both projected molecular events",
+  "third_party_source_modified": false,
+  "changes_aggregated_by_profile": [
+    {
+      "reference": "mutant",
+      "setting": "score_50",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 39,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_50",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 39,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 252,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 252,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_50",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 38,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_50",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 38,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 433,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 433,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 45,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 46,
+      "E_NE_conflicts_vs_baseline": 1
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m10",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 84,
+      "E_NE_conflicts_vs_baseline": 24
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m10",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 84,
+      "E_NE_conflicts_vs_baseline": 24
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m1",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 21,
+      "E_NE_conflicts_vs_baseline": 4
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m1",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 21,
+      "E_NE_conflicts_vs_baseline": 4
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m4",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 100,
+      "E_NE_conflicts_vs_baseline": 32
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m4",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 100,
+      "E_NE_conflicts_vs_baseline": 32
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m30",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 20,
+      "E_NE_conflicts_vs_baseline": 2
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m30",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 20,
+      "E_NE_conflicts_vs_baseline": 2
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m1",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 19,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m1",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 19,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m4",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 34,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m4",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 34,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m30",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 84,
+      "E_NE_conflicts_vs_baseline": 0
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m30",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 84,
+      "E_NE_conflicts_vs_baseline": 0
+    }
+  ],
+  "changed_run_event_rows": [
+    {
+      "reference": "mutant",
+      "setting": "score_50",
+      "run": "SRR29623266",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 13491,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 125
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_50",
+      "run": "SRR29623266",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 13491,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 125
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623266",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 13490,
+        "N>U": 1,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 126
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623266",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 13490,
+        "N>U": 1,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 126
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_50",
+      "run": "SRR29623266",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 13491,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 125
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_50",
+      "run": "SRR29623266",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 13491,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 125
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623266",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 38,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 13453,
+        "N>U": 38,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 126
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623266",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 38,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 13453,
+        "N>U": 38,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 126
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623268",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 7,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 29651,
+        "N>U": 7,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 298
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623268",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 7,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 29651,
+        "N>U": 7,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 298
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "run": "SRR29623268",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 29658,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 297
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "run": "SRR29623268",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 29658,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 297
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623268",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 78,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 29580,
+        "N>U": 78,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 298
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623268",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 78,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 29580,
+        "N>U": 78,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 298
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "run": "SRR29623273",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 2,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16876,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 298
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "run": "SRR29623273",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 2,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16876,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 298
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623265",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 5,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 20843,
+        "N>U": 5,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 193
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623265",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 5,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 20843,
+        "N>U": 5,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 193
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623265",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 32,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 20816,
+        "N>U": 32,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 193
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623265",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 32,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 20816,
+        "N>U": 32,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 193
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m10",
+      "run": "SRR29623267",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 26790,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 233
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m10",
+      "run": "SRR29623267",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 26790,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 233
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_50",
+      "run": "SRR29623267",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 26790,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 233
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_50",
+      "run": "SRR29623267",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 26790,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 233
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623267",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 8,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 26782,
+        "N>U": 8,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 234
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623267",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 8,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 26782,
+        "N>U": 8,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 234
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "run": "SRR29623267",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 2,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 26790,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 2,
+        "U>U": 232
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "run": "SRR29623267",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 2,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 26790,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 2,
+        "U>U": 232
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_50",
+      "run": "SRR29623267",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 26790,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 233
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_50",
+      "run": "SRR29623267",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 26790,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 233
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623267",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 55,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 26735,
+        "N>U": 55,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 234
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623267",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 55,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 0,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 26735,
+        "N>U": 55,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 234
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m1",
+      "run": "SRR29623272",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 8,
+      "E_NE_conflicts_vs_baseline": 4,
+      "transitions": {
+        "E>E": 3666,
+        "E>N": 4,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16403,
+        "N>U": 2,
+        "U>E": 0,
+        "U>N": 2,
+        "U>U": 496
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m1",
+      "run": "SRR29623272",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 8,
+      "E_NE_conflicts_vs_baseline": 4,
+      "transitions": {
+        "E>E": 3690,
+        "E>N": 4,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16379,
+        "N>U": 2,
+        "U>E": 0,
+        "U>N": 2,
+        "U>U": 496
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m4",
+      "run": "SRR29623272",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 55,
+      "E_NE_conflicts_vs_baseline": 20,
+      "transitions": {
+        "E>E": 3670,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 20,
+        "N>N": 16358,
+        "N>U": 27,
+        "U>E": 0,
+        "U>N": 8,
+        "U>U": 490
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m4",
+      "run": "SRR29623272",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 55,
+      "E_NE_conflicts_vs_baseline": 20,
+      "transitions": {
+        "E>E": 3694,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 20,
+        "N>N": 16334,
+        "N>U": 27,
+        "U>E": 0,
+        "U>N": 8,
+        "U>U": 490
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m10",
+      "run": "SRR29623272",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 25,
+      "E_NE_conflicts_vs_baseline": 8,
+      "transitions": {
+        "E>E": 3664,
+        "E>N": 6,
+        "E>U": 0,
+        "N>E": 2,
+        "N>N": 16398,
+        "N>U": 5,
+        "U>E": 0,
+        "U>N": 12,
+        "U>U": 486
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m10",
+      "run": "SRR29623272",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 25,
+      "E_NE_conflicts_vs_baseline": 8,
+      "transitions": {
+        "E>E": 3688,
+        "E>N": 6,
+        "E>U": 0,
+        "N>E": 2,
+        "N>N": 16374,
+        "N>U": 5,
+        "U>E": 0,
+        "U>N": 12,
+        "U>U": 486
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m30",
+      "run": "SRR29623272",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 2,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3670,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16405,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 2,
+        "U>U": 496
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m30",
+      "run": "SRR29623272",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 2,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3694,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16381,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 2,
+        "U>U": 496
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623272",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 59,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3632,
+        "E>N": 0,
+        "E>U": 38,
+        "N>E": 0,
+        "N>N": 16384,
+        "N>U": 21,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 498
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623272",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 59,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3656,
+        "E>N": 0,
+        "E>U": 38,
+        "N>E": 0,
+        "N>N": 16360,
+        "N>U": 21,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 498
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m1",
+      "run": "SRR29623272",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 7,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3704,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16391,
+        "N>U": 7,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 471
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m1",
+      "run": "SRR29623272",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 7,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3728,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16367,
+        "N>U": 7,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 471
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m4",
+      "run": "SRR29623272",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 7,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3704,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16398,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 7,
+        "U>U": 464
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m4",
+      "run": "SRR29623272",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 7,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3728,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16374,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 7,
+        "U>U": 464
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "run": "SRR29623272",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 10,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3704,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16389,
+        "N>U": 9,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 470
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "run": "SRR29623272",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 10,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3728,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16365,
+        "N>U": 9,
+        "U>E": 0,
+        "U>N": 1,
+        "U>U": 470
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m30",
+      "run": "SRR29623272",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 38,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3704,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16367,
+        "N>U": 31,
+        "U>E": 0,
+        "U>N": 7,
+        "U>U": 464
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m30",
+      "run": "SRR29623272",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 38,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3728,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16343,
+        "N>U": 31,
+        "U>E": 0,
+        "U>N": 7,
+        "U>U": 464
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623272",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 19,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3704,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16379,
+        "N>U": 19,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 471
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623272",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 19,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3728,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 16355,
+        "N>U": 19,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 471
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m1",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 12,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5744,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 13029,
+        "N>U": 9,
+        "U>E": 2,
+        "U>N": 1,
+        "U>U": 399
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m1",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 12,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5812,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12961,
+        "N>U": 9,
+        "U>E": 2,
+        "U>N": 1,
+        "U>U": 399
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m4",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 24,
+      "E_NE_conflicts_vs_baseline": 1,
+      "transitions": {
+        "E>E": 5743,
+        "E>N": 1,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 13038,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 23,
+        "U>U": 379
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m4",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 24,
+      "E_NE_conflicts_vs_baseline": 1,
+      "transitions": {
+        "E>E": 5811,
+        "E>N": 1,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12970,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 23,
+        "U>U": 379
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m10",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 29,
+      "E_NE_conflicts_vs_baseline": 5,
+      "transitions": {
+        "E>E": 5739,
+        "E>N": 5,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 13031,
+        "N>U": 7,
+        "U>E": 2,
+        "U>N": 15,
+        "U>U": 385
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m10",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 29,
+      "E_NE_conflicts_vs_baseline": 5,
+      "transitions": {
+        "E>E": 5807,
+        "E>N": 5,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12963,
+        "N>U": 7,
+        "U>E": 2,
+        "U>N": 15,
+        "U>U": 385
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m30",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 14,
+      "E_NE_conflicts_vs_baseline": 2,
+      "transitions": {
+        "E>E": 5744,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 2,
+        "N>N": 13027,
+        "N>U": 9,
+        "U>E": 2,
+        "U>N": 1,
+        "U>U": 399
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m30",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 14,
+      "E_NE_conflicts_vs_baseline": 2,
+      "transitions": {
+        "E>E": 5812,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 2,
+        "N>N": 12959,
+        "N>U": 9,
+        "U>E": 2,
+        "U>N": 1,
+        "U>U": 399
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_50",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 22,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5744,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 13038,
+        "N>U": 0,
+        "U>E": 14,
+        "U>N": 8,
+        "U>U": 380
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_50",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 22,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5812,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12970,
+        "N>U": 0,
+        "U>E": 14,
+        "U>N": 8,
+        "U>U": 380
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 105,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5687,
+        "E>N": 0,
+        "E>U": 57,
+        "N>E": 0,
+        "N>N": 12990,
+        "N>U": 48,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 402
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 105,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5755,
+        "E>N": 0,
+        "E>U": 57,
+        "N>E": 0,
+        "N>N": 12922,
+        "N>U": 48,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 402
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m1",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 11,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5803,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12983,
+        "N>U": 2,
+        "U>E": 2,
+        "U>N": 7,
+        "U>U": 387
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m1",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 11,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5872,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12914,
+        "N>U": 2,
+        "U>E": 2,
+        "U>N": 7,
+        "U>U": 387
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m4",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 19,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5803,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12985,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 19,
+        "U>U": 377
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m4",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 19,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5872,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12916,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 19,
+        "U>U": 377
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 14,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5803,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12984,
+        "N>U": 1,
+        "U>E": 2,
+        "U>N": 11,
+        "U>U": 383
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 14,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5872,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12915,
+        "N>U": 1,
+        "U>E": 2,
+        "U>N": 11,
+        "U>U": 383
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m30",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 18,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5803,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12977,
+        "N>U": 8,
+        "U>E": 2,
+        "U>N": 8,
+        "U>U": 386
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m30",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 18,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5872,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12908,
+        "N>U": 8,
+        "U>E": 2,
+        "U>N": 8,
+        "U>U": 386
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_50",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 22,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5803,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12985,
+        "N>U": 0,
+        "U>E": 12,
+        "U>N": 10,
+        "U>U": 374
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_50",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 22,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5872,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 12916,
+        "N>U": 0,
+        "U>E": 12,
+        "U>N": 10,
+        "U>U": 374
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623271",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 120,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5759,
+        "E>N": 0,
+        "E>U": 44,
+        "N>E": 0,
+        "N>N": 12909,
+        "N>U": 76,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 396
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623271",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 120,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 5828,
+        "E>N": 0,
+        "E>U": 44,
+        "N>E": 0,
+        "N>N": 12840,
+        "N>U": 76,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 396
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m1",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3826,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10577,
+        "N>U": 1,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 268
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m1",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3861,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10542,
+        "N>U": 1,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 268
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m4",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 21,
+      "E_NE_conflicts_vs_baseline": 11,
+      "transitions": {
+        "E>E": 3815,
+        "E>N": 11,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10578,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 10,
+        "U>U": 258
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "extend_m4",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 21,
+      "E_NE_conflicts_vs_baseline": 11,
+      "transitions": {
+        "E>E": 3850,
+        "E>N": 11,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10543,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 10,
+        "U>U": 258
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m10",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 29,
+      "E_NE_conflicts_vs_baseline": 11,
+      "transitions": {
+        "E>E": 3815,
+        "E>N": 11,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10571,
+        "N>U": 7,
+        "U>E": 0,
+        "U>N": 11,
+        "U>U": 257
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m10",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 29,
+      "E_NE_conflicts_vs_baseline": 11,
+      "transitions": {
+        "E>E": 3850,
+        "E>N": 11,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10536,
+        "N>U": 7,
+        "U>E": 0,
+        "U>N": 11,
+        "U>U": 257
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m30",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 4,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3826,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10578,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 4,
+        "U>U": 264
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "open_m30",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 4,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3861,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10543,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 4,
+        "U>U": 264
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_50",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 15,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3826,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10578,
+        "N>U": 0,
+        "U>E": 12,
+        "U>N": 3,
+        "U>U": 253
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_50",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 15,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3861,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10543,
+        "N>U": 0,
+        "U>E": 12,
+        "U>N": 3,
+        "U>U": 253
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 67,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3788,
+        "E>N": 0,
+        "E>U": 38,
+        "N>E": 0,
+        "N>N": 10549,
+        "N>U": 29,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 268
+      }
+    },
+    {
+      "reference": "mutant",
+      "setting": "score_70",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 67,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3823,
+        "E>N": 0,
+        "E>U": 38,
+        "N>E": 0,
+        "N>N": 10514,
+        "N>U": 29,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 268
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m1",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3873,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10551,
+        "N>U": 1,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 247
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m1",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 1,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3909,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10515,
+        "N>U": 1,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 247
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m4",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 8,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3873,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10552,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 8,
+        "U>U": 239
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "extend_m4",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 8,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3909,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10516,
+        "N>U": 0,
+        "U>E": 0,
+        "U>N": 8,
+        "U>U": 239
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 17,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3873,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10538,
+        "N>U": 14,
+        "U>E": 0,
+        "U>N": 3,
+        "U>U": 244
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m10",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 18,
+      "E_NE_conflicts_vs_baseline": 1,
+      "transitions": {
+        "E>E": 3908,
+        "E>N": 1,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10502,
+        "N>U": 14,
+        "U>E": 0,
+        "U>N": 3,
+        "U>U": 244
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m30",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 28,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3873,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10537,
+        "N>U": 15,
+        "U>E": 0,
+        "U>N": 13,
+        "U>U": 234
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "open_m30",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 28,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3909,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10501,
+        "N>U": 15,
+        "U>E": 0,
+        "U>N": 13,
+        "U>U": 234
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_50",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 14,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3873,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10552,
+        "N>U": 0,
+        "U>E": 9,
+        "U>N": 5,
+        "U>U": 233
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_50",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 14,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3909,
+        "E>N": 0,
+        "E>U": 0,
+        "N>E": 0,
+        "N>N": 10516,
+        "N>U": 0,
+        "U>E": 9,
+        "U>N": 5,
+        "U>U": 233
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623270",
+      "event": "CTT_plus_full_SE2",
+      "labels_changed_vs_baseline": 91,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3844,
+        "E>N": 0,
+        "E>U": 29,
+        "N>E": 0,
+        "N>N": 10490,
+        "N>U": 62,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 247
+      }
+    },
+    {
+      "reference": "programmed",
+      "setting": "score_70",
+      "run": "SRR29623270",
+      "event": "native_local_peptide_all_observed_sequences",
+      "labels_changed_vs_baseline": 91,
+      "E_NE_conflicts_vs_baseline": 0,
+      "transitions": {
+        "E>E": 3880,
+        "E>N": 0,
+        "E>U": 29,
+        "N>E": 0,
+        "N>N": 10454,
+        "N>U": 62,
+        "U>E": 0,
+        "U>N": 0,
+        "U>U": 247
+      }
+    }
+  ],
+  "joint_stability_totals": [
+    {
+      "scope": "mutant_OAT",
+      "event": "CTT_plus_full_SE2",
+      "N_raw": 177006,
+      "counts": {
+        "all_N": 161039,
+        "all_U": 2428,
+        "resolution_disagreement": 397,
+        "all_E": 13094,
+        "E_NE_conflict": 48
+      }
+    },
+    {
+      "scope": "mutant_OAT",
+      "event": "native_local_peptide_all_observed_sequences",
+      "N_raw": 177006,
+      "counts": {
+        "all_N": 160911,
+        "all_U": 2428,
+        "all_E": 13222,
+        "resolution_disagreement": 397,
+        "E_NE_conflict": 48
+      }
+    },
+    {
+      "scope": "programmed_OAT",
+      "event": "CTT_plus_full_SE2",
+      "N_raw": 177006,
+      "counts": {
+        "all_N": 160717,
+        "all_U": 2366,
+        "resolution_disagreement": 614,
+        "all_E": 13309
+      }
+    },
+    {
+      "scope": "programmed_OAT",
+      "event": "native_local_peptide_all_observed_sequences",
+      "N_raw": 177006,
+      "counts": {
+        "all_N": 160587,
+        "all_U": 2366,
+        "all_E": 13438,
+        "resolution_disagreement": 614,
+        "E_NE_conflict": 1
+      }
+    },
+    {
+      "scope": "both_references_OAT",
+      "event": "CTT_plus_full_SE2",
+      "N_raw": 177006,
+      "counts": {
+        "all_N": 160647,
+        "all_U": 2306,
+        "resolution_disagreement": 798,
+        "all_E": 13094,
+        "E_NE_conflict": 161
+      }
+    },
+    {
+      "scope": "both_references_OAT",
+      "event": "native_local_peptide_all_observed_sequences",
+      "N_raw": 177006,
+      "counts": {
+        "all_N": 160517,
+        "all_U": 2306,
+        "resolution_disagreement": 798,
+        "all_E": 13222,
+        "E_NE_conflict": 163
+      }
+    },
+    {
+      "scope": "both_references_all_profiles",
+      "event": "CTT_plus_full_SE2",
+      "N_raw": 177006,
+      "counts": {
+        "all_N": 160647,
+        "all_U": 2306,
+        "resolution_disagreement": 798,
+        "all_E": 13094,
+        "E_NE_conflict": 161
+      }
+    },
+    {
+      "scope": "both_references_all_profiles",
+      "event": "native_local_peptide_all_observed_sequences",
+      "N_raw": 177006,
+      "counts": {
+        "all_N": 160517,
+        "all_U": 2306,
+        "resolution_disagreement": 798,
+        "all_E": 13222,
+        "E_NE_conflict": 163
+      }
+    }
+  ],
+  "primary_PE_mock_extrema": [
+    {
+      "preparation": 1,
+      "event": "CTT_plus_full_SE2",
+      "OAT_reference_settings": 14,
+      "L_min_pp": 15.90186372060652,
+      "L_min_at": {
+        "reference": "mutant",
+        "setting": "score_70"
+      },
+      "H_max_pp": 20.437488881202725,
+      "H_max_at": {
+        "reference": "mutant",
+        "setting": "extend_m4"
+      },
+      "all_lower_endpoints_positive": true
+    },
+    {
+      "preparation": 1,
+      "event": "native_local_peptide_all_observed_sequences",
+      "OAT_reference_settings": 14,
+      "L_min_pp": 16.01852147591688,
+      "L_min_at": {
+        "reference": "mutant",
+        "setting": "score_70"
+      },
+      "H_max_pp": 20.55414663651308,
+      "H_max_at": {
+        "reference": "mutant",
+        "setting": "extend_m4"
+      },
+      "all_lower_endpoints_positive": true
+    },
+    {
+      "preparation": 2,
+      "event": "CTT_plus_full_SE2",
+      "OAT_reference_settings": 14,
+      "L_min_pp": 28.703475499341828,
+      "L_min_at": {
+        "reference": "mutant",
+        "setting": "score_70"
+      },
+      "H_max_pp": 32.70954962468724,
+      "H_max_at": {
+        "reference": "programmed",
+        "setting": "score_70"
+      },
+      "all_lower_endpoints_positive": true
+    },
+    {
+      "preparation": 2,
+      "event": "native_local_peptide_all_observed_sequences",
+      "OAT_reference_settings": 14,
+      "L_min_pp": 29.057937551051584,
+      "L_min_at": {
+        "reference": "mutant",
+        "setting": "score_70"
+      },
+      "H_max_pp": 33.06922435362802,
+      "H_max_at": {
+        "reference": "programmed",
+        "setting": "score_70"
+      },
+      "all_lower_endpoints_positive": true
+    },
+    {
+      "preparation": 3,
+      "event": "CTT_plus_full_SE2",
+      "OAT_reference_settings": 14,
+      "L_min_pp": 24.92238410963751,
+      "L_min_at": {
+        "reference": "mutant",
+        "setting": "score_70"
+      },
+      "H_max_pp": 28.503271537622684,
+      "H_max_at": {
+        "reference": "programmed",
+        "setting": "score_70"
+      },
+      "all_lower_endpoints_positive": true
+    },
+    {
+      "preparation": 3,
+      "event": "native_local_peptide_all_observed_sequences",
+      "OAT_reference_settings": 14,
+      "L_min_pp": 25.16093372795812,
+      "L_min_at": {
+        "reference": "mutant",
+        "setting": "score_70"
+      },
+      "H_max_pp": 28.74863685932388,
+      "H_max_at": {
+        "reference": "programmed",
+        "setting": "score_70"
+      },
+      "all_lower_endpoints_positive": true
+    }
+  ],
+  "stock_profile": [
+    {
+      "run": "SRR29623274",
+      "reference": "mutant",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 2.82677688,
+      "modified_percent_aligned_stock": 21.01262086,
+      "QW_first_last_count": [
+        15,
+        208,
+        194
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623274",
+      "reference": "programmed",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 100.0,
+      "modified_percent_aligned_stock": 100.0,
+      "QW_first_last_count": [
+        15,
+        211,
+        197
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623266",
+      "reference": "mutant",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 2.09028241,
+      "modified_percent_aligned_stock": 57.38640575,
+      "QW_first_last_count": [
+        15,
+        208,
+        194
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623266",
+      "reference": "programmed",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 100.0,
+      "modified_percent_aligned_stock": 100.0,
+      "QW_first_last_count": [
+        15,
+        211,
+        197
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623268",
+      "reference": "mutant",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 1.84423466,
+      "modified_percent_aligned_stock": 58.12542144,
+      "QW_first_last_count": [
+        15,
+        208,
+        194
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623268",
+      "reference": "programmed",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 100.0,
+      "modified_percent_aligned_stock": 100.0,
+      "QW_first_last_count": [
+        15,
+        211,
+        197
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623273",
+      "reference": "mutant",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 2.71343089,
+      "modified_percent_aligned_stock": 20.39812785,
+      "QW_first_last_count": [
+        15,
+        208,
+        194
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623273",
+      "reference": "programmed",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 99.98815096,
+      "modified_percent_aligned_stock": 99.98815096,
+      "QW_first_last_count": [
+        15,
+        211,
+        197
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623265",
+      "reference": "mutant",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 1.70759785,
+      "modified_percent_aligned_stock": 15.77129701,
+      "QW_first_last_count": [
+        15,
+        208,
+        194
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623265",
+      "reference": "programmed",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 100.0,
+      "modified_percent_aligned_stock": 100.0,
+      "QW_first_last_count": [
+        15,
+        211,
+        197
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623267",
+      "reference": "mutant",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 1.75805308,
+      "modified_percent_aligned_stock": 18.21507223,
+      "QW_first_last_count": [
+        15,
+        208,
+        194
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623267",
+      "reference": "programmed",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 100.0,
+      "modified_percent_aligned_stock": 100.0,
+      "QW_first_last_count": [
+        15,
+        211,
+        197
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623272",
+      "reference": "mutant",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 28.45459952,
+      "modified_percent_aligned_stock": 42.6149881,
+      "QW_first_last_count": [
+        15,
+        208,
+        194
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623272",
+      "reference": "programmed",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 81.64155432,
+      "modified_percent_aligned_stock": 85.86439334,
+      "QW_first_last_count": [
+        15,
+        211,
+        197
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623271",
+      "reference": "mutant",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 41.02686377,
+      "modified_percent_aligned_stock": 50.11391936,
+      "QW_first_last_count": [
+        15,
+        208,
+        194
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623271",
+      "reference": "programmed",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 69.23402903,
+      "modified_percent_aligned_stock": 74.97616273,
+      "QW_first_last_count": [
+        15,
+        211,
+        197
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623270",
+      "reference": "mutant",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 36.74836037,
+      "modified_percent_aligned_stock": 73.42078012,
+      "QW_first_last_count": [
+        15,
+        208,
+        194
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    },
+    {
+      "run": "SRR29623270",
+      "reference": "programmed",
+      "projected_counts_equal_baseline": true,
+      "modified_percent_aligned_baseline": 73.26062949,
+      "modified_percent_aligned_stock": 88.27995583,
+      "QW_first_last_count": [
+        15,
+        211,
+        197
+      ],
+      "effective_gap_incentive_nonzero_positions": 0
+    }
+  ],
+  "stock_separate_estimand": "MODIFIED% is the software classification over its effective quantification window, not native CFTR peptide frequency.",
+  "limits": [
+    "Post hoc grid with fixed choices before new replay results, not a prospective holdout.",
+    "Same nine primary biological streams; parameter jobs are not independent replicates.",
+    "No molecular truth calibration; E/NE disagreements are computational sensitivity.",
+    "Ranges cover only the two declared references and finite grid.",
+    "Observed local file truncations were preserved and excluded until successful verified reconstruction/replay."
+  ]
+}

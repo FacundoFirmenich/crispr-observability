@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "mutant/baseline/SRR29623265",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.785128301999976
+  },
+  {
+    "id": "mutant/baseline/SRR29623266",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 8.722055954000098
+  },
+  {
+    "id": "mutant/baseline/SRR29623267",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 14.5513748329995
+  },
+  {
+    "id": "mutant/baseline/SRR29623268",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 17.972340987999814
+  },
+  {
+    "id": "mutant/baseline/SRR29623270",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 10.792524747000243
+  },
+  {
+    "id": "mutant/baseline/SRR29623271",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 13.00017062400002
+  },
+  {
+    "id": "mutant/baseline/SRR29623272",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.079352126999765
+  },
+  {
+    "id": "mutant/baseline/SRR29623273",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 7.397100825999587
+  },
+  {
+    "id": "mutant/baseline/SRR29623274",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 7.14705733000028
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623265",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.20700914200006
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623266",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 8.739459989000352
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623267",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 15.784451799000635
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623268",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 17.52267057500012
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623270",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 10.852107634999811
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623271",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 13.592252069000097
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623272",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.616292048000105
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623273",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 7.1944994949999455
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623274",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.5098323050006
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623265",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.314742673000183
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623266",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 8.27314810200005
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623267",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 14.063163615999656
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623268",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 16.102008202000434
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623270",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 10.543639923000228
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623271",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.56655050900008
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623272",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 8.738720899999862
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623273",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.406082513000001
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623274",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 5.763624649000121
+  },
+  {
+    "id": "mutant/open_m10/SRR29623265",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.741009623000537
+  },
+  {
+    "id": "mutant/open_m10/SRR29623266",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.776616627999829
+  },
+  {
+    "id": "mutant/open_m10/SRR29623267",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 15.580679534999945
+  },
+  {
+    "id": "mutant/open_m10/SRR29623268",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 17.588398912999764
+  },
+  {
+    "id": "mutant/open_m10/SRR29623270",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.113224501999866
+  },
+  {
+    "id": "mutant/open_m10/SRR29623271",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.826401573000112
+  },
+  {
+    "id": "mutant/open_m10/SRR29623272",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.403239850999853
+  },
+  {
+    "id": "mutant/open_m10/SRR29623273",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 7.105037272000118
+  },
+  {
+    "id": "mutant/open_m10/SRR29623274",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.139758221000193
+  },
+  {
+    "id": "mutant/open_m30/SRR29623265",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.893859251000322
+  },
+  {
+    "id": "mutant/open_m30/SRR29623266",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.5880589770004
+  },
+  {
+    "id": "mutant/open_m30/SRR29623267",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 16.379192561999844
+  },
+  {
+    "id": "mutant/open_m30/SRR29623268",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 16.929608405999716
+  },
+  {
+    "id": "mutant/open_m30/SRR29623270",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.902887098000065
+  },
+  {
+    "id": "mutant/open_m30/SRR29623271",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 13.418168468000658
+  },
+  {
+    "id": "mutant/open_m30/SRR29623272",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 10.016719586999898
+  },
+  {
+    "id": "mutant/open_m30/SRR29623273",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 7.063486692999504
+  },
+  {
+    "id": "mutant/open_m30/SRR29623274",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 5.8899862069993105
+  },
+  {
+    "id": "mutant/score_50/SRR29623265",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.34803457399994
+  },
+  {
+    "id": "mutant/score_50/SRR29623266",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 8.64021028100069
+  },
+  {
+    "id": "mutant/score_50/SRR29623267",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 16.304396352999902
+  },
+  {
+    "id": "mutant/score_50/SRR29623268",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 16.688512515000184
+  },
+  {
+    "id": "mutant/score_50/SRR29623270",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 10.93951597799969
+  },
+  {
+    "id": "mutant/score_50/SRR29623271",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 13.721752499000104
+  },
+  {
+    "id": "mutant/score_50/SRR29623272",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 10.009445126999708
+  },
+  {
+    "id": "mutant/score_50/SRR29623273",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.562270690000332
+  },
+  {
+    "id": "mutant/score_50/SRR29623274",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.120722069000294
+  },
+  {
+    "id": "mutant/score_70/SRR29623265",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.217581766999501
+  },
+  {
+    "id": "mutant/score_70/SRR29623266",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.248439238999708
+  },
+  {
+    "id": "mutant/score_70/SRR29623267",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 15.140221320999444
+  },
+  {
+    "id": "mutant/score_70/SRR29623268",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 17.028177485000015
+  },
+  {
+    "id": "mutant/score_70/SRR29623270",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 10.983836824000718
+  },
+  {
+    "id": "mutant/score_70/SRR29623271",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.704129412999464
+  },
+  {
+    "id": "mutant/score_70/SRR29623272",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.100339340000573
+  },
+  {
+    "id": "mutant/score_70/SRR29623273",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.867149523999615
+  },
+  {
+    "id": "mutant/score_70/SRR29623274",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.017097852999541
+  },
+  {
+    "id": "mutant/stock_default_no_guide/SRR29623265",
+    "reference": "mutant",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 10.015736585000013
+  },
+  {
+    "id": "mutant/stock_default_no_guide/SRR29623266",
+    "reference": "mutant",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 8.557498655000018
+  },
+  {
+    "id": "mutant/stock_default_no_guide/SRR29623267",
+    "reference": "mutant",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.710640051000155
+  },
+  {
+    "id": "mutant/stock_default_no_guide/SRR29623268",
+    "reference": "mutant",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 15.679365723000046
+  },
+  {
+    "id": "mutant/stock_default_no_guide/SRR29623270",
+    "reference": "mutant",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.888452311000037
+  },
+  {
+    "id": "mutant/stock_default_no_guide/SRR29623271",
+    "reference": "mutant",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.441503412000202
+  },
+  {
+    "id": "mutant/stock_default_no_guide/SRR29623272",
+    "reference": "mutant",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 8.179125910999574
+  },
+  {
+    "id": "mutant/stock_default_no_guide/SRR29623273",
+    "reference": "mutant",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.19545793099951
+  },
+  {
+    "id": "mutant/stock_default_no_guide/SRR29623274",
+    "reference": "mutant",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 5.343730089000019
+  },
+  {
+    "id": "programmed/baseline/SRR29623265",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.191586171999916
+  },
+  {
+    "id": "programmed/baseline/SRR29623266",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.25622959500015
+  },
+  {
+    "id": "programmed/baseline/SRR29623267",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 15.212569962000089
+  },
+  {
+    "id": "programmed/baseline/SRR29623268",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 16.8395340750003
+  },
+  {
+    "id": "programmed/baseline/SRR29623270",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.249688944999434
+  },
+  {
+    "id": "programmed/baseline/SRR29623271",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 13.235605351000231
+  },
+  {
+    "id": "programmed/baseline/SRR29623272",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.30564312899969
+  },
+  {
+    "id": "programmed/baseline/SRR29623273",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 7.044145873000161
+  },
+  {
+    "id": "programmed/baseline/SRR29623274",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.1214621199997055
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623265",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.68536850000055
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623266",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.985796987999493
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623267",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 17.029863522000596
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623268",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 19.283246955999857
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623270",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 10.56932479399984
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623271",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 13.200706913999966
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623272",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.201332405998983
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623273",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 7.6343254249986785
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623274",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.731087175000539
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623265",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.029558240999904
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623266",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.61995614800071
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623267",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 15.684282705000442
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623268",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 17.764144770000712
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623270",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 10.29836393900041
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623271",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.220736602001125
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623272",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.154892769000071
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623273",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 7.204604526001276
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623274",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 5.975793976000205
+  },
+  {
+    "id": "programmed/open_m10/SRR29623265",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 13.279122842000106
+  },
+  {
+    "id": "programmed/open_m10/SRR29623266",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.850467170999764
+  },
+  {
+    "id": "programmed/open_m10/SRR29623267",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 16.280283440999483
+  },
+  {
+    "id": "programmed/open_m10/SRR29623268",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 19.003755688999263
+  },
+  {
+    "id": "programmed/open_m10/SRR29623270",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.446359106999807
+  },
+  {
+    "id": "programmed/open_m10/SRR29623271",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 13.310159344000567
+  },
+  {
+    "id": "programmed/open_m10/SRR29623272",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.649279308000587
+  },
+  {
+    "id": "programmed/open_m10/SRR29623273",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 7.380512450000424
+  },
+  {
+    "id": "programmed/open_m10/SRR29623274",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.226967741000408
+  },
+  {
+    "id": "programmed/open_m30/SRR29623265",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 13.07297644099981
+  },
+  {
+    "id": "programmed/open_m30/SRR29623266",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.055447730000196
+  },
+  {
+    "id": "programmed/open_m30/SRR29623267",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 16.807559682999454
+  },
+  {
+    "id": "programmed/open_m30/SRR29623268",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 20.32880402200044
+  },
+  {
+    "id": "programmed/open_m30/SRR29623270",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.79784414400001
+  },
+  {
+    "id": "programmed/open_m30/SRR29623271",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 13.993186699999569
+  },
+  {
+    "id": "programmed/open_m30/SRR29623272",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.847651533000317
+  },
+  {
+    "id": "programmed/open_m30/SRR29623273",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 7.92963576999955
+  },
+  {
+    "id": "programmed/open_m30/SRR29623274",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.1617926899998565
+  },
+  {
+    "id": "programmed/score_50/SRR29623265",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.517049353999028
+  },
+  {
+    "id": "programmed/score_50/SRR29623266",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.520321398000306
+  },
+  {
+    "id": "programmed/score_50/SRR29623267",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 15.682039821000217
+  },
+  {
+    "id": "programmed/score_50/SRR29623268",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 17.717961719001323
+  },
+  {
+    "id": "programmed/score_50/SRR29623270",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.03395581499899
+  },
+  {
+    "id": "programmed/score_50/SRR29623271",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.5598250059993
+  },
+  {
+    "id": "programmed/score_50/SRR29623272",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.071229727000173
+  },
+  {
+    "id": "programmed/score_50/SRR29623273",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.664720421998936
+  },
+  {
+    "id": "programmed/score_50/SRR29623274",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 5.803323742999055
+  },
+  {
+    "id": "programmed/score_70/SRR29623265",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.323315883999385
+  },
+  {
+    "id": "programmed/score_70/SRR29623266",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.39970894399994
+  },
+  {
+    "id": "programmed/score_70/SRR29623267",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 15.766626519000056
+  },
+  {
+    "id": "programmed/score_70/SRR29623268",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 17.408354332999807
+  },
+  {
+    "id": "programmed/score_70/SRR29623270",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 10.480356512998696
+  },
+  {
+    "id": "programmed/score_70/SRR29623271",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 12.719038253999315
+  },
+  {
+    "id": "programmed/score_70/SRR29623272",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 9.559159228998396
+  },
+  {
+    "id": "programmed/score_70/SRR29623273",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.948499695999999
+  },
+  {
+    "id": "programmed/score_70/SRR29623274",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 6.103630022000289
+  },
+  {
+    "id": "programmed/stock_default_no_guide/SRR29623265",
+    "reference": "programmed",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623265",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.267125852999925
+  },
+  {
+    "id": "programmed/stock_default_no_guide/SRR29623266",
+    "reference": "programmed",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623266",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 8.825258528000631
+  },
+  {
+    "id": "programmed/stock_default_no_guide/SRR29623267",
+    "reference": "programmed",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623267",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 14.057947482999225
+  },
+  {
+    "id": "programmed/stock_default_no_guide/SRR29623268",
+    "reference": "programmed",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623268",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 16.62857927799996
+  },
+  {
+    "id": "programmed/stock_default_no_guide/SRR29623270",
+    "reference": "programmed",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623270",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 10.32512040399979
+  },
+  {
+    "id": "programmed/stock_default_no_guide/SRR29623271",
+    "reference": "programmed",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623271",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 11.655618040999798
+  },
+  {
+    "id": "programmed/stock_default_no_guide/SRR29623272",
+    "reference": "programmed",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623272",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 8.522190790000423
+  },
+  {
+    "id": "programmed/stock_default_no_guide/SRR29623273",
+    "reference": "programmed",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623273",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 5.867543221999767
+  },
+  {
+    "id": "programmed/stock_default_no_guide/SRR29623274",
+    "reference": "programmed",
+    "setting": "stock_default_no_guide",
+    "run": "SRR29623274",
+    "state": "COMPLETED",
+    "returncode": 0,
+    "elapsed_seconds": 5.364854880000166
+  }
+]

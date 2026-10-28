@@ -1,0 +1,884 @@
+[
+  {
+    "id": "mutant/baseline/SRR29623274",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/baseline/SRR29623266",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/baseline/SRR29623268",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/baseline/SRR29623273",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/baseline/SRR29623265",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/baseline/SRR29623267",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/baseline/SRR29623272",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/baseline/SRR29623271",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/baseline/SRR29623270",
+    "reference": "mutant",
+    "setting": "baseline",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m10/SRR29623274",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m10/SRR29623266",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m10/SRR29623268",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m10/SRR29623273",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m10/SRR29623265",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m10/SRR29623267",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m10/SRR29623272",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m10/SRR29623271",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m10/SRR29623270",
+    "reference": "mutant",
+    "setting": "open_m10",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m30/SRR29623274",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m30/SRR29623266",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m30/SRR29623268",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m30/SRR29623273",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m30/SRR29623265",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m30/SRR29623267",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m30/SRR29623272",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m30/SRR29623271",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/open_m30/SRR29623270",
+    "reference": "mutant",
+    "setting": "open_m30",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623274",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623266",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623268",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623273",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623265",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623267",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623272",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623271",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m1/SRR29623270",
+    "reference": "mutant",
+    "setting": "extend_m1",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623274",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623266",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623268",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623273",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623265",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623267",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623272",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623271",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/extend_m4/SRR29623270",
+    "reference": "mutant",
+    "setting": "extend_m4",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_50/SRR29623274",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_50/SRR29623266",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_50/SRR29623268",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_50/SRR29623273",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_50/SRR29623265",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_50/SRR29623267",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_50/SRR29623272",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_50/SRR29623271",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_50/SRR29623270",
+    "reference": "mutant",
+    "setting": "score_50",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_70/SRR29623274",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_70/SRR29623266",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_70/SRR29623268",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_70/SRR29623273",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_70/SRR29623265",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_70/SRR29623267",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_70/SRR29623272",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_70/SRR29623271",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "mutant/score_70/SRR29623270",
+    "reference": "mutant",
+    "setting": "score_70",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/baseline/SRR29623274",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/baseline/SRR29623266",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/baseline/SRR29623268",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/baseline/SRR29623273",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/baseline/SRR29623265",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/baseline/SRR29623267",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/baseline/SRR29623272",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/baseline/SRR29623271",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/baseline/SRR29623270",
+    "reference": "programmed",
+    "setting": "baseline",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m10/SRR29623274",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m10/SRR29623266",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m10/SRR29623268",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m10/SRR29623273",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m10/SRR29623265",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m10/SRR29623267",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m10/SRR29623272",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m10/SRR29623271",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m10/SRR29623270",
+    "reference": "programmed",
+    "setting": "open_m10",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m30/SRR29623274",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m30/SRR29623266",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m30/SRR29623268",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m30/SRR29623273",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m30/SRR29623265",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m30/SRR29623267",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m30/SRR29623272",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m30/SRR29623271",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/open_m30/SRR29623270",
+    "reference": "programmed",
+    "setting": "open_m30",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623274",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623266",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623268",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623273",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623265",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623267",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623272",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623271",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m1/SRR29623270",
+    "reference": "programmed",
+    "setting": "extend_m1",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623274",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623266",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623268",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623273",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623265",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623267",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623272",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623271",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/extend_m4/SRR29623270",
+    "reference": "programmed",
+    "setting": "extend_m4",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_50/SRR29623274",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_50/SRR29623266",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_50/SRR29623268",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_50/SRR29623273",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_50/SRR29623265",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_50/SRR29623267",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_50/SRR29623272",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_50/SRR29623271",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_50/SRR29623270",
+    "reference": "programmed",
+    "setting": "score_50",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_70/SRR29623274",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623274",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_70/SRR29623266",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623266",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_70/SRR29623268",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623268",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_70/SRR29623273",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623273",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_70/SRR29623265",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623265",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_70/SRR29623267",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623267",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_70/SRR29623272",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623272",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_70/SRR29623271",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623271",
+    "state": "UNEXECUTED"
+  },
+  {
+    "id": "programmed/score_70/SRR29623270",
+    "reference": "programmed",
+    "setting": "score_70",
+    "run": "SRR29623270",
+    "state": "UNEXECUTED"
+  }
+]

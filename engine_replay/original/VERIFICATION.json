@@ -1,0 +1,10 @@
+{
+  "state": "PASS",
+  "stage": "all",
+  "jobs": 144,
+  "raw_records": 177006,
+  "baseline_validation": "PASS",
+  "all_jobs_identity_and_two_count_routes": "PASS",
+  "native_OAT_resolved_label_conflicts_against_baseline": 63,
+  "limits": "Finite parameter sensitivity; neither independent biology nor molecular truth calibration. Stock multiple-change profile excluded from OAT ranges."
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "path": "dependencies/m2/DESIGN.json",
+    "source_relative_path": "comparison/sources/m2/DESIGN.json",
+    "bytes": 5109,
+    "sha256": "e51802cebb871f82b0d0f8b8bd734dcd9292d2ff0cf1f1091d4ab0bd49f6f4cc"
+  },
+  {
+    "path": "dependencies/m2/REFERENCE.json",
+    "source_relative_path": "comparison/sources/m2/REFERENCE.json",
+    "bytes": 799,
+    "sha256": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849"
+  },
+  {
+    "path": "dependencies/m2/REFERENCE_PROGRAMMED.json",
+    "source_relative_path": "comparison/sources/m2/REFERENCE_PROGRAMMED.json",
+    "bytes": 954,
+    "sha256": "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad"
+  },
+  {
+    "path": "dependencies/m2/results/COUNTS.json",
+    "source_relative_path": "comparison/sources/m2/results/COUNTS.json",
+    "bytes": 33022,
+    "sha256": "6f712d6cb43af0ce3bb9da69069409757619b5a06c094e7f6c8a0de8ecc8d57c"
+  },
+  {
+    "path": "dependencies/m2/results/REFERENCE_COUNTS.json",
+    "source_relative_path": "comparison/sources/m2/results/REFERENCE_COUNTS.json",
+    "bytes": 13442,
+    "sha256": "51b8b56e4ce022232a3cb9954313158e3c297d02168e363fd74b98138d9979b8"
+  },
+  {
+    "path": "dependencies/m2/results/SRR29623274.execution.json",
+    "source_relative_path": "comparison/sources/m2/results/SRR29623274.execution.json",
+    "bytes": 1741,
+    "sha256": "4053fad9b7bc2583a76a4d4ef268a946ad587122c951143f7aff33273de496c4"
+  },
+  {
+    "path": "dependencies/m2/runs/CRISPResso_on_SRR29623274/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs/CRISPResso_on_SRR29623274/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 417,
+    "sha256": "70d13e12f463c910ba35a00f0b514cee56cd88595b44e5469f801c2fdc3f6f59"
+  },
+  {
+    "path": "dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623274/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs_programmed_ref/CRISPResso_on_SRR29623274/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 410,
+    "sha256": "590d479bee32de871188abf74ac7b3bbad1ad4dc6123b0ca71e622dbf1f1bd92"
+  },
+  {
+    "path": "dependencies/m2/results/SRR29623266.execution.json",
+    "source_relative_path": "comparison/sources/m2/results/SRR29623266.execution.json",
+    "bytes": 1742,
+    "sha256": "2679b991174e1e40e39ba72e2a249568e680a3125b35058a9b05ead7194759a7"
+  },
+  {
+    "path": "dependencies/m2/runs/CRISPResso_on_SRR29623266/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs/CRISPResso_on_SRR29623266/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 417,
+    "sha256": "8468dc55d0b9edbfa5e0d37dde0a6a32f23632c208255bc97ce9de9002e78dd5"
+  },
+  {
+    "path": "dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623266/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs_programmed_ref/CRISPResso_on_SRR29623266/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 410,
+    "sha256": "063f87f60612397bb6dd6c4a90dd3f41a9c0618f4c88250647eca338717cf17e"
+  },
+  {
+    "path": "dependencies/m2/results/SRR29623268.execution.json",
+    "source_relative_path": "comparison/sources/m2/results/SRR29623268.execution.json",
+    "bytes": 1742,
+    "sha256": "1abc3e2cd45cd989de7fea3d03df6428242f88f7e419d212cd772d09aac9e9a3"
+  },
+  {
+    "path": "dependencies/m2/runs/CRISPResso_on_SRR29623268/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs/CRISPResso_on_SRR29623268/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 419,
+    "sha256": "21f37e2d97d35821c155e0938fb10b0e5a6f9b6c1a1cfa18c6e8bcbbd2db45d9"
+  },
+  {
+    "path": "dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623268/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs_programmed_ref/CRISPResso_on_SRR29623268/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 410,
+    "sha256": "bfd7de6c12ac97acd2549ae213998433f687a5ef073054b73b8fee7e22b75c1c"
+  },
+  {
+    "path": "dependencies/m2/results/SRR29623273.execution.json",
+    "source_relative_path": "comparison/sources/m2/results/SRR29623273.execution.json",
+    "bytes": 1737,
+    "sha256": "4c14f6daf23f68275d7b3f2d23169d2e5ff4050848e2906cd1e05d84917c6941"
+  },
+  {
+    "path": "dependencies/m2/runs/CRISPResso_on_SRR29623273/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs/CRISPResso_on_SRR29623273/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 419,
+    "sha256": "deb4b0cb1bb73d7436cea4a594f3ef6b08ec650e6d9a5db01321b1ab0560f9f6"
+  },
+  {
+    "path": "dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623273/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs_programmed_ref/CRISPResso_on_SRR29623273/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 423,
+    "sha256": "afdce760eedc5afc087fd77a1033a07f5394f302384d24f42c8121c650e3624e"
+  },
+  {
+    "path": "dependencies/m2/results/SRR29623265.execution.json",
+    "source_relative_path": "comparison/sources/m2/results/SRR29623265.execution.json",
+    "bytes": 1737,
+    "sha256": "18214d3d8e1ae8c0961c012442f7962bdff6619871b76122b2f4b215edaab7ab"
+  },
+  {
+    "path": "dependencies/m2/runs/CRISPResso_on_SRR29623265/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs/CRISPResso_on_SRR29623265/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 419,
+    "sha256": "6157cbf9e7c55f84ef449fbbebec1025820c3cddff5206d75c3552b6018a3946"
+  },
+  {
+    "path": "dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623265/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs_programmed_ref/CRISPResso_on_SRR29623265/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 410,
+    "sha256": "dc1d18b7c309cc78b6bef4420a3a771df547cdd9a61a823204239c30038396f3"
+  },
+  {
+    "path": "dependencies/m2/results/SRR29623267.execution.json",
+    "source_relative_path": "comparison/sources/m2/results/SRR29623267.execution.json",
+    "bytes": 1737,
+    "sha256": "314509b00c43c564f7a352b703c7ef417471189e9b95ce2898801f1c94401851"
+  },
+  {
+    "path": "dependencies/m2/runs/CRISPResso_on_SRR29623267/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs/CRISPResso_on_SRR29623267/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 419,
+    "sha256": "17a45fa0057d3a215ef430ccea1f0800d57ce8e2b68ae572763ff1cfdb21efad"
+  },
+  {
+    "path": "dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623267/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs_programmed_ref/CRISPResso_on_SRR29623267/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 410,
+    "sha256": "8ee822ed0c3e0e5c0befb1f9a2d72a8b670c17e364652d63ad722ccfab3edcc6"
+  },
+  {
+    "path": "dependencies/m2/results/SRR29623272.execution.json",
+    "source_relative_path": "comparison/sources/m2/results/SRR29623272.execution.json",
+    "bytes": 1743,
+    "sha256": "e5a8f66ef95408bb2e3c6c7b38ac9f886ca95c88caeee1bc2a73a8d491f231a1"
+  },
+  {
+    "path": "dependencies/m2/runs/CRISPResso_on_SRR29623272/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs/CRISPResso_on_SRR29623272/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 436,
+    "sha256": "10acea9112f4fb8321f0928105b7debaafbc91db69a316acc5dc950de9f47715"
+  },
+  {
+    "path": "dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623272/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs_programmed_ref/CRISPResso_on_SRR29623272/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 436,
+    "sha256": "64cca5da8330c465ac863019e9c0c6c050303aab3f5f18dbaa1f2fa685307efd"
+  },
+  {
+    "path": "dependencies/m2/results/SRR29623271.execution.json",
+    "source_relative_path": "comparison/sources/m2/results/SRR29623271.execution.json",
+    "bytes": 1743,
+    "sha256": "f6aaf4628e6c1aabf3885a4726d8ca602939d29ae56783d7cf33abb735a3b633"
+  },
+  {
+    "path": "dependencies/m2/runs/CRISPResso_on_SRR29623271/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs/CRISPResso_on_SRR29623271/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 437,
+    "sha256": "dc06c54c3724c6295a6ab889eae05a37a502564ad04a990274d0a293b97ee9b7"
+  },
+  {
+    "path": "dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623271/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs_programmed_ref/CRISPResso_on_SRR29623271/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 437,
+    "sha256": "ff9458db05b0b00361a0608098b8ae87f411726be6a9659c0c33408cc5c9925a"
+  },
+  {
+    "path": "dependencies/m2/results/SRR29623270.execution.json",
+    "source_relative_path": "comparison/sources/m2/results/SRR29623270.execution.json",
+    "bytes": 1743,
+    "sha256": "72ae2102f42e5a935d93e28ec893b23029be0f6e3f5b061cee6f12f44400bbf0"
+  },
+  {
+    "path": "dependencies/m2/runs/CRISPResso_on_SRR29623270/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs/CRISPResso_on_SRR29623270/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 432,
+    "sha256": "73e08fea24111a000dc2473afb54409b44499e8a8d50ffe77bc082cbf98eedba"
+  },
+  {
+    "path": "dependencies/m2/runs_programmed_ref/CRISPResso_on_SRR29623270/CRISPResso_quantification_of_editing_frequency.txt",
+    "source_relative_path": "comparison/sources/m2/runs_programmed_ref/CRISPResso_on_SRR29623270/CRISPResso_quantification_of_editing_frequency.txt",
+    "bytes": 436,
+    "sha256": "6867fa893a3c8df137b57064411cb250670be0e67b8b4de2b1b784899ad8afdb"
+  }
+]

@@ -1,0 +1,545 @@
+{
+  "status": "RECOVERED_FROM_PUBLIC_ORCID_AND_THREE_AUTHOR_PREPRINTS",
+  "checked_date": "2026-10-28",
+  "name": "Facundo Firmenich",
+  "ORCID": "0009-0002-6578-3811",
+  "ORCID_URL": "https://orcid.org/0009-0002-6578-3811",
+  "correspondence": "f.firmenich@cedesur.org",
+  "published_author_affiliations_latest": [
+    "Centro de Estudios del Sur (CEDESUR), Spain and Argentina. For this project, academically affiliated with Universidad Nacional Arturo Jauretche (UNAJ), Av. Calchaquí 6200, Florencio Varela, Provincia de Buenos Aires, 1888, Argentina",
+    "Universitat de Barcelona (UB), Gran Via de les Corts Catalanes, 585, 08007 Barcelona, Spain"
+  ],
+  "published_affiliation_variant_Fractal_Tomography": "Centro de Estudios del Sur (CEDESUR), think tank affiliated with multiple universities; for this project, academically affiliated with Universidad Nacional Arturo Jauretche (UNAJ), Av. Calchaquí 6200, Florencio Varela, Provincia de Buenos Aires, 1888, Argentina",
+  "ORCID_affiliation_records": [
+    {
+      "ORCID_category": "educations",
+      "ORCID_summary_kind": "education-summary",
+      "put_code": 33817668,
+      "organization": {
+        "name": "Universitat de Barcelona",
+        "address": {
+          "city": "Barcelona",
+          "region": "Catalonia",
+          "country": "ES"
+        },
+        "disambiguated-organization": {
+          "disambiguated-organization-identifier": "https://ror.org/021018s57",
+          "disambiguation-source": "ROR"
+        }
+      },
+      "department_name": null,
+      "role_title": null,
+      "start_date": null,
+      "end_date": null,
+      "source": {
+        "source-orcid": {
+          "uri": "https://orcid.org/0009-0002-6578-3811",
+          "path": "0009-0002-6578-3811",
+          "host": "orcid.org"
+        },
+        "source-client-id": null,
+        "source-name": {
+          "value": "Facundo Firmenich"
+        },
+        "assertion-origin-orcid": null,
+        "assertion-origin-client-id": null,
+        "assertion-origin-name": null
+      },
+      "ORCID_path": "/0009-0002-6578-3811/education/33817668",
+      "visibility": "public"
+    },
+    {
+      "ORCID_category": "qualifications",
+      "ORCID_summary_kind": "qualification-summary",
+      "put_code": 33817691,
+      "organization": {
+        "name": "Universidad Nacional de Lanús",
+        "address": {
+          "city": "Lanús",
+          "region": "Buenos Aires",
+          "country": "AR"
+        },
+        "disambiguated-organization": {
+          "disambiguated-organization-identifier": "https://ror.org/00ccxmy30",
+          "disambiguation-source": "ROR"
+        }
+      },
+      "department_name": null,
+      "role_title": null,
+      "start_date": null,
+      "end_date": null,
+      "source": {
+        "source-orcid": {
+          "uri": "https://orcid.org/0009-0002-6578-3811",
+          "path": "0009-0002-6578-3811",
+          "host": "orcid.org"
+        },
+        "source-client-id": null,
+        "source-name": {
+          "value": "Facundo Firmenich"
+        },
+        "assertion-origin-orcid": null,
+        "assertion-origin-client-id": null,
+        "assertion-origin-name": null
+      },
+      "ORCID_path": "/0009-0002-6578-3811/qualification/33817691",
+      "visibility": "public"
+    },
+    {
+      "ORCID_category": "qualifications",
+      "ORCID_summary_kind": "qualification-summary",
+      "put_code": 33817688,
+      "organization": {
+        "name": "Universidad Nacional Arturo Jauretche",
+        "address": {
+          "city": "San Juan Bautista",
+          "region": "Buenos Aires",
+          "country": "AR"
+        },
+        "disambiguated-organization": {
+          "disambiguated-organization-identifier": "https://ror.org/00ep21g81",
+          "disambiguation-source": "ROR"
+        }
+      },
+      "department_name": null,
+      "role_title": null,
+      "start_date": null,
+      "end_date": null,
+      "source": {
+        "source-orcid": {
+          "uri": "https://orcid.org/0009-0002-6578-3811",
+          "path": "0009-0002-6578-3811",
+          "host": "orcid.org"
+        },
+        "source-client-id": null,
+        "source-name": {
+          "value": "Facundo Firmenich"
+        },
+        "assertion-origin-orcid": null,
+        "assertion-origin-client-id": null,
+        "assertion-origin-name": null
+      },
+      "ORCID_path": "/0009-0002-6578-3811/qualification/33817688",
+      "visibility": "public"
+    },
+    {
+      "ORCID_category": "invited-positions",
+      "ORCID_summary_kind": "invited-position-summary",
+      "put_code": 35393352,
+      "organization": {
+        "name": "Universidad Nacional Arturo Jauretche",
+        "address": {
+          "city": "San Juan Bautista",
+          "region": "Buenos Aires",
+          "country": "AR"
+        },
+        "disambiguated-organization": {
+          "disambiguated-organization-identifier": "https://ror.org/00ep21g81",
+          "disambiguation-source": "ROR"
+        }
+      },
+      "department_name": "Programa de Estudios Latinoamericanos",
+      "role_title": "Ponente",
+      "start_date": {
+        "year": {
+          "value": "2016"
+        },
+        "month": {
+          "value": "10"
+        },
+        "day": {
+          "value": "12"
+        }
+      },
+      "end_date": {
+        "year": {
+          "value": "2016"
+        },
+        "month": {
+          "value": "10"
+        },
+        "day": {
+          "value": "12"
+        }
+      },
+      "source": {
+        "source-orcid": {
+          "uri": "https://orcid.org/0009-0002-6578-3811",
+          "path": "0009-0002-6578-3811",
+          "host": "orcid.org"
+        },
+        "source-client-id": null,
+        "source-name": {
+          "value": "Facundo Firmenich"
+        },
+        "assertion-origin-orcid": null,
+        "assertion-origin-client-id": null,
+        "assertion-origin-name": null
+      },
+      "ORCID_path": "/0009-0002-6578-3811/invited-position/35393352",
+      "visibility": "public"
+    },
+    {
+      "ORCID_category": "invited-positions",
+      "ORCID_summary_kind": "invited-position-summary",
+      "put_code": 35393269,
+      "organization": {
+        "name": "Universitat Pompeu Fabra, Barcelona",
+        "address": {
+          "city": "Barcelona",
+          "region": "Catalonia",
+          "country": "ES"
+        },
+        "disambiguated-organization": {
+          "disambiguated-organization-identifier": "https://ror.org/04n0g0b29",
+          "disambiguation-source": "ROR"
+        }
+      },
+      "department_name": null,
+      "role_title": "Ponente",
+      "start_date": {
+        "year": {
+          "value": "2013"
+        },
+        "month": {
+          "value": "02"
+        },
+        "day": {
+          "value": "04"
+        }
+      },
+      "end_date": {
+        "year": {
+          "value": "2013"
+        },
+        "month": {
+          "value": "02"
+        },
+        "day": {
+          "value": "04"
+        }
+      },
+      "source": {
+        "source-orcid": {
+          "uri": "https://orcid.org/0009-0002-6578-3811",
+          "path": "0009-0002-6578-3811",
+          "host": "orcid.org"
+        },
+        "source-client-id": null,
+        "source-name": {
+          "value": "Facundo Firmenich"
+        },
+        "assertion-origin-orcid": null,
+        "assertion-origin-client-id": null,
+        "assertion-origin-name": null
+      },
+      "ORCID_path": "/0009-0002-6578-3811/invited-position/35393269",
+      "visibility": "public"
+    }
+  ],
+  "ORCID_works": [
+    {
+      "title": "Beyond Redfield: Thermodynamic Bounds and Non-Perturbative Quantum Dynamics in Tubulin Networks",
+      "ORCID_type": "preprint",
+      "put_code": 214577940,
+      "external_identifiers": [
+        {
+          "external-id-type": "doi",
+          "external-id-value": "10.64898/2026.05.10.724047",
+          "external-id-normalized": {
+            "value": "10.64898/2026.05.10.724047",
+            "transient": true
+          },
+          "external-id-normalized-error": null,
+          "external-id-url": {
+            "value": "https://doi.org/10.64898/2026.05.10.724047"
+          },
+          "external-id-relationship": "self"
+        }
+      ],
+      "url": "https://doi.org/10.64898/2026.05.10.724047"
+    },
+    {
+      "title": "Fractal Tomography and the Fisher Information Barrier of Seismicity: Addressing the Origin of Dual Paradoxes via Precision-Calibrated Bayesian Inference",
+      "ORCID_type": "preprint",
+      "put_code": 211396665,
+      "external_identifiers": [
+        {
+          "external-id-type": "doi",
+          "external-id-value": "10.31223/X5N192",
+          "external-id-normalized": {
+            "value": "10.31223/x5n192",
+            "transient": true
+          },
+          "external-id-normalized-error": null,
+          "external-id-url": {
+            "value": "https://doi.org/10.31223/X5N192"
+          },
+          "external-id-relationship": "self"
+        }
+      ],
+      "url": "https://doi.org/10.31223/X5N192"
+    },
+    {
+      "title": "Seismic Fractal Analysis (SFA): Framework for Precision-Calibrated Dimensional Inference",
+      "ORCID_type": "book",
+      "put_code": 211346019,
+      "external_identifiers": [
+        {
+          "external-id-type": "doi",
+          "external-id-value": "10.5281/ZENODO.18480821",
+          "external-id-normalized": {
+            "value": "10.5281/zenodo.18480821",
+            "transient": true
+          },
+          "external-id-normalized-error": null,
+          "external-id-url": {
+            "value": "https://doi.org/10.5281/ZENODO.18480821"
+          },
+          "external-id-relationship": "self"
+        }
+      ],
+      "url": "https://zenodo.org/doi/10.5281/zenodo.18480821"
+    },
+    {
+      "title": "Seismic Fractal Analysis: Multi-Planar Hierarchy Framework",
+      "ORCID_type": "research-tool",
+      "put_code": 201737196,
+      "external_identifiers": [
+        {
+          "external-id-type": "doi",
+          "external-id-value": "10.5281/ZENODO.17875888",
+          "external-id-normalized": {
+            "value": "10.5281/zenodo.17875888",
+            "transient": true
+          },
+          "external-id-normalized-error": null,
+          "external-id-url": {
+            "value": "https://doi.org/10.5281/ZENODO.17875888"
+          },
+          "external-id-relationship": "self"
+        }
+      ],
+      "url": "https://zenodo.org/doi/10.5281/zenodo.17875888"
+    },
+    {
+      "title": "Multi-Planar Hierarchy in Pan-American Seismic Fractality: A Bayesian Resolution to the Projection Paradox",
+      "ORCID_type": "working-paper",
+      "put_code": 201730663,
+      "external_identifiers": [
+        {
+          "external-id-type": "bibcode",
+          "external-id-value": "2025EaArX...X5RF3VF",
+          "external-id-normalized": {
+            "value": "2025EaArX...X5RF3VF",
+            "transient": true
+          },
+          "external-id-normalized-error": null,
+          "external-id-url": null,
+          "external-id-relationship": "self"
+        },
+        {
+          "external-id-type": "doi",
+          "external-id-value": "10.31223/x5rf3v",
+          "external-id-normalized": {
+            "value": "10.31223/x5rf3v",
+            "transient": true
+          },
+          "external-id-normalized-error": null,
+          "external-id-url": null,
+          "external-id-relationship": "self"
+        }
+      ],
+      "url": null
+    },
+    {
+      "title": "Scale Dependent Spacetime Geometry",
+      "ORCID_type": "research-tool",
+      "put_code": 196250125,
+      "external_identifiers": [
+        {
+          "external-id-type": "doi",
+          "external-id-value": "10.5281/ZENODO.17546883",
+          "external-id-normalized": {
+            "value": "10.5281/zenodo.17546883",
+            "transient": true
+          },
+          "external-id-normalized-error": null,
+          "external-id-url": {
+            "value": "https://doi.org/10.5281/zenodo.17546883"
+          },
+          "external-id-relationship": "self"
+        }
+      ],
+      "url": "https://github.com/ardelsistema/scale-dependent-spacetime-geometry"
+    }
+  ],
+  "three_preprints": [
+    {
+      "short_title": "Multi-Planar Hierarchy",
+      "DOI": "10.31223/X5RF3V",
+      "ORCID_put_code": 201730663,
+      "source": "https://eartharxiv.org/repository/view/11104/"
+    },
+    {
+      "short_title": "Fractal Tomography",
+      "DOI": "10.31223/X5N192",
+      "ORCID_put_code": 211396665,
+      "source": "https://eartharxiv.org/repository/view/12575/",
+      "source_library_file_id": "libfile_db9f2a969c5c8191b81218fde3c724bc"
+    },
+    {
+      "short_title": "Beyond Redfield",
+      "DOI": "10.64898/2026.05.10.724047",
+      "ORCID_put_code": 214577940,
+      "source": "https://www.biorxiv.org/content/10.64898/2026.05.10.724047v1"
+    }
+  ],
+  "ADS_record_reference": {
+    "ORCID_work_title": "Multi-Planar Hierarchy in Pan-American Seismic Fractality: A Bayesian Resolution to the Projection Paradox",
+    "bibcode": "2025EaArX...X5RF3VF",
+    "source": "ORCID public work record, put-code201730663",
+    "URL": "https://ui.adsabs.harvard.edu/abs/2025EaArX...X5RF3VF/abstract",
+    "direct_ADS_record_read_status": "NOT_YET_VERIFIED_IN_THIS_SESSION",
+    "source_client_name": "NASA Astrophysics Data System",
+    "NASA_ADS_source_client_verified_in_ORCID": true
+  },
+  "interpretation": "Published affiliations and public ORCID education, qualification and invited-position records retain their original categories. Current project acknowledgments follow the author revision. Complete manuscript and supplement are held privately.",
+  "source_identifiers": {
+    "BioRxiv_Library": "libfile_c51a61eb6f4c8191ad788845517feded",
+    "MultiPlanar_Library": "libfile_d2b54117dde48191ac2057c33ba7f8fb",
+    "Fractal_Tomography_Library": "libfile_db9f2a969c5c8191b81218fde3c724bc"
+  },
+  "source_hashes": {
+    "ORCID_API_JSON": "e1cff2e2b1c9c9f1c2c75e1c34218349cde6d20d526a79b5675be4e8d50c69d7",
+    "BioRxiv_PDF": "ad516191d474945139cbb0b2ad158ae76a949aac95ab5bb95e1eed5a1662ee66"
+  },
+  "ORCID_affiliation_record_count": 5,
+  "ORCID_additional_invited_positions": [
+    {
+      "ORCID_category": "invited-positions",
+      "ORCID_summary_kind": "invited-position-summary",
+      "put_code": 35393352,
+      "organization": {
+        "name": "Universidad Nacional Arturo Jauretche",
+        "address": {
+          "city": "San Juan Bautista",
+          "region": "Buenos Aires",
+          "country": "AR"
+        },
+        "disambiguated-organization": {
+          "disambiguated-organization-identifier": "https://ror.org/00ep21g81",
+          "disambiguation-source": "ROR"
+        }
+      },
+      "department_name": "Programa de Estudios Latinoamericanos",
+      "role_title": "Ponente",
+      "start_date": {
+        "year": {
+          "value": "2016"
+        },
+        "month": {
+          "value": "10"
+        },
+        "day": {
+          "value": "12"
+        }
+      },
+      "end_date": {
+        "year": {
+          "value": "2016"
+        },
+        "month": {
+          "value": "10"
+        },
+        "day": {
+          "value": "12"
+        }
+      },
+      "source": {
+        "source-orcid": {
+          "uri": "https://orcid.org/0009-0002-6578-3811",
+          "path": "0009-0002-6578-3811",
+          "host": "orcid.org"
+        },
+        "source-client-id": null,
+        "source-name": {
+          "value": "Facundo Firmenich"
+        },
+        "assertion-origin-orcid": null,
+        "assertion-origin-client-id": null,
+        "assertion-origin-name": null
+      },
+      "ORCID_path": "/0009-0002-6578-3811/invited-position/35393352",
+      "visibility": "public"
+    },
+    {
+      "ORCID_category": "invited-positions",
+      "ORCID_summary_kind": "invited-position-summary",
+      "put_code": 35393269,
+      "organization": {
+        "name": "Universitat Pompeu Fabra, Barcelona",
+        "address": {
+          "city": "Barcelona",
+          "region": "Catalonia",
+          "country": "ES"
+        },
+        "disambiguated-organization": {
+          "disambiguated-organization-identifier": "https://ror.org/04n0g0b29",
+          "disambiguation-source": "ROR"
+        }
+      },
+      "department_name": null,
+      "role_title": "Ponente",
+      "start_date": {
+        "year": {
+          "value": "2013"
+        },
+        "month": {
+          "value": "02"
+        },
+        "day": {
+          "value": "04"
+        }
+      },
+      "end_date": {
+        "year": {
+          "value": "2013"
+        },
+        "month": {
+          "value": "02"
+        },
+        "day": {
+          "value": "04"
+        }
+      },
+      "source": {
+        "source-orcid": {
+          "uri": "https://orcid.org/0009-0002-6578-3811",
+          "path": "0009-0002-6578-3811",
+          "host": "orcid.org"
+        },
+        "source-client-id": null,
+        "source-name": {
+          "value": "Facundo Firmenich"
+        },
+        "assertion-origin-orcid": null,
+        "assertion-origin-client-id": null,
+        "assertion-origin-name": null
+      },
+      "ORCID_path": "/0009-0002-6578-3811/invited-position/35393269",
+      "visibility": "public"
+    }
+  ],
+  "current_project_acknowledgments": [
+    "Marc Martínez Sepúlveda",
+    "Camila Paz Bravo",
+    "Pablo Cingolani",
+    "Ernesto Villanueva",
+    "Juan Pastor González"
+  ],
+  "current_project_teams_acknowledged": [
+    "CEDESUR",
+    "UNAJ"
+  ]
+}

@@ -1,0 +1,10 @@
+run_accession,preparation,condition,source_replica,raw_N,mutant_ref_Q30_input,mutant_ref_aligned,mutant_ref_modified,mutant_ref_unmodified,mutant_ref_modified_percent_5dp,mutant_ref_unmodified_percent_5dp,programmed_ref_Q30_input,programmed_ref_aligned,programmed_ref_modified,programmed_ref_unmodified,programmed_ref_modified_percent_5dp,programmed_ref_unmodified_percent_5dp,ambiguity_reporting
+SRR29623274,CFB-26-16,untreated,1,13762,13558,13549,383,13166,2.82678,97.17322,13558,13549,13549,0,100.00000,0.00000,No separate ambiguous class; one reference per run
+SRR29623266,CFB-26-02,untreated,2,13617,13498,13491,282,13209,2.09028,97.90972,13498,13491,13491,0,100.00000,0.00000,No separate ambiguous class; one reference per run
+SRR29623268,CFB-06-04,untreated,3,29956,29677,29660,547,29113,1.84423,98.15577,29677,29660,29660,0,100.00000,0.00000,No separate ambiguous class; one reference per run
+SRR29623273,CFB-26-16,mock,1,17177,16887,16879,458,16421,2.71343,97.28657,16887,16879,16877,2,99.98815,0.01185,No separate ambiguous class; one reference per run
+SRR29623265,CFB-26-02,mock,2,21041,20855,20848,356,20492,1.70760,98.29240,20855,20848,20848,0,100.00000,0.00000,No separate ambiguous class; one reference per run
+SRR29623267,CFB-06-04,mock,3,27024,26805,26791,471,26320,1.75805,98.24195,26805,26791,26791,0,100.00000,0.00000,No separate ambiguous class; one reference per run
+SRR29623272,CFB-26-16,PE treated,1,20573,20212,20176,5741,14435,28.45460,71.54540,20212,20176,16472,3704,81.64155,18.35845,No separate ambiguous class; one reference per run
+SRR29623271,CFB-26-02,PE treated,2,19184,18982,18873,7743,11130,41.02686,58.97314,18982,18878,13070,5808,69.23403,30.76597,No separate ambiguous class; one reference per run
+SRR29623270,CFB-06-04,PE treated,3,14672,14536,14485,5323,9162,36.74836,63.25164,14536,14488,10614,3874,73.26063,26.73937,No separate ambiguous class; one reference per run

@@ -1,0 +1,81 @@
+{
+  "source": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1055086&result=read_run&fields=run_accession,study_accession,fastq_ftp,fastq_md5,submitted_ftp&format=json",
+  "checked_date": "2026-10-28",
+  "requested_runs": [
+    "SRR29623265",
+    "SRR29623266",
+    "SRR29623267",
+    "SRR29623268",
+    "SRR29623270",
+    "SRR29623271",
+    "SRR29623272",
+    "SRR29623273",
+    "SRR29623274"
+  ],
+  "resolved_count": 9,
+  "rows": [
+    {
+      "run_accession": "SRR29623265",
+      "study_accession": "PRJNA1055086",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/065/SRR29623265/SRR29623265.fastq.gz",
+      "fastq_md5": "62b71b1b6797be831dec682a089f60a6",
+      "submitted_ftp": ""
+    },
+    {
+      "run_accession": "SRR29623274",
+      "study_accession": "PRJNA1055086",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/074/SRR29623274/SRR29623274.fastq.gz",
+      "fastq_md5": "94bd881f69bda0b31aa1127012b9b603",
+      "submitted_ftp": ""
+    },
+    {
+      "run_accession": "SRR29623273",
+      "study_accession": "PRJNA1055086",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/073/SRR29623273/SRR29623273.fastq.gz",
+      "fastq_md5": "db0157f60759ef8e2d8ebbb1768f3efd",
+      "submitted_ftp": ""
+    },
+    {
+      "run_accession": "SRR29623270",
+      "study_accession": "PRJNA1055086",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/070/SRR29623270/SRR29623270.fastq.gz",
+      "fastq_md5": "fd3379deedc572a848711c65650e456d",
+      "submitted_ftp": ""
+    },
+    {
+      "run_accession": "SRR29623266",
+      "study_accession": "PRJNA1055086",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/066/SRR29623266/SRR29623266.fastq.gz",
+      "fastq_md5": "8c74439b2cb6e4045c17ca348ecf8152",
+      "submitted_ftp": ""
+    },
+    {
+      "run_accession": "SRR29623268",
+      "study_accession": "PRJNA1055086",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/068/SRR29623268/SRR29623268.fastq.gz",
+      "fastq_md5": "78451e8e15bc677a78b91677e608d222",
+      "submitted_ftp": ""
+    },
+    {
+      "run_accession": "SRR29623271",
+      "study_accession": "PRJNA1055086",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/071/SRR29623271/SRR29623271.fastq.gz",
+      "fastq_md5": "3279240975a615a5da9742106d1baace",
+      "submitted_ftp": ""
+    },
+    {
+      "run_accession": "SRR29623272",
+      "study_accession": "PRJNA1055086",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/072/SRR29623272/SRR29623272.fastq.gz",
+      "fastq_md5": "7308f846524fc777d5f4b7c3be88cf05",
+      "submitted_ftp": ""
+    },
+    {
+      "run_accession": "SRR29623267",
+      "study_accession": "PRJNA1055086",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR296/067/SRR29623267/SRR29623267.fastq.gz",
+      "fastq_md5": "520e87953cfebd0f2377e93d314a1610",
+      "submitted_ftp": ""
+    }
+  ]
+}
