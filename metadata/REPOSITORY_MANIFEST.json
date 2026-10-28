@@ -56,8 +56,8 @@
       "sha256": "bb529ee32ab7d3b876b7fa54259555141673dd2fdf7f6b5abb8b57f7cfced04d"
     },
     "code/check_explorer_browser.cjs": {
-      "bytes": 13601,
-      "sha256": "bdcd8232c57aa1f24cc48290dff5aecf45a65e232233405d79c495f8e0357575"
+      "bytes": 16208,
+      "sha256": "255834a9142ce3bc4b7a77e5fbab7d45d8808e2dc46961956ab91bc964e5c2b2"
     },
     "code/check_public_distribution.py": {
       "bytes": 3195,
@@ -545,7 +545,7 @@
     },
     "interactive/BUILD_RECEIPT.json": {
       "bytes": 627,
-      "sha256": "40e7761c12570339a97585b37e2fdb5d06a0dce136aaa660b4827a8752750415"
+      "sha256": "6dedefd2a3b4096a7b71612ec2b8a6f12fbd0aaa8e77c125cb0f3df3d95c97e2"
     },
     "interactive/CONTRACT_BOUNDARY_CHECKS.json": {
       "bytes": 529,
@@ -580,16 +580,16 @@
       "sha256": "2869dcee36bae6b4d8d07adac59298d633fcdab375ea10e67b5e131d9b92b6a0"
     },
     "interactive/epistemic_graph.html": {
-      "bytes": 667607,
-      "sha256": "ba71fe15c58d1619e96bd3f639d80de13c5ea0cc550c99547de90b2ec90bddb3"
+      "bytes": 667877,
+      "sha256": "29fc7fce6805bb50b4a6b2c8340d745d07552bad4b8fa7d5b359a7d35bad6445"
     },
     "interactive/evidence_model.json": {
       "bytes": 612492,
       "sha256": "f5a9179899bace3f773d45363977152433ca29542fb0b56ba98b63006a4305b4"
     },
     "interactive/explorer.template.html": {
-      "bytes": 55084,
-      "sha256": "8a776b311da49f4760047df35573d80e694fa0ff3908bb117fc944a7c865e8ef"
+      "bytes": 55354,
+      "sha256": "d010f8f689b9568ebc36814f3956b9c0cf15bea2d0a1a33094a5ad02651241c8"
     },
     "interactive/sources/numerical/JOINT_STABILITY.json": {
       "bytes": 41603,

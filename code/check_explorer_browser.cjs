@@ -20,7 +20,13 @@ const nf = new Intl.NumberFormat('en-US');
 const fmt = n => nf.format(n);
 const pct = n => (100 * n).toFixed(5) + '%';
 
-async function screenshot(page, viewport, view) {
+async function screenshot(page, viewport, view, anchor = null) {
+  if (anchor) {
+    await page.locator(anchor).evaluate(n => n.scrollIntoView({ block: 'start', behavior: 'instant' }));
+  } else {
+    await page.evaluate(() => window.scrollTo(0, 0));
+  }
+  await noOverflow(page);
   await page.screenshot({ path: path.join(output, `${viewport}-${view}.png`), fullPage: false });
 }
 async function assertPartition(page) {
@@ -49,8 +55,46 @@ async function setRange(page, value) {
   }, value);
 }
 async function noOverflow(page) {
-  const size = await page.evaluate(() => ({ width: innerWidth, scroll: document.documentElement.scrollWidth }));
-  assert.ok(size.scroll <= size.width + 1, `Page has horizontal overflow: ${JSON.stringify(size)}`);
+  // innerWidth can expand with a mobile layout overflow: use the configured
+  // physical CSS viewport as the independent width, then inspect actual text.
+  const expected = page.viewportSize().width;
+  const geometry = await page.evaluate(expectedWidth => {
+    const tolerance = 2;
+    const panel = document.querySelector('.panel:not([hidden])');
+    const excluded = '.tablewrap,.graph-scroller,.tabs'; // deliberate local scrollers
+    const rendered = el => {
+      const style = getComputedStyle(el);
+      return style.display !== 'none' && style.visibility !== 'hidden' && el.getClientRects().length;
+    };
+    const crosses = r => r.width > 0 && (r.left < -tolerance || r.right > expectedWidth + tolerance);
+    const boxes = [];
+    for (const el of panel.querySelectorAll('.card,.toolbar,.hypothetical,.number-strip,.legend,.readout-title,button,select,input')) {
+      if (!rendered(el) || el.closest(excluded)) continue;
+      const rect = el.getBoundingClientRect();
+      if (crosses(rect)) boxes.push({ element: el.id || el.className || el.tagName, left: rect.left, right: rect.right, width: rect.width });
+    }
+    const textOverflow = [];
+    const walker = document.createTreeWalker(panel, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) {
+      const text = walker.currentNode, parent = text.parentElement;
+      if (!text.textContent.trim() || !parent || !rendered(parent) || parent.closest(excluded)) continue;
+      const range = document.createRange(); range.selectNodeContents(text);
+      for (const rect of range.getClientRects()) if (crosses(rect)) {
+        textOverflow.push({ text: text.textContent.trim().slice(0, 100), left: rect.left, right: rect.right });
+        break;
+      }
+      range.detach();
+    }
+    return { expectedWidth, innerWidth, clientWidth: document.documentElement.clientWidth,
+      scrollWidth: document.documentElement.scrollWidth, visualViewportWidth: window.visualViewport?.width,
+      panel: panel.id, boxes, textOverflow };
+  }, expected);
+  assert.ok(geometry.clientWidth <= expected + 2, `Layout viewport expanded beyond device: ${JSON.stringify(geometry)}`);
+  assert.ok(geometry.innerWidth <= expected + 2, `Mobile innerWidth expanded beyond device: ${JSON.stringify(geometry)}`);
+  assert.ok(geometry.scrollWidth <= expected + 2, `Page overflows device: ${JSON.stringify(geometry)}`);
+  assert.deepEqual(geometry.boxes, [], `Visible panel controls/cards clipped: ${JSON.stringify(geometry)}`);
+  assert.deepEqual(geometry.textOverflow, [], `Visible panel text clipped: ${JSON.stringify(geometry)}`);
+  return geometry;
 }
 async function goTab(page, tab) {
   await page.locator('#tab-' + tab).click();
@@ -137,6 +181,7 @@ async function runViewport(baseURL, name, viewport, mobile) {
   await page.locator('#tab-map').focus();
   await page.keyboard.press('ArrowRight');
   assert.equal(await page.locator('#tab-readouts').getAttribute('aria-selected'), 'true');
+  await screenshot(page, name, 'readouts');
   let selected = await assertPartition(page);
   const runs = new Set();
   for (const prep of model.catalogs.preparations) {
@@ -169,8 +214,8 @@ async function runViewport(baseURL, name, viewport, mobile) {
   assert.match(countsExport.text.split('\n')[0], /"U"/);
   const intervalExport = await downloadText(page, '#export-interval');
   assert.match(intervalExport.text, /<svg/);
-  await page.locator('#main').scrollIntoViewIfNeeded();
-  await screenshot(page, name, 'readouts');
+  await screenshot(page, name, 'readouts-card', '#read-heading');
+  await screenshot(page, name, 'readouts-completion', '.hypothetical');
   await noOverflow(page);
   result.checks.push('Nine raw streams, event change, exact count/hull rendering, attainable integer completion, hash restore, JSON/CSV/SVG exports');
 
@@ -183,7 +228,6 @@ async function runViewport(baseURL, name, viewport, mobile) {
   assert.equal(expected.length, 16);
   assert.equal(await page.locator('#sens-mobile-cards > div').count(), expected.length);
   assert.match(await page.locator('#sens-caption').innerText(), /16 reference\/configuration hulls/);
-  await page.locator('#main').scrollIntoViewIfNeeded();
   await screenshot(page, name, 'sensitivity');
   await page.locator('#sens-reference').selectOption('mutant');
   await page.locator('#sens-control').selectOption('untreated');
@@ -204,7 +248,6 @@ async function runViewport(baseURL, name, viewport, mobile) {
   assert.equal(await page.locator('#sources-table tr').count(), model.sources.length);
   const dataExport = await downloadText(page, '#export-model');
   assert.equal(crypto.createHash('sha256').update(dataExport.text).digest('hex'), embeddedSHA);
-  await page.locator('#main').scrollIntoViewIfNeeded();
   await screenshot(page, name, 'contract');
   result.checks.push('Contract arithmetic, authentic aggregate counts, complete source registry and exact embedded-data export');
 
@@ -212,7 +255,7 @@ async function runViewport(baseURL, name, viewport, mobile) {
   assert.deepEqual(result.consoleErrors, []);
   assert.deepEqual(result.consoleWarnings, []);
   assert.deepEqual(result.externalRequests, []);
-  result.checks.push('No page/console errors, no network dependency and no horizontal page overflow');
+  result.checks.push('No page/console errors, no network dependency; device-width, card/control and text geometry unclipped');
   result.status = 'passed';
   await context.close();
 }
