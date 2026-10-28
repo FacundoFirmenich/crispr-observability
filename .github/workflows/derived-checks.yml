@@ -1,4 +1,4 @@
-name: MP02 arithmetic and raw-observer review checks
+name: Computational companion checks
 
 on:
   push:
@@ -21,6 +21,11 @@ jobs:
         uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: '3.14.10'
+      - name: Verify public distribution and offline companion rebuild
+        run: |
+          python -B code/check_public_distribution.py
+          python -B interactive/code/check_contracts.py
+          python -B interactive/code/check_explorer.py
       - name: Check arithmetic then raw observers with frozen alignments
         run: python -B code/run_review_checks.py
 

@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "model": "evidence_model.json",
+  "sha256": "f5a9179899bace3f773d45363977152433ca29542fb0b56ba98b63006a4305b4",
+  "sources": 22,
+  "summary": {
+    "rawRecords": 177006,
+    "witnessRetained": 170725,
+    "unknown": 6281,
+    "qualityFailed": 1996,
+    "missingCorrespondence": 4202,
+    "codingDisagreement": 83,
+    "equalLabelsDifferentCoding": 18,
+    "referenceNativeLabelChanges": 137,
+    "alignmentJobs": 144,
+    "observationRows": 144,
+    "contrastRows": 96,
+    "sensitivityEventRows": 288,
+    "sensitivityContrastRows": 192,
+    "externalTableRows": 10809
+  },
+  "checks": [
+    "All144 observation partitions and rational extrema",
+    "All96 source contrast extrema reconstructed from E/NE/U",
+    "All288 alignment event partitions and rational extrema",
+    "All192 alignment two-arm hulls reconstructed",
+    "All6 envelope rows match the14-profile finite OAT family",
+    "Nine disjoint raw-domain partitions and retained totals",
+    "Every source file fingerprint retained",
+    "No full manuscript or supplement prose used"
+  ]
+}

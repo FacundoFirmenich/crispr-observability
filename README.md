@@ -1,6 +1,6 @@
 # CRISPR observability: computational companion
 
-Version **0.3.2 / MP03D**. Public code, numerical data and editable figures for
+Version **0.3.3 / MP03D**. Public code, numerical data and editable figures for
 a retrospective genome-editing readout audit. The complete manuscript and
 supplement are held privately pending the author's chosen preprint deposition.
 
@@ -21,6 +21,10 @@ biological replication. Source experiments remain attributable to Sousa et al.
 
 ## Public assets
 
+- `interactive/epistemic_graph.html`: self-contained offline evidence explorer.
+  Download and open locally; GitHub's source viewer does not execute HTML.
+  Four views expose conjunctive support paths, event partitions, conditional
+  hulls, sensitivity profiles, source fingerprints and CSV/JSON/SVG exports.
 - `figures/`: editable SVG/PDF/PNG exports, plotting code and exact input tables.
 - `tables/`: nineteen authentic numerical CSVs, retained byte for byte.
 - `raw_replay/`: nine genuine FASTQ inputs, eighteen frozen alignment tables,
@@ -43,6 +47,19 @@ python3 figures/code/generate_figures.py
 
 The plotting source uses an explicit standalone coordinate contract and frozen
 numerical tables. It does not require manuscript prose.
+
+## Interactive companion
+
+The explorer contains 21 nodes and eight typed AND hyperedges. Its source model
+keeps accepted events, non-events and unknown records separate under each declared
+event, observer and reference. Completion controls choose integer hypothetical
+unknown labels without changing the data. See [interactive/README.md](interactive/README.md)
+for offline use and standard-library rebuild/check commands.
+
+The exact source inventory is `metadata/REPOSITORY_MANIFEST.json`. Run
+`python3 -B code/check_public_distribution.py` to check its fingerprints and text
+withholding boundary. Generated runtime outputs and browser screenshots are
+excluded from the public source inventory.
 
 ## Attribution and license
 

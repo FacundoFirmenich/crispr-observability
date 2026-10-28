@@ -6,9 +6,13 @@
   "exact_original_code_allowlist": [
     ".dockerignore",
     ".github/workflows/derived-checks.yml",
+    ".github/workflows/explorer-checks.yml",
     ".gitignore",
     "Dockerfile",
+    "code/check_explorer_browser.cjs",
+    "code/check_public_distribution.py",
     "code/check_selected_p1_tables.py",
+    "code/refresh_public_inventory.py",
     "code/run_checks.py",
     "code/run_review_checks.py",
     "engine_replay/attach_engine.py",
@@ -22,6 +26,11 @@
     "engine_replay/original/summarize_grid.py",
     "engine_replay/prepare.py",
     "figures/code/generate_figures.py",
+    "interactive/code/build_explorer.py",
+    "interactive/code/build_model.py",
+    "interactive/code/check_contracts.py",
+    "interactive/code/check_explorer.py",
+    "interactive/explorer.template.html",
     "raw_replay/check_tamper_detection.py",
     "raw_replay/run_raw_replay.py",
     "scripts/create_github_repository.sh"
@@ -45,12 +54,17 @@
     "raw_replay/README.md",
     "raw_replay/results/**",
     "raw_replay/*.stdout",
-    "raw_replay/*.stderr"
+    "raw_replay/*.stderr",
+    "interactive/evidence_model.json",
+    "interactive/epistemic_graph.html (mixed generated artifact: embedded data retain source terms)",
+    "interactive/sources/**",
+    "interactive/*.json",
+    "interactive/*.md"
   ],
   "no_third_party_relicensing": true,
   "scientific_manuscript_license": null,
   "derived_data_license": null,
-  "notice": "MIT grant applies to the explicitly enumerated original programme code and build configuration only. It does not assign MIT terms to scientific text, input observations, derived data, third-party code, external runtimes or referenced actions.",
+  "notice": "MIT grant applies to the explicitly enumerated original programme code and build configuration only. It does not assign MIT terms to scientific text, input observations, derived data, third-party code, external runtimes or referenced actions. Original interactive CSS/JavaScript/template and builder code are enumerated separately. The generated HTML is a mixed artifact: code retains the scoped MIT grant while embedded scientific data retain source terms. No KwanTube code is copied or relicensed.",
   "license": "MIT",
   "copyright_notice": "Copyright (c) 2026 Facundo Firmenich"
 }

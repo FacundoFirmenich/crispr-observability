@@ -1,5 +1,5 @@
 {
-  "version": "0.3.2",
+  "version": "0.3.3",
   "edition": "MP03D",
   "status": "PUBLIC_COMPUTATIONAL_COMPANION_PRIVATE_MANUSCRIPTS",
   "public_release": true,
@@ -51,5 +51,8 @@
   "manuscript_public": false,
   "supplement_public": false,
   "manuscript_and_supplement_distribution": "PRIVATE",
-  "publication_note": "The author reserves formal manuscript deposition to a chosen preprint server. Withdrawal cannot reverse prior public dissemination or guarantee removal of external caches."
+  "publication_note": "The author reserves formal manuscript deposition to a chosen preprint server. Withdrawal cannot reverse prior public dissemination or guarantee removal of external caches.",
+  "interactive_companion_included": true,
+  "interactive_companion": "interactive/epistemic_graph.html",
+  "interactive_browser_QA_status": "PENDING_EXECUTION"
 }

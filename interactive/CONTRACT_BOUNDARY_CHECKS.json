@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "invalid_calculator_inputs_rejected": [
+    "zero universe",
+    "negative category",
+    "nonpartition",
+    "noninteger",
+    "bool-as-int"
+  ],
+  "finite_attainability_checked": true,
+  "zero_unknowns_checked": true,
+  "unequal_denominator_two_arm_extrema_checked": true,
+  "AND_hyperedge_referential_integrity": true,
+  "raw_and_assignment_units_kept_distinct": true,
+  "old_manuscript_commit_links_absent": true,
+  "model_sha256": "f5a9179899bace3f773d45363977152433ca29542fb0b56ba98b63006a4305b4"
+}
