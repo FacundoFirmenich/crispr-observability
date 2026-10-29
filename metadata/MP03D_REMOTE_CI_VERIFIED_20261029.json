@@ -1,0 +1,39 @@
+{
+  "retrieved_date": "2026-10-29",
+  "source": "GitHub Actions read API",
+  "status": "PASS_HISTORICAL_RUNS_VERIFIED",
+  "commit": "089d7921dfabcb4abd98199359d3077b5fd7e642",
+  "scope": "Completed prior MP03D workflows only. This record does not certify current MP04 execution.",
+  "runs": [
+    {
+      "id": 40783582507,
+      "name": "Spatial supergraph browser checks",
+      "head_sha": "089d7921dfabcb4abd98199359d3077b5fd7e642",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/FacundoFirmenich/crispr-observability/actions/runs/40783582507",
+      "created_at": "2026-10-28T22:55:16Z",
+      "updated_at": "2026-10-28T22:55:42Z"
+    },
+    {
+      "id": 40783582532,
+      "name": "Explorer browser checks",
+      "head_sha": "089d7921dfabcb4abd98199359d3077b5fd7e642",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/FacundoFirmenich/crispr-observability/actions/runs/40783582532",
+      "created_at": "2026-10-28T22:55:16Z",
+      "updated_at": "2026-10-28T22:55:48Z"
+    },
+    {
+      "id": 40783582475,
+      "name": "Computational companion checks",
+      "head_sha": "089d7921dfabcb4abd98199359d3077b5fd7e642",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/FacundoFirmenich/crispr-observability/actions/runs/40783582475",
+      "created_at": "2026-10-28T22:55:16Z",
+      "updated_at": "2026-10-28T22:55:56Z"
+    }
+  ]
+}

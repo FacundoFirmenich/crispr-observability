@@ -70,10 +70,37 @@ finite observed universe. Raw reconstruction shows that the same records under
 the preserved observation rules reproduce the original outputs. Neither step
 estimates molecular error rates, establishes independent biological replication,
 or proves full-allele identity or function. Runtime is reported for each actual
-execution, not guaranteed across environments. Docker and remote CI remain
-unexecuted until their own receipts exist.
+execution, not guaranteed across environments. The historical computational and
+browser CI runs listed in `metadata/RELEASE_STATE.json` have completed successfully
+on their named commit. They are not evidence for an unexecuted successor version.
+Each new revision requires its own checks and receipts.
 
 The original experiments belong to the source authors. The raw data notice separates FASTQ, frozen tables, comparators and metadata
 from the scoped MIT license for original code. Its MP03 update documents attributed
 public SRA snapshot redistribution under the primary SRA/INSDC access policies.
 Integration does not create third-party rights or relicense source data as software.
+
+## MP04 PaperGraph build and checks
+
+`interactive/papergraph/README.md` supplies the public model, interface and figure
+rebuild commands. The canonical JSON is an authored scientific reading model;
+rebuilding HTML/SVG from it checks rendering reproducibility rather than
+recomputing biological results. The component checker verifies available source
+fingerprints, embedded JSON identity, typed graph objects and deterministic
+HTML/SVG rebuilding. Its browser test covers the twelve stations at three depths,
+reading/argument navigation, required AND premises, explicit refuted-inference
+labels and exports on declared desktop/mobile emulations.
+
+The public component is a sanitized successor of the private editorial object.
+It retains scientific quantities, graph objects and explanatory summaries while
+excluding complete article/supplement text, private snapshots, literal text
+anchors and the private section-by-section map. Numerical-source hashes bind
+already-public repository files. Withheld article/supplement identities are
+explicitly unavailable, and a public check cannot verify those absent bytes.
+Figure PDFs are allowed illustration assets; no manuscript or formal-supplement
+PDF/LaTeX is part of the public distribution.
+
+Computational conformance, graphical legibility, independent human reproduction,
+reader comprehension and molecular correctness remain distinct capabilities.
+The existing nineteen CSVs, raw reads, alignment tables and two older HTML tools
+are preserved rather than regenerated under the new reading interface.

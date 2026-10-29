@@ -1,6 +1,6 @@
 {
-  "version": "0.3.4",
-  "edition": "MP03D",
+  "version": "0.4.0",
+  "edition": "MP04",
   "status": "PUBLIC_COMPUTATIONAL_COMPANION_PRIVATE_MANUSCRIPTS",
   "public_release": true,
   "external_repository_created": true,
@@ -14,7 +14,7 @@
   "data_rights_status": "PUBLIC_SRA_SNAPSHOT_REDISTRIBUTION_DOCUMENTED; source attribution and terms retained; no MIT data relicensing",
   "native_scope": "Two scopes: exact derived-table arithmetic and raw-observer reconstruction with frozen alignment projections",
   "raw_pipeline_included": false,
-  "remote_CI_run": true,
+  "remote_CI_run": false,
   "raw_observer_replay_included": true,
   "fresh_alignment_included": false,
   "canonical_review_command": "python3 code/run_review_checks.py",
@@ -27,7 +27,7 @@
   "corresponding_email": "f.firmenich@cedesur.org",
   "author_identity_source": "https://doi.org/10.64898/2026.05.10.724047",
   "github_creation_authorized": "User instruction 2026-10-28",
-  "source_policy_check_date": "2026-10-28",
+  "source_policy_check_date": "2026-10-29",
   "full_alignment_replay_source_included": true,
   "full_alignment_preparation_verified": true,
   "full_alignment_prepared_raw_records": 177006,
@@ -37,7 +37,7 @@
   "full_alignment_large_original_outputs_included_in_repository": false,
   "source_SRA_accessions_currently_resolved": 9,
   "repository_default_branch": "Ulalito's-Island",
-  "release_date": "2026-10-28",
+  "release_date": "2026-10-29",
   "public_source_release_does_not_certify_human_final_manuscript_approval": true,
   "complete_author_profile_recovered": true,
   "source_preprints": 3,
@@ -54,27 +54,58 @@
   "publication_note": "The author reserves formal manuscript deposition to a chosen preprint server. Withdrawal cannot reverse prior public dissemination or guarantee removal of external caches.",
   "interactive_companion_included": true,
   "interactive_companion": "interactive/epistemic_graph.html",
-  "interactive_browser_QA_status": "PASS_AT_2bcb4715968621729c9901f1a0917041a85ed95e",
+  "interactive_browser_QA_status": "HISTORICAL_TOOLS_VERIFIED; CURRENT_MP04_REMOTE_CI_PENDING",
   "verified_remote_CI": {
-    "commit": "2bcb4715968621729c9901f1a0917041a85ed95e",
-    "explorer_browser_run": 40781008213,
-    "computational_companion_run": 40781008005,
+    "commit": "089d7921dfabcb4abd98199359d3077b5fd7e642",
+    "explorer_browser_run": 40783582532,
+    "supergraph_browser_run": 40783582507,
+    "computational_companion_run": 40783582475,
     "conclusion": "success",
-    "scope": "Completed prior-version checks, including the unchanged white explorer; not a claim that the new supergraph has passed before its own CI execution."
+    "verified_date": "2026-10-29",
+    "scope": "Completed MP03D computational, white explorer and dark supergraph runs at this exact commit; not evidence for the successor MP04 commit."
   },
   "interactive_companions": [
     {
       "path": "interactive/epistemic_graph.html",
       "name": "White evidence and readout explorer",
       "preserved_sha256": "29fc7fce6805bb50b4a6b2c8340d745d07552bad4b8fa7d5b359a7d35bad6445",
-      "browser_QA": "PASS_AT_2bcb4715968621729c9901f1a0917041a85ed95e"
+      "browser_QA": "PASS_AT_089d7921dfabcb4abd98199359d3077b5fd7e642"
     },
     {
       "path": "interactive/supergraph/crispr_supergraph.html",
       "name": "KwanTube-derived dark spatial supergraph",
-      "browser_QA": "PENDING_OWN_CI_EXECUTION",
-      "code_license": "GPL-3.0-only"
+      "browser_QA": "PASS_AT_089d7921dfabcb4abd98199359d3077b5fd7e642",
+      "code_license": "GPL-3.0-only",
+      "preserved_sha256": "19ae4eac0eb949faeea90027be2151a0257613766ea3370b2390d6f9dd75c31c"
+    },
+    {
+      "path": "interactive/papergraph/PaperGraph_CRISPR.html",
+      "name": "PaperGraph: reading guide and typed scientific argument",
+      "browser_QA": "PENDING_CURRENT_PUBLIC_BUILD_CHECKS",
+      "code_license": "MIT_SCOPED",
+      "model_scope": "Scientific summaries and public numerical bindings; complete article/supplement and literal text anchors withheld"
     }
   ],
-  "new_supergraph_preserves_existing_explorer_and_data": true
+  "new_supergraph_preserves_existing_explorer_and_data": true,
+  "remote_CI_run_scope": "Current MP04 commit checks pending execution; completed historical runs retained separately.",
+  "papergraph_included": true,
+  "papergraph_manuscript_full_text_embedded": false,
+  "papergraph_counts": {
+    "stations": 12,
+    "facts": 49,
+    "nodes": 92,
+    "edges": 86,
+    "scientific_relations": 75,
+    "reading_order_relations": 11,
+    "AND_groups": 7
+  },
+  "current_release_CI": {
+    "status": "PENDING_EXECUTION",
+    "commit": null,
+    "scope": "Update only after actual current-release workflow receipts exist."
+  },
+  "scientific_values_changed_by_papergraph": false,
+  "papergraph_reader_benefit_measured": false,
+  "papergraph_new_accepted_standard_claimed": false,
+  "github_update_authorized": "User instruction 2026-10-29 to update repository and related deliverables"
 }

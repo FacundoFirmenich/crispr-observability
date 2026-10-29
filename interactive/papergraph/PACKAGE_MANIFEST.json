@@ -1,0 +1,95 @@
+{
+  "version": "0.4.0",
+  "edition": "MP04",
+  "scope": "Public PaperGraph component and figure exports only; no manuscript, supplement, private full-text source snapshots, runtime results or browser screenshots. Repository-relative paths. Inventory excludes itself.",
+  "files": {
+    "figures/papergraph/PaperGraph_Argument.pdf": {
+      "bytes": 95936,
+      "sha256": "e6bd99f8805e8ae10809f9d9921d605708a84b8296d6fb93ffa8497802432aff"
+    },
+    "figures/papergraph/PaperGraph_Argument.png": {
+      "bytes": 2200568,
+      "sha256": "d3955a42c482ceac14cdff3635f24b131f4d9a6d7db189e4e1a99d2e069b94ea"
+    },
+    "figures/papergraph/PaperGraph_Argument.svg": {
+      "bytes": 332351,
+      "sha256": "9b86570a430e60613709380e91de1b182a95f8fd32a0c616c573be8de07d8f99"
+    },
+    "figures/papergraph/PaperGraph_Article.pdf": {
+      "bytes": 39609,
+      "sha256": "933f3cea2d625634dd3dd6ed70a99fa12de24c698825dedf52971cae5f758844"
+    },
+    "figures/papergraph/PaperGraph_Article.png": {
+      "bytes": 1007733,
+      "sha256": "7921b0e7fd8ba27d493c1d515f7cd7a8ae2a9108c6af4692e22339e7da257922"
+    },
+    "figures/papergraph/PaperGraph_Article.svg": {
+      "bytes": 20139,
+      "sha256": "1a74ecd28bcd64859ce06cdc093efdf0bfdf12eb4ca3244524450fe3ed32310f"
+    },
+    "figures/papergraph/PaperGraph_Overview.pdf": {
+      "bytes": 38394,
+      "sha256": "a764d071c61e7ce411dcba6a1351ad23e1ad9c3e1251bcbf29109da5c1e0421c"
+    },
+    "figures/papergraph/PaperGraph_Overview.png": {
+      "bytes": 549968,
+      "sha256": "579039c2488bdd2eedc20385ebfe3cae2de9686b953355960beac45ecc921c3c"
+    },
+    "figures/papergraph/PaperGraph_Overview.svg": {
+      "bytes": 19079,
+      "sha256": "68db2aeb8add9e9407475ec06e535532f2f4bbd2d9f2b1ac7500a3da7552ee07"
+    },
+    "interactive/papergraph/ARTIFACT_CHECK.json": {
+      "bytes": 577,
+      "sha256": "d5541b6a946c11d523002950cfc22397c9b0e2c556cd447c3004e9ae384e6c1c"
+    },
+    "interactive/papergraph/BUILD_RECEIPT.json": {
+      "bytes": 852,
+      "sha256": "8089e8cbefaf60b3454ce3948a09440ffa62be87ebeed27d1c630329d86ddf97"
+    },
+    "interactive/papergraph/PUBLIC_PROJECTION.json": {
+      "bytes": 1686,
+      "sha256": "5d9399a9bf4fd295afb9e5e4ffc95543ac0462b3e14961a0779227ce2c1aa456"
+    },
+    "interactive/papergraph/PaperGraph.template.html": {
+      "bytes": 31660,
+      "sha256": "dde33f0c53bfcf185d33f8e0fa0db1b36d3403e895f9e8e35bd914936210ef8c"
+    },
+    "interactive/papergraph/PaperGraph_CRISPR.html": {
+      "bytes": 192423,
+      "sha256": "a2c1728960869dd9988de8ac3a765ed4a3c5a9e5a410b2083ed8ce054ddc3dd7"
+    },
+    "interactive/papergraph/README.md": {
+      "bytes": 5921,
+      "sha256": "87d203ebcaa85cde9621387ee9a536e6e67301bb0b1a679d01a127e6e49d7c64"
+    },
+    "interactive/papergraph/RENDER_VALIDATION.json": {
+      "bytes": 2078,
+      "sha256": "9bc333c3da219f4764ce803140801dd2603834520b81d6a8e08dd7a6305b0ce2"
+    },
+    "interactive/papergraph/code/argument_runtime.js": {
+      "bytes": 8676,
+      "sha256": "75737ff578adfd08d80822d44450be92eaed960ee67e4ae462a293197191b9c1"
+    },
+    "interactive/papergraph/code/build_papergraph.py": {
+      "bytes": 20619,
+      "sha256": "82fdab19d1ea42689890e487e0d3b9464c94c2fc0b0ed98a83fad398cd2f9d4c"
+    },
+    "interactive/papergraph/code/check_papergraph.py": {
+      "bytes": 8154,
+      "sha256": "4e7a3f08922134394c506c2e64cc4b9b5ea7f07aa57b8ec8996b2f8838725753"
+    },
+    "interactive/papergraph/papergraph.json": {
+      "bytes": 138942,
+      "sha256": "657fd26c6fa20af9f4c135e5653db0a008aff222385f348589d7cf1130f19b23"
+    },
+    "interactive/papergraph/references.json": {
+      "bytes": 4777,
+      "sha256": "87d421ee73982e02504a305d73ea1db39858bfc053a944a512c9357e33b77168"
+    },
+    "interactive/papergraph/requirements-figures.txt": {
+      "bytes": 15,
+      "sha256": "41b54a6fb2918667ca47a61d73b522629d84490f3d78f0f20b21135faba10d35"
+    }
+  }
+}

@@ -31,6 +31,10 @@
     "interactive/code/check_contracts.py",
     "interactive/code/check_explorer.py",
     "interactive/explorer.template.html",
+    "interactive/papergraph/PaperGraph.template.html",
+    "interactive/papergraph/code/argument_runtime.js",
+    "interactive/papergraph/code/build_papergraph.py",
+    "interactive/papergraph/code/check_papergraph.py",
     "raw_replay/check_tamper_detection.py",
     "raw_replay/run_raw_replay.py",
     "scripts/create_github_repository.sh"
@@ -59,12 +63,17 @@
     "interactive/epistemic_graph.html (mixed generated artifact: embedded data retain source terms)",
     "interactive/sources/**",
     "interactive/*.json",
-    "interactive/*.md"
+    "interactive/*.md",
+    "interactive/papergraph/papergraph.json",
+    "interactive/papergraph/PaperGraph_CRISPR.html (mixed generated artifact: embedded scientific content retains source terms)",
+    "interactive/papergraph/*.json",
+    "interactive/papergraph/*.md",
+    "figures/papergraph/*"
   ],
   "no_third_party_relicensing": true,
   "scientific_manuscript_license": null,
   "derived_data_license": null,
-  "notice": "MIT applies only to exact_original_code_allowlist. The existing white explorer was independently implemented, with no KwanTube source copied, and is unchanged. The separate dark spatial supergraph adapts the actual KwanTube interface distributed under GNU GPLv3; its code is enumerated in exact_gpl_code_allowlist and retains GPL-3.0-only terms. Both generated HTML files mix code with scientific data: the code retains its stated license, while embedded numerical data, scientific claims, observations and source publications retain their separate terms. No scientific data or manuscript is relicensed.",
+  "notice": "MIT applies only to exact_original_code_allowlist. The existing white explorer and separate PaperGraph interface were independently implemented, with no KwanTube source copied. The separate dark spatial supergraph adapts the actual KwanTube interface distributed under GNU GPLv3; its code is enumerated in exact_gpl_code_allowlist and retains GPL-3.0-only terms. The three generated HTML files mix code with scientific content: interface code retains its stated license, while embedded numerical data, scientific claims, observations and source publications retain separate terms. No scientific data or manuscript is relicensed.",
   "license": "MIT and GPL-3.0-only, separately scoped; no repository-wide license",
   "copyright_notice": "Copyright (c) 2026 Facundo Firmenich",
   "exact_gpl_code_allowlist": [
@@ -79,5 +88,7 @@
   "gpl_license_file": "interactive/supergraph/LICENSE",
   "gpl_upstream": "FacundoFirmenich/KwanTube; published Beyond Redfield companion, Zenodo record 20102651, KwanTube-v.3.5.1.1.zip",
   "gpl_derived_component": "interactive/supergraph/",
-  "gpl_generated_artifact": "interactive/supergraph/crispr_supergraph.html (GPL-3.0-only interface code; embedded scientific data retain source terms)"
+  "gpl_generated_artifact": "interactive/supergraph/crispr_supergraph.html (GPL-3.0-only interface code; embedded scientific data retain source terms)",
+  "papergraph_generated_artifact": "interactive/papergraph/PaperGraph_CRISPR.html (MIT interface code only; embedded scientific summaries, data and source identities retain separate terms)",
+  "papergraph_source_independence": "New separate article-reading/argument interface; no KwanTube source copied."
 }

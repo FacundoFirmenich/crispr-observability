@@ -1,6 +1,6 @@
 {
-  "edition": "MP03D",
-  "date": "2026-10-28",
+  "edition": "MP04",
+  "date": "2026-10-29",
   "manuscript_public": false,
   "supplement_public": false,
   "public_figure_and_numerical_assets_retained": true,
@@ -9,5 +9,15 @@
   "history_policy": "Public branch rebuilt from pre-manuscript initialization; private historical source snapshots and identities retained separately.",
   "limitation": "Prior public dissemination and unreferenced GitHub commit URLs or external caches cannot be undone or guaranteed erased by changing branch history.",
   "interactive_companion_public": true,
-  "interactive_companion_full_article_or_supplement_embedded": false
+  "interactive_companion_full_article_or_supplement_embedded": false,
+  "papergraph_public": true,
+  "papergraph_distribution": "Scientific summaries, graph objects, independent interface code and public numerical-source bindings only.",
+  "papergraph_excluded_content": [
+    "complete manuscript and supplement",
+    "private article/supplement snapshots",
+    "literal private-text anchors",
+    "private section-by-section coverage map",
+    "private LaTeX-ingestion source builder"
+  ],
+  "papergraph_withheld_source_identity_policy": "Hashes and sizes may identify withheld author sources; no public access or public hash verification of unavailable bytes is implied."
 }

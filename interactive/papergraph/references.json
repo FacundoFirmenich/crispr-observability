@@ -1,0 +1,60 @@
+{
+  "scope": "Bibliographic metadata only. No manuscript or supplement prose. Source publications retain their original attribution and terms.",
+  "entries": [
+    {
+      "id": "ref1",
+      "bibtex": "@article{ref1,\n  author = {Sousa, A. A. and Hemez, C. and Lei, L. and others},\n  title = {Systematic optimization of prime editing for the efficient functional correction of {CFTR F508del} in human airway epithelial cells},\n  journal = {Nature Biomedical Engineering},\n  year = {2025}, volume = {9}, pages = {7--21},\n  doi = {10.1038/s41551-024-01233-3},\n  note = {Published online 10 July 2024}\n}"
+    },
+    {
+      "id": "ref2",
+      "bibtex": "@article{ref2,\n  author = {Anzalone, A. V. and Randolph, P. B. and Davis, J. R. and others},\n  title = {Search-and-replace genome editing without double-strand breaks or donor {DNA}},\n  journal = {Nature}, year = {2019}, volume = {576}, pages = {149--157},\n  doi = {10.1038/s41586-019-1711-4}\n}"
+    },
+    {
+      "id": "ref3",
+      "bibtex": "@article{ref3,\n  author = {Clement, K. and Rees, H. and Canver, M. C. and others},\n  title = {{CRISPResso2} provides accurate and rapid genome editing sequence analysis},\n  journal = {Nature Biotechnology}, year = {2019}, volume = {37}, pages = {224--226},\n  doi = {10.1038/s41587-019-0032-3}\n}"
+    },
+    {
+      "id": "ref4",
+      "bibtex": "@article{ref4,\n  author = {Labun, K. and Guo, X. and Chavez, A. and Church, G. and Gagnon, J. A. and Valen, E.},\n  title = {Accurate analysis of genuine {CRISPR} editing events with {ampliCan}},\n  journal = {Genome Research}, year = {2019}, volume = {29}, pages = {843--847},\n  doi = {10.1101/gr.244293.118}\n}"
+    },
+    {
+      "id": "ref5",
+      "bibtex": "@book{ref5,\n  author = {Manski, C. F.},\n  title = {Partial Identification of Probability Distributions},\n  series = {Springer Series in Statistics},\n  address = {New York}, publisher = {Springer}, year = {2003},\n  doi = {10.1007/b97478}\n}"
+    },
+    {
+      "id": "ref6",
+      "bibtex": "@article{ref6,\n  author = {Zook, J. M. and Chapman, B. and Wang, J. and Mittelman, D. and Hofmann, O. and Hide, W. and Salit, M.},\n  title = {Integrating human sequence data sets provides a resource of benchmark {SNP} and indel genotype calls},\n  journal = {Nature Biotechnology}, year = {2014}, volume = {32}, pages = {246--251},\n  doi = {10.1038/nbt.2835}\n}"
+    },
+    {
+      "id": "ref7",
+      "bibtex": "@misc{ref7,\n  author = {{CRISPResso2 developers}},\n  title = {{CRISPResso v2.3.4} parameters},\n  howpublished = {Official software documentation},\n  url = {https://docs.crispresso.com/latest/parameters.html},\n  note = {Accessed 27 October 2026. The executed engine commit is specified in Methods}\n}"
+    },
+    {
+      "id": "ref8",
+      "bibtex": "@misc{ref8,\n  author = {{CRISPResso2 developers}},\n  title = {Official core examples and complete {NHEJ}, allele-specific {P23H/WT} and base-editor reports},\n  url = {https://docs.crispresso.com/latest/core/examples.html},\n  note = {Also \\url{https://crispresso.com/static/demo/}. Files acquired and frozen 27 October 2026; source reports declare version 2.3.4. This is a convenience-source collection rather than an independent biological benchmark}\n}"
+    },
+    {
+      "id": "ref9",
+      "bibtex": "@misc{ref9,\n  author = {Firmenich, F. and Firmenich, P. and Firmenich, L.},\n  title = {Fractal Tomography and the Fisher Information Barrier of Seismicity: Addressing the Origin of Dual Paradoxes via Precision-Calibrated Bayesian Inference},\n  howpublished = {EarthArXiv preprint}, year = {2026},\n  doi = {10.31223/x5n192}, url = {https://doi.org/10.31223/x5n192}, note = {Bibliographic context only}\n}"
+    },
+    {
+      "id": "ref10",
+      "bibtex": "@misc{ref10,\n  author = {Firmenich, F. and Firmenich, P. and Firmenich, L.},\n  title = {Multi-Planar Hierarchy in Pan-American Seismic Fractality: A Bayesian Resolution to the Projection Paradox},\n  howpublished = {EarthArXiv preprint}, year = {2025},\n  doi = {10.31223/x5rf3v}, url = {https://doi.org/10.31223/x5rf3v}, note = {Bibliographic context only}\n}"
+    }
+  ],
+  "communication_prior_art": {
+    "authors": [
+      "Tim Clark",
+      "Paolo N. Ciccarese",
+      "Carole A. Goble"
+    ],
+    "title": "Micropublications: a semantic model for claims, evidence, arguments and annotations in biomedical communications",
+    "journal": "Journal of Biomedical Semantics",
+    "year": 2014,
+    "volume": 5,
+    "article": 28,
+    "doi": "10.1186/2041-1480-5-28",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4530550/",
+    "relevance": "Prior art for claims, evidence, methods, support, challenge and scientific argument graphs. The generic argument-graph concept is not claimed as novel."
+  }
+}

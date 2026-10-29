@@ -34,3 +34,19 @@ The code first verifies every frozen source hash. It then extracts the figure in
 | 4 | Table S9 yields 34, 58 and 45 mutant non-event to programmed event label changes. `WITNESS_BOUNDS.json` supplies nine raw-stream domain partitions, summed to 83 different-coding, 1,996 quality-failure, 4,202 missing-correspondence and 170,725 common-string-witness records. | The four categories partition 177,006 raw records. Label disagreement, sequence correspondence and unknown status remain distinct. The right panel has a log count axis. These are computational checks of the same data, not independent biological replication or comparative classification accuracy. |
 
 The rendering revision preserves the numerical inputs and labels while making every figure available as editable vectors. It does not broaden any scientific claim in MP02.
+
+## PaperGraph figures (MP04)
+
+The separate `papergraph/` directory contains three editable SVG figures, with
+PNG previews and vector figure PDFs: `PaperGraph_Article` is the twelve-station
+portrait reading guide, `PaperGraph_Overview` is its landscape form, and
+`PaperGraph_Argument` is the complete typed argument atlas. They are regenerated
+from the sanitized public model, not extracted from a public manuscript PDF.
+Reading-order links and scientific support relations have distinct meanings.
+
+The source, public numerical bindings, build instructions and limitations are in
+[`../interactive/papergraph/README.md`](../interactive/papergraph/README.md).
+These additional figures leave the four original figures and their frozen
+numerical inputs unchanged. The full manuscript and formal supplement remain
+private; their text and source snapshots are not embedded in the public model
+or atlas. Educational effectiveness has not been measured.

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-29",
+  "version": "0.4.0",
+  "edition": "MP04",
+  "status": "PASS_LOCAL_PREPUBLICATION",
+  "scope": "Actual local source, private-text boundary, frozen-result replay and rendered-browser checks. GitHub Actions execution recorded separately after publication.",
+  "papergraph_model_sha256": "657fd26c6fa20af9f4c135e5653db0a008aff222385f348589d7cf1130f19b23",
+  "papergraph_html_sha256": "a2c1728960869dd9988de8ac3a765ed4a3c5a9e5a410b2083ed8ce054ddc3dd7",
+  "browser": {
+    "browser_version": "156.0.8078.73",
+    "viewports": [
+      {
+        "width": 1280,
+        "height": 900
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "three_static_figures": "PASS",
+    "all_twelve_stations_three_depths": "PASS",
+    "all_twelve_argument_paths_AND_premises": "PASS",
+    "PG05_explicit_refuted_inference_text": "PASS",
+    "source_JSON_and_exports": "PASS",
+    "runtime_errors": 0,
+    "external_requests": 0,
+    "manual_visual_review": "PASS: desktop overview, mobile overview, desktop scientific argument, mobile conditional bounds; no horizontal clipping/overlap observed",
+    "limitations": [
+      "Chrome only, emulated viewports",
+      "No independent biological replication or molecular accuracy calibration",
+      "No reader study / educational benefit measurement",
+      "Not exhaustive WCAGcertification or all browsers/devices"
+    ]
+  },
+  "scientific_field_identity_excluding_provenance": true,
+  "full_manuscript_and_supplement_withheld": true,
+  "original_companions_preserved": true,
+  "raw_replay": {
+    "raw_records": 177006,
+    "witness_records": 170725,
+    "unknown_records": 6281,
+    "original_outputs_byte_identical": true,
+    "fresh_alignment_executed": false
+  },
+  "independent_biological_validation": false,
+  "reader_benefit_measured": false
+}

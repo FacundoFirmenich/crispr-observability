@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "One-way public projection from the frozen private diagram, not the private article. Scientific-content identities exclude source-reference locators only. No full-text source is required to rebuild the public HTML/SVG.",
+  "private_diagram_baseline_sha256": "40729594b26611e4e3a1f73138f3a5895c41b25738e210d87990af44920defd6",
+  "public_model_sha256": "657fd26c6fa20af9f4c135e5653db0a008aff222385f348589d7cf1130f19b23",
+  "scientific_field_sha256": {
+    "readingPath": "a14ea7cbf6d55f2fd928c5bd1a950af79446d4e63b2056596abc1d760050e61f",
+    "stations": "638d730185a9b58bf663b8c0a4c33477b99fb29921c0f48b4726236c3e12dee4",
+    "facts": "58a9ed59d8d6519960c5f912cc3a66e2a2d75ad1d9d13f9eebb5855444ba1f20",
+    "nodes": "cdfc6c8a6d86e1dcbdf59598d71e5d18050e540e84570a624447484fe35518dc",
+    "edges": "f63fafe33c3e5a79fbb29a50a08f2ec1d01a5f95b92de6501d30001568d5e61f",
+    "conjunctions": "b297d6a0d8bfe0c5d2953892b0d0f907cdcea1a176850c6450ed71f321055eb3",
+    "edgeTypes": "86fc0ea7eb7c3479adb909407b604a737e4a4e18050f40161038d37d84fb1666",
+    "glossary": "d02f86809d318dfa79332a1d0eb2d753cba2ec2c84dabed2c5a528afb2890cfc",
+    "stationEdges": "443e43896d8f5f871b163f84d6a49170cb30e71b79f32251e06a22c38ac3abf7"
+  },
+  "removed_fields": [
+    "sectionCoverage",
+    "integrationRecommendation",
+    "private source paths",
+    "private quoted anchors and line locators"
+  ],
+  "withheld_identity_records": 2,
+  "existing_public_source_files_verified": 11,
+  "public_bibliographic_metadata_files": 1,
+  "source_manuscript_or_supplement_bytes_copied": 0,
+  "raw_data_or_scientific_claims_modified": false,
+  "direct_prior_art_doi": "10.1186/2041-1480-5-28"
+}

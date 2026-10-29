@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "scope": "Actual Inkscape figure exports; PNG full decoding and pdfinfo one-page parsing. Figure integrity only; no manuscript PDF or scientific truth claim.",
+  "figures": [
+    {
+      "name": "PaperGraph_Article",
+      "png_dimensions": [
+        1600,
+        2660
+      ],
+      "png_fully_decoded": true,
+      "pdf_valid_pages": 1,
+      "files": {
+        ".svg": {
+          "bytes": 20139,
+          "sha256": "1a74ecd28bcd64859ce06cdc093efdf0bfdf12eb4ca3244524450fe3ed32310f"
+        },
+        ".png": {
+          "bytes": 1007733,
+          "sha256": "7921b0e7fd8ba27d493c1d515f7cd7a8ae2a9108c6af4692e22339e7da257922"
+        },
+        ".pdf": {
+          "bytes": 39609,
+          "sha256": "933f3cea2d625634dd3dd6ed70a99fa12de24c698825dedf52971cae5f758844"
+        }
+      }
+    },
+    {
+      "name": "PaperGraph_Overview",
+      "png_dimensions": [
+        1760,
+        1320
+      ],
+      "png_fully_decoded": true,
+      "pdf_valid_pages": 1,
+      "files": {
+        ".svg": {
+          "bytes": 19079,
+          "sha256": "68db2aeb8add9e9407475ec06e535532f2f4bbd2d9f2b1ac7500a3da7552ee07"
+        },
+        ".png": {
+          "bytes": 549968,
+          "sha256": "579039c2488bdd2eedc20385ebfe3cae2de9686b953355960beac45ecc921c3c"
+        },
+        ".pdf": {
+          "bytes": 38394,
+          "sha256": "a764d071c61e7ce411dcba6a1351ad23e1ad9c3e1251bcbf29109da5c1e0421c"
+        }
+      }
+    },
+    {
+      "name": "PaperGraph_Argument",
+      "png_dimensions": [
+        3800,
+        4129
+      ],
+      "png_fully_decoded": true,
+      "pdf_valid_pages": 1,
+      "files": {
+        ".svg": {
+          "bytes": 332351,
+          "sha256": "9b86570a430e60613709380e91de1b182a95f8fd32a0c616c573be8de07d8f99"
+        },
+        ".png": {
+          "bytes": 2200568,
+          "sha256": "d3955a42c482ceac14cdff3635f24b131f4d9a6d7db189e4e1a99d2e069b94ea"
+        },
+        ".pdf": {
+          "bytes": 95936,
+          "sha256": "e6bd99f8805e8ae10809f9d9921d605708a84b8296d6fb93ffa8497802432aff"
+        }
+      }
+    }
+  ]
+}

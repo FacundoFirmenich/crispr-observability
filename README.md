@@ -1,6 +1,6 @@
 # CRISPR observability: computational companion
 
-Version **0.3.4 / MP03D**. Public code, numerical data and editable figures for
+Version **0.4.0 / MP04** (29 October 2026). Public code, numerical data and editable figures for
 a retrospective genome-editing readout audit. The complete manuscript and
 supplement are held privately pending the author's chosen preprint deposition.
 
@@ -21,6 +21,12 @@ biological replication. Source experiments remain attributable to Sousa et al.
 
 ## Public assets
 
+- [PaperGraph](interactive/papergraph/PaperGraph_CRISPR.html): a third, standalone
+  reading and scientific-argument tool. Twelve stations distinguish definitions,
+  source facts, formal conditions, adverse cases and consequences. Student,
+  Technical and Audit depths preserve the same quantities and claim boundaries.
+  The public model contains scientific summaries and numerical-source bindings;
+  the complete article and supplement, their snapshots and quoted prose are withheld.
 - `interactive/supergraph/crispr_supergraph.html`: separate dark spatial graph,
   adapted from the actual published *Beyond Redfield* KwanTube companion.
   Its side filters, navigable SVG canvas and inspector retain that interface
@@ -53,12 +59,30 @@ python3 figures/code/generate_figures.py
 The plotting source uses an explicit standalone coordinate contract and frozen
 numerical tables. It does not require manuscript prose.
 
+PaperGraph has separate portrait, landscape and complete argument-atlas figures
+in [figures/papergraph/](figures/papergraph/). Editable SVGs, rendered PNG/PDF
+figures, source and rebuild/check instructions are documented in
+[interactive/papergraph/README.md](interactive/papergraph/README.md). Figure PDFs
+are illustration assets; the article and formal supplement are not distributed.
+
 ## Interactive companions
+
+The PaperGraph is a separate third companion. Its dotted reading route is a
+pedagogical sequence, while typed scientific links expose support, qualification,
+refuted inference and unestablished claims. Seven AND groups preserve required
+premises. The model contains 92 nodes and 86 links: 75 scientific relations and
+11 separately labelled reading-order links. Navigation does not create evidence
+or establish causality. All three tools work offline without a CDN.
+
+Argument graphs have direct prior art, including
+[Micropublications (Clark, Ciccarese and Goble, 2014)](https://doi.org/10.1186/2041-1480-5-28).
+This project contributes a source-bound CRISPR reading interface, without claiming
+a new scientific standard or measured educational benefit.
 
 The dark supergraph is a separate tool. Its corresponding editable source,
 model builder, provenance and GPLv3 notice are in
 [interactive/supergraph/README.md](interactive/supergraph/README.md). It does not
-replace or restyle the white explorer. Both tools work offline without a CDN.
+replace or restyle the white explorer. The original two tools retain their own source models and licenses.
 
 The preserved white explorer contains 21 nodes and eight typed AND hyperedges. Its source model
 keeps accepted events, non-events and unknown records separate under each declared
@@ -78,7 +102,9 @@ The verified author identity is in `metadata/AUTHOR_PROFILE_VERIFIED.json`.
 MIT applies only to the original-code allowlist in `metadata/LICENSE_SCOPE.json`.
 The separate KwanTube-derived supergraph code is distributed under GPL-3.0-only,
 with the complete license and modification notice in `interactive/supergraph/`.
-Scientific observations, data, figures and source publications retain their
+The independently implemented PaperGraph interface code is also in the exact
+MIT allowlist; generated HTML includes scientific content whose source terms
+remain separate. Scientific observations, data, figures and source publications retain their
 distinct attribution and applicable terms; neither code license relicenses them.
 See `raw_replay/DATA_NOTICE.md`.
 

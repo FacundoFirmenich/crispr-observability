@@ -1,9 +1,9 @@
 {
-  "edition": "MP03D",
+  "edition": "MP04",
   "files": {
     "README.md": {
-      "size_bytes": 3581,
-      "sha256": "8562a6f6a55a49d44eb57cd794ae95e67cc47c1347da1ee8fcf19d4542ccfa1f"
+      "size_bytes": 4527,
+      "sha256": "fd74d47c6392f36995f290f334a37712c8b2aa2f8da5aaa8fec661aceb4d1561"
     },
     "SOURCE_MANIFEST.json": {
       "size_bytes": 1243,
@@ -101,6 +101,42 @@
       "size_bytes": 91858,
       "sha256": "76a4b998490b910e3df0bb8861d050532d0a3ceed221e373515ba5ad9e8d6f11"
     },
+    "papergraph/PaperGraph_Argument.pdf": {
+      "size_bytes": 95936,
+      "sha256": "e6bd99f8805e8ae10809f9d9921d605708a84b8296d6fb93ffa8497802432aff"
+    },
+    "papergraph/PaperGraph_Argument.png": {
+      "size_bytes": 2200568,
+      "sha256": "d3955a42c482ceac14cdff3635f24b131f4d9a6d7db189e4e1a99d2e069b94ea"
+    },
+    "papergraph/PaperGraph_Argument.svg": {
+      "size_bytes": 332351,
+      "sha256": "9b86570a430e60613709380e91de1b182a95f8fd32a0c616c573be8de07d8f99"
+    },
+    "papergraph/PaperGraph_Article.pdf": {
+      "size_bytes": 39609,
+      "sha256": "933f3cea2d625634dd3dd6ed70a99fa12de24c698825dedf52971cae5f758844"
+    },
+    "papergraph/PaperGraph_Article.png": {
+      "size_bytes": 1007733,
+      "sha256": "7921b0e7fd8ba27d493c1d515f7cd7a8ae2a9108c6af4692e22339e7da257922"
+    },
+    "papergraph/PaperGraph_Article.svg": {
+      "size_bytes": 20139,
+      "sha256": "1a74ecd28bcd64859ce06cdc093efdf0bfdf12eb4ca3244524450fe3ed32310f"
+    },
+    "papergraph/PaperGraph_Overview.pdf": {
+      "size_bytes": 38394,
+      "sha256": "a764d071c61e7ce411dcba6a1351ad23e1ad9c3e1251bcbf29109da5c1e0421c"
+    },
+    "papergraph/PaperGraph_Overview.png": {
+      "size_bytes": 549968,
+      "sha256": "579039c2488bdd2eedc20385ebfe3cae2de9686b953355960beac45ecc921c3c"
+    },
+    "papergraph/PaperGraph_Overview.svg": {
+      "size_bytes": 19079,
+      "sha256": "68db2aeb8add9e9407475ec06e535532f2f4bbd2d9f2b1ac7500a3da7552ee07"
+    },
     "requirements-figures.txt": {
       "size_bytes": 32,
       "sha256": "c737c8dcc36687ea341498297497ce6398a67f83f3386337561a4b613d200de9"
@@ -159,5 +195,6 @@
     }
   },
   "full_manuscript_or_supplement_included": false,
-  "coordinate_contract": "sources/anchor_geometry_contract.json"
+  "coordinate_contract": "sources/anchor_geometry_contract.json",
+  "papergraph_source": "../interactive/papergraph/papergraph.json"
 }

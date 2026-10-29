@@ -1,0 +1,150 @@
+<svg id="papergraph-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1760 1320" role="img" aria-labelledby="pg-title pg-desc">
+<title id="pg-title">CRISPR PaperGraph: the argument, evidence and limits</title>
+<desc id="pg-desc">Twelve numbered stations give the reading order of the article. Dotted connectors indicate reading order only. The linked model and interactive version retain typed scientific relations, source identities, assumptions and revision conditions. The diagram does not identify molecular accuracy or biological function.</desc>
+<rect width="1760" height="1320" fill="#fbfcfa"/>
+<rect x="0" y="0" width="1760" height="9" fill="#006d72"/>
+<text font-family="DejaVu Sans" font-size="17" fill="#006d72" font-weight="700"><tspan x="50" y="53.0">PAPERGRAPH / CRISPR OBSERVABILITY</tspan></text>
+<text font-family="DejaVu Sans" font-size="36" fill="#1b3440" font-weight="700"><tspan x="50" y="105.0">Follow what is observed. Keep every inference conditional.</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="50" y="148.0">Question → contract → evidence → conditional conclusion → frontier.</tspan></text>
+<text font-family="DejaVu Sans" font-size="18" fill="#526873"><tspan x="50" y="184.0">Read stations 01–12. Dotted arrows mean “read next”, not “proves”.</tspan></text>
+<defs><marker id="reading-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M1 1L6 4L1 7" fill="none" stroke="#9dacb1" stroke-width="1.5"/></marker></defs>
+<path d="M442.5,332.5L472.5,332.5" fill="none" stroke="#9dacb1" stroke-width="1.8" stroke-dasharray="4 5" marker-end="url(#reading-arrow)"/>
+<path d="M865.0,332.5L895.0,332.5" fill="none" stroke="#9dacb1" stroke-width="1.8" stroke-dasharray="4 5" marker-end="url(#reading-arrow)"/>
+<path d="M1287.5,332.5L1317.5,332.5" fill="none" stroke="#9dacb1" stroke-width="1.8" stroke-dasharray="4 5" marker-end="url(#reading-arrow)"/>
+<path d="M1513.75,455L1513.75,485" fill="none" stroke="#9dacb1" stroke-width="1.8" stroke-dasharray="4 5" marker-end="url(#reading-arrow)"/>
+<path d="M1317.5,607.5L1287.5,607.5" fill="none" stroke="#9dacb1" stroke-width="1.8" stroke-dasharray="4 5" marker-end="url(#reading-arrow)"/>
+<path d="M895.0,607.5L865.0,607.5" fill="none" stroke="#9dacb1" stroke-width="1.8" stroke-dasharray="4 5" marker-end="url(#reading-arrow)"/>
+<path d="M472.5,607.5L442.5,607.5" fill="none" stroke="#9dacb1" stroke-width="1.8" stroke-dasharray="4 5" marker-end="url(#reading-arrow)"/>
+<path d="M246.25,730L246.25,760" fill="none" stroke="#9dacb1" stroke-width="1.8" stroke-dasharray="4 5" marker-end="url(#reading-arrow)"/>
+<path d="M442.5,882.5L472.5,882.5" fill="none" stroke="#9dacb1" stroke-width="1.8" stroke-dasharray="4 5" marker-end="url(#reading-arrow)"/>
+<path d="M865.0,882.5L895.0,882.5" fill="none" stroke="#9dacb1" stroke-width="1.8" stroke-dasharray="4 5" marker-end="url(#reading-arrow)"/>
+<path d="M1287.5,882.5L1317.5,882.5" fill="none" stroke="#9dacb1" stroke-width="1.8" stroke-dasharray="4 5" marker-end="url(#reading-arrow)"/>
+<g class="station" data-station="PG01" role="button" tabindex="0" aria-label="1. What does an editing percentage actually establish?">
+<rect class="station-box" x="50.0" y="210" width="392.5" height="245" rx="11" fill="#ffffff" stroke="#c9d5d8" stroke-width="1.5"/>
+<rect x="50.0" y="210" width="6" height="245" rx="3" fill="#23495a"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#23495a" font-weight="700"><tspan x="73.0" y="241.0">01</tspan></text>
+<text font-family="DejaVu Sans" font-size="13" fill="#23495a" font-weight="700"><tspan x="113.0" y="241.0">QUESTION</tspan></text>
+<text font-family="DejaVu Sans" font-size="24" fill="#1b3440" font-weight="700"><tspan x="75.0" y="282.0">What can the readout</tspan><tspan x="75.0" y="309.6">justify?</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="75.0" y="334.0">An editing readout needs an</tspan><tspan x="75.0" y="357.75">observation contract before it can</tspan><tspan x="75.0" y="381.5">support a product claim.</tspan></text>
+
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="75.0" y="438.0">Methods: units; Table S1</tspan></text>
+</g>
+<g class="station" data-station="PG02" role="button" tabindex="0" aria-label="2. Fix the unit, event and denominator">
+<rect class="station-box" x="472.5" y="210" width="392.5" height="245" rx="11" fill="#ffffff" stroke="#c9d5d8" stroke-width="1.5"/>
+<rect x="472.5" y="210" width="6" height="245" rx="3" fill="#006d72"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#006d72" font-weight="700"><tspan x="495.5" y="241.0">02</tspan></text>
+<text font-family="DejaVu Sans" font-size="13" fill="#006d72" font-weight="700"><tspan x="535.5" y="241.0">DEFINITION</tspan></text>
+<text font-family="DejaVu Sans" font-size="24" fill="#1b3440" font-weight="700"><tspan x="497.5" y="282.0">Declare event and</tspan><tspan x="497.5" y="309.6">denominator</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="497.5" y="334.0">Local peptide equivalence, exact</tspan><tspan x="497.5" y="357.75">programmed DNA and software</tspan><tspan x="497.5" y="381.5">MODIFIED are different events.</tspan></text>
+
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="497.5" y="438.0">Methods: events; Tables 4A–4B</tspan></text>
+</g>
+<g class="station" data-station="PG03" role="button" tabindex="0" aria-label="3. A three-base displacement can hide a required anchor">
+<rect class="station-box" x="895.0" y="210" width="392.5" height="245" rx="11" fill="#ffffff" stroke="#c9d5d8" stroke-width="1.5"/>
+<rect x="895.0" y="210" width="6" height="245" rx="3" fill="#006d72"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#006d72" font-weight="700"><tspan x="918.0" y="241.0">03</tspan></text>
+<text font-family="DejaVu Sans" font-size="13" fill="#006d72" font-weight="700"><tspan x="958.0" y="241.0">MECHANISM</tspan></text>
+<text font-family="DejaVu Sans" font-size="24" fill="#1b3440" font-weight="700"><tspan x="920.0" y="282.0">The product can hide its</tspan><tspan x="920.0" y="309.6">anchor</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="920.0" y="334.0">The documented anchor no longer</tspan><tspan x="920.0" y="357.75">fits after displacement; the</tspan><tspan x="920.0" y="381.5">same-input contrast depends on</tspan><tspan x="920.0" y="405.25">the observation rule.</tspan></text>
+
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="920.0" y="438.0">Table 1; Figure 1; Prop. 1</tspan></text>
+</g>
+<g class="station" data-station="PG04" role="button" tabindex="0" aria-label="4. Unknown records define a finite compatible set">
+<rect class="station-box" x="1317.5" y="210" width="392.5" height="245" rx="11" fill="#ffffff" stroke="#c9d5d8" stroke-width="1.5"/>
+<rect x="1317.5" y="210" width="6" height="245" rx="3" fill="#315c93"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#315c93" font-weight="700"><tspan x="1340.5" y="241.0">04</tspan></text>
+<text font-family="DejaVu Sans" font-size="13" fill="#315c93" font-weight="700"><tspan x="1380.5" y="241.0">FORMAL DERIVATION</tspan></text>
+<text font-family="DejaVu Sans" font-size="24" fill="#1b3440" font-weight="700"><tspan x="1342.5" y="282.0">Retain unknowns; derive</tspan><tspan x="1342.5" y="309.6">bounds</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="1342.5" y="334.0">Retaining unknown mass yields</tspan><tspan x="1342.5" y="357.75">sharp conditional extrema without</tspan><tspan x="1342.5" y="381.5">assigning unobserved outcomes.</tspan></text>
+
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="1342.5" y="438.0">Table 2; Propositions 2–3</tspan></text>
+</g>
+<g class="station" data-station="PG05" role="button" tabindex="0" aria-label="5. An agreeing label need not identify an agreeing string">
+<rect class="station-box" x="1317.5" y="485" width="392.5" height="245" rx="11" fill="#ffffff" stroke="#c9d5d8" stroke-width="1.5"/>
+<rect x="1317.5" y="485" width="6" height="245" rx="3" fill="#006d72"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#006d72" font-weight="700"><tspan x="1340.5" y="516.0">05</tspan></text>
+<text font-family="DejaVu Sans" font-size="13" fill="#006d72" font-weight="700"><tspan x="1380.5" y="516.0">COUNTEREXAMPLE</tspan></text>
+<text font-family="DejaVu Sans" font-size="24" fill="#1b3440" font-weight="700"><tspan x="1342.5" y="557.0">Equal labels, different</tspan><tspan x="1342.5" y="584.6">strings</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="1342.5" y="609.0">Reference-sensitive labels and</tspan><tspan x="1342.5" y="632.75">actual equal-label/unequal-string</tspan><tspan x="1342.5" y="656.5">records refute simple</tspan><tspan x="1342.5" y="680.25">interchangeability.</tspan></text>
+
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="1342.5" y="713.0">Results: correspondence; Figure 4</tspan></text>
+</g>
+<g class="station" data-station="PG06" role="button" tabindex="0" aria-label="6. Accept a common coding string before classifying it">
+<rect class="station-box" x="895.0" y="485" width="392.5" height="245" rx="11" fill="#ffffff" stroke="#c9d5d8" stroke-width="1.5"/>
+<rect x="895.0" y="485" width="6" height="245" rx="3" fill="#315c93"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#315c93" font-weight="700"><tspan x="918.0" y="516.0">06</tspan></text>
+<text font-family="DejaVu Sans" font-size="13" fill="#315c93" font-weight="700"><tspan x="958.0" y="516.0">METHOD</tspan></text>
+<text font-family="DejaVu Sans" font-size="24" fill="#1b3440" font-weight="700"><tspan x="920.0" y="557.0">Require a common</tspan><tspan x="920.0" y="584.6">observed string</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="920.0" y="609.0">The witness accepts only identical</tspan><tspan x="920.0" y="632.75">observed strings from three</tspan><tspan x="920.0" y="656.5">declared extractions.</tspan></text>
+
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="920.0" y="713.0">Tables 2, S7; Proposition 4</tspan></text>
+</g>
+<g class="station" data-station="PG07" role="button" tabindex="0" aria-label="7. State the positive result at its actual strength">
+<rect class="station-box" x="472.5" y="485" width="392.5" height="245" rx="11" fill="#ffffff" stroke="#c9d5d8" stroke-width="1.5"/>
+<rect x="472.5" y="485" width="6" height="245" rx="3" fill="#006d72"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#006d72" font-weight="700"><tspan x="495.5" y="516.0">07</tspan></text>
+<text font-family="DejaVu Sans" font-size="13" fill="#006d72" font-weight="700"><tspan x="535.5" y="516.0">COMPUTATIONAL RESULT</tspan></text>
+<text font-family="DejaVu Sans" font-size="24" fill="#1b3440" font-weight="700"><tspan x="497.5" y="557.0">Read the conditional</tspan><tspan x="497.5" y="584.6">result</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="497.5" y="609.0">All three native witness</tspan><tspan x="497.5" y="632.75">PE-minus-mock lower endpoints</tspan><tspan x="497.5" y="656.5">are positive under the stated</tspan><tspan x="497.5" y="680.25">premises.</tspan></text>
+
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="497.5" y="713.0">Table S8; Proposition 5</tspan></text>
+</g>
+<g class="station" data-station="PG08" role="button" tabindex="0" aria-label="8. Stable contrast signs can coexist with changing record labels">
+<rect class="station-box" x="50.0" y="485" width="392.5" height="245" rx="11" fill="#ffffff" stroke="#c9d5d8" stroke-width="1.5"/>
+<rect x="50.0" y="485" width="6" height="245" rx="3" fill="#006d72"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#006d72" font-weight="700"><tspan x="73.0" y="516.0">08</tspan></text>
+<text font-family="DejaVu Sans" font-size="13" fill="#006d72" font-weight="700"><tspan x="113.0" y="516.0">SENSITIVITY</tspan></text>
+<text font-family="DejaVu Sans" font-size="24" fill="#1b3440" font-weight="700"><tspan x="75.0" y="557.0">Stable sign, changing</tspan><tspan x="75.0" y="584.6">labels</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="75.0" y="609.0">Finite-grid positivity and</tspan><tspan x="75.0" y="632.75">record-level stability are different</tspan><tspan x="75.0" y="656.5">properties.</tspan></text>
+
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="75.0" y="713.0">Table S12; finite-grid Results</tspan></text>
+</g>
+<g class="station" data-station="PG09" role="button" tabindex="0" aria-label="9. Ask what a representation preserves for a declared target">
+<rect class="station-box" x="50.0" y="760" width="392.5" height="245" rx="11" fill="#ffffff" stroke="#c9d5d8" stroke-width="1.5"/>
+<rect x="50.0" y="760" width="6" height="245" rx="3" fill="#315c93"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#315c93" font-weight="700"><tspan x="73.0" y="791.0">09</tspan></text>
+<text font-family="DejaVu Sans" font-size="13" fill="#315c93" font-weight="700"><tspan x="113.0" y="791.0">FORMAL DERIVATION</tspan></text>
+<text font-family="DejaVu Sans" font-size="24" fill="#1b3440" font-weight="700"><tspan x="75.0" y="832.0">Preserve a declared</tspan><tspan x="75.0" y="859.6">target</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="75.0" y="884.0">Observed-catalog factorization is</tspan><tspan x="75.0" y="907.75">target-relative and requires</tspan><tspan x="75.0" y="931.5">constancy within representation</tspan><tspan x="75.0" y="955.25">fibers.</tspan></text>
+
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="75.0" y="988.0">Supplement: joint targets / criterion</tspan></text>
+</g>
+<g class="station" data-station="PG10" role="button" tabindex="0" aria-label="10. Keep the ambiguous and uninformative cases">
+<rect class="station-box" x="472.5" y="760" width="392.5" height="245" rx="11" fill="#ffffff" stroke="#c9d5d8" stroke-width="1.5"/>
+<rect x="472.5" y="760" width="6" height="245" rx="3" fill="#006d72"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#006d72" font-weight="700"><tspan x="495.5" y="791.0">10</tspan></text>
+<text font-family="DejaVu Sans" font-size="13" fill="#006d72" font-weight="700"><tspan x="535.5" y="791.0">INTERPRETIVE CASES</tspan></text>
+<text font-family="DejaVu Sans" font-size="24" fill="#1b3440" font-weight="700"><tspan x="497.5" y="832.0">Keep the</tspan><tspan x="497.5" y="859.6">counterexamples</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="497.5" y="884.0">Ambiguous targets and constant</tspan><tspan x="497.5" y="907.75">target support constrain what a</tspan><tspan x="497.5" y="931.5">successful certificate means.</tspan></text>
+
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="497.5" y="988.0">Table 3; ambiguity / constant targets</tspan></text>
+</g>
+<g class="station" data-station="PG11" role="button" tabindex="0" aria-label="11. Reproduce computations and identify their shared sources">
+<rect class="station-box" x="895.0" y="760" width="392.5" height="245" rx="11" fill="#ffffff" stroke="#c9d5d8" stroke-width="1.5"/>
+<rect x="895.0" y="760" width="6" height="245" rx="3" fill="#006d72"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#006d72" font-weight="700"><tspan x="918.0" y="791.0">11</tspan></text>
+<text font-family="DejaVu Sans" font-size="13" fill="#006d72" font-weight="700"><tspan x="958.0" y="791.0">REPRODUCIBILITY</tspan></text>
+<text font-family="DejaVu Sans" font-size="24" fill="#1b3440" font-weight="700"><tspan x="920.0" y="832.0">Separate replay and</tspan><tspan x="920.0" y="859.6">independence</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="920.0" y="884.0">Source identity and computational</tspan><tspan x="920.0" y="907.75">reproduction support consistency</tspan><tspan x="920.0" y="931.5">within the declared evidence</tspan><tspan x="920.0" y="955.25">scope.</tspan></text>
+
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="920.0" y="988.0">Methods: verification; replay levels</tspan></text>
+</g>
+<g class="station" data-station="PG12" role="button" tabindex="0" aria-label="12. Carry the result forward without crossing its boundary">
+<rect class="station-box" x="1317.5" y="760" width="392.5" height="245" rx="11" fill="#ffffff" stroke="#c9d5d8" stroke-width="1.5"/>
+<rect x="1317.5" y="760" width="6" height="245" rx="3" fill="#9a3651"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#9a3651" font-weight="700"><tspan x="1340.5" y="791.0">12</tspan></text>
+<text font-family="DejaVu Sans" font-size="13" fill="#9a3651" font-weight="700"><tspan x="1380.5" y="791.0">CONSEQUENCE AND FRONTIER</tspan></text>
+<text font-family="DejaVu Sans" font-size="24" fill="#1b3440" font-weight="700"><tspan x="1342.5" y="832.0">Report the result and</tspan><tspan x="1342.5" y="859.6">frontier</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#1b3440"><tspan x="1342.5" y="884.0">The practical proposal is a</tspan><tspan x="1342.5" y="907.75">claim-specific reporting contract</tspan><tspan x="1342.5" y="931.5">with explicit unresolved frontiers.</tspan></text>
+
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="1342.5" y="988.0">Methods: contract; revision tests</tspan></text>
+</g>
+<line x1="50" y1="1051" x2="1710" y2="1051" stroke="#c9d5d8"/>
+<text font-family="DejaVu Sans" font-size="16" fill="#315c93" font-weight="700"><tspan x="50" y="1087.0">SCIENTIFIC RELATIONS LIVE IN THE ARGUMENT MODEL</tspan></text>
+<text font-family="DejaVu Sans" font-size="18" fill="#1b3440"><tspan x="50" y="1121.0">Requires jointly: stated assumptions. Derived under: the declared finite-record contract.</tspan></text>
+<text font-family="DejaVu Sans" font-size="18" fill="#1b3440"><tspan x="50" y="1152.0">Supported by: an identified source and operation. Limited by: an unmeasured quantity or changed domain.</tspan></text>
+<text font-family="DejaVu Sans" font-size="17" fill="#526873"><tspan x="50" y="1183.0">The overview is a reading map; open a station to inspect these typed links and the evidence they reference.</tspan></text>
+<text font-family="DejaVu Sans" font-size="19" fill="#765413" font-weight="700"><tspan x="50" y="1227.0">Conditional identification hull: [E/N, (E+U)/N]  ·  Accepted labels must be correct.</tspan></text>
+<text font-family="DejaVu Sans" font-size="17" fill="#9a3651"><tspan x="50" y="1260.0">No molecular-accuracy, prospective-validation or haplotype-function claim is supplied by this diagram.</tspan></text>
+<text font-family="DejaVu Sans" font-size="12" fill="#526873"><tspan x="50" y="1295.0">Public diagram · formal text withheld · Facundo Firmenich · source-bound model 294d2259f24142ac</tspan></text>
+</svg>

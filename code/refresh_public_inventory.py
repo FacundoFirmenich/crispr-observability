@@ -40,7 +40,8 @@ def main():
             gpl = name in gpl_code
             gpl_html = name == 'interactive/supergraph/crispr_supergraph.html'
             gpl_license = name == 'interactive/supergraph/LICENSE'
-            mit_html = name == 'interactive/epistemic_graph.html'
+            mit_html = name in {'interactive/epistemic_graph.html',
+                                'interactive/papergraph/PaperGraph_CRISPR.html'}
             if gpl:
                 kind = 'GPL_COMPONENT_CODE'
                 rights = 'SCOPED_GPL_COMPONENT'
@@ -67,7 +68,10 @@ def main():
                 terms = 'Outside software code grants; source attribution and applicable data/text/figure terms retained'
                 assigned = 'NONE'
             spatial = name.startswith('interactive/supergraph/') or gpl
+            papergraph = name.startswith(('interactive/papergraph/', 'figures/papergraph/')) or name in {
+                'code/check_papergraph_browser.cjs', '.github/workflows/papergraph-checks.yml'}
             provenance = ('New separate spatial interface adapts the actual published KwanTube Beyond Redfield companion; exact upstream identity and modifications in interactive/supergraph/' if spatial else
+                          'Independent PaperGraph interface and renderer; public authored claim summaries, typed relations and existing numerical source identities; formal manuscript and supplement withheld' if papergraph else
                           'Current computational companion; the existing white interactive interface was independently implemented and remains unchanged')
             writer.writerow({'asset': name, 'bundled': 'yes',
                 'asset_kind': kind,
@@ -77,10 +81,25 @@ def main():
                 'applicable_terms': terms,
                 'license_assigned_by_candidate': assigned,
                 'third_party_relicensing': 'no'})
+    # The figure inventory includes the original four figures and the separate
+    # PaperGraph figures. Neither is a full manuscript distribution.
+    figure_manifest = ROOT / 'figures/FIGURE_PACKAGE_MANIFEST.json'
+    figure_files = {name.removeprefix('figures/'): {
+                       'size_bytes': path.stat().st_size,
+                       'sha256': hashlib.sha256(path.read_bytes()).hexdigest()}
+                    for name, path in public_files()
+                    if name.startswith('figures/') and path != figure_manifest}
+    figure_manifest.write_text(json.dumps({
+        'edition': 'MP04', 'files': figure_files,
+        'full_manuscript_or_supplement_included': False,
+        'coordinate_contract': 'sources/anchor_geometry_contract.json',
+        'papergraph_source': '../interactive/papergraph/papergraph.json'
+    }, ensure_ascii=False, indent=2) + '\n')
+    # Fingerprint after refreshing nested inventories.
     files = {name: {'bytes': path.stat().st_size,
                     'sha256': hashlib.sha256(path.read_bytes()).hexdigest()}
              for name, path in public_files() if name != INVENTORY}
-    data = {'edition': 'MP03D', 'version': '0.3.4',
+    data = {'edition': 'MP04', 'version': '0.4.0',
             'scope': 'Exact current public computational companion source. Complete manuscript and formal supplement remain private. Inventory excludes itself and runtime results/screenshots/dependencies.',
             'files': files}
     (ROOT / INVENTORY).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')

@@ -1,0 +1,47 @@
+name: PaperGraph source and browser checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  papergraph:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - name: Checkout public source files
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+      - name: Set up exact Python version
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.14.10'
+      - name: Prepare isolated source and browser runtimes
+        shell: bash
+        run: |
+          python -m pip install --disable-pip-version-check --no-cache-dir --requirement interactive/papergraph/requirements-figures.txt
+          node --version
+          node -e 'if (+process.versions.node.split(".")[0] < 20) process.exit(1)'
+          google-chrome --version
+          npm install --prefix "$RUNNER_TEMP/papergraph-runtime" --ignore-scripts --no-audit --no-fund --save-exact playwright-core@1.64.1
+      - name: Verify public PaperGraph and deterministic source rebuild
+        run: python -B interactive/papergraph/code/check_papergraph.py
+      - name: Test rendered public PaperGraph
+        shell: bash
+        env:
+          PLAYWRIGHT_MODULE_PATH: ${{ runner.temp }}/papergraph-runtime/node_modules/playwright-core
+          PAPERGRAPH_QA_OUTPUT: ${{ runner.temp }}/papergraph-qa
+        run: node code/check_papergraph_browser.cjs
+      - name: Retain temporary public visual QA evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: papergraph-browser-qa
+          path: ${{ runner.temp }}/papergraph-qa/
+          retention-days: 1
+          if-no-files-found: warn

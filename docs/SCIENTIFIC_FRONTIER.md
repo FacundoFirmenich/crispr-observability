@@ -23,3 +23,35 @@ Record failures by stream, raw ID, event, reference/window, observed string, acc
 ## Remaining biological boundary
 
 Coding-string correspondence does not establish full-allele identity, haplotype-specific expression, protein abundance, channel function or injury. Those levels need authenticated sample links and their own measurements. The paper is a bounded methods contribution; it does not collapse the wider programme into this assay or turn a consistency check into an editor improvement.
+
+## PaperGraph: argument visibility, not an added experiment
+
+The MP04 PaperGraph separates the order used to teach a result from the
+relationships needed to justify it. For example, anchor geometry motivates
+conditional identification analysis but does not empirically prove an interval
+formula. A bound needs a declared finite universe, a complete E/NE/U partition,
+accepted-label correctness and the stated unknown-completion rule. These
+requirements remain visible beside the result at every reading depth.
+
+Equal local labels can coexist with unequal observed coding strings. The
+18 equal-label/unequal-string cases reject that particular interchangeability
+inference; they do not demonstrate 18 molecular classification errors or prove
+that CRISPResso2 fails its own declared target. Similarly, a positive lower
+endpoint under each tested alignment profile does not imply stable record
+labels or transport beyond the finite tested configurations. The graph preserves
+those separate conclusions through typed relations and explicit AND premises.
+
+The public reading model has 12 stations, 49 facts, 92 nodes and 86 links
+(75 scientific relations and 11 reading-order links), with seven conjunctions.
+These are authored argument objects on the same evidence, not new independent
+observations. The complete private article and supplement and their full-text
+snapshots are excluded. Public numerical bindings are verifiable in this
+repository; withheld text identities cannot be inspected here.
+
+Qualified claim/evidence/argument graphs predate this implementation, notably
+Micropublications (Clark, Ciccarese and Goble, 2014;
+https://doi.org/10.1186/2041-1480-5-28). The local contribution is an inspectable,
+source-bound reading interface for this study. Browser checks establish selected
+interface behavior and rendering properties; they cannot demonstrate reader
+comprehension or educational efficacy. Those questions require an actual reader
+evaluation, while molecular accuracy and function require their own evidence.
