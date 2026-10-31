@@ -14,14 +14,14 @@
   "data_rights_status": "PUBLIC_SRA_SNAPSHOT_REDISTRIBUTION_DOCUMENTED; source attribution and terms retained; no MIT data relicensing",
   "native_scope": "Two scopes: exact derived-table arithmetic and raw-observer reconstruction with frozen alignment projections",
   "raw_pipeline_included": false,
-  "remote_CI_run": false,
+  "remote_CI_run": true,
   "raw_observer_replay_included": true,
   "fresh_alignment_included": false,
   "canonical_review_command": "python3 code/run_review_checks.py",
   "original_raw_inputs_included": 9,
   "frozen_alignment_tables_included": 18,
   "affiliations": [
-    "Centro de Estudios del Sur (CEDESUR), Spain and Argentina. For this project, academically affiliated with Universidad Nacional Arturo Jauretche (UNAJ), Av. Calchaquí 6200, Florencio Varela, Provincia de Buenos Aires, 1888, Argentina",
+    "Centro de Estudios del Sur (CEDESUR), Spain and Argentina. For this project, academically affiliated with Universidad Nacional Arturo Jauretche (UNAJ), Av. Calchaqu\u00ed 6200, Florencio Varela, Provincia de Buenos Aires, 1888, Argentina",
     "Universitat de Barcelona (UB), Gran Via de les Corts Catalanes, 585, 08007 Barcelona, Spain"
   ],
   "corresponding_email": "f.firmenich@cedesur.org",
@@ -44,7 +44,7 @@
   "personal_acknowledgments_recovered": 5,
   "scientific_observation_values_changed_by_author_recovery": false,
   "additional_ORCID_institutions_recovered": [
-    "Universidad Nacional de Lanús",
+    "Universidad Nacional de Lan\u00fas",
     "Universitat Pompeu Fabra"
   ],
   "complete_ORCID_affiliation_records": 5,
@@ -54,40 +54,41 @@
   "publication_note": "The author reserves formal manuscript deposition to a chosen preprint server. Withdrawal cannot reverse prior public dissemination or guarantee removal of external caches.",
   "interactive_companion_included": true,
   "interactive_companion": "interactive/epistemic_graph.html",
-  "interactive_browser_QA_status": "HISTORICAL_TOOLS_VERIFIED; CURRENT_MP04_REMOTE_CI_PENDING",
+  "interactive_browser_QA_status": "PASS_AT_4e0d9b801436f9be5ae957201736a1b1744bcb11",
   "verified_remote_CI": {
-    "commit": "089d7921dfabcb4abd98199359d3077b5fd7e642",
-    "explorer_browser_run": 40783582532,
-    "supergraph_browser_run": 40783582507,
-    "computational_companion_run": 40783582475,
+    "commit": "4e0d9b801436f9be5ae957201736a1b1744bcb11",
     "conclusion": "success",
-    "verified_date": "2026-10-29",
-    "scope": "Completed MP03D computational, white explorer and dark supergraph runs at this exact commit; not evidence for the successor MP04 commit."
+    "verified_date": "2026-10-31",
+    "computational_companion_run": 40799841260,
+    "explorer_browser_run": 40799841125,
+    "supergraph_browser_run": 40799841091,
+    "papergraph_browser_run": 40799841100,
+    "scope": "Actual successful GitHub Actions on the MP04 public release code, data and figure payload. This receipt is written after those executions; subsequent receipt-only commits are not retroactively self-certified."
   },
   "interactive_companions": [
     {
       "path": "interactive/epistemic_graph.html",
       "name": "White evidence and readout explorer",
       "preserved_sha256": "29fc7fce6805bb50b4a6b2c8340d745d07552bad4b8fa7d5b359a7d35bad6445",
-      "browser_QA": "PASS_AT_089d7921dfabcb4abd98199359d3077b5fd7e642"
+      "browser_QA": "PASS_AT_4e0d9b801436f9be5ae957201736a1b1744bcb11"
     },
     {
       "path": "interactive/supergraph/crispr_supergraph.html",
       "name": "KwanTube-derived dark spatial supergraph",
-      "browser_QA": "PASS_AT_089d7921dfabcb4abd98199359d3077b5fd7e642",
+      "browser_QA": "PASS_AT_4e0d9b801436f9be5ae957201736a1b1744bcb11",
       "code_license": "GPL-3.0-only",
       "preserved_sha256": "19ae4eac0eb949faeea90027be2151a0257613766ea3370b2390d6f9dd75c31c"
     },
     {
       "path": "interactive/papergraph/PaperGraph_CRISPR.html",
       "name": "PaperGraph: reading guide and typed scientific argument",
-      "browser_QA": "PENDING_CURRENT_PUBLIC_BUILD_CHECKS",
+      "browser_QA": "PASS_AT_4e0d9b801436f9be5ae957201736a1b1744bcb11",
       "code_license": "MIT_SCOPED",
       "model_scope": "Scientific summaries and public numerical bindings; complete article/supplement and literal text anchors withheld"
     }
   ],
   "new_supergraph_preserves_existing_explorer_and_data": true,
-  "remote_CI_run_scope": "Current MP04 commit checks pending execution; completed historical runs retained separately.",
+  "remote_CI_run_scope": "Actual successful GitHub Actions on the MP04 public release code, data and figure payload. This receipt is written after those executions; subsequent receipt-only commits are not retroactively self-certified.",
   "papergraph_included": true,
   "papergraph_manuscript_full_text_embedded": false,
   "papergraph_counts": {
@@ -100,12 +101,14 @@
     "AND_groups": 7
   },
   "current_release_CI": {
-    "status": "PENDING_EXECUTION",
-    "commit": null,
-    "scope": "Update only after actual current-release workflow receipts exist."
+    "status": "PASS_VERIFIED_RELEASE_PAYLOAD",
+    "commit": "4e0d9b801436f9be5ae957201736a1b1744bcb11",
+    "receipt": "metadata/MP04_REMOTE_CI_VERIFIED_20261031.json",
+    "scope": "Actual successful GitHub Actions on the MP04 public release code, data and figure payload. This receipt is written after those executions; subsequent receipt-only commits are not retroactively self-certified."
   },
   "scientific_values_changed_by_papergraph": false,
   "papergraph_reader_benefit_measured": false,
   "papergraph_new_accepted_standard_claimed": false,
-  "github_update_authorized": "User instruction 2026-10-29 to update repository and related deliverables"
+  "github_update_authorized": "User instruction 2026-10-29 to update repository and related deliverables",
+  "closure_verification_date": "2026-10-31"
 }

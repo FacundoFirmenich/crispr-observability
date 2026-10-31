@@ -20,8 +20,10 @@
 - Correct stale MP03D browser-check metadata using completed successful runs at
   commit `089d7921dfabcb4abd98199359d3077b5fd7e642`: computational 40783582475,
   white explorer 40783582532 and spatial supergraph 40783582507.
-- Keep historical and new-release execution evidence distinct. The current MP04
-  remote CI status remains pending until its actual workflows complete.
+- Verify all four MP04 GitHub Actions workflows as successful at commit
+  `4e0d9b801436f9be5ae957201736a1b1744bcb11`; the receipt was checked on
+  31 October 2026 in `metadata/MP04_REMOTE_CI_VERIFIED_20261031.json`.
+  Historical and new-release execution evidence remain distinct.
 
 The PaperGraph adds inspectable scientific communication on existing evidence.
 It does not add biological observations, establish independent reproduction,

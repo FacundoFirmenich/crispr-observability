@@ -36,8 +36,8 @@
       "sha256": "e6875bbc93dbaea9059f1a4c92f14dc385526a0319aa51ed61aea36383f9f37b"
     },
     "CHANGELOG.md": {
-      "bytes": 2138,
-      "sha256": "278b493de846a0851ca588805e916be064181a8da19e9f81f7a2e72c240b1182"
+      "bytes": 2267,
+      "sha256": "cd89912fa450f1d33ccea409d851205e2b0595d8e8394a32814ce748277bd3e3"
     },
     "CITATION.cff": {
       "bytes": 2012,
@@ -60,8 +60,8 @@
       "sha256": "b66402efd87a8fab051975fb5e212c017a26411f8899a6ff1a0b85b4e66aafd7"
     },
     "THIRD_PARTY_NOTICES.csv": {
-      "bytes": 130898,
-      "sha256": "2549d09201356c646ebda8bee3f0f7d57da6598ea1c0a0fc94231a082bcdc394"
+      "bytes": 131365,
+      "sha256": "5dd1f9c5d9dbf4fcb8bd025040bbdd93f7e516a65c1f5a18ebc29848a2b3d6c4"
     },
     "code/LICENSE": {
       "bytes": 1074,
@@ -916,8 +916,8 @@
       "sha256": "d82805536e74749a6cf9e6b863ee1feb8e3604fe3e25a8278fca8527da4c0962"
     },
     "metadata/RELEASE_STATE.json": {
-      "bytes": 5552,
-      "sha256": "a7eefe27ea05a0a44f0eaf95ff5d34df8ba7c25ffd5ee39999a0063679f1de2c"
+      "bytes": 6097,
+      "sha256": "ac83d4d1f77428762ede4685ef1f63be91ecc05d888b7aa4432868db2559450c"
     },
     "metadata/RUNTIME_SOURCES.json": {
       "bytes": 3209,
@@ -1162,6 +1162,10 @@
     "tables/Table_S9_Reference_Changes.csv": {
       "bytes": 28445,
       "sha256": "d632ecbec1243b79bcedd115b4a336035e0267c055f528c03ecfb18c8aa06c4b"
+    },
+    "metadata/MP04_REMOTE_CI_VERIFIED_20261031.json": {
+      "bytes": 1915,
+      "sha256": "b55b561c6926fdf95fb14542af60172886695408d5ee2e3b25aae404994ba4d8"
     }
   }
 }

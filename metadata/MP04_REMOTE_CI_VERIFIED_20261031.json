@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-31",
+  "version": "0.4.0",
+  "edition": "MP04",
+  "status": "PASS",
+  "verified_commit": "4e0d9b801436f9be5ae957201736a1b1744bcb11",
+  "verified_tree": "1716736fcece73e6083b879a43240f7668dbb285",
+  "runs": [
+    {
+      "id": 40799841100,
+      "name": "PaperGraph source and browser checks",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "4e0d9b801436f9be5ae957201736a1b1744bcb11",
+      "html_url": "https://github.com/FacundoFirmenich/crispr-observability/actions/runs/40799841100"
+    },
+    {
+      "id": 40799841125,
+      "name": "Explorer browser checks",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "4e0d9b801436f9be5ae957201736a1b1744bcb11",
+      "html_url": "https://github.com/FacundoFirmenich/crispr-observability/actions/runs/40799841125"
+    },
+    {
+      "id": 40799841260,
+      "name": "Computational companion checks",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "4e0d9b801436f9be5ae957201736a1b1744bcb11",
+      "html_url": "https://github.com/FacundoFirmenich/crispr-observability/actions/runs/40799841260"
+    },
+    {
+      "id": 40799841091,
+      "name": "Spatial supergraph browser checks",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "4e0d9b801436f9be5ae957201736a1b1744bcb11",
+      "html_url": "https://github.com/FacundoFirmenich/crispr-observability/actions/runs/40799841091"
+    }
+  ],
+  "scope": "Actual successful GitHub Actions on the MP04 public release code, data and figure payload. This receipt is written after those executions; subsequent receipt-only commits are not retroactively self-certified.",
+  "limitations": [
+    "Computational and browser validation does not establish independent biological replication, molecular accuracy or reader benefit.",
+    "Formal manuscript and supplement remain private."
+  ]
+}
