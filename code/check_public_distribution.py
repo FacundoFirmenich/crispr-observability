@@ -50,7 +50,7 @@ def main():
             assert '\\begin{document}' not in text, name
             assert 'P1_Revised_Integrated_EN.txt' not in text, name
     release = json.loads((ROOT / 'metadata/RELEASE_STATE.json').read_text())
-    assert release['version'] == inventory['version'] == '0.4.0'
+    assert release['version'] == inventory['version'] == '0.4.1'
     assert release['edition'] == inventory['edition'] == policy['edition'] == 'MP04'
     assert release['manuscript_public'] is False and release['supplement_public'] is False
     # Existing tools and scientific observations are frozen; PaperGraph is a

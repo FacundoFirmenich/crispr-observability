@@ -1,0 +1,35 @@
+{
+  "artifacts": {
+    "events": "inference.events.csv",
+    "score": "score.svg"
+  },
+  "carrier": "audio",
+  "confidence": {
+    "meaning": "exact PCM-bound container integrity; no acoustic confidence computed",
+    "not_applicable": true
+  },
+  "exact": true,
+  "kind": "dna",
+  "kind_source": "embedded",
+  "normalized_sequence_sha256": "d4624117da3616ba3f954a65b2721b59b0ad24597312a0f49c5d92bb2d03371c",
+  "output": {
+    "format": "canonical-fasta-70-column",
+    "path": "sequence.fasta",
+    "sha256": "435a8b6a0649dc5c607224595407a5ca2f07cebf3ebf017dacb0eedd11781ad7"
+  },
+  "record_name": "programmed_local_DNA | reference_context_only",
+  "sequence_length": 42,
+  "source": {
+    "analysis": null,
+    "channels": 2,
+    "duration_seconds": 3.216463,
+    "format": "PCM WAV",
+    "input_budget_mib": 512,
+    "path": "programmed_local_DNA.wav",
+    "sample_rate": 22050,
+    "sample_width": 2,
+    "sha256": "8a6c8f4ae2779f68eacd671708658f2a19caba3da0ad748a35af0a51ca1ec921"
+  },
+  "status": "exact-wav-embedded",
+  "transcription_scope": "deterministic transcription under the reported mapping and parameters"
+}

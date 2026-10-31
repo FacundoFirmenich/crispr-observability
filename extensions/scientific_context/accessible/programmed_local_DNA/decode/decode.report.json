@@ -1,0 +1,25 @@
+{
+  "exact": true,
+  "integrity_scope": "carrier consistency with the supplied manifest",
+  "kind": "dna",
+  "manifest_midi_match": true,
+  "metadata_source": "embedded-midi",
+  "midi": {
+    "channel": 0,
+    "format": 0,
+    "path": "programmed_local_DNA.mid",
+    "ppq": 480,
+    "sha256": "77eef058432c36bac7cd7cbcbe750c68fa6a83f62f5d7278dcafa4a7ade2383b",
+    "tracks": 1
+  },
+  "normalized_sequence_sha256": "d4624117da3616ba3f954a65b2721b59b0ad24597312a0f49c5d92bb2d03371c",
+  "output": {
+    "format": "canonical-fasta-70-column",
+    "path": "sequence.fasta",
+    "sha256": "435a8b6a0649dc5c607224595407a5ca2f07cebf3ebf017dacb0eedd11781ad7"
+  },
+  "profile": "seq2music-roundtrip-v1",
+  "record_name": "programmed_local_DNA | reference_context_only",
+  "sequence_length": 42,
+  "status": "exact-manifest-matched"
+}

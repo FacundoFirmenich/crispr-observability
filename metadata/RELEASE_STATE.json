@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.1",
   "edition": "MP04",
   "status": "PUBLIC_COMPUTATIONAL_COMPANION_PRIVATE_MANUSCRIPTS",
   "public_release": true,
@@ -37,7 +37,7 @@
   "full_alignment_large_original_outputs_included_in_repository": false,
   "source_SRA_accessions_currently_resolved": 9,
   "repository_default_branch": "Ulalito's-Island",
-  "release_date": "2026-10-29",
+  "release_date": "2026-10-31",
   "public_source_release_does_not_certify_human_final_manuscript_approval": true,
   "complete_author_profile_recovered": true,
   "source_preprints": 3,
@@ -88,7 +88,7 @@
     }
   ],
   "new_supergraph_preserves_existing_explorer_and_data": true,
-  "remote_CI_run_scope": "Actual successful GitHub Actions on the MP04 public release code, data and figure payload. This receipt is written after those executions; subsequent receipt-only commits are not retroactively self-certified.",
+  "remote_CI_run_scope": "Completed frozen MP04 ancestor workflows are recorded separately; exact successor status is in GitHub Actions.",
   "papergraph_included": true,
   "papergraph_manuscript_full_text_embedded": false,
   "papergraph_counts": {
@@ -101,14 +101,20 @@
     "AND_groups": 7
   },
   "current_release_CI": {
-    "status": "PASS_VERIFIED_RELEASE_PAYLOAD",
-    "commit": "4e0d9b801436f9be5ae957201736a1b1744bcb11",
-    "receipt": "metadata/MP04_REMOTE_CI_VERIFIED_20261031.json",
-    "scope": "Actual successful GitHub Actions on the MP04 public release code, data and figure payload. This receipt is written after those executions; subsequent receipt-only commits are not retroactively self-certified."
+    "status": "COMMIT_SPECIFIC_ACTIONS_STATUS",
+    "url": "https://github.com/FacundoFirmenich/crispr-observability/actions",
+    "scope": "Read actual workflow statuses for the exact head commit. Committed receipts identify completed ancestor revisions and do not self-certify future commits."
   },
   "scientific_values_changed_by_papergraph": false,
   "papergraph_reader_benefit_measured": false,
   "papergraph_new_accepted_standard_claimed": false,
   "github_update_authorized": "User instruction 2026-10-29 to update repository and related deliverables",
-  "closure_verification_date": "2026-10-31"
+  "closure_verification_date": "2026-10-31",
+  "scientific_context_extension": {
+    "path": "extensions/scientific_context/",
+    "local_reference_and_raw_checks": "PASS",
+    "workflow": ".github/workflows/scientific-context-checks.yml",
+    "new_biological_observations": false,
+    "original_counts_changed": false
+  }
 }

@@ -1,0 +1,336 @@
+{
+  "scope": "Eight scientific plugins confirmed in the active executor skill registry. Repeated skill names/upstream services are not independent evidence.",
+  "plugins": [
+    {
+      "plugin": "app-6a88631af75081918917d89fb00269ad",
+      "version": "1.0.1",
+      "skill_entries": 1,
+      "skills": [
+        "computational-chemistry-and-biology"
+      ]
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill_entries": 33,
+      "skills": [
+        "boltz2-nim",
+        "complexa-binder-design",
+        "alphafold-database-fetch-and-analyze",
+        "uniprot-database",
+        "complexa-design",
+        "complexa-evaluate-pdbs",
+        "complexa-setup",
+        "complexa-sweep",
+        "complexa-target",
+        "cuequivariance",
+        "diffdock-nim",
+        "drug-discovery-pipeline",
+        "evo2-nim",
+        "genmol-nim",
+        "genomics-workflow-acceleration",
+        "kermt-add-cmim-pretrain",
+        "kermt-continue-pretrain",
+        "kermt-embed",
+        "kermt-finetune",
+        "kermt-infer",
+        "kermt-monitor",
+        "kermt-pretrain-scratch",
+        "kermt-setup",
+        "molmim-nim",
+        "msa-search-nim",
+        "msa-structure-prediction-pipeline",
+        "nvmolkit-usage",
+        "openfold2-nim",
+        "openfold3-nim",
+        "parabricks",
+        "protein-binder-design",
+        "proteinmpnn-nim",
+        "rfdiffusion-nim"
+      ]
+    },
+    {
+      "plugin": "boltz-api-cli",
+      "version": "0.1.1",
+      "skill_entries": 8,
+      "skills": [
+        "boltz-check-status",
+        "boltz-cli-setup",
+        "boltz-protein-design",
+        "boltz-protein-screen",
+        "boltz-small-molecule-adme",
+        "boltz-small-molecule-design",
+        "boltz-small-molecule-screen",
+        "boltz-structure-and-binding"
+      ]
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill_entries": 50,
+      "skills": [
+        "alphafold-skill",
+        "bgee-skill",
+        "bindingdb-skill",
+        "biobankjapan-phewas-skill",
+        "biorxiv-skill",
+        "biostudies-arrayexpress-skill",
+        "cbioportal-skill",
+        "cellxgene-skill",
+        "chebi-skill",
+        "chembl-skill",
+        "civic-skill",
+        "clinicaltrials-skill",
+        "clinvar-variation-skill",
+        "efo-ontology-skill",
+        "encode-skill",
+        "ensembl-skill",
+        "epigraphdb-skill",
+        "eqtl-catalogue-skill",
+        "eva-skill",
+        "finngen-phewas-skill",
+        "genebass-gene-burden-skill",
+        "gnomad-graphql-skill",
+        "gtex-eqtl-skill",
+        "gwas-catalog-skill",
+        "hmdb-skill",
+        "human-protein-atlas-skill",
+        "ipd-skill",
+        "locus-to-gene-mapper-skill",
+        "metabolights-skill",
+        "mgnify-skill",
+        "ncbi-blast-skill",
+        "ncbi-clinicaltables-skill",
+        "ncbi-datasets-skill",
+        "ncbi-entrez-skill",
+        "ncbi-pmc-skill",
+        "opentargets-skill",
+        "pharmgkb-skill",
+        "pride-skill",
+        "proteomexchange-skill",
+        "pubchem-pug-skill",
+        "quickgo-skill",
+        "rcsb-pdb-skill",
+        "reactome-skill",
+        "research-router-skill",
+        "rhea-skill",
+        "rnacentral-skill",
+        "string-skill",
+        "tpmi-phewas-skill",
+        "ukb-topmed-phewas-skill",
+        "uniprot-skill"
+      ]
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill_entries": 44,
+      "skills": [
+        "alphafold-skill",
+        "bgee-skill",
+        "bindingdb-skill",
+        "biobankjapan-phewas-skill",
+        "biostudies-arrayexpress-skill",
+        "cbioportal-skill",
+        "cellxgene-skill",
+        "chebi-skill",
+        "chembl-skill",
+        "civic-skill",
+        "clinicaltrials-skill",
+        "clinvar-variation-skill",
+        "efo-ontology-skill",
+        "encode-skill",
+        "ensembl-skill",
+        "epigraphdb-skill",
+        "eqtl-catalogue-skill",
+        "eva-skill",
+        "finngen-phewas-skill",
+        "genebass-gene-burden-skill",
+        "gnomad-graphql-skill",
+        "gtex-eqtl-skill",
+        "gwas-catalog-skill",
+        "human-protein-atlas-skill",
+        "ipd-skill",
+        "metabolights-skill",
+        "mgnify-skill",
+        "ncbi-clinicaltables-skill",
+        "ncbi-datasets-skill",
+        "ncbi-entrez-skill",
+        "opentargets-skill",
+        "pharmgkb-skill",
+        "pride-skill",
+        "proteomexchange-skill",
+        "pubchem-pug-skill",
+        "quickgo-skill",
+        "rcsb-pdb-skill",
+        "reactome-skill",
+        "rhea-skill",
+        "rnacentral-skill",
+        "string-skill",
+        "tpmi-phewas-skill",
+        "ukb-topmed-phewas-skill",
+        "uniprot-skill"
+      ]
+    },
+    {
+      "plugin": "life-sciences-literature",
+      "version": "0.1.5",
+      "skill_entries": 3,
+      "skills": [
+        "biorxiv-skill",
+        "ncbi-entrez-skill",
+        "ncbi-pmc-skill"
+      ]
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill_entries": 18,
+      "skills": [
+        "ngs-amplicon-microbiome",
+        "ngs-analysis-router",
+        "ngs-atacseq-peaks-qc",
+        "ngs-bcl-to-fastq",
+        "ngs-bulk-rnaseq",
+        "ngs-bulk-rnaseq-counts-qc",
+        "ngs-bulk-rnaseq-differential-expression",
+        "ngs-chip-cutrun-peaks-qc",
+        "ngs-dna-germline-variants",
+        "ngs-dna-somatic-variants",
+        "ngs-dna-umi-panel-variants",
+        "ngs-dna-variant-calling",
+        "ngs-epigenomics-peaks",
+        "ngs-fastq-qc",
+        "ngs-runtime-env",
+        "ngs-scrna-seq",
+        "ngs-shotgun-metagenomics",
+        "scrna-seq-qc"
+      ]
+    },
+    {
+      "plugin": "seq2music",
+      "version": "0.3.2",
+      "skill_entries": 1,
+      "skills": [
+        "sonify-biomolecules"
+      ]
+    }
+  ],
+  "skill_entries": 158,
+  "distinct_skill_names": 111,
+  "rowan_enabled_workflow_types": 39,
+  "rowan_simulation_jobs_submitted": 0,
+  "gpu_model_jobs_submitted": 0,
+  "FastQC_MultiQC_pipeline_executed": false,
+  "original_standard_library_raw_QC_executed": true,
+  "source_lookup_outcomes": [
+    {
+      "name": "alphafold_cftr_metadata",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "clinvar_cftr_coding_search",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "clinvar_f508del_search",
+      "ok": true,
+      "evidence_records_returned": false,
+      "error_code": null
+    },
+    {
+      "name": "clinvar_f508del_vcv",
+      "ok": false,
+      "evidence_records_returned": false,
+      "error_code": "network_error"
+    },
+    {
+      "name": "ensembl_cftr_canonical",
+      "ok": false,
+      "evidence_records_returned": false,
+      "error_code": "network_error"
+    },
+    {
+      "name": "ensembl_cftr_cds",
+      "ok": false,
+      "evidence_records_returned": false,
+      "error_code": "network_error"
+    },
+    {
+      "name": "ensembl_cftr_gene",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "ensembl_cftr_stable_cds",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "ensembl_cftr_stable_transcript",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "pmc_recent_tool_status",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "pmc_source_study_status",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "pubmed_amplican",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "pubmed_readout_tools",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "pubmed_recent_tool_abstract",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "pubmed_tool_records",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "rcsb_cftr_reference_metadata",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "uniprot_cftr_full",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    },
+    {
+      "name": "uniprot_cftr_search",
+      "ok": true,
+      "evidence_records_returned": true,
+      "error_code": null
+    }
+  ]
+}

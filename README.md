@@ -1,6 +1,6 @@
 # CRISPR observability: computational companion
 
-Version **0.4.0 / MP04** (29 October 2026). Public code, numerical data and editable figures for
+Version **0.4.1 / MP04** (31 October 2026). Public code, numerical data and editable figures for
 a retrospective genome-editing readout audit. The complete manuscript and
 supplement are held privately pending the author's chosen preprint deposition.
 
@@ -110,3 +110,16 @@ See `raw_replay/DATA_NOTICE.md`.
 
 No preprint DOI is assigned by this repository. The private manuscript and
 supplement will be linked only after the author elects to deposit them.
+
+## Added reference and recording-context checks (31 October 2026)
+
+This repository accompanies the CRISPR P1 article; all diagrams and interactive
+views are outputs of that paper. The supplementary extension in
+[extensions/scientific_context/](extensions/scientific_context/README.md) adds
+versioned molecular-reference checks, an independent raw quality/length audit
+and accessible reference-sequence carriers. It preserves every original count,
+input and earlier interactive artifact. Two new figure sets are in
+`figures/scientific_context/`. Run
+`python3 -B extensions/scientific_context/check_extension.py` offline.
+These additions neither identify sample isoforms nor establish function,
+molecular accuracy or educational efficacy. Full formal texts remain private.

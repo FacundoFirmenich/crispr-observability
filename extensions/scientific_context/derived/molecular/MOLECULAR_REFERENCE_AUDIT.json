@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "analysis_type": "PUBLIC_REFERENCE_AUDIT_NOT_SAMPLE_OR_FUNCTION_VALIDATION",
+  "canonical_uniprot": "P13569",
+  "canonical_sequence_version": 3,
+  "canonical_protein_length": 1480,
+  "ensembl_gene": "ENSG00000001626",
+  "ensembl_gene_version": 20,
+  "canonical_transcript": "ENST00000003084.11",
+  "assembly": "GRCh38",
+  "cds_length_including_stop": 4443,
+  "cds_translation_exactly_canonical_protein_plus_terminal_stop": true,
+  "local_peptide": "GTIKENIIFGVSYD",
+  "canonical_local_peptide_coordinates_1_inclusive": [
+    500,
+    513
+  ],
+  "canonical_local_cds_coordinates_1_inclusive": [
+    1498,
+    1539
+  ],
+  "canonical_local_DNA": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTCCTATGAT",
+  "programmed_local_DNA": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+  "modal_untreated_reference_local_DNA": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+  "canonical_and_programmed_DNA_differ_at_bases": 5,
+  "synonymous_codons_changed": [
+    510,
+    511,
+    512
+  ],
+  "coding_deletion_validated": {
+    "expression": "c.1521_1523delCTT",
+    "deleted_reference_bases": "CTT",
+    "protein_event": "p.Phe508del",
+    "overlaps_canonical_codons": [
+      507,
+      508
+    ],
+    "exactly_matches_preserved_untreated_modal_local_core": true
+  },
+  "reference_set_local_peptide_counterexample": [
+    {
+      "uniprot_accession": "P13569",
+      "alphafold_entry": "AF-P13569-F1",
+      "sequence_length": 1480,
+      "native_peptide_start_1": [
+        500
+      ],
+      "sequence_sha256": "a86f7dbeb9c5f48401a1a452b440d782c35067d2da152180a09ce26f76d11639",
+      "model_version": 6,
+      "model_sequence_matches_canonical_uniprot": true
+    },
+    {
+      "uniprot_accession": "P13569-3",
+      "alphafold_entry": "AF-P13569-3-F1",
+      "sequence_length": 604,
+      "native_peptide_start_1": [
+        500
+      ],
+      "sequence_sha256": "76b9105c9f5b2ca58a234b7a3d6d9688529598863c2d13ceb0ab147b44a9b8c4",
+      "model_version": 6,
+      "model_sequence_matches_canonical_uniprot": false
+    },
+    {
+      "uniprot_accession": "P13569-2",
+      "alphafold_entry": "AF-P13569-2-F1",
+      "sequence_length": 1419,
+      "native_peptide_start_1": [
+        439
+      ],
+      "sequence_sha256": "56c8eeeff16f4921a72bba93c20ebd60697c415b8c986abcaeded67160a021cc",
+      "model_version": 6,
+      "model_sequence_matches_canonical_uniprot": false
+    }
+  ],
+  "interpretation": "The same declared local peptide is present in three published sequence-reference records of unequal complete lengths. This is a finite reference-set non-identification example, not evidence that any of those isoforms occurred or were expressed in the study samples. AlphaFold copies reference sequences and is not an independent molecular truth channel.",
+  "limitations": [
+    "No sample isoform, haplotype, transcript, protein expression or function assigned.",
+    "No newly generated biomolecule or new measured biological observation.",
+    "Public reference lookups are a post hoc annotation audit; original counts, policies and conclusions are frozen."
+  ],
+  "source_files_sha256": {
+    "uniprot_cftr_full.raw.json": "c8feabfabe8690ef4a06af7de5b5f8dc3c8da554246c5ab3d403edf265d4a893",
+    "ensembl_cftr_stable_cds.raw.json": "dc2fe81c4f520203ceb7e6026e5f4889fe44b5782c39e80e2c29cc6a20e26723",
+    "ensembl_cftr_stable_transcript.raw.json": "48ff9a3f5a11a97b0cf28bae7534e0c07c632b8120e8fdc5b6fce8ed3e5c99c9",
+    "alphafold_cftr_metadata.raw.json": "defdf4427b9d9420ad9e9033106ddf4cc541cb930abb693e412cd213e4de4207",
+    "REFERENCE.json": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "artifacts": {
+    "events": "inference.events.csv",
+    "score": "score.svg"
+  },
+  "carrier": "score",
+  "confidence": {
+    "meaning": "exact container integrity; no transcription confidence computed",
+    "not_applicable": true
+  },
+  "exact": true,
+  "kind": "dna",
+  "kind_source": "embedded",
+  "normalized_sequence_sha256": "d4624117da3616ba3f954a65b2721b59b0ad24597312a0f49c5d92bb2d03371c",
+  "output": {
+    "format": "canonical-fasta-70-column",
+    "path": "sequence.fasta",
+    "sha256": "435a8b6a0649dc5c607224595407a5ca2f07cebf3ebf017dacb0eedd11781ad7"
+  },
+  "record_name": "programmed_local_DNA | reference_context_only",
+  "sequence_length": 42,
+  "source": {
+    "format": "MusicXML",
+    "has_time_shift": false,
+    "notation_semantics": "ordered pitch/event grid; not an audio-timing or stereo transcript",
+    "note_onsets": 42,
+    "parts": 1,
+    "path": "programmed_local_DNA.musicxml",
+    "polyphonic_onsets": 0,
+    "polyphony_policy": "reject",
+    "sha256": "785c01f4274e2aeb8fca3a7124ae0bb301abc4ec80dacd9e773edf6658c99acc",
+    "voices": []
+  },
+  "status": "exact-score-embedded",
+  "transcription_scope": "deterministic transcription under the reported mapping and parameters"
+}

@@ -55,3 +55,13 @@ source-bound reading interface for this study. Browser checks establish selected
 interface behavior and rendering properties; they cannot demonstrate reader
 comprehension or educational efficacy. Those questions require an actual reader
 evaluation, while molecular accuracy and function require their own evidence.
+
+## Supplementary reference and recording context
+
+The dated extension in `extensions/scientific_context/` checks the declared local
+peptide against versioned public coding/protein references and preserves the
+different original read-length regimes. Equal local peptide occurs in unequal
+complete reference sequences; those references are not assigned to the samples.
+The independent raw QC recreates the original quality mask without trimming.
+Accessible carrier round trips concern normalized input symbols, not function.
+These post hoc checks preserve the historical observers and all original results.

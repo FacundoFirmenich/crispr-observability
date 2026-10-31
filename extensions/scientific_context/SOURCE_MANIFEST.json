@@ -1,0 +1,369 @@
+{
+  "scope": "Frozen public reference snapshots, original added code, derived context tables and accessible reference carriers; complete manuscript/supplement excluded. No account identity, credentials or private authoring inputs.",
+  "files": {
+    "CAPABILITY_ADJUDICATION.json": {
+      "bytes": 51856,
+      "sha256": "78964cc2ceb0a58a5ec9649fbd4ae1af5e030c57ca17e79210bb912ce1667c48"
+    },
+    "LOOKUP_OUTCOMES.json": {
+      "bytes": 13051,
+      "sha256": "7cdc57948b3816adab763bb569c0070a60ce7180c91d515ed5b0d817fa38989a"
+    },
+    "README.md": {
+      "bytes": 4170,
+      "sha256": "2704b2038e3c663c9da04b060406acd3e7cd51f03965d9a3ed327a7d4993c6a8"
+    },
+    "SCIENTIFIC_PLUGIN_SCOPE.json": {
+      "bytes": 8666,
+      "sha256": "6acdacf7ede7e8fe6ede83d7dafbb3ab3d77317bec5bcd288b22241b11602297"
+    },
+    "SEQ2MUSIC_LICENSE": {
+      "bytes": 1068,
+      "sha256": "52fa71a7595486923afc191231ce487fe6755dd86d5a35a59c092dae15fead89"
+    },
+    "accessible/canonical_local_DNA/audio-decode/decode.report.json": {
+      "bytes": 1122,
+      "sha256": "c8f095d0562df6c8a8e04d7d69ffeac8f4eba2aed2f8b7be0cd923193092346a"
+    },
+    "accessible/canonical_local_DNA/audio-decode/inference.events.csv": {
+      "bytes": 5283,
+      "sha256": "212a0e31abea5fe477013a22820115778832b35779f876144b8c2779ca9b7528"
+    },
+    "accessible/canonical_local_DNA/audio-decode/score.svg": {
+      "bytes": 18972,
+      "sha256": "42d26882f604f8f340ed642cb2a50c575f5c7b6111860e0b486bbbae162f9d23"
+    },
+    "accessible/canonical_local_DNA/audio-decode/sequence.fasta": {
+      "bytes": 89,
+      "sha256": "e60260736f52d6586dfa2030a69cbbde5ce4b10d119406a3a90ec48a1dc72f21"
+    },
+    "accessible/canonical_local_DNA/canonical_local_DNA-encode-e61f7b97631b/canonical_local_DNA.events.csv": {
+      "bytes": 5377,
+      "sha256": "9b890e84f8ceb734d245072a9ee4cebc40c184d35c0e8fbbe885bfae78641c0d"
+    },
+    "accessible/canonical_local_DNA/canonical_local_DNA-encode-e61f7b97631b/canonical_local_DNA.html": {
+      "bytes": 22383,
+      "sha256": "f38c0536b1779d0eac7182f5dffb1d79188ec1a7d3bc053db70cd8a2b87e95e6"
+    },
+    "accessible/canonical_local_DNA/canonical_local_DNA-encode-e61f7b97631b/canonical_local_DNA.mid": {
+      "bytes": 936,
+      "sha256": "8d2a745e7492a72f23dce56fef75845053183d80e9f222d75cfe825da3429ccb"
+    },
+    "accessible/canonical_local_DNA/canonical_local_DNA-encode-e61f7b97631b/canonical_local_DNA.musicxml": {
+      "bytes": 12942,
+      "sha256": "c89eeb60bd320e56644b531574e4a3702abffed99f9b52294c6ea808d0303676"
+    },
+    "accessible/canonical_local_DNA/canonical_local_DNA-encode-e61f7b97631b/canonical_local_DNA.run.json": {
+      "bytes": 3230,
+      "sha256": "6a2153af2b093ea370dfa3347fa981ec9503d05863c8a7de732f7b4972c9a56c"
+    },
+    "accessible/canonical_local_DNA/canonical_local_DNA-encode-e61f7b97631b/canonical_local_DNA.score.svg": {
+      "bytes": 19060,
+      "sha256": "35ec08e398db6d20f7801bb92aa12a7bef00ad3a1181f59eb407d168703f3144"
+    },
+    "accessible/canonical_local_DNA/canonical_local_DNA-encode-e61f7b97631b/canonical_local_DNA.summary.txt": {
+      "bytes": 309,
+      "sha256": "4bd2a61fb0e9e0db81dc87915e7487c6f8d56116f10d07bf680e254a501ecf7c"
+    },
+    "accessible/canonical_local_DNA/canonical_local_DNA-encode-e61f7b97631b/canonical_local_DNA.wav": {
+      "bytes": 284368,
+      "sha256": "59ea7abc8ed71fc935cf2310556bc0de9a014951ff21d120725d3e533bd13689"
+    },
+    "accessible/canonical_local_DNA/decode/decode.report.json": {
+      "bytes": 822,
+      "sha256": "eea040e0a3986a252e12b9c91eff19b1262e7395c08e41852dbef7a644d0ecf3"
+    },
+    "accessible/canonical_local_DNA/decode/sequence.fasta": {
+      "bytes": 89,
+      "sha256": "e60260736f52d6586dfa2030a69cbbde5ce4b10d119406a3a90ec48a1dc72f21"
+    },
+    "accessible/canonical_local_DNA/score-decode/decode.report.json": {
+      "bytes": 1216,
+      "sha256": "cf6a8df31e26a92fa28c7c48e46015af2fa8fac8810c7460cb30dded00d95cd2"
+    },
+    "accessible/canonical_local_DNA/score-decode/inference.events.csv": {
+      "bytes": 4907,
+      "sha256": "89d84a31b2e49ae8672ec6e14d6f86e9f6c8f6ee95e4f034e156ab5046acda99"
+    },
+    "accessible/canonical_local_DNA/score-decode/score.svg": {
+      "bytes": 18972,
+      "sha256": "c5cb83d231286e0e80e05175fa9801b88d4aee066f4ab6751d7ebe799e6cf793"
+    },
+    "accessible/canonical_local_DNA/score-decode/sequence.fasta": {
+      "bytes": 89,
+      "sha256": "e60260736f52d6586dfa2030a69cbbde5ce4b10d119406a3a90ec48a1dc72f21"
+    },
+    "accessible/declared_native_local_peptide/audio-decode/decode.report.json": {
+      "bytes": 1146,
+      "sha256": "b0295f9b64e9d68f6f731ac1726868d21da37fb1f1eaeb1f57616da75349f60d"
+    },
+    "accessible/declared_native_local_peptide/audio-decode/inference.events.csv": {
+      "bytes": 1935,
+      "sha256": "8198d304e73d8d869052572375263d2e3e9927d86c970bd9d68a8e654b2801b5"
+    },
+    "accessible/declared_native_local_peptide/audio-decode/score.svg": {
+      "bytes": 7082,
+      "sha256": "5a07aa3d9166e16e1947762159ef22b5e9b97b3dc833716004525020c7a3c79a"
+    },
+    "accessible/declared_native_local_peptide/audio-decode/sequence.fasta": {
+      "bytes": 71,
+      "sha256": "05841ce20bf4b3194fb8b32ce4bc4614c9a09cc909f27eba239371e5d0de982c"
+    },
+    "accessible/declared_native_local_peptide/declared_native_local_peptide-encode-d46c6206ab67/declared_native_local_peptide.events.csv": {
+      "bytes": 1966,
+      "sha256": "d9c23f569dfdc717af3b046a0165ee8385b128b3d090bda0e55485a358d6521d"
+    },
+    "accessible/declared_native_local_peptide/declared_native_local_peptide-encode-d46c6206ab67/declared_native_local_peptide.html": {
+      "bytes": 9608,
+      "sha256": "ca035b1e843164f7ed64e11474d2f40530106edb80409a21aa726c4e1602db84"
+    },
+    "accessible/declared_native_local_peptide/declared_native_local_peptide-encode-d46c6206ab67/declared_native_local_peptide.mid": {
+      "bytes": 726,
+      "sha256": "86544e04cbbdd829da3441073c43f54f295da5d65c8e6bec84b5c96af4727760"
+    },
+    "accessible/declared_native_local_peptide/declared_native_local_peptide-encode-d46c6206ab67/declared_native_local_peptide.musicxml": {
+      "bytes": 5458,
+      "sha256": "e1e1fe2d3022edcbd6d437dc5c77be7d4e73d6e71e3252caaf6195e8f2abbd55"
+    },
+    "accessible/declared_native_local_peptide/declared_native_local_peptide-encode-d46c6206ab67/declared_native_local_peptide.run.json": {
+      "bytes": 3338,
+      "sha256": "b14e86df5b3c841826b6e056e8e5da07108b0ada36165560bd533d2618cb2598"
+    },
+    "accessible/declared_native_local_peptide/declared_native_local_peptide-encode-d46c6206ab67/declared_native_local_peptide.score.svg": {
+      "bytes": 7182,
+      "sha256": "8b96a068b017b94b57f8a5e2a34d7b49c1ed02ba57fb16d3c0ad1811da589962"
+    },
+    "accessible/declared_native_local_peptide/declared_native_local_peptide-encode-d46c6206ab67/declared_native_local_peptide.summary.txt": {
+      "bytes": 313,
+      "sha256": "c6bb8a29d7d117ddfd4f05c0c4c41df022adf868255fdc3452e240043bb99ef9"
+    },
+    "accessible/declared_native_local_peptide/declared_native_local_peptide-encode-d46c6206ab67/declared_native_local_peptide.wav": {
+      "bytes": 99134,
+      "sha256": "478a3bc602667ce11b6b65201d357f1b0b0399dbe62c3ef44940f384c280a0b4"
+    },
+    "accessible/declared_native_local_peptide/decode/decode.report.json": {
+      "bytes": 846,
+      "sha256": "9ce6f1cbd5b544719477f2a1e41d163ad5e893331968ceb005fb3cbb18b688ea"
+    },
+    "accessible/declared_native_local_peptide/decode/sequence.fasta": {
+      "bytes": 71,
+      "sha256": "05841ce20bf4b3194fb8b32ce4bc4614c9a09cc909f27eba239371e5d0de982c"
+    },
+    "accessible/declared_native_local_peptide/score-decode/decode.report.json": {
+      "bytes": 1240,
+      "sha256": "ecf371afdb0303105efb3222e809fb50af1abf7bf287377f3b63dea4fd5ad4d7"
+    },
+    "accessible/declared_native_local_peptide/score-decode/inference.events.csv": {
+      "bytes": 1743,
+      "sha256": "282ad2f392a88084c7fedd38cb446b4a013bc24ff397a6bc28b12d724a8d95bc"
+    },
+    "accessible/declared_native_local_peptide/score-decode/score.svg": {
+      "bytes": 7082,
+      "sha256": "4ccdd641167e9d410734997a4c8205e469f7954bde11e3a46e16a9aa7c81f58f"
+    },
+    "accessible/declared_native_local_peptide/score-decode/sequence.fasta": {
+      "bytes": 71,
+      "sha256": "05841ce20bf4b3194fb8b32ce4bc4614c9a09cc909f27eba239371e5d0de982c"
+    },
+    "accessible/programmed_local_DNA/audio-decode/decode.report.json": {
+      "bytes": 1124,
+      "sha256": "04421905a4ad306a5bbf796f830052d685afb89672fc9f6afec729debe950bf7"
+    },
+    "accessible/programmed_local_DNA/audio-decode/inference.events.csv": {
+      "bytes": 5313,
+      "sha256": "405d976736dcfcfeee3d5f7a300f3572b3cd7a9ca52defdc54dff3451b5c7c18"
+    },
+    "accessible/programmed_local_DNA/audio-decode/score.svg": {
+      "bytes": 19030,
+      "sha256": "47cc1ae5c6f0029fa88af218e64940be0f49d2789b410ae149bbf6c956940e66"
+    },
+    "accessible/programmed_local_DNA/audio-decode/sequence.fasta": {
+      "bytes": 90,
+      "sha256": "435a8b6a0649dc5c607224595407a5ca2f07cebf3ebf017dacb0eedd11781ad7"
+    },
+    "accessible/programmed_local_DNA/decode/decode.report.json": {
+      "bytes": 824,
+      "sha256": "735706f753e27213a6ec2fcb1b95cc22f61a640087eff75168bddcc4e704b0c8"
+    },
+    "accessible/programmed_local_DNA/decode/sequence.fasta": {
+      "bytes": 90,
+      "sha256": "435a8b6a0649dc5c607224595407a5ca2f07cebf3ebf017dacb0eedd11781ad7"
+    },
+    "accessible/programmed_local_DNA/programmed_local_DNA-encode-a2d08e748047/programmed_local_DNA.events.csv": {
+      "bytes": 5407,
+      "sha256": "631b6977c40af71014079e8293b4a76a0fa7485fb1c6c85a8d9d7eb6748bf882"
+    },
+    "accessible/programmed_local_DNA/programmed_local_DNA-encode-a2d08e748047/programmed_local_DNA.html": {
+      "bytes": 22479,
+      "sha256": "3b8afc305e4ae32ebf223843b5b4061bed09ca65ad1fc4170568d59089e5381b"
+    },
+    "accessible/programmed_local_DNA/programmed_local_DNA-encode-a2d08e748047/programmed_local_DNA.mid": {
+      "bytes": 937,
+      "sha256": "77eef058432c36bac7cd7cbcbe750c68fa6a83f62f5d7278dcafa4a7ade2383b"
+    },
+    "accessible/programmed_local_DNA/programmed_local_DNA-encode-a2d08e748047/programmed_local_DNA.musicxml": {
+      "bytes": 12947,
+      "sha256": "785c01f4274e2aeb8fca3a7124ae0bb301abc4ec80dacd9e773edf6658c99acc"
+    },
+    "accessible/programmed_local_DNA/programmed_local_DNA-encode-a2d08e748047/programmed_local_DNA.run.json": {
+      "bytes": 3240,
+      "sha256": "153341b44544496b993b76aca74fbca8f93edea897c7e76d152898f439d51842"
+    },
+    "accessible/programmed_local_DNA/programmed_local_DNA-encode-a2d08e748047/programmed_local_DNA.score.svg": {
+      "bytes": 19120,
+      "sha256": "f761004f8fad55e68e07ade4e21b6342ddc4056037e4fc61b53736ff66857a15"
+    },
+    "accessible/programmed_local_DNA/programmed_local_DNA-encode-a2d08e748047/programmed_local_DNA.summary.txt": {
+      "bytes": 309,
+      "sha256": "4bd2a61fb0e9e0db81dc87915e7487c6f8d56116f10d07bf680e254a501ecf7c"
+    },
+    "accessible/programmed_local_DNA/programmed_local_DNA-encode-a2d08e748047/programmed_local_DNA.wav": {
+      "bytes": 284370,
+      "sha256": "8a6c8f4ae2779f68eacd671708658f2a19caba3da0ad748a35af0a51ca1ec921"
+    },
+    "accessible/programmed_local_DNA/score-decode/decode.report.json": {
+      "bytes": 1218,
+      "sha256": "eea087c97e3f18820eea42065d16633c6a5cff3aebfcf1c8b8a0051c7e83b86f"
+    },
+    "accessible/programmed_local_DNA/score-decode/inference.events.csv": {
+      "bytes": 4907,
+      "sha256": "8006ebc408f58a3134029b1e75a6c634a7bd8f029d5e1d3c503b2a324c5e972a"
+    },
+    "accessible/programmed_local_DNA/score-decode/score.svg": {
+      "bytes": 19030,
+      "sha256": "df9528f8cfbc40c655355c9f0e70da6d63d704b7f2b8874aff1742d832aba945"
+    },
+    "accessible/programmed_local_DNA/score-decode/sequence.fasta": {
+      "bytes": 90,
+      "sha256": "435a8b6a0649dc5c607224595407a5ca2f07cebf3ebf017dacb0eedd11781ad7"
+    },
+    "analyze_molecular_references.py": {
+      "bytes": 5489,
+      "sha256": "bb6e5e4cdf4d40cb30ddfe7ea1af899dc10f478b088168695e124e96bf910172"
+    },
+    "audit_raw_qc.py": {
+      "bytes": 4735,
+      "sha256": "2003d8e8e6c9be9c9199e8b04a4aaedf381cc368a03d0be5302955dd22db116c"
+    },
+    "check_extension.py": {
+      "bytes": 3076,
+      "sha256": "f7863315fabf554493fdd0a26f6f32fe1bc387d706ade488b7f66e412013a3d7"
+    },
+    "derived/molecular/CANONICAL_AND_PROGRAMMED_CODONS.csv": {
+      "bytes": 580,
+      "sha256": "b1f9927066b1f5d8f3aef766d978b74299f01d2003db6363c9e143a363d6ed8f"
+    },
+    "derived/molecular/LOCAL_PEPTIDE_REFERENCE_SCOPE.csv": {
+      "bytes": 466,
+      "sha256": "b93e80b93c7c9fc5431fccc0bfe1407214802b366edee531e00ea8091f7ea85c"
+    },
+    "derived/molecular/MOLECULAR_REFERENCE_AUDIT.json": {
+      "bytes": 3623,
+      "sha256": "cd6cd100dab6769d689f9e2e989a5531d2ca7c00817eb474226b7bb49ce82ef6"
+    },
+    "derived/molecular/canonical_local_DNA.fasta": {
+      "bytes": 89,
+      "sha256": "e60260736f52d6586dfa2030a69cbbde5ce4b10d119406a3a90ec48a1dc72f21"
+    },
+    "derived/molecular/declared_native_local_peptide.fasta": {
+      "bytes": 71,
+      "sha256": "05841ce20bf4b3194fb8b32ce4bc4614c9a09cc909f27eba239371e5d0de982c"
+    },
+    "derived/molecular/programmed_local_DNA.fasta": {
+      "bytes": 90,
+      "sha256": "435a8b6a0649dc5c607224595407a5ca2f07cebf3ebf017dacb0eedd11781ad7"
+    },
+    "derived/raw_qc/RAW_QC_BY_POSITION.csv": {
+      "bytes": 116350,
+      "sha256": "0edb8678fa8951c3fef59dbf5419ad9a2a014e6c1102b3c9125cd0f427b90b78"
+    },
+    "derived/raw_qc/RAW_QC_BY_STREAM.csv": {
+      "bytes": 1643,
+      "sha256": "aa45b2c0426de514d0eb3257c929fa8e6bf5bf1b8f4515b90eb630891856e461"
+    },
+    "derived/raw_qc/RAW_QC_SUMMARY.json": {
+      "bytes": 11112,
+      "sha256": "41d787e96df39517aec14ed332d26994927657ab9823b7dbef0ac6f94cc62683"
+    },
+    "frozen_sources/raw_replay/metadata/REFERENCE.json": {
+      "bytes": 799,
+      "sha256": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849"
+    },
+    "frozen_sources/raw_replay/metadata/REFERENCE_PROGRAMMED.json": {
+      "bytes": 954,
+      "sha256": "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad"
+    },
+    "generate_extension_figures.py": {
+      "bytes": 5657,
+      "sha256": "0c214b81a990cb1be84913849457a6b2533918e809fbd5e275bbe706418091b4"
+    },
+    "requirements-figures.txt": {
+      "bytes": 19,
+      "sha256": "12a0a7bc6e1b1254c2f593a250e6ccff4dbd3cf0b27d6819696a9db86f4e530d"
+    },
+    "sources/SAMPLE_METADATA.json": {
+      "bytes": 1276,
+      "sha256": "6481ba12c433f2c1fef50fd9cf1ade9335bf24bdc7785e38720b0b7fff560e38"
+    },
+    "sources/alphafold_cftr_metadata.raw.json": {
+      "bytes": 11738,
+      "sha256": "defdf4427b9d9420ad9e9033106ddf4cc541cb930abb693e412cd213e4de4207"
+    },
+    "sources/clinvar_cftr_coding_search.raw.json": {
+      "bytes": 145,
+      "sha256": "c1c313c48a2214b20c3ae11b13c7c6753ac91ac650f6a8e0be23a78f1686419f"
+    },
+    "sources/clinvar_f508del_search.raw.json": {
+      "bytes": 14,
+      "sha256": "4036e0ad866f2db061b81e8f91ce8f953e85ea7e87580a5d787219941b7a093a"
+    },
+    "sources/ensembl_cftr_gene.raw.json": {
+      "bytes": 449,
+      "sha256": "7cf43e4f434ac286197d7928b6f0a39b236fc403a1db8ee9ba5afe9b36b4c099"
+    },
+    "sources/ensembl_cftr_stable_cds.raw.json": {
+      "bytes": 4544,
+      "sha256": "dc2fe81c4f520203ceb7e6026e5f4889fe44b5782c39e80e2c29cc6a20e26723"
+    },
+    "sources/ensembl_cftr_stable_transcript.raw.json": {
+      "bytes": 432,
+      "sha256": "48ff9a3f5a11a97b0cf28bae7534e0c07c632b8120e8fdc5b6fce8ed3e5c99c9"
+    },
+    "sources/pmc_recent_tool_status.raw.json": {
+      "bytes": 1240,
+      "sha256": "2be8dbbc109d37a3d4ae6e094db703ef40e403e95c9f25a41f77b45c4c6ff89f"
+    },
+    "sources/pmc_source_study_status.raw.json": {
+      "bytes": 2686,
+      "sha256": "a01cff9e75768e19e0b42f424977d67cde416c631ac372f485752a9c3d686d3e"
+    },
+    "sources/pubmed_amplican.raw.json": {
+      "bytes": 187,
+      "sha256": "4db7fec06d35a7dd3be9d390513588afaca0e1ad3fb82805f6952cc206c3ed49"
+    },
+    "sources/pubmed_readout_tools.raw.json": {
+      "bytes": 401,
+      "sha256": "afdce9e54ac4de1f2dce2c79f697c58d062f49c1e7eb119a6eff1374881d6f4c"
+    },
+    "sources/pubmed_recent_tool_abstract.raw.xml": {
+      "bytes": 26295,
+      "sha256": "65f09e078e1b3ce3c4f2b5b176cb47f1bae72be64d42feca13da2a30dd71bf34"
+    },
+    "sources/pubmed_tool_records.raw.json": {
+      "bytes": 4279,
+      "sha256": "03954c72e4ed30920c2af3e61b6b14a0bde263a9dd0f76383482fca2664c0250"
+    },
+    "sources/rcsb_cftr_reference_metadata.raw.json": {
+      "bytes": 8950,
+      "sha256": "f718412b3ca990f4a2ba386d9d6a2c01f0adc54f83e8a2f99c883eb64346d362"
+    },
+    "sources/uniprot_cftr_full.raw.json": {
+      "bytes": 357468,
+      "sha256": "c8feabfabe8690ef4a06af7de5b5f8dc3c8da554246c5ab3d403edf265d4a893"
+    },
+    "sources/uniprot_cftr_search.raw.json": {
+      "bytes": 1052,
+      "sha256": "f6c8588576af8888cdf96a25e83f800dfa8d8bac5d140038b8a698b46f758c21"
+    }
+  }
+}

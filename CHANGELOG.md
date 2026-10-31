@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.4.1 / MP04 — 31 October 2026
+
+- Add source-bound CFTR coding/reference context and a finite reference-set
+  identity counterexample; no isoform assignment to study samples.
+- Independently audit all 177,006 original raw records, reproducing the original
+  175,010 quality passes and 1,996 failures without trimming or new alignments.
+- Add two supplementary figure sets, exact derived tables, accessible reference
+  carriers and their actual local decode reports, with upstream attribution.
+- Add offline CI for the supplementary context; preserve all original inputs,
+  outputs, four principal figures and three prior interactive companions.
+- Preserve separate scopes for installed capability, executed lookup, technical
+  verification and biological validation.
+
+
 ## 0.4.0 / MP04 — 29 October 2026
 
 - Add a separate PaperGraph reading and scientific-argument companion with

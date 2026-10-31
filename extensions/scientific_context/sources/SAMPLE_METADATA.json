@@ -1,0 +1,60 @@
+{
+  "source": "Existing public interactive/evidence_model.json",
+  "source_sha256": "f5a9179899bace3f773d45363977152433ca29542fb0b56ba98b63006a4305b4",
+  "records": [
+    {
+      "run": "SRR29623274",
+      "preparation": "CFB-26-16",
+      "condition": "untreated",
+      "N": 13762
+    },
+    {
+      "run": "SRR29623266",
+      "preparation": "CFB-26-02",
+      "condition": "untreated",
+      "N": 13617
+    },
+    {
+      "run": "SRR29623268",
+      "preparation": "CFB-06-04",
+      "condition": "untreated",
+      "N": 29956
+    },
+    {
+      "run": "SRR29623273",
+      "preparation": "CFB-26-16",
+      "condition": "mock",
+      "N": 17177
+    },
+    {
+      "run": "SRR29623265",
+      "preparation": "CFB-26-02",
+      "condition": "mock",
+      "N": 21041
+    },
+    {
+      "run": "SRR29623267",
+      "preparation": "CFB-06-04",
+      "condition": "mock",
+      "N": 27024
+    },
+    {
+      "run": "SRR29623272",
+      "preparation": "CFB-26-16",
+      "condition": "PE treated",
+      "N": 20573
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": "CFB-26-02",
+      "condition": "PE treated",
+      "N": 19184
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": "CFB-06-04",
+      "condition": "PE treated",
+      "N": 14672
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+duration,event,exact_pitch,feature,label,mapped_midi,mapping_integrity,pitch_distance_semitones,position,selected_source_midi,source_midi,source_notes,start,symbol,velocity,notes
+0.16,1,True,score-inference,score-import,57,validated against embedded score contract,0,1,57,57,57,0.0,G,80,57
+0.16,2,True,score-inference,score-import,76,validated against embedded score contract,0,2,76,76,76,0.2,T,80,76
+0.16,3,True,score-inference,score-import,60,validated against embedded score contract,0,3,60,60,60,0.4,I,80,60
+0.16,4,True,score-inference,score-import,62,validated against embedded score contract,0,4,62,62,62,0.6,K,80,62
+0.16,5,True,score-inference,score-import,53,validated against embedded score contract,0,5,53,53,53,0.8,E,80,53
+0.16,6,True,score-inference,score-import,67,validated against embedded score contract,0,6,67,67,67,1.0,N,80,67
+0.16,7,True,score-inference,score-import,60,validated against embedded score contract,0,7,60,60,60,1.2,I,80,60
+0.16,8,True,score-inference,score-import,60,validated against embedded score contract,0,8,60,60,60,1.4,I,80,60
+0.16,9,True,score-inference,score-import,55,validated against embedded score contract,0,9,55,55,55,1.6,F,80,55
+0.16,10,True,score-inference,score-import,57,validated against embedded score contract,0,10,57,57,57,1.8,G,80,57
+0.16,11,True,score-inference,score-import,77,validated against embedded score contract,0,11,77,77,77,2.0,V,80,77
+0.16,12,True,score-inference,score-import,74,validated against embedded score contract,0,12,74,74,74,2.2,S,80,74
+0.16,13,True,score-inference,score-import,81,validated against embedded score contract,0,13,81,81,81,2.4,Y,80,81
+0.16,14,True,score-inference,score-import,52,validated against embedded score contract,0,14,52,52,52,2.6,D,80,52

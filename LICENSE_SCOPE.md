@@ -12,3 +12,8 @@ with scientific summaries and data that retain separate source terms. The
 KwanTube-derived dark supergraph remains a separate GPL-3.0-only component;
 its full license and modification notice are in `interactive/supergraph/`.
 Neither grant licenses private article or supplement text.
+
+Seq2Music-generated accessible interfaces retain the upstream MIT notice of
+Jacob Vogan in `extensions/scientific_context/SEQ2MUSIC_LICENSE`. Public reference
+sequences, derived scientific observations and contextual database snapshots
+retain provider/source terms; these are outside the author's original-code grant.

@@ -1,0 +1,27 @@
+name: Supplementary scientific context checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reference-and-raw-audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Checkout public companion only
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.14.10'
+      - name: Verify public inventory and withheld-text boundary
+        run: python -B code/check_public_distribution.py
+      - name: Rebuild reference and raw-QC results from frozen inputs
+        run: python -B extensions/scientific_context/check_extension.py

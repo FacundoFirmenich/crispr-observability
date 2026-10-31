@@ -7,6 +7,7 @@
     ".dockerignore",
     ".github/workflows/derived-checks.yml",
     ".github/workflows/explorer-checks.yml",
+    ".github/workflows/scientific-context-checks.yml",
     ".gitignore",
     "Dockerfile",
     "code/check_explorer_browser.cjs",
@@ -25,6 +26,10 @@
     "engine_replay/original/staged_run.py",
     "engine_replay/original/summarize_grid.py",
     "engine_replay/prepare.py",
+    "extensions/scientific_context/analyze_molecular_references.py",
+    "extensions/scientific_context/audit_raw_qc.py",
+    "extensions/scientific_context/check_extension.py",
+    "extensions/scientific_context/generate_extension_figures.py",
     "figures/code/generate_figures.py",
     "interactive/code/build_explorer.py",
     "interactive/code/build_model.py",
@@ -68,7 +73,11 @@
     "interactive/papergraph/PaperGraph_CRISPR.html (mixed generated artifact: embedded scientific content retains source terms)",
     "interactive/papergraph/*.json",
     "interactive/papergraph/*.md",
-    "figures/papergraph/*"
+    "figures/papergraph/*",
+    "extensions/scientific_context/sources/**",
+    "extensions/scientific_context/derived/**",
+    "extensions/scientific_context/accessible/**",
+    "figures/scientific_context/**"
   ],
   "no_third_party_relicensing": true,
   "scientific_manuscript_license": null,
@@ -90,5 +99,13 @@
   "gpl_derived_component": "interactive/supergraph/",
   "gpl_generated_artifact": "interactive/supergraph/crispr_supergraph.html (GPL-3.0-only interface code; embedded scientific data retain source terms)",
   "papergraph_generated_artifact": "interactive/papergraph/PaperGraph_CRISPR.html (MIT interface code only; embedded scientific summaries, data and source identities retain separate terms)",
-  "papergraph_source_independence": "New separate article-reading/argument interface; no KwanTube source copied."
+  "papergraph_source_independence": "New separate article-reading/argument interface; no KwanTube source copied.",
+  "third_party_generated_component": {
+    "name": "Seq2Music",
+    "author": "Jacob Vogan",
+    "version": "0.3.2",
+    "license": "MIT",
+    "notice": "extensions/scientific_context/SEQ2MUSIC_LICENSE",
+    "scope": "Retain upstream MIT notice for generated interface code; scientific sequences/data are not newly relicensed."
+  }
 }

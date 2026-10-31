@@ -52,3 +52,10 @@ Aquí la aportación es la integración concreta de lectura, evidencia y límite
 en este proyecto. La utilidad pedagógica es una hipótesis por evaluar con
 lectores; las comprobaciones del programa no la demuestran. Ninguna de las tres
 herramientas establece precisión molecular ni validación biológica independiente.
+
+La revisión 0.4.1 añade verificaciones de referencia molecular y de las nueve
+FASTQ originales, con dos figuras suplementarias y portadores accesibles de
+secuencias públicas de referencia. Todo permanece subordinado al paper CRISPR
+P1. Instrucciones y límites: `extensions/scientific_context/README.md`. Los
+textos completos del artículo y suplemento siguen privados; los resultados y
+herramientas anteriores conservan sus bytes.

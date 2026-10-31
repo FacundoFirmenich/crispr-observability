@@ -1,0 +1,1112 @@
+{
+  "entries": 158,
+  "unique_skill_names": 111,
+  "records": [
+    {
+      "plugin": "app-6a88631af75081918917d89fb00269ad",
+      "version": "1.0.1",
+      "skill": "computational-chemistry-and-biology",
+      "lane": "simulation_platform",
+      "decision": "Rowan authenticated account and advertised workflow access checked; zero simulation jobs submitted because none is required to verify P1 readout claims."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "boltz2-nim",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "complexa-binder-design",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "alphafold-database-fetch-and-analyze",
+      "lane": "molecular_reference_context",
+      "decision": "Source-specific public reference audit executed via selected database skills; duplicate wrappers do not constitute independent validation."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "uniprot-database",
+      "lane": "molecular_reference_context",
+      "decision": "Source-specific public reference audit executed via selected database skills; duplicate wrappers do not constitute independent validation."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "complexa-design",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "complexa-evaluate-pdbs",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "complexa-setup",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "complexa-sweep",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "complexa-target",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "cuequivariance",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "diffdock-nim",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "drug-discovery-pipeline",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "evo2-nim",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "genmol-nim",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "genomics-workflow-acceleration",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "kermt-add-cmim-pretrain",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "kermt-continue-pretrain",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "kermt-embed",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "kermt-finetune",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "kermt-infer",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "kermt-monitor",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "kermt-pretrain-scratch",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "kermt-setup",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "molmim-nim",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "msa-search-nim",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "msa-structure-prediction-pipeline",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "nvmolkit-usage",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "openfold2-nim",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "openfold3-nim",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "parabricks",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "protein-binder-design",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "proteinmpnn-nim",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "bionemo-agent-toolkit",
+      "version": "0.1.0",
+      "skill": "rfdiffusion-nim",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "boltz-api-cli",
+      "version": "0.1.1",
+      "skill": "boltz-check-status",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "boltz-api-cli",
+      "version": "0.1.1",
+      "skill": "boltz-cli-setup",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "boltz-api-cli",
+      "version": "0.1.1",
+      "skill": "boltz-protein-design",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "boltz-api-cli",
+      "version": "0.1.1",
+      "skill": "boltz-protein-screen",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "boltz-api-cli",
+      "version": "0.1.1",
+      "skill": "boltz-small-molecule-adme",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "boltz-api-cli",
+      "version": "0.1.1",
+      "skill": "boltz-small-molecule-design",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "boltz-api-cli",
+      "version": "0.1.1",
+      "skill": "boltz-small-molecule-screen",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "boltz-api-cli",
+      "version": "0.1.1",
+      "skill": "boltz-structure-and-binding",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "alphafold-skill",
+      "lane": "molecular_reference_context",
+      "decision": "Source-specific public reference audit executed via selected database skills; duplicate wrappers do not constitute independent validation."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "bgee-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "bindingdb-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "biobankjapan-phewas-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "biorxiv-skill",
+      "lane": "literature_and_source_hygiene",
+      "decision": "Targeted PubMed and PMC checks executed where listed in the source ledger; no exhaustive-review claim."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "biostudies-arrayexpress-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "cbioportal-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "cellxgene-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "chebi-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "chembl-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "civic-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "clinicaltrials-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "clinvar-variation-skill",
+      "lane": "molecular_reference_context",
+      "decision": "Source-specific public reference audit executed via selected database skills; duplicate wrappers do not constitute independent validation."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "efo-ontology-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "encode-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "ensembl-skill",
+      "lane": "molecular_reference_context",
+      "decision": "Source-specific public reference audit executed via selected database skills; duplicate wrappers do not constitute independent validation."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "epigraphdb-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "eqtl-catalogue-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "eva-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "finngen-phewas-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "genebass-gene-burden-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "gnomad-graphql-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "gtex-eqtl-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "gwas-catalog-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "hmdb-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "human-protein-atlas-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "ipd-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "locus-to-gene-mapper-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "metabolights-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "mgnify-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "ncbi-blast-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "ncbi-clinicaltables-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "ncbi-datasets-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "ncbi-entrez-skill",
+      "lane": "literature_and_source_hygiene",
+      "decision": "Targeted PubMed and PMC checks executed where listed in the source ledger; no exhaustive-review claim."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "ncbi-pmc-skill",
+      "lane": "literature_and_source_hygiene",
+      "decision": "Targeted PubMed and PMC checks executed where listed in the source ledger; no exhaustive-review claim."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "opentargets-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "pharmgkb-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "pride-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "proteomexchange-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "pubchem-pug-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "quickgo-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "rcsb-pdb-skill",
+      "lane": "molecular_reference_context",
+      "decision": "Source-specific public reference audit executed via selected database skills; duplicate wrappers do not constitute independent validation."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "reactome-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "research-router-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "rhea-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "rnacentral-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "string-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "tpmi-phewas-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "ukb-topmed-phewas-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-science-research",
+      "version": "1.0.3",
+      "skill": "uniprot-skill",
+      "lane": "molecular_reference_context",
+      "decision": "Source-specific public reference audit executed via selected database skills; duplicate wrappers do not constitute independent validation."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "alphafold-skill",
+      "lane": "molecular_reference_context",
+      "decision": "Source-specific public reference audit executed via selected database skills; duplicate wrappers do not constitute independent validation."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "bgee-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "bindingdb-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "biobankjapan-phewas-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "biostudies-arrayexpress-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "cbioportal-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "cellxgene-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "chebi-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "chembl-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "civic-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "clinicaltrials-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "clinvar-variation-skill",
+      "lane": "molecular_reference_context",
+      "decision": "Source-specific public reference audit executed via selected database skills; duplicate wrappers do not constitute independent validation."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "efo-ontology-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "encode-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "ensembl-skill",
+      "lane": "molecular_reference_context",
+      "decision": "Source-specific public reference audit executed via selected database skills; duplicate wrappers do not constitute independent validation."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "epigraphdb-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "eqtl-catalogue-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "eva-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "finngen-phewas-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "genebass-gene-burden-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "gnomad-graphql-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "gtex-eqtl-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "gwas-catalog-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "human-protein-atlas-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "ipd-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "metabolights-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "mgnify-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "ncbi-clinicaltables-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "ncbi-datasets-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "ncbi-entrez-skill",
+      "lane": "literature_and_source_hygiene",
+      "decision": "Targeted PubMed and PMC checks executed where listed in the source ledger; no exhaustive-review claim."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "opentargets-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "pharmgkb-skill",
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "Capability/interface reviewed. No new design, model training, binding prediction or clinical inference inserted into P1 without a defined evidentiary role."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "pride-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "proteomexchange-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "pubchem-pug-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "quickgo-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "rcsb-pdb-skill",
+      "lane": "molecular_reference_context",
+      "decision": "Source-specific public reference audit executed via selected database skills; duplicate wrappers do not constitute independent validation."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "reactome-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "rhea-skill",
+      "lane": "chemistry_and_biochemistry",
+      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "rnacentral-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "string-skill",
+      "lane": "expression_function_and_networks",
+      "decision": "Mapped to the product-expression-function frontier; no claim of sample-matched RNA/protein/function evidence without authenticated links."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "tpmi-phewas-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "ukb-topmed-phewas-skill",
+      "lane": "population_and_variant_association",
+      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+    },
+    {
+      "plugin": "life-sciences-databases",
+      "version": "0.1.5",
+      "skill": "uniprot-skill",
+      "lane": "molecular_reference_context",
+      "decision": "Source-specific public reference audit executed via selected database skills; duplicate wrappers do not constitute independent validation."
+    },
+    {
+      "plugin": "life-sciences-literature",
+      "version": "0.1.5",
+      "skill": "biorxiv-skill",
+      "lane": "literature_and_source_hygiene",
+      "decision": "Targeted PubMed and PMC checks executed where listed in the source ledger; no exhaustive-review claim."
+    },
+    {
+      "plugin": "life-sciences-literature",
+      "version": "0.1.5",
+      "skill": "ncbi-entrez-skill",
+      "lane": "literature_and_source_hygiene",
+      "decision": "Targeted PubMed and PMC checks executed where listed in the source ledger; no exhaustive-review claim."
+    },
+    {
+      "plugin": "life-sciences-literature",
+      "version": "0.1.5",
+      "skill": "ncbi-pmc-skill",
+      "lane": "literature_and_source_hygiene",
+      "decision": "Targeted PubMed and PMC checks executed where listed in the source ledger; no exhaustive-review claim."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-amplicon-microbiome",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-analysis-router",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-atacseq-peaks-qc",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-bcl-to-fastq",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-bulk-rnaseq",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-bulk-rnaseq-counts-qc",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-bulk-rnaseq-differential-expression",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-chip-cutrun-peaks-qc",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-dna-germline-variants",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-dna-somatic-variants",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-dna-umi-panel-variants",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-dna-variant-calling",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-epigenomics-peaks",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-fastq-qc",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-runtime-env",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-scrna-seq",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "ngs-shotgun-metagenomics",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "ngs-analysis",
+      "version": "1.0.3",
+      "skill": "scrna-seq-qc",
+      "lane": "sequencing_and_recording_context",
+      "decision": "Actual preflight and assay-specific interpretation used; original standard-library raw audit executed without claiming FastQC/MultiQC or GPU pipeline execution."
+    },
+    {
+      "plugin": "seq2music",
+      "version": "0.3.2",
+      "skill": "sonify-biomolecules",
+      "lane": "accessible_representation",
+      "decision": "Three real reference inputs encoded; actual MIDI/WAV/MusicXML round trips checked. No biological acoustics or reader-benefit claim."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "algorithm": "seq2music-mapping-v2",
+  "artifacts": [
+    {
+      "bytes": 726,
+      "path": "declared_native_local_peptide.mid",
+      "sha256": "86544e04cbbdd829da3441073c43f54f295da5d65c8e6bec84b5c96af4727760"
+    },
+    {
+      "bytes": 99134,
+      "path": "declared_native_local_peptide.wav",
+      "sha256": "478a3bc602667ce11b6b65201d357f1b0b0399dbe62c3ef44940f384c280a0b4"
+    },
+    {
+      "bytes": 5458,
+      "path": "declared_native_local_peptide.musicxml",
+      "sha256": "e1e1fe2d3022edcbd6d437dc5c77be7d4e73d6e71e3252caaf6195e8f2abbd55"
+    },
+    {
+      "bytes": 7182,
+      "path": "declared_native_local_peptide.score.svg",
+      "sha256": "8b96a068b017b94b57f8a5e2a34d7b49c1ed02ba57fb16d3c0ad1811da589962"
+    },
+    {
+      "bytes": 1966,
+      "path": "declared_native_local_peptide.events.csv",
+      "sha256": "d9c23f569dfdc717af3b046a0165ee8385b128b3d090bda0e55485a358d6521d"
+    },
+    {
+      "bytes": 9608,
+      "path": "declared_native_local_peptide.html",
+      "sha256": "ca035b1e843164f7ed64e11474d2f40530106edb80409a21aa726c4e1602db84"
+    },
+    {
+      "bytes": 313,
+      "path": "declared_native_local_peptide.summary.txt",
+      "sha256": "c6bb8a29d7d117ddfd4f05c0c4c41df022adf868255fdc3452e240043bb99ef9"
+    }
+  ],
+  "details": {
+    "kind": "protein",
+    "length": 14,
+    "roundtrip": {
+      "algorithm": "seq2music-mapping-v2",
+      "class": "exact-normalized-sequence",
+      "event_count": 14,
+      "gate_ticks": 59,
+      "kind": "protein",
+      "kind_source": "explicit",
+      "midi_channel": 0,
+      "mode": "encode",
+      "normalized_sequence_sha256": "8832003c2dc1106b3e4afb9946dad138b0bdbbe3701bd74e158d0b939b16f5c1",
+      "ordering": "ascending-note-on-tick",
+      "ppq": 480,
+      "profile": "seq2music-roundtrip-v1",
+      "record_name": "declared_native_local_peptide | reference_context_only",
+      "scope": "normalized symbols only; not byte-identical FASTA formatting",
+      "sequence_length": 14,
+      "step_beats": 0.15,
+      "step_ticks": 72
+    }
+  },
+  "inputs": [
+    {
+      "path": "declared_native_local_peptide.fasta",
+      "sha256": "05841ce20bf4b3194fb8b32ce4bc4614c9a09cc909f27eba239371e5d0de982c"
+    }
+  ],
+  "mode": "encode",
+  "parameters": {
+    "bpm": 120,
+    "max_events": 5000,
+    "max_wav_mib": 512,
+    "step_beats": 0.15,
+    "step_seconds": 0.075
+  },
+  "plugin": {
+    "name": "seq2music",
+    "version": "0.3.2"
+  },
+  "renderer": {
+    "sample_rate_hz": 22050,
+    "synth": "seq2music-additive-v2"
+  },
+  "roundtrip": {
+    "algorithm": "seq2music-mapping-v2",
+    "class": "exact-normalized-sequence",
+    "event_count": 14,
+    "gate_ticks": 59,
+    "kind": "protein",
+    "kind_source": "explicit",
+    "midi_channel": 0,
+    "mode": "encode",
+    "normalized_sequence_sha256": "8832003c2dc1106b3e4afb9946dad138b0bdbbe3701bd74e158d0b939b16f5c1",
+    "ordering": "ascending-note-on-tick",
+    "ppq": 480,
+    "profile": "seq2music-roundtrip-v1",
+    "record_name": "declared_native_local_peptide | reference_context_only",
+    "scope": "normalized symbols only; not byte-identical FASTA formatting",
+    "sequence_length": 14,
+    "step_beats": 0.15,
+    "step_ticks": 72
+  },
+  "run_id": "d46c6206ab67",
+  "schema_version": "1.0",
+  "verification_scope": "listed generated artifacts compared with the supplied manifest"
+}

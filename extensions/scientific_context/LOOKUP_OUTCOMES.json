@@ -1,0 +1,355 @@
+[
+  {
+    "name": "alphafold_cftr_metadata",
+    "skill_script": "life-sciences-databases/0.1.5/skills/alphafold-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "AlphaFold Protein Structure Database",
+        "url": "https://alphafold.ebi.ac.uk/api/prediction/P13569",
+        "retrieved_at": "2026-10-31T16:10:02.961319+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://alphafold.ebi.ac.uk/api/prediction/P13569"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "clinvar_cftr_coding_search",
+    "skill_script": "life-sciences-databases/0.1.5/skills/clinvar-variation-skill/scripts/clinvar_variation.py",
+    "script_sha256": "7da37ad62d193099049d32ff83dec430b8ba7144f1cf200557db4fd050e6d9ce",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "ClinVar and NCBI Variation",
+        "url": "https://clinicaltables.nlm.nih.gov/api/variants/v4/search",
+        "retrieved_at": "2026-10-31T16:10:10.277696+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://clinicaltables.nlm.nih.gov/api/variants/v4/search",
+        "canonical_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/7105/",
+        "canonical_urls": [
+          "https://www.ncbi.nlm.nih.gov/clinvar/variation/7105/",
+          "https://www.ncbi.nlm.nih.gov/clinvar/variation/634837/"
+        ]
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "clinvar_f508del_search",
+    "skill_script": "life-sciences-databases/0.1.5/skills/clinvar-variation-skill/scripts/clinvar_variation.py",
+    "script_sha256": "7da37ad62d193099049d32ff83dec430b8ba7144f1cf200557db4fd050e6d9ce",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [],
+    "checked_sources": [
+      {
+        "name": "ClinVar and NCBI Variation",
+        "url": "https://clinicaltables.nlm.nih.gov/api/variants/v4/search",
+        "retrieved_at": "2026-10-31T16:08:49.239411+00:00",
+        "supports_claim": false,
+        "kind": "checked",
+        "request_url": "https://clinicaltables.nlm.nih.gov/api/variants/v4/search",
+        "reason": "empty"
+      }
+    ]
+  },
+  {
+    "name": "clinvar_f508del_vcv",
+    "skill_script": "life-sciences-databases/0.1.5/skills/clinvar-variation-skill/scripts/clinvar_variation.py",
+    "script_sha256": "7da37ad62d193099049d32ff83dec430b8ba7144f1cf200557db4fd050e6d9ce",
+    "returncode": 1,
+    "ok": false,
+    "error": {
+      "code": "network_error",
+      "message": "ClinVar request failed (HTTPError)."
+    },
+    "sources": [],
+    "checked_sources": []
+  },
+  {
+    "name": "ensembl_cftr_canonical",
+    "skill_script": "life-sciences-databases/0.1.5/skills/ensembl-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 1,
+    "ok": false,
+    "error": {
+      "code": "network_error",
+      "message": "Request failed for ensembl-skill: HTTPError"
+    },
+    "sources": [],
+    "checked_sources": []
+  },
+  {
+    "name": "ensembl_cftr_cds",
+    "skill_script": "life-sciences-databases/0.1.5/skills/ensembl-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 1,
+    "ok": false,
+    "error": {
+      "code": "network_error",
+      "message": "Request failed for ensembl-skill: HTTPError"
+    },
+    "sources": [],
+    "checked_sources": []
+  },
+  {
+    "name": "ensembl_cftr_gene",
+    "skill_script": "life-sciences-databases/0.1.5/skills/ensembl-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "Ensembl",
+        "url": "https://www.ensembl.org/id/ENSG00000001626",
+        "retrieved_at": "2026-10-31T16:08:50.596812+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/CFTR",
+        "canonical_url": "https://www.ensembl.org/id/ENSG00000001626"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "ensembl_cftr_stable_cds",
+    "skill_script": "life-sciences-databases/0.1.5/skills/ensembl-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "Ensembl",
+        "url": "https://www.ensembl.org/id/ENST00000003084",
+        "retrieved_at": "2026-10-31T16:11:03.900846+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://rest.ensembl.org/sequence/id/ENST00000003084?type=cds",
+        "canonical_url": "https://www.ensembl.org/id/ENST00000003084"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "ensembl_cftr_stable_transcript",
+    "skill_script": "life-sciences-databases/0.1.5/skills/ensembl-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "Ensembl",
+        "url": "https://rest.ensembl.org/lookup/id/ENST00000003084",
+        "retrieved_at": "2026-10-31T16:11:02.618565+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://rest.ensembl.org/lookup/id/ENST00000003084"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "pmc_recent_tool_status",
+    "skill_script": "life-sciences-literature/0.1.5/skills/ncbi-pmc-skill/scripts/ncbi_pmc.py",
+    "script_sha256": "1fd4f29f45f724edb4a4abb14ab73b390d435becde011999488b095a3c0716c7",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "PubMed Central",
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/metadata/PMC13705014.1.json",
+        "retrieved_at": "2026-10-31T16:13:11.100361+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://pmc-oa-opendata.s3.amazonaws.com/metadata/PMC13705014.1.json",
+        "canonical_urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13705014/",
+          "https://doi.org/10.3390/ijms27209054",
+          "https://pubmed.ncbi.nlm.nih.gov/42941827/"
+        ]
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "pmc_source_study_status",
+    "skill_script": "life-sciences-literature/0.1.5/skills/ncbi-pmc-skill/scripts/ncbi_pmc.py",
+    "script_sha256": "1fd4f29f45f724edb4a4abb14ab73b390d435becde011999488b095a3c0716c7",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "PubMed Central",
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/metadata/PMC11754097.1.json",
+        "retrieved_at": "2026-10-31T16:08:53.035670+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://pmc-oa-opendata.s3.amazonaws.com/metadata/PMC11754097.1.json",
+        "canonical_urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11754097/",
+          "https://doi.org/10.1038/s41551-024-01233-3",
+          "https://pubmed.ncbi.nlm.nih.gov/38987629/"
+        ]
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "pubmed_amplican",
+    "skill_script": "life-sciences-literature/0.1.5/skills/ncbi-entrez-skill/scripts/ncbi_entrez.py",
+    "script_sha256": "62ab008b58600ea7d79f305501012481b604648ce45c88e52d4e9f5265289f90",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "NCBI Entrez",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30850374/",
+        "retrieved_at": "2026-10-31T16:10:06.581841+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=REDACTED&retmode=json&retmax=5",
+        "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/30850374/"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "pubmed_readout_tools",
+    "skill_script": "life-sciences-literature/0.1.5/skills/ncbi-entrez-skill/scripts/ncbi_entrez.py",
+    "script_sha256": "62ab008b58600ea7d79f305501012481b604648ce45c88e52d4e9f5265289f90",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "NCBI Entrez",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=REDACTED&retmode=json&retmax=10",
+        "retrieved_at": "2026-10-31T16:08:49.267561+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=REDACTED&retmode=json&retmax=10",
+        "canonical_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/42941827/",
+          "https://pubmed.ncbi.nlm.nih.gov/30850374/"
+        ]
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "pubmed_recent_tool_abstract",
+    "skill_script": "life-sciences-literature/0.1.5/skills/ncbi-entrez-skill/scripts/ncbi_entrez.py",
+    "script_sha256": "62ab008b58600ea7d79f305501012481b604648ce45c88e52d4e9f5265289f90",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "NCBI Entrez",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42941827&retmode=xml",
+        "retrieved_at": "2026-10-31T16:13:10.688986+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42941827&retmode=xml"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "pubmed_tool_records",
+    "skill_script": "life-sciences-literature/0.1.5/skills/ncbi-entrez-skill/scripts/ncbi_entrez.py",
+    "script_sha256": "62ab008b58600ea7d79f305501012481b604648ce45c88e52d4e9f5265289f90",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "NCBI Entrez",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42941827%2C30850374&retmode=json",
+        "retrieved_at": "2026-10-31T16:10:06.497483+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42941827%2C30850374&retmode=json",
+        "canonical_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/42941827/",
+          "https://pubmed.ncbi.nlm.nih.gov/30850374/"
+        ]
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "rcsb_cftr_reference_metadata",
+    "skill_script": "life-sciences-databases/0.1.5/skills/rcsb-pdb-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "RCSB Protein Data Bank",
+        "url": "https://data.rcsb.org/rest/v1/core/entry/5UAK",
+        "retrieved_at": "2026-10-31T16:12:24.913950+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://data.rcsb.org/rest/v1/core/entry/5UAK"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "uniprot_cftr_full",
+    "skill_script": "life-sciences-databases/0.1.5/skills/uniprot-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "UniProt",
+        "url": "https://www.uniprot.org/uniprotkb/P13569/entry",
+        "retrieved_at": "2026-10-31T16:10:03.475797+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://rest.uniprot.org/uniprotkb/P13569?format=json",
+        "canonical_url": "https://www.uniprot.org/uniprotkb/P13569/entry"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "uniprot_cftr_search",
+    "skill_script": "life-sciences-databases/0.1.5/skills/uniprot-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "UniProt",
+        "url": "https://www.uniprot.org/uniprotkb/P13569/entry",
+        "retrieved_at": "2026-10-31T16:08:49.650240+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://rest.uniprot.org/uniprotkb/search?query=REDACTED&fields=accession%2Cid%2Cgene_names%2Cprotein_name%2Clength&size=5&format=json",
+        "canonical_url": "https://www.uniprot.org/uniprotkb/P13569/entry"
+      }
+    ],
+    "checked_sources": []
+  }
+]

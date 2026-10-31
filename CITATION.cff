@@ -4,7 +4,7 @@ message: >-
   distinct scientific object; no DOI is assigned to this repository.
 type: software
 title: "CRISPR observability: finite-universe bounds and sequence-correspondence checks"
-version: "0.4.0"
+version: "0.4.1"
 authors:
   - family-names: "Firmenich"
     given-names: "Facundo"
@@ -38,4 +38,4 @@ keywords:
 
 repository-code: "https://github.com/FacundoFirmenich/crispr-observability"
 url: "https://github.com/FacundoFirmenich/crispr-observability"
-date-released: "2026-10-29"
+date-released: "2026-10-31"

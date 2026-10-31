@@ -1,0 +1,25 @@
+{
+  "exact": true,
+  "integrity_scope": "carrier consistency with the supplied manifest",
+  "kind": "protein",
+  "manifest_midi_match": true,
+  "metadata_source": "embedded-midi",
+  "midi": {
+    "channel": 0,
+    "format": 0,
+    "path": "declared_native_local_peptide.mid",
+    "ppq": 480,
+    "sha256": "86544e04cbbdd829da3441073c43f54f295da5d65c8e6bec84b5c96af4727760",
+    "tracks": 1
+  },
+  "normalized_sequence_sha256": "8832003c2dc1106b3e4afb9946dad138b0bdbbe3701bd74e158d0b939b16f5c1",
+  "output": {
+    "format": "canonical-fasta-70-column",
+    "path": "sequence.fasta",
+    "sha256": "05841ce20bf4b3194fb8b32ce4bc4614c9a09cc909f27eba239371e5d0de982c"
+  },
+  "profile": "seq2music-roundtrip-v1",
+  "record_name": "declared_native_local_peptide | reference_context_only",
+  "sequence_length": 14,
+  "status": "exact-manifest-matched"
+}

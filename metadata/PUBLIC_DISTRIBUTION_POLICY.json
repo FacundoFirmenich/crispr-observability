@@ -1,6 +1,6 @@
 {
   "edition": "MP04",
-  "date": "2026-10-29",
+  "date": "2026-10-31",
   "manuscript_public": false,
   "supplement_public": false,
   "public_figure_and_numerical_assets_retained": true,
@@ -19,5 +19,7 @@
     "private section-by-section coverage map",
     "private LaTeX-ingestion source builder"
   ],
-  "papergraph_withheld_source_identity_policy": "Hashes and sizes may identify withheld author sources; no public access or public hash verification of unavailable bytes is implied."
+  "papergraph_withheld_source_identity_policy": "Hashes and sizes may identify withheld author sources; no public access or public hash verification of unavailable bytes is implied.",
+  "scientific_context_public": true,
+  "scientific_context_full_manuscript_or_supplement_embedded": false
 }

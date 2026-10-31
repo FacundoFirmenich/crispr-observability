@@ -1,0 +1,107 @@
+{
+  "algorithm": "seq2music-mapping-v2",
+  "artifacts": [
+    {
+      "bytes": 937,
+      "path": "programmed_local_DNA.mid",
+      "sha256": "77eef058432c36bac7cd7cbcbe750c68fa6a83f62f5d7278dcafa4a7ade2383b"
+    },
+    {
+      "bytes": 284370,
+      "path": "programmed_local_DNA.wav",
+      "sha256": "8a6c8f4ae2779f68eacd671708658f2a19caba3da0ad748a35af0a51ca1ec921"
+    },
+    {
+      "bytes": 12947,
+      "path": "programmed_local_DNA.musicxml",
+      "sha256": "785c01f4274e2aeb8fca3a7124ae0bb301abc4ec80dacd9e773edf6658c99acc"
+    },
+    {
+      "bytes": 19120,
+      "path": "programmed_local_DNA.score.svg",
+      "sha256": "f761004f8fad55e68e07ade4e21b6342ddc4056037e4fc61b53736ff66857a15"
+    },
+    {
+      "bytes": 5407,
+      "path": "programmed_local_DNA.events.csv",
+      "sha256": "631b6977c40af71014079e8293b4a76a0fa7485fb1c6c85a8d9d7eb6748bf882"
+    },
+    {
+      "bytes": 22479,
+      "path": "programmed_local_DNA.html",
+      "sha256": "3b8afc305e4ae32ebf223843b5b4061bed09ca65ad1fc4170568d59089e5381b"
+    },
+    {
+      "bytes": 309,
+      "path": "programmed_local_DNA.summary.txt",
+      "sha256": "4bd2a61fb0e9e0db81dc87915e7487c6f8d56116f10d07bf680e254a501ecf7c"
+    }
+  ],
+  "details": {
+    "kind": "dna",
+    "length": 42,
+    "roundtrip": {
+      "algorithm": "seq2music-mapping-v2",
+      "class": "exact-normalized-sequence",
+      "event_count": 42,
+      "gate_ticks": 59,
+      "kind": "dna",
+      "kind_source": "explicit",
+      "midi_channel": 0,
+      "mode": "encode",
+      "normalized_sequence_sha256": "d4624117da3616ba3f954a65b2721b59b0ad24597312a0f49c5d92bb2d03371c",
+      "ordering": "ascending-note-on-tick",
+      "ppq": 480,
+      "profile": "seq2music-roundtrip-v1",
+      "record_name": "programmed_local_DNA | reference_context_only",
+      "scope": "normalized symbols only; not byte-identical FASTA formatting",
+      "sequence_length": 42,
+      "step_beats": 0.15,
+      "step_ticks": 72
+    }
+  },
+  "inputs": [
+    {
+      "path": "programmed_local_DNA.fasta",
+      "sha256": "435a8b6a0649dc5c607224595407a5ca2f07cebf3ebf017dacb0eedd11781ad7"
+    }
+  ],
+  "mode": "encode",
+  "parameters": {
+    "bpm": 120,
+    "max_events": 5000,
+    "max_wav_mib": 512,
+    "step_beats": 0.15,
+    "step_seconds": 0.075
+  },
+  "plugin": {
+    "name": "seq2music",
+    "version": "0.3.2"
+  },
+  "renderer": {
+    "sample_rate_hz": 22050,
+    "synth": "seq2music-additive-v2"
+  },
+  "roundtrip": {
+    "algorithm": "seq2music-mapping-v2",
+    "class": "exact-normalized-sequence",
+    "event_count": 42,
+    "gate_ticks": 59,
+    "kind": "dna",
+    "kind_source": "explicit",
+    "midi_channel": 0,
+    "mode": "encode",
+    "normalized_sequence_sha256": "d4624117da3616ba3f954a65b2721b59b0ad24597312a0f49c5d92bb2d03371c",
+    "ordering": "ascending-note-on-tick",
+    "ppq": 480,
+    "profile": "seq2music-roundtrip-v1",
+    "record_name": "programmed_local_DNA | reference_context_only",
+    "scope": "normalized symbols only; not byte-identical FASTA formatting",
+    "sequence_length": 42,
+    "step_beats": 0.15,
+    "step_ticks": 72
+  },
+  "run_id": "a2d08e748047",
+  "schema_version": "1.0",
+  "verification_scope": "listed generated artifacts compared with the supplied manifest"
+}

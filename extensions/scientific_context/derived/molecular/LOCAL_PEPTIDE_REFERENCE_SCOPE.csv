@@ -1,0 +1,4 @@
+uniprot_accession,alphafold_entry,sequence_length,native_peptide_start_1,sequence_sha256,model_version,model_sequence_matches_canonical_uniprot
+P13569,AF-P13569-F1,1480,[500],a86f7dbeb9c5f48401a1a452b440d782c35067d2da152180a09ce26f76d11639,6,True
+P13569-3,AF-P13569-3-F1,604,[500],76b9105c9f5b2ca58a234b7a3d6d9688529598863c2d13ceb0ab147b44a9b8c4,6,False
+P13569-2,AF-P13569-2-F1,1419,[439],56c8eeeff16f4921a72bba93c20ebd60697c415b8c986abcaeded67160a021cc,6,False

@@ -40,9 +40,17 @@ def main():
             gpl = name in gpl_code
             gpl_html = name == 'interactive/supergraph/crispr_supergraph.html'
             gpl_license = name == 'interactive/supergraph/LICENSE'
+            seq_output = name.startswith('extensions/scientific_context/accessible/')
+            seq_license = name == 'extensions/scientific_context/SEQ2MUSIC_LICENSE'
             mit_html = name in {'interactive/epistemic_graph.html',
                                 'interactive/papergraph/PaperGraph_CRISPR.html'}
-            if gpl:
+            if seq_output:
+                kind, rights = 'GENERATED_SEQUENCE_CARRIER_OR_INTERFACE', 'SEQ2MUSIC_MIT_INTERFACE_SOURCE_DATA_TERMS_RETAINED'
+                terms, assigned = 'Seq2Music 0.3.2 by Jacob Vogan; upstream MIT notice retained; scientific source/data terms separate', 'NONE_OVER_SCIENTIFIC_CONTENT'
+            elif seq_license:
+                kind, rights = 'LICENSE_DOCUMENT', 'JACOB_VOGAN_MIT_NOTICE'
+                terms, assigned = 'Verbatim upstream MIT notice; Copyright 2026 Jacob Vogan', 'NONE'
+            elif gpl:
                 kind = 'GPL_COMPONENT_CODE'
                 rights = 'SCOPED_GPL_COMPONENT'
                 terms = 'GPL-3.0-only; complete license and modification notice in interactive/supergraph/'
@@ -70,7 +78,9 @@ def main():
             spatial = name.startswith('interactive/supergraph/') or gpl
             papergraph = name.startswith(('interactive/papergraph/', 'figures/papergraph/')) or name in {
                 'code/check_papergraph_browser.cjs', '.github/workflows/papergraph-checks.yml'}
-            provenance = ('New separate spatial interface adapts the actual published KwanTube Beyond Redfield companion; exact upstream identity and modifications in interactive/supergraph/' if spatial else
+            extension = name.startswith(('extensions/scientific_context/', 'figures/scientific_context/')) or name == '.github/workflows/scientific-context-checks.yml'
+            provenance = ('CRISPR P1 supplementary public-reference and raw-record audit; Seq2Music-generated carriers retain upstream notice and source terms' if extension else
+                          'New separate spatial interface adapts the actual published KwanTube Beyond Redfield companion; exact upstream identity and modifications in interactive/supergraph/' if spatial else
                           'Independent PaperGraph interface and renderer; public authored claim summaries, typed relations and existing numerical source identities; formal manuscript and supplement withheld' if papergraph else
                           'Current computational companion; the existing white interactive interface was independently implemented and remains unchanged')
             writer.writerow({'asset': name, 'bundled': 'yes',
@@ -99,7 +109,7 @@ def main():
     files = {name: {'bytes': path.stat().st_size,
                     'sha256': hashlib.sha256(path.read_bytes()).hexdigest()}
              for name, path in public_files() if name != INVENTORY}
-    data = {'edition': 'MP04', 'version': '0.4.0',
+    data = {'edition': 'MP04', 'version': '0.4.1',
             'scope': 'Exact current public computational companion source. Complete manuscript and formal supplement remain private. Inventory excludes itself and runtime results/screenshots/dependencies.',
             'files': files}
     (ROOT / INVENTORY).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
