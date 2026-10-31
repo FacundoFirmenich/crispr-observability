@@ -48,8 +48,8 @@
       "plugin": "bionemo-agent-toolkit",
       "version": "0.1.0",
       "skill": "complexa-evaluate-pdbs",
-      "lane": "population_and_variant_association",
-      "decision": "Not selected for read-level target identity: cohort association cannot authenticate these sequenced products."
+      "lane": "structure_design_or_other_specialized_biology",
+      "decision": "PDB evaluation capability reviewed; no binder-design or structure evaluation run because P1 does not infer binding performance."
     },
     {
       "plugin": "bionemo-agent-toolkit",
@@ -364,7 +364,7 @@
       "version": "1.0.3",
       "skill": "chembl-skill",
       "lane": "chemistry_and_biochemistry",
-      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+      "decision": "Chemical comparator identity audit executed via selected Life Sciences Databases clients: named PubChem and exact ChEMBL records, full standard InChIKey and formula; no docking, affinity or efficacy inference. Duplicate wrappers are not independent evidence."
     },
     {
       "plugin": "life-science-research",
@@ -574,7 +574,7 @@
       "version": "1.0.3",
       "skill": "pubchem-pug-skill",
       "lane": "chemistry_and_biochemistry",
-      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+      "decision": "Chemical comparator identity audit executed via selected Life Sciences Databases clients: named PubChem and exact ChEMBL records, full standard InChIKey and formula; no docking, affinity or efficacy inference. Duplicate wrappers are not independent evidence."
     },
     {
       "plugin": "life-science-research",
@@ -707,7 +707,7 @@
       "version": "0.1.5",
       "skill": "chembl-skill",
       "lane": "chemistry_and_biochemistry",
-      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+      "decision": "Chemical comparator identity audit executed via selected Life Sciences Databases clients: named PubChem and exact ChEMBL records, full standard InChIKey and formula; no docking, affinity or efficacy inference. Duplicate wrappers are not independent evidence."
     },
     {
       "plugin": "life-sciences-databases",
@@ -889,7 +889,7 @@
       "version": "0.1.5",
       "skill": "pubchem-pug-skill",
       "lane": "chemistry_and_biochemistry",
-      "decision": "Available capability; no defined chemical-intervention question in P1, therefore no arbitrary chemical simulation or database dump."
+      "decision": "Chemical comparator identity audit executed via selected Life Sciences Databases clients: named PubChem and exact ChEMBL records, full standard InChIKey and formula; no docking, affinity or efficacy inference. Duplicate wrappers are not independent evidence."
     },
     {
       "plugin": "life-sciences-databases",

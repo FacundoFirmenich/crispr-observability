@@ -2,16 +2,16 @@
   "scope": "Frozen public reference snapshots, original added code, derived context tables and accessible reference carriers; complete manuscript/supplement excluded. No account identity, credentials or private authoring inputs.",
   "files": {
     "CAPABILITY_ADJUDICATION.json": {
-      "bytes": 51856,
-      "sha256": "78964cc2ceb0a58a5ec9649fbd4ae1af5e030c57ca17e79210bb912ce1667c48"
+      "bytes": 52393,
+      "sha256": "08664fbe6f5b4e1d00a0bf78fec7342774692f33bdcd5cbb123e6758b6e28a0b"
     },
     "LOOKUP_OUTCOMES.json": {
-      "bytes": 13051,
-      "sha256": "7cdc57948b3816adab763bb569c0070a60ce7180c91d515ed5b0d817fa38989a"
+      "bytes": 19566,
+      "sha256": "93a6abfbf02762c513612e0285dc5405a0624275c368c257462ee38656b2608d"
     },
     "README.md": {
-      "bytes": 4170,
-      "sha256": "2704b2038e3c663c9da04b060406acd3e7cd51f03965d9a3ed327a7d4993c6a8"
+      "bytes": 4757,
+      "sha256": "118c7ea09102a41092140dbb4b66e0da7d8d609d38cb98b9af72a588c2e2c8d0"
     },
     "SCIENTIFIC_PLUGIN_SCOPE.json": {
       "bytes": 8666,
@@ -237,6 +237,10 @@
       "bytes": 90,
       "sha256": "435a8b6a0649dc5c607224595407a5ca2f07cebf3ebf017dacb0eedd11781ad7"
     },
+    "analyze_chemical_context.py": {
+      "bytes": 3496,
+      "sha256": "13f44dca87fb7306036dd66341c5194abb4dd4f62c79364ae8a7e41a4f72823f"
+    },
     "analyze_molecular_references.py": {
       "bytes": 5489,
       "sha256": "bb6e5e4cdf4d40cb30ddfe7ea1af899dc10f478b088168695e124e96bf910172"
@@ -246,8 +250,16 @@
       "sha256": "2003d8e8e6c9be9c9199e8b04a4aaedf381cc368a03d0be5302955dd22db116c"
     },
     "check_extension.py": {
-      "bytes": 3076,
-      "sha256": "f7863315fabf554493fdd0a26f6f32fe1bc387d706ade488b7f66e412013a3d7"
+      "bytes": 3367,
+      "sha256": "7cca4664455f46a5c162999d309753045b9f14829866f7cc77094cc07060c54f"
+    },
+    "derived/chemical/CHEMICAL_COMPARATOR_IDENTITIES.csv": {
+      "bytes": 793,
+      "sha256": "77709e9b7183aebd39c7a9f5e49b9392f91d196315395f34e5041bb52423931b"
+    },
+    "derived/chemical/CHEMICAL_IDENTITY_AUDIT.json": {
+      "bytes": 1452,
+      "sha256": "8b28dfdd1454013ff9a7704aa5f5576e6b4d315d9a8daab8bc2d1c613c2f6639"
     },
     "derived/molecular/CANONICAL_AND_PROGRAMMED_CODONS.csv": {
       "bytes": 580,
@@ -309,6 +321,30 @@
       "bytes": 11738,
       "sha256": "defdf4427b9d9420ad9e9033106ddf4cc541cb930abb693e412cd213e4de4207"
     },
+    "sources/chembl_elexacaftor.raw.json": {
+      "bytes": 11889,
+      "sha256": "4b0d65310dcc90973ead48450e25819552bb0eed1a5a76ef9cdd799d7960f6c3"
+    },
+    "sources/chembl_exact_elexacaftor.raw.json": {
+      "bytes": 6501,
+      "sha256": "4188681e7de0ad8c1fbccee36fb90a8f36d6ae08662daf463fb2eeaa5706724e"
+    },
+    "sources/chembl_exact_ivacaftor.raw.json": {
+      "bytes": 5563,
+      "sha256": "1bd129738dc5bbddf7ab051b8b1e7b829a83b49e42780b4af653cd166d0bb157"
+    },
+    "sources/chembl_exact_tezacaftor.raw.json": {
+      "bytes": 5753,
+      "sha256": "4f8cc368cc3a856a944b74f10cb850e8687646d3c45f1a241cc9b5c09590ac8a"
+    },
+    "sources/chembl_ivacaftor.raw.json": {
+      "bytes": 12095,
+      "sha256": "ecb7ef14d3ceb401a3f41ea102a439e252c230e0d78b2fd324971abd7220b6b4"
+    },
+    "sources/chembl_tezacaftor.raw.json": {
+      "bytes": 5875,
+      "sha256": "7a2a36a484008924bee07ef47ab7cc2a54bf6b1a15148357f97357540e13b869"
+    },
     "sources/clinvar_cftr_coding_search.raw.json": {
       "bytes": 145,
       "sha256": "c1c313c48a2214b20c3ae11b13c7c6753ac91ac650f6a8e0be23a78f1686419f"
@@ -336,6 +372,18 @@
     "sources/pmc_source_study_status.raw.json": {
       "bytes": 2686,
       "sha256": "a01cff9e75768e19e0b42f424977d67cde416c631ac372f485752a9c3d686d3e"
+    },
+    "sources/pubchem_elexacaftor.raw.json": {
+      "bytes": 228,
+      "sha256": "a284d3504e14d58e4815d7ab3f7c3b08a2fcb08c762dd974f07f92345789f408"
+    },
+    "sources/pubchem_ivacaftor.raw.json": {
+      "bytes": 224,
+      "sha256": "5e694158d2d309af712d813af98de57b3510ceeb2dcc2fcbb9a39a7f33b010a3"
+    },
+    "sources/pubchem_tezacaftor.raw.json": {
+      "bytes": 226,
+      "sha256": "01f5ed4bfd9e0716efedc61e37ef0901a90ea82a4a6d56c72f1362376ef30aad"
     },
     "sources/pubmed_amplican.raw.json": {
       "bytes": 187,

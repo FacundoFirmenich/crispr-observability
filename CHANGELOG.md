@@ -2,6 +2,10 @@
 
 ## 0.4.1 / MP04 — 31 October 2026
 
+- Add a frozen PubChem/ChEMBL identity audit of the source study's three ETI
+  compounds, using exact structure keys and retaining nonmatching search hits.
+  This is contextual chemical identity, with no new pharmacological inference.
+
 - Add source-bound CFTR coding/reference context and a finite reference-set
   identity counterexample; no isoform assignment to study samples.
 - Independently audit all 177,006 original raw records, reproducing the original

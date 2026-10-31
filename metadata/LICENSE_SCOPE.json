@@ -26,6 +26,7 @@
     "engine_replay/original/staged_run.py",
     "engine_replay/original/summarize_grid.py",
     "engine_replay/prepare.py",
+    "extensions/scientific_context/analyze_chemical_context.py",
     "extensions/scientific_context/analyze_molecular_references.py",
     "extensions/scientific_context/audit_raw_qc.py",
     "extensions/scientific_context/check_extension.py",

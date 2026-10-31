@@ -1,0 +1,28 @@
+{
+  "scope": "Post hoc frozen chemical registry identity context for three named compounds; not experimental pharmacology or molecular validation.",
+  "matched_compounds": 3,
+  "matched_by": "Exact full standard InChIKey plus named record and molecular formula; ChEMBL parent record retrieved separately. Database agreement is not independent experimental validation.",
+  "reported_mass_precision": "Retained per provider; displayed rounding differences are not a chemical identity discrepancy.",
+  "excluded_search_records": [
+    {
+      "search_name": "elexacaftor",
+      "excluded_ChEMBL_ID": "CHEMBL5198794",
+      "pref_name": null,
+      "same_reported_formula": true,
+      "same_standard_InChIKey": false,
+      "standard_InChIKey": "MROVHQJKJZHYOE-HNNXBMFYSA-N",
+      "decision": "Different returned structure key; not substituted for the named compound. Search results are not an exhaustive chemical universe."
+    },
+    {
+      "search_name": "ivacaftor",
+      "excluded_ChEMBL_ID": "CHEMBL4297603",
+      "pref_name": "DEUTIVACAFTOR",
+      "same_reported_formula": true,
+      "same_standard_InChIKey": false,
+      "standard_InChIKey": "PURKAOJPTOLRMP-ASMGOKTBSA-N",
+      "decision": "Different returned structure key; not substituted for the named compound. Search results are not an exhaustive chemical universe."
+    }
+  ],
+  "new_docking_or_simulation": false,
+  "efficacy_affinity_dose_or_genetic_correction_inferred": false
+}

@@ -13,6 +13,9 @@ and all original numerical results remain frozen.
 - `derived/raw_qc/`: all nine original streams, 177,006 records; the historical
   whole-record meanQ30 gate again yields 175,010 passes and 1,996 failures.
   No trimming, new alignment, altered event or molecular accuracy estimate.
+- `derived/chemical/`: exact PubChem/ChEMBL identities for the source study's
+  elexacaftor, tezacaftor and ivacaftor comparator. Full structure keys distinguish
+  related search hits; no affinity, efficacy or correction is inferred.
 - `sources/`: versioned public retrieval snapshots and compact sample metadata.
 - `accessible/`: Seq2Music 0.3.2 carriers and actual local decode reports for
   three public reference inputs. MIDI, WAV and MusicXML statuses concern exact
@@ -75,3 +78,5 @@ Seq2Music is by Jacob Vogan, distributed under MIT; its full notice is retained
 in `SEQ2MUSIC_LICENSE`. Generated scientific content and public reference
 sequences retain their separate attribution and terms. Only the repository's
 explicit original-code allowlist carries the author's MIT grant.
+
+Chemical record sources: [elexacaftor](https://pubchem.ncbi.nlm.nih.gov/compound/134587348), [tezacaftor](https://pubchem.ncbi.nlm.nih.gov/compound/46199646), [ivacaftor](https://pubchem.ncbi.nlm.nih.gov/compound/16220172); exact ChEMBL endpoints and source snapshots accompany every row. Database agreement is not independent experimental validation.

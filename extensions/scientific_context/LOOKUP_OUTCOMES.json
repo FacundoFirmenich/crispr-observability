@@ -19,6 +19,120 @@
     "checked_sources": []
   },
   {
+    "name": "chembl_elexacaftor",
+    "skill_script": "life-sciences-databases/0.1.5/skills/chembl-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "ChEMBL",
+        "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/search.json?q=REDACTED&limit=5",
+        "retrieved_at": "2026-10-31T16:53:41.296390+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/search.json?q=REDACTED&limit=5"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "chembl_exact_elexacaftor",
+    "skill_script": "life-sciences-databases/0.1.5/skills/chembl-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "ChEMBL",
+        "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL4298128.json",
+        "retrieved_at": "2026-10-31T16:54:11.082994+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL4298128.json"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "chembl_exact_ivacaftor",
+    "skill_script": "life-sciences-databases/0.1.5/skills/chembl-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "ChEMBL",
+        "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL2010601.json",
+        "retrieved_at": "2026-10-31T16:54:11.022166+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL2010601.json"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "chembl_exact_tezacaftor",
+    "skill_script": "life-sciences-databases/0.1.5/skills/chembl-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "ChEMBL",
+        "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL3544914.json",
+        "retrieved_at": "2026-10-31T16:54:10.333295+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL3544914.json"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "chembl_ivacaftor",
+    "skill_script": "life-sciences-databases/0.1.5/skills/chembl-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "ChEMBL",
+        "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/search.json?q=REDACTED&limit=5",
+        "retrieved_at": "2026-10-31T16:53:37.363055+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/search.json?q=REDACTED&limit=5"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "chembl_tezacaftor",
+    "skill_script": "life-sciences-databases/0.1.5/skills/chembl-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "ChEMBL",
+        "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/search.json?q=REDACTED&limit=5",
+        "retrieved_at": "2026-10-31T16:53:32.322382+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/search.json?q=REDACTED&limit=5"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
     "name": "clinvar_cftr_coding_search",
     "skill_script": "life-sciences-databases/0.1.5/skills/clinvar-variation-skill/scripts/clinvar_variation.py",
     "script_sha256": "7da37ad62d193099049d32ff83dec430b8ba7144f1cf200557db4fd050e6d9ce",
@@ -204,6 +318,66 @@
           "https://doi.org/10.1038/s41551-024-01233-3",
           "https://pubmed.ncbi.nlm.nih.gov/38987629/"
         ]
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "pubchem_elexacaftor",
+    "skill_script": "life-sciences-databases/0.1.5/skills/pubchem-pug-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/134587348",
+        "retrieved_at": "2026-10-31T16:53:30.871523+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/elexacaftor/property/MolecularFormula,MolecularWeight,InChIKey/JSON",
+        "canonical_url": "https://pubchem.ncbi.nlm.nih.gov/compound/134587348"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "pubchem_ivacaftor",
+    "skill_script": "life-sciences-databases/0.1.5/skills/pubchem-pug-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16220172",
+        "retrieved_at": "2026-10-31T16:53:34.811520+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ivacaftor/property/MolecularFormula,MolecularWeight,InChIKey/JSON",
+        "canonical_url": "https://pubchem.ncbi.nlm.nih.gov/compound/16220172"
+      }
+    ],
+    "checked_sources": []
+  },
+  {
+    "name": "pubchem_tezacaftor",
+    "skill_script": "life-sciences-databases/0.1.5/skills/pubchem-pug-skill/scripts/rest_request.py",
+    "script_sha256": "ebd7c860aee32c21897192bbfab676345dc3f595781fe7a36fc0e1610e1d126b",
+    "returncode": 0,
+    "ok": true,
+    "error": null,
+    "sources": [
+      {
+        "name": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/46199646",
+        "retrieved_at": "2026-10-31T16:53:30.855450+00:00",
+        "supports_claim": true,
+        "kind": "evidence",
+        "request_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/tezacaftor/property/MolecularFormula,MolecularWeight,InChIKey/JSON",
+        "canonical_url": "https://pubchem.ncbi.nlm.nih.gov/compound/46199646"
       }
     ],
     "checked_sources": []

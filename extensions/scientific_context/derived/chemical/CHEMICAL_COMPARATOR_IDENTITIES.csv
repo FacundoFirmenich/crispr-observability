@@ -1,0 +1,4 @@
+compound,PubChem_CID,ChEMBL_ID,molecular_formula,InChIKey,PubChem_MW_g_mol_reported,ChEMBL_MW_g_mol_reported,identity_keys_agree,PubChem_source,ChEMBL_source
+elexacaftor,134587348,CHEMBL4298128,C26H34F3N7O4S,MVRHVFSOIWFBTE-INIZCTEOSA-N,597.7,597.66,True,https://pubchem.ncbi.nlm.nih.gov/compound/134587348,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL4298128.json
+tezacaftor,46199646,CHEMBL3544914,C26H27F3N2O6,MJUVRTYWUMPBTR-MRXNPFEDSA-N,520.5,520.50,True,https://pubchem.ncbi.nlm.nih.gov/compound/46199646,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL3544914.json
+ivacaftor,16220172,CHEMBL2010601,C24H28N2O3,PURKAOJPTOLRMP-UHFFFAOYSA-N,392.5,392.50,True,https://pubchem.ncbi.nlm.nih.gov/compound/16220172,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL2010601.json
