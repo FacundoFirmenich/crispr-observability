@@ -145,4 +145,4 @@ molecular accuracy or educational efficacy. Full formal texts remain private.
 
 ## Archival custody
 
-The standing preservation and recovery rule is in [AGENTS.md](AGENTS.md). Preserve actual files and failed attempts, verify recovery from authorized persistent copies, and report missing originals honestly. A digest or SQL row alone is not a replacement file. Do not recompute missing scientific artifacts as an automatic recovery fallback. Complete manuscript and supplementary text remain private.
+The standing preservation and recovery rule is in [AGENTS.md](AGENTS.md). Preserve actual files and failed attempts, verify recovery from authorized persistent copies, and report missing originals honestly. A digest or SQL row alone is not a replacement file. When an original cannot be recovered and contributes value to CRISPR P1, the author requires complete recomputation from authentic inputs, verification and integration; preserve the new run's actual provenance. Complete manuscript and supplementary text remain private.

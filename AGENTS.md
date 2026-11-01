@@ -1,6 +1,6 @@
 # Conservación íntegra y recuperación de investigación
 
-Instrucción expresa de Facundo Firmenich, ratificada el 1 de noviembre de 2026.
+Instrucción expresa de Facundo Firmenich, aclarada y ratificada el 1 de noviembre de 2026. La aclaración posterior autoriza y exige recomputar lo valioso que realmente se haya perdido.
 
 Conservar los archivos reales de investigación: fuentes, datos, configuraciones,
 resultados, intermedios costosos, registros, intentos fallidos y entregas. Un hash,
@@ -21,12 +21,21 @@ costosas, comprobar también que los archivos enumerados dentro de los paquetes
 están presentes y corresponden a sus inventarios. Distinguir copia temporal,
 guardado remoto confirmado y descarga posterior realmente verificada.
 
-Si falta un archivo, buscarlo en las versiones y respaldos autorizados. Si no se
-recupera, declararlo FALTANTE. No presentar su hash como recuperación, no inventar
-su contenido y no lanzar una recomputación para sustituir silenciosamente el
-original. Una futura ejecución expresamente autorizada sería un nuevo resultado
-con su fecha y procedencia; no se convertiría en el archivo histórico perdido.
-La instrucción actual no autoriza recomputar la investigación como reparación.
+Si falta un archivo, buscarlo primero en las versiones y respaldos autorizados.
+Si no se recupera y aporta valor al primer paper CRISPR, recomputar íntegramente
+el componente necesario con fuentes auténticas, entradas y condiciones explícitas.
+Esta recomputación está expresamente autorizada y exigida por el usuario; no
+requiere pedirle de nuevo la misma autorización. Verificar los nuevos resultados,
+contrastar su compatibilidad con la evidencia conservada e integrarlos en el
+manuscrito y suplemento cuando corresponda. Guardar los archivos durante la ejecución.
+Un hash sin el archivo no cierra el problema. No dejar un hueco evitable en P1.
+
+La nueva ejecución debe conservar su fecha y procedencia reales. Mantener en el
+registro histórico que el original se perdió, sin fingir que la recomputación
+es una recuperación byte por byte. Esta trazabilidad no es una excusa para no
+rehacer el trabajo necesario. No inventar observaciones ni fuentes. Si faltan
+entradas experimentales, obtenerlas de una fuente auténtica o resolver el alcance
+científico con evidencia real antes de sostener la afirmación afectada.
 
 No declarar una entrega completa sin confirmar cada guardado. Registrar por
 archivo su ubicación persistente, identidad, estado y último acceso verificado.
