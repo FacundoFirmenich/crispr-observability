@@ -145,4 +145,11 @@ molecular accuracy or educational efficacy. Full formal texts remain private.
 
 ## Archival custody
 
+The [MP06 integrity addendum I1](extensions/evidence_integrity/README.md) exports
+complete raw-sequence/quality/coding ledgers for all 177,006 primary CFTR and
+218,930 HEK3 records. Saved-file readback rejoins every original record and
+reconstructs all 204 corresponding MP06 count rows. These are derived audit
+tables, separately named from preserved incomplete native annotations. Frozen
+scientific results and all graph baselines are unchanged.
+
 The standing preservation and recovery rule is in [AGENTS.md](AGENTS.md). Preserve actual files and failed attempts, verify recovery from authorized persistent copies, and report missing originals honestly. A digest or SQL row alone is not a replacement file. When an original cannot be recovered and contributes value to CRISPR P1, the author requires complete recomputation from authentic inputs, verification and integration; preserve the new run's actual provenance. Complete manuscript and supplementary text remain private.

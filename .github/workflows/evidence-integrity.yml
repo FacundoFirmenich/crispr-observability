@@ -1,0 +1,20 @@
+name: CRISPR P1 complete record integrity
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  complete-record-readback:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.12.14'
+      - name: Export every actual record and reconstruct all MP06 counts from saved bytes
+        run: python -B extensions/evidence_integrity/export_record_ledgers.py --output "$RUNNER_TEMP/complete-ledgers"
