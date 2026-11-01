@@ -36,8 +36,8 @@
       "sha256": "239f3aaf3747583c2ae1859fdf734ffb45a4a16cc9a23e09b30211c91627eae6"
     },
     ".gitignore": {
-      "bytes": 300,
-      "sha256": "12c3cadaafdd3d304415483c13ef00d473d7c15bbe9db12c221aa9c80e8f0138"
+      "bytes": 412,
+      "sha256": "55acb7735e74f2bd95737a65eae02d7e5cfb740135e1fe0dfec958259c23284e"
     },
     "ACKNOWLEDGMENTS.md": {
       "bytes": 532,
@@ -68,8 +68,8 @@
       "sha256": "e857afe7ee83832159b1e1ffbef2eeba99f2be217401bcdd4f18ba024aea04e7"
     },
     "THIRD_PARTY_NOTICES.csv": {
-      "bytes": 242223,
-      "sha256": "e0f33237cd1c7ad83c6d0cf2e5fb54c06644aee9a0eb70aaa8f7f8f94eb5b3e3"
+      "bytes": 244657,
+      "sha256": "2c823b582f0c4d0481955cd90a275aaf825698ca96888580e13ffdc94aa47c12"
     },
     "code/LICENSE": {
       "bytes": 1074,
@@ -84,8 +84,8 @@
       "sha256": "420b0453c3235d6c8ae65cf21ceeced7a18f7d4f641c86a1e134ed0623e3b289"
     },
     "code/check_public_distribution.py": {
-      "bytes": 5538,
-      "sha256": "1c52e0c9ef413ede393ce6e503c152bf1d5f93bdac4915286e7d9c459be1203d"
+      "bytes": 6091,
+      "sha256": "412ff292a610c38bd011a10c23d1895eb0c7f69dcc3f9fbee01921bab606915b"
     },
     "code/check_selected_p1_tables.py": {
       "bytes": 16873,
@@ -96,8 +96,8 @@
       "sha256": "a356ac05c4555318344a6fba71909be3edaf4c968f401c84f79251df0f28b137"
     },
     "code/refresh_public_inventory.py": {
-      "bytes": 7484,
-      "sha256": "4dfc8595c03e1839239a57b64b8b1d1f9d436165c6477830cbe5ccc1a7c55e72"
+      "bytes": 7784,
+      "sha256": "a4cbb7813a65c91f865759f3ee2d8618a97799263c2ec5470a62f1acdce85341"
     },
     "code/run_checks.py": {
       "bytes": 2528,
@@ -822,6 +822,26 @@
     "extensions/reproduction/geometry/source/EXPECTED_PRODUCTS.json": {
       "bytes": 4570,
       "sha256": "a8d55c536e72c8198f916f1688cc0ff4df4022cc3f2356428fb99a688e3508e5"
+    },
+    "extensions/reproduction/geometry/source/observer/results/OBSERVATION_COUNTS.json": {
+      "bytes": 293257,
+      "sha256": "85450f020aad9abea6bea85e4ec98c606e48527cfda6ad4f82b6b5a38b7be17f"
+    },
+    "extensions/reproduction/geometry/source/observer/results/ORIGINAL_AMBIGUITY_VETO.json": {
+      "bytes": 34129,
+      "sha256": "452d8434baa12925c20cad4cdb3105319675a0e42da02a7eb2be6649d90d3ad9"
+    },
+    "extensions/reproduction/geometry/source/observer/results/TRUNCATION_COUNTS.json": {
+      "bytes": 2633092,
+      "sha256": "d0df0da20becfe58358f20d6bbf4ac60e0d18d932210afce9840276b4557cbde"
+    },
+    "extensions/reproduction/geometry/source/v21/results/READ_PHASE_RESULTS.json": {
+      "bytes": 454069,
+      "sha256": "1ab054584786dc17f1655490774840e101974399cf6e1d9f62266a85487ba833"
+    },
+    "extensions/reproduction/geometry/source/v21/results/REFERENCE_AND_TEMPLATES.json": {
+      "bytes": 31709,
+      "sha256": "b95a1949b7b4e69a07c105eae2917108ca195bd71b36c507446b7184ea9eec4b"
     },
     "extensions/reproduction/pe_mode/CONSTRUCT.json": {
       "bytes": 921,

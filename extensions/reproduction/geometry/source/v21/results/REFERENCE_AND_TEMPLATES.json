@@ -1,0 +1,1233 @@
+{
+  "reference": {
+    "RefSeq": "NM_000492.4",
+    "CDS_start_1based": 71,
+    "RTT_transcript_start_1based": 1567,
+    "RTT_reference": "TGGCACCATTAAAGAAAATATCATCTTTGGTGTTTCCTATG",
+    "RTT_programmed": "TGGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACG",
+    "changed_RTT_indices_0based": [
+      33,
+      34,
+      35,
+      36,
+      39
+    ],
+    "CTT_reference_indices_0based": [
+      24,
+      25,
+      26
+    ],
+    "peptide_reference": "GTIKENIIFGVSYD",
+    "peptide_residues": [
+      500,
+      513
+    ],
+    "windows": {
+      "target": [
+        "TGGATTATGCCT",
+        "ATGAATATAGATACAGAAGC"
+      ],
+      "guides": [
+        "GATGATTATGGG",
+        "AAACTATGTGAA"
+      ]
+    },
+    "outer_mutant_observed_reference": "AGAACTGGAGCCTTCAGAGGGTAAAATTAAGCACAGTGGAAGAATTTCATTCTGTTCTCAGTTTTCCTGGATTATGCCTGGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATGAATATAGATACAGAAGCGTCATCAAAGCATGCCAACTAGAAGAGGTAAG",
+    "outer_reference_support_reads": 11067,
+    "outer_reference_source_run": "SRR29623274",
+    "outer_prefix": "AGAACTGGAGCCTTCAGAGGGTAAAATTAAGCACAGTGGAAGAATTTCATTCTGTTCTCAGTTTTCCTGGATTATGCCT",
+    "outer_suffix": "ATGAATATAGATACAGAAGCGTCATCAAAGCATGCCAACTAGAAGAGGTAAG",
+    "outer_payload_mutant_length": 168,
+    "outer_payload_corrected_length": 171,
+    "template_construction": "reference hypotheses from RefSeq and published RTT; not observations; observed counts determined only from real FASTQ",
+    "guide_coverage": {
+      "epegRNA": {
+        "spacer": "TCTGTATCTATATTCATCAT",
+        "matches": [
+          {
+            "orientation": "minus",
+            "start_0based": 125,
+            "end_exclusive": 145
+          }
+        ],
+        "covered": true
+      },
+      "ngRNA": {
+        "spacer": "GGAGAACTGGAGCCTTCAGA",
+        "matches": [
+          {
+            "orientation": "plus",
+            "start_0based": 10,
+            "end_exclusive": 30
+          }
+        ],
+        "covered": true
+      },
+      "dsgRNA": {
+        "spacer": "TTACCTCTTCTAGT",
+        "matches": [
+          {
+            "orientation": "minus",
+            "start_0based": 165,
+            "end_exclusive": 179
+          }
+        ],
+        "covered": true
+      }
+    }
+  },
+  "templates": [
+    {
+      "id": "DEL_00000",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_00001",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTACG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_00010",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTTCTTATG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_00011",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTTCTTACG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_00100",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTTGCTATG",
+      "peptide": "GTIKENIIGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_00101",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTTGCTACG",
+      "peptide": "GTIKENIIGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_00110",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTTGTTATG",
+      "peptide": "GTIKENIIGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_00111",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTTGTTACG",
+      "peptide": "GTIKENIIGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_01000",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTACCTATG",
+      "peptide": "GTIKENIIGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_01001",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTACCTACG",
+      "peptide": "GTIKENIIGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_01010",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTACTTATG",
+      "peptide": "GTIKENIIGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_01011",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTACTTACG",
+      "peptide": "GTIKENIIGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_01100",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTAGCTATG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_01101",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTAGCTACG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_01110",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTAGTTATG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_01111",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTTAGTTACG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_10000",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGTCCTATG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_10001",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGTCCTACG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_10010",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGTCTTATG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_10011",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGTCTTACG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_10100",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGTGCTATG",
+      "peptide": "GTIKENIIGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_10101",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGTGCTACG",
+      "peptide": "GTIKENIIGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_10110",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGTGTTATG",
+      "peptide": "GTIKENIIGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_10111",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGTGTTACG",
+      "peptide": "GTIKENIIGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_11000",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGACCTATG",
+      "peptide": "GTIKENIIGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_11001",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGACCTACG",
+      "peptide": "GTIKENIIGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_11010",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGACTTATG",
+      "peptide": "GTIKENIIGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_11011",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGACTTACG",
+      "peptide": "GTIKENIIGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_11100",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGAGCTATG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_11101",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGAGCTACG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_11110",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGAGTTATG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "DEL_11111",
+      "CTT_restored": false,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATTGGTGTGAGTTACG",
+      "peptide": "GTIKENIIGVSYD",
+      "native_local_peptide": false,
+      "full_SE2": true,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_00000",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTCCTATG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": true,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_00001",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTCCTACG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_00010",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTCTTATG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_00011",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTCTTACG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_00100",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTGCTATG",
+      "peptide": "GTIKENIIFGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_00101",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTGCTACG",
+      "peptide": "GTIKENIIFGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_00110",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTGTTATG",
+      "peptide": "GTIKENIIFGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_00111",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTGTTACG",
+      "peptide": "GTIKENIIFGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_01000",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTACCTATG",
+      "peptide": "GTIKENIIFGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_01001",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTACCTACG",
+      "peptide": "GTIKENIIFGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_01010",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTACTTATG",
+      "peptide": "GTIKENIIFGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_01011",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTACTTACG",
+      "peptide": "GTIKENIIFGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_01100",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTAGCTATG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_01101",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTAGCTACG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_01110",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTAGTTATG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_01111",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTAGTTACG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_10000",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGTCCTATG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_10001",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGTCCTACG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_10010",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGTCTTATG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_10011",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGTCTTACG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_10100",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGTGCTATG",
+      "peptide": "GTIKENIIFGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_10101",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGTGCTACG",
+      "peptide": "GTIKENIIFGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_10110",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGTGTTATG",
+      "peptide": "GTIKENIIFGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_10111",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGTGTTACG",
+      "peptide": "GTIKENIIFGVCYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_11000",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGACCTATG",
+      "peptide": "GTIKENIIFGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_11001",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGACCTACG",
+      "peptide": "GTIKENIIFGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_11010",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGACTTATG",
+      "peptide": "GTIKENIIFGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_11011",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGACTTACG",
+      "peptide": "GTIKENIIFGVTYD",
+      "native_local_peptide": false,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": true,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_11100",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGCTATG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_11101",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGCTACG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_11110",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTATG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": false,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    },
+    {
+      "id": "CTT_11111",
+      "CTT_restored": true,
+      "silent_nucleotide_mask": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target_sequence": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACG",
+      "peptide": "GTIKENIIFGVSYD",
+      "native_local_peptide": true,
+      "full_SE2": true,
+      "native_DNA": false,
+      "missense_at_partial_SE2": false,
+      "source_target": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG"
+    }
+  ]
+}

@@ -16,6 +16,13 @@ def main():
     assert policy['manuscript_public'] is False and policy['supplement_public'] is False
     assert policy['current_acknowledgment_person_count'] == 5
     manifest = inventory['files']
+    # Every declared frozen replay source must actually be distributed; a clean
+    # checkout cannot rely on ignored local files with historical results/ names.
+    reproduction = json.loads((ROOT / 'extensions/reproduction/SOURCE_MANIFEST.json').read_text())
+    for name, source in reproduction['files'].items():
+        key = 'extensions/reproduction/' + name
+        assert key in manifest, 'Missing distributed scientific input: ' + key
+        assert manifest[key]['bytes'] == source['bytes'] and manifest[key]['sha256'] == source['sha256'], key
     tracked_scope = 'Declared source snapshot; no matching Git checkout available.'
     try:
         checkout = subprocess.run(['git', '-C', str(ROOT), 'rev-parse', '--show-toplevel'],

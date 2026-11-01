@@ -13,7 +13,11 @@ def public_files():
         if not path.is_file():
             continue
         relative = path.relative_to(ROOT)
-        if any(part in {'.git', '__pycache__', 'node_modules', 'results', '.qa'} for part in relative.parts):
+        if any(part in {'.git', '__pycache__', 'node_modules', '.qa'} for part in relative.parts):
+            continue
+        # Original scientific inputs happen to retain historical results/ paths.
+        # Runtime outputs elsewhere remain excluded from the public source inventory.
+        if 'results' in relative.parts and not relative.as_posix().startswith('extensions/reproduction/geometry/source/'):
             continue
         if path.suffix in {'.pyc', '.stdout', '.stderr'}:
             continue

@@ -1,0 +1,1195 @@
+{
+  "scope": "target meanQ30 native local peptide; trims3,4,8,48; original multiple-anchor warning retained",
+  "samples": [
+    {
+      "run_accession": "SRR29623656",
+      "figure": "F3d",
+      "condition": "+/-/+/+",
+      "source_replica": 1,
+      "trim_last_raw_bases": 3,
+      "E": 10618,
+      "non_E": 16682,
+      "U_E": 3419,
+      "N": 30719,
+      "raw_read_bounds": [
+        0.3456492724372538,
+        0.45694846837462155
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623656",
+      "figure": "F3d",
+      "condition": "+/-/+/+",
+      "source_replica": 1,
+      "trim_last_raw_bases": 4,
+      "E": 10618,
+      "non_E": 16682,
+      "U_E": 3419,
+      "N": 30719,
+      "raw_read_bounds": [
+        0.3456492724372538,
+        0.45694846837462155
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623656",
+      "figure": "F3d",
+      "condition": "+/-/+/+",
+      "source_replica": 1,
+      "trim_last_raw_bases": 8,
+      "E": 10618,
+      "non_E": 16682,
+      "U_E": 3419,
+      "N": 30719,
+      "raw_read_bounds": [
+        0.3456492724372538,
+        0.45694846837462155
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623656",
+      "figure": "F3d",
+      "condition": "+/-/+/+",
+      "source_replica": 1,
+      "trim_last_raw_bases": 48,
+      "E": 10616,
+      "non_E": 16668,
+      "U_E": 3435,
+      "N": 30719,
+      "raw_read_bounds": [
+        0.3455841661512419,
+        0.457404212376705
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 8,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622832",
+      "figure": "F3d",
+      "condition": "+/-/+/+",
+      "source_replica": 2,
+      "trim_last_raw_bases": 3,
+      "E": 17959,
+      "non_E": 22581,
+      "U_E": 7662,
+      "N": 48202,
+      "raw_read_bounds": [
+        0.37257790133189495,
+        0.5315339612464213
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622832",
+      "figure": "F3d",
+      "condition": "+/-/+/+",
+      "source_replica": 2,
+      "trim_last_raw_bases": 4,
+      "E": 17959,
+      "non_E": 22578,
+      "U_E": 7665,
+      "N": 48202,
+      "raw_read_bounds": [
+        0.37257790133189495,
+        0.5315961993278288
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622832",
+      "figure": "F3d",
+      "condition": "+/-/+/+",
+      "source_replica": 2,
+      "trim_last_raw_bases": 8,
+      "E": 17959,
+      "non_E": 22578,
+      "U_E": 7665,
+      "N": 48202,
+      "raw_read_bounds": [
+        0.37257790133189495,
+        0.5315961993278288
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622832",
+      "figure": "F3d",
+      "condition": "+/-/+/+",
+      "source_replica": 2,
+      "trim_last_raw_bases": 48,
+      "E": 17954,
+      "non_E": 22548,
+      "U_E": 7700,
+      "N": 48202,
+      "raw_read_bounds": [
+        0.3724741711962159,
+        0.5322185801419028
+      ],
+      "original_ambiguity_veto_E": 9,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622959",
+      "figure": "F3d",
+      "condition": "+/-/+/+",
+      "source_replica": 3,
+      "trim_last_raw_bases": 3,
+      "E": 15743,
+      "non_E": 26389,
+      "U_E": 5966,
+      "N": 48098,
+      "raw_read_bounds": [
+        0.32731090689841574,
+        0.45134932845440556
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622959",
+      "figure": "F3d",
+      "condition": "+/-/+/+",
+      "source_replica": 3,
+      "trim_last_raw_bases": 4,
+      "E": 15743,
+      "non_E": 26389,
+      "U_E": 5966,
+      "N": 48098,
+      "raw_read_bounds": [
+        0.32731090689841574,
+        0.45134932845440556
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622959",
+      "figure": "F3d",
+      "condition": "+/-/+/+",
+      "source_replica": 3,
+      "trim_last_raw_bases": 8,
+      "E": 15743,
+      "non_E": 26389,
+      "U_E": 5966,
+      "N": 48098,
+      "raw_read_bounds": [
+        0.32731090689841574,
+        0.45134932845440556
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 1,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622959",
+      "figure": "F3d",
+      "condition": "+/-/+/+",
+      "source_replica": 3,
+      "trim_last_raw_bases": 48,
+      "E": 15743,
+      "non_E": 26316,
+      "U_E": 6039,
+      "N": 48098,
+      "raw_read_bounds": [
+        0.32731090689841574,
+        0.45286706307954594
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 12,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622845",
+      "figure": "F3d",
+      "condition": "+/+/+/+",
+      "source_replica": 1,
+      "trim_last_raw_bases": 3,
+      "E": 22374,
+      "non_E": 14094,
+      "U_E": 2327,
+      "N": 38795,
+      "raw_read_bounds": [
+        0.5767238046139966,
+        0.636705761051682
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622845",
+      "figure": "F3d",
+      "condition": "+/+/+/+",
+      "source_replica": 1,
+      "trim_last_raw_bases": 4,
+      "E": 22374,
+      "non_E": 14088,
+      "U_E": 2333,
+      "N": 38795,
+      "raw_read_bounds": [
+        0.5767238046139966,
+        0.6368604201572368
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622845",
+      "figure": "F3d",
+      "condition": "+/+/+/+",
+      "source_replica": 1,
+      "trim_last_raw_bases": 8,
+      "E": 22374,
+      "non_E": 14088,
+      "U_E": 2333,
+      "N": 38795,
+      "raw_read_bounds": [
+        0.5767238046139966,
+        0.6368604201572368
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622845",
+      "figure": "F3d",
+      "condition": "+/+/+/+",
+      "source_replica": 1,
+      "trim_last_raw_bases": 48,
+      "E": 22374,
+      "non_E": 14052,
+      "U_E": 2369,
+      "N": 38795,
+      "raw_read_bounds": [
+        0.5767238046139966,
+        0.6377883747905658
+      ],
+      "original_ambiguity_veto_E": 5,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622827",
+      "figure": "F3d",
+      "condition": "+/+/+/+",
+      "source_replica": 2,
+      "trim_last_raw_bases": 3,
+      "E": 26296,
+      "non_E": 22653,
+      "U_E": 3058,
+      "N": 52007,
+      "raw_read_bounds": [
+        0.5056242428903801,
+        0.5644240198434826
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622827",
+      "figure": "F3d",
+      "condition": "+/+/+/+",
+      "source_replica": 2,
+      "trim_last_raw_bases": 4,
+      "E": 26296,
+      "non_E": 22652,
+      "U_E": 3059,
+      "N": 52007,
+      "raw_read_bounds": [
+        0.5056242428903801,
+        0.5644432480243045
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622827",
+      "figure": "F3d",
+      "condition": "+/+/+/+",
+      "source_replica": 2,
+      "trim_last_raw_bases": 8,
+      "E": 26296,
+      "non_E": 22652,
+      "U_E": 3059,
+      "N": 52007,
+      "raw_read_bounds": [
+        0.5056242428903801,
+        0.5644432480243045
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622827",
+      "figure": "F3d",
+      "condition": "+/+/+/+",
+      "source_replica": 2,
+      "trim_last_raw_bases": 48,
+      "E": 26296,
+      "non_E": 22630,
+      "U_E": 3081,
+      "N": 52007,
+      "raw_read_bounds": [
+        0.5056242428903801,
+        0.5648662680023843
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622955",
+      "figure": "F3d",
+      "condition": "+/+/+/+",
+      "source_replica": 3,
+      "trim_last_raw_bases": 3,
+      "E": 18377,
+      "non_E": 14490,
+      "U_E": 2118,
+      "N": 34985,
+      "raw_read_bounds": [
+        0.5252822638273545,
+        0.5858224953551522
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622955",
+      "figure": "F3d",
+      "condition": "+/+/+/+",
+      "source_replica": 3,
+      "trim_last_raw_bases": 4,
+      "E": 18377,
+      "non_E": 14490,
+      "U_E": 2118,
+      "N": 34985,
+      "raw_read_bounds": [
+        0.5252822638273545,
+        0.5858224953551522
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622955",
+      "figure": "F3d",
+      "condition": "+/+/+/+",
+      "source_replica": 3,
+      "trim_last_raw_bases": 8,
+      "E": 18377,
+      "non_E": 14490,
+      "U_E": 2118,
+      "N": 34985,
+      "raw_read_bounds": [
+        0.5252822638273545,
+        0.5858224953551522
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29622955",
+      "figure": "F3d",
+      "condition": "+/+/+/+",
+      "source_replica": 3,
+      "trim_last_raw_bases": 48,
+      "E": 18377,
+      "non_E": 14486,
+      "U_E": 2122,
+      "N": 34985,
+      "raw_read_bounds": [
+        0.5252822638273545,
+        0.5859368300700301
+      ],
+      "original_ambiguity_veto_E": 1,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623274",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 1,
+      "trim_last_raw_bases": 3,
+      "E": 1,
+      "non_E": 13202,
+      "U_E": 559,
+      "N": 13762,
+      "raw_read_bounds": [
+        7.266385699752942e-05,
+        0.04069175991861648
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623274",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 1,
+      "trim_last_raw_bases": 4,
+      "E": 1,
+      "non_E": 13202,
+      "U_E": 559,
+      "N": 13762,
+      "raw_read_bounds": [
+        7.266385699752942e-05,
+        0.04069175991861648
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623274",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 1,
+      "trim_last_raw_bases": 8,
+      "E": 1,
+      "non_E": 13202,
+      "U_E": 559,
+      "N": 13762,
+      "raw_read_bounds": [
+        7.266385699752942e-05,
+        0.04069175991861648
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623274",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 1,
+      "trim_last_raw_bases": 48,
+      "E": 1,
+      "non_E": 13202,
+      "U_E": 559,
+      "N": 13762,
+      "raw_read_bounds": [
+        7.266385699752942e-05,
+        0.04069175991861648
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623266",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 2,
+      "trim_last_raw_bases": 3,
+      "E": 0,
+      "non_E": 13317,
+      "U_E": 300,
+      "N": 13617,
+      "raw_read_bounds": [
+        0.0,
+        0.022031284423881914
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623266",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 2,
+      "trim_last_raw_bases": 4,
+      "E": 0,
+      "non_E": 13317,
+      "U_E": 300,
+      "N": 13617,
+      "raw_read_bounds": [
+        0.0,
+        0.022031284423881914
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623266",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 2,
+      "trim_last_raw_bases": 8,
+      "E": 0,
+      "non_E": 13317,
+      "U_E": 300,
+      "N": 13617,
+      "raw_read_bounds": [
+        0.0,
+        0.022031284423881914
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623266",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 2,
+      "trim_last_raw_bases": 48,
+      "E": 0,
+      "non_E": 13317,
+      "U_E": 300,
+      "N": 13617,
+      "raw_read_bounds": [
+        0.0,
+        0.022031284423881914
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623268",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 3,
+      "trim_last_raw_bases": 3,
+      "E": 0,
+      "non_E": 29247,
+      "U_E": 709,
+      "N": 29956,
+      "raw_read_bounds": [
+        0.0,
+        0.023668046468153292
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623268",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 3,
+      "trim_last_raw_bases": 4,
+      "E": 0,
+      "non_E": 29247,
+      "U_E": 709,
+      "N": 29956,
+      "raw_read_bounds": [
+        0.0,
+        0.023668046468153292
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623268",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 3,
+      "trim_last_raw_bases": 8,
+      "E": 0,
+      "non_E": 29247,
+      "U_E": 709,
+      "N": 29956,
+      "raw_read_bounds": [
+        0.0,
+        0.023668046468153292
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623268",
+      "figure": "F4a",
+      "condition": "untreated",
+      "source_replica": 3,
+      "trim_last_raw_bases": 48,
+      "E": 0,
+      "non_E": 29247,
+      "U_E": 709,
+      "N": 29956,
+      "raw_read_bounds": [
+        0.0,
+        0.023668046468153292
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623273",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 1,
+      "trim_last_raw_bases": 3,
+      "E": 2,
+      "non_E": 16543,
+      "U_E": 632,
+      "N": 17177,
+      "raw_read_bounds": [
+        0.00011643476742155208,
+        0.03690982127263201
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623273",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 1,
+      "trim_last_raw_bases": 4,
+      "E": 2,
+      "non_E": 16543,
+      "U_E": 632,
+      "N": 17177,
+      "raw_read_bounds": [
+        0.00011643476742155208,
+        0.03690982127263201
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623273",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 1,
+      "trim_last_raw_bases": 8,
+      "E": 2,
+      "non_E": 16543,
+      "U_E": 632,
+      "N": 17177,
+      "raw_read_bounds": [
+        0.00011643476742155208,
+        0.03690982127263201
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623273",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 1,
+      "trim_last_raw_bases": 48,
+      "E": 2,
+      "non_E": 16543,
+      "U_E": 632,
+      "N": 17177,
+      "raw_read_bounds": [
+        0.00011643476742155208,
+        0.03690982127263201
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623265",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 2,
+      "trim_last_raw_bases": 3,
+      "E": 0,
+      "non_E": 20577,
+      "U_E": 464,
+      "N": 21041,
+      "raw_read_bounds": [
+        0.0,
+        0.02205218383156694
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623265",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 2,
+      "trim_last_raw_bases": 4,
+      "E": 0,
+      "non_E": 20577,
+      "U_E": 464,
+      "N": 21041,
+      "raw_read_bounds": [
+        0.0,
+        0.02205218383156694
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623265",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 2,
+      "trim_last_raw_bases": 8,
+      "E": 0,
+      "non_E": 20577,
+      "U_E": 464,
+      "N": 21041,
+      "raw_read_bounds": [
+        0.0,
+        0.02205218383156694
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623265",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 2,
+      "trim_last_raw_bases": 48,
+      "E": 0,
+      "non_E": 20577,
+      "U_E": 464,
+      "N": 21041,
+      "raw_read_bounds": [
+        0.0,
+        0.02205218383156694
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623267",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 3,
+      "trim_last_raw_bases": 3,
+      "E": 0,
+      "non_E": 26466,
+      "U_E": 558,
+      "N": 27024,
+      "raw_read_bounds": [
+        0.0,
+        0.020648312611012434
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623267",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 3,
+      "trim_last_raw_bases": 4,
+      "E": 0,
+      "non_E": 26466,
+      "U_E": 558,
+      "N": 27024,
+      "raw_read_bounds": [
+        0.0,
+        0.020648312611012434
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623267",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 3,
+      "trim_last_raw_bases": 8,
+      "E": 0,
+      "non_E": 26466,
+      "U_E": 558,
+      "N": 27024,
+      "raw_read_bounds": [
+        0.0,
+        0.020648312611012434
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623267",
+      "figure": "F4a",
+      "condition": "mock",
+      "source_replica": 3,
+      "trim_last_raw_bases": 48,
+      "E": 0,
+      "non_E": 26466,
+      "U_E": 558,
+      "N": 27024,
+      "raw_read_bounds": [
+        0.0,
+        0.020648312611012434
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623272",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 1,
+      "trim_last_raw_bases": 3,
+      "E": 3568,
+      "non_E": 15943,
+      "U_E": 1062,
+      "N": 20573,
+      "raw_read_bounds": [
+        0.1734311962280659,
+        0.22505225295289943
+      ],
+      "original_ambiguity_veto_E": 13,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623272",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 1,
+      "trim_last_raw_bases": 4,
+      "E": 3568,
+      "non_E": 15943,
+      "U_E": 1062,
+      "N": 20573,
+      "raw_read_bounds": [
+        0.1734311962280659,
+        0.22505225295289943
+      ],
+      "original_ambiguity_veto_E": 46,
+      "original_ambiguity_veto_N": 1,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623272",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 1,
+      "trim_last_raw_bases": 8,
+      "E": 3568,
+      "non_E": 15941,
+      "U_E": 1064,
+      "N": 20573,
+      "raw_read_bounds": [
+        0.1734311962280659,
+        0.2251494677489914
+      ],
+      "original_ambiguity_veto_E": 57,
+      "original_ambiguity_veto_N": 1,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623272",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 1,
+      "trim_last_raw_bases": 48,
+      "E": 3514,
+      "non_E": 15841,
+      "U_E": 1218,
+      "N": 20573,
+      "raw_read_bounds": [
+        0.17080639673358286,
+        0.23001020755358967
+      ],
+      "original_ambiguity_veto_E": 57,
+      "original_ambiguity_veto_N": 1,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623271",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 2,
+      "trim_last_raw_bases": 3,
+      "E": 5702,
+      "non_E": 12697,
+      "U_E": 785,
+      "N": 19184,
+      "raw_read_bounds": [
+        0.29722685571309426,
+        0.3381463719766472
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623271",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 2,
+      "trim_last_raw_bases": 4,
+      "E": 5702,
+      "non_E": 12697,
+      "U_E": 785,
+      "N": 19184,
+      "raw_read_bounds": [
+        0.29722685571309426,
+        0.3381463719766472
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623271",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 2,
+      "trim_last_raw_bases": 8,
+      "E": 5702,
+      "non_E": 12697,
+      "U_E": 785,
+      "N": 19184,
+      "raw_read_bounds": [
+        0.29722685571309426,
+        0.3381463719766472
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623271",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 2,
+      "trim_last_raw_bases": 48,
+      "E": 5702,
+      "non_E": 12697,
+      "U_E": 785,
+      "N": 19184,
+      "raw_read_bounds": [
+        0.29722685571309426,
+        0.3381463719766472
+      ],
+      "original_ambiguity_veto_E": 2,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623270",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 3,
+      "trim_last_raw_bases": 3,
+      "E": 3759,
+      "non_E": 10335,
+      "U_E": 578,
+      "N": 14672,
+      "raw_read_bounds": [
+        0.2562022900763359,
+        0.2955970556161396
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623270",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 3,
+      "trim_last_raw_bases": 4,
+      "E": 3759,
+      "non_E": 10335,
+      "U_E": 578,
+      "N": 14672,
+      "raw_read_bounds": [
+        0.2562022900763359,
+        0.2955970556161396
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623270",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 3,
+      "trim_last_raw_bases": 8,
+      "E": 3759,
+      "non_E": 10335,
+      "U_E": 578,
+      "N": 14672,
+      "raw_read_bounds": [
+        0.2562022900763359,
+        0.2955970556161396
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    },
+    {
+      "run_accession": "SRR29623270",
+      "figure": "F4a",
+      "condition": "PE treated",
+      "source_replica": 3,
+      "trim_last_raw_bases": 48,
+      "E": 3759,
+      "non_E": 10335,
+      "U_E": 578,
+      "N": 14672,
+      "raw_read_bounds": [
+        0.2562022900763359,
+        0.2955970556161396
+      ],
+      "original_ambiguity_veto_E": 0,
+      "original_ambiguity_veto_N": 0,
+      "interpretation": "sensitivity retaining original whole-read ambiguity; not a finding of biological damage"
+    }
+  ],
+  "nominal_primary_contrasts": [
+    {
+      "trim_last_raw_bases": 3,
+      "source_replica": 1,
+      "treated_minus_mock_bounds": [
+        0.1365213749554339,
+        0.2249358181854779
+      ],
+      "nominal_preparation_comparison_not_causal_donor_inference": true
+    },
+    {
+      "trim_last_raw_bases": 3,
+      "source_replica": 2,
+      "treated_minus_mock_bounds": [
+        0.27517467188152733,
+        0.3381463719766472
+      ],
+      "nominal_preparation_comparison_not_causal_donor_inference": true
+    },
+    {
+      "trim_last_raw_bases": 3,
+      "source_replica": 3,
+      "treated_minus_mock_bounds": [
+        0.23555397746532344,
+        0.2955970556161396
+      ],
+      "nominal_preparation_comparison_not_causal_donor_inference": true
+    },
+    {
+      "trim_last_raw_bases": 4,
+      "source_replica": 1,
+      "treated_minus_mock_bounds": [
+        0.1365213749554339,
+        0.2249358181854779
+      ],
+      "nominal_preparation_comparison_not_causal_donor_inference": true
+    },
+    {
+      "trim_last_raw_bases": 4,
+      "source_replica": 2,
+      "treated_minus_mock_bounds": [
+        0.27517467188152733,
+        0.3381463719766472
+      ],
+      "nominal_preparation_comparison_not_causal_donor_inference": true
+    },
+    {
+      "trim_last_raw_bases": 4,
+      "source_replica": 3,
+      "treated_minus_mock_bounds": [
+        0.23555397746532344,
+        0.2955970556161396
+      ],
+      "nominal_preparation_comparison_not_causal_donor_inference": true
+    },
+    {
+      "trim_last_raw_bases": 8,
+      "source_replica": 1,
+      "treated_minus_mock_bounds": [
+        0.1365213749554339,
+        0.22503303298156985
+      ],
+      "nominal_preparation_comparison_not_causal_donor_inference": true
+    },
+    {
+      "trim_last_raw_bases": 8,
+      "source_replica": 2,
+      "treated_minus_mock_bounds": [
+        0.27517467188152733,
+        0.3381463719766472
+      ],
+      "nominal_preparation_comparison_not_causal_donor_inference": true
+    },
+    {
+      "trim_last_raw_bases": 8,
+      "source_replica": 3,
+      "treated_minus_mock_bounds": [
+        0.23555397746532344,
+        0.2955970556161396
+      ],
+      "nominal_preparation_comparison_not_causal_donor_inference": true
+    },
+    {
+      "trim_last_raw_bases": 48,
+      "source_replica": 1,
+      "treated_minus_mock_bounds": [
+        0.13389657546095085,
+        0.22989377278616813
+      ],
+      "nominal_preparation_comparison_not_causal_donor_inference": true
+    },
+    {
+      "trim_last_raw_bases": 48,
+      "source_replica": 2,
+      "treated_minus_mock_bounds": [
+        0.27517467188152733,
+        0.3381463719766472
+      ],
+      "nominal_preparation_comparison_not_causal_donor_inference": true
+    },
+    {
+      "trim_last_raw_bases": 48,
+      "source_replica": 3,
+      "treated_minus_mock_bounds": [
+        0.23555397746532344,
+        0.2955970556161396
+      ],
+      "nominal_preparation_comparison_not_causal_donor_inference": true
+    }
+  ]
+}
