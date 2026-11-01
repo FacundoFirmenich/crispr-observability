@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-11-01T09:12:27.312308+00:00",
+  "predecessor_public_commit": "c5079a183a0b57db08fd614009c089437b31205d",
+  "centre": "CRISPR P1: product-dependent observability, observed-sequence correspondence and target-relative finite-record inference. Other genomic/acoustic hypotheses remain separate.",
+  "timing": "Retrospective expansion; MP05 CFTR outcomes known. External literature summaries visible, but no external raw records or detailed human annotation files opened yet. Not blinded, public preregistered or prospective biological validation.",
+  "gates": [
+    {
+      "id": "M",
+      "question": "Disentangle orientation, competing references and gap incentive in the 89 suffix discordances",
+      "scope": "45 new engine jobs, same nine CFTR streams; five predefined partial-factorial profiles; compare with frozen forward M/P and MP05 PE default."
+    },
+    {
+      "id": "A",
+      "question": "Replace one traceback with the complete set of locally admissible coding projections among all optimal paths in the declared zero-incentive affine objective",
+      "scope": "Actual previously discordant CFTR records and deterministic hash-selected real-record comparators; exact optimal-path DAG, path counts, coding interval sets, whole-string and event invariance; compare unmodified engine tracebacks and enumerate actual small path sets for independent checking."
+    },
+    {
+      "id": "T",
+      "question": "Transport operational checks beyond CFTR using an accession-linked external prime-editing experiment and published human interpretation",
+      "scope": "Start SRR10285861 HEK3 Fig2b_10_rep2 from Anzalone2019 PRJNA565979, used as human PE benchmark by CRISPR-A2023. Authenticate source sequence, metadata, raw identifiers and rater granularity before interpreting agreement. Add source-compatible controls/replicates by metadata rather than selecting desired outcomes."
+    },
+    {
+      "id": "U",
+      "question": "Compile task-relative certificates and decision consequences rather than equating every useful event claim with whole-string equality",
+      "scope": "Native local and exact programmed CFTR predicates; preserve required-profile U as wildcard. Whole-string, event-label and joint-target certificate levels remain distinct. External task has its own source-authenticated predicate."
+    },
+    {
+      "id": "E",
+      "question": "Integrate actual outcomes, adverses and frontier gates in a successor article/supplement",
+      "scope": "Private LaTeX MP06; public source and scientific outputs remain subordinate. No full article/supplement publication before author bioRxiv deposit."
+    }
+  ],
+  "stop_rules": [
+    "Source identity mismatch stops affected use",
+    "Unmapped human interpretation is not record-level or molecular ground truth",
+    "A finite profile union is not all possible alignments",
+    "All-optimal proof is restricted to the explicit scoring objective; no universal biological accuracy claim",
+    "If an optimal path lacks required coding flanks, its unknown projection cannot be silently discarded",
+    "No external human reproduction is claimed from project-run code or CI",
+    "Do not introduce synthetic biological records or simulations"
+  ],
+  "no_subagents": true
+}

@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "new_engine_jobs": 45,
+  "records": 177006,
+  "focus_records": 89,
+  "focus_orientation_reproduces_PE_suffix": 44,
+  "focus_PE_zero_equals_PE_default": 44,
+  "focus_PE_zero_equals_MP_rc": 89,
+  "focus_MP_fw_equals_old_target": 89,
+  "same_selected_single_reference_mismatch_counts": {},
+  "unknown_counts": {
+    "F3": {
+      "string_witness": {
+        "native": 6281,
+        "exact_programmed": 6281,
+        "native_nonexact": 6281
+      },
+      "target_relative": {
+        "native": 6263,
+        "exact_programmed": 6263,
+        "native_nonexact": 6198
+      }
+    },
+    "F4": {
+      "string_witness": {
+        "native": 6374,
+        "exact_programmed": 6374,
+        "native_nonexact": 6374
+      },
+      "target_relative": {
+        "native": 6303,
+        "exact_programmed": 6299,
+        "native_nonexact": 6206
+      }
+    },
+    "F9": {
+      "string_witness": {
+        "native": 6409,
+        "exact_programmed": 6409,
+        "native_nonexact": 6409
+      },
+      "target_relative": {
+        "native": 6339,
+        "exact_programmed": 6335,
+        "native_nonexact": 6242
+      }
+    }
+  },
+  "joint_polygons": 27,
+  "joint_support_directions_checked": 216,
+  "finite_target_domains": "Required-operator U is wildcard over all three logically possible native/exact signatures; not dropped. Resolved finite candidate signatures need not have identical DNA.",
+  "not_claimed": "New cohorts, biological accuracy, independent human replication, universal model coverage or measured analyst utility."
+}

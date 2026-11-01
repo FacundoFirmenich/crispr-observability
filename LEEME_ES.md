@@ -1,8 +1,10 @@
 # Compañero computacional público
 
-Versión **0.5.0 / MP05**, 1 de noviembre de 2026.
+Versión **0.6.0 / MP06**, 1 de noviembre de 2026.
 
 El repositorio contiene código, datos numéricos, trazabilidad y figuras editables.
+
+MP06 añade el método constructivo de correspondencia completa y certificados por objetivo, 45 configuraciones CFTR y la aplicación fijada a 218.930 lecturas HEK3. Instrucciones: [extensions/correspondence_frontier/README.md](extensions/correspondence_frontier/README.md). Figuras 6–7: `figures/correspondence_frontier/`. Los grafos conservan su base anterior declarada; no se presentan como mapas completos de MP06. Reproducción: `python -B extensions/correspondence_frontier/replay.py --work /tmp/crispr-p1-mp06`.
 El manuscrito completo y su suplemento se conservan de forma privada hasta el
 depósito que decida el autor.
 

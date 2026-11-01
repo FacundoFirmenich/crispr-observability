@@ -86,10 +86,10 @@ def main():
             provenance = ('CRISPR P1 supplementary public-reference and raw-record audit; Seq2Music-generated carriers retain upstream notice and source terms' if extension else
                           'New separate spatial interface adapts the actual published KwanTube Beyond Redfield companion; exact upstream identity and modifications in interactive/supergraph/' if spatial else
                           'Independent PaperGraph interface and renderer; public authored claim summaries, typed relations and existing numerical source identities; formal manuscript and supplement withheld' if papergraph else
-                          'Current computational companion; the existing white interactive interface was independently implemented and remains unchanged')
+                          'MP06 correspondence frontier: actual CFTR records Sousa et al.; HEK3 records Anzalone et al.; published aggregate table Sanvicente-Garcia et al. No scientific-data relicensing.' if name.startswith(('extensions/correspondence_frontier/', 'figures/correspondence_frontier/')) else 'Current computational companion; the existing white interactive interface was independently implemented and remains unchanged')
             writer.writerow({'asset': name, 'bundled': 'yes',
                 'asset_kind': kind,
-                'attribution': 'Facundo Firmenich programme; original CFTR experiments Sousa et al.; upstream sources retain attribution',
+                'attribution': 'Facundo Firmenich programme; original CFTR experiments Sousa et al.; HEK3 experiments Anzalone et al.; human aggregate benchmark Sanvicente-Garcia et al.; upstream sources retain attribution',
                 'rights_holder_status': rights,
                 'source_or_provenance': provenance,
                 'applicable_terms': terms,
@@ -104,7 +104,7 @@ def main():
                     for name, path in public_files()
                     if name.startswith('figures/') and path != figure_manifest}
     figure_manifest.write_text(json.dumps({
-        'edition': 'MP05', 'files': figure_files,
+        'edition': 'MP06', 'files': figure_files,
         'full_manuscript_or_supplement_included': False,
         'coordinate_contract': 'sources/anchor_geometry_contract.json',
         'papergraph_source': '../interactive/papergraph/papergraph.json'
@@ -113,7 +113,7 @@ def main():
     files = {name: {'bytes': path.stat().st_size,
                     'sha256': hashlib.sha256(path.read_bytes()).hexdigest()}
              for name, path in public_files() if name != INVENTORY}
-    data = {'edition': 'MP05', 'version': '0.5.0',
+    data = {'edition': 'MP06', 'version': '0.6.0',
             'scope': 'Exact current public computational companion source. Complete manuscript and formal supplement remain private. Inventory excludes itself and runtime results/screenshots/dependencies.',
             'files': files}
     (ROOT / INVENTORY).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')

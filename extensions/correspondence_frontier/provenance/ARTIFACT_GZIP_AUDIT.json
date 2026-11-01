@@ -1,0 +1,35 @@
+{
+  "valid": 48,
+  "invalid": [
+    {
+      "path": "/workspace/scratch/61c50c721c17/campaign_20261101/frontier_MP06/mechanism/runs/MP_rc/CRISPResso_on_SRR29623271/CRISPResso_output.fastq.gz",
+      "bytes": 1949231,
+      "error": "Compressed file ended before the end-of-stream marker was reached"
+    },
+    {
+      "path": "/workspace/scratch/61c50c721c17/campaign_20261101/frontier_MP06/mechanism/runs/P_rc/CRISPResso_on_SRR29623266/CRISPResso_output.fastq.gz",
+      "bytes": 984814,
+      "error": "Compressed file ended before the end-of-stream marker was reached"
+    },
+    {
+      "path": "/workspace/scratch/61c50c721c17/campaign_20261101/frontier_MP06/mechanism/runs/M_rc/CRISPResso_on_SRR29623268/CRISPResso_output.fastq.gz",
+      "bytes": 2461078,
+      "error": "Compressed file ended before the end-of-stream marker was reached"
+    },
+    {
+      "path": "/workspace/scratch/61c50c721c17/campaign_20261101/frontier_MP06/mechanism/runs/M_rc/CRISPResso_on_SRR29623265/CRISPResso_output.fastq.gz",
+      "bytes": 1664544,
+      "error": "Compressed file ended before the end-of-stream marker was reached"
+    },
+    {
+      "path": "/workspace/scratch/61c50c721c17/campaign_20261101/frontier_MP06/mechanism/runs/M_rc/CRISPResso_on_SRR29623266/CRISPResso_output.fastq.gz",
+      "bytes": 1288690,
+      "error": "Compressed file ended before the end-of-stream marker was reached"
+    },
+    {
+      "path": "/workspace/scratch/61c50c721c17/campaign_20261101/frontier_MP06/mechanism/runs/PE_zero/CRISPResso_on_SRR29623271/CRISPResso_output.fastq.gz",
+      "bytes": 1950304,
+      "error": "Compressed file ended before the end-of-stream marker was reached"
+    }
+  ]
+}

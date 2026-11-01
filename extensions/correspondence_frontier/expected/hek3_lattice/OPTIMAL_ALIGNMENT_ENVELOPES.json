@@ -1,0 +1,2530 @@
+{
+  "cases": [
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.11062",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.11062",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1222,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.140",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.140",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.18483",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.18483",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.19503",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1204,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.19503",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1222,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.32311",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.32311",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.37855",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.37855",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.39490",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.39490",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAAA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.51836",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAAA",
+      "C2_reverse_coding": "TGATGGCAAA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1204,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAAA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.51836",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAAA",
+      "C2_reverse_coding": "TGATGGCAAA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.51992",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1222,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.51992",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.7195",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.7195",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.7722",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285860",
+      "read_id": "SRR10285860.7722",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.19116",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.19116",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.20332",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.20332",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.22501",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.22501",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAAA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.29780",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAAA",
+      "C2_reverse_coding": "TGATGGCAAA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1204,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAAA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.29780",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAAA",
+      "C2_reverse_coding": "TGATGGCAAA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1222,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.40955",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.40955",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAAA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.44234",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAAA",
+      "C2_reverse_coding": "TGATGGCAAA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1204,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAAA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.44234",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAAA",
+      "C2_reverse_coding": "TGATGGCAAA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.5648",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.5648",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1222,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.65073",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.65073",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1222,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.68470",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.68470",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.71415",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.71415",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.8406",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285862",
+      "read_id": "SRR10285862.8406",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAAA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.1255",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAAA",
+      "C2_reverse_coding": "TGATGGCAAA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1204,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAAA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.1255",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAAA",
+      "C2_reverse_coding": "TGATGGCAAA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1222,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.23254",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.23254",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.28887",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.28887",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.29862",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.29862",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.31873",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.31873",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1222,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.44428",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.44428",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.5301",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.5301",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1222,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.53252",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.53252",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.7077",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.7077",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1222,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.72871",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1213,
+      "optimal_path_count": 1,
+      "optimal_DAG_nodes": 251,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ]
+      ],
+      "valid_coding_strings": [
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": true,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.72871",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "TGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": false,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": true
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 2,
+      "optimal_DAG_nodes": 276,
+      "valid_projection_intervals": [
+        [
+          181,
+          203
+        ],
+        [
+          193,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGAGGTGATGGCAGA",
+        "TGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.8376",
+      "reference": "reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "C2_reverse_coding": "TGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false
+      ],
+      "unedited_local_values": [
+        false,
+        true
+      ],
+      "programmed_local_invariant": true,
+      "unedited_local_invariant": false
+    },
+    {
+      "optimal_integer_objective": 1096,
+      "optimal_path_count": 12,
+      "optimal_DAG_nodes": 406,
+      "valid_projection_intervals": [
+        [
+          181,
+          191
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "valid_coding_strings": [
+        "AGATGGCAGA",
+        "AGATGGCAGAGGTGATGGCAGA"
+      ],
+      "some_optimal_projection_unresolved": false,
+      "all_optimal_strings_identical": false,
+      "all_paths_independently_enumerated": true,
+      "enumeration_limit": 1000,
+      "scope": "All optimal paths for the declared affine objective, zero gap incentive and terminal convention; not all scoring models, alignments or biological truth.",
+      "complete_set_orientation_equivariant": true,
+      "run": "SRR10285861",
+      "read_id": "SRR10285861.8376",
+      "reference": "programmed_reference",
+      "selection": "Declared external hash comparator or top distinct discordant family",
+      "C2_forward_coding": "AGATGGCAGA",
+      "C2_reverse_coding": "AGATGGCAGAGGTGATGGCAGA",
+      "orientation_changes_coding": true,
+      "programmed_local_values": [
+        false,
+        true
+      ],
+      "unedited_local_values": [
+        false
+      ],
+      "programmed_local_invariant": false,
+      "unedited_local_invariant": true
+    }
+  ]
+}

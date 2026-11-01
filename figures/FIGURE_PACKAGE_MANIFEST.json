@@ -1,5 +1,5 @@
 {
-  "edition": "MP05",
+  "edition": "MP06",
   "files": {
     "README.md": {
       "size_bytes": 4527,
@@ -9,6 +9,10 @@
       "size_bytes": 1243,
       "sha256": "c486a2eeecbba80a59873ac18eb15c8f60b04e3ac5c6b78feeec3312da29422d"
     },
+    "code/generate_correspondence_figures.py": {
+      "size_bytes": 6334,
+      "sha256": "5d98f0ab933d7622d0da242ce8647d9dca7f9b78ba872617a79bc74b5518c729"
+    },
     "code/generate_figures.py": {
       "size_bytes": 11790,
       "sha256": "b1138424d0cd888598f50506bd6eb0d03e94d6658fe7e027c4ae836604109cb8"
@@ -16,6 +20,30 @@
     "code/generate_frontier_figures.py": {
       "size_bytes": 5341,
       "sha256": "5e69f7aa656259ccc6ccfb6bff50feff11d80f9a68b2514892c0ef85b6183ae0"
+    },
+    "correspondence_frontier/fig6_complete_correspondence.pdf": {
+      "size_bytes": 24056,
+      "sha256": "6655afd96d445e9147283c76ebb0cdc9cab906617bbd993d5adf0646b542459d"
+    },
+    "correspondence_frontier/fig6_complete_correspondence.png": {
+      "size_bytes": 180309,
+      "sha256": "47951908b8ee81ef53ffcd8899495fec48d3e03afee70d612b014ee3f4a50cd5"
+    },
+    "correspondence_frontier/fig6_complete_correspondence.svg": {
+      "size_bytes": 33070,
+      "sha256": "e896d948724711efeb8e3e6bad59c7243f8ba860ae1f91e8a9e487e5c2c6b344"
+    },
+    "correspondence_frontier/fig7_external_transport.pdf": {
+      "size_bytes": 23610,
+      "sha256": "edda2f6239ffd02a3d77d26610830ca0fff4e4235ee0438614eb7d2333daf60a"
+    },
+    "correspondence_frontier/fig7_external_transport.png": {
+      "size_bytes": 183039,
+      "sha256": "fb5310788102ff5a25d9b4ba05f108f279d8f9187505b39971b57d4de06af162"
+    },
+    "correspondence_frontier/fig7_external_transport.svg": {
+      "size_bytes": 32461,
+      "sha256": "dfe9e8207f74218a7183a8ab039cd4546a1b62c5260e5d71bf8e5c186c1d1420"
     },
     "figures/fig1.pdf": {
       "size_bytes": 11053,

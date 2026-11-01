@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "distinct_source_studies_added": 1,
+  "raw_records": 218930,
+  "Q30_records": 216376,
+  "streams": 3,
+  "new_engine_jobs": 12,
+  "raw_allele_reconciliations": 12,
+  "fixed_rules_before_raw_outcomes": true,
+  "biological_experiments_newly_performed": 0,
+  "human_ground_truth": "Only published aggregate marginals, no authenticated per-read truth labels.",
+  "not_claimed": "Comparative classification accuracy, random representative transport sample, blinded or prospective validation, independent laboratory replication, protein function or a treated-control contrast."
+}

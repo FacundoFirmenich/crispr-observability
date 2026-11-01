@@ -1,3 +1,7 @@
+# 0.6.0 / MP06 — 1 November 2026
+
+Complete optimal-path correspondence with dual boundary transport; task-relative and joint-domain certificates; 45-configuration mechanism intervention; twelve-job HEK3 application on 218,930 original records; published marginal-agreement identification with integer verification; figures and exact raw/frozen-allele replay. Real incomplete annotation artifacts are disclosed and excluded from the analysis channel; complete native allele outputs reconcile exact original abundances. Full article/supplement remain private. Prior CSVs, acknowledgments and graph baselines are preserved. No molecular accuracy, independent-human reproduction or independent-laboratory validation claimed.
+
 # 0.5.0 / MP05 — 2026-11-01
 
 - Restore original fifteen-stream geometry/quality/veto source and six missing unique raw containers; historical expected results remain unchanged.

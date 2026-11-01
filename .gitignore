@@ -19,3 +19,5 @@ private_prechange/
 **/software/build/
 !extensions/reproduction/geometry/source/**/results/
 !extensions/reproduction/geometry/source/**/results/*.json
+
+!extensions/correspondence_frontier/inputs/**/Alleles_frequency_table.zip

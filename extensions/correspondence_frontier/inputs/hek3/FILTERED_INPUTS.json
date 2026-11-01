@@ -1,0 +1,23 @@
+[
+  {
+    "run": "SRR10285860",
+    "N": 58590,
+    "Q30": 57914,
+    "raw_sha256": "947ef97d84ae69663f9a254eaba922c4b095bb65fde79e77b8c0e5e07ba8563a",
+    "filtered_sha256": "59e91dda9bab70f9fb36a95771575a28182fc339c980c36636cec33e7b4a071f"
+  },
+  {
+    "run": "SRR10285862",
+    "N": 86980,
+    "Q30": 85987,
+    "raw_sha256": "ca958330d6a3494b717b40ab48e8c5ea2d08560c3ae28d9e6da17573238cc95f",
+    "filtered_sha256": "5bd09ea242cc3f9c7f3231f51911905e514afa11e0d48a2b24233e030c072884"
+  },
+  {
+    "run": "SRR10285861",
+    "N": 73360,
+    "Q30": 72475,
+    "raw_sha256": "e89a193fe84eda143cbb2c1df154e44157d467a578aeaf077b13f9703d0a816a",
+    "filtered_sha256": "806a9466d91a8e1f602b98b5957fdcd2648aa1397a47ab77bea63eb25807dfae"
+  }
+]

@@ -23,6 +23,10 @@ def main():
         key = 'extensions/reproduction/' + name
         assert key in manifest, 'Missing distributed scientific input: ' + key
         assert manifest[key]['bytes'] == source['bytes'] and manifest[key]['sha256'] == source['sha256'], key
+    frontier = json.loads((ROOT / 'extensions/correspondence_frontier/INPUT_MANIFEST.json').read_text())
+    for name, source in frontier['files'].items():
+        key = 'extensions/correspondence_frontier/' + name
+        assert key in manifest and manifest[key] == source, key
     tracked_scope = 'Declared source snapshot; no matching Git checkout available.'
     try:
         checkout = subprocess.run(['git', '-C', str(ROOT), 'rev-parse', '--show-toplevel'],
@@ -45,7 +49,7 @@ def main():
                                 'node_modules'} for part in relative.parts)
         assert relative.suffix.lower() not in {'.tex', '.docx', '.bundle'}
         if relative.suffix.lower() == '.zip':
-            assert (re.fullmatch(r'raw_replay/inputs/alleles/(?:mutant|programmed)/SRR[0-9]+\.zip', name) or re.fullmatch(r'extensions/reproduction/external/inputs/(?:nhej|allele_specific|base_editor)_Alleles_frequency_table\.zip', name))
+            assert (re.fullmatch(r'raw_replay/inputs/alleles/(?:mutant|programmed)/SRR[0-9]+\.zip', name) or re.fullmatch(r'extensions/reproduction/external/inputs/(?:nhej|allele_specific|base_editor)_Alleles_frequency_table\.zip', name) or re.fullmatch(r'extensions/correspondence_frontier/inputs/(?:cftr/runs/(?:M_rc|P_rc|MP_fw|MP_rc|PE_zero)|PE_default|hek3/runs/(?:M_fw|P_fw|M_rc|P_rc))/CRISPResso_on_SRR[0-9]+/Alleles_frequency_table\.zip', name))
             with zipfile.ZipFile(ROOT / name) as archive:
                 assert archive.namelist() == ['Alleles_frequency_table.txt']
         assert not (relative.suffix.lower() == '.pdf' and not name.startswith('figures/'))
@@ -57,8 +61,8 @@ def main():
             assert '\\begin{document}' not in text, name
             assert 'P1_Revised_Integrated_EN.txt' not in text, name
     release = json.loads((ROOT / 'metadata/RELEASE_STATE.json').read_text())
-    assert release['version'] == inventory['version'] == '0.5.0'
-    assert release['edition'] == inventory['edition'] == policy['edition'] == 'MP05'
+    assert release['version'] == inventory['version'] == '0.6.0'
+    assert release['edition'] == inventory['edition'] == policy['edition'] == 'MP06'
     assert release['manuscript_public'] is False and release['supplement_public'] is False
     # Existing tools and scientific observations are frozen; PaperGraph is a
     # separate communication artifact, not a rewrite of historical analyses.

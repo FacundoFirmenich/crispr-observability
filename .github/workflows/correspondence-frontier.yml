@@ -1,0 +1,24 @@
+name: CRISPR P1 complete correspondence frontier
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actual-data-replay:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        part: [mechanism, external, cftr_lattice, hek3_lattice]
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.12.14'
+      - name: Reconstruct actual-data scientific outputs exactly
+        run: python -B extensions/correspondence_frontier/replay.py --part "${{ matrix.part }}" --work "$RUNNER_TEMP/correspondence-${{ matrix.part }}"

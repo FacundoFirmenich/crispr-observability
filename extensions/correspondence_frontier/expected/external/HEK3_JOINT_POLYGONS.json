@@ -1,0 +1,313 @@
+{
+  "polygons": [
+    {
+      "run": "SRR10285860",
+      "N": 58590,
+      "targets": [
+        "programmed_local",
+        "unedited_local"
+      ],
+      "logical_relation": "mutually exclusive",
+      "vertices_integer_counts": [
+        [
+          6245,
+          32399
+        ],
+        [
+          8210,
+          32399
+        ],
+        [
+          8210,
+          32433
+        ],
+        [
+          6322,
+          34321
+        ],
+        [
+          6245,
+          34321
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 17947
+        },
+        {
+          "allowed": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "records": 34
+        },
+        {
+          "allowed": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 1888
+        },
+        {
+          "allowed": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 77
+        },
+        {
+          "allowed": [
+            [
+              0,
+              1
+            ]
+          ],
+          "records": 32399
+        },
+        {
+          "allowed": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 6245
+        }
+      ]
+    },
+    {
+      "run": "SRR10285862",
+      "N": 86980,
+      "targets": [
+        "programmed_local",
+        "unedited_local"
+      ],
+      "logical_relation": "mutually exclusive",
+      "vertices_integer_counts": [
+        [
+          10189,
+          47814
+        ],
+        [
+          12886,
+          47814
+        ],
+        [
+          12886,
+          47867
+        ],
+        [
+          10369,
+          50384
+        ],
+        [
+          10189,
+          50384
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 26227
+        },
+        {
+          "allowed": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "records": 53
+        },
+        {
+          "allowed": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 2517
+        },
+        {
+          "allowed": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 180
+        },
+        {
+          "allowed": [
+            [
+              0,
+              1
+            ]
+          ],
+          "records": 47814
+        },
+        {
+          "allowed": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 10189
+        }
+      ]
+    },
+    {
+      "run": "SRR10285861",
+      "N": 73360,
+      "targets": [
+        "programmed_local",
+        "unedited_local"
+      ],
+      "logical_relation": "mutually exclusive",
+      "vertices_integer_counts": [
+        [
+          9776,
+          39456
+        ],
+        [
+          12099,
+          39456
+        ],
+        [
+          12099,
+          39505
+        ],
+        [
+          9904,
+          41700
+        ],
+        [
+          9776,
+          41700
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 21756
+        },
+        {
+          "allowed": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "records": 49
+        },
+        {
+          "allowed": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 2195
+        },
+        {
+          "allowed": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 128
+        },
+        {
+          "allowed": [
+            [
+              0,
+              1
+            ]
+          ],
+          "records": 39456
+        },
+        {
+          "allowed": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 9776
+        }
+      ]
+    }
+  ]
+}

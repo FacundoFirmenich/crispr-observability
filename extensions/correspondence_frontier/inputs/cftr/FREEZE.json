@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-01T09:12:25.927770+00:00",
+  "timing": "Known retrospective CFTR data; MP05 results known. New ablation outputs not inspected before this command freeze. Not prospective biological validation.",
+  "source_commit": "1fc4b629e5400a48d6569b0ab4b8d1766f33636f",
+  "source_script_sha256": "2d989f3cc8e254d9429120a35d7409ec47e41462240fde76faf2449375d04a1e",
+  "jobs_sha256": "2e04d2b535afe53db28cc0c16ea3ec0289bb04d62834cd91ae048cce68685bc3",
+  "inputs_sha256": "fa24b1e426db38b5fbb812ecc633c2c5a01a0f8bd6b7ab82832c905a8a3a2f75",
+  "factors": "Reverse-complement orientation, one versus competing reference assignment, and removal of dedicated PE gap incentives. This is a declared partial factorial; unsupported forward PE orientation is not invented.",
+  "primary_outputs": "Per-record coding correspondence after normalization, raw-N event hulls, same-record label transitions and attribution patterns for the 89 MP05 discordances. Native tool metrics separate.",
+  "limits": "Operational sensitivity, not comparative biological accuracy, independent truth or a new cohort."
+}

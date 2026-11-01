@@ -1,0 +1,1791 @@
+{
+  "polygons": [
+    {
+      "run": "SRR29623265",
+      "preparation": 2,
+      "condition": "mock",
+      "family": "F3",
+      "N": 21041,
+      "integer_count_hull_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          513,
+          0
+        ],
+        [
+          513,
+          513
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 20528
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 513
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623265",
+      "preparation": 2,
+      "condition": "mock",
+      "family": "F4",
+      "N": 21041,
+      "integer_count_hull_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          513,
+          0
+        ],
+        [
+          513,
+          513
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 20528
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 513
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623265",
+      "preparation": 2,
+      "condition": "mock",
+      "family": "F9",
+      "N": 21041,
+      "integer_count_hull_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          513,
+          0
+        ],
+        [
+          513,
+          513
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 20528
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 513
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623266",
+      "preparation": 2,
+      "condition": "untreated",
+      "family": "F3",
+      "N": 13617,
+      "integer_count_hull_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          327,
+          0
+        ],
+        [
+          327,
+          327
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 13290
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 327
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623266",
+      "preparation": 2,
+      "condition": "untreated",
+      "family": "F4",
+      "N": 13617,
+      "integer_count_hull_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          327,
+          0
+        ],
+        [
+          327,
+          327
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 13290
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 327
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623266",
+      "preparation": 2,
+      "condition": "untreated",
+      "family": "F9",
+      "N": 13617,
+      "integer_count_hull_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          327,
+          0
+        ],
+        [
+          327,
+          327
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 13290
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 327
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623267",
+      "preparation": 3,
+      "condition": "mock",
+      "family": "F3",
+      "N": 27024,
+      "integer_count_hull_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          632,
+          0
+        ],
+        [
+          632,
+          632
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 26392
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 632
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623267",
+      "preparation": 3,
+      "condition": "mock",
+      "family": "F4",
+      "N": 27024,
+      "integer_count_hull_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          632,
+          0
+        ],
+        [
+          632,
+          632
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 26392
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 632
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623267",
+      "preparation": 3,
+      "condition": "mock",
+      "family": "F9",
+      "N": 27024,
+      "integer_count_hull_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          632,
+          0
+        ],
+        [
+          632,
+          632
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 26392
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 632
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623268",
+      "preparation": 3,
+      "condition": "untreated",
+      "family": "F3",
+      "N": 29956,
+      "integer_count_hull_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          784,
+          0
+        ],
+        [
+          784,
+          784
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 29172
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 784
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623268",
+      "preparation": 3,
+      "condition": "untreated",
+      "family": "F4",
+      "N": 29956,
+      "integer_count_hull_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          784,
+          0
+        ],
+        [
+          784,
+          784
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 29172
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 784
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623268",
+      "preparation": 3,
+      "condition": "untreated",
+      "family": "F9",
+      "N": 29956,
+      "integer_count_hull_vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          784,
+          0
+        ],
+        [
+          784,
+          784
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 29172
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 784
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "family": "F3",
+      "N": 14672,
+      "integer_count_hull_vertices": [
+        [
+          3741,
+          3706
+        ],
+        [
+          4388,
+          3706
+        ],
+        [
+          4403,
+          3721
+        ],
+        [
+          4403,
+          4368
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 10269
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 647
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 15
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 35
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 3706
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "family": "F4",
+      "N": 14672,
+      "integer_count_hull_vertices": [
+        [
+          3741,
+          3706
+        ],
+        [
+          4393,
+          3706
+        ],
+        [
+          4422,
+          3735
+        ],
+        [
+          4422,
+          4384
+        ],
+        [
+          4419,
+          4384
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 10250
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 3
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 649
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 29
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 35
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 3706
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "family": "F9",
+      "N": 14672,
+      "integer_count_hull_vertices": [
+        [
+          3741,
+          3706
+        ],
+        [
+          4394,
+          3706
+        ],
+        [
+          4423,
+          3735
+        ],
+        [
+          4423,
+          4385
+        ],
+        [
+          4420,
+          4385
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 10249
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 3
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 650
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 29
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 35
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 3706
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "family": "F3",
+      "N": 19184,
+      "integer_count_hull_vertices": [
+        [
+          5673,
+          5605
+        ],
+        [
+          6548,
+          5605
+        ],
+        [
+          6569,
+          5626
+        ],
+        [
+          6569,
+          6501
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 12615
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 875
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 21
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 68
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 5605
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "family": "F4",
+      "N": 19184,
+      "integer_count_hull_vertices": [
+        [
+          5673,
+          5605
+        ],
+        [
+          6550,
+          5605
+        ],
+        [
+          6585,
+          5640
+        ],
+        [
+          6585,
+          6516
+        ],
+        [
+          6584,
+          6516
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 12599
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 1
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 876
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 35
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 68
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 5605
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "family": "F9",
+      "N": 19184,
+      "integer_count_hull_vertices": [
+        [
+          5673,
+          5605
+        ],
+        [
+          6559,
+          5605
+        ],
+        [
+          6594,
+          5640
+        ],
+        [
+          6594,
+          6525
+        ],
+        [
+          6593,
+          6525
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 12590
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 1
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 885
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 35
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 68
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 5605
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623272",
+      "preparation": 1,
+      "condition": "PE treated",
+      "family": "F3",
+      "N": 20573,
+      "integer_count_hull_vertices": [
+        [
+          3563,
+          3539
+        ],
+        [
+          4697,
+          3539
+        ],
+        [
+          4726,
+          3568
+        ],
+        [
+          4726,
+          4702
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 15847
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 1134
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 29
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 24
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 3539
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623272",
+      "preparation": 1,
+      "condition": "PE treated",
+      "family": "F4",
+      "N": 20573,
+      "integer_count_hull_vertices": [
+        [
+          3563,
+          3539
+        ],
+        [
+          4698,
+          3539
+        ],
+        [
+          4731,
+          3572
+        ],
+        [
+          4731,
+          4707
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 15842
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 1135
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 33
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 24
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 3539
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623272",
+      "preparation": 1,
+      "condition": "PE treated",
+      "family": "F9",
+      "N": 20573,
+      "integer_count_hull_vertices": [
+        [
+          3563,
+          3539
+        ],
+        [
+          4724,
+          3539
+        ],
+        [
+          4757,
+          3572
+        ],
+        [
+          4757,
+          4733
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 15816
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 1161
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 33
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 24
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 3539
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623273",
+      "preparation": 1,
+      "condition": "mock",
+      "family": "F3",
+      "N": 17177,
+      "integer_count_hull_vertices": [
+        [
+          2,
+          2
+        ],
+        [
+          702,
+          2
+        ],
+        [
+          702,
+          702
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 16475
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 700
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 2
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623273",
+      "preparation": 1,
+      "condition": "mock",
+      "family": "F4",
+      "N": 17177,
+      "integer_count_hull_vertices": [
+        [
+          2,
+          2
+        ],
+        [
+          702,
+          2
+        ],
+        [
+          702,
+          702
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 16475
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 700
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 2
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623273",
+      "preparation": 1,
+      "condition": "mock",
+      "family": "F9",
+      "N": 17177,
+      "integer_count_hull_vertices": [
+        [
+          2,
+          2
+        ],
+        [
+          702,
+          2
+        ],
+        [
+          702,
+          702
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 16475
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 700
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 2
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623274",
+      "preparation": 1,
+      "condition": "untreated",
+      "family": "F3",
+      "N": 13762,
+      "integer_count_hull_vertices": [
+        [
+          1,
+          0
+        ],
+        [
+          587,
+          0
+        ],
+        [
+          587,
+          586
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 13175
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 586
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 1
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623274",
+      "preparation": 1,
+      "condition": "untreated",
+      "family": "F4",
+      "N": 13762,
+      "integer_count_hull_vertices": [
+        [
+          1,
+          0
+        ],
+        [
+          587,
+          0
+        ],
+        [
+          587,
+          586
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 13175
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 586
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 1
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    },
+    {
+      "run": "SRR29623274",
+      "preparation": 1,
+      "condition": "untreated",
+      "family": "F9",
+      "N": 13762,
+      "integer_count_hull_vertices": [
+        [
+          1,
+          0
+        ],
+        [
+          587,
+          0
+        ],
+        [
+          587,
+          586
+        ]
+      ],
+      "signature_domains": [
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ]
+          ],
+          "records": 13175
+        },
+        {
+          "allowed_signatures": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "records": 586
+        },
+        {
+          "allowed_signatures": [
+            [
+              1,
+              0
+            ]
+          ],
+          "records": 1
+        }
+      ],
+      "scope": "Sharp convex hull of joint native/exact record counts under the declared finite extraction-family candidate domains; not a continuous finite identified set or biological truth region."
+    }
+  ]
+}

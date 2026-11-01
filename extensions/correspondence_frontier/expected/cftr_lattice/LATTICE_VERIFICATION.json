@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "actual_read_reference_cases": 398,
+  "distinct_actual_read_ids": 199,
+  "C2_tracebacks_verified_optimal": 796,
+  "actual_cases_with_full_path_enumeration": 398,
+  "complete_set_orientation_equivariant_cases": 398,
+  "orientation_changes_coding_cases": 142,
+  "multiple_valid_coding_cases": 142,
+  "native_invariant_cases": 306,
+  "exact_invariant_cases": 307,
+  "whole_string_invariant_cases": 256,
+  "some_optimal_projection_unresolved_cases": 0,
+  "largest_optimal_path_count": 938,
+  "not_claimed": "Classification accuracy, independent biological truth, all scoring objectives or random representative sampling."
+}

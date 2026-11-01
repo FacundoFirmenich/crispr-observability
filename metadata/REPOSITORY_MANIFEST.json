@@ -1,6 +1,6 @@
 {
-  "edition": "MP05",
-  "version": "0.5.0",
+  "edition": "MP06",
+  "version": "0.6.0",
   "scope": "Exact current public computational companion source. Complete manuscript and formal supplement remain private. Inventory excludes itself and runtime results/screenshots/dependencies.",
   "files": {
     ".dockerignore": {
@@ -10,6 +10,10 @@
     ".github/ISSUE_TEMPLATE/scientific-feedback.yml": {
       "bytes": 1569,
       "sha256": "e8fa787f7c46e28b7e002034b5cd8a7bd46db418e00f51280f7fcf031741e2be"
+    },
+    ".github/workflows/correspondence-frontier.yml": {
+      "bytes": 798,
+      "sha256": "2c327c4e469b66ef74d6fd32a58a8da9d8f331e160b6c55e661d84cea325d51a"
     },
     ".github/workflows/derived-checks.yml": {
       "bytes": 1441,
@@ -36,40 +40,40 @@
       "sha256": "239f3aaf3747583c2ae1859fdf734ffb45a4a16cc9a23e09b30211c91627eae6"
     },
     ".gitignore": {
-      "bytes": 412,
-      "sha256": "55acb7735e74f2bd95737a65eae02d7e5cfb740135e1fe0dfec958259c23284e"
+      "bytes": 487,
+      "sha256": "b516022fdb499541473f521a07466ab2bc644d71a2baf7731c94b8f5a58dddb0"
     },
     "ACKNOWLEDGMENTS.md": {
       "bytes": 532,
       "sha256": "e6875bbc93dbaea9059f1a4c92f14dc385526a0319aa51ed61aea36383f9f37b"
     },
     "CHANGELOG.md": {
-      "bytes": 4435,
-      "sha256": "d3fb1a4b623d1c228f9a642cdab297fd1222a64596e02cb8ce8a56115284aef1"
+      "bytes": 5159,
+      "sha256": "43013d5a144638f0b26eb2c2b299d74f97c6bbf31a989dcf643e31d884cd689d"
     },
     "CITATION.cff": {
       "bytes": 2012,
-      "sha256": "0e486c9061e9012bc60065240c2c1ef9436a32cd5aaeae86a1c67786e310903e"
+      "sha256": "efe27ce84c0ce90638dc681462f10948f9931c0b0c00a9c23e93c6b1ca25689d"
     },
     "Dockerfile": {
       "bytes": 744,
       "sha256": "088655d09a42021b2f981bbabdff62dd9b1ff2dc4cdb4df30968c312a269b6db"
     },
     "LEEME_ES.md": {
-      "bytes": 4069,
-      "sha256": "92715e6f078efe1c32a0a8493795b85fa66b3f6205e3a21f939993d837f32fa2"
+      "bytes": 4591,
+      "sha256": "05d53a6fdb4ad36609e1201fc70bfc90c33657b0e2ef80b6fc5e3c57b7a09790"
     },
     "LICENSE_SCOPE.md": {
       "bytes": 1192,
       "sha256": "966fbed52132480268b70cc99e75b778c04638f6908f576416e2763209664794"
     },
     "README.md": {
-      "bytes": 8416,
-      "sha256": "e857afe7ee83832159b1e1ffbef2eeba99f2be217401bcdd4f18ba024aea04e7"
+      "bytes": 9072,
+      "sha256": "c6bcbf1ee45024463288507890a3b64c951ac7d94efd8adacc51d42be7e5544d"
     },
     "THIRD_PARTY_NOTICES.csv": {
-      "bytes": 244657,
-      "sha256": "2c823b582f0c4d0481955cd90a275aaf825698ca96888580e13ffdc94aa47c12"
+      "bytes": 366874,
+      "sha256": "50cc3eb369bc3663429526c948d1a842ad70a71f3f93a65547119594da3ac59c"
     },
     "code/LICENSE": {
       "bytes": 1074,
@@ -84,8 +88,8 @@
       "sha256": "420b0453c3235d6c8ae65cf21ceeced7a18f7d4f641c86a1e134ed0623e3b289"
     },
     "code/check_public_distribution.py": {
-      "bytes": 6091,
-      "sha256": "412ff292a610c38bd011a10c23d1895eb0c7f69dcc3f9fbee01921bab606915b"
+      "bytes": 6584,
+      "sha256": "223f3400378cb11e2c132b0f23df9f16fba665e7ae769f90d81583959853a3b4"
     },
     "code/check_selected_p1_tables.py": {
       "bytes": 16873,
@@ -96,8 +100,8 @@
       "sha256": "a356ac05c4555318344a6fba71909be3edaf4c968f401c84f79251df0f28b137"
     },
     "code/refresh_public_inventory.py": {
-      "bytes": 7784,
-      "sha256": "a4cbb7813a65c91f865759f3ee2d8618a97799263c2ec5470a62f1acdce85341"
+      "bytes": 8150,
+      "sha256": "237aa5170408b166711f0285ee8ca518c1dc6af9209a2476a5a3a387e0c39a8d"
     },
     "code/run_checks.py": {
       "bytes": 2528,
@@ -410,6 +414,466 @@
     "engine_replay/validation/publication_02/sensitivity/JOBS.json": {
       "bytes": 20235,
       "sha256": "1a0deb08d2e5a431ca72f0c1f412d7740b4eb078e4f5229d20e431c8994a4bdb"
+    },
+    "extensions/correspondence_frontier/INPUT_MANIFEST.json": {
+      "bytes": 15767,
+      "sha256": "7ee54e0886c0ed97cf97bdc030f0d4211e592aa7b7056ffa5beec81cff6b78ee"
+    },
+    "extensions/correspondence_frontier/README.md": {
+      "bytes": 8090,
+      "sha256": "030f1bfddf30e870819d9d36e7a255ed0621e5fd5feed4b8b2e4d1d65c1fc678"
+    },
+    "extensions/correspondence_frontier/analyze_external.py": {
+      "bytes": 9049,
+      "sha256": "791cdc14de87138471a89dab5608812d38ff4b02e232dd66110e33553b3ef746"
+    },
+    "extensions/correspondence_frontier/analyze_mechanism.py": {
+      "bytes": 9543,
+      "sha256": "50b4e82fceb915e8bfbd26a87b25b5018bfc34e42cebf8295d58f16397668ca8"
+    },
+    "extensions/correspondence_frontier/audit_lattice.py": {
+      "bytes": 7002,
+      "sha256": "4ea384b6ae705623f19a6c8a898d2e185accd48fb0150ab7e5b1b407ec5f31cd"
+    },
+    "extensions/correspondence_frontier/expected/cftr_lattice/LATTICE_VERIFICATION.json": {
+      "bytes": 644,
+      "sha256": "3cf1e6ddd3dba822f62d739fac4f6d235c1510666612be5eb77ad557caab8505"
+    },
+    "extensions/correspondence_frontier/expected/cftr_lattice/OPTIMAL_ALIGNMENT_ENVELOPES.json": {
+      "bytes": 515279,
+      "sha256": "b145bbf461c309dee2f74a18b2a5b51aa1ced49e35ce43ce45e11ad97e0a17cc"
+    },
+    "extensions/correspondence_frontier/expected/external/EXTERNAL_VERIFICATION.json": {
+      "bytes": 597,
+      "sha256": "c77e7b972aea0ce9ffd01e098c2586ae8e805678b8d8623e266a036accb6a6bb"
+    },
+    "extensions/correspondence_frontier/expected/external/HEK3_EVENT_BOUNDS.csv": {
+      "bytes": 5624,
+      "sha256": "1ab8b1778cf86ff126bc49b23982d5e2c2970a8fcce93bf01c2900b808eb87f2"
+    },
+    "extensions/correspondence_frontier/expected/external/HEK3_G_TO_A_POSITION_DIAGNOSTICS.csv": {
+      "bytes": 5736,
+      "sha256": "ad1b2a521ef430d0ee20b156951b1faf8c13d5a7bf08e9974d817ee88c864145"
+    },
+    "extensions/correspondence_frontier/expected/external/HEK3_JOINT_POLYGONS.json": {
+      "bytes": 4959,
+      "sha256": "1b1b36cf4ea0e9cb499ee9a9327540905acbce0d201ba040d11591b4c91c0580"
+    },
+    "extensions/correspondence_frontier/expected/external/HEK3_PANEL_AND_IDENTITIES.json": {
+      "bytes": 18138,
+      "sha256": "001d3781471e85ee9b693b35335a0cac28c43258333588aa08a797b1cdb9cb7e"
+    },
+    "extensions/correspondence_frontier/expected/external/PUBLISHED_HUMAN_MARGINALS_IDENTIFICATION.json": {
+      "bytes": 1841,
+      "sha256": "f415a03dc758adae62b563fdcab89176a74a8924eba8ce1a556c3edbc76cf3ef"
+    },
+    "extensions/correspondence_frontier/expected/hek3_lattice/LATTICE_VERIFICATION.json": {
+      "bytes": 653,
+      "sha256": "bf925dc50f32a7b141b3f94a2cee1a6362d7b385719e2b51e0cedceaa40d57ec"
+    },
+    "extensions/correspondence_frontier/expected/hek3_lattice/OPTIMAL_ALIGNMENT_ENVELOPES.json": {
+      "bytes": 82565,
+      "sha256": "e4c5f547f6d0493e1ca0b8e82ac483fafb6656b68aa71e164b84a912c6b74937"
+    },
+    "extensions/correspondence_frontier/expected/mechanism/FAMILY_CERTIFICATE_CONTRASTS.csv": {
+      "bytes": 11904,
+      "sha256": "101612c1824b6ff6e052097bea47ec897299098961eda80eb4a40d43f8ba3809"
+    },
+    "extensions/correspondence_frontier/expected/mechanism/FAMILY_CERTIFICATE_COUNTS.csv": {
+      "bytes": 14558,
+      "sha256": "70be4c56d0037cb9ae12638b9c64a51d51d07189312f9c86979bb907d8a2c767"
+    },
+    "extensions/correspondence_frontier/expected/mechanism/FOCUS_89_MECHANISM.csv": {
+      "bytes": 57387,
+      "sha256": "13c0295486c2c5cf433a45966f364523dac0af0b9486008c72cdc6bd3a3ae97b"
+    },
+    "extensions/correspondence_frontier/expected/mechanism/JOINT_IDENTIFICATION_POLYGONS.json": {
+      "bytes": 34249,
+      "sha256": "398aa2dcc6bc9401f6cf20abb0857f7bfa2431144cd51401c3392b751dd9d145"
+    },
+    "extensions/correspondence_frontier/expected/mechanism/MECHANISM_AND_CERTIFICATE_VERIFICATION.json": {
+      "bytes": 1551,
+      "sha256": "ee504c3400521df94d2052dd75bbda65f8dc884bf07015ddde43a19eeac54103"
+    },
+    "extensions/correspondence_frontier/expected/mechanism/PROFILE_EVENT_COUNTS.csv": {
+      "bytes": 12421,
+      "sha256": "29e76bfd22cf5df832ed9b1c290fb159bfca5cff58f9f5f718f413dd994fdf7c"
+    },
+    "extensions/correspondence_frontier/inputs/FOCUS_89.csv": {
+      "bytes": 20704,
+      "sha256": "6e32dec30203f322930795822c622bbc35453cb6e8f21f6f5db90c498ccbede1"
+    },
+    "extensions/correspondence_frontier/inputs/PE_default/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip": {
+      "bytes": 187634,
+      "sha256": "930fe44d7174f8266a20d4e428025233ddc481ae59cde55b04bc234517c8f5da"
+    },
+    "extensions/correspondence_frontier/inputs/PE_default/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip": {
+      "bytes": 151509,
+      "sha256": "a98966e6def2891f7c139c3b3c55afb88c06b8dc0725aee3c0c9deeef30bf606"
+    },
+    "extensions/correspondence_frontier/inputs/PE_default/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip": {
+      "bytes": 245738,
+      "sha256": "9f05b6fc9dee47178b57b79658e4bf557360da0237430f3ec37833489c152077"
+    },
+    "extensions/correspondence_frontier/inputs/PE_default/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip": {
+      "bytes": 290466,
+      "sha256": "3e13b8f739308168efccfd21998175e900e815b95f0e1520f96fb9e79c1c3547"
+    },
+    "extensions/correspondence_frontier/inputs/PE_default/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip": {
+      "bytes": 221760,
+      "sha256": "a4b264698561b1f4a0750c0f06b8dc9506690684303cd4702dc635551871b87a"
+    },
+    "extensions/correspondence_frontier/inputs/PE_default/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip": {
+      "bytes": 253022,
+      "sha256": "7fa973a7da69d54bd69435738105877b3dd9422a5cbc1b1c9dec155a163f0458"
+    },
+    "extensions/correspondence_frontier/inputs/PE_default/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip": {
+      "bytes": 145501,
+      "sha256": "87e13889cfd818306b18130698067cb82bb315874ed5532d894ade4b650532bd"
+    },
+    "extensions/correspondence_frontier/inputs/PE_default/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip": {
+      "bytes": 87358,
+      "sha256": "a5127821ab5ff372bf9c244f173708b6a5c6fc3745c95f0ee814cc53bd537a52"
+    },
+    "extensions/correspondence_frontier/inputs/PE_default/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip": {
+      "bytes": 75549,
+      "sha256": "d046e31d7a17548096ac1d43847da82b0a19eda7b751d9c342b49ea7761d835d"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/DERIVATIVE_REPAIR.json": {
+      "bytes": 514,
+      "sha256": "9514be781664a347c11974315a2ec96e7549f7c35f64e569d972045db64869ce"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/FREEZE.json": {
+      "bytes": 1102,
+      "sha256": "de96068e23a01b42637bb1a9bca3fc2658d78056dfb0fadc1408af4851336390"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/INPUTS.json": {
+      "bytes": 2235,
+      "sha256": "fa24b1e426db38b5fbb812ecc633c2c5a01a0f8bd6b7ab82832c905a8a3a2f75"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/RUN_STATUS.json": {
+      "bytes": 74,
+      "sha256": "e2126faadf624c6b2fa76e948d7278e18f3f61e9f45819fd3fce89314925991f"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip": {
+      "bytes": 207720,
+      "sha256": "7f5d21845c2e95511e04fe4424226053a85b5d2fe09be8aaa65f02f2af25ab06"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip": {
+      "bytes": 168256,
+      "sha256": "7108333f3e768132c9e75f7722864153e10002fa240de5c143ddda0324e95969"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip": {
+      "bytes": 271060,
+      "sha256": "535dce44279c1d792a1a579bb79db1463d27f503c552117a8ffc8f60241e9608"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip": {
+      "bytes": 322582,
+      "sha256": "6ec8a285d5d467db15d39b6f4dc1651e463acd6e3fad8f035a62cdfb03130c60"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip": {
+      "bytes": 280477,
+      "sha256": "8e67a6a8f3734ebeff14f51f28bf69b7fb977fad2d4c999cf20cde20f9258d15"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip": {
+      "bytes": 317177,
+      "sha256": "3630f22c978d39b10d9cfbb7312728e82779e53b6f8af4736c7d2d8e9483aedc"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip": {
+      "bytes": 207355,
+      "sha256": "db834e77c383615ccf113d75ab30d6248c35d165f9b68fa23d2ceb697a87947e"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip": {
+      "bytes": 102459,
+      "sha256": "9e876e72acaa493a360cee4fe1eb696ab1c217adb7959376e46c6dd6b648946d"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip": {
+      "bytes": 87676,
+      "sha256": "335b14a1644d9e007e05d178c0106e4c3a47f0390f362a5a7785672a2786297f"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip": {
+      "bytes": 188231,
+      "sha256": "3a380827d10f7068c4168d92660afb0563c56aa3444917a99e3862fef011c9a7"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip": {
+      "bytes": 152276,
+      "sha256": "47a7328498bce657cfabf082fe64d843a2141059679a969608b78f34cab46b61"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip": {
+      "bytes": 246594,
+      "sha256": "edfd9a17ff53a79ef2953889d87e116c4bdf51314468ea300c161a48b497dd6c"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip": {
+      "bytes": 291393,
+      "sha256": "ccc7897d9f2bba29396a60bad1ec15a285f05c41c7b1a517b6a73598f6f55300"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip": {
+      "bytes": 227879,
+      "sha256": "73ae43a41ddfcbeab576d42a5211063ffb47cef65a2d701b1421f9a51c3ec066"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip": {
+      "bytes": 261078,
+      "sha256": "9dc4ccf490050f945b93237e04037fc74f46d85d396398666422a9629ee22d2f"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip": {
+      "bytes": 148706,
+      "sha256": "d552ff5e1cf10e809a3cee1c1d020ce5282af7cca83011bc90178c3dd2e68c60"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip": {
+      "bytes": 88121,
+      "sha256": "3b887557b20e7ee994693db316f56a016aa489c22c532ebfc32fd6125740adf6"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip": {
+      "bytes": 75965,
+      "sha256": "04b46c8bff52e5bf9915591657d84c553b21718f46589fe6e122f8bd243b52ae"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip": {
+      "bytes": 179182,
+      "sha256": "a21f136f71ca6f2746f8f81cbbcd5170616628dc0b8b43cbf99aa96a24e6595f"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip": {
+      "bytes": 145076,
+      "sha256": "c405f9d126e867fe4aab7431dd4ff8a099c81a140eff3ee30c0d3ac42c031302"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip": {
+      "bytes": 234562,
+      "sha256": "88c41fcb59e8df069050ab8c10b1b6916b316995e7f0e1f9170856dd5b0252f6"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip": {
+      "bytes": 278035,
+      "sha256": "fa026927c77dbfb15b1c387feee32fc742162f3a3d4ef37dbd65f84f0cbc1207"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip": {
+      "bytes": 220079,
+      "sha256": "b6d2d5f77a1164194b2e69d5b46074c51ff4978c1d05dc5ccde6de9e60f8742a"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip": {
+      "bytes": 254830,
+      "sha256": "18708cf9a595cdb82323932e8370f51a833c1bda0f0ecbd057f3dd92e3721101"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip": {
+      "bytes": 143791,
+      "sha256": "197a14e9f0cfa76fdb498a3ef3222943441e8152911a239860a1b47fde08733c"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip": {
+      "bytes": 85515,
+      "sha256": "613680131643353b1a7978d328a2ddba71c088e8ae81863c2e197647112d7f80"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip": {
+      "bytes": 73853,
+      "sha256": "518fd17fcc25da8c6223649385e8291d8e4be2fca16855800586e4bfbfb83d2c"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip": {
+      "bytes": 187634,
+      "sha256": "2feebb4521566612cfbe73ddcfa20be5f80dd12df73545b6b063b72bd907acac"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip": {
+      "bytes": 151509,
+      "sha256": "64ca2f547b09ba1ecb1bbb9d0a06a2af8a6392598351c383ca25f10c65a6960c"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip": {
+      "bytes": 245738,
+      "sha256": "6af4b179a373775b1ffa248bec95d5f1c7f613ff7a2f4f2a758b4dbd12638005"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip": {
+      "bytes": 290466,
+      "sha256": "a91d0c0604746367ddfcf87b0a7ce9dd0e91e04766214b238806fa3049c5d188"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip": {
+      "bytes": 221175,
+      "sha256": "fda2fa608db2f1e808c9c251d6e43de0e4bb2a03b18fe83c23b4b4c0b1336c96"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip": {
+      "bytes": 252236,
+      "sha256": "b4c106b8234ea5c96a8778efe1d28af5058b3535fa31cf6ec907f580ec504e02"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip": {
+      "bytes": 145392,
+      "sha256": "0817d2e14fb5d383be2e74883dcdbf18d9597ec0d8de46cb073d2fe392743589"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip": {
+      "bytes": 87360,
+      "sha256": "3534377a7f2cbe7f4edab1d6dc1f034bdfac353a4642a1793c1eb05de5a3d3ee"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip": {
+      "bytes": 75549,
+      "sha256": "3d283b2c8b78a31de9c4cbc7998adc5ce52eb1159a80194921cd627cd0ece870"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip": {
+      "bytes": 189240,
+      "sha256": "bb940c521c03a281011037c61f953d57b0749e9f384f37f26e69348d9c73bd26"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip": {
+      "bytes": 151739,
+      "sha256": "e90274934fea14f5bceb8d29336d6b7e30918d2a9faadef59c5d1b176067c1cb"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip": {
+      "bytes": 247126,
+      "sha256": "d1c81986e7b389e0da62e85bb5dd51466657d130d499f35803a732cb31c7c7bc"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip": {
+      "bytes": 291015,
+      "sha256": "89ccef69503efa6790122a1816fa0522cf62f8eec8aa2c16c4dcaea083a91b4b"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip": {
+      "bytes": 218387,
+      "sha256": "d62ca1d1def28d38a14d0a17f9be11aa53ce3531704fb5d504066b121da30767"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip": {
+      "bytes": 250708,
+      "sha256": "492c94f90d957bb49edc101153a74acfc660b44d6d4210702bfd8491e0515745"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip": {
+      "bytes": 144767,
+      "sha256": "37cab8e1441d7d74cb9e3225fb66057f934a44e2ddb821c48e7482a32b23254c"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip": {
+      "bytes": 88269,
+      "sha256": "f172d2926e448b8ecc9ce5a483376731f24061ad38b50cfe3f7dd904b1fbddea"
+    },
+    "extensions/correspondence_frontier/inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip": {
+      "bytes": 76285,
+      "sha256": "6e9155f2ac02a2f4875a1f3dc19c2bad02b271aee128bdb848d3ae98ef9c452d"
+    },
+    "extensions/correspondence_frontier/inputs/cftr_REAL_ALIGNMENT_CASES.json": {
+      "bytes": 898612,
+      "sha256": "60e22ae3027994112657cb84f7e82b658edee60c3c1e87576f951760e6795d71"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/ACQUISITION.json": {
+      "bytes": 960,
+      "sha256": "90751b3a633237b92a7592080184384c0b03746c2ada837ccf8357c3313b56c3"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/ENGINE_FREEZE.json": {
+      "bytes": 522,
+      "sha256": "82100c21ac8eb9142e6546a61d871d306b6ebc3ca62d639bb3749f987cb69393"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/FILTERED_INPUTS.json": {
+      "bytes": 738,
+      "sha256": "88ad0f2f2a70b0d8b53ef580d1e815c9de103e718da835189484d06d2e00a8f8"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/RAW_IDENTITY.json": {
+      "bytes": 1203,
+      "sha256": "7698cc1c86cfe1e6e1a74e2501a3859b8b3e08cdf250e07e512b966b586f9a52"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/RULE_FREEZE.json": {
+      "bytes": 2553,
+      "sha256": "34b85dcaf52282a11b3706eae6ed180581ac734e14b1a54e297e974ba1a62ccc"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/RUN_STATUS.json": {
+      "bytes": 126,
+      "sha256": "36cfe9ef5461d2e296416fb75513e665f0968fb12978ce409c7bd0af32dede2e"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/inputs/SRR10285860.fastq.gz": {
+      "bytes": 4186188,
+      "sha256": "947ef97d84ae69663f9a254eaba922c4b095bb65fde79e77b8c0e5e07ba8563a"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/inputs/SRR10285861.fastq.gz": {
+      "bytes": 5184568,
+      "sha256": "e89a193fe84eda143cbb2c1df154e44157d467a578aeaf077b13f9703d0a816a"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/inputs/SRR10285862.fastq.gz": {
+      "bytes": 6126473,
+      "sha256": "ca958330d6a3494b717b40ab48e8c5ea2d08560c3ae28d9e6da17573238cc95f"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285860/Alleles_frequency_table.zip": {
+      "bytes": 208618,
+      "sha256": "346423402c3eff3d6942aad052c06e1f383d494518fd577c856b7ce4e1178500"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285861/Alleles_frequency_table.zip": {
+      "bytes": 252069,
+      "sha256": "ae82a0dbe3506702de854eb5272c5828365a167f613cf3d03ccd89efb55ec6ee"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": {
+      "bytes": 274529,
+      "sha256": "3e629d510a913a3be07c9bacdd4d3b088df3fe017b60163f5e8967f49eb1cf87"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/runs/M_rc/CRISPResso_on_SRR10285860/Alleles_frequency_table.zip": {
+      "bytes": 135798,
+      "sha256": "07884db5c5c1a90c22f794effc162b2cc861a6d2855c97359ffbb9f54395d371"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/runs/M_rc/CRISPResso_on_SRR10285861/Alleles_frequency_table.zip": {
+      "bytes": 164946,
+      "sha256": "e7d54b6376c7a17e99d91372a121076d6823921464825847c43d54ac6fb0eecc"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/runs/M_rc/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": {
+      "bytes": 181092,
+      "sha256": "c41ef3ade400a5a8817d480b2d03e17734564ab5975908afc343dadf624b0567"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285860/Alleles_frequency_table.zip": {
+      "bytes": 211870,
+      "sha256": "4c3b1aab928837aa4a07af31a2faf7899fc568339d3d467675d9d92c736d13de"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285861/Alleles_frequency_table.zip": {
+      "bytes": 256599,
+      "sha256": "9b9a4c0f684f10db46c28a303905d143212074b43851438025eab9c1096eebf3"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": {
+      "bytes": 279713,
+      "sha256": "0aef13b009f5749a7a3afd2adb2686743728c7a80485cbbc9bc2d2b5c74aaa08"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/runs/P_rc/CRISPResso_on_SRR10285860/Alleles_frequency_table.zip": {
+      "bytes": 134710,
+      "sha256": "3530d1af775d279fdb3d94d0bd94302ec59c034ee2a822392bf1854eec48ce0f"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/runs/P_rc/CRISPResso_on_SRR10285861/Alleles_frequency_table.zip": {
+      "bytes": 163459,
+      "sha256": "53713a33860e2829326aacc729b0d692e16b3c3e48ed9f6ab2d619b2564fe093"
+    },
+    "extensions/correspondence_frontier/inputs/hek3/runs/P_rc/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": {
+      "bytes": 179273,
+      "sha256": "fd6c7ed1335e00b225b7c07783a966b0e869407dabbec6f7237d3295d4d0ceeb"
+    },
+    "extensions/correspondence_frontier/inputs/hek3_REAL_ALIGNMENT_CASES.json": {
+      "bytes": 144729,
+      "sha256": "5635a09508a6b21902a4287dbc27e31d2ea35cade1c2935db25141db953b5cb2"
+    },
+    "extensions/correspondence_frontier/optimal_lattice.py": {
+      "bytes": 6332,
+      "sha256": "8c0d08d0c15a3bb6ac4ec0fd6321a3199c35ca18594bd34264d69f6c4859dea7"
+    },
+    "extensions/correspondence_frontier/prepare_external.py": {
+      "bytes": 1420,
+      "sha256": "5bf0395f743776edcd523931bf177dc2d16d09ee8a93342fc42d04ec302bbeae"
+    },
+    "extensions/correspondence_frontier/provenance/ARTIFACT_GZIP_AUDIT.json": {
+      "bytes": 1684,
+      "sha256": "75d343e2091fd007d9b872a22ebf537950f202391a8416840fb3f83361ecffab"
+    },
+    "extensions/correspondence_frontier/provenance/ARTIFACT_REPAIR_VERIFICATION.json": {
+      "bytes": 425,
+      "sha256": "f648054d42a9635c12fb43ac13b0e8b92dcc84257ebf7307aca8071abd5afbcd"
+    },
+    "extensions/correspondence_frontier/provenance/CFTR_COMMANDS.json": {
+      "bytes": 60316,
+      "sha256": "7ca7a01637257c4b57c5e227bad1153fecf417e2adfb6ea904fe75f239f00709"
+    },
+    "extensions/correspondence_frontier/provenance/HEK3_COMMANDS.json": {
+      "bytes": 15433,
+      "sha256": "92956e3666dca556bb9727c6e2eb2e16cecef2e454c9c434fe4341e15c4f87fa"
+    },
+    "extensions/correspondence_frontier/provenance/HEK3_EXTERNAL_SELECTION_FREEZE.json": {
+      "bytes": 1809,
+      "sha256": "97823ad86a34383899e80be2951af996583983434f20efbfba8fa716fb4ce787"
+    },
+    "extensions/correspondence_frontier/provenance/MP06_FRONTIER_PROTOCOL.json": {
+      "bytes": 3270,
+      "sha256": "4b81563347d51d2a43822c45d5725220ea6cfc6abdcff1970a2490cfd6f82444"
+    },
+    "extensions/correspondence_frontier/replay.py": {
+      "bytes": 2068,
+      "sha256": "857d1e850011d3bc77ee509f2db361e30763cfad3fe1f942ad2495134e3d4806"
+    },
+    "extensions/correspondence_frontier/run_external.py": {
+      "bytes": 2859,
+      "sha256": "b2370ef7fa84c2401f759ab969e4c1dad093c86d6b2e20258ae823afb4d6f869"
+    },
+    "extensions/correspondence_frontier/run_mechanism.py": {
+      "bytes": 6173,
+      "sha256": "2d989f3cc8e254d9429120a35d7409ec47e41462240fde76faf2449375d04a1e"
+    },
+    "extensions/correspondence_frontier/verify_marginals.py": {
+      "bytes": 1929,
+      "sha256": "f2884bcb6440b4b1c5d26c2365b7bea81b3c54b3d809d3dbf3e8d9f58a16efcb"
     },
     "extensions/reproduction/README.md": {
       "bytes": 6857,
@@ -1280,8 +1744,8 @@
       "sha256": "f6c8588576af8888cdf96a25e83f800dfa8d8bac5d140038b8a698b46f758c21"
     },
     "figures/FIGURE_PACKAGE_MANIFEST.json": {
-      "bytes": 10039,
-      "sha256": "4212ecddca1fac206498752a450d860918f8bbd55d4d217ceea9975c35b70e32"
+      "bytes": 11289,
+      "sha256": "b959a944c65bccb454c6877ba293df706164fd2157c8c5d44982588ae4730d30"
     },
     "figures/README.md": {
       "bytes": 4527,
@@ -1291,6 +1755,10 @@
       "bytes": 1243,
       "sha256": "c486a2eeecbba80a59873ac18eb15c8f60b04e3ac5c6b78feeec3312da29422d"
     },
+    "figures/code/generate_correspondence_figures.py": {
+      "bytes": 6334,
+      "sha256": "5d98f0ab933d7622d0da242ce8647d9dca7f9b78ba872617a79bc74b5518c729"
+    },
     "figures/code/generate_figures.py": {
       "bytes": 11790,
       "sha256": "b1138424d0cd888598f50506bd6eb0d03e94d6658fe7e027c4ae836604109cb8"
@@ -1298,6 +1766,30 @@
     "figures/code/generate_frontier_figures.py": {
       "bytes": 5341,
       "sha256": "5e69f7aa656259ccc6ccfb6bff50feff11d80f9a68b2514892c0ef85b6183ae0"
+    },
+    "figures/correspondence_frontier/fig6_complete_correspondence.pdf": {
+      "bytes": 24056,
+      "sha256": "6655afd96d445e9147283c76ebb0cdc9cab906617bbd993d5adf0646b542459d"
+    },
+    "figures/correspondence_frontier/fig6_complete_correspondence.png": {
+      "bytes": 180309,
+      "sha256": "47951908b8ee81ef53ffcd8899495fec48d3e03afee70d612b014ee3f4a50cd5"
+    },
+    "figures/correspondence_frontier/fig6_complete_correspondence.svg": {
+      "bytes": 33070,
+      "sha256": "e896d948724711efeb8e3e6bad59c7243f8ba860ae1f91e8a9e487e5c2c6b344"
+    },
+    "figures/correspondence_frontier/fig7_external_transport.pdf": {
+      "bytes": 23610,
+      "sha256": "edda2f6239ffd02a3d77d26610830ca0fff4e4235ee0438614eb7d2333daf60a"
+    },
+    "figures/correspondence_frontier/fig7_external_transport.png": {
+      "bytes": 183039,
+      "sha256": "fb5310788102ff5a25d9b4ba05f108f279d8f9187505b39971b57d4de06af162"
+    },
+    "figures/correspondence_frontier/fig7_external_transport.svg": {
+      "bytes": 32461,
+      "sha256": "dfe9e8207f74218a7183a8ab039cd4546a1b62c5260e5d71bf8e5c186c1d1420"
     },
     "figures/figures/fig1.pdf": {
       "bytes": 11053,
@@ -1800,8 +2292,8 @@
       "sha256": "69516761dd0c822ad61b476387f80c8e1c8e5133b111043cece563f19c01e548"
     },
     "metadata/LICENSE_SCOPE.json": {
-      "bytes": 7347,
-      "sha256": "91406025976cfb3b9a9a10069d5f6b31c2f81d91671b5bd4c616676315db3bd6"
+      "bytes": 8197,
+      "sha256": "488fa779359b9ec5cd8954fa7d181a4c9ee0ae0f10f8c8b3f30ec534e18aaa80"
     },
     "metadata/MP02_REPOSITORY_MANIFEST.json": {
       "bytes": 11735,
@@ -1841,7 +2333,7 @@
     },
     "metadata/PUBLIC_DISTRIBUTION_POLICY.json": {
       "bytes": 1407,
-      "sha256": "e7a4dcf5d5668a5dfcc189f99fff6d7735ed782247bd42b9180867b41e4acf86"
+      "sha256": "c8691e3b30dd8614eb6add326271b382bc797d75f2c7f989195725a74a81b6bf"
     },
     "metadata/PYTHON_IMAGE_INDEX.json": {
       "bytes": 6546,
@@ -1852,8 +2344,8 @@
       "sha256": "d82805536e74749a6cf9e6b863ee1feb8e3604fe3e25a8278fca8527da4c0962"
     },
     "metadata/RELEASE_STATE.json": {
-      "bytes": 6605,
-      "sha256": "0bf412f0ab2ef9438531aa0a3cabbbbc6a9beb3e46e5a2d8511459c857652128"
+      "bytes": 6987,
+      "sha256": "966b2c0570661ec7adfb4150e76bed8037f4a008515deb0f2cc63dd995c8d5a4"
     },
     "metadata/RUNTIME_SOURCES.json": {
       "bytes": 3209,

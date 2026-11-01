@@ -1,6 +1,6 @@
 {
-  "version": "0.5.0",
-  "edition": "MP05",
+  "version": "0.6.0",
+  "edition": "MP06",
   "status": "PUBLIC_COMPUTATIONAL_COMPANION_PRIVATE_MANUSCRIPTS",
   "public_release": true,
   "external_repository_created": true,
@@ -12,14 +12,14 @@
   "ORCID": "0009-0002-6578-3811",
   "license": "MIT for enumerated original code; GPL-3.0-only for enumerated KwanTube-derived supergraph component; scientific data/manuscript terms separate",
   "data_rights_status": "PUBLIC_SRA_SNAPSHOT_REDISTRIBUTION_DOCUMENTED; source attribution and terms retained; no MIT data relicensing",
-  "native_scope": "Finite-record geometry/quality/veto reconstruction over fifteen streams; external assigned-row catalogs and reporting contracts; nine-stream correspondence ablation; dedicated PE-mode comparison with explicit native vs event estimands.",
+  "native_scope": "Original observability audit, complete fixed-objective optimal-path correspondence, target-relative finite-family certificates and raw HEK3 transport.",
   "raw_pipeline_included": false,
   "remote_CI_run": true,
   "raw_observer_replay_included": true,
   "fresh_alignment_included": false,
   "canonical_review_command": "python3 code/run_review_checks.py",
-  "original_raw_inputs_included": 15,
-  "frozen_alignment_tables_included": 18,
+  "original_raw_inputs_included": 18,
+  "frozen_alignment_tables_included": 84,
   "affiliations": [
     "Centro de Estudios del Sur (CEDESUR), Spain and Argentina. For this project, academically affiliated with Universidad Nacional Arturo Jauretche (UNAJ), Av. Calchaquí 6200, Florencio Varela, Provincia de Buenos Aires, 1888, Argentina",
     "Universitat de Barcelona (UB), Gran Via de les Corts Catalanes, 585, 08007 Barcelona, Spain"
@@ -123,5 +123,17 @@
   "dedicated_PE_jobs_executed_in_MP05": 9,
   "baseline_control_jobs_executed_in_MP05": 1,
   "new_biological_cohorts_in_MP05": 0,
-  "external_human_reproduction_in_MP05": false
+  "external_human_reproduction_in_MP05": false,
+  "correspondence_frontier": {
+    "path": "extensions/correspondence_frontier/",
+    "fresh_CFTR_configurations": 45,
+    "fresh_HEK3_jobs": 12,
+    "artifact_reexecutions": 1,
+    "HEK3_raw_records": 218930,
+    "all_optimal_actual_cases": 464,
+    "independent_human_reproduction": false,
+    "molecular_accuracy_claimed": false,
+    "full_text_public": false,
+    "actual_CI": "Consult Actions for the exact final commit; no self-certifying future receipt."
+  }
 }

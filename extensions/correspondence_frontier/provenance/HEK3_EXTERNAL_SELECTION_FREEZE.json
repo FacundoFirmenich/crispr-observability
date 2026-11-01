@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-11-01T09:19:13.235506+00:00",
+  "rule": "All three source replicates with exact Fig2b_HEK3_10 alias, including the sample named in the externally published manual benchmark. Selection by published provenance/aliases; not outcome-blinded or a random sample.",
+  "raw_read_files_opened_before_freeze": false,
+  "runs": [
+    {
+      "run_accession": "SRR10285860",
+      "sample_alias": "Fig2b_HEK3_10_rep3.fastq.gz",
+      "experiment_alias": "Fig2b_HEK3_10_rep3.fastq.gz",
+      "read_count": "58590",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR102/060/SRR10285860/SRR10285860.fastq.gz",
+      "fastq_md5": "f4e4084d47615965d7ecf1942bafab0d"
+    },
+    {
+      "run_accession": "SRR10285862",
+      "sample_alias": "Fig2b_HEK3_10_rep1.fastq.gz",
+      "experiment_alias": "Fig2b_HEK3_10_rep1.fastq.gz",
+      "read_count": "86980",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR102/062/SRR10285862/SRR10285862.fastq.gz",
+      "fastq_md5": "19a7a9dbd5e2b85d6dd81e2c7c3ba50d"
+    },
+    {
+      "run_accession": "SRR10285861",
+      "sample_alias": "Fig2b_HEK3_10_rep2.fastq.gz",
+      "experiment_alias": "Fig2b_HEK3_10_rep2.fastq.gz",
+      "read_count": "73360",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR102/061/SRR10285861/SRR10285861.fastq.gz",
+      "fastq_md5": "5a029849ffe530e27928482b835d4ca5"
+    }
+  ],
+  "comparison_boundary": "Manual benchmark table supplies aggregate 383-record counts. Source scripts point to a non-bundled local annotation CSV. Unless authenticated per-read labels are recovered, no read-level accuracy comparison is authorized. Whole-cohort frequencies cannot be equated to that selected subset.",
+  "controls": "No matched mock/untreated HEK3 alias authenticated in this source metadata query; do not invent a contrast."
+}

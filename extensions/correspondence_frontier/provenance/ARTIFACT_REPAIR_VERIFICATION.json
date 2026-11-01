@@ -1,0 +1,7 @@
+{
+  "status": "PRIMARY_TABLES_UNCHANGED_ANNOTATION_STILL_INCOMPLETE",
+  "same_parameter_reexecutions": 1,
+  "native_quantification_byte_identical": true,
+  "analysis_policy": "Use complete native allele archives, joined to exact original raw sequence families with full abundance reconciliation. Keep incomplete gzip annotations as diagnostic artifacts; do not infer their missing records.",
+  "raw_inputs_unchanged": true
+}

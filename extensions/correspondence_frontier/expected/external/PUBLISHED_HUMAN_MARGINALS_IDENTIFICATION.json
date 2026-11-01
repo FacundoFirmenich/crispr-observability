@@ -1,0 +1,45 @@
+{
+  "source": "CRISPR-A2023 SupplementaryTable5; transcribed exact aggregate counts; source image retained separately.",
+  "marginals": {
+    "human": {
+      "WT": 328,
+      "TMPL": 49,
+      "INDEL": 6,
+      "AMBIG": 0
+    },
+    "CRISPR_A": {
+      "WT": 327,
+      "TMPL": 49,
+      "INDEL": 7,
+      "AMBIG": 0
+    },
+    "CRISPResso2": {
+      "WT": 330,
+      "TMPL": 49,
+      "INDEL": 0,
+      "AMBIG": 4
+    }
+  },
+  "sharp_agreement_bounds_from_marginals_only": [
+    {
+      "tool": "CRISPR_A",
+      "N_selected_human_subset": 383,
+      "minimum_possible_agreements": 272,
+      "maximum_possible_agreements": 382,
+      "minimum_agreement_percent": 71.0182767624021,
+      "maximum_agreement_percent": 99.73890339425587
+    },
+    {
+      "tool": "CRISPResso2",
+      "N_selected_human_subset": 383,
+      "minimum_possible_agreements": 275,
+      "maximum_possible_agreements": 377,
+      "minimum_agreement_percent": 71.80156657963447,
+      "maximum_agreement_percent": 98.43342036553524
+    }
+  ],
+  "convention": "Four categories, with reported ambiguous assignments retained as their own category and no matching human ambiguous labels.",
+  "proof": "Agreement cannot exceed sum of per-category minimum counts. The complete off-diagonal transport graph permits zero diagonal except any dominant row-plus-column excess over N; hence the lower bound. These are mathematical completions of a real published aggregate table, not fabricated biological observations.",
+  "limits": "No authenticated per-read human labels were recovered from inspected public author sources. These are identification bounds on the selected 383-record table, not measured accuracy, confidence intervals or full-cohort error rates. No ranking is identified because the bounds overlap.",
+  "external_human_reproduction_of_this_project": false
+}

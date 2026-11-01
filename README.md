@@ -1,8 +1,14 @@
 # CRISPR observability: computational companion
 
-Version **0.5.0 / MP05** (1 November 2026). Public code, numerical data and editable figures for
+Version **0.6.0 / MP06** (1 November 2026). Public code, numerical data and editable figures for
 a retrospective genome-editing readout audit. The complete manuscript and
 supplement are held privately pending the author's chosen preprint deposition.
+
+MP06 adds [complete correspondence and target-relative certificates](extensions/correspondence_frontier/README.md): all optimal paths under an explicit affine objective, the 45-configuration CFTR mechanism experiment, fixed-rule transport on 218,930 authentic HEK3 records and a quantified limit on published aggregate human benchmarking. New Figures 6–7 are in [figures/correspondence_frontier/](figures/correspondence_frontier/). The original tables and all three graph baselines remain unchanged; the graphs do not yet represent this extended source scope.
+
+```sh
+python -B extensions/correspondence_frontier/replay.py --work /tmp/crispr-p1-mp06
+```
 
 ## Current methodological frontier
 

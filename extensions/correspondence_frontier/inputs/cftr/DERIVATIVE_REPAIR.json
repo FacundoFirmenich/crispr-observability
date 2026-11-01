@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "run": "SRR29623270",
+  "prior_observed_sha256": "129b2e7150da5e7737f5da03580b488dc48db1761c698c9cb4f8375f38bcbd77",
+  "frozen_hash_restored": "f5b3800b7980adbd3fea25df9b08d88b605e2fbb19db0375e9aa97995577f9da",
+  "raw_unchanged": true,
+  "Q30_records": 14536,
+  "cause": "Not established; derived gzip no longer matched previously frozen valid bytes. Reconstructed from original raw input; exact frozen hash restored before any affected alignment.",
+  "no_failed_alignment_counted": true
+}

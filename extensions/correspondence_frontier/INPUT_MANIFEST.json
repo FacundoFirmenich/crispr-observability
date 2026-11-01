@@ -1,0 +1,333 @@
+{
+  "scope": "Authenticated real read fixtures and complete native allele archives; no fabricated truth labels. Reference/observed alignment cases preserve actual upstream tracebacks, not simulated reads. Original third-party data terms retained.",
+  "files": {
+    "inputs/FOCUS_89.csv": {
+      "bytes": 20704,
+      "sha256": "6e32dec30203f322930795822c622bbc35453cb6e8f21f6f5db90c498ccbede1"
+    },
+    "inputs/PE_default/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip": {
+      "bytes": 187634,
+      "sha256": "930fe44d7174f8266a20d4e428025233ddc481ae59cde55b04bc234517c8f5da"
+    },
+    "inputs/PE_default/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip": {
+      "bytes": 151509,
+      "sha256": "a98966e6def2891f7c139c3b3c55afb88c06b8dc0725aee3c0c9deeef30bf606"
+    },
+    "inputs/PE_default/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip": {
+      "bytes": 245738,
+      "sha256": "9f05b6fc9dee47178b57b79658e4bf557360da0237430f3ec37833489c152077"
+    },
+    "inputs/PE_default/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip": {
+      "bytes": 290466,
+      "sha256": "3e13b8f739308168efccfd21998175e900e815b95f0e1520f96fb9e79c1c3547"
+    },
+    "inputs/PE_default/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip": {
+      "bytes": 221760,
+      "sha256": "a4b264698561b1f4a0750c0f06b8dc9506690684303cd4702dc635551871b87a"
+    },
+    "inputs/PE_default/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip": {
+      "bytes": 253022,
+      "sha256": "7fa973a7da69d54bd69435738105877b3dd9422a5cbc1b1c9dec155a163f0458"
+    },
+    "inputs/PE_default/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip": {
+      "bytes": 145501,
+      "sha256": "87e13889cfd818306b18130698067cb82bb315874ed5532d894ade4b650532bd"
+    },
+    "inputs/PE_default/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip": {
+      "bytes": 87358,
+      "sha256": "a5127821ab5ff372bf9c244f173708b6a5c6fc3745c95f0ee814cc53bd537a52"
+    },
+    "inputs/PE_default/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip": {
+      "bytes": 75549,
+      "sha256": "d046e31d7a17548096ac1d43847da82b0a19eda7b751d9c342b49ea7761d835d"
+    },
+    "inputs/cftr/DERIVATIVE_REPAIR.json": {
+      "bytes": 514,
+      "sha256": "9514be781664a347c11974315a2ec96e7549f7c35f64e569d972045db64869ce"
+    },
+    "inputs/cftr/FREEZE.json": {
+      "bytes": 1102,
+      "sha256": "de96068e23a01b42637bb1a9bca3fc2658d78056dfb0fadc1408af4851336390"
+    },
+    "inputs/cftr/INPUTS.json": {
+      "bytes": 2235,
+      "sha256": "fa24b1e426db38b5fbb812ecc633c2c5a01a0f8bd6b7ab82832c905a8a3a2f75"
+    },
+    "inputs/cftr/RUN_STATUS.json": {
+      "bytes": 74,
+      "sha256": "e2126faadf624c6b2fa76e948d7278e18f3f61e9f45819fd3fce89314925991f"
+    },
+    "inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip": {
+      "bytes": 207720,
+      "sha256": "7f5d21845c2e95511e04fe4424226053a85b5d2fe09be8aaa65f02f2af25ab06"
+    },
+    "inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip": {
+      "bytes": 168256,
+      "sha256": "7108333f3e768132c9e75f7722864153e10002fa240de5c143ddda0324e95969"
+    },
+    "inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip": {
+      "bytes": 271060,
+      "sha256": "535dce44279c1d792a1a579bb79db1463d27f503c552117a8ffc8f60241e9608"
+    },
+    "inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip": {
+      "bytes": 322582,
+      "sha256": "6ec8a285d5d467db15d39b6f4dc1651e463acd6e3fad8f035a62cdfb03130c60"
+    },
+    "inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip": {
+      "bytes": 280477,
+      "sha256": "8e67a6a8f3734ebeff14f51f28bf69b7fb977fad2d4c999cf20cde20f9258d15"
+    },
+    "inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip": {
+      "bytes": 317177,
+      "sha256": "3630f22c978d39b10d9cfbb7312728e82779e53b6f8af4736c7d2d8e9483aedc"
+    },
+    "inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip": {
+      "bytes": 207355,
+      "sha256": "db834e77c383615ccf113d75ab30d6248c35d165f9b68fa23d2ceb697a87947e"
+    },
+    "inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip": {
+      "bytes": 102459,
+      "sha256": "9e876e72acaa493a360cee4fe1eb696ab1c217adb7959376e46c6dd6b648946d"
+    },
+    "inputs/cftr/runs/MP_fw/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip": {
+      "bytes": 87676,
+      "sha256": "335b14a1644d9e007e05d178c0106e4c3a47f0390f362a5a7785672a2786297f"
+    },
+    "inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip": {
+      "bytes": 188231,
+      "sha256": "3a380827d10f7068c4168d92660afb0563c56aa3444917a99e3862fef011c9a7"
+    },
+    "inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip": {
+      "bytes": 152276,
+      "sha256": "47a7328498bce657cfabf082fe64d843a2141059679a969608b78f34cab46b61"
+    },
+    "inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip": {
+      "bytes": 246594,
+      "sha256": "edfd9a17ff53a79ef2953889d87e116c4bdf51314468ea300c161a48b497dd6c"
+    },
+    "inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip": {
+      "bytes": 291393,
+      "sha256": "ccc7897d9f2bba29396a60bad1ec15a285f05c41c7b1a517b6a73598f6f55300"
+    },
+    "inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip": {
+      "bytes": 227879,
+      "sha256": "73ae43a41ddfcbeab576d42a5211063ffb47cef65a2d701b1421f9a51c3ec066"
+    },
+    "inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip": {
+      "bytes": 261078,
+      "sha256": "9dc4ccf490050f945b93237e04037fc74f46d85d396398666422a9629ee22d2f"
+    },
+    "inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip": {
+      "bytes": 148706,
+      "sha256": "d552ff5e1cf10e809a3cee1c1d020ce5282af7cca83011bc90178c3dd2e68c60"
+    },
+    "inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip": {
+      "bytes": 88121,
+      "sha256": "3b887557b20e7ee994693db316f56a016aa489c22c532ebfc32fd6125740adf6"
+    },
+    "inputs/cftr/runs/MP_rc/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip": {
+      "bytes": 75965,
+      "sha256": "04b46c8bff52e5bf9915591657d84c553b21718f46589fe6e122f8bd243b52ae"
+    },
+    "inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip": {
+      "bytes": 179182,
+      "sha256": "a21f136f71ca6f2746f8f81cbbcd5170616628dc0b8b43cbf99aa96a24e6595f"
+    },
+    "inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip": {
+      "bytes": 145076,
+      "sha256": "c405f9d126e867fe4aab7431dd4ff8a099c81a140eff3ee30c0d3ac42c031302"
+    },
+    "inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip": {
+      "bytes": 234562,
+      "sha256": "88c41fcb59e8df069050ab8c10b1b6916b316995e7f0e1f9170856dd5b0252f6"
+    },
+    "inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip": {
+      "bytes": 278035,
+      "sha256": "fa026927c77dbfb15b1c387feee32fc742162f3a3d4ef37dbd65f84f0cbc1207"
+    },
+    "inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip": {
+      "bytes": 220079,
+      "sha256": "b6d2d5f77a1164194b2e69d5b46074c51ff4978c1d05dc5ccde6de9e60f8742a"
+    },
+    "inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip": {
+      "bytes": 254830,
+      "sha256": "18708cf9a595cdb82323932e8370f51a833c1bda0f0ecbd057f3dd92e3721101"
+    },
+    "inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip": {
+      "bytes": 143791,
+      "sha256": "197a14e9f0cfa76fdb498a3ef3222943441e8152911a239860a1b47fde08733c"
+    },
+    "inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip": {
+      "bytes": 85515,
+      "sha256": "613680131643353b1a7978d328a2ddba71c088e8ae81863c2e197647112d7f80"
+    },
+    "inputs/cftr/runs/M_rc/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip": {
+      "bytes": 73853,
+      "sha256": "518fd17fcc25da8c6223649385e8291d8e4be2fca16855800586e4bfbfb83d2c"
+    },
+    "inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip": {
+      "bytes": 187634,
+      "sha256": "2feebb4521566612cfbe73ddcfa20be5f80dd12df73545b6b063b72bd907acac"
+    },
+    "inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip": {
+      "bytes": 151509,
+      "sha256": "64ca2f547b09ba1ecb1bbb9d0a06a2af8a6392598351c383ca25f10c65a6960c"
+    },
+    "inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip": {
+      "bytes": 245738,
+      "sha256": "6af4b179a373775b1ffa248bec95d5f1c7f613ff7a2f4f2a758b4dbd12638005"
+    },
+    "inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip": {
+      "bytes": 290466,
+      "sha256": "a91d0c0604746367ddfcf87b0a7ce9dd0e91e04766214b238806fa3049c5d188"
+    },
+    "inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip": {
+      "bytes": 221175,
+      "sha256": "fda2fa608db2f1e808c9c251d6e43de0e4bb2a03b18fe83c23b4b4c0b1336c96"
+    },
+    "inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip": {
+      "bytes": 252236,
+      "sha256": "b4c106b8234ea5c96a8778efe1d28af5058b3535fa31cf6ec907f580ec504e02"
+    },
+    "inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip": {
+      "bytes": 145392,
+      "sha256": "0817d2e14fb5d383be2e74883dcdbf18d9597ec0d8de46cb073d2fe392743589"
+    },
+    "inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip": {
+      "bytes": 87360,
+      "sha256": "3534377a7f2cbe7f4edab1d6dc1f034bdfac353a4642a1793c1eb05de5a3d3ee"
+    },
+    "inputs/cftr/runs/PE_zero/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip": {
+      "bytes": 75549,
+      "sha256": "3d283b2c8b78a31de9c4cbc7998adc5ce52eb1159a80194921cd627cd0ece870"
+    },
+    "inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip": {
+      "bytes": 189240,
+      "sha256": "bb940c521c03a281011037c61f953d57b0749e9f384f37f26e69348d9c73bd26"
+    },
+    "inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip": {
+      "bytes": 151739,
+      "sha256": "e90274934fea14f5bceb8d29336d6b7e30918d2a9faadef59c5d1b176067c1cb"
+    },
+    "inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip": {
+      "bytes": 247126,
+      "sha256": "d1c81986e7b389e0da62e85bb5dd51466657d130d499f35803a732cb31c7c7bc"
+    },
+    "inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip": {
+      "bytes": 291015,
+      "sha256": "89ccef69503efa6790122a1816fa0522cf62f8eec8aa2c16c4dcaea083a91b4b"
+    },
+    "inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip": {
+      "bytes": 218387,
+      "sha256": "d62ca1d1def28d38a14d0a17f9be11aa53ce3531704fb5d504066b121da30767"
+    },
+    "inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip": {
+      "bytes": 250708,
+      "sha256": "492c94f90d957bb49edc101153a74acfc660b44d6d4210702bfd8491e0515745"
+    },
+    "inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip": {
+      "bytes": 144767,
+      "sha256": "37cab8e1441d7d74cb9e3225fb66057f934a44e2ddb821c48e7482a32b23254c"
+    },
+    "inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip": {
+      "bytes": 88269,
+      "sha256": "f172d2926e448b8ecc9ce5a483376731f24061ad38b50cfe3f7dd904b1fbddea"
+    },
+    "inputs/cftr/runs/P_rc/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip": {
+      "bytes": 76285,
+      "sha256": "6e9155f2ac02a2f4875a1f3dc19c2bad02b271aee128bdb848d3ae98ef9c452d"
+    },
+    "inputs/cftr_REAL_ALIGNMENT_CASES.json": {
+      "bytes": 898612,
+      "sha256": "60e22ae3027994112657cb84f7e82b658edee60c3c1e87576f951760e6795d71"
+    },
+    "inputs/hek3/ACQUISITION.json": {
+      "bytes": 960,
+      "sha256": "90751b3a633237b92a7592080184384c0b03746c2ada837ccf8357c3313b56c3"
+    },
+    "inputs/hek3/ENGINE_FREEZE.json": {
+      "bytes": 522,
+      "sha256": "82100c21ac8eb9142e6546a61d871d306b6ebc3ca62d639bb3749f987cb69393"
+    },
+    "inputs/hek3/FILTERED_INPUTS.json": {
+      "bytes": 738,
+      "sha256": "88ad0f2f2a70b0d8b53ef580d1e815c9de103e718da835189484d06d2e00a8f8"
+    },
+    "inputs/hek3/RAW_IDENTITY.json": {
+      "bytes": 1203,
+      "sha256": "7698cc1c86cfe1e6e1a74e2501a3859b8b3e08cdf250e07e512b966b586f9a52"
+    },
+    "inputs/hek3/RULE_FREEZE.json": {
+      "bytes": 2553,
+      "sha256": "34b85dcaf52282a11b3706eae6ed180581ac734e14b1a54e297e974ba1a62ccc"
+    },
+    "inputs/hek3/RUN_STATUS.json": {
+      "bytes": 126,
+      "sha256": "36cfe9ef5461d2e296416fb75513e665f0968fb12978ce409c7bd0af32dede2e"
+    },
+    "inputs/hek3/inputs/SRR10285860.fastq.gz": {
+      "bytes": 4186188,
+      "sha256": "947ef97d84ae69663f9a254eaba922c4b095bb65fde79e77b8c0e5e07ba8563a"
+    },
+    "inputs/hek3/inputs/SRR10285861.fastq.gz": {
+      "bytes": 5184568,
+      "sha256": "e89a193fe84eda143cbb2c1df154e44157d467a578aeaf077b13f9703d0a816a"
+    },
+    "inputs/hek3/inputs/SRR10285862.fastq.gz": {
+      "bytes": 6126473,
+      "sha256": "ca958330d6a3494b717b40ab48e8c5ea2d08560c3ae28d9e6da17573238cc95f"
+    },
+    "inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285860/Alleles_frequency_table.zip": {
+      "bytes": 208618,
+      "sha256": "346423402c3eff3d6942aad052c06e1f383d494518fd577c856b7ce4e1178500"
+    },
+    "inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285861/Alleles_frequency_table.zip": {
+      "bytes": 252069,
+      "sha256": "ae82a0dbe3506702de854eb5272c5828365a167f613cf3d03ccd89efb55ec6ee"
+    },
+    "inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": {
+      "bytes": 274529,
+      "sha256": "3e629d510a913a3be07c9bacdd4d3b088df3fe017b60163f5e8967f49eb1cf87"
+    },
+    "inputs/hek3/runs/M_rc/CRISPResso_on_SRR10285860/Alleles_frequency_table.zip": {
+      "bytes": 135798,
+      "sha256": "07884db5c5c1a90c22f794effc162b2cc861a6d2855c97359ffbb9f54395d371"
+    },
+    "inputs/hek3/runs/M_rc/CRISPResso_on_SRR10285861/Alleles_frequency_table.zip": {
+      "bytes": 164946,
+      "sha256": "e7d54b6376c7a17e99d91372a121076d6823921464825847c43d54ac6fb0eecc"
+    },
+    "inputs/hek3/runs/M_rc/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": {
+      "bytes": 181092,
+      "sha256": "c41ef3ade400a5a8817d480b2d03e17734564ab5975908afc343dadf624b0567"
+    },
+    "inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285860/Alleles_frequency_table.zip": {
+      "bytes": 211870,
+      "sha256": "4c3b1aab928837aa4a07af31a2faf7899fc568339d3d467675d9d92c736d13de"
+    },
+    "inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285861/Alleles_frequency_table.zip": {
+      "bytes": 256599,
+      "sha256": "9b9a4c0f684f10db46c28a303905d143212074b43851438025eab9c1096eebf3"
+    },
+    "inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": {
+      "bytes": 279713,
+      "sha256": "0aef13b009f5749a7a3afd2adb2686743728c7a80485cbbc9bc2d2b5c74aaa08"
+    },
+    "inputs/hek3/runs/P_rc/CRISPResso_on_SRR10285860/Alleles_frequency_table.zip": {
+      "bytes": 134710,
+      "sha256": "3530d1af775d279fdb3d94d0bd94302ec59c034ee2a822392bf1854eec48ce0f"
+    },
+    "inputs/hek3/runs/P_rc/CRISPResso_on_SRR10285861/Alleles_frequency_table.zip": {
+      "bytes": 163459,
+      "sha256": "53713a33860e2829326aacc729b0d692e16b3c3e48ed9f6ab2d619b2564fe093"
+    },
+    "inputs/hek3/runs/P_rc/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": {
+      "bytes": 179273,
+      "sha256": "fd6c7ed1335e00b225b7c07783a966b0e869407dabbec6f7237d3295d4d0ceeb"
+    },
+    "inputs/hek3_REAL_ALIGNMENT_CASES.json": {
+      "bytes": 144729,
+      "sha256": "5635a09508a6b21902a4287dbc27e31d2ea35cade1c2935db25141db953b5cb2"
+    }
+  }
+}

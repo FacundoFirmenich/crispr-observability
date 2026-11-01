@@ -1,0 +1,65 @@
+[
+  {
+    "run": "SRR29623274",
+    "N": 13762,
+    "Q30": 13558,
+    "source_sha256": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736",
+    "filtered_sha256": "79c8ce6489e4435f5cf269c9f863d9fb54e6b237a96060c1a50538cec53d5348"
+  },
+  {
+    "run": "SRR29623266",
+    "N": 13617,
+    "Q30": 13498,
+    "source_sha256": "44acba4f80562185c7f3720f500106e4797df1bb5a7bcb182e1225cdb3a89bf7",
+    "filtered_sha256": "554f3341bd31a762a152ef7ebcb4ada2b9b96ab8923c3107c09ea4a23487509f"
+  },
+  {
+    "run": "SRR29623268",
+    "N": 29956,
+    "Q30": 29677,
+    "source_sha256": "5bcdc1e06d0fcabe90c1e40f03725593aea9c7d4d8d2951e00bf93e4e118ec18",
+    "filtered_sha256": "4ac769ef852c5d7a4169be19e9eb66b15c455c0ab35a4e228a920deee77f2154"
+  },
+  {
+    "run": "SRR29623273",
+    "N": 17177,
+    "Q30": 16887,
+    "source_sha256": "92bfda645464e561adf6a8c1f308b57530e400ecc64da1a42fcc494687d247d6",
+    "filtered_sha256": "8d1799a50910d7d5cbb23fda00d26b4e1b9ea1901f22adb48dfc000561b5f02b"
+  },
+  {
+    "run": "SRR29623265",
+    "N": 21041,
+    "Q30": 20855,
+    "source_sha256": "e08c98ebdceb3745b17ca8f92be45900385623c8499f4cbaa63af4dac15c01ae",
+    "filtered_sha256": "a229bf23a6384b625653db22247d06457e8f8878c224a95a9ba0393675248ffe"
+  },
+  {
+    "run": "SRR29623267",
+    "N": 27024,
+    "Q30": 26805,
+    "source_sha256": "e26c858bf862b755bf333dd7ba9810bf9926ffc2e3d5652c19417adb83e81b16",
+    "filtered_sha256": "bbc2a0ccd36b7487752af5da0329cb5644689a90e4cafef1cdb765bba11dff85"
+  },
+  {
+    "run": "SRR29623272",
+    "N": 20573,
+    "Q30": 20212,
+    "source_sha256": "02c9293171e656fedaab5abfeefc1d7683e7d0a25eaa05e13deca2a330420b09",
+    "filtered_sha256": "dd4eb9132a8d7138fb1d8a98f19ad47870ccd36e462bbe3ea5197da94dffc526"
+  },
+  {
+    "run": "SRR29623271",
+    "N": 19184,
+    "Q30": 18982,
+    "source_sha256": "af323c3bf66ec6ced0ba12d746d3bcbb03f74ca09788cd1cb9138905687d129c",
+    "filtered_sha256": "e10bddb226fdbb8f53320e9fd014095a236b0b54d4ecb7f9fa6968fcb7792391"
+  },
+  {
+    "run": "SRR29623270",
+    "N": 14672,
+    "Q30": 14536,
+    "source_sha256": "25b464764843cb52616451bce61b4a2fb15ca3f41ab275308eee05349eb2ad67",
+    "filtered_sha256": "f5b3800b7980adbd3fea25df9b08d88b605e2fbb19db0375e9aa97995577f9da"
+  }
+]
