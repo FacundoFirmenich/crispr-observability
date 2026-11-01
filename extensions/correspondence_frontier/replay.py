@@ -19,6 +19,9 @@ def main():
   if part=='external':
    from verify_marginals import verify
    verify(out/'PUBLISHED_HUMAN_MARGINALS_IDENTIFICATION.json')
+  if part=='mechanism':
+   from verify_domain_scope import build
+   encoded=json.dumps(build(),indent=2)+'\n';assert encoded==(HERE/'expected/DOMAIN_SCOPE_VERIFICATION.json').read_text();(w/'DOMAIN_SCOPE_VERIFICATION.json').write_text(encoded)
   print('EXACT_SCIENTIFIC_REPLAY',part,flush=True)
  (w/'VERIFICATION.json').write_text(json.dumps({'status':'PASS','parts':parts,'scope':'Exact reconstruction on real frozen inputs, including whole original raw denominators and complete optimal-path projection enumeration. Not new engine execution, independent human reproduction or biological accuracy.'},indent=2)+'\n')
 if __name__=='__main__':main()

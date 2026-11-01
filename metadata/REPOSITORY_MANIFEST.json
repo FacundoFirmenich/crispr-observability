@@ -72,8 +72,8 @@
       "sha256": "c6bcbf1ee45024463288507890a3b64c951ac7d94efd8adacc51d42be7e5544d"
     },
     "THIRD_PARTY_NOTICES.csv": {
-      "bytes": 366874,
-      "sha256": "50cc3eb369bc3663429526c948d1a842ad70a71f3f93a65547119594da3ac59c"
+      "bytes": 368014,
+      "sha256": "3e02f85bedb4f548c70cfea51bb74d94107ea4a7f7c9fa7a60af7822158b3072"
     },
     "code/LICENSE": {
       "bytes": 1074,
@@ -420,8 +420,8 @@
       "sha256": "7ee54e0886c0ed97cf97bdc030f0d4211e592aa7b7056ffa5beec81cff6b78ee"
     },
     "extensions/correspondence_frontier/README.md": {
-      "bytes": 8090,
-      "sha256": "030f1bfddf30e870819d9d36e7a255ed0621e5fd5feed4b8b2e4d1d65c1fc678"
+      "bytes": 8678,
+      "sha256": "8385959da2ea3f507b599d208e047da3a87ff28a328b29fed2ab484a503e1a54"
     },
     "extensions/correspondence_frontier/analyze_external.py": {
       "bytes": 9049,
@@ -434,6 +434,10 @@
     "extensions/correspondence_frontier/audit_lattice.py": {
       "bytes": 7002,
       "sha256": "4ea384b6ae705623f19a6c8a898d2e185accd48fb0150ab7e5b1b407ec5f31cd"
+    },
+    "extensions/correspondence_frontier/expected/DOMAIN_SCOPE_VERIFICATION.json": {
+      "bytes": 1968,
+      "sha256": "1fb250fd1bdb40b2ddca2d7180e86a3a45315651c5dff59d74b67ac40680cacf"
     },
     "extensions/correspondence_frontier/expected/cftr_lattice/LATTICE_VERIFICATION.json": {
       "bytes": 644,
@@ -860,8 +864,8 @@
       "sha256": "4b81563347d51d2a43822c45d5725220ea6cfc6abdcff1970a2490cfd6f82444"
     },
     "extensions/correspondence_frontier/replay.py": {
-      "bytes": 2068,
-      "sha256": "857d1e850011d3bc77ee509f2db361e30763cfad3fe1f942ad2495134e3d4806"
+      "bytes": 2312,
+      "sha256": "2ec31831ba11591483fdfe3e4fbf0d87b240e9690f712a0d88ce2c09713b60c9"
     },
     "extensions/correspondence_frontier/run_external.py": {
       "bytes": 2859,
@@ -870,6 +874,10 @@
     "extensions/correspondence_frontier/run_mechanism.py": {
       "bytes": 6173,
       "sha256": "2d989f3cc8e254d9429120a35d7409ec47e41462240fde76faf2449375d04a1e"
+    },
+    "extensions/correspondence_frontier/verify_domain_scope.py": {
+      "bytes": 2979,
+      "sha256": "2aa7e9414f07c9e347a1bc764f6b93760fad25b1c12533bbd09bbb6ded9dbc1d"
     },
     "extensions/correspondence_frontier/verify_marginals.py": {
       "bytes": 1929,
@@ -2292,8 +2300,8 @@
       "sha256": "69516761dd0c822ad61b476387f80c8e1c8e5133b111043cece563f19c01e548"
     },
     "metadata/LICENSE_SCOPE.json": {
-      "bytes": 8197,
-      "sha256": "488fa779359b9ec5cd8954fa7d181a4c9ee0ae0f10f8c8b3f30ec534e18aaa80"
+      "bytes": 8262,
+      "sha256": "5d7a5560cea37a5362bd661f92d0a8fc45417ad163f5c91930855e7ce1164322"
     },
     "metadata/MP02_REPOSITORY_MANIFEST.json": {
       "bytes": 11735,

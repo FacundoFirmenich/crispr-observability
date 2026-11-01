@@ -36,6 +36,7 @@
     "extensions/correspondence_frontier/replay.py",
     "extensions/correspondence_frontier/run_external.py",
     "extensions/correspondence_frontier/run_mechanism.py",
+    "extensions/correspondence_frontier/verify_domain_scope.py",
     "extensions/correspondence_frontier/verify_marginals.py",
     "extensions/reproduction/analyze_correspondence.py",
     "extensions/reproduction/cftr/code/compose_targets.py",

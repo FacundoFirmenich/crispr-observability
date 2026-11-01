@@ -71,7 +71,14 @@ enumeration and orientation-set transport. Single selected codings change in
 142 and 36 cases respectively. Native-local CFTR status is invariant in 306
 cases versus 256 invariant strings. HEK3 programmed-tract status is invariant
 in 48 cases versus 30 invariant strings. These are conditional computational
-certificates, not validated accuracy gains.
+certificates, not validated accuracy gains. All additional invariances in these
+selected panels are negative labels: 50 native and 51 exact CFTR cases, and 18
+cases for each HEK3 target. Likewise, the 70/74/167 additional full-cohort F9 task
+determinations are non-events; no additional positive edit calls are claimed.
+Among the selected 89 PE codings, 44 belong to the union of the two declared
+zero-incentive optimal domains and 45 lie outside it. This directly demonstrates
+why fixed-objective completeness cannot be promoted to cross-model coverage.
+The separate `verify_domain_scope.py` check reconstructs these distinctions.
 
 The integer objective uses match 5, mismatch −4, N mismatch −2, N–N −1, gap
 opening −20 and extension −2, with the inspected upstream terminal convention.

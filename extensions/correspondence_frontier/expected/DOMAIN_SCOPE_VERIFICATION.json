@@ -1,0 +1,55 @@
+{
+  "cftr_lattice": {
+    "native": {
+      "additional_invariant_case_labels": {
+        "event": 0,
+        "non_event": 50
+      },
+      "scope": "Read-reference cases in the selected actual panel; not accuracy or additional editing discoveries."
+    },
+    "exact": {
+      "additional_invariant_case_labels": {
+        "event": 0,
+        "non_event": 51
+      },
+      "scope": "Read-reference cases in the selected actual panel; not accuracy or additional editing discoveries."
+    }
+  },
+  "hek3_lattice": {
+    "programmed_local": {
+      "additional_invariant_case_labels": {
+        "event": 0,
+        "non_event": 18
+      },
+      "scope": "Read-reference cases in the selected actual panel; not accuracy or additional editing discoveries."
+    },
+    "unedited_local": {
+      "additional_invariant_case_labels": {
+        "event": 0,
+        "non_event": 18
+      },
+      "scope": "Read-reference cases in the selected actual panel; not accuracy or additional editing discoveries."
+    }
+  },
+  "selected_PE_vs_zero_incentive_two_reference_union": {
+    "focus_records": 89,
+    "PE_coding_in_union": 44,
+    "PE_coding_outside_union": 45,
+    "scope": "Compatibility with the union of the two declared fixed-reference zero-incentive optimal domains, not the selected PE reference alone. Outside-domain codings demonstrate that this optimal-path certificate cannot silently cover dedicated PE mode or other objectives/reference grammars."
+  },
+  "F9_additional_task_determinations": {
+    "native": {
+      "event_delta": 0,
+      "non_event_delta": 70
+    },
+    "exact_programmed": {
+      "event_delta": 0,
+      "non_event_delta": 74
+    },
+    "native_nonexact": {
+      "event_delta": 0,
+      "non_event_delta": 167
+    }
+  },
+  "scope": "Actual conditional negative determinations are useful but do not constitute additional positive edit calls or biological accuracy gains. Fixed-model completeness is distinct from cross-model coverage."
+}
