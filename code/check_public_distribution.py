@@ -38,7 +38,7 @@ def main():
                                 'node_modules'} for part in relative.parts)
         assert relative.suffix.lower() not in {'.tex', '.docx', '.bundle'}
         if relative.suffix.lower() == '.zip':
-            assert re.fullmatch(r'raw_replay/inputs/alleles/(?:mutant|programmed)/SRR[0-9]+\.zip', name)
+            assert (re.fullmatch(r'raw_replay/inputs/alleles/(?:mutant|programmed)/SRR[0-9]+\.zip', name) or re.fullmatch(r'extensions/reproduction/external/inputs/(?:nhej|allele_specific|base_editor)_Alleles_frequency_table\.zip', name))
             with zipfile.ZipFile(ROOT / name) as archive:
                 assert archive.namelist() == ['Alleles_frequency_table.txt']
         assert not (relative.suffix.lower() == '.pdf' and not name.startswith('figures/'))
@@ -50,8 +50,8 @@ def main():
             assert '\\begin{document}' not in text, name
             assert 'P1_Revised_Integrated_EN.txt' not in text, name
     release = json.loads((ROOT / 'metadata/RELEASE_STATE.json').read_text())
-    assert release['version'] == inventory['version'] == '0.4.1'
-    assert release['edition'] == inventory['edition'] == policy['edition'] == 'MP04'
+    assert release['version'] == inventory['version'] == '0.5.0'
+    assert release['edition'] == inventory['edition'] == policy['edition'] == 'MP05'
     assert release['manuscript_public'] is False and release['supplement_public'] is False
     # Existing tools and scientific observations are frozen; PaperGraph is a
     # separate communication artifact, not a rewrite of historical analyses.

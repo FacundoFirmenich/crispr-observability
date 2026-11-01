@@ -1,0 +1,588 @@
+{
+  "timing": "Post hoc constructive extension after the finite-catalog audit on already known data",
+  "minimum_classes_not_new_theorem": true,
+  "rows": [
+    {
+      "run": "SRR29623274",
+      "partition": {
+        "targets": [
+          "native_event",
+          "exact_programmed_event"
+        ],
+        "minimum_observed_classes": 2,
+        "resolved_records": 13176,
+        "classes": [
+          {
+            "target_signature": [
+              false,
+              false
+            ],
+            "records": 13175,
+            "distinct_coding_strings": 77,
+            "actual_example": {
+              "run": "SRR29623274",
+              "read_id": "SRR29623274.1043",
+              "operator": "witness",
+              "coding": "AGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT"
+            }
+          },
+          {
+            "target_signature": [
+              true,
+              false
+            ],
+            "records": 1,
+            "distinct_coding_strings": 1,
+            "actual_example": {
+              "run": "SRR29623274",
+              "read_id": "SRR29623274.12223",
+              "operator": "witness",
+              "coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTCCTATGAT"
+            }
+          }
+        ],
+        "scope": "Coarsest partition on this observed catalog for these targets only; not a state ontology or full-sequence/function certificate."
+      },
+      "raw_reporting_counts": {
+        "N": 13762,
+        "exact_programmed": 0,
+        "native_other_observed_coding": 1,
+        "non_native": 13175,
+        "unknown": 586
+      },
+      "native_minus_exact_within_run": {
+        "naive_separate_marginal_hull_exact": [
+          "-585/13762",
+          "587/13762"
+        ],
+        "joint_logically_compatible_hull_exact": [
+          "1/13762",
+          "587/13762"
+        ],
+        "premise": "Exact programmed coding implies native local peptide; both predicates refer to the same witnessed coding or shared unresolved record. Not a functional benefit."
+      }
+    },
+    {
+      "run": "ALL",
+      "partition": {
+        "targets": [
+          "native_event",
+          "exact_programmed_event"
+        ],
+        "minimum_observed_classes": 3,
+        "resolved_records": 170725,
+        "classes": [
+          {
+            "target_signature": [
+              false,
+              false
+            ],
+            "records": 157745,
+            "distinct_coding_strings": 515,
+            "actual_example": {
+              "run": "SRR29623268",
+              "read_id": "SRR29623268.19260",
+              "operator": "witness",
+              "coding": "AACACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT"
+            }
+          },
+          {
+            "target_signature": [
+              true,
+              false
+            ],
+            "records": 128,
+            "distinct_coding_strings": 22,
+            "actual_example": {
+              "run": "SRR29623271",
+              "read_id": "SRR29623271.6992",
+              "operator": "witness",
+              "coding": "GGCACCATAAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+            }
+          },
+          {
+            "target_signature": [
+              true,
+              true
+            ],
+            "records": 12852,
+            "distinct_coding_strings": 1,
+            "actual_example": {
+              "run": "SRR29623273",
+              "read_id": "SRR29623273.2320",
+              "operator": "witness",
+              "coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+            }
+          }
+        ],
+        "scope": "Coarsest partition on this observed catalog for these targets only; not a state ontology or full-sequence/function certificate."
+      }
+    },
+    {
+      "run": "SRR29623266",
+      "partition": {
+        "targets": [
+          "native_event",
+          "exact_programmed_event"
+        ],
+        "minimum_observed_classes": 1,
+        "resolved_records": 13290,
+        "classes": [
+          {
+            "target_signature": [
+              false,
+              false
+            ],
+            "records": 13290,
+            "distinct_coding_strings": 79,
+            "actual_example": {
+              "run": "SRR29623266",
+              "read_id": "SRR29623266.2776",
+              "operator": "witness",
+              "coding": "AGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT"
+            }
+          }
+        ],
+        "scope": "Coarsest partition on this observed catalog for these targets only; not a state ontology or full-sequence/function certificate."
+      },
+      "raw_reporting_counts": {
+        "N": 13617,
+        "exact_programmed": 0,
+        "native_other_observed_coding": 0,
+        "non_native": 13290,
+        "unknown": 327
+      },
+      "native_minus_exact_within_run": {
+        "naive_separate_marginal_hull_exact": [
+          "-109/4539",
+          "109/4539"
+        ],
+        "joint_logically_compatible_hull_exact": [
+          "0",
+          "109/4539"
+        ],
+        "premise": "Exact programmed coding implies native local peptide; both predicates refer to the same witnessed coding or shared unresolved record. Not a functional benefit."
+      }
+    },
+    {
+      "run": "SRR29623268",
+      "partition": {
+        "targets": [
+          "native_event",
+          "exact_programmed_event"
+        ],
+        "minimum_observed_classes": 1,
+        "resolved_records": 29172,
+        "classes": [
+          {
+            "target_signature": [
+              false,
+              false
+            ],
+            "records": 29172,
+            "distinct_coding_strings": 103,
+            "actual_example": {
+              "run": "SRR29623268",
+              "read_id": "SRR29623268.19260",
+              "operator": "witness",
+              "coding": "AACACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT"
+            }
+          }
+        ],
+        "scope": "Coarsest partition on this observed catalog for these targets only; not a state ontology or full-sequence/function certificate."
+      },
+      "raw_reporting_counts": {
+        "N": 29956,
+        "exact_programmed": 0,
+        "native_other_observed_coding": 0,
+        "non_native": 29172,
+        "unknown": 784
+      },
+      "native_minus_exact_within_run": {
+        "naive_separate_marginal_hull_exact": [
+          "-196/7489",
+          "196/7489"
+        ],
+        "joint_logically_compatible_hull_exact": [
+          "0",
+          "196/7489"
+        ],
+        "premise": "Exact programmed coding implies native local peptide; both predicates refer to the same witnessed coding or shared unresolved record. Not a functional benefit."
+      }
+    },
+    {
+      "run": "SRR29623273",
+      "partition": {
+        "targets": [
+          "native_event",
+          "exact_programmed_event"
+        ],
+        "minimum_observed_classes": 2,
+        "resolved_records": 16477,
+        "classes": [
+          {
+            "target_signature": [
+              false,
+              false
+            ],
+            "records": 16475,
+            "distinct_coding_strings": 97,
+            "actual_example": {
+              "run": "SRR29623273",
+              "read_id": "SRR29623273.929",
+              "operator": "witness",
+              "coding": "AGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT"
+            }
+          },
+          {
+            "target_signature": [
+              true,
+              true
+            ],
+            "records": 2,
+            "distinct_coding_strings": 1,
+            "actual_example": {
+              "run": "SRR29623273",
+              "read_id": "SRR29623273.2320",
+              "operator": "witness",
+              "coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+            }
+          }
+        ],
+        "scope": "Coarsest partition on this observed catalog for these targets only; not a state ontology or full-sequence/function certificate."
+      },
+      "raw_reporting_counts": {
+        "N": 17177,
+        "exact_programmed": 2,
+        "native_other_observed_coding": 0,
+        "non_native": 16475,
+        "unknown": 700
+      },
+      "native_minus_exact_within_run": {
+        "naive_separate_marginal_hull_exact": [
+          "-700/17177",
+          "700/17177"
+        ],
+        "joint_logically_compatible_hull_exact": [
+          "0",
+          "700/17177"
+        ],
+        "premise": "Exact programmed coding implies native local peptide; both predicates refer to the same witnessed coding or shared unresolved record. Not a functional benefit."
+      }
+    },
+    {
+      "run": "SRR29623265",
+      "partition": {
+        "targets": [
+          "native_event",
+          "exact_programmed_event"
+        ],
+        "minimum_observed_classes": 1,
+        "resolved_records": 20528,
+        "classes": [
+          {
+            "target_signature": [
+              false,
+              false
+            ],
+            "records": 20528,
+            "distinct_coding_strings": 86,
+            "actual_example": {
+              "run": "SRR29623265",
+              "read_id": "SRR29623265.2980",
+              "operator": "witness",
+              "coding": "AACACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT"
+            }
+          }
+        ],
+        "scope": "Coarsest partition on this observed catalog for these targets only; not a state ontology or full-sequence/function certificate."
+      },
+      "raw_reporting_counts": {
+        "N": 21041,
+        "exact_programmed": 0,
+        "native_other_observed_coding": 0,
+        "non_native": 20528,
+        "unknown": 513
+      },
+      "native_minus_exact_within_run": {
+        "naive_separate_marginal_hull_exact": [
+          "-513/21041",
+          "513/21041"
+        ],
+        "joint_logically_compatible_hull_exact": [
+          "0",
+          "513/21041"
+        ],
+        "premise": "Exact programmed coding implies native local peptide; both predicates refer to the same witnessed coding or shared unresolved record. Not a functional benefit."
+      }
+    },
+    {
+      "run": "SRR29623267",
+      "partition": {
+        "targets": [
+          "native_event",
+          "exact_programmed_event"
+        ],
+        "minimum_observed_classes": 1,
+        "resolved_records": 26392,
+        "classes": [
+          {
+            "target_signature": [
+              false,
+              false
+            ],
+            "records": 26392,
+            "distinct_coding_strings": 101,
+            "actual_example": {
+              "run": "SRR29623267",
+              "read_id": "SRR29623267.3253",
+              "operator": "witness",
+              "coding": "AGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT"
+            }
+          }
+        ],
+        "scope": "Coarsest partition on this observed catalog for these targets only; not a state ontology or full-sequence/function certificate."
+      },
+      "raw_reporting_counts": {
+        "N": 27024,
+        "exact_programmed": 0,
+        "native_other_observed_coding": 0,
+        "non_native": 26392,
+        "unknown": 632
+      },
+      "native_minus_exact_within_run": {
+        "naive_separate_marginal_hull_exact": [
+          "-79/3378",
+          "79/3378"
+        ],
+        "joint_logically_compatible_hull_exact": [
+          "0",
+          "79/3378"
+        ],
+        "premise": "Exact programmed coding implies native local peptide; both predicates refer to the same witnessed coding or shared unresolved record. Not a functional benefit."
+      }
+    },
+    {
+      "run": "SRR29623272",
+      "partition": {
+        "targets": [
+          "native_event",
+          "exact_programmed_event"
+        ],
+        "minimum_observed_classes": 3,
+        "resolved_records": 19409,
+        "classes": [
+          {
+            "target_signature": [
+              false,
+              false
+            ],
+            "records": 15846,
+            "distinct_coding_strings": 186,
+            "actual_example": {
+              "run": "SRR29623272",
+              "read_id": "SRR29623272.9590",
+              "operator": "witness",
+              "coding": "AACACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT"
+            }
+          },
+          {
+            "target_signature": [
+              true,
+              false
+            ],
+            "records": 24,
+            "distinct_coding_strings": 8,
+            "actual_example": {
+              "run": "SRR29623272",
+              "read_id": "SRR29623272.18450",
+              "operator": "witness",
+              "coding": "GGCACCATTAAAGAAAATATCATCTTTGGCGTGAGTTACGAT"
+            }
+          },
+          {
+            "target_signature": [
+              true,
+              true
+            ],
+            "records": 3539,
+            "distinct_coding_strings": 1,
+            "actual_example": {
+              "run": "SRR29623272",
+              "read_id": "SRR29623272.2",
+              "operator": "witness",
+              "coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+            }
+          }
+        ],
+        "scope": "Coarsest partition on this observed catalog for these targets only; not a state ontology or full-sequence/function certificate."
+      },
+      "raw_reporting_counts": {
+        "N": 20573,
+        "exact_programmed": 3539,
+        "native_other_observed_coding": 24,
+        "non_native": 15846,
+        "unknown": 1164
+      },
+      "native_minus_exact_within_run": {
+        "naive_separate_marginal_hull_exact": [
+          "-1140/20573",
+          "1188/20573"
+        ],
+        "joint_logically_compatible_hull_exact": [
+          "24/20573",
+          "1188/20573"
+        ],
+        "premise": "Exact programmed coding implies native local peptide; both predicates refer to the same witnessed coding or shared unresolved record. Not a functional benefit."
+      }
+    },
+    {
+      "run": "SRR29623271",
+      "partition": {
+        "targets": [
+          "native_event",
+          "exact_programmed_event"
+        ],
+        "minimum_observed_classes": 3,
+        "resolved_records": 18275,
+        "classes": [
+          {
+            "target_signature": [
+              false,
+              false
+            ],
+            "records": 12602,
+            "distinct_coding_strings": 274,
+            "actual_example": {
+              "run": "SRR29623271",
+              "read_id": "SRR29623271.11272",
+              "operator": "witness",
+              "coding": "AGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT"
+            }
+          },
+          {
+            "target_signature": [
+              true,
+              false
+            ],
+            "records": 68,
+            "distinct_coding_strings": 20,
+            "actual_example": {
+              "run": "SRR29623271",
+              "read_id": "SRR29623271.6992",
+              "operator": "witness",
+              "coding": "GGCACCATAAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+            }
+          },
+          {
+            "target_signature": [
+              true,
+              true
+            ],
+            "records": 5605,
+            "distinct_coding_strings": 1,
+            "actual_example": {
+              "run": "SRR29623271",
+              "read_id": "SRR29623271.3",
+              "operator": "witness",
+              "coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+            }
+          }
+        ],
+        "scope": "Coarsest partition on this observed catalog for these targets only; not a state ontology or full-sequence/function certificate."
+      },
+      "raw_reporting_counts": {
+        "N": 19184,
+        "exact_programmed": 5605,
+        "native_other_observed_coding": 68,
+        "non_native": 12602,
+        "unknown": 909
+      },
+      "native_minus_exact_within_run": {
+        "naive_separate_marginal_hull_exact": [
+          "-841/19184",
+          "977/19184"
+        ],
+        "joint_logically_compatible_hull_exact": [
+          "17/4796",
+          "977/19184"
+        ],
+        "premise": "Exact programmed coding implies native local peptide; both predicates refer to the same witnessed coding or shared unresolved record. Not a functional benefit."
+      }
+    },
+    {
+      "run": "SRR29623270",
+      "partition": {
+        "targets": [
+          "native_event",
+          "exact_programmed_event"
+        ],
+        "minimum_observed_classes": 3,
+        "resolved_records": 14006,
+        "classes": [
+          {
+            "target_signature": [
+              false,
+              false
+            ],
+            "records": 10265,
+            "distinct_coding_strings": 198,
+            "actual_example": {
+              "run": "SRR29623270",
+              "read_id": "SRR29623270.14295",
+              "operator": "witness",
+              "coding": "AACACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT"
+            }
+          },
+          {
+            "target_signature": [
+              true,
+              false
+            ],
+            "records": 35,
+            "distinct_coding_strings": 14,
+            "actual_example": {
+              "run": "SRR29623270",
+              "read_id": "SRR29623270.3306",
+              "operator": "witness",
+              "coding": "GGCACCATCAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+            }
+          },
+          {
+            "target_signature": [
+              true,
+              true
+            ],
+            "records": 3706,
+            "distinct_coding_strings": 1,
+            "actual_example": {
+              "run": "SRR29623270",
+              "read_id": "SRR29623270.13",
+              "operator": "witness",
+              "coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+            }
+          }
+        ],
+        "scope": "Coarsest partition on this observed catalog for these targets only; not a state ontology or full-sequence/function certificate."
+      },
+      "raw_reporting_counts": {
+        "N": 14672,
+        "exact_programmed": 3706,
+        "native_other_observed_coding": 35,
+        "non_native": 10265,
+        "unknown": 666
+      },
+      "native_minus_exact_within_run": {
+        "naive_separate_marginal_hull_exact": [
+          "-631/14672",
+          "701/14672"
+        ],
+        "joint_logically_compatible_hull_exact": [
+          "5/2096",
+          "701/14672"
+        ],
+        "premise": "Exact programmed coding implies native local peptide; both predicates refer to the same witnessed coding or shared unresolved record. Not a functional benefit."
+      }
+    }
+  ]
+}

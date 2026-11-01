@@ -1,0 +1,392 @@
+{
+  "scope": "Original scientific sources, inputs and decoded-exact expected outputs. Large scientific comparator JSON files are losslessly gzip-compressed; decoded original hashes retained.",
+  "files": {
+    "geometry/additional_fastq/SRR29622827.fastq.gz": {
+      "bytes": 4368851,
+      "sha256": "7ea5be753c488c8c30ffb47608ed3ce72689c7fc0c3d39b36230a03a8ed14f05"
+    },
+    "geometry/additional_fastq/SRR29622832.fastq.gz": {
+      "bytes": 4165115,
+      "sha256": "418fde53f4911a3bb48c485ddb896705d52dbacdada90da1713645b1cde87736"
+    },
+    "geometry/additional_fastq/SRR29622845.fastq.gz": {
+      "bytes": 3359516,
+      "sha256": "738d107308e9e9fa7a7ae887647d5db2ef7840a04c433440734ec9ac858dd53d"
+    },
+    "geometry/additional_fastq/SRR29622955.fastq.gz": {
+      "bytes": 3014795,
+      "sha256": "24a3a3d7b23a8ae9591b6829eedba5d032e65345baf3c7fd9dc2b30f7a11d9e8"
+    },
+    "geometry/additional_fastq/SRR29622959.fastq.gz": {
+      "bytes": 3947445,
+      "sha256": "36684f56a2c54d71031e0465f7e5d129f4952ad5346e2cabcfaea191f1206831"
+    },
+    "geometry/additional_fastq/SRR29623656.fastq.gz": {
+      "bytes": 2634216,
+      "sha256": "a4d3f9195d885648c065cbca9a886522643b45e1416fe0e5d6a1104f40e95bff"
+    },
+    "geometry/expected/COMMON_QUALITY_VETO.json": {
+      "bytes": 84573,
+      "sha256": "4f1eddf5300fbeef70d5d5f9ec07ee35aa65a0852cae7db4e2f4deb1b9414f23"
+    },
+    "geometry/expected/CONTRASTS.json": {
+      "bytes": 157333,
+      "sha256": "e48253c7633f8a1eab744e33bab5e8844ddbd0fcf12861228e15b1943d9e60c1"
+    },
+    "geometry/expected/COUNTS.json": {
+      "bytes": 480737,
+      "sha256": "4c6f641b618c6a26363127db7216185602376043351ad09249f0a5d43548cfcb"
+    },
+    "geometry/expected/DECOMPOSITIONS.json": {
+      "bytes": 97148,
+      "sha256": "51b10309e2554b1223992b458e3ebe8eae840b51d1f2460b812a590c09b36976"
+    },
+    "geometry/expected/LOSS_INTERSECTIONS.json.gz": {
+      "bytes": 472578,
+      "sha256": "2719e2e089f89ba259de547a89bdaaf31ac66aade5b30b9f53d42e9800f65559"
+    },
+    "geometry/expected/PAIRS.json": {
+      "bytes": 401483,
+      "sha256": "2aed48b73dd6aa5bd80dac3c10581d83c9938401827b2ab0d04e6aab613c2851"
+    },
+    "geometry/original/DESIGN.json": {
+      "bytes": 2644,
+      "sha256": "0a4d22e1c29f43a874e367e862777c12624b94a5cc34b281c07edc2971592cc0"
+    },
+    "geometry/original/separate_quality_geometry.py": {
+      "bytes": 15071,
+      "sha256": "9859c64dfc0f8846012b2883a8093312d478b4e50cd82d5b789baf0392e94e7f"
+    },
+    "geometry/original/verify_m1.py": {
+      "bytes": 3429,
+      "sha256": "5b77ce8bc7aefb4e7d8b1fb39654c25c7636a2128c9b7ee05c633d4016dc1168"
+    },
+    "geometry/original/veto_common_quality.py": {
+      "bytes": 4763,
+      "sha256": "58978b8bd41fd90dff25031a736118821f98e9f58d018e4c28f406f90b24f862"
+    },
+    "geometry/source/EXPECTED_PRODUCTS.json": {
+      "bytes": 4570,
+      "sha256": "a8d55c536e72c8198f916f1688cc0ff4df4022cc3f2356428fb99a688e3508e5"
+    },
+    "geometry/source/observer/results/OBSERVATION_COUNTS.json": {
+      "bytes": 293257,
+      "sha256": "85450f020aad9abea6bea85e4ec98c606e48527cfda6ad4f82b6b5a38b7be17f"
+    },
+    "geometry/source/observer/results/ORIGINAL_AMBIGUITY_VETO.json": {
+      "bytes": 34129,
+      "sha256": "452d8434baa12925c20cad4cdb3105319675a0e42da02a7eb2be6649d90d3ad9"
+    },
+    "geometry/source/observer/results/TRUNCATION_COUNTS.json": {
+      "bytes": 2633092,
+      "sha256": "d0df0da20becfe58358f20d6bbf4ac60e0d18d932210afce9840276b4557cbde"
+    },
+    "geometry/source/v21/results/READ_PHASE_RESULTS.json": {
+      "bytes": 454069,
+      "sha256": "1ab054584786dc17f1655490774840e101974399cf6e1d9f62266a85487ba833"
+    },
+    "geometry/source/v21/results/REFERENCE_AND_TEMPLATES.json": {
+      "bytes": 31709,
+      "sha256": "b95a1949b7b4e69a07c105eae2917108ca195bd71b36c507446b7184ea9eec4b"
+    },
+    "external/PROTOCOL_FREEZE.json": {
+      "bytes": 301,
+      "sha256": "884c0b7e66ed5c5e05d886cd053878e4418947af6fa4672aa228c1bc0c63ad77"
+    },
+    "external/PROTOCOL_S1_02.json": {
+      "bytes": 4615,
+      "sha256": "11efe63aa705dcf81825e84f499876e3f624c0422417eee98bd8c4a232c33cd1"
+    },
+    "external/code/explain_witnesses.py": {
+      "bytes": 3472,
+      "sha256": "8a1cac45da4c16a2b1eb3e86112c734c145c62ab13334bdc20e4e710dd0a1c84"
+    },
+    "external/code/run_external.py": {
+      "bytes": 7943,
+      "sha256": "fdc9887079b19775d6dfcf19ea1c424c937b296d270fc65ddc78ac9c79c45e3c"
+    },
+    "external/code/verify_external.py": {
+      "bytes": 6610,
+      "sha256": "65b12de2850b1ea521a20976a034a50fca5a1691bf0451cc551d2542174937e2"
+    },
+    "external/expected/EXTERNAL_RESULTS.json": {
+      "bytes": 184106,
+      "sha256": "908d5d9247712b869d6098e36b41ca9f19049c4cbc03bd6a1a15de13a88f6a7b"
+    },
+    "external/expected/INDEPENDENT_VERIFICATION.json": {
+      "bytes": 1954,
+      "sha256": "a53eea36a4631457fb3e1d11b48de00d90beb282b94918dff83732995074878b"
+    },
+    "external/expected/MECHANISM_DIAGNOSTICS.json": {
+      "bytes": 6913,
+      "sha256": "bcd1848739474bafc29c2f2c53f98129266a1594af77ad4d91dc35dadfd2613a"
+    },
+    "external/expected/allele_specific_CATALOG.json.gz": {
+      "bytes": 113367,
+      "sha256": "d7467228485d589abff3cb64461bb3f34acba709b77c74635c728ab8a92553e2"
+    },
+    "external/expected/base_editor_CATALOG.json.gz": {
+      "bytes": 119389,
+      "sha256": "d6e3cf3a6fd2d7dbe04f5fe4dad7a82727f3a358c7b7865b2ca3c63ea07758dd"
+    },
+    "external/expected/nhej_CATALOG.json.gz": {
+      "bytes": 108254,
+      "sha256": "c661de3a334df61c8abd9d319e06ccf15f817897a3170718fd64f44780d5df85"
+    },
+    "external/inputs/ACQUISITION.json": {
+      "bytes": 8020,
+      "sha256": "aaaf6797b32341508afd0dd7428dc1e41fcdfa6158015c50a2bae72d90b5e962"
+    },
+    "external/inputs/NEXT_PRJNA1047080_ENA.tsv": {
+      "bytes": 6367,
+      "sha256": "4b2b1c31f33c72d4f5fc15582eb188d5e80de2fcb48daab5dc28d73f0c98fff2"
+    },
+    "external/inputs/NEXT_PRJNA1047080_ENA_EXTENDED.tsv": {
+      "bytes": 7516,
+      "sha256": "8ba222b390e788fd6c7a4771c49e3a30e93351c86f1027f343bf056ad025e5eb"
+    },
+    "external/inputs/allele_specific.fastq.gz": {
+      "bytes": 1174843,
+      "sha256": "69518320f8e0b37f5982c1e8f6c9dda7afe9afd12a8b56c0a9497d923f0e0201"
+    },
+    "external/inputs/allele_specific_Alleles_frequency_table.zip": {
+      "bytes": 36337,
+      "sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+    },
+    "external/inputs/allele_specific_CRISPResso2_info.json": {
+      "bytes": 93325,
+      "sha256": "78c8080e5a66004eec7d610d70add87ae1f5846cc3c7bcbf3107f59c6d29be5c"
+    },
+    "external/inputs/allele_specific_CRISPResso_mapping_statistics.txt": {
+      "bytes": 155,
+      "sha256": "401ea156db08b3cce25ad8604c6fb2872738b3c00e15f856f0592d808fb72d88"
+    },
+    "external/inputs/allele_specific_CRISPResso_quantification_of_editing_frequency.txt": {
+      "bytes": 511,
+      "sha256": "3ae9fbc3b9107253aed2cae00ec9bb715fa1118cd9c25f00e034ec8f7eb8caed"
+    },
+    "external/inputs/allele_specific_report.html": {
+      "bytes": 309582,
+      "sha256": "ba3eb3d44e06098ceb2a98837798bb7031639c2c83f9fafa757838d8dd5a4907"
+    },
+    "external/inputs/base_editor.fastq.gz": {
+      "bytes": 1660485,
+      "sha256": "371aad07a164721188deaa80ca7589f5cd4b871119d90d55a984c6d9c8d31c7a"
+    },
+    "external/inputs/base_editor_Alleles_frequency_table.zip": {
+      "bytes": 42403,
+      "sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+    },
+    "external/inputs/base_editor_CRISPResso2_info.json": {
+      "bytes": 67635,
+      "sha256": "5e7bd54bef5169bf85768c9c95c828c23bc12ca3ca339698fc6fd5c6fa52a8e4"
+    },
+    "external/inputs/base_editor_CRISPResso_mapping_statistics.txt": {
+      "bytes": 152,
+      "sha256": "ab5d217149a19cb8fd50ecfe60768395392a562c3b46a9d4690243591eb8e674"
+    },
+    "external/inputs/base_editor_CRISPResso_quantification_of_editing_frequency.txt": {
+      "bytes": 422,
+      "sha256": "e8c29a993dbeb126117e5cef024b23035089935ef424095a041ed63f5764dbaa"
+    },
+    "external/inputs/base_editor_report.html": {
+      "bytes": 269170,
+      "sha256": "f7ba7697d9c9da225e1a7eaf535ba942b32f17a2424aa926f204177bd79e133e"
+    },
+    "external/inputs/nhej_Alleles_frequency_table.zip": {
+      "bytes": 37843,
+      "sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+    },
+    "external/inputs/nhej_CRISPResso2_info.json": {
+      "bytes": 58567,
+      "sha256": "910531a42b1c11053114eaa694cf3559a666dcf2a6bfbc58f52471d12022bfb6"
+    },
+    "external/inputs/nhej_CRISPResso_mapping_statistics.txt": {
+      "bytes": 155,
+      "sha256": "75b3ba7f916595059e75ebfa28f8660269e314ce96dc27e49dbdbc636ada6992"
+    },
+    "external/inputs/nhej_CRISPResso_quantification_of_editing_frequency.txt": {
+      "bytes": 437,
+      "sha256": "29099d28f145af572718d5f3e6e758d9ab1b48f00cb66377d068d73fcbbab090"
+    },
+    "external/inputs/nhej_r1.fastq.gz": {
+      "bytes": 1018084,
+      "sha256": "ffe73d3adb091c63269054b11b61f08f087c2b659d0c9002ecfee0b00ca413c5"
+    },
+    "external/inputs/nhej_r2.fastq.gz": {
+      "bytes": 1096253,
+      "sha256": "72803f94f48b1ede97a437307be7553865879a29a3561b6548b647ba3222b490"
+    },
+    "external/inputs/nhej_report.html": {
+      "bytes": 163708,
+      "sha256": "c535c42420c504831dd630ba92ba1e6f54c8a7ee5870410a17ac4c05c27b50f7"
+    },
+    "external/inputs/official_examples.html": {
+      "bytes": 26826,
+      "sha256": "620304f6ae880a2339e14f4cc5659452d5bfcd96901dbe2ca67c5184e4d1da95"
+    },
+    "external/software/LICENSE": {
+      "bytes": 1074,
+      "sha256": "bb529ee32ab7d3b876b7fa54259555141673dd2fdf7f6b5abb8b57f7cfced04d"
+    },
+    "external/software/pyproject.toml": {
+      "bytes": 457,
+      "sha256": "5141f35c271507ddebef2217a7c328abfc3631a60a057eed5ea9b3925d430044"
+    },
+    "external/software/src/observed_contracts/__init__.py": {
+      "bytes": 101,
+      "sha256": "879a2fa5dcde07ffaa0516394a73f70cfa050cab3b8e046748fc0c0f4f413991"
+    },
+    "external/software/src/observed_contracts/cli.py": {
+      "bytes": 2145,
+      "sha256": "a26e6c4fa9b97eecde596de46dd07ef7f233466f5ccd36442dd165e7602f8181"
+    },
+    "external/software/src/observed_contracts/core.py": {
+      "bytes": 7934,
+      "sha256": "508a37b1ffe3716b3770e9116785409d10de99cf63fc3c1086a25961fea96092"
+    },
+    "external/software/src/observed_contracts/tabular.py": {
+      "bytes": 4444,
+      "sha256": "e7406ff48a9288c8b25822c0ab8fa80a6d5b29776db815091777064d54dd57bb"
+    },
+    "external/tests/test_external_contracts.py": {
+      "bytes": 2517,
+      "sha256": "f061ca99e968b0cb0ecb52fb1622a6f8ba829a88829534c3a4d49960bfc58026"
+    },
+    "contract/code/event_contract.py": {
+      "bytes": 8982,
+      "sha256": "7c877d730e5684c7c87742b9cc8baff107c439f9fdb2dc559f003a1fdc3eab46"
+    },
+    "contract/expected/OBSERVED_EVENT_CONTRACT_1_0.json": {
+      "bytes": 62300,
+      "sha256": "bee47118dcdcec6b8681ca392b850e19ce57e4a52daaffc03644c42ca07fb148"
+    },
+    "contract/inputs/M7/inputs/M2/COUNTS.json": {
+      "bytes": 33022,
+      "sha256": "6f712d6cb43af0ce3bb9da69069409757619b5a06c094e7f6c8a0de8ecc8d57c"
+    },
+    "contract/inputs/M7/inputs/M2/DESIGN.json": {
+      "bytes": 5109,
+      "sha256": "e51802cebb871f82b0d0f8b8bd734dcd9292d2ff0cf1f1091d4ab0bd49f6f4cc"
+    },
+    "contract/inputs/M7/inputs/M2/REFERENCE.json": {
+      "bytes": 799,
+      "sha256": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849"
+    },
+    "contract/inputs/M7/inputs/M2/REFERENCE_COUNTS.json": {
+      "bytes": 13442,
+      "sha256": "51b8b56e4ce022232a3cb9954313158e3c297d02168e363fd74b98138d9979b8"
+    },
+    "contract/inputs/M7/inputs/M2/REFERENCE_PROGRAMMED.json": {
+      "bytes": 954,
+      "sha256": "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad"
+    },
+    "contract/inputs/M7/inputs/M3/WITNESS_COUNTS.json": {
+      "bytes": 8439,
+      "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+    },
+    "cftr/INPUT_MANIFEST.json": {
+      "bytes": 8337,
+      "sha256": "02064add566b179898bd2ac02540e4f28a724780ce444ce7988ea6ec5b97318b"
+    },
+    "cftr/code/verify_independent.py": {
+      "bytes": 6772,
+      "sha256": "79f8ce26d426c9ae34ea0033489a936d96f281ff2ee281800304a53242a2c6a4"
+    },
+    "cftr/code/reconstruct_and_audit.py": {
+      "bytes": 10596,
+      "sha256": "a2be6b336da6cf1bc0b2d8d46b9712f3614b83f7586de4404d07d729f835d527"
+    },
+    "cftr/code/compose_targets.py": {
+      "bytes": 2436,
+      "sha256": "5f37d968f9c7bc1e0417ead0d2d868a0fd89ae51fcd16e24d46d6e139f0a8cc2"
+    },
+    "cftr/expected/AUDIT_SUMMARY.json": {
+      "bytes": 3224,
+      "sha256": "e7e7fae3cc897a0113d1f0f905deb505fac8b1ce54739f58f40a3ad8cc3de18e"
+    },
+    "cftr/expected/CODING_DISAGREEMENT_RECORDS.json": {
+      "bytes": 51288,
+      "sha256": "edcc73f3f546c44c4c48d47504506aae1c0d1def141f7198501381ef0ab030e8"
+    },
+    "cftr/expected/CORRESPONDENCE_BY_RUN.json": {
+      "bytes": 3790,
+      "sha256": "8733996351580bd8a1ffb74514a5a22f7f9a86bee073f3dd6d3d5f1115e7d196"
+    },
+    "cftr/expected/SEQUENCE_FAMILY_WITHDRAWAL.json": {
+      "bytes": 371124,
+      "sha256": "b17cc27a8951451dbc9c4fa68cee0244e919eca4194593ce885fbaf5a3cd0db2"
+    },
+    "cftr/expected/FACTORIZATION_ATLAS.json": {
+      "bytes": 708752,
+      "sha256": "440a621b04d575c88cb0ba0f83536fd63d247fd6172c384321f4e04dac6e32b0"
+    },
+    "cftr/expected/INDEPENDENT_VERIFICATION.json": {
+      "bytes": 422,
+      "sha256": "f7958750704e8707baac1f4c8faacf852c5669e443c1442d6b357357ca2c462a"
+    },
+    "cftr/expected/JOINT_TARGET_PARTITIONS.json": {
+      "bytes": 18281,
+      "sha256": "766d40367088755e92c9a835ba0a97f72392e483f79ba06aa2565fc050831ade"
+    },
+    "cftr/expected/CODING_CATALOGS.json.gz": {
+      "bytes": 99873,
+      "sha256": "a51e47eb542de2dc714f508fd37fa1f32401eebda39321c7460faada8c14a935"
+    },
+    "cftr/inputs/REFERENCE_PROGRAMMED.json": {
+      "bytes": 954,
+      "sha256": "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad"
+    },
+    "cftr/inputs/M8_EVENT_CONTRACT.json": {
+      "bytes": 62300,
+      "sha256": "bee47118dcdcec6b8681ca392b850e19ce57e4a52daaffc03644c42ca07fb148"
+    },
+    "cftr/inputs/M8_WITNESS_COUNTS.json": {
+      "bytes": 8439,
+      "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+    },
+    "cftr/inputs/RUN_DESIGN.json": {
+      "bytes": 5109,
+      "sha256": "e51802cebb871f82b0d0f8b8bd734dcd9292d2ff0cf1f1091d4ab0bd49f6f4cc"
+    },
+    "cftr/inputs/REFERENCE_MUTANT.json": {
+      "bytes": 799,
+      "sha256": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849"
+    },
+    "cftr/inputs/M8_WITNESS_CONTRASTS.json": {
+      "bytes": 6696,
+      "sha256": "29029bfbf54e17386958bd9362467105bf0d617043b31a5d8c541b3db6589663"
+    },
+    "cftr/tests/test_actual_catalog.py": {
+      "bytes": 2031,
+      "sha256": "4f68818699d30a50a69921311c00ed7f9580005d4d5a6d424d30dff0d9e46f7d"
+    }
+  },
+  "lossless_comparator_containers": {
+    "geometry/expected/LOSS_INTERSECTIONS.json.gz": {
+      "original_name": "LOSS_INTERSECTIONS.json",
+      "uncompressed_bytes": 32611687,
+      "uncompressed_sha256": "5b935ee101fd550148cbc3e810fca419d066eec74c15595e5b6f373abfdc925e"
+    },
+    "external/expected/nhej_CATALOG.json.gz": {
+      "original_name": "nhej_CATALOG.json",
+      "uncompressed_bytes": 5804699,
+      "uncompressed_sha256": "1ef39b027518e5c54f959a34a7f74a3b5045d709bb048e08c6912f52e85a31e2"
+    },
+    "external/expected/base_editor_CATALOG.json.gz": {
+      "original_name": "base_editor_CATALOG.json",
+      "uncompressed_bytes": 9280990,
+      "uncompressed_sha256": "0419eee0b14c6d9180b9cd1f750d99da8c432ee3d1b351016885d4647f45260a"
+    },
+    "external/expected/allele_specific_CATALOG.json.gz": {
+      "original_name": "allele_specific_CATALOG.json",
+      "uncompressed_bytes": 6791813,
+      "uncompressed_sha256": "181b9fbb1c82b3f1272e053e7c31d809dfded5749b30f4778fd7ab41a0e52a91"
+    },
+    "cftr/expected/CODING_CATALOGS.json.gz": {
+      "original_name": "CODING_CATALOGS.json",
+      "uncompressed_bytes": 2705438,
+      "uncompressed_sha256": "1c6859fde4ca5a5fa618d0bedc73565eac9557c7d7fa1515f9a8a29662b56add"
+    }
+  }
+}

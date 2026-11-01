@@ -1,0 +1,505 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>CRISPResso Examples - CRISPResso v2.3.4</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+        <!-- Pagefind Search -->
+        <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+        <style>
+            /* Pagefind UI customization to match mdBook theme */
+            :root {
+                --pagefind-ui-scale: 0.9;
+                --pagefind-ui-primary: #3b82f6;
+                --pagefind-ui-text: var(--fg);
+                --pagefind-ui-background: var(--bg);
+                --pagefind-ui-border: var(--table-border-color);
+                --pagefind-ui-tag: var(--table-header-bg);
+                --pagefind-ui-border-width: 1px;
+                --pagefind-ui-border-radius: 4px;
+                --pagefind-ui-font: inherit;
+            }
+            #pagefind-container {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 1000;
+                padding: 20px;
+                overflow-y: auto;
+            }
+            #pagefind-container.active {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+            }
+            #pagefind-container > div {
+                background: var(--bg);
+                padding: 20px;
+                border-radius: 8px;
+                overflow: hidden;
+                width: 100%;
+                max-width: 700px;
+                margin-top: 50px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            }
+            .pagefind-ui__search-input {
+                background: var(--bg) !important;
+                color: var(--fg) !important;
+            }
+            .pagefind-ui__result-link {
+                color: var(--links) !important;
+            }
+            .pagefind-ui__result-excerpt {
+                color: var(--fg) !important;
+                overflow-wrap: break-word !important;
+                word-break: break-word !important;
+            }
+            /* Layout for search drawer */
+            .pagefind-ui__drawer {
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 0.5rem !important;
+            }
+            .pagefind-ui__results-area {
+                width: 100% !important;
+                margin-top: 0 !important;
+                padding-top: 0 !important;
+            }
+            /* Hide Pagefind's filter UI - we use our own toggle */
+            .pagefind-ui__filter-panel {
+                display: none !important;
+            }
+            /* Custom examples toggle */
+            .examples-toggle {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                padding: 0.5rem 0;
+                font-size: calc(16px * var(--pagefind-ui-scale));
+                color: var(--fg);
+                cursor: pointer;
+            }
+            .examples-toggle input[type="checkbox"] {
+                -webkit-appearance: checkbox !important;
+                appearance: checkbox !important;
+                width: 14px !important;
+                height: 14px !important;
+                margin: 0 !important;
+                cursor: pointer;
+            }
+            /* Hide example results by default */
+            .pagefind-ui__result.is-example {
+                display: none !important;
+            }
+            .show-examples .pagefind-ui__result.is-example {
+                display: flex !important;
+            }
+            /* Compact message and results */
+            .pagefind-ui__message {
+                padding: 0.5rem 0 !important;
+            }
+            .pagefind-ui__result {
+                padding: 0.5rem 0 !important;
+                gap: 0.5rem !important;
+            }
+            /*.pagefind-ui__result-title {
+                font-size: 0.9em !important;
+                margin-bottom: 2px !important;
+            }
+            .pagefind-ui__result-excerpt {
+                font-size: 0.8em !important;
+                line-height: 1.3 !important;
+            }
+            .pagefind-ui__result-nested {
+                padding-left: 1rem !important;
+                margin-top: 0.25rem !important;
+            }
+            .pagefind-ui__result-nested .pagefind-ui__result-title {
+                font-size: 0.85em !important;
+            } */
+        </style>
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc.js"></script>
+    </head>
+    <body data-pagefind-ignore="all">
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="pagefind-container">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title" data-pagefind-ignore>CRISPResso v2.3.4</h1>
+
+                    <div class="right-buttons" style="display: flex; margin-top: 1.25rem;">
+                        <div class="version-select">
+                            <select onchange="window.location=this.value">
+                                <option value="/about.html">Home</option>
+                                <option value="/latest/index.html" selected>Latest</option>
+                                <option value="/v2.3.4/index.html">v2.3.4</option>
+                                <option value="/v2.3.3/index.html">v2.3.3</option>
+                                <option value="/v2.3.2/index.html">v2.3.2</option>
+                                <option value="/v2.3.1/index.html">v2.3.1</option>
+                                <option value="/v2.3.0/index.html">v2.3.0</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pagefind Search Container -->
+                <div id="pagefind-container">
+                    <div>
+                        <div id="pagefind-search"></div>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content" data-pagefind-body data-pagefind-meta="title:CRISPResso Examples">
+                    <main>
+                        <h1 id="crispresso-examples"><a class="header" href="#crispresso-examples">CRISPResso Examples</a></h1>
+<h3 id="example-run-non-homologous-end-joining-nhej"><a class="header" href="#example-run-non-homologous-end-joining-nhej">Example run: Non-homologous end joining (NHEJ)</a></h3>
+<p>Download the test datasets <a href="http://crispresso.com/static/demo/nhej.r1.fastq.gz">nhej.r1.fastq.gz</a> and <a href="http://crispresso.com/static/demo/nhej.r2.fastq.gz">nhej.r2.fastq.gz</a> to your current directory. This is the first 25,000 sequences from a paired-end sequencing experiment. To analyze this experiment, run the command:</p>
+<p><em>Using Bioconda:</em></p>
+<pre><code>CRISPResso --fastq_r1 nhej.r1.fastq.gz --fastq_r2 nhej.r2.fastq.gz --amplicon_seq AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT -n nhej
+</code></pre>
+<p><em>Using Docker:</em></p>
+<pre><code>docker run -v ${PWD}:/DATA -w /DATA -i pinellolab/crispresso2 CRISPResso --fastq_r1 nhej.r1.fastq.gz --fastq_r2 nhej.r2.fastq.gz --amplicon_seq AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT -n nhej
+</code></pre>
+<p>This should produce a folder called 'CRISPResso_on_nhej'. Open the file called CRISPResso_on_nhej/CRISPResso2_report.html in a web browser, and you should see an output like this: <a href="http://crispresso.com/static/demo/CRISPResso_on_nhej/CRISPResso2_report.html">CRISPResso2_report.html</a>.</p>
+<h3 id="example-run-multiple-alleles"><a class="header" href="#example-run-multiple-alleles">Example run: Multiple alleles</a></h3>
+<p>Download the test dataset <a href="http://crispresso.com/static/demo/allele_specific.fastq.gz">allele_specific.fastq.gz</a> to your current directory. This is the first 25,000 sequences from a editing experiment targeting one allele. To analyze this experiment, run the following command:</p>
+<p><em>Using Bioconda:</em></p>
+<pre><code>CRISPResso --fastq_r1 allele_specific.fastq.gz --amplicon_seq CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG,CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG --amplicon_name P23H,WT --guide_seq GTGCGGAGCCACTTCGAGCAGC
+</code></pre>
+<p><em>Using Docker:</em></p>
+<pre><code>docker run -v ${PWD}:/DATA -w /DATA -i pinellolab/crispresso2 CRISPResso --fastq_r1 allele_specific.fastq.gz --amplicon_seq CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG,CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG --amplicon_name P23H,WT --guide_seq GTGCGGAGCCACTTCGAGCAGC
+</code></pre>
+<p>This should produce a folder called 'CRISPResso_on_allele_specific'. Open the file called CRISPResso_on_allele_specific/CRISPResso2_report.html in a web browser, and you should see an output like this: <a href="http://crispresso.com/static/demo/CRISPResso_on_allele_specific/CRISPResso2_report.html">CRISPResso2_report.html</a>.</p>
+<h3 id="example-run-base-editing-experiment"><a class="header" href="#example-run-base-editing-experiment">Example run: Base editing experiment</a></h3>
+<p>Download the test dataset <a href="http://crispresso.com/static/demo/base_editor.fastq.gz">base_editor.fastq.gz</a> to your current directory. This is the first 25,000 sequences from an editing experiment performed at the EMX1 locus. To analyze this experiment, run the following command:</p>
+<p><em>Using Bioconda:</em></p>
+<pre><code>CRISPResso --fastq_r1 base_editor.fastq.gz --amplicon_seq GGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTCCGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAATGACTAGGGTGG --guide_seq GAGTCCGAGCAGAAGAAGAA --quantification_window_size 10 --quantification_window_center -10 --base_editor_output
+</code></pre>
+<p><em>Using Docker:</em></p>
+<pre><code>docker run -v ${PWD}:/DATA -w /DATA -i pinellolab/crispresso2 CRISPResso --fastq_r1 base_editor.fastq.gz --amplicon_seq GGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTCCGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAATGACTAGGGTGG --guide_seq GAGTCCGAGCAGAAGAAGAA --quantification_window_size 10 --quantification_window_center -10 --base_editor_output
+</code></pre>
+<p>This should produce a folder called 'CRISPResso_on_base_editor'. Open the file called CRISPResso_on_base_editor/CRISPResso2_report.html in a web browser, and you should see an output like this: <a href="http://crispresso.com/static/demo/CRISPResso_on_base_editor/CRISPResso2_report.html">CRISPResso2_report.html</a>.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../core/tool.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../core/output.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../core/tool.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../core/output.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Pagefind Search -->
+        <script src="/pagefind/pagefind-ui.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Determine the correct bundle path based on current location
+                // Main site pages use global index, version pages use version-specific index
+                const path = window.location.pathname;
+                const versionMatch = path.match(/^\/(v[\d.]+|latest)\//);
+
+                let bundlePath, searchScope;
+                if (versionMatch) {
+                    // We're on a version page - use version-specific index
+                    bundlePath = '/' + versionMatch[1] + '/pagefind/';
+                    searchScope = versionMatch[1] === 'latest' ? 'latest version' : versionMatch[1];
+                } else {
+                    // We're on the main site - use global index
+                    bundlePath = '/pagefind/';
+                    searchScope = 'all versions';
+                }
+
+                // Initialize Pagefind UI
+                const pagefindOptions = {
+                    element: "#pagefind-search",
+                    bundlePath: bundlePath,
+                    showSubResults: true,
+                    showImages: false,
+                    showFilters: true,
+                    translations: {
+                        placeholder: "Search " + searchScope + "..."
+                    },
+                    ranking: {
+                        // Higher termSaturation allows pages with many term occurrences to rank higher
+                        termSaturation: 2.0
+                    }
+                };
+
+                // For global search, sort by version descending (newer versions first)
+                if (!versionMatch) {
+                    pagefindOptions.sort = { version: "desc" };
+                }
+
+                new PagefindUI(pagefindOptions);
+
+                // Custom "Show examples" toggle
+                const searchContainer = document.getElementById('pagefind-search');
+
+                // Add custom toggle after search input appears
+                const addToggle = function() {
+                    if (searchContainer.querySelector('.examples-toggle')) return;
+                    const drawer = searchContainer.querySelector('.pagefind-ui__drawer');
+                    if (drawer) {
+                        const toggle = document.createElement('label');
+                        toggle.className = 'examples-toggle';
+                        toggle.innerHTML = '<input type="checkbox" id="show-examples-toggle">Include Example Pages in Results';
+                        drawer.insertBefore(toggle, drawer.firstChild);
+
+                        toggle.querySelector('input').addEventListener('change', function(e) {
+                            if (e.target.checked) {
+                                searchContainer.classList.add('show-examples');
+                            } else {
+                                searchContainer.classList.remove('show-examples');
+                            }
+                        });
+                    }
+                };
+
+                // Mark example results based on title (only process results with loaded titles)
+                const markExamples = function() {
+                    searchContainer.querySelectorAll('.pagefind-ui__result:not(.example-checked)').forEach(function(result) {
+                        const title = result.querySelector('.pagefind-ui__result-link');
+                        // Only mark as checked once title text is loaded
+                        if (title && title.textContent.trim()) {
+                            result.classList.add('example-checked');
+                            if (title.textContent.toLowerCase().includes('example')) {
+                                result.classList.add('is-example');
+                            }
+                        }
+                    });
+                };
+
+                // Watch for UI changes
+                const observer = new MutationObserver(function() {
+                    addToggle();
+                    markExamples();
+                });
+                observer.observe(searchContainer, { childList: true, subtree: true });
+
+                // Handle search toggle button
+                const searchToggle = document.getElementById('search-toggle');
+                const pagefindContainer = document.getElementById('pagefind-container');
+
+                if (searchToggle && pagefindContainer) {
+                    searchToggle.addEventListener('click', function() {
+                        pagefindContainer.classList.toggle('active');
+                        if (pagefindContainer.classList.contains('active')) {
+                            // Focus the search input when opened
+                            const input = pagefindContainer.querySelector('input');
+                            if (input) input.focus();
+                        }
+                    });
+
+                    // Close on clicking outside the search box
+                    pagefindContainer.addEventListener('click', function(e) {
+                        if (e.target === pagefindContainer) {
+                            pagefindContainer.classList.remove('active');
+                        }
+                    });
+
+                    // Close when clicking on a search result link
+                    pagefindContainer.addEventListener('click', function(e) {
+                        if (e.target.tagName === 'A' || e.target.closest('a')) {
+                            pagefindContainer.classList.remove('active');
+                        }
+                    });
+
+                    // Close on Escape key
+                    document.addEventListener('keydown', function(e) {
+                        if (e.key === 'Escape' && pagefindContainer.classList.contains('active')) {
+                            pagefindContainer.classList.remove('active');
+                        }
+                        // Open search with '/' or 's' key (like mdbook)
+                        if ((e.key === '/' || e.key === 's' || e.key === 'S') &&
+                            !pagefindContainer.classList.contains('active') &&
+                            !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) {
+                            e.preventDefault();
+                            pagefindContainer.classList.add('active');
+                            const input = pagefindContainer.querySelector('input');
+                            if (input) input.focus();
+                        }
+                    });
+                }
+            });
+        </script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

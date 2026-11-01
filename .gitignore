@@ -12,3 +12,8 @@ private_prechange/
 *.zip
 !raw_replay/inputs/alleles/**/*.zip
 *.bundle
+
+!extensions/reproduction/external/inputs/*_Alleles_frequency_table.zip
+
+*.egg-info/
+**/software/build/

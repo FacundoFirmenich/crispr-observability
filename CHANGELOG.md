@@ -1,3 +1,13 @@
+# 0.5.0 / MP05 — 2026-11-01
+
+- Restore original fifteen-stream geometry/quality/veto source and six missing unique raw containers; historical expected results remain unchanged.
+- Distribute actual external-catalogue parser, public inputs, finite-contract package and original 36-card/24-contrast checker, with clean offline replay.
+- Execute authenticated epeg147 dedicated PE mode on all nine primary streams; preserve native software quantities separately from matched local-event bounds.
+- Expose 89 further unequal strings, 36 changed native labels and 93 withdrawals under the stronger correspondence requirement; positive native PE-minus-mock lower endpoints remain exactly unchanged.
+- Reconstruct seven operator-subset certificates and characterize 128 native-local/nonexact-programmed records as 22 local synonymous strings without assigning molecular origin.
+- Add deterministic scientific Figure 5 / Figure S3, source identities and CI for the newly distributed reconstruction.
+- Keep full manuscript and supplement private, all five current personal acknowledgments unchanged, third-party terms separate, and earlier graph baseline preserved.
+
 # Changelog
 
 ## 0.4.1 / MP04 — 31 October 2026

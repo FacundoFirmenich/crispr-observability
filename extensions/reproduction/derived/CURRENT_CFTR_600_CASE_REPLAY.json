@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "original_source_files_verified": 90,
+  "scope": "Clean internal computational reproduction. No new biological records, accuracy or independent human reproduction.",
+  "cftr": {
+    "status": "PASS",
+    "real_record_identities_checked": 177006,
+    "catalog_partitions_checked": 600,
+    "counterexample_locators_checked": 642,
+    "whole_family_minima_checked": 12,
+    "all_minima_one_with_positive_original_lower_bound": true,
+    "least_record_singleton_witnesses_checked": true,
+    "joint_target_partitions_checked": 10,
+    "joint_hulls_checked": 9,
+    "same_sources_not_independent_biological_truth": true,
+    "scientific_files_byte_identical": {
+      "AUDIT_SUMMARY.json": "e7e7fae3cc897a0113d1f0f905deb505fac8b1ce54739f58f40a3ad8cc3de18e",
+      "CODING_CATALOGS.json": "1c6859fde4ca5a5fa618d0bedc73565eac9557c7d7fa1515f9a8a29662b56add",
+      "CODING_DISAGREEMENT_RECORDS.json": "edcc73f3f546c44c4c48d47504506aae1c0d1def141f7198501381ef0ab030e8",
+      "CORRESPONDENCE_BY_RUN.json": "8733996351580bd8a1ffb74514a5a22f7f9a86bee073f3dd6d3d5f1115e7d196",
+      "FACTORIZATION_ATLAS.json": "440a621b04d575c88cb0ba0f83536fd63d247fd6172c384321f4e04dac6e32b0",
+      "INDEPENDENT_VERIFICATION.json": "f7958750704e8707baac1f4c8faacf852c5669e443c1442d6b357357ca2c462a",
+      "JOINT_TARGET_PARTITIONS.json": "766d40367088755e92c9a835ba0a97f72392e483f79ba06aa2565fc050831ade",
+      "SEQUENCE_FAMILY_WITHDRAWAL.json": "b17cc27a8951451dbc9c4fa68cee0244e919eca4194593ce885fbaf5a3cd0db2"
+    }
+  }
+}

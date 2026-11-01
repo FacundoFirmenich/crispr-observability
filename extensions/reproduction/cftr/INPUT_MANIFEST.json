@@ -1,0 +1,194 @@
+[
+  {
+    "path": "inputs/raw/SRR29623274.fastq.gz",
+    "bytes": 1340815,
+    "sha256": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736",
+    "source_path": "recovery_m4/project/evidence/v22/v21/sources/fastq/SRR29623274.fastq.gz"
+  },
+  {
+    "path": "inputs/mutant_alleles/SRR29623274.zip",
+    "bytes": 84897,
+    "sha256": "971778ab6d7d38423869146f42f02f5203f09b6e2e9958d3cad99df428977af1",
+    "source_path": "recovery_m4/project/advance_m2/runs/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/programmed_alleles/SRR29623274.zip",
+    "bytes": 87119,
+    "sha256": "7888e32bd762478ff78a7e67a79860c23d329b7b24c83b71b268581b3d83c766",
+    "source_path": "recovery_m4/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623274/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/raw/SRR29623266.fastq.gz",
+    "bytes": 1106358,
+    "sha256": "44acba4f80562185c7f3720f500106e4797df1bb5a7bcb182e1225cdb3a89bf7",
+    "source_path": "recovery_m4/project/evidence/v22/v21/sources/fastq/SRR29623266.fastq.gz"
+  },
+  {
+    "path": "inputs/mutant_alleles/SRR29623266.zip",
+    "bytes": 158682,
+    "sha256": "cb22b15cb8cd958f0d0a052a0aa2b1f038e0025171bae6d8426d5000282d8622",
+    "source_path": "recovery_m4/project/advance_m2/runs/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/programmed_alleles/SRR29623266.zip",
+    "bytes": 167185,
+    "sha256": "6c4db21ea67c3d00ec0062c51c3ee99cb560d48b3070e5f83ba00032b0d09985",
+    "source_path": "recovery_m4/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623266/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/raw/SRR29623268.fastq.gz",
+    "bytes": 2361721,
+    "sha256": "5bcdc1e06d0fcabe90c1e40f03725593aea9c7d4d8d2951e00bf93e4e118ec18",
+    "source_path": "recovery_m4/project/evidence/v22/v21/sources/fastq/SRR29623268.fastq.gz"
+  },
+  {
+    "path": "inputs/mutant_alleles/SRR29623268.zip",
+    "bytes": 304609,
+    "sha256": "9ac009d4078e291a4332040d77baffed0d8b84a31f673dc3f7b54b194f9b0fd2",
+    "source_path": "recovery_m4/project/advance_m2/runs/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/programmed_alleles/SRR29623268.zip",
+    "bytes": 322340,
+    "sha256": "95c2fb5c5acd6eca78ab848abeb489062220268f486a980443a468c0a6a63632",
+    "source_path": "recovery_m4/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623268/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/raw/SRR29623273.fastq.gz",
+    "bytes": 1665835,
+    "sha256": "92bfda645464e561adf6a8c1f308b57530e400ecc64da1a42fcc494687d247d6",
+    "source_path": "recovery_m4/project/evidence/v22/v21/sources/fastq/SRR29623273.fastq.gz"
+  },
+  {
+    "path": "inputs/mutant_alleles/SRR29623273.zip",
+    "bytes": 99118,
+    "sha256": "a12c262192a97e045391bbb6027749ea686d9230c498e75d062520c6817ca516",
+    "source_path": "recovery_m4/project/advance_m2/runs/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/programmed_alleles/SRR29623273.zip",
+    "bytes": 101592,
+    "sha256": "2c751c49df0e7eee4163af57b3336889b9670386b7cbf010fdd36b69c72e5239",
+    "source_path": "recovery_m4/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623273/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/raw/SRR29623265.fastq.gz",
+    "bytes": 1637078,
+    "sha256": "e08c98ebdceb3745b17ca8f92be45900385623c8499f4cbaa63af4dac15c01ae",
+    "source_path": "recovery_m4/project/evidence/v22/v21/sources/fastq/SRR29623265.fastq.gz"
+  },
+  {
+    "path": "inputs/mutant_alleles/SRR29623265.zip",
+    "bytes": 197255,
+    "sha256": "dd57b92e4af5568d295c0a75e0b68b616079d0194421222a7cc6acfd7ffc833b",
+    "source_path": "recovery_m4/project/advance_m2/runs/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/programmed_alleles/SRR29623265.zip",
+    "bytes": 208258,
+    "sha256": "36a5d0b9a7cae3f806ea0611901272ec08b40bdbc9907c623e39743a5dc66f6d",
+    "source_path": "recovery_m4/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623265/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/raw/SRR29623267.fastq.gz",
+    "bytes": 2114900,
+    "sha256": "e26c858bf862b755bf333dd7ba9810bf9926ffc2e3d5652c19417adb83e81b16",
+    "source_path": "recovery_m4/project/evidence/v22/v21/sources/fastq/SRR29623267.fastq.gz"
+  },
+  {
+    "path": "inputs/mutant_alleles/SRR29623267.zip",
+    "bytes": 257556,
+    "sha256": "addccf54f19c385a149401fe48338750e1b5f35c2575c203b11e503faeebaba7",
+    "source_path": "recovery_m4/project/advance_m2/runs/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/programmed_alleles/SRR29623267.zip",
+    "bytes": 271398,
+    "sha256": "8e2a0191bfe555903e58c4a3b05681d57de3ca8b5a24afe2331cccc1a3685be0",
+    "source_path": "recovery_m4/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623267/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/raw/SRR29623272.fastq.gz",
+    "bytes": 2038495,
+    "sha256": "02c9293171e656fedaab5abfeefc1d7683e7d0a25eaa05e13deca2a330420b09",
+    "source_path": "recovery_m4/project/evidence/v22/v21/sources/fastq/SRR29623272.fastq.gz"
+  },
+  {
+    "path": "inputs/mutant_alleles/SRR29623272.zip",
+    "bytes": 202707,
+    "sha256": "3dcfa5d11cb9d35eff39d72749b257e49947f832a2e25bd62f2af77f6695f559",
+    "source_path": "recovery_m4/project/advance_m2/runs/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/programmed_alleles/SRR29623272.zip",
+    "bytes": 197797,
+    "sha256": "2a2f69ee85a13e076fbe9585a6a0d0bb1bb09509af58f66c69a6aa750f8e202f",
+    "source_path": "recovery_m4/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623272/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/raw/SRR29623271.fastq.gz",
+    "bytes": 1583216,
+    "sha256": "af323c3bf66ec6ced0ba12d746d3bcbb03f74ca09788cd1cb9138905687d129c",
+    "source_path": "recovery_m4/project/evidence/v22/v21/sources/fastq/SRR29623271.fastq.gz"
+  },
+  {
+    "path": "inputs/mutant_alleles/SRR29623271.zip",
+    "bytes": 297185,
+    "sha256": "5ef4a5c05f5b713f4a736794e69e1b740e90adb768912c93467360a337cf3a9e",
+    "source_path": "recovery_m4/project/advance_m2/runs/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/programmed_alleles/SRR29623271.zip",
+    "bytes": 291254,
+    "sha256": "04e78ba9cf33748cce7d804051e922fc85218af89927833d6ea009d8c400b731",
+    "source_path": "recovery_m4/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623271/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/raw/SRR29623270.fastq.gz",
+    "bytes": 1220961,
+    "sha256": "25b464764843cb52616451bce61b4a2fb15ca3f41ab275308eee05349eb2ad67",
+    "source_path": "recovery_m4/project/evidence/v22/v21/sources/fastq/SRR29623270.fastq.gz"
+  },
+  {
+    "path": "inputs/mutant_alleles/SRR29623270.zip",
+    "bytes": 261939,
+    "sha256": "388f0287a244ca8d8517dd6c5e59b526f1c6c25922cd6859790c1152cef9f4e6",
+    "source_path": "recovery_m4/project/advance_m2/runs/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/programmed_alleles/SRR29623270.zip",
+    "bytes": 256525,
+    "sha256": "ad1c216918c917761442e3e86e9996f8f75a0be8dafb7356b7999f06e8c71463",
+    "source_path": "recovery_m4/project/advance_m2/runs_programmed_ref/CRISPResso_on_SRR29623270/Alleles_frequency_table.zip"
+  },
+  {
+    "path": "inputs/M8_EVENT_CONTRACT.json",
+    "bytes": 62300,
+    "sha256": "bee47118dcdcec6b8681ca392b850e19ce57e4a52daaffc03644c42ca07fb148"
+  },
+  {
+    "path": "inputs/M8_WITNESS_CONTRASTS.json",
+    "bytes": 6696,
+    "sha256": "29029bfbf54e17386958bd9362467105bf0d617043b31a5d8c541b3db6589663"
+  },
+  {
+    "path": "inputs/M8_WITNESS_COUNTS.json",
+    "bytes": 8439,
+    "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+  },
+  {
+    "path": "inputs/REFERENCE_MUTANT.json",
+    "bytes": 799,
+    "sha256": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849"
+  },
+  {
+    "path": "inputs/REFERENCE_PROGRAMMED.json",
+    "bytes": 954,
+    "sha256": "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad"
+  },
+  {
+    "path": "inputs/RUN_DESIGN.json",
+    "bytes": 5109,
+    "sha256": "e51802cebb871f82b0d0f8b8bd734dcd9292d2ff0cf1f1091d4ab0bd49f6f4cc"
+  }
+]

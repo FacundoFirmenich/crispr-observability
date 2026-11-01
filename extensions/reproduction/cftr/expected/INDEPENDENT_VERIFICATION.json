@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "real_record_identities_checked": 177006,
+  "catalog_partitions_checked": 600,
+  "counterexample_locators_checked": 642,
+  "whole_family_minima_checked": 12,
+  "all_minima_one_with_positive_original_lower_bound": true,
+  "least_record_singleton_witnesses_checked": true,
+  "joint_target_partitions_checked": 10,
+  "joint_hulls_checked": 9,
+  "same_sources_not_independent_biological_truth": true
+}

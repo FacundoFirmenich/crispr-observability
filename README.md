@@ -1,8 +1,21 @@
 # CRISPR observability: computational companion
 
-Version **0.4.1 / MP04** (31 October 2026). Public code, numerical data and editable figures for
+Version **0.5.0 / MP05** (1 November 2026). Public code, numerical data and editable figures for
 a retrospective genome-editing readout audit. The complete manuscript and
 supplement are held privately pending the author's chosen preprint deposition.
+
+## Current methodological frontier
+
+The article is **CRISPR P1**. PaperGraph, the other interfaces, figures and code are subordinate article outputs. The complete article and formal supplement remain private until the author's preprint deposit.
+
+MP05 adds the [full finite-record reproduction extension](extensions/reproduction/README.md): original fifteen-stream geometry/quality/veto source, external catalogue parsing, the installable event-contract package, the actual 36-card/24-contrast checker, correspondence ablations and an authenticated dedicated prime-editing comparison. New Figure 5 and Figure S3 are under [figures/frontier/](figures/frontier/). Frozen earlier numerical tables and the existing graph baseline remain unchanged and identified as such.
+
+```sh
+python -B extensions/reproduction/replay.py --work /tmp/crispr-p1-full-replay
+python -B extensions/reproduction/analyze_correspondence.py --output /tmp/crispr-p1-certificate-analysis
+```
+
+The dedicated PE comparison completed nine jobs on the same nine primary streams. It identified 89 unequal coding strings within the former witness; requiring the added correspondence retains 170,632 records and 6,374 unknowns. All three native PE-minus-mock lower endpoints remain unchanged and positive. Native software assignments and matched-event raw bounds are exported separately. These are retrospective conditional results, not comparative accuracy or an independent biological cohort.
 
 ## Reproduce the computational checks
 
@@ -21,7 +34,7 @@ biological replication. Source experiments remain attributable to Sousa et al.
 
 ## Public assets
 
-- [PaperGraph](interactive/papergraph/PaperGraph_CRISPR.html): a third, standalone
+- [PaperGraph](interactive/papergraph/PaperGraph_CRISPR.html): a third subordinate
   reading and scientific-argument tool. Twelve stations distinguish definitions,
   source facts, formal conditions, adverse cases and consequences. Student,
   Technical and Audit depths preserve the same quantities and claim boundaries.

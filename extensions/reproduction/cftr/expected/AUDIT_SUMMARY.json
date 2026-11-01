@@ -1,0 +1,96 @@
+{
+  "status": "PASS_RECONSTRUCTION_AND_FINITE_AUDIT",
+  "records": 177006,
+  "raw_streams": 9,
+  "counts_match_M8": 18,
+  "per_reference_abundances_checked": 18,
+  "correspondence_totals": {
+    "raw": 177006,
+    "all_three_resolved": 170808,
+    "same_coding": 170725,
+    "same_valid_peptide": 169762,
+    "same_native_label": 170743,
+    "same_exact_label": 170743,
+    "witness": 170725,
+    "missing_correspondence": 4202,
+    "quality_unknown": 1996,
+    "quality_failure": 1996,
+    "different_coding": 83,
+    "different_coding_same_native_label": 18,
+    "coding_disagreement": 83
+  },
+  "factorization_cases": 600,
+  "cases_with_counterexamples": 273,
+  "whole_sequence_family_certificates": 12,
+  "minimum_families_distribution": {
+    "1": 12
+  },
+  "original_raw_streams": [
+    {
+      "run": "SRR29623274",
+      "records": 13762,
+      "sequence_quality_stream_sha256": "c1caa43cbb4aa3aea3da80ebb2d30eb0ed8491b880052823d7402e58d054621a",
+      "matches_frozen_stream": true,
+      "both_allele_abundances_preserved": true
+    },
+    {
+      "run": "SRR29623266",
+      "records": 13617,
+      "sequence_quality_stream_sha256": "4d131cbd720c668ee4243c23babf04e70bddff1d1c6236f9ffc657927b224540",
+      "matches_frozen_stream": true,
+      "both_allele_abundances_preserved": true
+    },
+    {
+      "run": "SRR29623268",
+      "records": 29956,
+      "sequence_quality_stream_sha256": "6cb79aa2fa59b9da78827e4f48e79825efbb5143da304b248d6fa1301c80a17b",
+      "matches_frozen_stream": true,
+      "both_allele_abundances_preserved": true
+    },
+    {
+      "run": "SRR29623273",
+      "records": 17177,
+      "sequence_quality_stream_sha256": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0",
+      "matches_frozen_stream": true,
+      "both_allele_abundances_preserved": true
+    },
+    {
+      "run": "SRR29623265",
+      "records": 21041,
+      "sequence_quality_stream_sha256": "a4f8f9822ae0e05dc4c1c345dd354182fc97574ea490362e857dea875802bf82",
+      "matches_frozen_stream": true,
+      "both_allele_abundances_preserved": true
+    },
+    {
+      "run": "SRR29623267",
+      "records": 27024,
+      "sequence_quality_stream_sha256": "8fb1089651cfee5ea58340e5ba5dbf388948ac00b51a5ae880cdc9ff923559a0",
+      "matches_frozen_stream": true,
+      "both_allele_abundances_preserved": true
+    },
+    {
+      "run": "SRR29623272",
+      "records": 20573,
+      "sequence_quality_stream_sha256": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5",
+      "matches_frozen_stream": true,
+      "both_allele_abundances_preserved": true
+    },
+    {
+      "run": "SRR29623271",
+      "records": 19184,
+      "sequence_quality_stream_sha256": "b8ee1df0dcf47162402fa9c4a8d48285037a1d9893c1ede889d89ac09f00f28e",
+      "matches_frozen_stream": true,
+      "both_allele_abundances_preserved": true
+    },
+    {
+      "run": "SRR29623270",
+      "records": 14672,
+      "sequence_quality_stream_sha256": "838daf32964c9016330e0686e2aed24f1cfca7af24a929295a140f0987f18aab",
+      "matches_frozen_stream": true,
+      "both_allele_abundances_preserved": true
+    }
+  ],
+  "no_new_biological_observations": true,
+  "external_alignment_engine_rerun": false,
+  "external_genealogy": false
+}

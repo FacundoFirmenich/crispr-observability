@@ -1,0 +1,2077 @@
+[
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.156",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.407",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.1634",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.1635",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.3333",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.3974",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.4494",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.5526",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.7159",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.9525",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.10124",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.10315",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYTIKENIIGVSYD",
+      "GTIKENIIFGVSYDEYTIKENIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.11319",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.11819",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.12040",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.12349",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.12962",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.13304",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.14033",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.15324",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.16266",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.16286",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYTIKENIIGVSYD",
+      "GTIKENIIFGVSYDEYTIKENIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.17801",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYDEYRCIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.18172",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.18177",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.18354",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.19263",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.19742",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.20121",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYDIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623272",
+    "read_id": "SRR29623272.20381",
+    "codings": {
+      "target": "AACACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "AACACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "AACACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "NTIKENIIFGVSYDEYRCIGVSYD",
+      "NTIKENIIFGVSYDEYRCIGVSYD",
+      "NTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.704",
+    "codings": {
+      "target": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGATGAATATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGATGAATATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      null
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.726",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.772",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.815",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAATACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAATACGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.868",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATTAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATTAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIGVSYD*ENIIFGVSYD",
+      "GTIKENIIGVSYD",
+      "GTIKENIIGVSYD*ENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.986",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATTAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATTAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIGVSYD*ENIIFGVSYD",
+      "GTIKENIIGVSYD",
+      "GTIKENIIGVSYD*ENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.2047",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGAGGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGAGGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRGTIKENIIGVSYD",
+      "GTIKENIIFGVSYDEYRGTIKENIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.2953",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATCATCTTTGGTGTGAGTTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      "GTIKENIIGVSYD",
+      null
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.3491",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATATGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATATGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.4335",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEENIIFGVSYD",
+      "GTIKENIIFGVSYDEENIIFGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.4538",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDD",
+      "GTIKENIIFGVSYDD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.4854",
+    "codings": {
+      "target": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGATGAATATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGATGAATATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      null
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.5110",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGACCTTGGTGTTTCCTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGACCTTGGTGTTTCCTACGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.5199",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATGGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATGGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYGTIKENIIGVSYD",
+      "GTIKENIIFGVSYDEYGTIKENIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.5215",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATATGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATATGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.6458",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEENIIFGVSYD",
+      "GTIKENIIFGVSYDEENIIFGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.6697",
+    "codings": {
+      "target": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGATGAATATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGATGAATATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      null
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.7341",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.8747",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.9470",
+    "codings": {
+      "target": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGATGAATATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGATGAATATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      null
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.10294",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATCATCTTTGGTGTGAGTTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      "GTIKENIIGVSYD",
+      null
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.10906",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATGAATCTTTGGTGTGAGTTACGGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATGAATCTTTGGTGTGAGTTACGGAT"
+    },
+    "peptides": [
+      "GTIKENIIGVSYDESLV*VTD",
+      "GTIKENIIGVSYD",
+      "GTIKENIIGVSYDESLV*VTD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.11229",
+    "codings": {
+      "target": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGATGAATATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGATGAATATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      null
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.11251",
+    "codings": {
+      "target": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGATGAATATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGATGAATATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      null
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.11698",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.11783",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.12123",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.12350",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAATACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAATACGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.12632",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGACATTGGTGTTTCCTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGACATTGGTGTTTCCTACGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.13394",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGACATTGGTGTTTCCTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGACATTGGTGTTTCCTACGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.14599",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATGAATCTTTGGTGTGAGTTACGGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATGAATCTTTGGTGTGAGTTACGGAT"
+    },
+    "peptides": [
+      "GTIKENIIGVSYDESLV*VTD",
+      "GTIKENIIGVSYD",
+      "GTIKENIIGVSYDESLV*VTD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.17756",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATCATCTTTGGTGTGAGTTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      "GTIKENIIGVSYD",
+      null
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.17808",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAAGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAAGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDED",
+      "GTIKENIIFGVSYDED",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623271",
+    "read_id": "SRR29623271.19077",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATATAATATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATATAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.1420",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.1594",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.1748",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYGVSYD",
+      "GTIKENIIFGVSYDEYGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.2091",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAGCGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYD",
+      "GTIKENIIFGVSYDEYRYRSENIIGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      true,
+      false,
+      true
+    ],
+    "exact_labels": [
+      true,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.2385",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATGAATATAGATACAGAATATCATCTTTGGTGTGAGTTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATGAATATAGATACAGAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      "GTIKENIIGVSYD",
+      null
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.2806",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.3328",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATCGGTGCTGGCACCATTAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATCGGTGCTGGCACCATTAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIGVSYDRCWHH*ENIIFGVSYD",
+      "GTIKENIIGVSYD",
+      "GTIKENIIGVSYDRCWHH*ENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.3474",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYGVSYD",
+      "GTIKENIIFGVSYDEYGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.3564",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.3601",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATGAATATAGATGTGTGAGTTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATTGGTGTTTCCTATGATGAATATAGATGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIGVSYDEYRCVSYD",
+      "GTIKENIIGVSYD",
+      "GTIKENIIGVSYDEYRCVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.3780",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.4010",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.4183",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAGTGTCATCGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAGTGTCATCGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYRYRSVIVSYD",
+      "GTIKENIIFGVSYDEYRYRSVIVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.9193",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAATCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAATCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.9346",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTAGTGTGAGTTACGATGAGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTAGTGTGAGTTACGATGAGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTAGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFSVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      false
+    ],
+    "exact_labels": [
+      false,
+      false,
+      false
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.9677",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACCATTGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      null,
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.9927",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYGVSYD",
+      "GTIKENIIFGVSYDEYGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.10316",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATGGTGTTTCCTATGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYDEYGVSYD",
+      "GTIKENIIFGVSYDEYGVSYD",
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      false,
+      false,
+      true
+    ],
+    "exact_labels": [
+      false,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  },
+  {
+    "run": "SRR29623270",
+    "read_id": "SRR29623270.13255",
+    "codings": {
+      "target": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "mutant_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGATGAATATAGATACAGAAGCGTCATCAAAGCATTGGTGTTTCCTATGAT",
+      "programmed_projection": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT"
+    },
+    "peptides": [
+      "GTIKENIIFGVSYD",
+      null,
+      "GTIKENIIFGVSYD"
+    ],
+    "native_labels": [
+      true,
+      false,
+      true
+    ],
+    "exact_labels": [
+      true,
+      false,
+      true
+    ],
+    "same_valid_peptide": false
+  }
+]

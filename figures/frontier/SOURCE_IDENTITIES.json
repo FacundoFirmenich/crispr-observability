@@ -1,0 +1,11 @@
+{
+  "edition": "MP05",
+  "figure_type": "Deterministic scientific plots of actual finite-record results; not AI-generated artwork or simulated biological data.",
+  "sources": {
+    "PE_TOOL_VS_EVENT_COMPARISON.csv": "feb446f9585f65d57b910c6ec1ec3c4ac17a925f9f4f1f34e9f17adbf365e8b0",
+    "PE_EVENT_CONTRASTS.csv": "27ca939ee7369b6f69c0b7e002e01b5cb3f6b0b4babda2473142a52013851ee8",
+    "PE_STRING_DISAGREEMENTS.csv": "6e32dec30203f322930795822c622bbc35453cb6e8f21f6f5db90c498ccbede1",
+    "CORRESPONDENCE_ABLATION_CONTRASTS.csv": "996a91fe84180030e1b1ff13f032ab89f21ff6e49b8f995bb9d7f767e8acd92c"
+  },
+  "code_sha256": "5e69f7aa656259ccc6ccfb6bff50feff11d80f9a68b2514892c0ef85b6183ae0"
+}

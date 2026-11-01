@@ -1,0 +1,290 @@
+[
+  {
+    "preparation": 1,
+    "control": "mock",
+    "treated": "SRR29623272",
+    "comparator": "SRR29623273",
+    "event": "CTT_full_SE2_on_witnessed_observed_coding",
+    "observer": "triple_observed_coding_witness",
+    "L_exact": "46347157/353382421",
+    "H_exact": "80742285/353382421",
+    "L_pp": 13.115297831976763,
+    "H_pp": 22.84841582428346,
+    "treated_counts": {
+      "N": 20573,
+      "E": 3539,
+      "NE": 15870,
+      "U": 1164
+    },
+    "control_counts": {
+      "N": 17177,
+      "E": 2,
+      "NE": 16475,
+      "U": 700
+    }
+  },
+  {
+    "preparation": 1,
+    "control": "mock",
+    "treated": "SRR29623272",
+    "comparator": "SRR29623273",
+    "event": "native_local_peptide_on_witnessed_observed_coding",
+    "observer": "triple_observed_coding_witness",
+    "L_exact": "6679915/50483203",
+    "H_exact": "81154533/353382421",
+    "L_pp": 13.231955587287121,
+    "H_pp": 22.96507357959382,
+    "treated_counts": {
+      "N": 20573,
+      "E": 3563,
+      "NE": 15846,
+      "U": 1164
+    },
+    "control_counts": {
+      "N": 17177,
+      "E": 2,
+      "NE": 16475,
+      "U": 700
+    }
+  },
+  {
+    "preparation": 1,
+    "control": "untreated",
+    "treated": "SRR29623272",
+    "comparator": "SRR29623274",
+    "event": "CTT_full_SE2_on_witnessed_observed_coding",
+    "observer": "triple_observed_coding_witness",
+    "L_exact": "2617710/20223259",
+    "H_exact": "4703/20573",
+    "L_pp": 12.944056148418017,
+    "H_pp": 22.860059301025615,
+    "treated_counts": {
+      "N": 20573,
+      "E": 3539,
+      "NE": 15870,
+      "U": 1164
+    },
+    "control_counts": {
+      "N": 13762,
+      "E": 0,
+      "NE": 13176,
+      "U": 586
+    }
+  },
+  {
+    "preparation": 1,
+    "control": "untreated",
+    "treated": "SRR29623272",
+    "comparator": "SRR29623274",
+    "event": "native_local_peptide_on_witnessed_observed_coding",
+    "observer": "triple_observed_coding_witness",
+    "L_exact": "5279665/40446518",
+    "H_exact": "9290343/40446518",
+    "L_pp": 13.053447518028623,
+    "H_pp": 22.96945067063622,
+    "treated_counts": {
+      "N": 20573,
+      "E": 3563,
+      "NE": 15846,
+      "U": 1164
+    },
+    "control_counts": {
+      "N": 13762,
+      "E": 1,
+      "NE": 13175,
+      "U": 586
+    }
+  },
+  {
+    "preparation": 2,
+    "control": "mock",
+    "treated": "SRR29623271",
+    "comparator": "SRR29623265",
+    "event": "CTT_full_SE2_on_witnessed_observed_coding",
+    "observer": "triple_observed_coding_witness",
+    "L_exact": "108093413/403650544",
+    "H_exact": "3257/9592",
+    "L_pp": 26.778958831280555,
+    "H_pp": 33.955379482902416,
+    "treated_counts": {
+      "N": 19184,
+      "E": 5605,
+      "NE": 12670,
+      "U": 909
+    },
+    "control_counts": {
+      "N": 21041,
+      "E": 0,
+      "NE": 20528,
+      "U": 513
+    }
+  },
+  {
+    "preparation": 2,
+    "control": "mock",
+    "treated": "SRR29623271",
+    "comparator": "SRR29623265",
+    "event": "native_local_peptide_on_witnessed_observed_coding",
+    "observer": "triple_observed_coding_witness",
+    "L_exact": "109524201/403650544",
+    "H_exact": "3291/9592",
+    "L_pp": 27.13342088299031,
+    "H_pp": 34.309841534612175,
+    "treated_counts": {
+      "N": 19184,
+      "E": 5673,
+      "NE": 12602,
+      "U": 909
+    },
+    "control_counts": {
+      "N": 21041,
+      "E": 0,
+      "NE": 20528,
+      "U": 513
+    }
+  },
+  {
+    "preparation": 2,
+    "control": "untreated",
+    "treated": "SRR29623271",
+    "comparator": "SRR29623266",
+    "event": "CTT_full_SE2_on_witnessed_observed_coding",
+    "observer": "triple_observed_coding_witness",
+    "L_exact": "23350039/87076176",
+    "H_exact": "3257/9592",
+    "L_pp": 26.815645877696788,
+    "H_pp": 33.955379482902416,
+    "treated_counts": {
+      "N": 19184,
+      "E": 5605,
+      "NE": 12670,
+      "U": 909
+    },
+    "control_counts": {
+      "N": 13617,
+      "E": 0,
+      "NE": 13290,
+      "U": 327
+    }
+  },
+  {
+    "preparation": 2,
+    "control": "untreated",
+    "treated": "SRR29623271",
+    "comparator": "SRR29623266",
+    "event": "native_local_peptide_on_witnessed_observed_coding",
+    "observer": "triple_observed_coding_witness",
+    "L_exact": "23658691/87076176",
+    "H_exact": "3291/9592",
+    "L_pp": 27.170107929406548,
+    "H_pp": 34.309841534612175,
+    "treated_counts": {
+      "N": 19184,
+      "E": 5673,
+      "NE": 12602,
+      "U": 909
+    },
+    "control_counts": {
+      "N": 13617,
+      "E": 0,
+      "NE": 13290,
+      "U": 327
+    }
+  },
+  {
+    "preparation": 3,
+    "control": "mock",
+    "treated": "SRR29623270",
+    "comparator": "SRR29623267",
+    "event": "CTT_full_SE2_on_witnessed_observed_coding",
+    "observer": "triple_observed_coding_witness",
+    "L_exact": "2839945/12390504",
+    "H_exact": "1093/3668",
+    "L_pp": 22.920334798326202,
+    "H_pp": 29.798255179934568,
+    "treated_counts": {
+      "N": 14672,
+      "E": 3706,
+      "NE": 10300,
+      "U": 666
+    },
+    "control_counts": {
+      "N": 27024,
+      "E": 0,
+      "NE": 26392,
+      "U": 632
+    }
+  },
+  {
+    "preparation": 3,
+    "control": "mock",
+    "treated": "SRR29623270",
+    "comparator": "SRR29623267",
+    "event": "native_local_peptide_on_witnessed_observed_coding",
+    "observer": "triple_observed_coding_witness",
+    "L_exact": "5739005/24781008",
+    "H_exact": "4407/14672",
+    "L_pp": 23.158884416646814,
+    "H_pp": 30.03680479825518,
+    "treated_counts": {
+      "N": 14672,
+      "E": 3741,
+      "NE": 10265,
+      "U": 666
+    },
+    "control_counts": {
+      "N": 27024,
+      "E": 0,
+      "NE": 26392,
+      "U": 632
+    }
+  },
+  {
+    "preparation": 3,
+    "control": "untreated",
+    "treated": "SRR29623270",
+    "comparator": "SRR29623268",
+    "event": "CTT_full_SE2_on_witnessed_observed_coding",
+    "observer": "triple_observed_coding_witness",
+    "L_exact": "12439261/54939304",
+    "H_exact": "1093/3668",
+    "L_pp": 22.641824876412706,
+    "H_pp": 29.798255179934568,
+    "treated_counts": {
+      "N": 14672,
+      "E": 3706,
+      "NE": 10300,
+      "U": 666
+    },
+    "control_counts": {
+      "N": 29956,
+      "E": 0,
+      "NE": 29172,
+      "U": 784
+    }
+  },
+  {
+    "preparation": 3,
+    "control": "untreated",
+    "treated": "SRR29623270",
+    "comparator": "SRR29623268",
+    "event": "native_local_peptide_on_witnessed_observed_coding",
+    "observer": "triple_observed_coding_witness",
+    "L_exact": "25140637/109878608",
+    "H_exact": "4407/14672",
+    "L_pp": 22.880374494733314,
+    "H_pp": 30.03680479825518,
+    "treated_counts": {
+      "N": 14672,
+      "E": 3741,
+      "NE": 10265,
+      "U": 666
+    },
+    "control_counts": {
+      "N": 29956,
+      "E": 0,
+      "NE": 29172,
+      "U": 784
+    }
+  }
+]

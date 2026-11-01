@@ -1,0 +1,335 @@
+{
+  "timing": "POST_HOC_MECHANISM_EXPLANATION_AFTER_FIXED_EXTERNAL_ATLAS",
+  "deletion_witnesses": [
+    {
+      "locator": {
+        "case": "nhej",
+        "line_including_header": 58,
+        "member": "Alleles_frequency_table.txt",
+        "zip_file": "nhej_Alleles_frequency_table.zip",
+        "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+      },
+      "assignment_weight": 28,
+      "source_status": "UNMODIFIED",
+      "exact_declared_template": false,
+      "declared_included_positions_zero_based": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117
+      ],
+      "differences": [
+        {
+          "reference_position_zero_based": 9,
+          "read_symbol": "-",
+          "reference_symbol": "C",
+          "inside_declared_mask_by_left_coordinate": false
+        }
+      ],
+      "explanation": "Deletion outside the source quantification mask; source UNMODIFIED does not state full-template equality."
+    },
+    {
+      "locator": {
+        "case": "allele_specific",
+        "line_including_header": 10,
+        "member": "Alleles_frequency_table.txt",
+        "zip_file": "allele_specific_Alleles_frequency_table.zip",
+        "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+      },
+      "assignment_weight": 207,
+      "source_status": "UNMODIFIED",
+      "exact_declared_template": false,
+      "declared_included_positions_zero_based": [
+        89,
+        90
+      ],
+      "differences": [
+        {
+          "reference_position_zero_based": 165,
+          "read_symbol": "-",
+          "reference_symbol": "G",
+          "inside_declared_mask_by_left_coordinate": false
+        }
+      ],
+      "explanation": "Deletion outside the source quantification mask; source UNMODIFIED does not state full-template equality."
+    },
+    {
+      "locator": {
+        "case": "allele_specific",
+        "line_including_header": 18,
+        "member": "Alleles_frequency_table.txt",
+        "zip_file": "allele_specific_Alleles_frequency_table.zip",
+        "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+      },
+      "assignment_weight": 111,
+      "source_status": "UNMODIFIED",
+      "exact_declared_template": false,
+      "declared_included_positions_zero_based": [
+        89,
+        90
+      ],
+      "differences": [
+        {
+          "reference_position_zero_based": 165,
+          "read_symbol": "-",
+          "reference_symbol": "G",
+          "inside_declared_mask_by_left_coordinate": false
+        }
+      ],
+      "explanation": "Deletion outside the source quantification mask; source UNMODIFIED does not state full-template equality."
+    }
+  ],
+  "unmodified_diagnostics": [
+    {
+      "case": "nhej",
+      "unmodified_nonexact_unambiguous_weight": 290,
+      "all_differences_outside_mask_under_left_coordinate_weight": 290,
+      "inside_or_boundary_candidate_weight": 0,
+      "scope": "Post hoc descriptive coordinate audit of supplied alignments; insertion-boundary conventions are not adjudicated as source software errors."
+    },
+    {
+      "case": "allele_specific",
+      "unmodified_nonexact_unambiguous_weight": 4502,
+      "all_differences_outside_mask_under_left_coordinate_weight": 4502,
+      "inside_or_boundary_candidate_weight": 0,
+      "scope": "Post hoc descriptive coordinate audit of supplied alignments; insertion-boundary conventions are not adjudicated as source software errors."
+    }
+  ],
+  "base_editor_terminal_reference_gap_weight": [
+    {
+      "leading": 0,
+      "trailing": 0,
+      "weight": 1
+    },
+    {
+      "leading": 0,
+      "trailing": 10,
+      "weight": 1
+    },
+    {
+      "leading": 1,
+      "trailing": 0,
+      "weight": 1
+    },
+    {
+      "leading": 9,
+      "trailing": 10,
+      "weight": 1
+    },
+    {
+      "leading": 15,
+      "trailing": 0,
+      "weight": 1
+    },
+    {
+      "leading": 18,
+      "trailing": 0,
+      "weight": 1
+    },
+    {
+      "leading": 19,
+      "trailing": 0,
+      "weight": 1
+    },
+    {
+      "leading": 21,
+      "trailing": 0,
+      "weight": 11
+    },
+    {
+      "leading": 22,
+      "trailing": 0,
+      "weight": 159
+    },
+    {
+      "leading": 23,
+      "trailing": 0,
+      "weight": 24700
+    },
+    {
+      "leading": 23,
+      "trailing": 1,
+      "weight": 2
+    },
+    {
+      "leading": 23,
+      "trailing": 2,
+      "weight": 1
+    },
+    {
+      "leading": 23,
+      "trailing": 6,
+      "weight": 3
+    },
+    {
+      "leading": 23,
+      "trailing": 14,
+      "weight": 11
+    },
+    {
+      "leading": 23,
+      "trailing": 16,
+      "weight": 2
+    },
+    {
+      "leading": 23,
+      "trailing": 21,
+      "weight": 1
+    },
+    {
+      "leading": 23,
+      "trailing": 30,
+      "weight": 2
+    },
+    {
+      "leading": 23,
+      "trailing": 34,
+      "weight": 2
+    },
+    {
+      "leading": 23,
+      "trailing": 36,
+      "weight": 1
+    },
+    {
+      "leading": 24,
+      "trailing": 0,
+      "weight": 58
+    },
+    {
+      "leading": 25,
+      "trailing": 0,
+      "weight": 1
+    },
+    {
+      "leading": 26,
+      "trailing": 0,
+      "weight": 1
+    },
+    {
+      "leading": 27,
+      "trailing": 0,
+      "weight": 3
+    },
+    {
+      "leading": 30,
+      "trailing": 0,
+      "weight": 1
+    },
+    {
+      "leading": 33,
+      "trailing": 0,
+      "weight": 1
+    },
+    {
+      "leading": 40,
+      "trailing": 0,
+      "weight": 1
+    },
+    {
+      "leading": 43,
+      "trailing": 0,
+      "weight": 2
+    }
+  ],
+  "limits": "Alignment gaps include terminal overhangs and are not interchangeable with source quantified biological indels. The software does not authenticate the biochemical origin of any sequence."
+}

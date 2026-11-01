@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "raw_records": 177006,
+  "count_rows": 126,
+  "contrast_rows": 84,
+  "width_ratios": [
+    {
+      "preparation": 1,
+      "witness_to_mutant_width_ratio": 2.338933810561551,
+      "witness_width_pp": 9.733117992306697,
+      "mutant_width_pp": 4.1613481956421365
+    },
+    {
+      "preparation": 2,
+      "witness_to_mutant_width_ratio": 2.382014249822013,
+      "witness_width_pp": 7.176420651621864,
+      "mutant_width_pp": 3.0127530312457598
+    },
+    {
+      "preparation": 3,
+      "witness_to_mutant_width_ratio": 2.5544684741393526,
+      "witness_width_pp": 6.877920381608368,
+      "mutant_width_pp": 2.6925054864596305
+    }
+  ],
+  "subset_certificate_semantics": "Every required operator resolves and returns exactly the same observed coding string. Fewer required operators give a weaker correspondence certificate. These certificates do not measure accuracy.",
+  "native_nonexact_witness_records": 128,
+  "native_nonexact_distinct_strings": 22
+}

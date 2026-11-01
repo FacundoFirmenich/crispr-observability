@@ -1,10 +1,12 @@
 # Compañero computacional público
 
-Versión **0.4.0 / MP04**, 29 de octubre de 2026.
+Versión **0.5.0 / MP05**, 1 de noviembre de 2026.
 
 El repositorio contiene código, datos numéricos, trazabilidad y figuras editables.
 El manuscrito completo y su suplemento se conservan de forma privada hasta el
 depósito que decida el autor.
+
+La extensión nueva está en `extensions/reproduction/README.md`: reconstruye los quince streams, el veto, los catálogos externos y el contrato; añade la comparación ejecutada con prime editing y la ablación de certificados. Las figuras nuevas están en `figures/frontier/`. El artículo CRISPR P1 continúa siendo la unidad principal; los mapas son outputs subordinados y conservan sus fuentes declaradas.
 
 Ejecutar `python3 code/run_review_checks.py` desde la raíz para reproducir las
 comprobaciones declaradas. Las figuras están en `figures/`; los diecinueve CSV

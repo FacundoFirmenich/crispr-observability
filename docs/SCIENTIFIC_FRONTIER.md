@@ -1,3 +1,9 @@
+# MP05 current frontier — 1 November 2026
+
+The former source-distribution gaps in geometry/veto, external catalogues and the actual reporting checker are closed by `extensions/reproduction/`. A dated nine-job dedicated PE comparison and seven-subset correspondence ablation are now executed. The earlier material below is retained as a historical boundary record; statements that these particular source paths were absent are superseded by the new README and `REPRODUCTION_SCOPE.md`.
+
+The next scientific gate is an identifier-linked truth channel for complex prefix/suffix correspondence, followed by fixed-rule transport to a separate biological genealogy and measured analyst utility. An outside person's reproduction remains distinct from internal replay. None is inferred from the new computations. The immediate preprint candidate reports the narrower retrospective results and does not require those results to masquerade as accuracy validation.
+
 # Scientific scope and independent verification
 
 The local question is whether a declared event remains comparable when the editing product changes the sequence feature used to observe it. Each result is indexed by raw universe, event definition, observation rule, reference and accepted-label assumptions. A positive contrast does not certify stable per-record labels or molecular correctness.

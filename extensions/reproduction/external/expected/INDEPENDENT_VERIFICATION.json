@@ -1,0 +1,69 @@
+{
+  "actual_counterexample_pairs_checked": 100,
+  "cases": [
+    {
+      "ambiguous_assignment_weight": 0,
+      "assignment_weight": 24344,
+      "case": "nhej",
+      "feature_weights": {
+        "any_alignment_indel": {
+          "false": 6105,
+          "true": 18239
+        },
+        "exact_declared_template": {
+          "false": 19049,
+          "true": 5295
+        }
+      },
+      "quantified_unambiguous_weight": 24344,
+      "source_mapping_total": "PASS",
+      "source_quantification_counts": "PASS",
+      "table_rows": 3355,
+      "unrepresented_raw_count": 656
+    },
+    {
+      "ambiguous_assignment_weight": 572,
+      "assignment_weight": 24626,
+      "case": "allele_specific",
+      "feature_weights": {
+        "any_alignment_indel": {
+          "false": 13478,
+          "true": 11148
+        },
+        "exact_declared_template": {
+          "false": 13614,
+          "null": 572,
+          "true": 10440
+        }
+      },
+      "quantified_unambiguous_weight": 24054,
+      "source_mapping_total": "PASS",
+      "source_quantification_counts": "PASS",
+      "table_rows": 3545,
+      "unrepresented_raw_count": 374
+    },
+    {
+      "ambiguous_assignment_weight": 0,
+      "assignment_weight": 24970,
+      "case": "base_editor",
+      "feature_weights": {
+        "any_alignment_indel": {
+          "true": 24970
+        },
+        "exact_declared_template": {
+          "false": 24970
+        }
+      },
+      "quantified_unambiguous_weight": 24970,
+      "source_mapping_total": "PASS",
+      "source_quantification_counts": "PASS",
+      "table_rows": 3909,
+      "unrepresented_raw_count": 30
+    }
+  ],
+  "factorization_certificates_checked": 90,
+  "joint_partitions_checked": 3,
+  "limits": "Second computational implementation on identical public sources; no independent analyst or molecular truth. Raw sequence linkage in main runner is not an engine replay.",
+  "parsed_actual_rows": 10809,
+  "status": "PASS"
+}

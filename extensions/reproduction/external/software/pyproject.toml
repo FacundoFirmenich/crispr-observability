@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "observed-contracts"
+version = "0.2.0"
+description = "Event-relative contracts and finite observed-catalog factorization audits"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+observed-contracts = "observed_contracts.cli:main"
+observed-contracts-table = "observed_contracts.tabular:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

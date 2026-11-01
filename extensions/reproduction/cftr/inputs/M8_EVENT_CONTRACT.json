@@ -1,0 +1,1765 @@
+{
+  "specification": {
+    "version": "1.0",
+    "status": "proposed reporting and verification contract, exercised on this case only",
+    "structural_fields": [
+      "schema_version",
+      "id",
+      "run_accession",
+      "preparation_nominal",
+      "condition",
+      "event_contract_sha256",
+      "universe",
+      "counts",
+      "interval_hull_exact",
+      "source",
+      "information_timing",
+      "permitted_claim",
+      "not_authenticated"
+    ],
+    "semantics": [
+      "fixed raw universe and original record identity",
+      "declared event and observed sequence correspondence level",
+      "quality and transform policy",
+      "complete E NE U partition and exact interval hull",
+      "source provenance and retrospective information timing",
+      "separate unverified claims",
+      "within contract comparison only"
+    ],
+    "not_a_claim": [
+      "community standard adoption",
+      "independent ground truth",
+      "experimental validation",
+      "universal accuracy",
+      "clinical safety"
+    ]
+  },
+  "event_definitions": {
+    "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196": {
+      "family": "CTT_full_SE2",
+      "predicate": "observed coding equals full programmed core plus AT",
+      "sequence_domain": "witness",
+      "correspondence_level": "identical observed coding string",
+      "references_sha256": [
+        "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849",
+        "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad"
+      ],
+      "quality": "arithmetic_mean_original_whole_read_Phred33_ge_30",
+      "raw_transform": "none",
+      "warning_rule": "unresolved required motif or flank conditions remain U",
+      "biological_truth_calibrated": false
+    },
+    "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8": {
+      "family": "native",
+      "predicate": "in frame observed coding translates to GTIKENIIFGVSYD",
+      "sequence_domain": "witness",
+      "correspondence_level": "identical observed coding string",
+      "references_sha256": [
+        "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849",
+        "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad"
+      ],
+      "quality": "arithmetic_mean_original_whole_read_Phred33_ge_30",
+      "raw_transform": "none",
+      "warning_rule": "unresolved required motif or flank conditions remain U",
+      "biological_truth_calibrated": false
+    },
+    "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56": {
+      "family": "native",
+      "predicate": "in frame observed coding translates to GTIKENIIFGVSYD",
+      "sequence_domain": "mutant_projection",
+      "correspondence_level": "observed bases projected on declared reference interval",
+      "references_sha256": [
+        "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849"
+      ],
+      "quality": "arithmetic_mean_original_whole_read_Phred33_ge_30",
+      "raw_transform": "none",
+      "warning_rule": "unresolved required motif or flank conditions remain U",
+      "biological_truth_calibrated": false
+    },
+    "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861": {
+      "family": "native",
+      "predicate": "in frame observed coding translates to GTIKENIIFGVSYD",
+      "sequence_domain": "programmed_projection",
+      "correspondence_level": "observed bases projected on declared reference interval",
+      "references_sha256": [
+        "0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad"
+      ],
+      "quality": "arithmetic_mean_original_whole_read_Phred33_ge_30",
+      "raw_transform": "none",
+      "warning_rule": "unresolved required motif or flank conditions remain U",
+      "biological_truth_calibrated": false
+    }
+  },
+  "actual_cards": [
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623274:witness:CTT_full_SE2",
+      "run_accession": "SRR29623274",
+      "preparation_nominal": 1,
+      "condition": "untreated",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "universe": {
+        "raw_N": 13762,
+        "sequence_quality_stream_sha256": "c1caa43cbb4aa3aea3da80ebb2d30eb0ed8491b880052823d7402e58d054621a",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 13176,
+        "U": 586
+      },
+      "interval_hull_exact": [
+        "0",
+        "293/6881"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623274:witness:native",
+      "run_accession": "SRR29623274",
+      "preparation_nominal": 1,
+      "condition": "untreated",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "universe": {
+        "raw_N": 13762,
+        "sequence_quality_stream_sha256": "c1caa43cbb4aa3aea3da80ebb2d30eb0ed8491b880052823d7402e58d054621a",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 1,
+        "NE": 13175,
+        "U": 586
+      },
+      "interval_hull_exact": [
+        "1/13762",
+        "587/13762"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623266:witness:CTT_full_SE2",
+      "run_accession": "SRR29623266",
+      "preparation_nominal": 2,
+      "condition": "untreated",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "universe": {
+        "raw_N": 13617,
+        "sequence_quality_stream_sha256": "4d131cbd720c668ee4243c23babf04e70bddff1d1c6236f9ffc657927b224540",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 13290,
+        "U": 327
+      },
+      "interval_hull_exact": [
+        "0",
+        "109/4539"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623266:witness:native",
+      "run_accession": "SRR29623266",
+      "preparation_nominal": 2,
+      "condition": "untreated",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "universe": {
+        "raw_N": 13617,
+        "sequence_quality_stream_sha256": "4d131cbd720c668ee4243c23babf04e70bddff1d1c6236f9ffc657927b224540",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 13290,
+        "U": 327
+      },
+      "interval_hull_exact": [
+        "0",
+        "109/4539"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623268:witness:CTT_full_SE2",
+      "run_accession": "SRR29623268",
+      "preparation_nominal": 3,
+      "condition": "untreated",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "universe": {
+        "raw_N": 29956,
+        "sequence_quality_stream_sha256": "6cb79aa2fa59b9da78827e4f48e79825efbb5143da304b248d6fa1301c80a17b",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 29172,
+        "U": 784
+      },
+      "interval_hull_exact": [
+        "0",
+        "196/7489"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623268:witness:native",
+      "run_accession": "SRR29623268",
+      "preparation_nominal": 3,
+      "condition": "untreated",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "universe": {
+        "raw_N": 29956,
+        "sequence_quality_stream_sha256": "6cb79aa2fa59b9da78827e4f48e79825efbb5143da304b248d6fa1301c80a17b",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 29172,
+        "U": 784
+      },
+      "interval_hull_exact": [
+        "0",
+        "196/7489"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623273:witness:CTT_full_SE2",
+      "run_accession": "SRR29623273",
+      "preparation_nominal": 1,
+      "condition": "mock",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "universe": {
+        "raw_N": 17177,
+        "sequence_quality_stream_sha256": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 2,
+        "NE": 16475,
+        "U": 700
+      },
+      "interval_hull_exact": [
+        "2/17177",
+        "702/17177"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623273:witness:native",
+      "run_accession": "SRR29623273",
+      "preparation_nominal": 1,
+      "condition": "mock",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "universe": {
+        "raw_N": 17177,
+        "sequence_quality_stream_sha256": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 2,
+        "NE": 16475,
+        "U": 700
+      },
+      "interval_hull_exact": [
+        "2/17177",
+        "702/17177"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623265:witness:CTT_full_SE2",
+      "run_accession": "SRR29623265",
+      "preparation_nominal": 2,
+      "condition": "mock",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "universe": {
+        "raw_N": 21041,
+        "sequence_quality_stream_sha256": "a4f8f9822ae0e05dc4c1c345dd354182fc97574ea490362e857dea875802bf82",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 20528,
+        "U": 513
+      },
+      "interval_hull_exact": [
+        "0",
+        "513/21041"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623265:witness:native",
+      "run_accession": "SRR29623265",
+      "preparation_nominal": 2,
+      "condition": "mock",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "universe": {
+        "raw_N": 21041,
+        "sequence_quality_stream_sha256": "a4f8f9822ae0e05dc4c1c345dd354182fc97574ea490362e857dea875802bf82",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 20528,
+        "U": 513
+      },
+      "interval_hull_exact": [
+        "0",
+        "513/21041"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623267:witness:CTT_full_SE2",
+      "run_accession": "SRR29623267",
+      "preparation_nominal": 3,
+      "condition": "mock",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "universe": {
+        "raw_N": 27024,
+        "sequence_quality_stream_sha256": "8fb1089651cfee5ea58340e5ba5dbf388948ac00b51a5ae880cdc9ff923559a0",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 26392,
+        "U": 632
+      },
+      "interval_hull_exact": [
+        "0",
+        "79/3378"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623267:witness:native",
+      "run_accession": "SRR29623267",
+      "preparation_nominal": 3,
+      "condition": "mock",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "universe": {
+        "raw_N": 27024,
+        "sequence_quality_stream_sha256": "8fb1089651cfee5ea58340e5ba5dbf388948ac00b51a5ae880cdc9ff923559a0",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 26392,
+        "U": 632
+      },
+      "interval_hull_exact": [
+        "0",
+        "79/3378"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623272:witness:CTT_full_SE2",
+      "run_accession": "SRR29623272",
+      "preparation_nominal": 1,
+      "condition": "PE treated",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "universe": {
+        "raw_N": 20573,
+        "sequence_quality_stream_sha256": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 3539,
+        "NE": 15870,
+        "U": 1164
+      },
+      "interval_hull_exact": [
+        "3539/20573",
+        "4703/20573"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623272:witness:native",
+      "run_accession": "SRR29623272",
+      "preparation_nominal": 1,
+      "condition": "PE treated",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "universe": {
+        "raw_N": 20573,
+        "sequence_quality_stream_sha256": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 3563,
+        "NE": 15846,
+        "U": 1164
+      },
+      "interval_hull_exact": [
+        "509/2939",
+        "4727/20573"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623271:witness:CTT_full_SE2",
+      "run_accession": "SRR29623271",
+      "preparation_nominal": 2,
+      "condition": "PE treated",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "universe": {
+        "raw_N": 19184,
+        "sequence_quality_stream_sha256": "b8ee1df0dcf47162402fa9c4a8d48285037a1d9893c1ede889d89ac09f00f28e",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 5605,
+        "NE": 12670,
+        "U": 909
+      },
+      "interval_hull_exact": [
+        "5605/19184",
+        "3257/9592"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623271:witness:native",
+      "run_accession": "SRR29623271",
+      "preparation_nominal": 2,
+      "condition": "PE treated",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "universe": {
+        "raw_N": 19184,
+        "sequence_quality_stream_sha256": "b8ee1df0dcf47162402fa9c4a8d48285037a1d9893c1ede889d89ac09f00f28e",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 5673,
+        "NE": 12602,
+        "U": 909
+      },
+      "interval_hull_exact": [
+        "5673/19184",
+        "3291/9592"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623270:witness:CTT_full_SE2",
+      "run_accession": "SRR29623270",
+      "preparation_nominal": 3,
+      "condition": "PE treated",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "universe": {
+        "raw_N": 14672,
+        "sequence_quality_stream_sha256": "838daf32964c9016330e0686e2aed24f1cfca7af24a929295a140f0987f18aab",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 3706,
+        "NE": 10300,
+        "U": 666
+      },
+      "interval_hull_exact": [
+        "1853/7336",
+        "1093/3668"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623270:witness:native",
+      "run_accession": "SRR29623270",
+      "preparation_nominal": 3,
+      "condition": "PE treated",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "universe": {
+        "raw_N": 14672,
+        "sequence_quality_stream_sha256": "838daf32964c9016330e0686e2aed24f1cfca7af24a929295a140f0987f18aab",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 3741,
+        "NE": 10265,
+        "U": 666
+      },
+      "interval_hull_exact": [
+        "3741/14672",
+        "4407/14672"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M3/WITNESS_COUNTS.json",
+        "sha256": "d4d71c192238d9e6e0230e90c54f0a8ad644c06237c14689397853de84c8dd24"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623274:mutant_projection:native",
+      "run_accession": "SRR29623274",
+      "preparation_nominal": 1,
+      "condition": "untreated",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "universe": {
+        "raw_N": 13762,
+        "sequence_quality_stream_sha256": "c1caa43cbb4aa3aea3da80ebb2d30eb0ed8491b880052823d7402e58d054621a",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 1,
+        "NE": 13547,
+        "U": 214
+      },
+      "interval_hull_exact": [
+        "1/13762",
+        "215/13762"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/COUNTS.json",
+        "sha256": "6f712d6cb43af0ce3bb9da69069409757619b5a06c094e7f6c8a0de8ecc8d57c"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623266:mutant_projection:native",
+      "run_accession": "SRR29623266",
+      "preparation_nominal": 2,
+      "condition": "untreated",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "universe": {
+        "raw_N": 13617,
+        "sequence_quality_stream_sha256": "4d131cbd720c668ee4243c23babf04e70bddff1d1c6236f9ffc657927b224540",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 13491,
+        "U": 126
+      },
+      "interval_hull_exact": [
+        "0",
+        "14/1513"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/COUNTS.json",
+        "sha256": "6f712d6cb43af0ce3bb9da69069409757619b5a06c094e7f6c8a0de8ecc8d57c"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623268:mutant_projection:native",
+      "run_accession": "SRR29623268",
+      "preparation_nominal": 3,
+      "condition": "untreated",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "universe": {
+        "raw_N": 29956,
+        "sequence_quality_stream_sha256": "6cb79aa2fa59b9da78827e4f48e79825efbb5143da304b248d6fa1301c80a17b",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 29658,
+        "U": 298
+      },
+      "interval_hull_exact": [
+        "0",
+        "149/14978"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/COUNTS.json",
+        "sha256": "6f712d6cb43af0ce3bb9da69069409757619b5a06c094e7f6c8a0de8ecc8d57c"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623273:mutant_projection:native",
+      "run_accession": "SRR29623273",
+      "preparation_nominal": 1,
+      "condition": "mock",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "universe": {
+        "raw_N": 17177,
+        "sequence_quality_stream_sha256": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 2,
+        "NE": 16876,
+        "U": 299
+      },
+      "interval_hull_exact": [
+        "2/17177",
+        "301/17177"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/COUNTS.json",
+        "sha256": "6f712d6cb43af0ce3bb9da69069409757619b5a06c094e7f6c8a0de8ecc8d57c"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623265:mutant_projection:native",
+      "run_accession": "SRR29623265",
+      "preparation_nominal": 2,
+      "condition": "mock",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "universe": {
+        "raw_N": 21041,
+        "sequence_quality_stream_sha256": "a4f8f9822ae0e05dc4c1c345dd354182fc97574ea490362e857dea875802bf82",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 20848,
+        "U": 193
+      },
+      "interval_hull_exact": [
+        "0",
+        "193/21041"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/COUNTS.json",
+        "sha256": "6f712d6cb43af0ce3bb9da69069409757619b5a06c094e7f6c8a0de8ecc8d57c"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623267:mutant_projection:native",
+      "run_accession": "SRR29623267",
+      "preparation_nominal": 3,
+      "condition": "mock",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "universe": {
+        "raw_N": 27024,
+        "sequence_quality_stream_sha256": "8fb1089651cfee5ea58340e5ba5dbf388948ac00b51a5ae880cdc9ff923559a0",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 26790,
+        "U": 234
+      },
+      "interval_hull_exact": [
+        "0",
+        "39/4504"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/COUNTS.json",
+        "sha256": "6f712d6cb43af0ce3bb9da69069409757619b5a06c094e7f6c8a0de8ecc8d57c"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623272:mutant_projection:native",
+      "run_accession": "SRR29623272",
+      "preparation_nominal": 1,
+      "condition": "PE treated",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "universe": {
+        "raw_N": 20573,
+        "sequence_quality_stream_sha256": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 3694,
+        "NE": 16381,
+        "U": 498
+      },
+      "interval_hull_exact": [
+        "3694/20573",
+        "4192/20573"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/COUNTS.json",
+        "sha256": "6f712d6cb43af0ce3bb9da69069409757619b5a06c094e7f6c8a0de8ecc8d57c"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623271:mutant_projection:native",
+      "run_accession": "SRR29623271",
+      "preparation_nominal": 2,
+      "condition": "PE treated",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "universe": {
+        "raw_N": 19184,
+        "sequence_quality_stream_sha256": "b8ee1df0dcf47162402fa9c4a8d48285037a1d9893c1ede889d89ac09f00f28e",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 5812,
+        "NE": 12970,
+        "U": 402
+      },
+      "interval_hull_exact": [
+        "1453/4796",
+        "3107/9592"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/COUNTS.json",
+        "sha256": "6f712d6cb43af0ce3bb9da69069409757619b5a06c094e7f6c8a0de8ecc8d57c"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623270:mutant_projection:native",
+      "run_accession": "SRR29623270",
+      "preparation_nominal": 3,
+      "condition": "PE treated",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "universe": {
+        "raw_N": 14672,
+        "sequence_quality_stream_sha256": "838daf32964c9016330e0686e2aed24f1cfca7af24a929295a140f0987f18aab",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 3861,
+        "NE": 10543,
+        "U": 268
+      },
+      "interval_hull_exact": [
+        "3861/14672",
+        "4129/14672"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/COUNTS.json",
+        "sha256": "6f712d6cb43af0ce3bb9da69069409757619b5a06c094e7f6c8a0de8ecc8d57c"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623274:programmed_projection:native",
+      "run_accession": "SRR29623274",
+      "preparation_nominal": 1,
+      "condition": "untreated",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "universe": {
+        "raw_N": 13762,
+        "sequence_quality_stream_sha256": "c1caa43cbb4aa3aea3da80ebb2d30eb0ed8491b880052823d7402e58d054621a",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 1,
+        "NE": 13548,
+        "U": 213
+      },
+      "interval_hull_exact": [
+        "1/13762",
+        "107/6881"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/REFERENCE_COUNTS.json",
+        "sha256": "51b8b56e4ce022232a3cb9954313158e3c297d02168e363fd74b98138d9979b8"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623266:programmed_projection:native",
+      "run_accession": "SRR29623266",
+      "preparation_nominal": 2,
+      "condition": "untreated",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "universe": {
+        "raw_N": 13617,
+        "sequence_quality_stream_sha256": "4d131cbd720c668ee4243c23babf04e70bddff1d1c6236f9ffc657927b224540",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 13491,
+        "U": 126
+      },
+      "interval_hull_exact": [
+        "0",
+        "14/1513"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/REFERENCE_COUNTS.json",
+        "sha256": "51b8b56e4ce022232a3cb9954313158e3c297d02168e363fd74b98138d9979b8"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623268:programmed_projection:native",
+      "run_accession": "SRR29623268",
+      "preparation_nominal": 3,
+      "condition": "untreated",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "universe": {
+        "raw_N": 29956,
+        "sequence_quality_stream_sha256": "6cb79aa2fa59b9da78827e4f48e79825efbb5143da304b248d6fa1301c80a17b",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 29658,
+        "U": 298
+      },
+      "interval_hull_exact": [
+        "0",
+        "149/14978"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/REFERENCE_COUNTS.json",
+        "sha256": "51b8b56e4ce022232a3cb9954313158e3c297d02168e363fd74b98138d9979b8"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623273:programmed_projection:native",
+      "run_accession": "SRR29623273",
+      "preparation_nominal": 1,
+      "condition": "mock",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "universe": {
+        "raw_N": 17177,
+        "sequence_quality_stream_sha256": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 2,
+        "NE": 16876,
+        "U": 299
+      },
+      "interval_hull_exact": [
+        "2/17177",
+        "301/17177"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/REFERENCE_COUNTS.json",
+        "sha256": "51b8b56e4ce022232a3cb9954313158e3c297d02168e363fd74b98138d9979b8"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623265:programmed_projection:native",
+      "run_accession": "SRR29623265",
+      "preparation_nominal": 2,
+      "condition": "mock",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "universe": {
+        "raw_N": 21041,
+        "sequence_quality_stream_sha256": "a4f8f9822ae0e05dc4c1c345dd354182fc97574ea490362e857dea875802bf82",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 20848,
+        "U": 193
+      },
+      "interval_hull_exact": [
+        "0",
+        "193/21041"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/REFERENCE_COUNTS.json",
+        "sha256": "51b8b56e4ce022232a3cb9954313158e3c297d02168e363fd74b98138d9979b8"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623267:programmed_projection:native",
+      "run_accession": "SRR29623267",
+      "preparation_nominal": 3,
+      "condition": "mock",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "universe": {
+        "raw_N": 27024,
+        "sequence_quality_stream_sha256": "8fb1089651cfee5ea58340e5ba5dbf388948ac00b51a5ae880cdc9ff923559a0",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 0,
+        "NE": 26790,
+        "U": 234
+      },
+      "interval_hull_exact": [
+        "0",
+        "39/4504"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/REFERENCE_COUNTS.json",
+        "sha256": "51b8b56e4ce022232a3cb9954313158e3c297d02168e363fd74b98138d9979b8"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623272:programmed_projection:native",
+      "run_accession": "SRR29623272",
+      "preparation_nominal": 1,
+      "condition": "PE treated",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "universe": {
+        "raw_N": 20573,
+        "sequence_quality_stream_sha256": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 3728,
+        "NE": 16374,
+        "U": 471
+      },
+      "interval_hull_exact": [
+        "3728/20573",
+        "4199/20573"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/REFERENCE_COUNTS.json",
+        "sha256": "51b8b56e4ce022232a3cb9954313158e3c297d02168e363fd74b98138d9979b8"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623271:programmed_projection:native",
+      "run_accession": "SRR29623271",
+      "preparation_nominal": 2,
+      "condition": "PE treated",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "universe": {
+        "raw_N": 19184,
+        "sequence_quality_stream_sha256": "b8ee1df0dcf47162402fa9c4a8d48285037a1d9893c1ede889d89ac09f00f28e",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 5872,
+        "NE": 12916,
+        "U": 396
+      },
+      "interval_hull_exact": [
+        "367/1199",
+        "1567/4796"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/REFERENCE_COUNTS.json",
+        "sha256": "51b8b56e4ce022232a3cb9954313158e3c297d02168e363fd74b98138d9979b8"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "SRR29623270:programmed_projection:native",
+      "run_accession": "SRR29623270",
+      "preparation_nominal": 3,
+      "condition": "PE treated",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "universe": {
+        "raw_N": 14672,
+        "sequence_quality_stream_sha256": "838daf32964c9016330e0686e2aed24f1cfca7af24a929295a140f0987f18aab",
+        "unit": "sequenced raw record"
+      },
+      "counts": {
+        "E": 3909,
+        "NE": 10516,
+        "U": 247
+      },
+      "interval_hull_exact": [
+        "3909/14672",
+        "1039/3668"
+      ],
+      "source": {
+        "bioproject": "PRJNA1055086",
+        "doi": "10.1038/s41551-024-01233-3",
+        "artifact": "M2/REFERENCE_COUNTS.json",
+        "sha256": "51b8b56e4ce022232a3cb9954313158e3c297d02168e363fd74b98138d9979b8"
+      },
+      "information_timing": "retrospective outcomes known",
+      "permitted_claim": "finite record binary completion under correct accepted labels",
+      "not_authenticated": [
+        "classification truth",
+        "independent cohort",
+        "unique physical copy",
+        "full allele",
+        "cell identity",
+        "per haplotype function",
+        "population efficacy"
+      ]
+    }
+  ],
+  "actual_contrasts": [
+    {
+      "treated": "SRR29623272:witness:CTT_full_SE2",
+      "control": "SRR29623274:witness:CTT_full_SE2",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "L_exact": "2617710/20223259",
+      "H_exact": "4703/20573",
+      "L_pp": 12.944056148418017,
+      "H_pp": 22.860059301025615,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623272:witness:CTT_full_SE2",
+      "control": "SRR29623273:witness:CTT_full_SE2",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "L_exact": "46347157/353382421",
+      "H_exact": "80742285/353382421",
+      "L_pp": 13.115297831976763,
+      "H_pp": 22.84841582428346,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623272:witness:native",
+      "control": "SRR29623274:witness:native",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "L_exact": "5279665/40446518",
+      "H_exact": "9290343/40446518",
+      "L_pp": 13.053447518028623,
+      "H_pp": 22.96945067063622,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623272:witness:native",
+      "control": "SRR29623273:witness:native",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "L_exact": "6679915/50483203",
+      "H_exact": "81154533/353382421",
+      "L_pp": 13.231955587287121,
+      "H_pp": 22.96507357959382,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623271:witness:CTT_full_SE2",
+      "control": "SRR29623266:witness:CTT_full_SE2",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "L_exact": "23350039/87076176",
+      "H_exact": "3257/9592",
+      "L_pp": 26.815645877696788,
+      "H_pp": 33.955379482902416,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623271:witness:CTT_full_SE2",
+      "control": "SRR29623265:witness:CTT_full_SE2",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "L_exact": "108093413/403650544",
+      "H_exact": "3257/9592",
+      "L_pp": 26.778958831280555,
+      "H_pp": 33.955379482902416,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623271:witness:native",
+      "control": "SRR29623266:witness:native",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "L_exact": "23658691/87076176",
+      "H_exact": "3291/9592",
+      "L_pp": 27.170107929406548,
+      "H_pp": 34.309841534612175,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623271:witness:native",
+      "control": "SRR29623265:witness:native",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "L_exact": "109524201/403650544",
+      "H_exact": "3291/9592",
+      "L_pp": 27.13342088299031,
+      "H_pp": 34.309841534612175,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623270:witness:CTT_full_SE2",
+      "control": "SRR29623268:witness:CTT_full_SE2",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "L_exact": "12439261/54939304",
+      "H_exact": "1093/3668",
+      "L_pp": 22.641824876412706,
+      "H_pp": 29.798255179934568,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623270:witness:CTT_full_SE2",
+      "control": "SRR29623267:witness:CTT_full_SE2",
+      "event_contract_sha256": "c8d8057b6b0c09cd43d46ce4bb3a19f8b6fbbc00234106732cb7cd74b71d6196",
+      "L_exact": "2839945/12390504",
+      "H_exact": "1093/3668",
+      "L_pp": 22.920334798326202,
+      "H_pp": 29.798255179934568,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623270:witness:native",
+      "control": "SRR29623268:witness:native",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "L_exact": "25140637/109878608",
+      "H_exact": "4407/14672",
+      "L_pp": 22.880374494733314,
+      "H_pp": 30.03680479825518,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623270:witness:native",
+      "control": "SRR29623267:witness:native",
+      "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8",
+      "L_exact": "5739005/24781008",
+      "H_exact": "4407/14672",
+      "L_pp": 23.158884416646814,
+      "H_pp": 30.03680479825518,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623272:mutant_projection:native",
+      "control": "SRR29623274:mutant_projection:native",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "L_exact": "947217/5778074",
+      "H_exact": "8238533/40446518",
+      "L_pp": 16.39329991273909,
+      "H_pp": 20.36895487517615,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623272:mutant_projection:native",
+      "control": "SRR29623273:mutant_projection:native",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "L_exact": "57259365/353382421",
+      "H_exact": "71964838/353382421",
+      "L_pp": 16.203229588491613,
+      "H_pp": 20.36457778413375,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623271:mutant_projection:native",
+      "control": "SRR29623266:mutant_projection:native",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "L_exact": "2131245/7256348",
+      "H_exact": "3107/9592",
+      "L_pp": 29.370766120919228,
+      "H_pp": 32.39157631359466,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623271:mutant_projection:native",
+      "control": "SRR29623265:mutant_projection:native",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "L_exact": "29646945/100912636",
+      "H_exact": "3107/9592",
+      "L_pp": 29.378823282348904,
+      "H_pp": 32.39157631359466,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623270:mutant_projection:native",
+      "control": "SRR29623268:mutant_projection:native",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "L_exact": "27821965/109878608",
+      "H_exact": "4129/14672",
+      "L_pp": 25.32063839032253,
+      "H_pp": 28.142039258451472,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623270:mutant_projection:native",
+      "control": "SRR29623267:mutant_projection:native",
+      "event_contract_sha256": "2426971ed6054be4ec814c2afa7d27dcf9f2b6c87b75cee4208659c7b45dcd56",
+      "L_exact": "2102217/8260336",
+      "H_exact": "4129/14672",
+      "L_pp": 25.44953377199184,
+      "H_pp": 28.142039258451472,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623272:programmed_projection:native",
+      "control": "SRR29623274:programmed_projection:native",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "L_exact": "478593/2889037",
+      "H_exact": "8252295/40446518",
+      "L_pp": 16.565831451795184,
+      "H_pp": 20.40298005380834,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623272:programmed_projection:native",
+      "control": "SRR29623273:programmed_projection:native",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "L_exact": "57843383/353382421",
+      "H_exact": "72085077/353382421",
+      "L_pp": 16.368494741847954,
+      "H_pp": 20.39860296276594,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623271:programmed_projection:native",
+      "control": "SRR29623266:programmed_projection:native",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "L_exact": "538485/1814087",
+      "H_exact": "1567/4796",
+      "L_pp": 29.68352675478078,
+      "H_pp": 32.67306088407006,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623271:programmed_projection:native",
+      "control": "SRR29623265:programmed_projection:native",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "L_exact": "7490640/25228159",
+      "H_exact": "1567/4796",
+      "L_pp": 29.691583916210455,
+      "H_pp": 32.67306088407006,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623270:programmed_projection:native",
+      "control": "SRR29623268:programmed_projection:native",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "L_exact": "28181437/109878608",
+      "H_exact": "1039/3668",
+      "L_pp": 25.647792152590792,
+      "H_pp": 28.326063249727373,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    },
+    {
+      "treated": "SRR29623270:programmed_projection:native",
+      "control": "SRR29623267:programmed_projection:native",
+      "event_contract_sha256": "344ecec613961892a4393b29c7a9a960c53fb57e267083cc3c5e03e657550861",
+      "L_exact": "2129241/8260336",
+      "H_exact": "1039/3668",
+      "L_pp": 25.77668753426011,
+      "H_pp": 28.326063249727373,
+      "strict_positive": true,
+      "scope": "Conditional finite raw record contrast; no claim of classification accuracy or biological efficacy."
+    }
+  ]
+}

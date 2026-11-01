@@ -1,0 +1,43 @@
+{
+  "version": "M1.0",
+  "as_of": "2026-10-27",
+  "status": "design fixed before this execution; retrospective inputs and results already known from v22",
+  "question": "Separate structural eligibility and quality policy contributions to observer contrast bounds over unchanged finite raw-read universes.",
+  "data": "All 15 unique frozen streams, 429812 raw reads; primary results three nominal CFB preparations against mock/untreated.",
+  "trims": [
+    0,
+    8
+  ],
+  "events": [
+    "CTT_plus_full_SE2",
+    "native_local_peptide_all_observed_sequences"
+  ],
+  "observers": [
+    "target",
+    "broad_current",
+    "broad_edge",
+    "compatible_union"
+  ],
+  "policies": {
+    "structural_only": "Original ACGT-only observer structural/classification rules, no numerical quality gate.",
+    "own_meanQ30": "Original arithmetic mean Phred>=30 over each own outer span including anchors.",
+    "common_raw_meanQ30": "Arithmetic mean Phred>=30 over original entire raw sequence; fixed per-read across observers and trims. Gate failures remain U within original N.",
+    "common_and_own_meanQ30": "Intersection of common original-read and observer own-window gates; reports overlap explicitly."
+  },
+  "contrasts": "Complete [L_t-H_c,H_t-L_c] in Fraction; primary PE-mock and secondary PE-untreated; no donor pairing or causal inference.",
+  "decomposition": "Gap(B,A) in contrast lower bound = difference treated E/N + difference control NE/N. Own-quality gap = structural gap + difference of quality penalties. Algebraic policy decomposition, not causal biological mediation.",
+  "validation": [
+    "Match original ACGT_only and meanQ30 counts exactly for every run/event/observer and trim0/8.",
+    "Verify original compressed and sequence-quality hashes and N.",
+    "Check that quality gated labels are U or equal ungated label; common gates never alter raw N.",
+    "Compatible unions require zero resolved conflicts; fail explicitly otherwise."
+  ],
+  "limits": [
+    "Quality is arithmetic mean of Phred, not average base-call error probability.",
+    "Full-read common mask can itself select products; it is a diagnostic held equal across observers, not a calibrated truth mask.",
+    "Removing quality gates assumes accepted labels valid and does not prove greater accuracy.",
+    "Structural differences include anchors, unique motifs, alphabet and nesting; only literal prefix/end diagnostics specifically support a read-end geometry mechanism.",
+    "No new data, biological experiments, external generalization or publication."
+  ],
+  "frozen_source_sha256": "be3183a77243cc6dd43556f4be7a7c6686877ad7edbbeb8f8906e1e3d5628441"
+}

@@ -1,0 +1,31 @@
+name: CRISPR P1 full finite-record reproduction
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  full-reproduction:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.12.14'
+      - name: Rebuild original fifteen-stream geometry, external catalogs and contract
+        run: python -B extensions/reproduction/replay.py --work "$RUNNER_TEMP/full-replay"
+      - name: Rebuild all seven correspondence certificates from real records
+        run: |
+          python -B extensions/reproduction/analyze_correspondence.py --output "$RUNNER_TEMP/correspondence"
+          python - "$RUNNER_TEMP/correspondence" <<'PY'
+          from pathlib import Path
+          import sys
+          fresh=Path(sys.argv[1]);old=Path('extensions/reproduction/derived')
+          for p in fresh.iterdir():
+              assert p.read_bytes()==(old/p.name).read_bytes(),p.name
+          print('All ablation and local synonymous-string outputs reproduced exactly.')
+          PY

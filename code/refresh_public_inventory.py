@@ -100,7 +100,7 @@ def main():
                     for name, path in public_files()
                     if name.startswith('figures/') and path != figure_manifest}
     figure_manifest.write_text(json.dumps({
-        'edition': 'MP04', 'files': figure_files,
+        'edition': 'MP05', 'files': figure_files,
         'full_manuscript_or_supplement_included': False,
         'coordinate_contract': 'sources/anchor_geometry_contract.json',
         'papergraph_source': '../interactive/papergraph/papergraph.json'
@@ -109,7 +109,7 @@ def main():
     files = {name: {'bytes': path.stat().st_size,
                     'sha256': hashlib.sha256(path.read_bytes()).hexdigest()}
              for name, path in public_files() if name != INVENTORY}
-    data = {'edition': 'MP04', 'version': '0.4.1',
+    data = {'edition': 'MP05', 'version': '0.5.0',
             'scope': 'Exact current public computational companion source. Complete manuscript and formal supplement remain private. Inventory excludes itself and runtime results/screenshots/dependencies.',
             'files': files}
     (ROOT / INVENTORY).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')

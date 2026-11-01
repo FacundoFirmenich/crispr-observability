@@ -1,4 +1,20 @@
-# Two executable scopes and the remaining pipeline boundary
+# MP05 current reproduction scope — 1 November 2026
+
+The earlier scope record below describes the original two commands. The new `extensions/reproduction/README.md` supersedes its statements that the full geometry, external parser and reporting checker were absent. Existing commands retain their original scope.
+
+| Additional MP05 scope | Command from the repository root | Actually checked |
+| --- | --- | --- |
+| Fifteen-stream geometry, quality, veto, external catalogues and reporting contract | `python -B extensions/reproduction/replay.py --work /tmp/crispr-full-new` | Original rules over 429,812 records; six regenerated external scientific files; 36 evidence cards and 24 contrasts |
+| Correspondence ablation and local synonymous strings | `python -B extensions/reproduction/analyze_correspondence.py --output /tmp/crispr-coding-new` | Seven subset certificates; 128 native-local/nonexact-programmed records and 22 distinct local strings |
+| Dedicated prime-editing comparison | Preparation/run/analysis under `extensions/reproduction/pe_mode/` | Authenticated epeg147; nine completed PE jobs and one baseline-control job in the dated campaign; separately installed engine required |
+
+New work directories must be outside the repository and must not exist. Six additional unique-stream FASTQ files supplement the original nine. Repeated deposit aliases are not new streams or independent biological units. Historical scientific comparator bytes remain unchanged.
+
+Native tool assignments, window-specific modification metrics and local-event bounds have separate events and denominators. The added PE projection differs from 89 old witnessed strings; requiring the added correspondence places 93 records in U and preserves the three positive native PE-minus-mock lower endpoints. The original witness keeps its original definition.
+
+The new CI workflow actually rebuilds geometry/veto, catalogues, reporting cards and ablations. Read status for the exact commit. It does not run source tutorial merging or install/run the third-party engine. Independent molecular truth, a separate biological genealogy and an outside person's reproduction remain open gates.
+
+# Historical MP04 scope record
 
 The default command is `python3 code/run_review_checks.py`. Both scopes execute in
 temporary working directories; retained reports go under `results/review/`.

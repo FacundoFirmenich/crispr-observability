@@ -1,6 +1,6 @@
 {
-  "version": "0.4.1",
-  "edition": "MP04",
+  "version": "0.5.0",
+  "edition": "MP05",
   "status": "PUBLIC_COMPUTATIONAL_COMPANION_PRIVATE_MANUSCRIPTS",
   "public_release": true,
   "external_repository_created": true,
@@ -12,16 +12,16 @@
   "ORCID": "0009-0002-6578-3811",
   "license": "MIT for enumerated original code; GPL-3.0-only for enumerated KwanTube-derived supergraph component; scientific data/manuscript terms separate",
   "data_rights_status": "PUBLIC_SRA_SNAPSHOT_REDISTRIBUTION_DOCUMENTED; source attribution and terms retained; no MIT data relicensing",
-  "native_scope": "Two scopes: exact derived-table arithmetic and raw-observer reconstruction with frozen alignment projections",
+  "native_scope": "Finite-record geometry/quality/veto reconstruction over fifteen streams; external assigned-row catalogs and reporting contracts; nine-stream correspondence ablation; dedicated PE-mode comparison with explicit native vs event estimands.",
   "raw_pipeline_included": false,
   "remote_CI_run": true,
   "raw_observer_replay_included": true,
   "fresh_alignment_included": false,
   "canonical_review_command": "python3 code/run_review_checks.py",
-  "original_raw_inputs_included": 9,
+  "original_raw_inputs_included": 15,
   "frozen_alignment_tables_included": 18,
   "affiliations": [
-    "Centro de Estudios del Sur (CEDESUR), Spain and Argentina. For this project, academically affiliated with Universidad Nacional Arturo Jauretche (UNAJ), Av. Calchaqu\u00ed 6200, Florencio Varela, Provincia de Buenos Aires, 1888, Argentina",
+    "Centro de Estudios del Sur (CEDESUR), Spain and Argentina. For this project, academically affiliated with Universidad Nacional Arturo Jauretche (UNAJ), Av. Calchaquí 6200, Florencio Varela, Provincia de Buenos Aires, 1888, Argentina",
     "Universitat de Barcelona (UB), Gran Via de les Corts Catalanes, 585, 08007 Barcelona, Spain"
   ],
   "corresponding_email": "f.firmenich@cedesur.org",
@@ -37,14 +37,14 @@
   "full_alignment_large_original_outputs_included_in_repository": false,
   "source_SRA_accessions_currently_resolved": 9,
   "repository_default_branch": "Ulalito's-Island",
-  "release_date": "2026-10-31",
+  "release_date": "2026-11-01",
   "public_source_release_does_not_certify_human_final_manuscript_approval": true,
   "complete_author_profile_recovered": true,
   "source_preprints": 3,
   "personal_acknowledgments_recovered": 5,
   "scientific_observation_values_changed_by_author_recovery": false,
   "additional_ORCID_institutions_recovered": [
-    "Universidad Nacional de Lan\u00fas",
+    "Universidad Nacional de Lanús",
     "Universitat Pompeu Fabra"
   ],
   "complete_ORCID_affiliation_records": 5,
@@ -116,5 +116,12 @@
     "workflow": ".github/workflows/scientific-context-checks.yml",
     "new_biological_observations": false,
     "original_counts_changed": false
-  }
+  },
+  "date": "2026-11-01",
+  "full_geometry_external_contract_replay_included": true,
+  "dedicated_PE_mode_source_included": true,
+  "dedicated_PE_jobs_executed_in_MP05": 9,
+  "baseline_control_jobs_executed_in_MP05": 1,
+  "new_biological_cohorts_in_MP05": 0,
+  "external_human_reproduction_in_MP05": false
 }

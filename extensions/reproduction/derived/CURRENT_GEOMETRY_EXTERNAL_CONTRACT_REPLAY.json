@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "original_source_files_verified": 71,
+  "scope": "Clean internal computational reproduction. No new biological records, accuracy or independent human reproduction.",
+  "geometry": {
+    "status": "PASS",
+    "unique_streams": 15,
+    "raw_records": 429812,
+    "scientific_files_byte_identical": {
+      "COMMON_QUALITY_VETO.json": "4f1eddf5300fbeef70d5d5f9ec07ee35aa65a0852cae7db4e2f4deb1b9414f23",
+      "CONTRASTS.json": "e48253c7633f8a1eab744e33bab5e8844ddbd0fcf12861228e15b1943d9e60c1",
+      "COUNTS.json": "4c6f641b618c6a26363127db7216185602376043351ad09249f0a5d43548cfcb",
+      "DECOMPOSITIONS.json": "51b10309e2554b1223992b458e3ebe8eae840b51d1f2460b812a590c09b36976",
+      "LOSS_INTERSECTIONS.json": "5b935ee101fd550148cbc3e810fca419d066eec74c15595e5b6f373abfdc925e",
+      "PAIRS.json": "2aed48b73dd6aa5bd80dac3c10581d83c9938401827b2ab0d04e6aab613c2851"
+    }
+  },
+  "external": {
+    "status": "PASS",
+    "scientific_files_byte_identical": {
+      "EXTERNAL_RESULTS.json": "908d5d9247712b869d6098e36b41ca9f19049c4cbc03bd6a1a15de13a88f6a7b",
+      "INDEPENDENT_VERIFICATION.json": "a53eea36a4631457fb3e1d11b48de00d90beb282b94918dff83732995074878b",
+      "MECHANISM_DIAGNOSTICS.json": "bcd1848739474bafc29c2f2c53f98129266a1594af77ad4d91dc35dadfd2613a",
+      "allele_specific_CATALOG.json": "181b9fbb1c82b3f1272e053e7c31d809dfded5749b30f4778fd7ab41a0e52a91",
+      "base_editor_CATALOG.json": "0419eee0b14c6d9180b9cd1f750d99da8c432ee3d1b351016885d4647f45260a",
+      "nhej_CATALOG.json": "1ef39b027518e5c54f959a34a7f74a3b5045d709bb048e08c6912f52e85a31e2"
+    },
+    "engine_merging_or_alignment_rerun": false
+  },
+  "contract": {
+    "status": "PASS",
+    "real_cards": 36,
+    "within_contract_contrasts": 24,
+    "semantic_rejections": [
+      {
+        "check": "wrong raw denominator",
+        "status": "rejected",
+        "reason": "raw universe or denominator mismatch"
+      },
+      {
+        "check": "retrospective presented as prospective",
+        "status": "rejected",
+        "reason": "no retrospective to prospective relabeling"
+      },
+      {
+        "check": "claim elevated to efficacy",
+        "status": "rejected",
+        "reason": "unsupported scientific claim scope"
+      },
+      {
+        "check": "cross observer segment join",
+        "status": "rejected",
+        "reason": "incompatible event or observed segment contracts"
+      },
+      {
+        "check": "unsupported accuracy claim",
+        "status": "rejected",
+        "reason": "requested claim requires evidence not authenticated here"
+      }
+    ],
+    "no_biological_data_created": true
+  }
+}

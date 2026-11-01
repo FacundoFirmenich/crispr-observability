@@ -1,0 +1,18 @@
+{
+  "source_doi": "10.1038/s41551-024-01233-3",
+  "table": "Supplementary Table 2",
+  "sheet": "ST2 gRNA sequences + SRA files",
+  "excel_row": 193,
+  "workbook_sha256": "8c7e5104f58ba3ece7784552bb2396df94008f1d132d8db1d741490f3d1d6e0a",
+  "id": "LrAS0147",
+  "spacer_RNA_5to3": "UCUGUAUCUAUAUUCAUCAU",
+  "scaffold_RNA_5to3": "GUUUUAGAGCUAGAAAUAGCAAGUUAAAAUAAGGCUAGUCCGUUAUCAACUUGAAAAAGUGGCACCGAGUCGGUGC",
+  "RTT_RNA_5to3": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG",
+  "PBS_RNA_5to3": "AUGAAUAUAGAUA",
+  "stabilizing_motif_RNA_5to3": "CGCGGUUCUAUCUAGUUACGCGUUAAACCAACUAGAA",
+  "nsgRNA_id": "LrAS0085",
+  "nsgRNA_spacer_RNA_5to3": "GGAGAACUGGAGCCUUCAGA",
+  "dsgRNA_id": "LrAS0129",
+  "dsgRNA_spacer_RNA_5to3": "UUACCUCUUCUAGU",
+  "extension_convention": "RTT followed by PBS; stabilizing motif excluded from CRISPResso2 extension sequence; full scaffold supplied separately. dsgRNA recorded but not passed as nsgRNA."
+}

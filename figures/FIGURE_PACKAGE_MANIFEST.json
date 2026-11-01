@@ -1,5 +1,5 @@
 {
-  "edition": "MP04",
+  "edition": "MP05",
   "files": {
     "README.md": {
       "size_bytes": 4527,
@@ -12,6 +12,10 @@
     "code/generate_figures.py": {
       "size_bytes": 11790,
       "sha256": "b1138424d0cd888598f50506bd6eb0d03e94d6658fe7e027c4ae836604109cb8"
+    },
+    "code/generate_frontier_figures.py": {
+      "size_bytes": 5341,
+      "sha256": "5e69f7aa656259ccc6ccfb6bff50feff11d80f9a68b2514892c0ef85b6183ae0"
     },
     "figures/fig1.pdf": {
       "size_bytes": 11053,
@@ -60,6 +64,34 @@
     "figures/fig4.svg": {
       "size_bytes": 21953,
       "sha256": "01b5334b5477094a60ae9174a76d7f942878c835072243f530a87a5614b514e3"
+    },
+    "frontier/SOURCE_IDENTITIES.json": {
+      "size_bytes": 688,
+      "sha256": "fdbed1cffc897102f3ad59b3fe36ce40791e8439a8f1a3f8d28b463270e97756"
+    },
+    "frontier/fig5_PE_comparison.pdf": {
+      "size_bytes": 17412,
+      "sha256": "2591bc5b77fe42a10e7fd0ccdc041085237766cd09ee8d5903f986479ae879f2"
+    },
+    "frontier/fig5_PE_comparison.png": {
+      "size_bytes": 128791,
+      "sha256": "b4949db1bdefcfe08e63920a648b40196d2619950daa4e5696b56d4f511136bf"
+    },
+    "frontier/fig5_PE_comparison.svg": {
+      "size_bytes": 25572,
+      "sha256": "fcf2a9bc18c7c2317a45632b3fdb4a09299fdacfab422730711279d740dc7ada"
+    },
+    "frontier/figS3_correspondence_cost.pdf": {
+      "size_bytes": 15013,
+      "sha256": "a40c1ece30f56be5c67d3566de924abc77dc36926db469904cbd3d3764023f5d"
+    },
+    "frontier/figS3_correspondence_cost.png": {
+      "size_bytes": 65222,
+      "sha256": "e34a48acdad513c5714b4ce4bb090fc309f96c2c8b79163375905b8e7f56ac1a"
+    },
+    "frontier/figS3_correspondence_cost.svg": {
+      "size_bytes": 13769,
+      "sha256": "f8f90e34a74f0e165802f278463f2526c4329ceaaaac6c13e3b95130e897ae7e"
     },
     "inputs/fig1_coordinate_geometry.csv": {
       "size_bytes": 128,

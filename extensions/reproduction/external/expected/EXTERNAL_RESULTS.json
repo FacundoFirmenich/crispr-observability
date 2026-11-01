@@ -1,0 +1,4209 @@
+{
+  "cases": [
+    {
+      "assignment_weight": 24344,
+      "atlas": [
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 24344,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 1133,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1134,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": "MODIFIED",
+              "target_values": [
+                "AAACCCCTACAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATTATCCCCTTCTTTATCTCCCATTCCGTGGTCTGGTTCACCATCTTTAAGAATTTCTTCAATATTCTCGGCTGTGTTT",
+                "AAACGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 668,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1146,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": "UNMODIFIED",
+              "target_values": [
+                "AAATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT",
+                "AAATGTTCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3355,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 2,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 5585,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 58,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": "UNMODIFIED",
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 24344,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 30,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 3,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": "MODIFIED",
+              "target_values": [
+                false,
+                true
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 58,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": "UNMODIFIED",
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 2,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 24344,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 3,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": "Reference",
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 1,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 1,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 24344,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 1133,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1134,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": "Reference",
+              "target_values": [
+                "AAACCCCTACAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATTATCCCCTTCTTTATCTCCCATTCCGTGGTCTGGTTCACCATCTTTAAGAATTTCTTCAATATTCTCGGCTGTGTTT",
+                "AAACGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3355,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 1,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 24344,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 3,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": "Reference",
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 1,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 24344,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 3,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": "Reference",
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 1,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 24344,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 1133,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1134,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": [
+                "MODIFIED",
+                "Reference"
+              ],
+              "target_values": [
+                "AAACCCCTACAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATTATCCCCTTCTTTATCTCCCATTCCGTGGTCTGGTTCACCATCTTTAAGAATTTCTTCAATATTCTCGGCTGTGTTT",
+                "AAACGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 668,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1146,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": [
+                "UNMODIFIED",
+                "Reference"
+              ],
+              "target_values": [
+                "AAATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT",
+                "AAATGTTCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3355,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 2,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 5585,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 58,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": [
+                "UNMODIFIED",
+                "Reference"
+              ],
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 24344,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 30,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 3,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": [
+                "MODIFIED",
+                "Reference"
+              ],
+              "target_values": [
+                false,
+                true
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 58,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": [
+                "UNMODIFIED",
+                "Reference"
+              ],
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 2,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 12723,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 18,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1076,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 126,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 21,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1154,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 127,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 14,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1081,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 129,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 16,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1084,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 130,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 7,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 468,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 131,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 5,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 58,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 132,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 30,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 133,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 4,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 111,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 134,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 11,
+          "observed_resolved_fibers": 109,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 109,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 24320,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 1094,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1608,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 100,
+              "target_values": [
+                "AAGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT",
+                "AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGATCGGCTGTGGTT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 713,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1682,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 101,
+              "target_values": [
+                "AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGATCGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT",
+                "AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTTT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 1202,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1436,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 102,
+              "target_values": [
+                "AATGCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT",
+                "AATGTCCCCCAATGGGAAGTTCATCTGGCACCGCCCACAGGTGAGGAGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 1230,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1346,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 103,
+              "target_values": [
+                "AATGTACCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT",
+                "AATGTCCCCCAATGGCAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 489,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 498,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 104,
+              "target_values": [
+                "AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGCTCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT",
+                "AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGAGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 1153,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 712,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 105,
+              "target_values": [
+                "AAGGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT",
+                "AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGAACCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 1131,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1241,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 106,
+              "target_values": [
+                "AACCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGGTCTTGAATGGCTTCAAGAGGCTCGGCTGTGGTT",
+                "AATGTCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 1332,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 1562,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 107,
+              "target_values": [
+                "AATGTCCCCCAATATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT",
+                "AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGGAGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3355,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 93,
+          "observed_resolved_fibers": 109,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 6179,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 30,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 133,
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 109,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 6179,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "nhej",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                },
+                {
+                  "case": "nhej",
+                  "line_including_header": 185,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "nhej_Alleles_frequency_table.zip",
+                  "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+                }
+              ],
+              "representation_value": 133,
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 109,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3355,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3355,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 3355,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3355,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3355,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3355,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3355,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3355,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 3355,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3355,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3355,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24344,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3355,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        }
+      ],
+      "biological_genealogy_independence": "NOT_AUTHENTICATED_BY_TUTORIAL_DISTRIBUTION",
+      "case": "nhej",
+      "engine_rerun": false,
+      "joint": {
+        "authority": "Coarsest observed partition for the specified targets and resolved domain; no out-of-support or truth claim.",
+        "classes": [
+          {
+            "actual_row": {
+              "case": "nhej",
+              "line_including_header": 30,
+              "member": "Alleles_frequency_table.txt",
+              "zip_file": "nhej_Alleles_frequency_table.zip",
+              "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+            },
+            "rows": 284,
+            "signature": [
+              "MODIFIED",
+              false,
+              false
+            ],
+            "weight": 703
+          },
+          {
+            "actual_row": {
+              "case": "nhej",
+              "line_including_header": 3,
+              "member": "Alleles_frequency_table.txt",
+              "zip_file": "nhej_Alleles_frequency_table.zip",
+              "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+            },
+            "rows": 2965,
+            "signature": [
+              "MODIFIED",
+              false,
+              true
+            ],
+            "weight": 18056
+          },
+          {
+            "actual_row": {
+              "case": "nhej",
+              "line_including_header": 174,
+              "member": "Alleles_frequency_table.txt",
+              "zip_file": "nhej_Alleles_frequency_table.zip",
+              "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+            },
+            "rows": 50,
+            "signature": [
+              "UNMODIFIED",
+              false,
+              false
+            ],
+            "weight": 107
+          },
+          {
+            "actual_row": {
+              "case": "nhej",
+              "line_including_header": 58,
+              "member": "Alleles_frequency_table.txt",
+              "zip_file": "nhej_Alleles_frequency_table.zip",
+              "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+            },
+            "rows": 55,
+            "signature": [
+              "UNMODIFIED",
+              false,
+              true
+            ],
+            "weight": 183
+          },
+          {
+            "actual_row": {
+              "case": "nhej",
+              "line_including_header": 2,
+              "member": "Alleles_frequency_table.txt",
+              "zip_file": "nhej_Alleles_frequency_table.zip",
+              "zip_sha256": "8a4712b72ba81127dc92fbaeb5d177f7077a3f4a0a349f2bc1efa148a3546e45"
+            },
+            "rows": 1,
+            "signature": [
+              "UNMODIFIED",
+              true,
+              false
+            ],
+            "weight": 5295
+          }
+        ],
+        "joint_resolved_weight": 24344,
+        "joint_unresolved_weight": 0,
+        "minimum_classes_on_joint_resolved_domain": 5,
+        "scope": "finite_external_assignment_catalog",
+        "targets": [
+          "source_status",
+          "exact_declared_template",
+          "any_alignment_indel"
+        ]
+      },
+      "raw": [
+        {
+          "compressed_sha256": "ffe73d3adb091c63269054b11b61f08f087c2b659d0c9002ecfee0b00ca413c5",
+          "distinct_sequences_up_to_RC": 4260,
+          "file": "nhej_r1.fastq.gz",
+          "header_uniqueness": "PASS",
+          "logical_fastq_sha256": "2e40717c828648aa2ec16041b74563e8d7c2a10c9d03b1306bcbffb4fd0d4db2",
+          "records": 25000,
+          "structure_and_quality_lengths": "PASS"
+        },
+        {
+          "compressed_sha256": "72803f94f48b1ede97a437307be7553865879a29a3561b6548b647ba3222b490",
+          "distinct_sequences_up_to_RC": 4359,
+          "file": "nhej_r2.fastq.gz",
+          "header_uniqueness": "PASS",
+          "logical_fastq_sha256": "6ee79da8ece312ca723963dda8a96cbcfb2837d434517c468eed64fa1de92619",
+          "records": 25000,
+          "structure_and_quality_lengths": "PASS"
+        }
+      ],
+      "raw_linkage": {
+        "paired_header_order_match": true,
+        "raw_denominator_lift": "REJECTED",
+        "reason": "Published processed allele rows are not raw R1/R2 records. The merging, filtering and mapping engine was not rerun.",
+        "status": "NOT_AUTHENTICATED_PAIRED_TO_MERGED"
+      },
+      "scope_claims": [
+        {
+          "decision": "ACCEPTED",
+          "scope": "finite_external_assignment_catalog"
+        },
+        {
+          "decision": "REJECTED",
+          "reason": "Assignment-row contract cannot authenticate raw denominators, molecules, biological accuracy or future sufficiency",
+          "scope": "raw_record_catalog"
+        },
+        {
+          "decision": "REJECTED",
+          "reason": "Assignment-row contract cannot authenticate raw denominators, molecules, biological accuracy or future sufficiency",
+          "scope": "biological_accuracy"
+        },
+        {
+          "decision": "REJECTED",
+          "reason": "Assignment-row contract cannot authenticate raw denominators, molecules, biological accuracy or future sufficiency",
+          "scope": "future_sufficiency"
+        }
+      ],
+      "source_arguments": {
+        "amplicon_name": "Reference",
+        "amplicon_seq": "AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT",
+        "assign_ambiguous_alignments_to_first_reference": false,
+        "exclude_bp_from_left": 15,
+        "exclude_bp_from_right": 15,
+        "expand_ambiguous_alignments": false,
+        "guide_seq": "",
+        "quantification_window_center": "-3",
+        "quantification_window_size": "1"
+      },
+      "source_command": "CRISPResso -r1 nhej.r1.fastq.gz -r2 nhej.r2.fastq.gz -a AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT -n nhej --write_cleaned_report --place_report_in_output_folder",
+      "source_mapping_text": "READS IN INPUTS\tREADS AFTER PREPROCESSING\tREADS ALIGNED\tN_COMPUTED_ALN\tN_CACHED_ALN\tN_COMPUTED_NOTALN\tN_CACHED_NOTALN\n25000\t24554\t24344\t3355\t20989\t105\t105\n",
+      "source_quantification_text": "Amplicon\tUnmodified%\tModified%\tReads_in_input\tReads_aligned_all_amplicons\tReads_aligned\tUnmodified\tModified\tDiscarded\tInsertions\tDeletions\tSubstitutions\tOnly Insertions\tOnly Deletions\tOnly Substitutions\tInsertions and Deletions\tInsertions and Substitutions\tDeletions and Substitutions\tInsertions Deletions and Substitutions\nReference\t22.94199803\t77.05800197\t25000\t24344\t24344\t5585\t18759\t0\t3335\t14875\t4214\t1970\t12499\t728\t76\t1186\t2197\t103\n",
+      "source_reference_counts": {
+        "Reference": 24344
+      },
+      "source_status_counts": {
+        "MODIFIED": 18759,
+        "UNMODIFIED": 5585
+      },
+      "source_version": "2.3.4",
+      "table_rows": 3355
+    },
+    {
+      "assignment_weight": 24626,
+      "atlas": [
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 24626,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 16,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 4,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "MODIFIED",
+              "target_values": [
+                "AMBIGUOUS_P23H",
+                "P23H"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 144,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 3,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "UNMODIFIED",
+              "target_values": [
+                "AMBIGUOUS_P23H",
+                "P23H"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 2,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 24626,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1214,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1216,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "MODIFIED",
+              "target_values": [
+                "AGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "AGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCTCTGTGCACCGACATCCTGTAGGCTGGCTTCAATGCGACCTAACCAGTCGCCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1213,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1215,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "UNMODIFIED",
+              "target_values": [
+                "ACCGCTCTTCCGATCTCGTTGAATTCGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "AGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3545,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 2,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 14942,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 10,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "UNMODIFIED",
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 572
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 24626,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 72,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 4,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "MODIFIED",
+              "target_values": [
+                false,
+                true
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 10,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "UNMODIFIED",
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 2,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 24626,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 16,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 144,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "AMBIGUOUS_P23H",
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 4,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 3,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "P23H",
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 5,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "WT",
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 3,
+          "observed_resolved_fibers": 3,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 3,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 24626,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 963,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 987,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "AMBIGUOUS_P23H",
+              "target_values": [
+                "AGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "AGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCGCTTCGAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1215,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1214,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "P23H",
+              "target_values": [
+                "AGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "AGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1213,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 958,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "WT",
+              "target_values": [
+                "ACCGCTCTTCCGATCTCGTTGAATTCGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "AGAGCCGCAGCCATGAACCACACAGAGGGCCCCAATTTTTATGTGTCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGAGCAGCCGCAGTACCACCTGGCGGAACCATGGCAGTTCTACAGGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3545,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 3,
+          "observed_resolved_fibers": 3,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 24054,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 4,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 3,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "P23H",
+              "target_values": [
+                false,
+                true
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 5,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "WT",
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 2,
+          "observed_resolved_fibers": 2,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 572
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 24626,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 144,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 16,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "AMBIGUOUS_P23H",
+              "target_values": [
+                false,
+                true
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 3,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 4,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "P23H",
+              "target_values": [
+                false,
+                true
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 5,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": "WT",
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 3,
+          "observed_resolved_fibers": 3,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 6,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 3,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 6,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 24626,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 963,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 987,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "MODIFIED",
+                "AMBIGUOUS_P23H"
+              ],
+              "target_values": [
+                "AGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "AGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCGCTTCGAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1214,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1216,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "MODIFIED",
+                "P23H"
+              ],
+              "target_values": [
+                "AGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "AGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCTCTGTGCACCGACATCCTGTAGGCTGGCTTCAATGCGACCTAACCAGTCGCCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 962,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 979,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "MODIFIED",
+                "WT"
+              ],
+              "target_values": [
+                "AGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGGGCGGAGCCCCTTCGAGCCTCAGTGCGCGAATACCACCACGTTCAGTGGCATGGACTGGCTTCAGCAGAGCGAGGTATGTAGGCGGTGCTACAAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "AGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGACCTCGAAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 930,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1778,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "UNMODIFIED",
+                "AMBIGUOUS_P23H"
+              ],
+              "target_values": [
+                "AGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCTCTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGGCACAGGCGTGGTGCGGAGGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1215,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 957,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "UNMODIFIED",
+                "P23H"
+              ],
+              "target_values": [
+                "AGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "AGAGCCGCAGCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1213,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 958,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "UNMODIFIED",
+                "WT"
+              ],
+              "target_values": [
+                "ACCGCTCTTCCGATCTCGTTGAATTCGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "AGAGCCGCAGCCATGAACCACACAGAGGGCCCCAATTTTTATGTGTCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGAGCAGCCGCAGTACCACCTGGCGGAACCATGGCAGTTCTACAGGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3545,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 6,
+          "observed_resolved_fibers": 6,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 14942,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 18,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 3,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "UNMODIFIED",
+                "P23H"
+              ],
+              "target_values": [
+                false,
+                true
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 10,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "UNMODIFIED",
+                "WT"
+              ],
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 2,
+          "observed_resolved_fibers": 4,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 572
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 24101,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 172,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 4,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "MODIFIED",
+                "P23H"
+              ],
+              "target_values": [
+                false,
+                true
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 72,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 5,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "MODIFIED",
+                "WT"
+              ],
+              "target_values": [
+                false,
+                true
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 144,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 266,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "UNMODIFIED",
+                "AMBIGUOUS_P23H"
+              ],
+              "target_values": [
+                false,
+                true
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 3,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 18,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "UNMODIFIED",
+                "P23H"
+              ],
+              "target_values": [
+                false,
+                true
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 10,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": [
+                "UNMODIFIED",
+                "WT"
+              ],
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 5,
+          "observed_resolved_fibers": 6,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 23868,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1048,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 890,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 146,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 301,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2755,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 149,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 248,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1211,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 150,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 44,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 791,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 151,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 81,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 891,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 152,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 16,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 349,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 153,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 90,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 338,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 154,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 27,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 893,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 156,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 30,
+          "observed_resolved_fibers": 92,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 24304,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 343,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 410,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 142,
+              "target_values": [
+                "AMBIGUOUS_P23H",
+                "P23H"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 342,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2630,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 143,
+              "target_values": [
+                "AMBIGUOUS_P23H",
+                "WT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 687,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 268,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 144,
+              "target_values": [
+                "AMBIGUOUS_P23H",
+                "P23H"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 125,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 356,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 145,
+              "target_values": [
+                "AMBIGUOUS_P23H",
+                "WT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1048,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 890,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 146,
+              "target_values": [
+                "AMBIGUOUS_P23H",
+                "P23H"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 211,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 183,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 147,
+              "target_values": [
+                "AMBIGUOUS_P23H",
+                "P23H"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 113,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2601,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 148,
+              "target_values": [
+                "AMBIGUOUS_P23H",
+                "WT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 301,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 965,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 149,
+              "target_values": [
+                "AMBIGUOUS_P23H",
+                "P23H"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 50,
+          "observed_resolved_fibers": 92,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 24602,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1390,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1897,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 142,
+              "target_values": [
+                "CGAGAGCCGCAGCCATGAACGGCACAAAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 342,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2630,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 143,
+              "target_values": [
+                "CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 687,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 305,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 144,
+              "target_values": [
+                "CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1659,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1679,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 145,
+              "target_values": [
+                "CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCCTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCATGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTCCTCCAACGTCACAGGCGTGGTGCGGAGCCACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2594,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1048,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 146,
+              "target_values": [
+                "CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGAGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGG",
+                "GAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1373,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1573,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 147,
+              "target_values": [
+                "CGAGAGCCGCAGCCATGAACGACACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGAGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTACGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 963,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 1482,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 148,
+              "target_values": [
+                "AGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATCTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 965,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 594,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 149,
+              "target_values": [
+                "AGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAAGTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+                "AGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3545,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 75,
+          "observed_resolved_fibers": 92,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 13603,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 43,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 166,
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 92,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 572
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 13623,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                },
+                {
+                  "case": "allele_specific",
+                  "line_including_header": 56,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "allele_specific_Alleles_frequency_table.zip",
+                  "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+                }
+              ],
+              "representation_value": 166,
+              "target_values": [
+                false,
+                true
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 92,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3545,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 3,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3545,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 3545,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3545,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": false,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3362,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 572
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3545,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3545,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 3,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3545,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 3545,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3545,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": false,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3362,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 572
+        },
+        {
+          "assignment_weight": 24626,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3545,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        }
+      ],
+      "biological_genealogy_independence": "NOT_AUTHENTICATED_BY_TUTORIAL_DISTRIBUTION",
+      "case": "allele_specific",
+      "engine_rerun": false,
+      "joint": {
+        "authority": "Coarsest observed partition for the specified targets and resolved domain; no out-of-support or truth claim.",
+        "classes": [
+          {
+            "actual_row": {
+              "case": "allele_specific",
+              "line_including_header": 72,
+              "member": "Alleles_frequency_table.txt",
+              "zip_file": "allele_specific_Alleles_frequency_table.zip",
+              "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+            },
+            "rows": 46,
+            "signature": [
+              "MODIFIED",
+              false,
+              false
+            ],
+            "weight": 135
+          },
+          {
+            "actual_row": {
+              "case": "allele_specific",
+              "line_including_header": 4,
+              "member": "Alleles_frequency_table.txt",
+              "zip_file": "allele_specific_Alleles_frequency_table.zip",
+              "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+            },
+            "rows": 1934,
+            "signature": [
+              "MODIFIED",
+              false,
+              true
+            ],
+            "weight": 8977
+          },
+          {
+            "actual_row": {
+              "case": "allele_specific",
+              "line_including_header": 43,
+              "member": "Alleles_frequency_table.txt",
+              "zip_file": "allele_specific_Alleles_frequency_table.zip",
+              "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+            },
+            "rows": 877,
+            "signature": [
+              "UNMODIFIED",
+              false,
+              false
+            ],
+            "weight": 2883
+          },
+          {
+            "actual_row": {
+              "case": "allele_specific",
+              "line_including_header": 10,
+              "member": "Alleles_frequency_table.txt",
+              "zip_file": "allele_specific_Alleles_frequency_table.zip",
+              "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+            },
+            "rows": 503,
+            "signature": [
+              "UNMODIFIED",
+              false,
+              true
+            ],
+            "weight": 1619
+          },
+          {
+            "actual_row": {
+              "case": "allele_specific",
+              "line_including_header": 2,
+              "member": "Alleles_frequency_table.txt",
+              "zip_file": "allele_specific_Alleles_frequency_table.zip",
+              "zip_sha256": "39683076595157625bbcb8d41fb757686ecc6cc38497aa8c6da91cf9aaa0e4a3"
+            },
+            "rows": 2,
+            "signature": [
+              "UNMODIFIED",
+              true,
+              false
+            ],
+            "weight": 10440
+          }
+        ],
+        "joint_resolved_weight": 24054,
+        "joint_unresolved_weight": 572,
+        "minimum_classes_on_joint_resolved_domain": 5,
+        "scope": "finite_external_assignment_catalog",
+        "targets": [
+          "source_status",
+          "exact_declared_template",
+          "any_alignment_indel"
+        ]
+      },
+      "raw": [
+        {
+          "compressed_sha256": "69518320f8e0b37f5982c1e8f6c9dda7afe9afd12a8b56c0a9497d923f0e0201",
+          "distinct_sequences_up_to_RC": 3695,
+          "file": "allele_specific.fastq.gz",
+          "header_uniqueness": "PASS",
+          "logical_fastq_sha256": "52e5cc488b2bfb33f0cffeba015daac7cd4d53ff01d6e3f27f1b3d91ec024178",
+          "records": 25000,
+          "structure_and_quality_lengths": "PASS"
+        }
+      ],
+      "raw_linkage": {
+        "assignment_weight_without_strict_raw_inventory": 0,
+        "comparison": "Exact full observed sequence or its reverse complement; no trimming or alignment guessed.",
+        "matching_assignment_weight": 24626,
+        "raw_denominator_lift": "REJECTED",
+        "raw_records_without_table_inventory": 374,
+        "reason": "A sequence multiset check is not a processing replay or authenticated per-read assignment; unmatched mass cannot be silently discarded.",
+        "status": "INCOMPLETE_SEQUENCE_MULTISET_MATCH"
+      },
+      "scope_claims": [
+        {
+          "decision": "ACCEPTED",
+          "scope": "finite_external_assignment_catalog"
+        },
+        {
+          "decision": "REJECTED",
+          "reason": "Assignment-row contract cannot authenticate raw denominators, molecules, biological accuracy or future sufficiency",
+          "scope": "raw_record_catalog"
+        },
+        {
+          "decision": "REJECTED",
+          "reason": "Assignment-row contract cannot authenticate raw denominators, molecules, biological accuracy or future sufficiency",
+          "scope": "biological_accuracy"
+        },
+        {
+          "decision": "REJECTED",
+          "reason": "Assignment-row contract cannot authenticate raw denominators, molecules, biological accuracy or future sufficiency",
+          "scope": "future_sufficiency"
+        }
+      ],
+      "source_arguments": {
+        "amplicon_name": "P23H,WT",
+        "amplicon_seq": "CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG,CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG",
+        "assign_ambiguous_alignments_to_first_reference": false,
+        "exclude_bp_from_left": 15,
+        "exclude_bp_from_right": 15,
+        "expand_ambiguous_alignments": false,
+        "guide_seq": "GTGCGGAGCCACTTCGAGCAGC",
+        "quantification_window_center": "-3",
+        "quantification_window_size": "1"
+      },
+      "source_command": "CRISPResso -r1 allele_specific.fastq.gz -a CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCACTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG,CGAGAGCCGCAGCCATGAACGGCACAGAGGGCCCCAATTTTTATGTGCCCTTCTCCAACGTCACAGGCGTGGTGCGGAGCCCCTTCGAGCAGCCGCAGTACTACCTGGCGGAACCATGGCAGTTCTCCATGCTGGCAGCGTACATGTTCCTGCTCATCGTGCTGGG -an P23H,WT -g GTGCGGAGCCACTTCGAGCAGC --write_cleaned_report --place_report_in_output_folder",
+      "source_mapping_text": "READS IN INPUTS\tREADS AFTER PREPROCESSING\tREADS ALIGNED\tN_COMPUTED_ALN\tN_CACHED_ALN\tN_COMPUTED_NOTALN\tN_CACHED_NOTALN\n25000\t25000\t24626\t4219\t20407\t168\t206\n",
+      "source_quantification_text": "Amplicon\tUnmodified%\tModified%\tReads_in_input\tReads_aligned_all_amplicons\tReads_aligned\tUnmodified\tModified\tDiscarded\tInsertions\tDeletions\tSubstitutions\tOnly Insertions\tOnly Deletions\tOnly Substitutions\tInsertions and Deletions\tInsertions and Substitutions\tDeletions and Substitutions\tInsertions Deletions and Substitutions\nP23H\t44.67840396\t55.32159604\t25000\t24626\t11303\t5050\t6253\t0\t2252\t3939\t146\t2184\t3923\t62\t0\t68\t16\t0\nWT\t77.57822916\t22.42177084\t25000\t24626\t12751\t9892\t2859\t0\t739\t2018\t110\t734\t2015\t102\t0\t5\t3\t0\n",
+      "source_reference_counts": {
+        "AMBIGUOUS_P23H": 572,
+        "P23H": 11303,
+        "WT": 12751
+      },
+      "source_status_counts": {
+        "MODIFIED": 9637,
+        "UNMODIFIED": 14989
+      },
+      "source_version": "2.3.4",
+      "table_rows": 3545
+    },
+    {
+      "assignment_weight": 24970,
+      "atlas": [
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 24970,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "base_editor",
+                  "line_including_header": 781,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                },
+                {
+                  "case": "base_editor",
+                  "line_including_header": 783,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                }
+              ],
+              "representation_value": "MODIFIED",
+              "target_values": [
+                "AAAAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGAAGGAAGGGCCTGAGTTTGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAAT",
+                "AAAAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTTCGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAAT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "base_editor",
+                  "line_including_header": 782,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                },
+                {
+                  "case": "base_editor",
+                  "line_including_header": 341,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                }
+              ],
+              "representation_value": "UNMODIFIED",
+              "target_values": [
+                "AAAAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTCCGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTAACCTCCAAT",
+                "AAAAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTCCGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAAT"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3909,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 2,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 24970,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "base_editor",
+                  "line_including_header": 69,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                },
+                {
+                  "case": "base_editor",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                }
+              ],
+              "representation_value": "Reference",
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 1,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 1,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 24970,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "base_editor",
+                  "line_including_header": 781,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                },
+                {
+                  "case": "base_editor",
+                  "line_including_header": 782,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                }
+              ],
+              "representation_value": "Reference",
+              "target_values": [
+                "AAAAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGAAGGAAGGGCCTGAGTTTGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAAT",
+                "AAAAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTCCGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTAACCTCCAAT"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3909,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 1,
+          "observed_resolved_fibers": 1,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 1,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 1,
+          "representation": "source_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 24970,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "base_editor",
+                  "line_including_header": 781,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                },
+                {
+                  "case": "base_editor",
+                  "line_including_header": 783,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                }
+              ],
+              "representation_value": [
+                "MODIFIED",
+                "Reference"
+              ],
+              "target_values": [
+                "AAAAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGAAGGAAGGGCCTGAGTTTGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAAT",
+                "AAAAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTTCGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAAT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "base_editor",
+                  "line_including_header": 782,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                },
+                {
+                  "case": "base_editor",
+                  "line_including_header": 341,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                }
+              ],
+              "representation_value": [
+                "UNMODIFIED",
+                "Reference"
+              ],
+              "target_values": [
+                "AAAAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTCCGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTAACCTCCAAT",
+                "AAAAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTCCGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAAT"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3909,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 2,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 2,
+          "representation": "source_status_and_reference",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 24953,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "base_editor",
+                  "line_including_header": 806,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                },
+                {
+                  "case": "base_editor",
+                  "line_including_header": 701,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                }
+              ],
+              "representation_value": 249,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "base_editor",
+                  "line_including_header": 69,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                },
+                {
+                  "case": "base_editor",
+                  "line_including_header": 2,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                }
+              ],
+              "representation_value": 250,
+              "target_values": [
+                "MODIFIED",
+                "UNMODIFIED"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 2,
+          "observed_resolved_fibers": 4,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 4,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 24969,
+          "complete_catalog_authorized": false,
+          "counterexamples": [
+            {
+              "actual_rows": [
+                {
+                  "case": "base_editor",
+                  "line_including_header": 941,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                },
+                {
+                  "case": "base_editor",
+                  "line_including_header": 1032,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                }
+              ],
+              "representation_value": 248,
+              "target_values": [
+                "ACCGAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAATGACT",
+                "AGATAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAATGACT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "base_editor",
+                  "line_including_header": 806,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                },
+                {
+                  "case": "base_editor",
+                  "line_including_header": 843,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                }
+              ],
+              "representation_value": 249,
+              "target_values": [
+                "AACAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAAGTTTGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCA",
+                "AAGCAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTCCGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAATGACT"
+              ]
+            },
+            {
+              "actual_rows": [
+                {
+                  "case": "base_editor",
+                  "line_including_header": 781,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                },
+                {
+                  "case": "base_editor",
+                  "line_including_header": 782,
+                  "member": "Alleles_frequency_table.txt",
+                  "zip_file": "base_editor_Alleles_frequency_table.zip",
+                  "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+                }
+              ],
+              "representation_value": 250,
+              "target_values": [
+                "AAAAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGAAGGAAGGGCCTGAGTTTGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAAT",
+                "AAAAAGCTCAGCCTGAGTGTTGAGGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTCCGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTAACCTCCAAT"
+              ]
+            }
+          ],
+          "distinct_resolved_target_values": 3909,
+          "factors_on_resolved_subcatalog": false,
+          "heterogeneous_fibers": 3,
+          "observed_resolved_fibers": 4,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 4,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 4,
+          "representation": "observed_length",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3909,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3909,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 3909,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3909,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3909,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3909,
+          "representation": "observed_sequence",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 2,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3909,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_status",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3909,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "source_reference",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 3909,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3909,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "observed_sequence",
+          "target_constant_on_resolved_domain": false,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3909,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "exact_declared_template",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        },
+        {
+          "assignment_weight": 24970,
+          "assignment_weight_in_heterogeneous_fibers": 0,
+          "complete_catalog_authorized": true,
+          "counterexamples": [],
+          "distinct_resolved_target_values": 1,
+          "factors_on_resolved_subcatalog": true,
+          "heterogeneous_fibers": 0,
+          "observed_resolved_fibers": 3909,
+          "representation": "full_alignment",
+          "scope": "finite_external_assignment_catalog",
+          "target": "any_alignment_indel",
+          "target_constant_on_resolved_domain": true,
+          "target_unresolved_weight": 0
+        }
+      ],
+      "biological_genealogy_independence": "NOT_AUTHENTICATED_BY_TUTORIAL_DISTRIBUTION",
+      "case": "base_editor",
+      "engine_rerun": false,
+      "joint": {
+        "authority": "Coarsest observed partition for the specified targets and resolved domain; no out-of-support or truth claim.",
+        "classes": [
+          {
+            "actual_row": {
+              "case": "base_editor",
+              "line_including_header": 69,
+              "member": "Alleles_frequency_table.txt",
+              "zip_file": "base_editor_Alleles_frequency_table.zip",
+              "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+            },
+            "rows": 2024,
+            "signature": [
+              "MODIFIED",
+              false,
+              true
+            ],
+            "weight": 7391
+          },
+          {
+            "actual_row": {
+              "case": "base_editor",
+              "line_including_header": 2,
+              "member": "Alleles_frequency_table.txt",
+              "zip_file": "base_editor_Alleles_frequency_table.zip",
+              "zip_sha256": "e4b09e928e6b2faf5364296e5f2ba77b36331a6a8e8fc46a46dd6fe7b2c10ae9"
+            },
+            "rows": 1885,
+            "signature": [
+              "UNMODIFIED",
+              false,
+              true
+            ],
+            "weight": 17579
+          }
+        ],
+        "joint_resolved_weight": 24970,
+        "joint_unresolved_weight": 0,
+        "minimum_classes_on_joint_resolved_domain": 2,
+        "scope": "finite_external_assignment_catalog",
+        "targets": [
+          "source_status",
+          "exact_declared_template",
+          "any_alignment_indel"
+        ]
+      },
+      "raw": [
+        {
+          "compressed_sha256": "371aad07a164721188deaa80ca7589f5cd4b871119d90d55a984c6d9c8d31c7a",
+          "distinct_sequences_up_to_RC": 3939,
+          "file": "base_editor.fastq.gz",
+          "header_uniqueness": "PASS",
+          "logical_fastq_sha256": "5eed3191949ace59eee8c2b3d92ff4790cf81c4a6215b4a8b607808e4250e7f0",
+          "records": 25000,
+          "structure_and_quality_lengths": "PASS"
+        }
+      ],
+      "raw_linkage": {
+        "assignment_weight_without_strict_raw_inventory": 0,
+        "comparison": "Exact full observed sequence or its reverse complement; no trimming or alignment guessed.",
+        "matching_assignment_weight": 24970,
+        "raw_denominator_lift": "REJECTED",
+        "raw_records_without_table_inventory": 30,
+        "reason": "A sequence multiset check is not a processing replay or authenticated per-read assignment; unmatched mass cannot be silently discarded.",
+        "status": "INCOMPLETE_SEQUENCE_MULTISET_MATCH"
+      },
+      "scope_claims": [
+        {
+          "decision": "ACCEPTED",
+          "scope": "finite_external_assignment_catalog"
+        },
+        {
+          "decision": "REJECTED",
+          "reason": "Assignment-row contract cannot authenticate raw denominators, molecules, biological accuracy or future sufficiency",
+          "scope": "raw_record_catalog"
+        },
+        {
+          "decision": "REJECTED",
+          "reason": "Assignment-row contract cannot authenticate raw denominators, molecules, biological accuracy or future sufficiency",
+          "scope": "biological_accuracy"
+        },
+        {
+          "decision": "REJECTED",
+          "reason": "Assignment-row contract cannot authenticate raw denominators, molecules, biological accuracy or future sufficiency",
+          "scope": "future_sufficiency"
+        }
+      ],
+      "source_arguments": {
+        "amplicon_name": "Reference",
+        "amplicon_seq": "GGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTCCGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAATGACTAGGGTGG",
+        "assign_ambiguous_alignments_to_first_reference": false,
+        "exclude_bp_from_left": 15,
+        "exclude_bp_from_right": 15,
+        "expand_ambiguous_alignments": false,
+        "guide_seq": "GAGTCCGAGCAGAAGAAGAA",
+        "quantification_window_center": "-10",
+        "quantification_window_size": "20"
+      },
+      "source_command": "CRISPResso --fastq_r1 base_editor.fastq.gz --amplicon_seq GGCCCCAGTGGCTGCTCTGGGGGCCTCCTGAGTTTCTCATCTGTGCCCCTCCCTCCCTGGCCCAGGTGAAGGTGTGGTTCCAGAACCGGAGGACAAAGTACAAACGGCAGAAGCTGGAGGAGGAAGGGCCTGAGTCCGAGCAGAAGAAGAAGGGCTCCCATCACATCAACCGGTGGCGCATTGCCACGAAGCAGGCCAATGGGGAGGACATCGATGTCACCTCCAATGACTAGGGTGG --guide_seq GAGTCCGAGCAGAAGAAGAA --quantification_window_size 20 --quantification_window_center -10 --base_editor_output --write_cleaned_report --place_report_in_output_folder",
+      "source_mapping_text": "READS IN INPUTS\tREADS AFTER PREPROCESSING\tREADS ALIGNED\tN_COMPUTED_ALN\tN_CACHED_ALN\tN_COMPUTED_NOTALN\tN_CACHED_NOTALN\n25000\t25000\t24970\t3909\t21061\t30\t0\n",
+      "source_quantification_text": "Amplicon\tUnmodified%\tModified%\tReads_in_input\tReads_aligned_all_amplicons\tReads_aligned\tUnmodified\tModified\tDiscarded\tInsertions\tDeletions\tSubstitutions\tOnly Insertions\tOnly Deletions\tOnly Substitutions\tInsertions and Deletions\tInsertions and Substitutions\tDeletions and Substitutions\tInsertions Deletions and Substitutions\nReference\t70.40048058\t29.59951942\t25000\t24970\t24970\t17579\t7391\t0\t36\t111\t7286\t20\t85\t7247\t0\t13\t23\t3\n",
+      "source_reference_counts": {
+        "Reference": 24970
+      },
+      "source_status_counts": {
+        "MODIFIED": 7391,
+        "UNMODIFIED": 17579
+      },
+      "source_version": "2.3.4",
+      "table_rows": 3909
+    }
+  ],
+  "protocol_sha256": "11efe63aa705dcf81825e84f499876e3f624c0422417eee98bd8c4a232c33cd1"
+}
