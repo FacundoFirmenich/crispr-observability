@@ -27,6 +27,10 @@
       "bytes": 1279,
       "sha256": "06c7aef9b2176e48fea12ab9a8944c10eeedbb2fddda5fc1b496f03ec3ca837f"
     },
+    ".github/workflows/label-error-sensitivity.yml": {
+      "bytes": 818,
+      "sha256": "e65d2df1bb905553eb5500d2b1aabcce93af3b8156ba681afca8585b78d55879"
+    },
     ".github/workflows/papergraph-checks.yml": {
       "bytes": 1840,
       "sha256": "b95041075cf6feb73ebf9b2248ff57d1e32c5d7a813d22f56fdb5f123eba5588"
@@ -76,12 +80,12 @@
       "sha256": "966fbed52132480268b70cc99e75b778c04638f6908f576416e2763209664794"
     },
     "README.md": {
-      "bytes": 10073,
-      "sha256": "68928ea321e251ab4fc4ce04321a9709feff4ea6254aeb56f02bc3aff9e3386d"
+      "bytes": 10660,
+      "sha256": "8aa0e6e860e3048445c519bc84581deb4ac438430981e6b2bfec708fea03ced6"
     },
     "THIRD_PARTY_NOTICES.csv": {
-      "bytes": 370516,
-      "sha256": "7b57e0e6cbe89ff89960a9e672ab0a2adab7638e7825082b5eccb3c5b370264d"
+      "bytes": 376282,
+      "sha256": "5ee757c87eef85edd20660009a10a8b14942b22c0d7af09045c194239c9247cf"
     },
     "code/LICENSE": {
       "bytes": 1074,
@@ -902,6 +906,30 @@
     "extensions/evidence_integrity/export_record_ledgers.py": {
       "bytes": 11385,
       "sha256": "81b02f1338062a6c24b1edbcd457c88bbc01b5c1782a9674206d40d28daaeacf"
+    },
+    "extensions/label_error_sensitivity/README.md": {
+      "bytes": 2562,
+      "sha256": "44dbffdd59ba0f70cfd9411656e23cfa4c73f643fade8a3544c0dbc9239ec66b"
+    },
+    "extensions/label_error_sensitivity/analyze.py": {
+      "bytes": 6728,
+      "sha256": "635f7affaaf417da9e05142ae41ca1597d5c9f994ac82fbb121310901a91795f"
+    },
+    "extensions/label_error_sensitivity/expected/RECEIPT.json": {
+      "bytes": 775,
+      "sha256": "5d7c5c6f02a0914fb69fb25d6d021f34cc2d5907bb17cdf6b1c5eb09a0c09db7"
+    },
+    "extensions/label_error_sensitivity/expected/SENSITIVITY.csv": {
+      "bytes": 62271,
+      "sha256": "0e9ee684e05f4e04a5e34599b89f1bf4bcf8216f8231beaf2eeedb08e584ccc0"
+    },
+    "extensions/label_error_sensitivity/expected/TIPPING_CAPS.csv": {
+      "bytes": 7520,
+      "sha256": "2f0a0f373d2e94b6ffa2753a8feac71e1d2acae03ab9ee5188d7ae0b52ccf097"
+    },
+    "extensions/label_error_sensitivity/plot.py": {
+      "bytes": 2794,
+      "sha256": "8c61b46cf8867bbb3c37cee1ab690fae0cf47d45ac1c01320f896623e43cc8d8"
     },
     "extensions/reproduction/README.md": {
       "bytes": 6857,
@@ -1772,8 +1800,8 @@
       "sha256": "f6c8588576af8888cdf96a25e83f800dfa8d8bac5d140038b8a698b46f758c21"
     },
     "figures/FIGURE_PACKAGE_MANIFEST.json": {
-      "bytes": 11289,
-      "sha256": "b959a944c65bccb454c6877ba293df706164fd2157c8c5d44982588ae4730d30"
+      "bytes": 11994,
+      "sha256": "0b5b117cb5b08d1ef5bc281aa545b86eb7d92cfa993710a86572b945d4e28d3b"
     },
     "figures/README.md": {
       "bytes": 4527,
@@ -1914,6 +1942,22 @@
     "figures/inputs/fig4_witness_partition.csv": {
       "bytes": 111,
       "sha256": "d87be8db4573871c14407bcc754e6459c4a7f872788adaa3bd9c59dddc51b379"
+    },
+    "figures/label_error_sensitivity/FIGURE_SCOPE.json": {
+      "bytes": 370,
+      "sha256": "78d0153a8dda3c63a0eec7a5b45b019672da2988454a0bdd6ef13eba5840bfe7"
+    },
+    "figures/label_error_sensitivity/figS4_label_error_bounds.pdf": {
+      "bytes": 86393,
+      "sha256": "08801dd30805e196918e6c6f9bbcbf4a713d651030e68ca86caab1d01c5596b8"
+    },
+    "figures/label_error_sensitivity/figS4_label_error_bounds.png": {
+      "bytes": 113045,
+      "sha256": "9605bfe77234c7f91194189466a33379cf047c64af0952a018329414f36a66b9"
+    },
+    "figures/label_error_sensitivity/figS4_label_error_bounds.svg": {
+      "bytes": 226586,
+      "sha256": "c1e7edb1c8d57f0450e772d713f896ff12a2b690965d11cf044153e4464c8295"
     },
     "figures/originals/Figure_1_Anchor_Geometry.png": {
       "bytes": 52986,
@@ -2320,8 +2364,8 @@
       "sha256": "69516761dd0c822ad61b476387f80c8e1c8e5133b111043cece563f19c01e548"
     },
     "metadata/LICENSE_SCOPE.json": {
-      "bytes": 8372,
-      "sha256": "20d9a1e95068c4b23179808b07b8432c76e7b90d8cc031f288e53cef9e3f8361"
+      "bytes": 8528,
+      "sha256": "d0166be5e7037f3628565420c62a2e5c96061cacecd61463a5f16b917e99244e"
     },
     "metadata/MP02_REPOSITORY_MANIFEST.json": {
       "bytes": 11735,

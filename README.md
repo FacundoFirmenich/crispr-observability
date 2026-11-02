@@ -153,3 +153,13 @@ tables, separately named from preserved incomplete native annotations. Frozen
 scientific results and all graph baselines are unchanged.
 
 The standing preservation and recovery rule is in [AGENTS.md](AGENTS.md). Preserve actual files and failed attempts, verify recovery from authorized persistent copies, and report missing originals honestly. A digest or SQL row alone is not a replacement file. When an original cannot be recovered and contributes value to CRISPR P1, the author requires complete recomputation from authentic inputs, verification and integration; preserve the new run's actual provenance. Complete manuscript and supplementary text remain private.
+
+## Conditional label-error sensitivity (I2 working successor)
+
+The [I2 sensitivity extension](extensions/label_error_sensitivity/README.md)
+relaxes the correct-accepted-label premise through explicitly hypothetical
+deterministic budgets. It reconstructs all zero-budget bounds, evaluates 54
+paired contrasts and retains exact tipping caps. These are conditional
+sensitivity calculations, not measured errors or new biological observations.
+Figure S4 has editable vector assets and plotting source. Full article and
+formal supplement remain private; I2 is an additive working successor.

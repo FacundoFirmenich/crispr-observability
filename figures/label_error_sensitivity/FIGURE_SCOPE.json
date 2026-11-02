@@ -1,0 +1,14 @@
+{
+  "kind": "exact_conditional_function_of_actual_counts",
+  "model": "same hypothetical cap r within accepted E and NE classes in each arm",
+  "target": "native",
+  "family": "F9",
+  "certificate": "target_relative",
+  "evaluated_breakpoints_by_preparation": {
+    "1": 5010,
+    "2": 6551,
+    "3": 7534
+  },
+  "new_measurements": false,
+  "rates_calibrated": false
+}
