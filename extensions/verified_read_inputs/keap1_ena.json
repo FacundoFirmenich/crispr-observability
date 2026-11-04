@@ -1,0 +1,71 @@
+{
+  "study": "PRJNA828591",
+  "runs": [
+    {
+      "accession": "SRR18840476",
+      "experiment": "SRX14938413",
+      "platform": "OXFORD_NANOPORE",
+      "submitted_alias": "KEAP1_hets.fastq",
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR188/076/SRR18840476/SRR18840476_1.fastq.gz",
+      "bytes": 342913,
+      "reads": 797,
+      "md5": "457c40df7bf97d96cd86afa41e23200b",
+      "sha256": "ef3600c4f4cb458c4faa54bd333475ddc596ee804f4737f9786abc6d41e54e51"
+    },
+    {
+      "accession": "SRR18840477",
+      "experiment": "SRX14938412",
+      "platform": "OXFORD_NANOPORE",
+      "submitted_alias": "KEAP1_mt.fastq",
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR188/077/SRR18840477/SRR18840477_1.fastq.gz",
+      "bytes": 329613,
+      "reads": 794,
+      "md5": "1a97728ec6d6c1ef5bb1a6259d05dc58",
+      "sha256": "5d44a5d5d6c9cf00d8501c640817d8aa253832d140d4fff984f207000e85c608"
+    },
+    {
+      "accession": "SRR18840484",
+      "experiment": "SRX14938405",
+      "platform": "OXFORD_NANOPORE",
+      "submitted_alias": "KEAP1_wt.fastq",
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR188/084/SRR18840484/SRR18840484_1.fastq.gz",
+      "bytes": 184350,
+      "reads": 504,
+      "md5": "0bfb77459019a849f661d4c7fd1ad094",
+      "sha256": "76f979b6f75a2f1f61cb5e3641817054fee37bba5fe30cb75b645926afa59118"
+    },
+    {
+      "accession": "SRR18884572",
+      "experiment": "SRX14963172",
+      "platform": "ILLUMINA",
+      "submitted_alias": "KEAP1_61_S61_L001_R1_001_MT.fastq",
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR188/072/SRR18884572/SRR18884572.fastq.gz",
+      "bytes": 148101,
+      "reads": 1697,
+      "md5": "8c67751364f599a66520ae57b0c41611",
+      "sha256": "f5ce30cc727b959c0a73fe77343639a54a8d4f1e1fc3924dac26edf43d549837"
+    },
+    {
+      "accession": "SRR18884573",
+      "experiment": "SRX14963171",
+      "platform": "ILLUMINA",
+      "submitted_alias": "KEAP1_40_S40_L001_R1_001_HETS.fastq",
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR188/073/SRR18884573/SRR18884573.fastq.gz",
+      "bytes": 219920,
+      "reads": 2319,
+      "md5": "ac0f5cf27347c67911203d4285c41b0c",
+      "sha256": "9231bdec46bcdb812fedb4ca858b979b6437168c280e48bd60441e5142a35b47"
+    },
+    {
+      "accession": "SRR18884574",
+      "experiment": "SRX14963170",
+      "platform": "ILLUMINA",
+      "submitted_alias": "KEAP1_29_S29_L001_R1_001_WT.fastq",
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR188/074/SRR18884574/SRR18884574.fastq.gz",
+      "bytes": 194868,
+      "reads": 2111,
+      "md5": "e59ce2e880d4837b4f62316d352bcdd6",
+      "sha256": "d33f383399fcc303ef184cb6d747b02cc661bb80e41144f4b5fa382176228ba7"
+    }
+  ]
+}
