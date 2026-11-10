@@ -4,7 +4,7 @@ message: >-
   distinct scientific object; no DOI is assigned to this repository.
 type: software
 title: "CRISPR observability: finite-universe bounds and sequence-correspondence checks"
-version: "0.7.0"
+version: "0.7.1"
 authors:
   - family-names: "Firmenich"
     given-names: "Facundo"
@@ -19,10 +19,11 @@ authors:
 abstract: >-
   Computational audit of genome-editing readouts with finite-record
   identification bounds, explicit sequence correspondence and target-relative
-  alignment certificates. Version 0.7.0 adds complete retained COL17A1 spans,
+  alignment certificates. Version 0.7.0 introduced complete retained COL17A1 spans,
   pair ledgers, all-target score witnesses, an independent bounded path oracle,
   a unified reproduction entry point, an epistemic evidence graph and verified
-  historical evidence archives. Computational replay does not establish
+  historical evidence archives. Version 0.7.1 places the historical evidence
+  inside the Git tree for complete GitHub-to-Zenodo source archiving. Computational replay does not establish
   independent molecular truth or biological accuracy. Original source studies
   retain attribution and data terms; code licenses are explicitly scoped.
   Manuscript and formal supplementary text are excluded until the author

@@ -1,0 +1,931 @@
+{
+  "protocol_sha256": "3e497d2b58b0788a1f5a8406f3fae17b1f7a078100be9a7ea72d93f55c023b66",
+  "source_freeze_sha256": "67105bff8073c95a0836e1433f74651227c71f741431e6d3a13b105f6e69fb71",
+  "source_ledger_sha256": "905e92b5f85842f998f12fd0baabc8abc5e5ec0bef470e24897ae5468219bca8",
+  "output_sha256": "80944ea12721f1fe062e5ad7ad10acd12755aef690ddb1fc7b23a784d73f3d0a",
+  "admission": [
+    {
+      "clone": "HETS",
+      "status": "added",
+      "n": 176
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "n": 171
+    },
+    {
+      "clone": "HETS",
+      "status": "no_ordered_pair",
+      "n": 147
+    },
+    {
+      "clone": "HETS",
+      "status": "tied",
+      "n": 303
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "n": 195
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "n": 167
+    },
+    {
+      "clone": "MT",
+      "status": "no_ordered_pair",
+      "n": 137
+    },
+    {
+      "clone": "MT",
+      "status": "tied",
+      "n": 295
+    },
+    {
+      "clone": "WT",
+      "status": "added",
+      "n": 94
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "n": 138
+    },
+    {
+      "clone": "WT",
+      "status": "no_ordered_pair",
+      "n": 135
+    },
+    {
+      "clone": "WT",
+      "status": "tied",
+      "n": 137
+    }
+  ],
+  "counts": [
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 0,
+      "result": "U",
+      "n": 8
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 0,
+      "result": "agree",
+      "n": 167
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 0,
+      "result": "disagree",
+      "n": 1
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 9,
+      "result": "U",
+      "n": 24
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 9,
+      "result": "agree",
+      "n": 151
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 9,
+      "result": "disagree",
+      "n": 1
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 18,
+      "result": "U",
+      "n": 38
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 18,
+      "result": "agree",
+      "n": 137
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 18,
+      "result": "disagree",
+      "n": 1
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 27,
+      "result": "U",
+      "n": 52
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 27,
+      "result": "agree",
+      "n": 124
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 36,
+      "result": "U",
+      "n": 171
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 36,
+      "result": "agree",
+      "n": 5
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 45,
+      "result": "U",
+      "n": 176
+    },
+    {
+      "clone": "HETS",
+      "status": "added",
+      "deficit": 54,
+      "result": "U",
+      "n": 176
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 0,
+      "result": "U",
+      "n": 4
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 0,
+      "result": "agree",
+      "n": 165
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 0,
+      "result": "disagree",
+      "n": 2
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 9,
+      "result": "U",
+      "n": 15
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 9,
+      "result": "agree",
+      "n": 154
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 9,
+      "result": "disagree",
+      "n": 2
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 18,
+      "result": "U",
+      "n": 33
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 18,
+      "result": "agree",
+      "n": 136
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 18,
+      "result": "disagree",
+      "n": 2
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 27,
+      "result": "U",
+      "n": 57
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 27,
+      "result": "agree",
+      "n": 114
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 36,
+      "result": "U",
+      "n": 168
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 36,
+      "result": "agree",
+      "n": 3
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 45,
+      "result": "U",
+      "n": 171
+    },
+    {
+      "clone": "HETS",
+      "status": "exact",
+      "deficit": 54,
+      "result": "U",
+      "n": 171
+    },
+    {
+      "clone": "HETS",
+      "status": "no_ordered_pair",
+      "deficit": 0,
+      "result": "U",
+      "n": 147
+    },
+    {
+      "clone": "HETS",
+      "status": "no_ordered_pair",
+      "deficit": 9,
+      "result": "U",
+      "n": 147
+    },
+    {
+      "clone": "HETS",
+      "status": "no_ordered_pair",
+      "deficit": 18,
+      "result": "U",
+      "n": 147
+    },
+    {
+      "clone": "HETS",
+      "status": "no_ordered_pair",
+      "deficit": 27,
+      "result": "U",
+      "n": 147
+    },
+    {
+      "clone": "HETS",
+      "status": "no_ordered_pair",
+      "deficit": 36,
+      "result": "U",
+      "n": 147
+    },
+    {
+      "clone": "HETS",
+      "status": "no_ordered_pair",
+      "deficit": 45,
+      "result": "U",
+      "n": 147
+    },
+    {
+      "clone": "HETS",
+      "status": "no_ordered_pair",
+      "deficit": 54,
+      "result": "U",
+      "n": 147
+    },
+    {
+      "clone": "HETS",
+      "status": "tied",
+      "deficit": 0,
+      "result": "U",
+      "n": 303
+    },
+    {
+      "clone": "HETS",
+      "status": "tied",
+      "deficit": 9,
+      "result": "U",
+      "n": 303
+    },
+    {
+      "clone": "HETS",
+      "status": "tied",
+      "deficit": 18,
+      "result": "U",
+      "n": 303
+    },
+    {
+      "clone": "HETS",
+      "status": "tied",
+      "deficit": 27,
+      "result": "U",
+      "n": 303
+    },
+    {
+      "clone": "HETS",
+      "status": "tied",
+      "deficit": 36,
+      "result": "U",
+      "n": 303
+    },
+    {
+      "clone": "HETS",
+      "status": "tied",
+      "deficit": 45,
+      "result": "U",
+      "n": 303
+    },
+    {
+      "clone": "HETS",
+      "status": "tied",
+      "deficit": 54,
+      "result": "U",
+      "n": 303
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 0,
+      "result": "U",
+      "n": 15
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 0,
+      "result": "agree",
+      "n": 134
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 0,
+      "result": "disagree",
+      "n": 46
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 9,
+      "result": "U",
+      "n": 33
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 9,
+      "result": "agree",
+      "n": 132
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 9,
+      "result": "disagree",
+      "n": 30
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 18,
+      "result": "U",
+      "n": 45
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 18,
+      "result": "agree",
+      "n": 130
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 18,
+      "result": "disagree",
+      "n": 20
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 27,
+      "result": "U",
+      "n": 191
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 27,
+      "result": "disagree",
+      "n": 4
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 36,
+      "result": "U",
+      "n": 195
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 45,
+      "result": "U",
+      "n": 195
+    },
+    {
+      "clone": "MT",
+      "status": "added",
+      "deficit": 54,
+      "result": "U",
+      "n": 195
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 0,
+      "result": "U",
+      "n": 22
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 0,
+      "result": "agree",
+      "n": 113
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 0,
+      "result": "disagree",
+      "n": 32
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 9,
+      "result": "U",
+      "n": 28
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 9,
+      "result": "agree",
+      "n": 111
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 9,
+      "result": "disagree",
+      "n": 28
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 18,
+      "result": "U",
+      "n": 46
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 18,
+      "result": "agree",
+      "n": 106
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 18,
+      "result": "disagree",
+      "n": 15
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 27,
+      "result": "U",
+      "n": 165
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 27,
+      "result": "disagree",
+      "n": 2
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 36,
+      "result": "U",
+      "n": 167
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 45,
+      "result": "U",
+      "n": 167
+    },
+    {
+      "clone": "MT",
+      "status": "exact",
+      "deficit": 54,
+      "result": "U",
+      "n": 167
+    },
+    {
+      "clone": "MT",
+      "status": "no_ordered_pair",
+      "deficit": 0,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "MT",
+      "status": "no_ordered_pair",
+      "deficit": 9,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "MT",
+      "status": "no_ordered_pair",
+      "deficit": 18,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "MT",
+      "status": "no_ordered_pair",
+      "deficit": 27,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "MT",
+      "status": "no_ordered_pair",
+      "deficit": 36,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "MT",
+      "status": "no_ordered_pair",
+      "deficit": 45,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "MT",
+      "status": "no_ordered_pair",
+      "deficit": 54,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "MT",
+      "status": "tied",
+      "deficit": 0,
+      "result": "U",
+      "n": 295
+    },
+    {
+      "clone": "MT",
+      "status": "tied",
+      "deficit": 9,
+      "result": "U",
+      "n": 295
+    },
+    {
+      "clone": "MT",
+      "status": "tied",
+      "deficit": 18,
+      "result": "U",
+      "n": 295
+    },
+    {
+      "clone": "MT",
+      "status": "tied",
+      "deficit": 27,
+      "result": "U",
+      "n": 295
+    },
+    {
+      "clone": "MT",
+      "status": "tied",
+      "deficit": 36,
+      "result": "U",
+      "n": 295
+    },
+    {
+      "clone": "MT",
+      "status": "tied",
+      "deficit": 45,
+      "result": "U",
+      "n": 295
+    },
+    {
+      "clone": "MT",
+      "status": "tied",
+      "deficit": 54,
+      "result": "U",
+      "n": 295
+    },
+    {
+      "clone": "WT",
+      "status": "added",
+      "deficit": 0,
+      "result": "agree",
+      "n": 94
+    },
+    {
+      "clone": "WT",
+      "status": "added",
+      "deficit": 9,
+      "result": "U",
+      "n": 7
+    },
+    {
+      "clone": "WT",
+      "status": "added",
+      "deficit": 9,
+      "result": "agree",
+      "n": 87
+    },
+    {
+      "clone": "WT",
+      "status": "added",
+      "deficit": 18,
+      "result": "U",
+      "n": 9
+    },
+    {
+      "clone": "WT",
+      "status": "added",
+      "deficit": 18,
+      "result": "agree",
+      "n": 85
+    },
+    {
+      "clone": "WT",
+      "status": "added",
+      "deficit": 27,
+      "result": "U",
+      "n": 23
+    },
+    {
+      "clone": "WT",
+      "status": "added",
+      "deficit": 27,
+      "result": "agree",
+      "n": 71
+    },
+    {
+      "clone": "WT",
+      "status": "added",
+      "deficit": 36,
+      "result": "U",
+      "n": 93
+    },
+    {
+      "clone": "WT",
+      "status": "added",
+      "deficit": 36,
+      "result": "agree",
+      "n": 1
+    },
+    {
+      "clone": "WT",
+      "status": "added",
+      "deficit": 45,
+      "result": "U",
+      "n": 94
+    },
+    {
+      "clone": "WT",
+      "status": "added",
+      "deficit": 54,
+      "result": "U",
+      "n": 94
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "deficit": 0,
+      "result": "U",
+      "n": 3
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "deficit": 0,
+      "result": "agree",
+      "n": 135
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "deficit": 9,
+      "result": "U",
+      "n": 7
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "deficit": 9,
+      "result": "agree",
+      "n": 131
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "deficit": 18,
+      "result": "U",
+      "n": 13
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "deficit": 18,
+      "result": "agree",
+      "n": 125
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "deficit": 27,
+      "result": "U",
+      "n": 27
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "deficit": 27,
+      "result": "agree",
+      "n": 111
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "deficit": 36,
+      "result": "U",
+      "n": 136
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "deficit": 36,
+      "result": "agree",
+      "n": 2
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "deficit": 45,
+      "result": "U",
+      "n": 138
+    },
+    {
+      "clone": "WT",
+      "status": "exact",
+      "deficit": 54,
+      "result": "U",
+      "n": 138
+    },
+    {
+      "clone": "WT",
+      "status": "no_ordered_pair",
+      "deficit": 0,
+      "result": "U",
+      "n": 135
+    },
+    {
+      "clone": "WT",
+      "status": "no_ordered_pair",
+      "deficit": 9,
+      "result": "U",
+      "n": 135
+    },
+    {
+      "clone": "WT",
+      "status": "no_ordered_pair",
+      "deficit": 18,
+      "result": "U",
+      "n": 135
+    },
+    {
+      "clone": "WT",
+      "status": "no_ordered_pair",
+      "deficit": 27,
+      "result": "U",
+      "n": 135
+    },
+    {
+      "clone": "WT",
+      "status": "no_ordered_pair",
+      "deficit": 36,
+      "result": "U",
+      "n": 135
+    },
+    {
+      "clone": "WT",
+      "status": "no_ordered_pair",
+      "deficit": 45,
+      "result": "U",
+      "n": 135
+    },
+    {
+      "clone": "WT",
+      "status": "no_ordered_pair",
+      "deficit": 54,
+      "result": "U",
+      "n": 135
+    },
+    {
+      "clone": "WT",
+      "status": "tied",
+      "deficit": 0,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "WT",
+      "status": "tied",
+      "deficit": 9,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "WT",
+      "status": "tied",
+      "deficit": 18,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "WT",
+      "status": "tied",
+      "deficit": 27,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "WT",
+      "status": "tied",
+      "deficit": 36,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "WT",
+      "status": "tied",
+      "deficit": 45,
+      "result": "U",
+      "n": 137
+    },
+    {
+      "clone": "WT",
+      "status": "tied",
+      "deficit": 54,
+      "result": "U",
+      "n": 137
+    }
+  ]
+}

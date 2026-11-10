@@ -1,0 +1,56 @@
+{
+  "SRR29536571.fastq.gz": {
+    "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR295/071/SRR29536571/SRR29536571.fastq.gz",
+    "retrieved_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR295/071/SRR29536571/SRR29536571.fastq.gz",
+    "bytes": 1583221,
+    "sha256": "a0c4fff5cccd51ba8fbddfc535c9974ea3ae2740970bb96fc9c95afa00e3c995"
+  },
+  "SRR29536571.xml": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRR29536571",
+    "retrieved_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRR29536571",
+    "bytes": 2347,
+    "sha256": "19944eb3085333cf6264c2f3dc56bd7c056671351593a5bc092ed060d75c45a9"
+  },
+  "SRX25044611.xml": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX25044611",
+    "retrieved_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX25044611",
+    "bytes": 2774,
+    "sha256": "d457dae69240d65f1b5db0d98e881bf41b1d146fedc9fc62391e743c8d7d1c20"
+  },
+  "SRR29536572.fastq.gz": {
+    "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR295/072/SRR29536572/SRR29536572.fastq.gz",
+    "retrieved_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR295/072/SRR29536572/SRR29536572.fastq.gz",
+    "bytes": 2038500,
+    "sha256": "0651c8f50dfdf7c8c4cf8d4dccda549bdc8a9f45523b4ad39e3023365f670f18"
+  },
+  "SRR29536572.xml": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRR29536572",
+    "retrieved_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRR29536572",
+    "bytes": 2347,
+    "sha256": "fa7c08687b182dd2458c12413c88efa25a4ba6f1bfe2bd6e844158ea1bb238be"
+  },
+  "SRX25044610.xml": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX25044610",
+    "retrieved_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX25044610",
+    "bytes": 2774,
+    "sha256": "52ba59313843e8d9027a8b8e49ca5cd5d55db28067f37664df442eb893b3ec9c"
+  },
+  "SRR29536570.fastq.gz": {
+    "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR295/070/SRR29536570/SRR29536570.fastq.gz",
+    "retrieved_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR295/070/SRR29536570/SRR29536570.fastq.gz",
+    "bytes": 1220976,
+    "sha256": "c0ab3203fc4255b5ec56c2c211acaedda64bc762934a9670a8ac0be9c2180694"
+  },
+  "SRR29536570.xml": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRR29536570",
+    "retrieved_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRR29536570",
+    "bytes": 2347,
+    "sha256": "7a8e5793665cbf9cc0a63c34aa482da2a0310a78d385020ee7ea5f92b0ea5317"
+  },
+  "SRX25044612.xml": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX25044612",
+    "retrieved_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX25044612",
+    "bytes": 2774,
+    "sha256": "51e4137710eae35c882494deeb1806eccc22f9528bc211cab6e9e6dfc9239c47"
+  }
+}

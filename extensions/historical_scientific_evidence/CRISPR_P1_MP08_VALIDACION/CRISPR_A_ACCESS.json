@@ -1,0 +1,36 @@
+{
+  "server": {
+    "url": "https://synbio.upf.edu/crispr-a/",
+    "error": "HTTPError",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  "author_listing": {
+    "url": "https://api.bitbucket.org/2.0/repositories/synbiolab/crispr-a_figures/src/adb47a6bb530a0504c3437d81e82af01808c8f83/human-validation/?pagelen=100",
+    "status": 200,
+    "final_url": "https://api.bitbucket.org/2.0/repositories/synbiolab/crispr-a_figures/src/adb47a6bb530a0504c3437d81e82af01808c8f83/human-validation/?pagelen=100",
+    "content_type": "application/json; charset=utf-8",
+    "names": [
+      "human-validation/aln-VC_representation.py",
+      "human-validation/aln_second-attemt.py",
+      "human-validation/get-accuracy-PE.py",
+      "human-validation/get-accuracy.py",
+      "human-validation/get-accuracy_not-mock.py",
+      "human-validation/get-random-rows.py",
+      "human-validation/get-rep_PE.py",
+      "human-validation/getVC.R",
+      "human-validation/get_discarted-from-VC.R"
+    ]
+  },
+  "downloads": {
+    "url": "https://api.bitbucket.org/2.0/repositories/synbiolab/crispr-a_figures/downloads?pagelen=100",
+    "status": 200,
+    "final_url": "https://api.bitbucket.org/2.0/repositories/synbiolab/crispr-a_figures/downloads?pagelen=100",
+    "content_type": "application/json; charset=utf-8",
+    "names": []
+  },
+  "named_label_path": {
+    "url": "https://api.bitbucket.org/2.0/repositories/synbiolab/crispr-a_figures/src/adb47a6bb530a0504c3437d81e82af01808c8f83/Manuscript-review/Validation-results/SRR10285861_PE_examinated.csv",
+    "error": "HTTPError",
+    "detail": "HTTP Error 404: Not Found"
+  }
+}

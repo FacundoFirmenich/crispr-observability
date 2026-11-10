@@ -1,0 +1,19 @@
+{
+  "status": "PASS_CONDITIONAL_SENSITIVITY_ONLY",
+  "source": "extensions/correspondence_frontier/expected/mechanism/FAMILY_CERTIFICATE_COUNTS.csv",
+  "source_sha256": "70be4c56d0037cb9ae12638b9c64a51d51d07189312f9c86979bb907d8a2c767",
+  "source_count_rows": 162,
+  "contrasts": 54,
+  "grid_rows": 486,
+  "sharpness_logical_cases": 791,
+  "new_biological_data": false,
+  "alignment_engine_rerun": false,
+  "error_rates_calibrated": false,
+  "joint_target_hulls_claimed": false,
+  "assumptions": [
+    "Each target is evaluated separately.",
+    "At most floor(r E) false events and floor(r NE) false non-events in each arm.",
+    "Unknown labels are unrestricted; no cross-record coupling.",
+    "Allowed budgets are not estimated probabilities or confidence levels."
+  ]
+}

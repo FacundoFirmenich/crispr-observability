@@ -1,0 +1,6702 @@
+{
+  "freeze_sha256": "018c732e0515e6a44da38b5a3e474333b9fc3d1e4c7b0f79ac8442b6980e91e3",
+  "input_receipt_sha256": "c3aad625426268bbe693071a40cd7c78582167b2c5ed5222d74225c446d76904",
+  "N": 743303,
+  "samples": [
+    {
+      "locus": "PCSK9",
+      "replicate": 1,
+      "arm": "untreated",
+      "run": "SRR32414269",
+      "N": 55011,
+      "exclusions": {
+        "overlap_absent": 7385,
+        "quality_fail": 9808,
+        "evaluated": 33620,
+        "primer_orientation": 4188,
+        "non_acgt": 10
+      },
+      "families": 1499,
+      "output_sha256": {
+        "SRR32414269_records.tsv.gz": "425e4dafdcd86fd18a003cefbcebeb7ef69a80974b7c17bdfe50a5d572380db5",
+        "SRR32414269_families.jsonl.gz": "41118f07dd42abfd2edfc2f93d13bdf6656ae12d146b37274a07e8ac3efa0450"
+      },
+      "counts": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 92,
+          "NE": 33509,
+          "U": 21410,
+          "lower": "92/55011",
+          "upper": "21502/55011"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 92,
+          "NE": 33504,
+          "U": 21415,
+          "lower": "92/55011",
+          "upper": "7169/18337"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 92,
+          "NE": 33499,
+          "U": 21420,
+          "lower": "92/55011",
+          "upper": "21512/55011"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 92,
+          "NE": 33495,
+          "U": 21424,
+          "lower": "92/55011",
+          "upper": "652/1667"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 92,
+          "NE": 33314,
+          "U": 21605,
+          "lower": "92/55011",
+          "upper": "21697/55011"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 55011,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 55011,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 32380,
+          "NE": 1221,
+          "U": 21410,
+          "lower": "32380/55011",
+          "upper": "1630/1667"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 32377,
+          "NE": 1219,
+          "U": 21415,
+          "lower": "32377/55011",
+          "upper": "53792/55011"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 32377,
+          "NE": 1214,
+          "U": 21420,
+          "lower": "32377/55011",
+          "upper": "53797/55011"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 32376,
+          "NE": 1211,
+          "U": 21424,
+          "lower": "10792/18337",
+          "upper": "53800/55011"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 32266,
+          "NE": 1052,
+          "U": 21693,
+          "lower": "32266/55011",
+          "upper": "53959/55011"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 55011,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 55011,
+          "lower": "0",
+          "upper": "1"
+        }
+      ],
+      "same_score_single_trace_vs_certificate": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 92
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 33509
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 7
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 92
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 33504
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 12
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 92
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 33499
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 17
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 92
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 33495
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 21
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 92
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 33314
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 202
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 92
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 33516
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 92
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 33516
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 32380
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1221
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 7
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 32377
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 3
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1219
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 9
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 32377
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 3
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1214
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 14
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 32376
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1211
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 17
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 32266
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 114
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1052
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 176
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 32380
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1228
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 32380
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1228
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21403
+        }
+      ]
+    },
+    {
+      "locus": "PCSK9",
+      "replicate": 1,
+      "arm": "PE_unmodified",
+      "run": "SRR32414268",
+      "N": 53437,
+      "exclusions": {
+        "evaluated": 30913,
+        "quality_fail": 8588,
+        "overlap_absent": 9884,
+        "primer_orientation": 4044,
+        "non_acgt": 8
+      },
+      "families": 3028,
+      "output_sha256": {
+        "SRR32414268_records.tsv.gz": "cfcace46bc0e4de1f1f7e0d6e920b4294e059b497463810c741623a293fadfc9",
+        "SRR32414268_families.jsonl.gz": "5395836981bf8b7bba0481598eb9b8fc77eac49ace7b572810cbff3d7141bdfc"
+      },
+      "counts": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 4136,
+          "NE": 25441,
+          "U": 23860,
+          "lower": "4136/53437",
+          "upper": "27996/53437"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 4136,
+          "NE": 25180,
+          "U": 24121,
+          "lower": "4136/53437",
+          "upper": "28257/53437"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 4136,
+          "NE": 25067,
+          "U": 24234,
+          "lower": "4136/53437",
+          "upper": "28370/53437"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 4136,
+          "NE": 24945,
+          "U": 24356,
+          "lower": "4136/53437",
+          "upper": "28492/53437"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 4123,
+          "NE": 24782,
+          "U": 24532,
+          "lower": "4123/53437",
+          "upper": "28655/53437"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 53437,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 53437,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 2744,
+          "NE": 26833,
+          "U": 23860,
+          "lower": "2744/53437",
+          "upper": "26604/53437"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 2744,
+          "NE": 26572,
+          "U": 24121,
+          "lower": "2744/53437",
+          "upper": "26865/53437"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 2744,
+          "NE": 26459,
+          "U": 24234,
+          "lower": "2744/53437",
+          "upper": "26978/53437"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 2744,
+          "NE": 26337,
+          "U": 24356,
+          "lower": "2744/53437",
+          "upper": "27100/53437"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 2732,
+          "NE": 26171,
+          "U": 24534,
+          "lower": "2732/53437",
+          "upper": "27266/53437"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 53437,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 53437,
+          "lower": "0",
+          "upper": "1"
+        }
+      ],
+      "same_score_single_trace_vs_certificate": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4136
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 25441
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 23
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4136
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 25180
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 284
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4136
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 25067
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 397
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4136
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 24945
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 519
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4123
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 13
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 24782
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 682
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4136
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 25464
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4136
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 25464
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 2744
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 26833
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 23
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 2744
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 26572
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 284
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 2744
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 26459
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 397
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 2744
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 26337
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 519
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 2732
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 12
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 26171
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 685
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2744
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 26856
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2744
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 26856
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23837
+        }
+      ]
+    },
+    {
+      "locus": "PCSK9",
+      "replicate": 2,
+      "arm": "untreated",
+      "run": "SRR32414210",
+      "N": 59769,
+      "exclusions": {
+        "evaluated": 37200,
+        "overlap_absent": 7853,
+        "quality_fail": 10231,
+        "primer_orientation": 4482,
+        "non_acgt": 3
+      },
+      "families": 1564,
+      "output_sha256": {
+        "SRR32414210_records.tsv.gz": "1522803a6c6b47605cd841069e30497725f04d10607dc59e75123e49f546575b",
+        "SRR32414210_families.jsonl.gz": "21120377a99b00fa85c7411149a20826e8fefdcf632cec13ef790407cb6f3771"
+      },
+      "counts": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 105,
+          "NE": 37078,
+          "U": 22586,
+          "lower": "35/19923",
+          "upper": "22691/59769"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 105,
+          "NE": 37076,
+          "U": 22588,
+          "lower": "35/19923",
+          "upper": "22693/59769"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 105,
+          "NE": 37069,
+          "U": 22595,
+          "lower": "35/19923",
+          "upper": "22700/59769"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 105,
+          "NE": 37067,
+          "U": 22597,
+          "lower": "35/19923",
+          "upper": "22702/59769"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 105,
+          "NE": 36856,
+          "U": 22808,
+          "lower": "35/19923",
+          "upper": "22913/59769"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 59769,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 59769,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 35848,
+          "NE": 1336,
+          "U": 22585,
+          "lower": "35848/59769",
+          "upper": "58433/59769"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 35846,
+          "NE": 1336,
+          "U": 22587,
+          "lower": "35846/59769",
+          "upper": "58433/59769"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 35846,
+          "NE": 1329,
+          "U": 22594,
+          "lower": "35846/59769",
+          "upper": "19480/19923"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 35846,
+          "NE": 1326,
+          "U": 22597,
+          "lower": "35846/59769",
+          "upper": "19481/19923"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 35733,
+          "NE": 1132,
+          "U": 22904,
+          "lower": "11911/19923",
+          "upper": "58637/59769"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 59769,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 59769,
+          "lower": "0",
+          "upper": "1"
+        }
+      ],
+      "same_score_single_trace_vs_certificate": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 105
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 37078
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 6
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 105
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 37076
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 8
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 105
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 37069
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 15
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 105
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 37067
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 17
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 105
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 36856
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 228
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 105
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 37084
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 105
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 37084
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 35848
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1336
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 5
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 35846
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1336
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 5
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 35846
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1329
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 12
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 35846
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1326
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 15
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 35733
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 115
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1132
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 209
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 35848
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1341
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 35848
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1341
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22580
+        }
+      ]
+    },
+    {
+      "locus": "PCSK9",
+      "replicate": 2,
+      "arm": "PE_unmodified",
+      "run": "SRR32414167",
+      "N": 53035,
+      "exclusions": {
+        "overlap_absent": 9843,
+        "evaluated": 30716,
+        "quality_fail": 8415,
+        "primer_orientation": 4058,
+        "non_acgt": 3
+      },
+      "families": 3126,
+      "output_sha256": {
+        "SRR32414167_records.tsv.gz": "6dd7dd364dc82ee581d48559ab81028e45a07a65a22dc24f805eb6c66cebfd53",
+        "SRR32414167_families.jsonl.gz": "713aea0cd3a327d51194a7fa0dc8cf71e3f6ed9355c2053cafec263185f76775"
+      },
+      "counts": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 4690,
+          "NE": 24696,
+          "U": 23649,
+          "lower": "938/10607",
+          "upper": "28339/53035"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 4690,
+          "NE": 24448,
+          "U": 23897,
+          "lower": "938/10607",
+          "upper": "28587/53035"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 4690,
+          "NE": 24303,
+          "U": 24042,
+          "lower": "938/10607",
+          "upper": "28732/53035"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 4690,
+          "NE": 24138,
+          "U": 24207,
+          "lower": "938/10607",
+          "upper": "28897/53035"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 4676,
+          "NE": 24014,
+          "U": 24345,
+          "lower": "4676/53035",
+          "upper": "29021/53035"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 53035,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 53035,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 2115,
+          "NE": 27271,
+          "U": 23649,
+          "lower": "423/10607",
+          "upper": "25764/53035"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 2115,
+          "NE": 27023,
+          "U": 23897,
+          "lower": "423/10607",
+          "upper": "26012/53035"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 2115,
+          "NE": 26878,
+          "U": 24042,
+          "lower": "423/10607",
+          "upper": "26157/53035"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 2115,
+          "NE": 26713,
+          "U": 24207,
+          "lower": "423/10607",
+          "upper": "26322/53035"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 2109,
+          "NE": 26587,
+          "U": 24339,
+          "lower": "2109/53035",
+          "upper": "26448/53035"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 53035,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 53035,
+          "lower": "0",
+          "upper": "1"
+        }
+      ],
+      "same_score_single_trace_vs_certificate": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4690
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 24696
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 38
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4690
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 24448
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 286
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4690
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 24303
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 431
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4690
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 24138
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 596
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4676
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 14
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 24014
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 720
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4690
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 24734
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4690
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 24734
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 2115
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 27271
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 36
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 2115
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 27023
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 284
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 2115
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 26878
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 429
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 2115
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 26713
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 594
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 2109
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 8
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 26587
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 720
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2117
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 27307
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2117
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 27307
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 23611
+        }
+      ]
+    },
+    {
+      "locus": "PCSK9",
+      "replicate": 3,
+      "arm": "untreated",
+      "run": "SRR32414267",
+      "N": 56381,
+      "exclusions": {
+        "overlap_absent": 7520,
+        "primer_orientation": 4026,
+        "evaluated": 35244,
+        "quality_fail": 9588,
+        "non_acgt": 3
+      },
+      "families": 1501,
+      "output_sha256": {
+        "SRR32414267_records.tsv.gz": "d52f9c91c1d9fb25ef3a714531457a4715a466a61193f058dcf23e35af6e8a4b",
+        "SRR32414267_families.jsonl.gz": "9966ed499e32a58d071ca4eafde28cda02d73677344a5c174a526d59389f39a4"
+      },
+      "counts": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 110,
+          "NE": 35125,
+          "U": 21146,
+          "lower": "110/56381",
+          "upper": "21256/56381"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 110,
+          "NE": 35118,
+          "U": 21153,
+          "lower": "110/56381",
+          "upper": "21263/56381"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 110,
+          "NE": 35111,
+          "U": 21160,
+          "lower": "110/56381",
+          "upper": "21270/56381"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 110,
+          "NE": 35108,
+          "U": 21163,
+          "lower": "110/56381",
+          "upper": "21273/56381"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 110,
+          "NE": 34910,
+          "U": 21361,
+          "lower": "110/56381",
+          "upper": "21471/56381"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 56381,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 56381,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 33936,
+          "NE": 1299,
+          "U": 21146,
+          "lower": "33936/56381",
+          "upper": "55082/56381"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 33932,
+          "NE": 1296,
+          "U": 21153,
+          "lower": "33932/56381",
+          "upper": "55085/56381"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 33931,
+          "NE": 1290,
+          "U": 21160,
+          "lower": "33931/56381",
+          "upper": "55091/56381"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 33930,
+          "NE": 1288,
+          "U": 21163,
+          "lower": "2610/4337",
+          "upper": "55093/56381"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 33822,
+          "NE": 1109,
+          "U": 21450,
+          "lower": "33822/56381",
+          "upper": "55272/56381"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 56381,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 56381,
+          "lower": "0",
+          "upper": "1"
+        }
+      ],
+      "same_score_single_trace_vs_certificate": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 110
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 35125
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 110
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 35118
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 7
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 110
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 35111
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 14
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 110
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 35108
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 17
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 110
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 34910
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 215
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 110
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 35125
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 110
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 35125
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 33936
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1299
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 33932
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1296
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 3
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 33931
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 5
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1290
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 9
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 33930
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 6
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1288
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 11
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 33822
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 114
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 1109
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 190
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 33936
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1299
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 33936
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1299
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 21146
+        }
+      ]
+    },
+    {
+      "locus": "PCSK9",
+      "replicate": 3,
+      "arm": "PE_unmodified",
+      "run": "SRR32414256",
+      "N": 55171,
+      "exclusions": {
+        "overlap_absent": 10211,
+        "evaluated": 32184,
+        "quality_fail": 8667,
+        "primer_orientation": 4104,
+        "non_acgt": 5
+      },
+      "families": 3179,
+      "output_sha256": {
+        "SRR32414256_records.tsv.gz": "d2ee8dbfd7307a84c47be354f7eed40d97398f62e7a65f3a0aec7a1e76fb8a8a",
+        "SRR32414256_families.jsonl.gz": "0a522d06bbed09bbb68c46127779d6477bcbe826826a59fc91c8f69a7523ff7c"
+      },
+      "counts": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 4793,
+          "NE": 26023,
+          "U": 24355,
+          "lower": "4793/55171",
+          "upper": "29148/55171"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 4793,
+          "NE": 25799,
+          "U": 24579,
+          "lower": "4793/55171",
+          "upper": "29372/55171"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 4793,
+          "NE": 25709,
+          "U": 24669,
+          "lower": "4793/55171",
+          "upper": "29462/55171"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 4793,
+          "NE": 25517,
+          "U": 24861,
+          "lower": "4793/55171",
+          "upper": "29654/55171"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 4779,
+          "NE": 25413,
+          "U": 24979,
+          "lower": "4779/55171",
+          "upper": "29758/55171"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 55171,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 55171,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 1259,
+          "NE": 29557,
+          "U": 24355,
+          "lower": "1259/55171",
+          "upper": "25614/55171"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 1256,
+          "NE": 29333,
+          "U": 24582,
+          "lower": "1256/55171",
+          "upper": "25838/55171"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 1256,
+          "NE": 29243,
+          "U": 24672,
+          "lower": "1256/55171",
+          "upper": "25928/55171"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 1256,
+          "NE": 29054,
+          "U": 24861,
+          "lower": "1256/55171",
+          "upper": "26117/55171"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 1252,
+          "NE": 28946,
+          "U": 24973,
+          "lower": "1252/55171",
+          "upper": "26225/55171"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 55171,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 55171,
+          "lower": "0",
+          "upper": "1"
+        }
+      ],
+      "same_score_single_trace_vs_certificate": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4793
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 26023
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 42
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4793
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 25799
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 266
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4793
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 25709
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 356
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4793
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 25517
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 548
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4779
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 14
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 25413
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 652
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4793
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 26065
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4793
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 26065
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1259
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 29557
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 42
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1256
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 3
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 29333
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 266
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1256
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 3
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 29243
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 356
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1256
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 3
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 29054
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 545
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1252
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 7
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 28946
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 653
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 1259
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 29599
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 1259
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 29599
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24313
+        }
+      ]
+    },
+    {
+      "locus": "HBEGF",
+      "replicate": 1,
+      "arm": "PE_unmodified",
+      "run": "SRR32414166",
+      "N": 59908,
+      "exclusions": {
+        "evaluated": 48636,
+        "quality_fail": 5335,
+        "primer_orientation": 2507,
+        "non_acgt": 16,
+        "overlap_absent": 3414
+      },
+      "families": 5670,
+      "output_sha256": {
+        "SRR32414166_records.tsv.gz": "6eab1a9f2053bb13f52bab99d4e01b080a7d37af3c2fd1af73b59262f891a3eb",
+        "SRR32414166_families.jsonl.gz": "1e92444f5872e3abd6b3263fe301807c7febfc8455b004161f570f63c126ef22"
+      },
+      "counts": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 4255,
+          "NE": 39869,
+          "U": 15784,
+          "lower": "4255/59908",
+          "upper": "20039/59908"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 4255,
+          "NE": 39500,
+          "U": 16153,
+          "lower": "4255/59908",
+          "upper": "5102/14977"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 4253,
+          "NE": 38826,
+          "U": 16829,
+          "lower": "4253/59908",
+          "upper": "10541/29954"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 4253,
+          "NE": 38219,
+          "U": 17436,
+          "lower": "4253/59908",
+          "upper": "21689/59908"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 4249,
+          "NE": 33610,
+          "U": 22049,
+          "lower": "4249/59908",
+          "upper": "13149/29954"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 32497,
+          "U": 27411,
+          "lower": "0",
+          "upper": "27411/59908"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 59908,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 1888,
+          "NE": 42236,
+          "U": 15784,
+          "lower": "472/14977",
+          "upper": "4418/14977"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 1888,
+          "NE": 41867,
+          "U": 16153,
+          "lower": "472/14977",
+          "upper": "18041/59908"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 1888,
+          "NE": 41191,
+          "U": 16829,
+          "lower": "472/14977",
+          "upper": "1101/3524"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 1888,
+          "NE": 40584,
+          "U": 17436,
+          "lower": "472/14977",
+          "upper": "4831/14977"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 1881,
+          "NE": 35978,
+          "U": 22049,
+          "lower": "1881/59908",
+          "upper": "11965/29954"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 1877,
+          "NE": 34861,
+          "U": 23170,
+          "lower": "1877/59908",
+          "upper": "25047/59908"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 59908,
+          "lower": "0",
+          "upper": "1"
+        }
+      ],
+      "same_score_single_trace_vs_certificate": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4255
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 39869
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 555
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4255
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 39500
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 924
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4253
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 38826
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1598
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4253
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 38219
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2205
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4249
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 6
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 33610
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 6814
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4255
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 32497
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 7927
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4255
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 40424
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1888
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 42236
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 555
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1888
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 41867
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 924
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1888
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 41191
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1600
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1888
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 40584
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2207
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1881
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 7
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 35978
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 6813
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1877
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 11
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 34861
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 7930
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 1888
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 42791
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 15229
+        }
+      ]
+    },
+    {
+      "locus": "HBEGF",
+      "replicate": 2,
+      "arm": "PE_unmodified",
+      "run": "SRR32414163",
+      "N": 61787,
+      "exclusions": {
+        "evaluated": 50694,
+        "primer_orientation": 3106,
+        "overlap_absent": 3106,
+        "quality_fail": 4873,
+        "non_acgt": 8
+      },
+      "families": 5620,
+      "output_sha256": {
+        "SRR32414163_records.tsv.gz": "3b7c20cfd7f9c9d8ed491e9b87faf2b71e94bcc0de44b0e4880056b0e0561443",
+        "SRR32414163_families.jsonl.gz": "a6a2b00ca48162abb1be6988c54fbec0c2a1fe9755f424c18d3e0259caa4e650"
+      },
+      "counts": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 4124,
+          "NE": 40780,
+          "U": 16883,
+          "lower": "4124/61787",
+          "upper": "21007/61787"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 4124,
+          "NE": 40462,
+          "U": 17201,
+          "lower": "4124/61787",
+          "upper": "21325/61787"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 4124,
+          "NE": 39913,
+          "U": 17750,
+          "lower": "4124/61787",
+          "upper": "21874/61787"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 4124,
+          "NE": 39256,
+          "U": 18407,
+          "lower": "4124/61787",
+          "upper": "22531/61787"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 4119,
+          "NE": 34446,
+          "U": 23222,
+          "lower": "4119/61787",
+          "upper": "27341/61787"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 33447,
+          "U": 28340,
+          "lower": "0",
+          "upper": "28340/61787"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 61787,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 1913,
+          "NE": 42991,
+          "U": 16883,
+          "lower": "1913/61787",
+          "upper": "18796/61787"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 1913,
+          "NE": 42673,
+          "U": 17201,
+          "lower": "1913/61787",
+          "upper": "19114/61787"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 1913,
+          "NE": 42124,
+          "U": 17750,
+          "lower": "1913/61787",
+          "upper": "19663/61787"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 1913,
+          "NE": 41467,
+          "U": 18407,
+          "lower": "1913/61787",
+          "upper": "20320/61787"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 1909,
+          "NE": 36656,
+          "U": 23222,
+          "lower": "1909/61787",
+          "upper": "25131/61787"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 1908,
+          "NE": 35658,
+          "U": 24221,
+          "lower": "1908/61787",
+          "upper": "26129/61787"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 61787,
+          "lower": "0",
+          "upper": "1"
+        }
+      ],
+      "same_score_single_trace_vs_certificate": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4124
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 40780
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 641
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4124
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 40462
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 959
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4124
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 39913
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1508
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4124
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 39256
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2165
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4119
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 5
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 34446
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 6975
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4124
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 33447
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 7974
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4124
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 41421
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1913
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 42991
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 641
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1913
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 42673
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 959
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1913
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 42124
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1508
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1913
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 41467
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2165
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1909
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 36656
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 6976
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 1908
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 5
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 35658
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 7974
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 1913
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 43632
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 16242
+        }
+      ]
+    },
+    {
+      "locus": "HBEGF",
+      "replicate": 3,
+      "arm": "PE_unmodified",
+      "run": "SRR32414160",
+      "N": 62598,
+      "exclusions": {
+        "evaluated": 51455,
+        "quality_fail": 5305,
+        "primer_orientation": 2667,
+        "overlap_absent": 3163,
+        "non_acgt": 8
+      },
+      "families": 5398,
+      "output_sha256": {
+        "SRR32414160_records.tsv.gz": "5844a5efc484d5b5dc105f4cda4ba39f7a634bc08c2c45ef540be5d649e0a8e9",
+        "SRR32414160_families.jsonl.gz": "436bd142be888e68c5d5e5d56b2a8d4e49b8298dfe9f63594e5359813ea39417"
+      },
+      "counts": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 4596,
+          "NE": 42754,
+          "U": 15248,
+          "lower": "766/10433",
+          "upper": "9922/31299"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 4596,
+          "NE": 42408,
+          "U": 15594,
+          "lower": "766/10433",
+          "upper": "3365/10433"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 4596,
+          "NE": 41859,
+          "U": 16143,
+          "lower": "766/10433",
+          "upper": "6913/20866"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 4596,
+          "NE": 41289,
+          "U": 16713,
+          "lower": "766/10433",
+          "upper": "7103/20866"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 4587,
+          "NE": 36438,
+          "U": 21573,
+          "lower": "1529/20866",
+          "upper": "4360/10433"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 35275,
+          "U": 27323,
+          "lower": "0",
+          "upper": "27323/62598"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 62598,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 3546,
+          "NE": 43804,
+          "U": 15248,
+          "lower": "591/10433",
+          "upper": "9397/31299"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 3546,
+          "NE": 43458,
+          "U": 15594,
+          "lower": "591/10433",
+          "upper": "3190/10433"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 3546,
+          "NE": 42909,
+          "U": 16143,
+          "lower": "591/10433",
+          "upper": "6563/20866"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 3546,
+          "NE": 42339,
+          "U": 16713,
+          "lower": "591/10433",
+          "upper": "6753/20866"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 3541,
+          "NE": 37484,
+          "U": 21573,
+          "lower": "3541/62598",
+          "upper": "12557/31299"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 3536,
+          "NE": 36321,
+          "U": 22741,
+          "lower": "1768/31299",
+          "upper": "8759/20866"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 62598,
+          "lower": "0",
+          "upper": "1"
+        }
+      ],
+      "same_score_single_trace_vs_certificate": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4596
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 42754
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 426
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4596
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 42408
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 772
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4596
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 41859
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1321
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4596
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 41289
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1891
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 4587
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 9
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 36438
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 6742
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4596
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 35275
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 7905
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4596
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 43180
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 3546
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 43804
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 426
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 3546
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 43458
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 772
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 3546
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 42909
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1321
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 3546
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 42339
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1891
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 3541
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 5
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 37484
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 6746
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 3536
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 10
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 36321
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 7909
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 3546
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 44230
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 14822
+        }
+      ]
+    },
+    {
+      "locus": "CTLA4",
+      "replicate": 1,
+      "arm": "PE_unmodified",
+      "run": "SRR32414095",
+      "N": 71390,
+      "exclusions": {
+        "evaluated": 52944,
+        "overlap_absent": 4777,
+        "quality_fail": 8354,
+        "primer_orientation": 5314,
+        "non_acgt": 1
+      },
+      "families": 4671,
+      "output_sha256": {
+        "SRR32414095_records.tsv.gz": "da0c25e4728385b60bbf3a0e0735ac896600e723c413861b637997754e026003",
+        "SRR32414095_families.jsonl.gz": "5b63d8bdddcaed353e012100ea42fdb6eba585480e987ffc1a8ab9e3c9b0aebf"
+      },
+      "counts": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 672,
+          "NE": 48654,
+          "U": 22064,
+          "lower": "336/35695",
+          "upper": "11368/35695"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 672,
+          "NE": 48195,
+          "U": 22523,
+          "lower": "336/35695",
+          "upper": "4639/14278"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 672,
+          "NE": 46528,
+          "U": 24190,
+          "lower": "336/35695",
+          "upper": "12431/35695"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 672,
+          "NE": 46249,
+          "U": 24469,
+          "lower": "336/35695",
+          "upper": "25141/71390"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 670,
+          "NE": 44727,
+          "U": 25993,
+          "lower": "67/7139",
+          "upper": "26663/71390"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 71390,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 71390,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 30174,
+          "NE": 19152,
+          "U": 22064,
+          "lower": "15087/35695",
+          "upper": "26119/35695"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 30174,
+          "NE": 18693,
+          "U": 22523,
+          "lower": "15087/35695",
+          "upper": "52697/71390"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 30173,
+          "NE": 17027,
+          "U": 24190,
+          "lower": "2743/6490",
+          "upper": "54363/71390"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 30167,
+          "NE": 16754,
+          "U": 24469,
+          "lower": "30167/71390",
+          "upper": "27318/35695"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 30026,
+          "NE": 15294,
+          "U": 26070,
+          "lower": "15013/35695",
+          "upper": "28048/35695"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 71390,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 71390,
+          "lower": "0",
+          "upper": "1"
+        }
+      ],
+      "same_score_single_trace_vs_certificate": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 672
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 48654
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 44
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 672
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 48195
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 503
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 672
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 46528
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2170
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 672
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 46249
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2449
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 670
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 44727
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 3971
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 672
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 48698
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 672
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 48698
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 30174
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 1
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 19152
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 43
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 30174
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 1
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 18693
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 502
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 30173
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 2
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 17027
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2168
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 30167
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 8
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 16754
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2441
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 30026
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 149
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 15294
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 3901
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 30175
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 19195
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 30175
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 19195
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22020
+        }
+      ]
+    },
+    {
+      "locus": "CTLA4",
+      "replicate": 2,
+      "arm": "PE_unmodified",
+      "run": "SRR32414092",
+      "N": 79616,
+      "exclusions": {
+        "evaluated": 60310,
+        "quality_fail": 8853,
+        "overlap_absent": 4731,
+        "primer_orientation": 5722
+      },
+      "families": 5327,
+      "output_sha256": {
+        "SRR32414092_records.tsv.gz": "ae5892a1e7596d82f8af32dedd9b6727807d0128d62ae091501da00a08836958",
+        "SRR32414092_families.jsonl.gz": "e15750bbdc073362171c9076b94ace5255f555e33d271db350705d264fd7d8d3"
+      },
+      "counts": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 931,
+          "NE": 54519,
+          "U": 24166,
+          "lower": "931/79616",
+          "upper": "25097/79616"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 931,
+          "NE": 54088,
+          "U": 24597,
+          "lower": "931/79616",
+          "upper": "3191/9952"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 931,
+          "NE": 52475,
+          "U": 26210,
+          "lower": "931/79616",
+          "upper": "27141/79616"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 930,
+          "NE": 52134,
+          "U": 26552,
+          "lower": "465/39808",
+          "upper": "13741/39808"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 927,
+          "NE": 49983,
+          "U": 28706,
+          "lower": "927/79616",
+          "upper": "29633/79616"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 79616,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 79616,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 32302,
+          "NE": 23147,
+          "U": 24167,
+          "lower": "16151/39808",
+          "upper": "56469/79616"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 32302,
+          "NE": 22716,
+          "U": 24598,
+          "lower": "16151/39808",
+          "upper": "14225/19904"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 32302,
+          "NE": 21103,
+          "U": 26211,
+          "lower": "16151/39808",
+          "upper": "58513/79616"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 32296,
+          "NE": 20768,
+          "U": 26552,
+          "lower": "4037/9952",
+          "upper": "1839/2488"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 32135,
+          "NE": 18668,
+          "U": 28813,
+          "lower": "32135/79616",
+          "upper": "15237/19904"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 79616,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 79616,
+          "lower": "0",
+          "upper": "1"
+        }
+      ],
+      "same_score_single_trace_vs_certificate": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 931
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 54519
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 85
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24081
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 931
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 54088
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 516
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24081
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 931
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 52475
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2129
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24081
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 930
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 1
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 52134
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2470
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24081
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 927
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 49983
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 4621
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24081
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 931
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 54604
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24081
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 931
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 54604
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24081
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 32302
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 23147
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 85
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24082
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 32302
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 22716
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 516
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24082
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 32302
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 21103
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2129
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24082
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 32296
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 6
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 20768
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2464
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24082
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 32135
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 167
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 18668
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 4564
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24082
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 32302
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 23232
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24082
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 32302
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 23232
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 24082
+        }
+      ]
+    },
+    {
+      "locus": "CTLA4",
+      "replicate": 3,
+      "arm": "PE_unmodified",
+      "run": "SRR32414264",
+      "N": 75200,
+      "exclusions": {
+        "evaluated": 56623,
+        "quality_fail": 8531,
+        "primer_orientation": 5554,
+        "overlap_absent": 4492
+      },
+      "families": 4769,
+      "output_sha256": {
+        "SRR32414264_records.tsv.gz": "430ac5722acae694365cfbc19b76b61022d196884a86f3860b6f689445a1668a",
+        "SRR32414264_families.jsonl.gz": "44aaa5f119a81ab34bdd0b4a67819591303b66bf80ccb5a5cf354fbc4e3a42f0"
+      },
+      "counts": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 855,
+          "NE": 51794,
+          "U": 22551,
+          "lower": "171/15040",
+          "upper": "249/800"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 855,
+          "NE": 51311,
+          "U": 23034,
+          "lower": "171/15040",
+          "upper": "23889/75200"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 855,
+          "NE": 49968,
+          "U": 24377,
+          "lower": "171/15040",
+          "upper": "1577/4700"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 855,
+          "NE": 49721,
+          "U": 24624,
+          "lower": "171/15040",
+          "upper": "25479/75200"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 851,
+          "NE": 48275,
+          "U": 26074,
+          "lower": "851/75200",
+          "upper": "1077/3008"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 75200,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 75200,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 33089,
+          "NE": 19560,
+          "U": 22551,
+          "lower": "33089/75200",
+          "upper": "1391/1880"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 33089,
+          "NE": 19077,
+          "U": 23034,
+          "lower": "33089/75200",
+          "upper": "56123/75200"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 33089,
+          "NE": 17734,
+          "U": 24377,
+          "lower": "33089/75200",
+          "upper": "28733/37600"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 33082,
+          "NE": 17494,
+          "U": 24624,
+          "lower": "16541/37600",
+          "upper": "28853/37600"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 32905,
+          "NE": 16121,
+          "U": 26174,
+          "lower": "6581/15040",
+          "upper": "1257/1600"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 75200,
+          "lower": "0",
+          "upper": "1"
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 75200,
+          "lower": "0",
+          "upper": "1"
+        }
+      ],
+      "same_score_single_trace_vs_certificate": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 855
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 51794
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 53
+        },
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 855
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 51311
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 536
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 855
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 49968
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1879
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 855
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 49721
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2126
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 851
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 4
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 48275
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 3572
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 855
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 51847
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 855
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 51847
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 33089
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 19560
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 53
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 33089
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 19077
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 536
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 33089
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 17734
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 1879
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 33082
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 7
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 17494
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 2119
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "E",
+          "N": 32905
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 184
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "NE",
+          "N": 16121
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 3492
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 33089
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 19613
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "E",
+          "certificate": "U",
+          "N": 33089
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "NE",
+          "certificate": "U",
+          "N": 19613
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "single_trace": "U",
+          "certificate": "U",
+          "N": 22498
+        }
+      ]
+    }
+  ],
+  "PCSK9_PE_minus_untreated": [
+    {
+      "replicate": 1,
+      "delta": 0,
+      "lower": "-921476878/2939622807",
+      "upper": "1535171752/2939622807",
+      "lower_pp": -31.3467726473521,
+      "upper_pp": 52.2234263642383
+    },
+    {
+      "replicate": 1,
+      "delta": 9,
+      "lower": "-307248021/979874269",
+      "upper": "1549529623/2939622807",
+      "lower_pp": -31.355861738624753,
+      "upper_pp": 52.711851986934185
+    },
+    {
+      "replicate": 1,
+      "delta": 18,
+      "lower": "-922011248/2939622807",
+      "upper": "1555745866/2939622807",
+      "lower_pp": -31.36495082989741,
+      "upper_pp": 52.923315953848494
+    },
+    {
+      "replicate": 1,
+      "delta": 27,
+      "lower": "-27946212/89079479",
+      "upper": "1562457208/2939622807",
+      "lower_pp": -31.372222102915533,
+      "upper_pp": 53.151622183614386
+    },
+    {
+      "replicate": 1,
+      "delta": 36,
+      "lower": "-932612236/2939622807",
+      "upper": "1571424001/2939622807",
+      "lower_pp": -31.72557491999347,
+      "upper_pp": 53.45665427748193
+    },
+    {
+      "replicate": 1,
+      "delta": 45,
+      "lower": "-1",
+      "upper": "1",
+      "lower_pp": -100.0,
+      "upper_pp": 100.0
+    },
+    {
+      "replicate": 1,
+      "delta": 54,
+      "lower": "-1",
+      "upper": "1",
+      "lower_pp": -100.0,
+      "upper_pp": 100.0
+    },
+    {
+      "replicate": 2,
+      "delta": 0,
+      "lower": "-184620115/633969783",
+      "upper": "562741672/1056616305",
+      "lower_pp": -29.121279901758346,
+      "upper_pp": 53.25884801673584
+    },
+    {
+      "replicate": 2,
+      "delta": 9,
+      "lower": "-184641329/633969783",
+      "upper": "567682576/1056616305",
+      "lower_pp": -29.124626118024302,
+      "upper_pp": 53.72646374220015
+    },
+    {
+      "replicate": 2,
+      "delta": 18,
+      "lower": "-184715578/633969783",
+      "upper": "570571411/1056616305",
+      "lower_pp": -29.136337874955153,
+      "upper_pp": 53.99986809781437
+    },
+    {
+      "replicate": 2,
+      "delta": 27,
+      "lower": "-184736792/633969783",
+      "upper": "573858706/1056616305",
+      "lower_pp": -29.13968409122111,
+      "upper_pp": 54.31098339903055
+    },
+    {
+      "replicate": 2,
+      "delta": 36,
+      "lower": "-935711111/3169848915",
+      "upper": "576329158/1056616305",
+      "lower_pp": -29.519107569200976,
+      "upper_pp": 54.54479126176271
+    },
+    {
+      "replicate": 2,
+      "delta": 45,
+      "lower": "-1",
+      "upper": "1",
+      "lower_pp": -100.0,
+      "upper_pp": 100.0
+    },
+    {
+      "replicate": 2,
+      "delta": 54,
+      "lower": "-1",
+      "upper": "1",
+      "lower_pp": -100.0,
+      "upper_pp": 100.0
+    },
+    {
+      "replicate": 3,
+      "delta": 0,
+      "lower": "-902480643/3110596151",
+      "upper": "1637324578/3110596151",
+      "lower_pp": -29.01310871582828,
+      "upper_pp": 52.637002636090514
+    },
+    {
+      "replicate": 3,
+      "delta": 9,
+      "lower": "-902866840/3110596151",
+      "upper": "1649953922/3110596151",
+      "lower_pp": -29.025524245882732,
+      "upper_pp": 53.04301304010711
+    },
+    {
+      "replicate": 3,
+      "delta": 18,
+      "lower": "-903253037/3110596151",
+      "upper": "1655028212/3110596151",
+      "lower_pp": -29.037939775937183,
+      "upper_pp": 53.20614222029236
+    },
+    {
+      "replicate": 3,
+      "delta": 27,
+      "lower": "-903418550/3110596151",
+      "upper": "1665853364/3110596151",
+      "lower_pp": -29.04326071738909,
+      "upper_pp": 53.55415113802087
+    },
+    {
+      "replicate": 3,
+      "delta": 36,
+      "lower": "-915131742/3110596151",
+      "upper": "1671716988/3110596151",
+      "lower_pp": -29.419818503466026,
+      "upper_pp": 53.74265596845716
+    },
+    {
+      "replicate": 3,
+      "delta": 45,
+      "lower": "-1",
+      "upper": "1",
+      "lower_pp": -100.0,
+      "upper_pp": 100.0
+    },
+    {
+      "replicate": 3,
+      "delta": 54,
+      "lower": "-1",
+      "upper": "1",
+      "lower_pp": -100.0,
+      "upper_pp": 100.0
+    }
+  ]
+}

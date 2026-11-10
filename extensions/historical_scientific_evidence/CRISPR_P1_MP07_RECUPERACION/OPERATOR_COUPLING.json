@@ -1,0 +1,349 @@
+{
+  "records": 177006,
+  "verified_operator_rows": 243,
+  "verified_F9_rows": 27,
+  "contrasts": [
+    {
+      "preparation": 1,
+      "control": "mock",
+      "event": "native",
+      "shared": [
+        "6679915/50483203",
+        "80622046/353382421"
+      ],
+      "separate": [
+        "6679915/50483203",
+        "80622046/353382421"
+      ],
+      "recordwise": [
+        "6679915/50483203",
+        "81669843/353382421"
+      ],
+      "recordwise_width_increment_pp": 0.29650512808049384,
+      "recordwise_positive": true
+    },
+    {
+      "preparation": 1,
+      "control": "mock",
+      "event": "exact_programmed",
+      "shared": [
+        "46347157/353382421",
+        "80209798/353382421"
+      ],
+      "separate": [
+        "46347157/353382421",
+        "80209798/353382421"
+      ],
+      "recordwise": [
+        "46347157/353382421",
+        "81257595/353382421"
+      ],
+      "recordwise_width_increment_pp": 0.29650512808049384,
+      "recordwise_positive": true
+    },
+    {
+      "preparation": 1,
+      "control": "mock",
+      "event": "native_nonexact",
+      "shared": [
+        "-13988852/353382421",
+        "1157/20573"
+      ],
+      "separate": [
+        "-13988852/353382421",
+        "1157/20573"
+      ],
+      "recordwise": [
+        "-13988852/353382421",
+        "1185/20573"
+      ],
+      "recordwise_width_increment_pp": 0.13610071452875128,
+      "recordwise_positive": false
+    },
+    {
+      "preparation": 1,
+      "control": "untreated",
+      "event": "native",
+      "shared": [
+        "5279665/40446518",
+        "9229397/40446518"
+      ],
+      "separate": [
+        "5279665/40446518",
+        "9229397/40446518"
+      ],
+      "recordwise": [
+        "5279665/40446518",
+        "9349323/40446518"
+      ],
+      "recordwise_width_increment_pp": 0.29650512808049384,
+      "recordwise_positive": true
+    },
+    {
+      "preparation": 1,
+      "control": "untreated",
+      "event": "exact_programmed",
+      "shared": [
+        "2617710/20223259",
+        "4672/20573"
+      ],
+      "separate": [
+        "2617710/20223259",
+        "4672/20573"
+      ],
+      "recordwise": [
+        "2617710/20223259",
+        "4733/20573"
+      ],
+      "recordwise_width_increment_pp": 0.29650512808049384,
+      "recordwise_positive": true
+    },
+    {
+      "preparation": 1,
+      "control": "untreated",
+      "event": "native_nonexact",
+      "shared": [
+        "-1678009/40446518",
+        "2271723/40446518"
+      ],
+      "separate": [
+        "-1678009/40446518",
+        "2271723/40446518"
+      ],
+      "recordwise": [
+        "-1678009/40446518",
+        "2326771/40446518"
+      ],
+      "recordwise_width_increment_pp": 0.13610071452875128,
+      "recordwise_positive": false
+    },
+    {
+      "preparation": 2,
+      "control": "mock",
+      "event": "native",
+      "shared": [
+        "27438913/100912636",
+        "1633/4796"
+      ],
+      "separate": [
+        "27438913/100912636",
+        "1633/4796"
+      ],
+      "recordwise": [
+        "109524201/403650544",
+        "3297/9592"
+      ],
+      "recordwise_width_increment_pp": 0.3805254378648874,
+      "recordwise_positive": true
+    },
+    {
+      "preparation": 2,
+      "control": "mock",
+      "event": "exact_programmed",
+      "shared": [
+        "6770304/25228159",
+        "404/1199"
+      ],
+      "separate": [
+        "6770304/25228159",
+        "404/1199"
+      ],
+      "recordwise": [
+        "108093413/403650544",
+        "6525/19184"
+      ],
+      "recordwise_width_increment_pp": 0.37531276063386154,
+      "recordwise_positive": true
+    },
+    {
+      "preparation": 2,
+      "control": "mock",
+      "event": "native_nonexact",
+      "shared": [
+        "-2102651/100912636",
+        "229/4796"
+      ],
+      "separate": [
+        "-2102651/100912636",
+        "229/4796"
+      ],
+      "recordwise": [
+        "-2102651/100912636",
+        "477/9592"
+      ],
+      "recordwise_width_increment_pp": 0.1980817347789825,
+      "recordwise_positive": false
+    },
+    {
+      "preparation": 2,
+      "control": "untreated",
+      "event": "native",
+      "shared": [
+        "5927155/21769044",
+        "1633/4796"
+      ],
+      "separate": [
+        "5927155/21769044",
+        "1633/4796"
+      ],
+      "recordwise": [
+        "23658691/87076176",
+        "3297/9592"
+      ],
+      "recordwise_width_increment_pp": 0.3805254378648874,
+      "recordwise_positive": true
+    },
+    {
+      "preparation": 2,
+      "control": "untreated",
+      "event": "exact_programmed",
+      "shared": [
+        "1462498/5442261",
+        "404/1199"
+      ],
+      "separate": [
+        "1462498/5442261",
+        "404/1199"
+      ],
+      "recordwise": [
+        "23350039/87076176",
+        "6525/19184"
+      ],
+      "recordwise_width_increment_pp": 0.37531276063386154,
+      "recordwise_positive": true
+    },
+    {
+      "preparation": 2,
+      "control": "untreated",
+      "event": "native_nonexact",
+      "shared": [
+        "-445601/21769044",
+        "229/4796"
+      ],
+      "separate": [
+        "-445601/21769044",
+        "229/4796"
+      ],
+      "recordwise": [
+        "-445601/21769044",
+        "477/9592"
+      ],
+      "recordwise_width_increment_pp": 0.1980817347789825,
+      "recordwise_positive": false
+    },
+    {
+      "preparation": 3,
+      "control": "mock",
+      "event": "native",
+      "shared": [
+        "2877103/12390504",
+        "2189/7336"
+      ],
+      "separate": [
+        "2877103/12390504",
+        "2189/7336"
+      ],
+      "recordwise": [
+        "5739005/24781008",
+        "4423/14672"
+      ],
+      "recordwise_width_increment_pp": 0.3680479825517993,
+      "recordwise_positive": true
+    },
+    {
+      "preparation": 3,
+      "control": "mock",
+      "event": "exact_programmed",
+      "shared": [
+        "5695091/24781008",
+        "4343/14672"
+      ],
+      "separate": [
+        "5695091/24781008",
+        "4343/14672"
+      ],
+      "recordwise": [
+        "2839945/12390504",
+        "4385/14672"
+      ],
+      "recordwise_width_increment_pp": 0.34760087241003274,
+      "recordwise_positive": true
+    },
+    {
+      "preparation": 3,
+      "control": "mock",
+      "event": "native_nonexact",
+      "shared": [
+        "-74347/3540144",
+        "663/14672"
+      ],
+      "separate": [
+        "-74347/3540144",
+        "663/14672"
+      ],
+      "recordwise": [
+        "-74347/3540144",
+        "43/917"
+      ],
+      "recordwise_width_increment_pp": 0.17039258451472192,
+      "recordwise_positive": false
+    },
+    {
+      "preparation": 3,
+      "control": "untreated",
+      "event": "native",
+      "shared": [
+        "12604019/54939304",
+        "2189/7336"
+      ],
+      "separate": [
+        "12604019/54939304",
+        "2189/7336"
+      ],
+      "recordwise": [
+        "25140637/109878608",
+        "4423/14672"
+      ],
+      "recordwise_width_increment_pp": 0.3680479825517993,
+      "recordwise_positive": true
+    },
+    {
+      "preparation": 3,
+      "control": "untreated",
+      "event": "exact_programmed",
+      "shared": [
+        "24945923/109878608",
+        "4343/14672"
+      ],
+      "separate": [
+        "24945923/109878608",
+        "4343/14672"
+      ],
+      "recordwise": [
+        "12439261/54939304",
+        "4385/14672"
+      ],
+      "recordwise_width_increment_pp": 0.34760087241003274,
+      "recordwise_positive": true
+    },
+    {
+      "preparation": 3,
+      "control": "untreated",
+      "event": "native_nonexact",
+      "shared": [
+        "-373371/15696944",
+        "663/14672"
+      ],
+      "separate": [
+        "-373371/15696944",
+        "663/14672"
+      ],
+      "recordwise": [
+        "-373371/15696944",
+        "43/917"
+      ],
+      "recordwise_width_increment_pp": 0.17039258451472192,
+      "recordwise_positive": false
+    }
+  ]
+}

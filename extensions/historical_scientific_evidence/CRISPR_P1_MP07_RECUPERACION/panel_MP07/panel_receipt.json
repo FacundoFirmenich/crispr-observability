@@ -1,0 +1,288 @@
+{
+  "cftr": {
+    "cases": 398,
+    "targets": 796,
+    "inputs": {
+      "cftr_REAL_ALIGNMENT_CASES.json": "60e22ae3027994112657cb84f7e82b658edee60c3c1e87576f951760e6795d71",
+      "OPTIMAL_ALIGNMENT_ENVELOPES.json": "b145bbf461c309dee2f74a18b2a5b51aa1ced49e35ce43ce45e11ad97e0a17cc"
+    },
+    "attaining_witnesses": 2000,
+    "certified": [
+      {
+        "target": "exact",
+        "label": 0,
+        "delta": 0,
+        "n": 297
+      },
+      {
+        "target": "exact",
+        "label": 0,
+        "delta": 9,
+        "n": 288
+      },
+      {
+        "target": "exact",
+        "label": 0,
+        "delta": 18,
+        "n": 277
+      },
+      {
+        "target": "exact",
+        "label": 0,
+        "delta": 27,
+        "n": 273
+      },
+      {
+        "target": "exact",
+        "label": 0,
+        "delta": 36,
+        "n": 166
+      },
+      {
+        "target": "exact",
+        "label": 0,
+        "delta": 45,
+        "n": 119
+      },
+      {
+        "target": "exact",
+        "label": 1,
+        "delta": 0,
+        "n": 10
+      },
+      {
+        "target": "exact",
+        "label": 1,
+        "delta": 9,
+        "n": 8
+      },
+      {
+        "target": "exact",
+        "label": 1,
+        "delta": 18,
+        "n": 8
+      },
+      {
+        "target": "exact",
+        "label": 1,
+        "delta": 27,
+        "n": 8
+      },
+      {
+        "target": "exact",
+        "label": 1,
+        "delta": 36,
+        "n": 3
+      },
+      {
+        "target": "exact",
+        "label": 1,
+        "delta": 45,
+        "n": 3
+      },
+      {
+        "target": "native",
+        "label": 0,
+        "delta": 0,
+        "n": 296
+      },
+      {
+        "target": "native",
+        "label": 0,
+        "delta": 9,
+        "n": 284
+      },
+      {
+        "target": "native",
+        "label": 0,
+        "delta": 18,
+        "n": 272
+      },
+      {
+        "target": "native",
+        "label": 0,
+        "delta": 27,
+        "n": 265
+      },
+      {
+        "target": "native",
+        "label": 0,
+        "delta": 36,
+        "n": 162
+      },
+      {
+        "target": "native",
+        "label": 0,
+        "delta": 45,
+        "n": 118
+      },
+      {
+        "target": "native",
+        "label": 1,
+        "delta": 0,
+        "n": 10
+      },
+      {
+        "target": "native",
+        "label": 1,
+        "delta": 9,
+        "n": 8
+      },
+      {
+        "target": "native",
+        "label": 1,
+        "delta": 18,
+        "n": 8
+      },
+      {
+        "target": "native",
+        "label": 1,
+        "delta": 27,
+        "n": 8
+      },
+      {
+        "target": "native",
+        "label": 1,
+        "delta": 36,
+        "n": 3
+      },
+      {
+        "target": "native",
+        "label": 1,
+        "delta": 45,
+        "n": 3
+      }
+    ]
+  },
+  "hek3": {
+    "cases": 66,
+    "targets": 132,
+    "inputs": {
+      "hek3_REAL_ALIGNMENT_CASES.json": "5635a09508a6b21902a4287dbc27e31d2ea35cade1c2935db25141db953b5cb2",
+      "OPTIMAL_ALIGNMENT_ENVELOPES.json": "e4c5f547f6d0493e1ca0b8e82ac483fafb6656b68aa71e164b84a912c6b74937"
+    },
+    "attaining_witnesses": 358,
+    "certified": [
+      {
+        "target": "programmed_local",
+        "label": 0,
+        "delta": 0,
+        "n": 46
+      },
+      {
+        "target": "programmed_local",
+        "label": 0,
+        "delta": 9,
+        "n": 28
+      },
+      {
+        "target": "programmed_local",
+        "label": 0,
+        "delta": 18,
+        "n": 28
+      },
+      {
+        "target": "programmed_local",
+        "label": 0,
+        "delta": 27,
+        "n": 28
+      },
+      {
+        "target": "programmed_local",
+        "label": 0,
+        "delta": 36,
+        "n": 28
+      },
+      {
+        "target": "programmed_local",
+        "label": 1,
+        "delta": 0,
+        "n": 2
+      },
+      {
+        "target": "programmed_local",
+        "label": 1,
+        "delta": 9,
+        "n": 2
+      },
+      {
+        "target": "programmed_local",
+        "label": 1,
+        "delta": 18,
+        "n": 2
+      },
+      {
+        "target": "programmed_local",
+        "label": 1,
+        "delta": 27,
+        "n": 2
+      },
+      {
+        "target": "programmed_local",
+        "label": 1,
+        "delta": 36,
+        "n": 2
+      },
+      {
+        "target": "unedited_local",
+        "label": 0,
+        "delta": 0,
+        "n": 28
+      },
+      {
+        "target": "unedited_local",
+        "label": 0,
+        "delta": 9,
+        "n": 10
+      },
+      {
+        "target": "unedited_local",
+        "label": 0,
+        "delta": 18,
+        "n": 10
+      },
+      {
+        "target": "unedited_local",
+        "label": 0,
+        "delta": 27,
+        "n": 10
+      },
+      {
+        "target": "unedited_local",
+        "label": 0,
+        "delta": 36,
+        "n": 10
+      },
+      {
+        "target": "unedited_local",
+        "label": 1,
+        "delta": 0,
+        "n": 20
+      },
+      {
+        "target": "unedited_local",
+        "label": 1,
+        "delta": 9,
+        "n": 20
+      },
+      {
+        "target": "unedited_local",
+        "label": 1,
+        "delta": 18,
+        "n": 20
+      },
+      {
+        "target": "unedited_local",
+        "label": 1,
+        "delta": 27,
+        "n": 20
+      },
+      {
+        "target": "unedited_local",
+        "label": 1,
+        "delta": 36,
+        "n": 20
+      }
+    ]
+  }
+}

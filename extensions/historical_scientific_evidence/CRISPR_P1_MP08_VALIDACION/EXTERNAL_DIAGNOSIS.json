@@ -1,0 +1,778 @@
+{
+  "upstream_vs_alignment": [
+    {
+      "run": "SRR32414269",
+      "locus": "PCSK9",
+      "arm": "untreated",
+      "raw_N": 55011,
+      "upstream_U": 21391,
+      "alignment_U_at_optimum": 19
+    },
+    {
+      "run": "SRR32414268",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "raw_N": 53437,
+      "upstream_U": 22524,
+      "alignment_U_at_optimum": 1336
+    },
+    {
+      "run": "SRR32414210",
+      "locus": "PCSK9",
+      "arm": "untreated",
+      "raw_N": 59769,
+      "upstream_U": 22569,
+      "alignment_U_at_optimum": 17
+    },
+    {
+      "run": "SRR32414167",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "raw_N": 53035,
+      "upstream_U": 22319,
+      "alignment_U_at_optimum": 1330
+    },
+    {
+      "run": "SRR32414267",
+      "locus": "PCSK9",
+      "arm": "untreated",
+      "raw_N": 56381,
+      "upstream_U": 21137,
+      "alignment_U_at_optimum": 9
+    },
+    {
+      "run": "SRR32414256",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "raw_N": 55171,
+      "upstream_U": 22987,
+      "alignment_U_at_optimum": 1368
+    },
+    {
+      "run": "SRR32414166",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "raw_N": 59908,
+      "upstream_U": 11272,
+      "alignment_U_at_optimum": 4512
+    },
+    {
+      "run": "SRR32414163",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "raw_N": 61787,
+      "upstream_U": 11093,
+      "alignment_U_at_optimum": 5790
+    },
+    {
+      "run": "SRR32414160",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "raw_N": 62598,
+      "upstream_U": 11143,
+      "alignment_U_at_optimum": 4105
+    },
+    {
+      "run": "SRR32414095",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "raw_N": 71390,
+      "upstream_U": 18446,
+      "alignment_U_at_optimum": 3618
+    },
+    {
+      "run": "SRR32414092",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "raw_N": 79616,
+      "upstream_U": 19306,
+      "alignment_U_at_optimum": 4860
+    },
+    {
+      "run": "SRR32414264",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "raw_N": 75200,
+      "upstream_U": 18577,
+      "alignment_U_at_optimum": 3974
+    }
+  ],
+  "first_positive_withdrawal": [
+    {
+      "run": "SRR32414269",
+      "locus": "PCSK9",
+      "arm": "untreated",
+      "delta": 45,
+      "cause": "both",
+      "N": 92
+    },
+    {
+      "run": "SRR32414268",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "both",
+      "N": 4
+    },
+    {
+      "run": "SRR32414268",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "contradiction",
+      "N": 9
+    },
+    {
+      "run": "SRR32414268",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "delta": 45,
+      "cause": "both",
+      "N": 4123
+    },
+    {
+      "run": "SRR32414210",
+      "locus": "PCSK9",
+      "arm": "untreated",
+      "delta": 45,
+      "cause": "both",
+      "N": 105
+    },
+    {
+      "run": "SRR32414167",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "both",
+      "N": 2
+    },
+    {
+      "run": "SRR32414167",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "contradiction",
+      "N": 12
+    },
+    {
+      "run": "SRR32414167",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "delta": 45,
+      "cause": "both",
+      "N": 4676
+    },
+    {
+      "run": "SRR32414267",
+      "locus": "PCSK9",
+      "arm": "untreated",
+      "delta": 45,
+      "cause": "both",
+      "N": 110
+    },
+    {
+      "run": "SRR32414256",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "both",
+      "N": 4
+    },
+    {
+      "run": "SRR32414256",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "contradiction",
+      "N": 10
+    },
+    {
+      "run": "SRR32414256",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "delta": 45,
+      "cause": "both",
+      "N": 4779
+    },
+    {
+      "run": "SRR32414166",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "delta": 18,
+      "cause": "unobservable",
+      "N": 2
+    },
+    {
+      "run": "SRR32414166",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "unobservable",
+      "N": 4
+    },
+    {
+      "run": "SRR32414166",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "delta": 45,
+      "cause": "both",
+      "N": 8
+    },
+    {
+      "run": "SRR32414166",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "delta": 45,
+      "cause": "contradiction",
+      "N": 4241
+    },
+    {
+      "run": "SRR32414163",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "unobservable",
+      "N": 5
+    },
+    {
+      "run": "SRR32414163",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "delta": 45,
+      "cause": "contradiction",
+      "N": 4119
+    },
+    {
+      "run": "SRR32414160",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "unobservable",
+      "N": 9
+    },
+    {
+      "run": "SRR32414160",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "delta": 45,
+      "cause": "both",
+      "N": 5
+    },
+    {
+      "run": "SRR32414160",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "delta": 45,
+      "cause": "contradiction",
+      "N": 4582
+    },
+    {
+      "run": "SRR32414095",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "contradiction",
+      "N": 1
+    },
+    {
+      "run": "SRR32414095",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "unobservable",
+      "N": 1
+    },
+    {
+      "run": "SRR32414095",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "delta": 45,
+      "cause": "both",
+      "N": 670
+    },
+    {
+      "run": "SRR32414092",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "delta": 27,
+      "cause": "unobservable",
+      "N": 1
+    },
+    {
+      "run": "SRR32414092",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "contradiction",
+      "N": 3
+    },
+    {
+      "run": "SRR32414092",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "delta": 45,
+      "cause": "both",
+      "N": 927
+    },
+    {
+      "run": "SRR32414264",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "contradiction",
+      "N": 3
+    },
+    {
+      "run": "SRR32414264",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "delta": 36,
+      "cause": "unobservable",
+      "N": 1
+    },
+    {
+      "run": "SRR32414264",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "delta": 45,
+      "cause": "both",
+      "N": 851
+    }
+  ],
+  "pcsk9_single_trace": [
+    {
+      "replicate": 1,
+      "single_trace_complete_case_pp": 13.699228626388827,
+      "single_trace_raw_lower_pp": -31.334047919570384
+    },
+    {
+      "replicate": 2,
+      "single_trace_complete_case_pp": 15.657027669793838,
+      "single_trace_raw_lower_pp": -29.111241252960475
+    },
+    {
+      "replicate": 3,
+      "single_trace_complete_case_pp": 15.220249329513642,
+      "single_trace_raw_lower_pp": -29.01310871582828
+    }
+  ],
+  "witnesses": [
+    {
+      "locus": "CTLA4",
+      "run": "SRR32414092",
+      "family_sha256": "9a8411eb13252afdf1d9ab8cd5568705b2f93f5f9bbfd8064f0db35b7e1185be",
+      "N": 680,
+      "sequence": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+      "paths": [
+        {
+          "reference": "wt",
+          "score": 826,
+          "targets": {
+            "programmed_local": {
+              "0": {
+                "score": 781,
+                "projection": "CTGCTGTGGTATAGTAATACTGGCCAG",
+                "aligned_reference": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCC-TGCTGTGG--------TACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "aligned_read": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAG-CCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "deficit": 45,
+                "flank_bases": [
+                  "C",
+                  "C"
+                ]
+              },
+              "1": {
+                "score": 826,
+                "projection": "TGCTGTGGTATAGTAATACTGGCCAG",
+                "aligned_reference": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGG--------TACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "aligned_read": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "deficit": 0,
+                "flank_bases": [
+                  "C",
+                  "C"
+                ]
+              },
+              "2": {
+                "score": 781,
+                "projection": null,
+                "aligned_reference": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAG-CCTGCTGTGGTA--------CTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "aligned_read": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCC-TGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "deficit": 45,
+                "flank_bases": [
+                  "-",
+                  "C"
+                ]
+              }
+            },
+            "unedited_local": {
+              "0": {
+                "score": 826,
+                "projection": "TGCTGTGGTATAGTAATACTGGCCAG",
+                "aligned_reference": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGG--------TACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "aligned_read": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "deficit": 0,
+                "flank_bases": [
+                  "C",
+                  "C"
+                ]
+              },
+              "2": {
+                "score": 781,
+                "projection": null,
+                "aligned_reference": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAG-CCTGCTGTGGTA--------CTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "aligned_read": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCC-TGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "deficit": 45,
+                "flank_bases": [
+                  "-",
+                  "C"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "reference": "edited",
+          "score": 900,
+          "targets": {
+            "programmed_local": {
+              "0": {
+                "score": 855,
+                "projection": "CTGCTGTGGTATAGTAATACTGGCCAG",
+                "aligned_reference": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCC-TGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "aligned_read": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAG-CCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "deficit": 45,
+                "flank_bases": [
+                  "C",
+                  "C"
+                ]
+              },
+              "1": {
+                "score": 900,
+                "projection": "TGCTGTGGTATAGTAATACTGGCCAG",
+                "aligned_reference": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "aligned_read": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "deficit": 0,
+                "flank_bases": [
+                  "C",
+                  "C"
+                ]
+              },
+              "2": {
+                "score": 855,
+                "projection": null,
+                "aligned_reference": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAG-CCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "aligned_read": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCC-TGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "deficit": 45,
+                "flank_bases": [
+                  "-",
+                  "C"
+                ]
+              }
+            },
+            "unedited_local": {
+              "0": {
+                "score": 900,
+                "projection": "TGCTGTGGTATAGTAATACTGGCCAG",
+                "aligned_reference": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "aligned_read": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "deficit": 0,
+                "flank_bases": [
+                  "C",
+                  "C"
+                ]
+              },
+              "2": {
+                "score": 855,
+                "projection": null,
+                "aligned_reference": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAG-CCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "aligned_read": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCC-TGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+                "deficit": 45,
+                "flank_bases": [
+                  "-",
+                  "C"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locus": "HBEGF",
+      "run": "SRR32414160",
+      "family_sha256": "3a6f183e00d511f79f1c896047934218140d0bf03cc6a95822ad675e8352883f",
+      "N": 3794,
+      "sequence": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+      "paths": [
+        {
+          "reference": "wt",
+          "score": 1130,
+          "targets": {
+            "programmed_local": {
+              "0": {
+                "score": 1085,
+                "projection": "TTGCCTGACTTGATCCGGGGGC",
+                "aligned_reference": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGAC-----CGGGGGCT-GATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "aligned_read": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "deficit": 45,
+                "flank_bases": [
+                  "G",
+                  "G"
+                ]
+              },
+              "1": {
+                "score": 1130,
+                "projection": "TTGCCTGACTTGATCCGGGGGCT",
+                "aligned_reference": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGA------CCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "aligned_read": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "deficit": 0,
+                "flank_bases": [
+                  "G",
+                  "G"
+                ]
+              },
+              "2": {
+                "score": 1076,
+                "projection": null,
+                "aligned_reference": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGT--TGCCTGAC------CGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "aligned_read": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGA--TGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "deficit": 54,
+                "flank_bases": [
+                  "-",
+                  "G"
+                ]
+              }
+            },
+            "unedited_local": {
+              "0": {
+                "score": 1130,
+                "projection": "TTGCCTGACTTGATCCGGGGGCT",
+                "aligned_reference": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGA------CCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "aligned_read": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "deficit": 0,
+                "flank_bases": [
+                  "G",
+                  "G"
+                ]
+              },
+              "2": {
+                "score": 1076,
+                "projection": null,
+                "aligned_reference": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGT--TGCCTGAC------CGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "aligned_read": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGA--TGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "deficit": 54,
+                "flank_bases": [
+                  "-",
+                  "G"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "reference": "edited",
+          "score": 1190,
+          "targets": {
+            "programmed_local": {
+              "0": {
+                "score": 1136,
+                "projection": "GTTGCCTGACTTGATCCGGGGGCT",
+                "aligned_reference": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATG-TTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "aligned_read": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGA-TGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "deficit": 54,
+                "flank_bases": [
+                  "T",
+                  "G"
+                ]
+              },
+              "1": {
+                "score": 1190,
+                "projection": "TTGCCTGACTTGATCCGGGGGCT",
+                "aligned_reference": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "aligned_read": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "deficit": 0,
+                "flank_bases": [
+                  "G",
+                  "G"
+                ]
+              },
+              "2": {
+                "score": 1136,
+                "projection": null,
+                "aligned_reference": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGT--TGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "aligned_read": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGA--TGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "deficit": 54,
+                "flank_bases": [
+                  "-",
+                  "G"
+                ]
+              }
+            },
+            "unedited_local": {
+              "0": {
+                "score": 1190,
+                "projection": "TTGCCTGACTTGATCCGGGGGCT",
+                "aligned_reference": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "aligned_read": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "deficit": 0,
+                "flank_bases": [
+                  "G",
+                  "G"
+                ]
+              },
+              "2": {
+                "score": 1136,
+                "projection": null,
+                "aligned_reference": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGT--TGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "aligned_read": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGA--TGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+                "deficit": 54,
+                "flank_bases": [
+                  "-",
+                  "G"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "locus": "PCSK9",
+      "run": "SRR32414256",
+      "family_sha256": "3a112bbfd64b0df011b18a8bc0f60031a90b1cf51aa980355cb61b28ccefc025",
+      "N": 3648,
+      "sequence": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+      "paths": [
+        {
+          "reference": "wt",
+          "score": 1060,
+          "targets": {
+            "programmed_local": {
+              "0": {
+                "score": 1015,
+                "projection": "CGGGATGCATCTGGGC",
+                "aligned_reference": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGC-TCTGGGCAAA-GACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "aligned_read": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGC-AAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "deficit": 45,
+                "flank_bases": [
+                  "A",
+                  "A"
+                ]
+              },
+              "1": {
+                "score": 1060,
+                "projection": "CGGGATGCATCTGGGCA",
+                "aligned_reference": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGC-TCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "aligned_read": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "deficit": 0,
+                "flank_bases": [
+                  "A",
+                  "A"
+                ]
+              },
+              "2": {
+                "score": 1015,
+                "projection": null,
+                "aligned_reference": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGC-TCTGGGCAAA-GACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "aligned_read": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCA-AAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "deficit": 45,
+                "flank_bases": [
+                  "A",
+                  "-"
+                ]
+              }
+            },
+            "unedited_local": {
+              "0": {
+                "score": 1060,
+                "projection": "CGGGATGCATCTGGGCA",
+                "aligned_reference": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGC-TCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "aligned_read": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "deficit": 0,
+                "flank_bases": [
+                  "A",
+                  "A"
+                ]
+              },
+              "2": {
+                "score": 1015,
+                "projection": null,
+                "aligned_reference": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGC-TCTGGGCAAA-GACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "aligned_read": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCA-AAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "deficit": 45,
+                "flank_bases": [
+                  "A",
+                  "-"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "reference": "edited",
+          "score": 1085,
+          "targets": {
+            "programmed_local": {
+              "0": {
+                "score": 1040,
+                "projection": "CGGGATGCATCTGGGC",
+                "aligned_reference": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCAAA-GACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "aligned_read": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGC-AAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "deficit": 45,
+                "flank_bases": [
+                  "A",
+                  "A"
+                ]
+              },
+              "1": {
+                "score": 1085,
+                "projection": "CGGGATGCATCTGGGCA",
+                "aligned_reference": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "aligned_read": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "deficit": 0,
+                "flank_bases": [
+                  "A",
+                  "A"
+                ]
+              },
+              "2": {
+                "score": 1040,
+                "projection": null,
+                "aligned_reference": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCAAA-GACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "aligned_read": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCA-AAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "deficit": 45,
+                "flank_bases": [
+                  "A",
+                  "-"
+                ]
+              }
+            },
+            "unedited_local": {
+              "0": {
+                "score": 1085,
+                "projection": "CGGGATGCATCTGGGCA",
+                "aligned_reference": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "aligned_read": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "deficit": 0,
+                "flank_bases": [
+                  "A",
+                  "A"
+                ]
+              },
+              "2": {
+                "score": 1040,
+                "projection": null,
+                "aligned_reference": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCAAA-GACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "aligned_read": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCA-AAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+                "deficit": 45,
+                "flank_bases": [
+                  "A",
+                  "-"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

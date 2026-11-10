@@ -1,0 +1,371 @@
+{
+  "scope": "External HG002 phased-marker control. Truth is conditional on the assembly phase, marker assignment and source identity. It does not adjudicate HEK3 or CFTR molecules.",
+  "selection": "First 12 chr20 biallelic phased heterozygous indels of 2-10 bp with exactly one other variant within 110 bp, a phased heterozygous SNP 25-60 bp away. Joint core and marker plus 15 bp must be inside the benchmark BED. Selection precedes reading BAM observations.",
+  "marker": "Unique exact 21-base marker match outside the indel, minimum base quality 30 across all 21 bases. Marker phase supplies the indel label. BAM target bases do not supply truth.",
+  "reads": "All regional primary mapped nonduplicate QC-pass alignments with MAPQ >=30, keeping each mate as a distinct observation. Counts are reads, not independent molecules. No target sequence or predicted label filter.",
+  "reference_source": "UCSC hg38 sequence API, exact response bytes retained",
+  "benchmark": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/AshkenazimTrio/analysis/NIST_HG002_DraftBenchmark_defrabbV0.019-20241113/",
+  "bam": "https://storage.googleapis.com/deepvariant/case-study-testdata/HG002.novaseq.pcr-free.35x.dedup.grch38_no_alt.chr20.bam",
+  "pairs": [
+    {
+      "indel": {
+        "pos": 183642,
+        "ref": "G",
+        "alts": [
+          "GAAAAC"
+        ],
+        "gt": [
+          0,
+          1
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t183643\t.\tG\tGAAAAC\t30\t.\t.\tGT:AD\t0|1:1,1"
+      },
+      "marker": {
+        "pos": 183698,
+        "ref": "A",
+        "alts": [
+          "T"
+        ],
+        "gt": [
+          0,
+          1
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t183699\t.\tA\tT\t30\t.\t.\tGT:AD\t0|1:1,1"
+      }
+    },
+    {
+      "indel": {
+        "pos": 255817,
+        "ref": "GAT",
+        "alts": [
+          "G"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t255818\t.\tGAT\tG\t30\t.\tTRF\tGT:AD\t1|0:1,1"
+      },
+      "marker": {
+        "pos": 255777,
+        "ref": "G",
+        "alts": [
+          "A"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t255778\t.\tG\tA\t30\t.\t.\tGT:AD\t1|0:1,1"
+      }
+    },
+    {
+      "indel": {
+        "pos": 263496,
+        "ref": "TGTGTGTGC",
+        "alts": [
+          "T"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t263497\t.\tTGTGTGTGC\tT\t30\t.\tTRF\tGT:AD\t1|0:1,1"
+      },
+      "marker": {
+        "pos": 263450,
+        "ref": "C",
+        "alts": [
+          "G"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t263451\t.\tC\tG\t30\t.\t.\tGT:AD\t1|0:1,1"
+      }
+    },
+    {
+      "indel": {
+        "pos": 454649,
+        "ref": "C",
+        "alts": [
+          "CATTATT"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t454650\t.\tC\tCATTATT\t30\t.\tTRF\tGT:AD\t1|0:1,1"
+      },
+      "marker": {
+        "pos": 454613,
+        "ref": "T",
+        "alts": [
+          "A"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t454614\t.\tT\tA\t30\t.\t.\tGT:AD\t1|0:1,1"
+      }
+    },
+    {
+      "indel": {
+        "pos": 460433,
+        "ref": "CAAA",
+        "alts": [
+          "C"
+        ],
+        "gt": [
+          0,
+          1
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t460434\t.\tCAAA\tC\t30\t.\t.\tGT:AD\t0|1:1,1"
+      },
+      "marker": {
+        "pos": 460463,
+        "ref": "C",
+        "alts": [
+          "G"
+        ],
+        "gt": [
+          0,
+          1
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t460464\t.\tC\tG\t30\t.\t.\tGT:AD\t0|1:1,1"
+      }
+    },
+    {
+      "indel": {
+        "pos": 642892,
+        "ref": "GTGA",
+        "alts": [
+          "G"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t642893\t.\tGTGA\tG\t30\t.\tTRF\tGT:AD\t1|0:1,1"
+      },
+      "marker": {
+        "pos": 642860,
+        "ref": "G",
+        "alts": [
+          "T"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t642861\t.\tG\tT\t30\t.\t.\tGT:AD\t1|0:1,1"
+      }
+    },
+    {
+      "indel": {
+        "pos": 711119,
+        "ref": "G",
+        "alts": [
+          "GGT"
+        ],
+        "gt": [
+          0,
+          1
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t711120\t.\tG\tGGT\t30\t.\tTRF\tGT:AD\t0|1:1,1"
+      },
+      "marker": {
+        "pos": 711176,
+        "ref": "A",
+        "alts": [
+          "G"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t711177\t.\tA\tG\t30\t.\t.\tGT:AD\t1|0:1,1"
+      }
+    },
+    {
+      "indel": {
+        "pos": 966448,
+        "ref": "G",
+        "alts": [
+          "GTC"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t966449\t.\tG\tGTC\t30\t.\t.\tGT:AD\t1|0:1,1"
+      },
+      "marker": {
+        "pos": 966506,
+        "ref": "C",
+        "alts": [
+          "T"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t966507\t.\tC\tT\t30\t.\t.\tGT:AD\t1|0:1,1"
+      }
+    },
+    {
+      "indel": {
+        "pos": 1184620,
+        "ref": "TACAC",
+        "alts": [
+          "T"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t1184621\t.\tTACAC\tT\t30\t.\tTRF\tGT:AD\t1|0:1,1"
+      },
+      "marker": {
+        "pos": 1184646,
+        "ref": "C",
+        "alts": [
+          "G"
+        ],
+        "gt": [
+          0,
+          1
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t1184647\t.\tC\tG\t30\t.\tTRF\tGT:AD\t0|1:1,1"
+      }
+    },
+    {
+      "indel": {
+        "pos": 1871502,
+        "ref": "CCA",
+        "alts": [
+          "C"
+        ],
+        "gt": [
+          0,
+          1
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t1871503\t.\tCCA\tC\t30\t.\tTRF\tGT:AD\t0|1:1,1"
+      },
+      "marker": {
+        "pos": 1871470,
+        "ref": "T",
+        "alts": [
+          "C"
+        ],
+        "gt": [
+          0,
+          1
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t1871471\t.\tT\tC\t30\t.\t.\tGT:AD\t0|1:1,1"
+      }
+    },
+    {
+      "indel": {
+        "pos": 1948734,
+        "ref": "AAAAAAAG",
+        "alts": [
+          "A"
+        ],
+        "gt": [
+          0,
+          1
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t1948735\t.\tAAAAAAAG\tA\t30\t.\t.\tGT:AD\t0|1:1,1"
+      },
+      "marker": {
+        "pos": 1948789,
+        "ref": "C",
+        "alts": [
+          "T"
+        ],
+        "gt": [
+          0,
+          1
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t1948790\t.\tC\tT\t30\t.\tTRF\tGT:AD\t0|1:1,1"
+      }
+    },
+    {
+      "indel": {
+        "pos": 2606890,
+        "ref": "CTT",
+        "alts": [
+          "C"
+        ],
+        "gt": [
+          1,
+          0
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t2606891\t.\tCTT\tC\t30\t.\t.\tGT:AD\t1|0:1,1"
+      },
+      "marker": {
+        "pos": 2606924,
+        "ref": "C",
+        "alts": [
+          "A"
+        ],
+        "gt": [
+          0,
+          1
+        ],
+        "phased": true,
+        "filter": [],
+        "vcf": "chr20\t2606925\t.\tC\tA\t30\t.\t.\tGT:AD\t0|1:1,1"
+      }
+    }
+  ]
+}

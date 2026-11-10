@@ -1,0 +1,337 @@
+{
+  "freeze_sha256": "67105bff8073c95a0836e1433f74651227c71f741431e6d3a13b105f6e69fb71",
+  "ont_sha256": {
+    "SRR18840484": "76f979b6f75a2f1f61cb5e3641817054fee37bba5fe30cb75b645926afa59118",
+    "SRR18840476": "ef3600c4f4cb458c4faa54bd333475ddc596ee804f4737f9786abc6d41e54e51",
+    "SRR18840477": "5d44a5d5d6c9cf00d8501c640817d8aa253832d140d4fff984f207000e85c608"
+  },
+  "read_rows_sha256": "905e92b5f85842f998f12fd0baabc8abc5e5ec0bef470e24897ae5468219bca8",
+  "admission": [
+    {
+      "clone": "HETS",
+      "status": "admitted",
+      "n": 171
+    },
+    {
+      "clone": "HETS",
+      "status": "unresolved",
+      "n": 626
+    },
+    {
+      "clone": "MT",
+      "status": "admitted",
+      "n": 167
+    },
+    {
+      "clone": "MT",
+      "status": "unresolved",
+      "n": 627
+    },
+    {
+      "clone": "WT",
+      "status": "admitted",
+      "n": 138
+    },
+    {
+      "clone": "WT",
+      "status": "unresolved",
+      "n": 366
+    }
+  ],
+  "counts": [
+    {
+      "clone": "HETS",
+      "profile": "delta_0",
+      "label": "E",
+      "n": 2
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_0",
+      "label": "NE",
+      "n": 165
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_0",
+      "label": "U",
+      "n": 630
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_18",
+      "label": "E",
+      "n": 2
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_18",
+      "label": "NE",
+      "n": 136
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_18",
+      "label": "U",
+      "n": 659
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_27",
+      "label": "NE",
+      "n": 114
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_27",
+      "label": "U",
+      "n": 683
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_36",
+      "label": "NE",
+      "n": 3
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_36",
+      "label": "U",
+      "n": 794
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_45",
+      "label": "U",
+      "n": 797
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_54",
+      "label": "U",
+      "n": 797
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_9",
+      "label": "E",
+      "n": 2
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_9",
+      "label": "NE",
+      "n": 154
+    },
+    {
+      "clone": "HETS",
+      "profile": "delta_9",
+      "label": "U",
+      "n": 641
+    },
+    {
+      "clone": "HETS",
+      "profile": "exact_inner_anchors",
+      "label": "E",
+      "n": 2
+    },
+    {
+      "clone": "HETS",
+      "profile": "exact_inner_anchors",
+      "label": "NE",
+      "n": 120
+    },
+    {
+      "clone": "HETS",
+      "profile": "exact_inner_anchors",
+      "label": "U",
+      "n": 675
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_0",
+      "label": "E",
+      "n": 113
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_0",
+      "label": "NE",
+      "n": 32
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_0",
+      "label": "U",
+      "n": 649
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_18",
+      "label": "E",
+      "n": 106
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_18",
+      "label": "NE",
+      "n": 15
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_18",
+      "label": "U",
+      "n": 673
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_27",
+      "label": "NE",
+      "n": 2
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_27",
+      "label": "U",
+      "n": 792
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_36",
+      "label": "U",
+      "n": 794
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_45",
+      "label": "U",
+      "n": 794
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_54",
+      "label": "U",
+      "n": 794
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_9",
+      "label": "E",
+      "n": 111
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_9",
+      "label": "NE",
+      "n": 28
+    },
+    {
+      "clone": "MT",
+      "profile": "delta_9",
+      "label": "U",
+      "n": 655
+    },
+    {
+      "clone": "MT",
+      "profile": "exact_inner_anchors",
+      "label": "E",
+      "n": 97
+    },
+    {
+      "clone": "MT",
+      "profile": "exact_inner_anchors",
+      "label": "NE",
+      "n": 32
+    },
+    {
+      "clone": "MT",
+      "profile": "exact_inner_anchors",
+      "label": "U",
+      "n": 665
+    },
+    {
+      "clone": "WT",
+      "profile": "delta_0",
+      "label": "NE",
+      "n": 135
+    },
+    {
+      "clone": "WT",
+      "profile": "delta_0",
+      "label": "U",
+      "n": 369
+    },
+    {
+      "clone": "WT",
+      "profile": "delta_18",
+      "label": "NE",
+      "n": 125
+    },
+    {
+      "clone": "WT",
+      "profile": "delta_18",
+      "label": "U",
+      "n": 379
+    },
+    {
+      "clone": "WT",
+      "profile": "delta_27",
+      "label": "NE",
+      "n": 111
+    },
+    {
+      "clone": "WT",
+      "profile": "delta_27",
+      "label": "U",
+      "n": 393
+    },
+    {
+      "clone": "WT",
+      "profile": "delta_36",
+      "label": "NE",
+      "n": 2
+    },
+    {
+      "clone": "WT",
+      "profile": "delta_36",
+      "label": "U",
+      "n": 502
+    },
+    {
+      "clone": "WT",
+      "profile": "delta_45",
+      "label": "U",
+      "n": 504
+    },
+    {
+      "clone": "WT",
+      "profile": "delta_54",
+      "label": "U",
+      "n": 504
+    },
+    {
+      "clone": "WT",
+      "profile": "delta_9",
+      "label": "NE",
+      "n": 131
+    },
+    {
+      "clone": "WT",
+      "profile": "delta_9",
+      "label": "U",
+      "n": 373
+    },
+    {
+      "clone": "WT",
+      "profile": "exact_inner_anchors",
+      "label": "NE",
+      "n": 109
+    },
+    {
+      "clone": "WT",
+      "profile": "exact_inner_anchors",
+      "label": "U",
+      "n": 395
+    }
+  ]
+}

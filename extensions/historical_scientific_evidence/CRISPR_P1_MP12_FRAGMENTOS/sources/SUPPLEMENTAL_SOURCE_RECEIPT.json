@@ -1,0 +1,42 @@
+{
+  "bitbucket_repo.json": {
+    "url": "https://api.bitbucket.org/2.0/repositories/synbiolab/crispr-a_nextflow",
+    "bytes": 3192,
+    "sha256": "b02d666c01a5c9dc009b25d0417305996a0612b401b6ef8597e7c7562b840e1f"
+  },
+  "bitbucket_tree.json": {
+    "url": "https://api.bitbucket.org/2.0/repositories/synbiolab/crispr-a_nextflow/src/e5c6c8df1711df6de1f9c3c832ee297d5c48d18d/?pagelen=100",
+    "bytes": 7827,
+    "sha256": "2a65990c16eb9f1a8abaf5245da262b96efd1500e6d471cc083323f7654b4ac9"
+  },
+  "Sousa_supplementary.zip": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11754097/supplementaryFiles",
+    "bytes": 4089435,
+    "sha256": "de67381a4449e81ddc3d8ee58088133c13748c7ef367cf4932b410df9eb14041"
+  },
+  "CRISPR-A_PRJEB53901.tsv": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB53901&result=read_run&fields=run_accession,sample_accession,library_layout,instrument_model,run_alias&format=tsv",
+    "bytes": 1423,
+    "sha256": "278888a3e21c9f01df41931d5e6274ffc9a99526884aecc523379db879435b9b"
+  },
+  "CRISPR-A_Bitbucket.zip": {
+    "url": "https://bitbucket.org/synbiolab/crispr-a_nextflow/get/e5c6c8df1711df6de1f9c3c832ee297d5c48d18d.zip",
+    "bytes": 16146291,
+    "sha256": "a4e5fb150ad4c55a582055ee24d5ff5507a92dd9834fd20c1f72d6a0d12c4a3a"
+  },
+  "CRISPR-A_PLOS_figshare.json": {
+    "url": "https://api.figshare.com/v2/articles?resource_doi=10.1371%2Fjournal.pcbi.1011137&page_size=100",
+    "bytes": 34071,
+    "sha256": "76290958c7d9e4d793042593d1bb2356cd0137c05f869a712393aaa965fa70b6"
+  },
+  "NCBI_SRR10285861.runinfo": {
+    "url": "https://trace.ncbi.nlm.nih.gov/Traces/sra-db-be/runinfo?acc=SRR10285861",
+    "bytes": 1035,
+    "sha256": "dbeb5b311e3076572a1c93c9ac3df09d6c59ec45b2cf70d55706cacc18f5a46f"
+  },
+  "NCBI_SRR29623272.runinfo": {
+    "url": "https://trace.ncbi.nlm.nih.gov/Traces/sra-db-be/runinfo?acc=SRR29623272",
+    "bytes": 1123,
+    "sha256": "48377f63d9505a754e8d07a1f4034c8dbf4e908fd0e1cb9e7dd2b7c9ba798b3f"
+  }
+}

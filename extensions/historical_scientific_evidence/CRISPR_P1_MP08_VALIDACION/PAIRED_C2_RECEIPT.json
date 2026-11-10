@@ -1,0 +1,11 @@
+{
+  "scope": "Actual retained CRISPResso2 local projections, joined on authentic read IDs. Exact events and quality are harmonized. No new CRISPResso2 run; the dedicated PE_default is distinct from the single-reference modes.",
+  "evidence": "Comparisons by locus, reference profile, target and deficit. U is abstention; opposite labels are methodological disagreements and are not adjudicated against molecular truth.",
+  "total_raw_pairs": 395936,
+  "matched_runs": 12,
+  "mp07_receipt_sha256": "b806f51bdf9f125704c641e300fc7b8475c03aea95b8bb76ae7760b513f27fba",
+  "outputs": {
+    "PAIRED_C2_CONFUSION.csv": "0f8335a568c714f1f1ae8c94eb9d075900128704f72cedac5fbc070f343f252f",
+    "PAIRED_C2_SUMMARY.csv": "2f20752485bf5e6602ee85f064fc6d6dc53823b3afae1d935111efa175eb0d97"
+  }
+}

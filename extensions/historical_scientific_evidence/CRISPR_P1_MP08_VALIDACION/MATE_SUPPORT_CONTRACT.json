@@ -1,0 +1,7 @@
+{
+  "scope": "Supplementary technical corroboration specified after observing merge coverage, before evaluating mate agreement. Same fragment, no orthogonal molecular labels.",
+  "rule": "Use two primer-authenticated raw mates, both mean Q30. Unique exact motif in each mate, built from event DNA plus ten unchanged bases on each side. Classify as corroborated only when both mates agree on the same unique motif.",
+  "comparison": "Join by original read ID and retain all primary outcomes; compare programmed-event certificates at 0,27,36,45,54.",
+  "primary_freeze_sha256": "018c732e0515e6a44da38b5a3e474333b9fc3d1e4c7b0f79ac8442b6980e91e3",
+  "code_sha256": "9763402918fbc9e505b867a01aee7f0ae5bd3a8b68058e7269ab62b2b5cfcf13"
+}

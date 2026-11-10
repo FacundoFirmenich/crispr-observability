@@ -1,0 +1,688 @@
+{
+  "contract_sha256": "60d9fa58bc9b4d41214540a2de36e5cab280fa5db34f7b7fc768efaf8a8cb6b9",
+  "runs": [
+    {
+      "run": "SRR32414269",
+      "locus": "PCSK9",
+      "arm": "untreated",
+      "N": 55011,
+      "motifs": {
+        "edited": "CCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGG",
+        "wt": "CCAGGTTCCACGGGATGCTCTGGGCAAAGACAGAGG"
+      },
+      "mate_evidence": [
+        {
+          "label": "one_mate_only",
+          "n": 38084
+        },
+        {
+          "label": "U",
+          "n": 16927
+        }
+      ],
+      "comparison": [],
+      "merge_status": []
+    },
+    {
+      "run": "SRR32414268",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "N": 53437,
+      "motifs": {
+        "edited": "CCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGG",
+        "wt": "CCAGGTTCCACGGGATGCTCTGGGCAAAGACAGAGG"
+      },
+      "mate_evidence": [
+        {
+          "label": "U",
+          "n": 44844
+        },
+        {
+          "label": "one_mate_only",
+          "n": 8593
+        }
+      ],
+      "comparison": [],
+      "merge_status": []
+    },
+    {
+      "run": "SRR32414210",
+      "locus": "PCSK9",
+      "arm": "untreated",
+      "N": 59769,
+      "motifs": {
+        "edited": "CCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGG",
+        "wt": "CCAGGTTCCACGGGATGCTCTGGGCAAAGACAGAGG"
+      },
+      "mate_evidence": [
+        {
+          "label": "one_mate_only",
+          "n": 41976
+        },
+        {
+          "label": "U",
+          "n": 17793
+        }
+      ],
+      "comparison": [],
+      "merge_status": []
+    },
+    {
+      "run": "SRR32414167",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "N": 53035,
+      "motifs": {
+        "edited": "CCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGG",
+        "wt": "CCAGGTTCCACGGGATGCTCTGGGCAAAGACAGAGG"
+      },
+      "mate_evidence": [
+        {
+          "label": "U",
+          "n": 44468
+        },
+        {
+          "label": "one_mate_only",
+          "n": 8567
+        }
+      ],
+      "comparison": [],
+      "merge_status": []
+    },
+    {
+      "run": "SRR32414267",
+      "locus": "PCSK9",
+      "arm": "untreated",
+      "N": 56381,
+      "motifs": {
+        "edited": "CCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGG",
+        "wt": "CCAGGTTCCACGGGATGCTCTGGGCAAAGACAGAGG"
+      },
+      "mate_evidence": [
+        {
+          "label": "one_mate_only",
+          "n": 39792
+        },
+        {
+          "label": "U",
+          "n": 16589
+        }
+      ],
+      "comparison": [],
+      "merge_status": []
+    },
+    {
+      "run": "SRR32414256",
+      "locus": "PCSK9",
+      "arm": "PE_unmodified",
+      "N": 55171,
+      "motifs": {
+        "edited": "CCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGG",
+        "wt": "CCAGGTTCCACGGGATGCTCTGGGCAAAGACAGAGG"
+      },
+      "mate_evidence": [
+        {
+          "label": "U",
+          "n": 47448
+        },
+        {
+          "label": "one_mate_only",
+          "n": 7723
+        }
+      ],
+      "comparison": [],
+      "merge_status": []
+    },
+    {
+      "run": "SRR32414166",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "N": 59908,
+      "motifs": {
+        "edited": "AGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAAT",
+        "wt": "AGGGGTGATGTTGCCTGACCGGGGGCTGATGCCTAAT"
+      },
+      "mate_evidence": [
+        {
+          "label": "U",
+          "n": 53457
+        },
+        {
+          "label": "one_mate_only",
+          "n": 6449
+        },
+        {
+          "label": "edited",
+          "n": 2
+        }
+      ],
+      "comparison": [
+        {
+          "mate_label": "edited",
+          "delta": 0,
+          "certificate": "E",
+          "n": 2
+        },
+        {
+          "mate_label": "edited",
+          "delta": 27,
+          "certificate": "U",
+          "n": 2
+        },
+        {
+          "mate_label": "edited",
+          "delta": 36,
+          "certificate": "U",
+          "n": 2
+        },
+        {
+          "mate_label": "edited",
+          "delta": 45,
+          "certificate": "U",
+          "n": 2
+        },
+        {
+          "mate_label": "edited",
+          "delta": 54,
+          "certificate": "U",
+          "n": 2
+        }
+      ],
+      "merge_status": [
+        {
+          "mate_label": "edited",
+          "status": "evaluated",
+          "n": 2
+        }
+      ]
+    },
+    {
+      "run": "SRR32414163",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "N": 61787,
+      "motifs": {
+        "edited": "AGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAAT",
+        "wt": "AGGGGTGATGTTGCCTGACCGGGGGCTGATGCCTAAT"
+      },
+      "mate_evidence": [
+        {
+          "label": "U",
+          "n": 55529
+        },
+        {
+          "label": "one_mate_only",
+          "n": 6258
+        }
+      ],
+      "comparison": [],
+      "merge_status": []
+    },
+    {
+      "run": "SRR32414160",
+      "locus": "HBEGF",
+      "arm": "PE_unmodified",
+      "N": 62598,
+      "motifs": {
+        "edited": "AGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAAT",
+        "wt": "AGGGGTGATGTTGCCTGACCGGGGGCTGATGCCTAAT"
+      },
+      "mate_evidence": [
+        {
+          "label": "one_mate_only",
+          "n": 8445
+        },
+        {
+          "label": "U",
+          "n": 54153
+        }
+      ],
+      "comparison": [],
+      "merge_status": []
+    },
+    {
+      "run": "SRR32414095",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "N": 71390,
+      "motifs": {
+        "edited": "TGGCCCAGCCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGC",
+        "wt": "TGGCCCAGCCTGCTGTGGTACTGGCCAGCAGCCGAGGC"
+      },
+      "mate_evidence": [
+        {
+          "label": "wt",
+          "n": 31000
+        },
+        {
+          "label": "U",
+          "n": 39389
+        },
+        {
+          "label": "edited",
+          "n": 648
+        },
+        {
+          "label": "one_mate_only",
+          "n": 353
+        }
+      ],
+      "comparison": [
+        {
+          "mate_label": "edited",
+          "delta": 0,
+          "certificate": "E",
+          "n": 633
+        },
+        {
+          "mate_label": "edited",
+          "delta": 0,
+          "certificate": "U",
+          "n": 15
+        },
+        {
+          "mate_label": "edited",
+          "delta": 27,
+          "certificate": "E",
+          "n": 633
+        },
+        {
+          "mate_label": "edited",
+          "delta": 27,
+          "certificate": "U",
+          "n": 15
+        },
+        {
+          "mate_label": "edited",
+          "delta": 36,
+          "certificate": "E",
+          "n": 633
+        },
+        {
+          "mate_label": "edited",
+          "delta": 36,
+          "certificate": "U",
+          "n": 15
+        },
+        {
+          "mate_label": "edited",
+          "delta": 45,
+          "certificate": "U",
+          "n": 648
+        },
+        {
+          "mate_label": "edited",
+          "delta": 54,
+          "certificate": "U",
+          "n": 648
+        },
+        {
+          "mate_label": "wt",
+          "delta": 0,
+          "certificate": "NE",
+          "n": 28741
+        },
+        {
+          "mate_label": "wt",
+          "delta": 0,
+          "certificate": "U",
+          "n": 2259
+        },
+        {
+          "mate_label": "wt",
+          "delta": 27,
+          "certificate": "NE",
+          "n": 28741
+        },
+        {
+          "mate_label": "wt",
+          "delta": 27,
+          "certificate": "U",
+          "n": 2259
+        },
+        {
+          "mate_label": "wt",
+          "delta": 36,
+          "certificate": "NE",
+          "n": 28741
+        },
+        {
+          "mate_label": "wt",
+          "delta": 36,
+          "certificate": "U",
+          "n": 2259
+        },
+        {
+          "mate_label": "wt",
+          "delta": 45,
+          "certificate": "U",
+          "n": 31000
+        },
+        {
+          "mate_label": "wt",
+          "delta": 54,
+          "certificate": "U",
+          "n": 31000
+        }
+      ],
+      "merge_status": [
+        {
+          "mate_label": "edited",
+          "status": "evaluated",
+          "n": 633
+        },
+        {
+          "mate_label": "edited",
+          "status": "overlap_absent",
+          "n": 15
+        },
+        {
+          "mate_label": "wt",
+          "status": "evaluated",
+          "n": 28741
+        },
+        {
+          "mate_label": "wt",
+          "status": "overlap_absent",
+          "n": 2259
+        }
+      ]
+    },
+    {
+      "run": "SRR32414092",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "N": 79616,
+      "motifs": {
+        "edited": "TGGCCCAGCCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGC",
+        "wt": "TGGCCCAGCCTGCTGTGGTACTGGCCAGCAGCCGAGGC"
+      },
+      "mate_evidence": [
+        {
+          "label": "U",
+          "n": 45515
+        },
+        {
+          "label": "wt",
+          "n": 32865
+        },
+        {
+          "label": "edited",
+          "n": 888
+        },
+        {
+          "label": "one_mate_only",
+          "n": 348
+        }
+      ],
+      "comparison": [
+        {
+          "mate_label": "edited",
+          "delta": 0,
+          "certificate": "E",
+          "n": 869
+        },
+        {
+          "mate_label": "edited",
+          "delta": 0,
+          "certificate": "U",
+          "n": 19
+        },
+        {
+          "mate_label": "edited",
+          "delta": 27,
+          "certificate": "E",
+          "n": 869
+        },
+        {
+          "mate_label": "edited",
+          "delta": 27,
+          "certificate": "U",
+          "n": 19
+        },
+        {
+          "mate_label": "edited",
+          "delta": 36,
+          "certificate": "E",
+          "n": 869
+        },
+        {
+          "mate_label": "edited",
+          "delta": 36,
+          "certificate": "U",
+          "n": 19
+        },
+        {
+          "mate_label": "edited",
+          "delta": 45,
+          "certificate": "U",
+          "n": 888
+        },
+        {
+          "mate_label": "edited",
+          "delta": 54,
+          "certificate": "U",
+          "n": 888
+        },
+        {
+          "mate_label": "wt",
+          "delta": 0,
+          "certificate": "NE",
+          "n": 30780
+        },
+        {
+          "mate_label": "wt",
+          "delta": 0,
+          "certificate": "U",
+          "n": 2085
+        },
+        {
+          "mate_label": "wt",
+          "delta": 27,
+          "certificate": "NE",
+          "n": 30780
+        },
+        {
+          "mate_label": "wt",
+          "delta": 27,
+          "certificate": "U",
+          "n": 2085
+        },
+        {
+          "mate_label": "wt",
+          "delta": 36,
+          "certificate": "NE",
+          "n": 30780
+        },
+        {
+          "mate_label": "wt",
+          "delta": 36,
+          "certificate": "U",
+          "n": 2085
+        },
+        {
+          "mate_label": "wt",
+          "delta": 45,
+          "certificate": "U",
+          "n": 32865
+        },
+        {
+          "mate_label": "wt",
+          "delta": 54,
+          "certificate": "U",
+          "n": 32865
+        }
+      ],
+      "merge_status": [
+        {
+          "mate_label": "edited",
+          "status": "evaluated",
+          "n": 869
+        },
+        {
+          "mate_label": "edited",
+          "status": "overlap_absent",
+          "n": 19
+        },
+        {
+          "mate_label": "wt",
+          "status": "evaluated",
+          "n": 30780
+        },
+        {
+          "mate_label": "wt",
+          "status": "overlap_absent",
+          "n": 2085
+        }
+      ]
+    },
+    {
+      "run": "SRR32414264",
+      "locus": "CTLA4",
+      "arm": "PE_unmodified",
+      "N": 75200,
+      "motifs": {
+        "edited": "TGGCCCAGCCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGC",
+        "wt": "TGGCCCAGCCTGCTGTGGTACTGGCCAGCAGCCGAGGC"
+      },
+      "mate_evidence": [
+        {
+          "label": "wt",
+          "n": 33657
+        },
+        {
+          "label": "U",
+          "n": 40332
+        },
+        {
+          "label": "edited",
+          "n": 832
+        },
+        {
+          "label": "one_mate_only",
+          "n": 379
+        }
+      ],
+      "comparison": [
+        {
+          "mate_label": "edited",
+          "delta": 0,
+          "certificate": "E",
+          "n": 809
+        },
+        {
+          "mate_label": "edited",
+          "delta": 0,
+          "certificate": "U",
+          "n": 23
+        },
+        {
+          "mate_label": "edited",
+          "delta": 27,
+          "certificate": "E",
+          "n": 809
+        },
+        {
+          "mate_label": "edited",
+          "delta": 27,
+          "certificate": "U",
+          "n": 23
+        },
+        {
+          "mate_label": "edited",
+          "delta": 36,
+          "certificate": "E",
+          "n": 809
+        },
+        {
+          "mate_label": "edited",
+          "delta": 36,
+          "certificate": "U",
+          "n": 23
+        },
+        {
+          "mate_label": "edited",
+          "delta": 45,
+          "certificate": "U",
+          "n": 832
+        },
+        {
+          "mate_label": "edited",
+          "delta": 54,
+          "certificate": "U",
+          "n": 832
+        },
+        {
+          "mate_label": "wt",
+          "delta": 0,
+          "certificate": "NE",
+          "n": 31516
+        },
+        {
+          "mate_label": "wt",
+          "delta": 0,
+          "certificate": "U",
+          "n": 2141
+        },
+        {
+          "mate_label": "wt",
+          "delta": 27,
+          "certificate": "NE",
+          "n": 31516
+        },
+        {
+          "mate_label": "wt",
+          "delta": 27,
+          "certificate": "U",
+          "n": 2141
+        },
+        {
+          "mate_label": "wt",
+          "delta": 36,
+          "certificate": "NE",
+          "n": 31516
+        },
+        {
+          "mate_label": "wt",
+          "delta": 36,
+          "certificate": "U",
+          "n": 2141
+        },
+        {
+          "mate_label": "wt",
+          "delta": 45,
+          "certificate": "U",
+          "n": 33657
+        },
+        {
+          "mate_label": "wt",
+          "delta": 54,
+          "certificate": "U",
+          "n": 33657
+        }
+      ],
+      "merge_status": [
+        {
+          "mate_label": "edited",
+          "status": "evaluated",
+          "n": 809
+        },
+        {
+          "mate_label": "edited",
+          "status": "overlap_absent",
+          "n": 23
+        },
+        {
+          "mate_label": "wt",
+          "status": "evaluated",
+          "n": 31516
+        },
+        {
+          "mate_label": "wt",
+          "status": "overlap_absent",
+          "n": 2141
+        }
+      ]
+    }
+  ]
+}

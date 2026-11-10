@@ -1,0 +1,2981 @@
+{
+  "status": "COMPLETE_DELTA_0_TO_54",
+  "runs_references": [
+    {
+      "cohort": "cftr",
+      "run": "SRR29623274",
+      "reference": "mutant",
+      "raw_N": 13762,
+      "statuses": {
+        "evaluated": 13549,
+        "quality_fail": 204,
+        "orientation_absent": 9
+      },
+      "unique_oriented_sequences": 3682,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623274.fastq.gz": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623274.zip": "971778ab6d7d38423869146f42f02f5203f09b6e2e9958d3cad99df428977af1",
+        "raw_replay/inputs/alleles/programmed/SRR29623274.zip": "7888e32bd762478ff78a7e67a79860c23d329b7b24c83b71b268581b3d83c766"
+      },
+      "records_sha256": "8b3983e5e11d7821003b03d2eb7813fe80ca76f71ec3ec18c3a6be3328b746ac",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 1,
+          "NE": 13547,
+          "U": 214
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 1,
+          "NE": 13547,
+          "U": 214
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 1,
+          "NE": 13547,
+          "U": 214
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 1,
+          "NE": 13546,
+          "U": 215
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 1,
+          "NE": 13522,
+          "U": 239
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 1,
+          "NE": 13432,
+          "U": 329
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 13762
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 0,
+          "NE": 13548,
+          "U": 214
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 0,
+          "NE": 13548,
+          "U": 214
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 0,
+          "NE": 13548,
+          "U": 214
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 0,
+          "NE": 13547,
+          "U": 215
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 13523,
+          "U": 239
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 13433,
+          "U": 329
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 13762
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623274",
+      "reference": "programmed",
+      "raw_N": 13762,
+      "statuses": {
+        "evaluated": 13549,
+        "quality_fail": 204,
+        "orientation_absent": 9
+      },
+      "unique_oriented_sequences": 3682,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623274.fastq.gz": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623274.zip": "971778ab6d7d38423869146f42f02f5203f09b6e2e9958d3cad99df428977af1",
+        "raw_replay/inputs/alleles/programmed/SRR29623274.zip": "7888e32bd762478ff78a7e67a79860c23d329b7b24c83b71b268581b3d83c766"
+      },
+      "records_sha256": "500ddcdac4ffa6c62a62d7f09fc76cd380981265b56b9ac480c2abe7f2f89007",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 1,
+          "NE": 13548,
+          "U": 213
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 1,
+          "NE": 13547,
+          "U": 214
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 1,
+          "NE": 13546,
+          "U": 215
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 1,
+          "NE": 13544,
+          "U": 217
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 0,
+          "NE": 13495,
+          "U": 267
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 0,
+          "NE": 13344,
+          "U": 418
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 13762
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 0,
+          "NE": 13549,
+          "U": 213
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 0,
+          "NE": 13548,
+          "U": 214
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 0,
+          "NE": 13547,
+          "U": 215
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 0,
+          "NE": 13545,
+          "U": 217
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 13496,
+          "U": 266
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 13345,
+          "U": 417
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 13762
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623266",
+      "reference": "mutant",
+      "raw_N": 13617,
+      "statuses": {
+        "evaluated": 13491,
+        "quality_fail": 119,
+        "orientation_absent": 7
+      },
+      "unique_oriented_sequences": 6278,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623266.fastq.gz": "44acba4f80562185c7f3720f500106e4797df1bb5a7bcb182e1225cdb3a89bf7",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623266.zip": "cb22b15cb8cd958f0d0a052a0aa2b1f038e0025171bae6d8426d5000282d8622",
+        "raw_replay/inputs/alleles/programmed/SRR29623266.zip": "6c4db21ea67c3d00ec0062c51c3ee99cb560d48b3070e5f83ba00032b0d09985"
+      },
+      "records_sha256": "ef30e0059fcedad6251d8e6b7c390bb8a0a437a724c5252cc8ae193de690beb9",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 0,
+          "NE": 13491,
+          "U": 126
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 0,
+          "NE": 13491,
+          "U": 126
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 0,
+          "NE": 13491,
+          "U": 126
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 0,
+          "NE": 13490,
+          "U": 127
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 0,
+          "NE": 13463,
+          "U": 154
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 0,
+          "NE": 13396,
+          "U": 221
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 13617
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 0,
+          "NE": 13491,
+          "U": 126
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 0,
+          "NE": 13491,
+          "U": 126
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 0,
+          "NE": 13491,
+          "U": 126
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 0,
+          "NE": 13490,
+          "U": 127
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 13463,
+          "U": 154
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 13396,
+          "U": 221
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 13617
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623266",
+      "reference": "programmed",
+      "raw_N": 13617,
+      "statuses": {
+        "evaluated": 13491,
+        "quality_fail": 119,
+        "orientation_absent": 7
+      },
+      "unique_oriented_sequences": 6278,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623266.fastq.gz": "44acba4f80562185c7f3720f500106e4797df1bb5a7bcb182e1225cdb3a89bf7",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623266.zip": "cb22b15cb8cd958f0d0a052a0aa2b1f038e0025171bae6d8426d5000282d8622",
+        "raw_replay/inputs/alleles/programmed/SRR29623266.zip": "6c4db21ea67c3d00ec0062c51c3ee99cb560d48b3070e5f83ba00032b0d09985"
+      },
+      "records_sha256": "1cedff90417f59bead7755073198d4fa87d280339445d5121e819753e455b4ee",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 0,
+          "NE": 13491,
+          "U": 126
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 0,
+          "NE": 13489,
+          "U": 128
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 0,
+          "NE": 13489,
+          "U": 128
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 0,
+          "NE": 13488,
+          "U": 129
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 0,
+          "NE": 13447,
+          "U": 170
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 0,
+          "NE": 13326,
+          "U": 291
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 13617
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 0,
+          "NE": 13491,
+          "U": 126
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 0,
+          "NE": 13489,
+          "U": 128
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 0,
+          "NE": 13489,
+          "U": 128
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 0,
+          "NE": 13488,
+          "U": 129
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 13447,
+          "U": 170
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 13326,
+          "U": 291
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 13617
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623268",
+      "reference": "mutant",
+      "raw_N": 29956,
+      "statuses": {
+        "evaluated": 29660,
+        "quality_fail": 279,
+        "orientation_absent": 17
+      },
+      "unique_oriented_sequences": 12216,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623268.fastq.gz": "5bcdc1e06d0fcabe90c1e40f03725593aea9c7d4d8d2951e00bf93e4e118ec18",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623268.zip": "9ac009d4078e291a4332040d77baffed0d8b84a31f673dc3f7b54b194f9b0fd2",
+        "raw_replay/inputs/alleles/programmed/SRR29623268.zip": "95c2fb5c5acd6eca78ab848abeb489062220268f486a980443a468c0a6a63632"
+      },
+      "records_sha256": "b2970481d369b781e136c3b4e704549828f65f753e8f4c41ad71c4685f1c1cb3",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 0,
+          "NE": 29658,
+          "U": 298
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 0,
+          "NE": 29657,
+          "U": 299
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 0,
+          "NE": 29657,
+          "U": 299
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 0,
+          "NE": 29657,
+          "U": 299
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 0,
+          "NE": 29593,
+          "U": 363
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 0,
+          "NE": 29451,
+          "U": 505
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 29956
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 0,
+          "NE": 29658,
+          "U": 298
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 0,
+          "NE": 29657,
+          "U": 299
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 0,
+          "NE": 29657,
+          "U": 299
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 0,
+          "NE": 29657,
+          "U": 299
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 29593,
+          "U": 363
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 29451,
+          "U": 505
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 29956
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623268",
+      "reference": "programmed",
+      "raw_N": 29956,
+      "statuses": {
+        "evaluated": 29660,
+        "quality_fail": 279,
+        "orientation_absent": 17
+      },
+      "unique_oriented_sequences": 12216,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623268.fastq.gz": "5bcdc1e06d0fcabe90c1e40f03725593aea9c7d4d8d2951e00bf93e4e118ec18",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623268.zip": "9ac009d4078e291a4332040d77baffed0d8b84a31f673dc3f7b54b194f9b0fd2",
+        "raw_replay/inputs/alleles/programmed/SRR29623268.zip": "95c2fb5c5acd6eca78ab848abeb489062220268f486a980443a468c0a6a63632"
+      },
+      "records_sha256": "11649bcc3224f4f684cea6eeb15283f0e14ce812f92e02e7eafe3e8802e91470",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 0,
+          "NE": 29658,
+          "U": 298
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 0,
+          "NE": 29657,
+          "U": 299
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 0,
+          "NE": 29657,
+          "U": 299
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 0,
+          "NE": 29657,
+          "U": 299
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 0,
+          "NE": 29550,
+          "U": 406
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 0,
+          "NE": 29272,
+          "U": 684
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 29956
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 0,
+          "NE": 29658,
+          "U": 298
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 0,
+          "NE": 29657,
+          "U": 299
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 0,
+          "NE": 29657,
+          "U": 299
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 0,
+          "NE": 29657,
+          "U": 299
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 29550,
+          "U": 406
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 29272,
+          "U": 684
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 29956
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623273",
+      "reference": "mutant",
+      "raw_N": 17177,
+      "statuses": {
+        "evaluated": 16879,
+        "quality_fail": 290,
+        "orientation_absent": 8
+      },
+      "unique_oriented_sequences": 4292,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623273.fastq.gz": "92bfda645464e561adf6a8c1f308b57530e400ecc64da1a42fcc494687d247d6",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623273.zip": "a12c262192a97e045391bbb6027749ea686d9230c498e75d062520c6817ca516",
+        "raw_replay/inputs/alleles/programmed/SRR29623273.zip": "2c751c49df0e7eee4163af57b3336889b9670386b7cbf010fdd36b69c72e5239"
+      },
+      "records_sha256": "c89ef052ad0eb7ed5ef301bdf0896beea1ff25dcf50e5021666208823e7685e0",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 2,
+          "NE": 16876,
+          "U": 299
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 2,
+          "NE": 16873,
+          "U": 302
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 2,
+          "NE": 16872,
+          "U": 303
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 2,
+          "NE": 16869,
+          "U": 306
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 0,
+          "NE": 16836,
+          "U": 341
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 0,
+          "NE": 16737,
+          "U": 440
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 17177
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 2,
+          "NE": 16876,
+          "U": 299
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 2,
+          "NE": 16873,
+          "U": 302
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 2,
+          "NE": 16872,
+          "U": 303
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 2,
+          "NE": 16869,
+          "U": 306
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 16836,
+          "U": 341
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 16737,
+          "U": 440
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 17177
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623273",
+      "reference": "programmed",
+      "raw_N": 17177,
+      "statuses": {
+        "evaluated": 16879,
+        "quality_fail": 290,
+        "orientation_absent": 8
+      },
+      "unique_oriented_sequences": 4292,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623273.fastq.gz": "92bfda645464e561adf6a8c1f308b57530e400ecc64da1a42fcc494687d247d6",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623273.zip": "a12c262192a97e045391bbb6027749ea686d9230c498e75d062520c6817ca516",
+        "raw_replay/inputs/alleles/programmed/SRR29623273.zip": "2c751c49df0e7eee4163af57b3336889b9670386b7cbf010fdd36b69c72e5239"
+      },
+      "records_sha256": "b7f004a0a93fc4d521b62f99744d1d323c3208cee5f3c10acc32f22dd7df01c5",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 2,
+          "NE": 16876,
+          "U": 299
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 2,
+          "NE": 16872,
+          "U": 303
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 2,
+          "NE": 16870,
+          "U": 305
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 2,
+          "NE": 16865,
+          "U": 310
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 2,
+          "NE": 16813,
+          "U": 362
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 2,
+          "NE": 16627,
+          "U": 548
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 17177
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 2,
+          "NE": 16876,
+          "U": 299
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 2,
+          "NE": 16872,
+          "U": 303
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 2,
+          "NE": 16870,
+          "U": 305
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 2,
+          "NE": 16865,
+          "U": 310
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 2,
+          "NE": 16813,
+          "U": 362
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 2,
+          "NE": 16627,
+          "U": 548
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 17177
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623265",
+      "reference": "mutant",
+      "raw_N": 21041,
+      "statuses": {
+        "evaluated": 20848,
+        "quality_fail": 186,
+        "orientation_absent": 7
+      },
+      "unique_oriented_sequences": 7987,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623265.fastq.gz": "e08c98ebdceb3745b17ca8f92be45900385623c8499f4cbaa63af4dac15c01ae",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623265.zip": "dd57b92e4af5568d295c0a75e0b68b616079d0194421222a7cc6acfd7ffc833b",
+        "raw_replay/inputs/alleles/programmed/SRR29623265.zip": "36a5d0b9a7cae3f806ea0611901272ec08b40bdbc9907c623e39743a5dc66f6d"
+      },
+      "records_sha256": "2d9105d4991be97bf29bdec6b2558dbc24b35134e25693ab66d0b8af28e39de9",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 0,
+          "NE": 20848,
+          "U": 193
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 0,
+          "NE": 20846,
+          "U": 195
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 0,
+          "NE": 20846,
+          "U": 195
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 0,
+          "NE": 20844,
+          "U": 197
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 0,
+          "NE": 20796,
+          "U": 245
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 0,
+          "NE": 20727,
+          "U": 314
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 21041
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 0,
+          "NE": 20848,
+          "U": 193
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 0,
+          "NE": 20846,
+          "U": 195
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 0,
+          "NE": 20846,
+          "U": 195
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 0,
+          "NE": 20844,
+          "U": 197
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 20796,
+          "U": 245
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 20727,
+          "U": 314
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 21041
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623265",
+      "reference": "programmed",
+      "raw_N": 21041,
+      "statuses": {
+        "evaluated": 20848,
+        "quality_fail": 186,
+        "orientation_absent": 7
+      },
+      "unique_oriented_sequences": 7987,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623265.fastq.gz": "e08c98ebdceb3745b17ca8f92be45900385623c8499f4cbaa63af4dac15c01ae",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623265.zip": "dd57b92e4af5568d295c0a75e0b68b616079d0194421222a7cc6acfd7ffc833b",
+        "raw_replay/inputs/alleles/programmed/SRR29623265.zip": "36a5d0b9a7cae3f806ea0611901272ec08b40bdbc9907c623e39743a5dc66f6d"
+      },
+      "records_sha256": "a52355c3041d11df578b4d736b17209f4cc837739db58a01f61e311402f8eb59",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 0,
+          "NE": 20848,
+          "U": 193
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 0,
+          "NE": 20845,
+          "U": 196
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 0,
+          "NE": 20844,
+          "U": 197
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 0,
+          "NE": 20843,
+          "U": 198
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 0,
+          "NE": 20770,
+          "U": 271
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 0,
+          "NE": 20634,
+          "U": 407
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 21041
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 0,
+          "NE": 20848,
+          "U": 193
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 0,
+          "NE": 20845,
+          "U": 196
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 0,
+          "NE": 20844,
+          "U": 197
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 0,
+          "NE": 20843,
+          "U": 198
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 20770,
+          "U": 271
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 20634,
+          "U": 407
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 21041
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623267",
+      "reference": "mutant",
+      "raw_N": 27024,
+      "statuses": {
+        "evaluated": 26791,
+        "quality_fail": 219,
+        "orientation_absent": 14
+      },
+      "unique_oriented_sequences": 10461,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623267.fastq.gz": "e26c858bf862b755bf333dd7ba9810bf9926ffc2e3d5652c19417adb83e81b16",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623267.zip": "addccf54f19c385a149401fe48338750e1b5f35c2575c203b11e503faeebaba7",
+        "raw_replay/inputs/alleles/programmed/SRR29623267.zip": "8e2a0191bfe555903e58c4a3b05681d57de3ca8b5a24afe2331cccc1a3685be0"
+      },
+      "records_sha256": "ea42a0fdd4711a28e8961a1e4e6cc0eb79e6642d8b32b126f4d6bf5b25dbe571",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 0,
+          "NE": 26789,
+          "U": 235
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 0,
+          "NE": 26788,
+          "U": 236
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 0,
+          "NE": 26787,
+          "U": 237
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 0,
+          "NE": 26784,
+          "U": 240
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 0,
+          "NE": 26735,
+          "U": 289
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 0,
+          "NE": 26613,
+          "U": 411
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 27024
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 0,
+          "NE": 26789,
+          "U": 235
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 0,
+          "NE": 26788,
+          "U": 236
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 0,
+          "NE": 26787,
+          "U": 237
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 0,
+          "NE": 26784,
+          "U": 240
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 26735,
+          "U": 289
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 26613,
+          "U": 411
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 27024
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623267",
+      "reference": "programmed",
+      "raw_N": 27024,
+      "statuses": {
+        "evaluated": 26791,
+        "quality_fail": 219,
+        "orientation_absent": 14
+      },
+      "unique_oriented_sequences": 10461,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623267.fastq.gz": "e26c858bf862b755bf333dd7ba9810bf9926ffc2e3d5652c19417adb83e81b16",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623267.zip": "addccf54f19c385a149401fe48338750e1b5f35c2575c203b11e503faeebaba7",
+        "raw_replay/inputs/alleles/programmed/SRR29623267.zip": "8e2a0191bfe555903e58c4a3b05681d57de3ca8b5a24afe2331cccc1a3685be0"
+      },
+      "records_sha256": "b5dadcdacb61929461afed87ad617b58e9a062ac83453dae1e7166569c6b6957",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 0,
+          "NE": 26789,
+          "U": 235
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 0,
+          "NE": 26787,
+          "U": 237
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 0,
+          "NE": 26784,
+          "U": 240
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 0,
+          "NE": 26783,
+          "U": 241
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 0,
+          "NE": 26696,
+          "U": 328
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 0,
+          "NE": 26496,
+          "U": 528
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 27024
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 0,
+          "NE": 26789,
+          "U": 235
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 0,
+          "NE": 26787,
+          "U": 237
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 0,
+          "NE": 26784,
+          "U": 240
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 0,
+          "NE": 26783,
+          "U": 241
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 26696,
+          "U": 328
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 26496,
+          "U": 528
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 27024
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623272",
+      "reference": "mutant",
+      "raw_N": 20573,
+      "statuses": {
+        "evaluated": 20176,
+        "quality_fail": 361,
+        "orientation_absent": 36
+      },
+      "unique_oriented_sequences": 6668,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623272.fastq.gz": "02c9293171e656fedaab5abfeefc1d7683e7d0a25eaa05e13deca2a330420b09",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623272.zip": "3dcfa5d11cb9d35eff39d72749b257e49947f832a2e25bd62f2af77f6695f559",
+        "raw_replay/inputs/alleles/programmed/SRR29623272.zip": "2a2f69ee85a13e076fbe9585a6a0d0bb1bb09509af58f66c69a6aa750f8e202f"
+      },
+      "records_sha256": "2b69b1609c40a7cb8fdf40af4640da89937a7fd86d47cdd4e08999c0c4fddbb6",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 3688,
+          "NE": 16379,
+          "U": 506
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 3688,
+          "NE": 16333,
+          "U": 552
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 3688,
+          "NE": 16313,
+          "U": 572
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 3683,
+          "NE": 16250,
+          "U": 640
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 2,
+          "NE": 15546,
+          "U": 5025
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 1,
+          "NE": 15436,
+          "U": 5136
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 20573
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 3664,
+          "NE": 16403,
+          "U": 506
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 3664,
+          "NE": 16357,
+          "U": 552
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 3664,
+          "NE": 16337,
+          "U": 572
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 3659,
+          "NE": 16274,
+          "U": 640
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 15548,
+          "U": 5025
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 15437,
+          "U": 5136
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 20573
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623272",
+      "reference": "programmed",
+      "raw_N": 20573,
+      "statuses": {
+        "evaluated": 20176,
+        "quality_fail": 361,
+        "orientation_absent": 36
+      },
+      "unique_oriented_sequences": 6668,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623272.fastq.gz": "02c9293171e656fedaab5abfeefc1d7683e7d0a25eaa05e13deca2a330420b09",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623272.zip": "3dcfa5d11cb9d35eff39d72749b257e49947f832a2e25bd62f2af77f6695f559",
+        "raw_replay/inputs/alleles/programmed/SRR29623272.zip": "2a2f69ee85a13e076fbe9585a6a0d0bb1bb09509af58f66c69a6aa750f8e202f"
+      },
+      "records_sha256": "599fd94d4031255584c49c923fee8760d94c983ffee3d09615182e8f0d752e70",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 3694,
+          "NE": 16372,
+          "U": 507
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 3690,
+          "NE": 16307,
+          "U": 576
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 3690,
+          "NE": 16275,
+          "U": 608
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 3688,
+          "NE": 16258,
+          "U": 627
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 3681,
+          "NE": 16137,
+          "U": 755
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 3632,
+          "NE": 15861,
+          "U": 1080
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 20573
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 3670,
+          "NE": 16396,
+          "U": 507
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 3666,
+          "NE": 16331,
+          "U": 576
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 3666,
+          "NE": 16299,
+          "U": 608
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 3664,
+          "NE": 16282,
+          "U": 627
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 3657,
+          "NE": 16161,
+          "U": 755
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 3608,
+          "NE": 15885,
+          "U": 1080
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 20573
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623271",
+      "reference": "mutant",
+      "raw_N": 19184,
+      "statuses": {
+        "quality_fail": 202,
+        "evaluated": 18873,
+        "orientation_absent": 109
+      },
+      "unique_oriented_sequences": 9269,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623271.fastq.gz": "af323c3bf66ec6ced0ba12d746d3bcbb03f74ca09788cd1cb9138905687d129c",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623271.zip": "5ef4a5c05f5b713f4a736794e69e1b740e90adb768912c93467360a337cf3a9e",
+        "raw_replay/inputs/alleles/programmed/SRR29623271.zip": "04e78ba9cf33748cce7d804051e922fc85218af89927833d6ea009d8c400b731"
+      },
+      "records_sha256": "bb4b75a07af86260811423c1173f64b4131a820138ffc9a77f261c5bc355ff99",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 5811,
+          "NE": 12950,
+          "U": 423
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 5778,
+          "NE": 12908,
+          "U": 498
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 5774,
+          "NE": 12845,
+          "U": 565
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 5771,
+          "NE": 12761,
+          "U": 652
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 28,
+          "NE": 11970,
+          "U": 7186
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 27,
+          "NE": 11884,
+          "U": 7273
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 19184
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 5743,
+          "NE": 13018,
+          "U": 423
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 5710,
+          "NE": 12976,
+          "U": 498
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 5706,
+          "NE": 12914,
+          "U": 564
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 5704,
+          "NE": 12830,
+          "U": 650
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 11999,
+          "U": 7185
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 11912,
+          "U": 7272
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 19184
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623271",
+      "reference": "programmed",
+      "raw_N": 19184,
+      "statuses": {
+        "quality_fail": 202,
+        "evaluated": 18878,
+        "orientation_absent": 104
+      },
+      "unique_oriented_sequences": 9274,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623271.fastq.gz": "af323c3bf66ec6ced0ba12d746d3bcbb03f74ca09788cd1cb9138905687d129c",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623271.zip": "5ef4a5c05f5b713f4a736794e69e1b740e90adb768912c93467360a337cf3a9e",
+        "raw_replay/inputs/alleles/programmed/SRR29623271.zip": "04e78ba9cf33748cce7d804051e922fc85218af89927833d6ea009d8c400b731"
+      },
+      "records_sha256": "75237b1dbdd078bf23d11194afc146f1609173dbd7c5d30774b8b384ff60acc4",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 5815,
+          "NE": 12870,
+          "U": 499
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 5780,
+          "NE": 12847,
+          "U": 557
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 5775,
+          "NE": 12813,
+          "U": 596
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 5775,
+          "NE": 12778,
+          "U": 631
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 5754,
+          "NE": 12685,
+          "U": 745
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 5734,
+          "NE": 12524,
+          "U": 926
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 19184
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 5747,
+          "NE": 12940,
+          "U": 497
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 5712,
+          "NE": 12917,
+          "U": 555
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 5708,
+          "NE": 12883,
+          "U": 593
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 5708,
+          "NE": 12848,
+          "U": 628
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 5693,
+          "NE": 12752,
+          "U": 739
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 5674,
+          "NE": 12591,
+          "U": 919
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 19184
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623270",
+      "reference": "mutant",
+      "raw_N": 14672,
+      "statuses": {
+        "evaluated": 14485,
+        "quality_fail": 136,
+        "orientation_absent": 51
+      },
+      "unique_oriented_sequences": 8068,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623270.fastq.gz": "25b464764843cb52616451bce61b4a2fb15ca3f41ab275308eee05349eb2ad67",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623270.zip": "388f0287a244ca8d8517dd6c5e59b526f1c6c25922cd6859790c1152cef9f4e6",
+        "raw_replay/inputs/alleles/programmed/SRR29623270.zip": "ad1c216918c917761442e3e86e9996f8f75a0be8dafb7356b7999f06e8c71463"
+      },
+      "records_sha256": "08ee11d922557b076cb4ff04893f55a2a8c77c59850c7e329ba7a77431a08921",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 3850,
+          "NE": 10528,
+          "U": 294
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 3830,
+          "NE": 10499,
+          "U": 343
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 3810,
+          "NE": 10431,
+          "U": 431
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 3806,
+          "NE": 10359,
+          "U": 507
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 11,
+          "NE": 9833,
+          "U": 4828
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 10,
+          "NE": 9705,
+          "U": 4957
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 14672
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 3815,
+          "NE": 10563,
+          "U": 294
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 3795,
+          "NE": 10534,
+          "U": 343
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 3775,
+          "NE": 10467,
+          "U": 430
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 3771,
+          "NE": 10398,
+          "U": 503
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 0,
+          "NE": 9845,
+          "U": 4827
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 0,
+          "NE": 9715,
+          "U": 4957
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 14672
+        }
+      ]
+    },
+    {
+      "cohort": "cftr",
+      "run": "SRR29623270",
+      "reference": "programmed",
+      "raw_N": 14672,
+      "statuses": {
+        "evaluated": 14488,
+        "quality_fail": 136,
+        "orientation_absent": 48
+      },
+      "unique_oriented_sequences": 8071,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "native",
+        "exact"
+      ],
+      "inputs": {
+        "SRR29623270.fastq.gz": "25b464764843cb52616451bce61b4a2fb15ca3f41ab275308eee05349eb2ad67",
+        "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+        "raw_replay/inputs/alleles/mutant/SRR29623270.zip": "388f0287a244ca8d8517dd6c5e59b526f1c6c25922cd6859790c1152cef9f4e6",
+        "raw_replay/inputs/alleles/programmed/SRR29623270.zip": "ad1c216918c917761442e3e86e9996f8f75a0be8dafb7356b7999f06e8c71463"
+      },
+      "records_sha256": "8820c1a7645008a8f8c51070c56c1b5c9e04458a5ae3223bfadb92eea626d976",
+      "rows": [
+        {
+          "target": "native",
+          "delta": 0,
+          "E": 3856,
+          "NE": 10470,
+          "U": 346
+        },
+        {
+          "target": "native",
+          "delta": 9,
+          "E": 3833,
+          "NE": 10437,
+          "U": 402
+        },
+        {
+          "target": "native",
+          "delta": 18,
+          "E": 3813,
+          "NE": 10393,
+          "U": 466
+        },
+        {
+          "target": "native",
+          "delta": 27,
+          "E": 3809,
+          "NE": 10350,
+          "U": 513
+        },
+        {
+          "target": "native",
+          "delta": 36,
+          "E": 3781,
+          "NE": 10268,
+          "U": 623
+        },
+        {
+          "target": "native",
+          "delta": 45,
+          "E": 3764,
+          "NE": 10148,
+          "U": 760
+        },
+        {
+          "target": "native",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 14672
+        },
+        {
+          "target": "exact",
+          "delta": 0,
+          "E": 3821,
+          "NE": 10506,
+          "U": 345
+        },
+        {
+          "target": "exact",
+          "delta": 9,
+          "E": 3798,
+          "NE": 10477,
+          "U": 397
+        },
+        {
+          "target": "exact",
+          "delta": 18,
+          "E": 3778,
+          "NE": 10433,
+          "U": 461
+        },
+        {
+          "target": "exact",
+          "delta": 27,
+          "E": 3774,
+          "NE": 10390,
+          "U": 508
+        },
+        {
+          "target": "exact",
+          "delta": 36,
+          "E": 3748,
+          "NE": 10306,
+          "U": 618
+        },
+        {
+          "target": "exact",
+          "delta": 45,
+          "E": 3731,
+          "NE": 10183,
+          "U": 758
+        },
+        {
+          "target": "exact",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 14672
+        }
+      ]
+    },
+    {
+      "cohort": "hek3",
+      "run": "SRR10285860",
+      "reference": "reference",
+      "raw_N": 58590,
+      "statuses": {
+        "evaluated": 57905,
+        "quality_fail": 676,
+        "orientation_absent": 9
+      },
+      "unique_oriented_sequences": 7715,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "programmed_local",
+        "unedited_local"
+      ],
+      "inputs": {
+        "SRR10285860.fastq.gz": "947ef97d84ae69663f9a254eaba922c4b095bb65fde79e77b8c0e5e07ba8563a",
+        "HEK3_COMPLETE_RECORD_LEDGER.csv.gz": "e23d7f441938c020c368838257baca1c63ce861e4e023572bfac50b285b72f56",
+        "extensions/correspondence_frontier/inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285860/Alleles_frequency_table.zip": "346423402c3eff3d6942aad052c06e1f383d494518fd577c856b7ce4e1178500",
+        "extensions/correspondence_frontier/inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285860/Alleles_frequency_table.zip": "4c3b1aab928837aa4a07af31a2faf7899fc568339d3d467675d9d92c736d13de"
+      },
+      "records_sha256": "c27f5729763de2cbee59c1ede724bfe08e16d6fa95c99b11e638f885716616ed",
+      "rows": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 6301,
+          "NE": 51100,
+          "U": 1189
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 6300,
+          "NE": 50827,
+          "U": 1463
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 6297,
+          "NE": 50824,
+          "U": 1469
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 6290,
+          "NE": 50788,
+          "U": 1512
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 6286,
+          "NE": 50649,
+          "U": 1655
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 58590
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 58590
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 32644,
+          "NE": 24538,
+          "U": 1408
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 32639,
+          "NE": 24506,
+          "U": 1445
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 32639,
+          "NE": 24501,
+          "U": 1450
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 32639,
+          "NE": 24408,
+          "U": 1543
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 32620,
+          "NE": 24315,
+          "U": 1655
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 58590
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 58590
+        }
+      ]
+    },
+    {
+      "cohort": "hek3",
+      "run": "SRR10285860",
+      "reference": "programmed_reference",
+      "raw_N": 58590,
+      "statuses": {
+        "evaluated": 57905,
+        "quality_fail": 676,
+        "orientation_absent": 9
+      },
+      "unique_oriented_sequences": 7715,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "programmed_local",
+        "unedited_local"
+      ],
+      "inputs": {
+        "SRR10285860.fastq.gz": "947ef97d84ae69663f9a254eaba922c4b095bb65fde79e77b8c0e5e07ba8563a",
+        "HEK3_COMPLETE_RECORD_LEDGER.csv.gz": "e23d7f441938c020c368838257baca1c63ce861e4e023572bfac50b285b72f56",
+        "extensions/correspondence_frontier/inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285860/Alleles_frequency_table.zip": "346423402c3eff3d6942aad052c06e1f383d494518fd577c856b7ce4e1178500",
+        "extensions/correspondence_frontier/inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285860/Alleles_frequency_table.zip": "4c3b1aab928837aa4a07af31a2faf7899fc568339d3d467675d9d92c736d13de"
+      },
+      "records_sha256": "2c78b419cdc7d8b42ec31ba9b6a108bcd13b57425f8c03a2a0e3e25785909988",
+      "rows": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 6302,
+          "NE": 50839,
+          "U": 1449
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 6300,
+          "NE": 50826,
+          "U": 1464
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 6297,
+          "NE": 50824,
+          "U": 1469
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 6290,
+          "NE": 50771,
+          "U": 1529
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 6287,
+          "NE": 50624,
+          "U": 1679
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 58590
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 58590
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 32644,
+          "NE": 24784,
+          "U": 1162
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 32639,
+          "NE": 24516,
+          "U": 1435
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 32639,
+          "NE": 24501,
+          "U": 1450
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 32623,
+          "NE": 24412,
+          "U": 1555
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 32604,
+          "NE": 24307,
+          "U": 1679
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 58590
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 58590
+        }
+      ]
+    },
+    {
+      "cohort": "hek3",
+      "run": "SRR10285862",
+      "reference": "reference",
+      "raw_N": 86980,
+      "statuses": {
+        "evaluated": 85819,
+        "quality_fail": 993,
+        "orientation_absent": 168
+      },
+      "unique_oriented_sequences": 10271,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "programmed_local",
+        "unedited_local"
+      ],
+      "inputs": {
+        "SRR10285862.fastq.gz": "ca958330d6a3494b717b40ab48e8c5ea2d08560c3ae28d9e6da17573238cc95f",
+        "HEK3_COMPLETE_RECORD_LEDGER.csv.gz": "e23d7f441938c020c368838257baca1c63ce861e4e023572bfac50b285b72f56",
+        "extensions/correspondence_frontier/inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": "3e629d510a913a3be07c9bacdd4d3b088df3fe017b60163f5e8967f49eb1cf87",
+        "extensions/correspondence_frontier/inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": "0aef13b009f5749a7a3afd2adb2686743728c7a80485cbbc9bc2d2b5c74aaa08"
+      },
+      "records_sha256": "c6f068c3bd05a3caefecf13497a542c6f1f3cae7c546b35cad287e2fd9154038",
+      "rows": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 10303,
+          "NE": 74953,
+          "U": 1724
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 10300,
+          "NE": 74661,
+          "U": 2019
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 10266,
+          "NE": 74653,
+          "U": 2061
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 10266,
+          "NE": 74598,
+          "U": 2116
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 10242,
+          "NE": 74339,
+          "U": 2399
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 86980
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 86980
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 48171,
+          "NE": 36983,
+          "U": 1826
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 48138,
+          "NE": 36829,
+          "U": 2013
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 48137,
+          "NE": 36788,
+          "U": 2055
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 48137,
+          "NE": 36592,
+          "U": 2251
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 48116,
+          "NE": 36465,
+          "U": 2399
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 86980
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 86980
+        }
+      ]
+    },
+    {
+      "cohort": "hek3",
+      "run": "SRR10285862",
+      "reference": "programmed_reference",
+      "raw_N": 86980,
+      "statuses": {
+        "evaluated": 85819,
+        "quality_fail": 993,
+        "orientation_absent": 168
+      },
+      "unique_oriented_sequences": 10271,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "programmed_local",
+        "unedited_local"
+      ],
+      "inputs": {
+        "SRR10285862.fastq.gz": "ca958330d6a3494b717b40ab48e8c5ea2d08560c3ae28d9e6da17573238cc95f",
+        "HEK3_COMPLETE_RECORD_LEDGER.csv.gz": "e23d7f441938c020c368838257baca1c63ce861e4e023572bfac50b285b72f56",
+        "extensions/correspondence_frontier/inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": "3e629d510a913a3be07c9bacdd4d3b088df3fe017b60163f5e8967f49eb1cf87",
+        "extensions/correspondence_frontier/inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": "0aef13b009f5749a7a3afd2adb2686743728c7a80485cbbc9bc2d2b5c74aaa08"
+      },
+      "records_sha256": "1a5ef9ebd50ac2a1520d857c8be78d24eb08c14a2d85331c2c9f96eda66e9c45",
+      "rows": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 10303,
+          "NE": 74731,
+          "U": 1946
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 10300,
+          "NE": 74664,
+          "U": 2016
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 10266,
+          "NE": 74653,
+          "U": 2061
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 10266,
+          "NE": 74594,
+          "U": 2120
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 10244,
+          "NE": 74255,
+          "U": 2481
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 86980
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 86980
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 48171,
+          "NE": 37225,
+          "U": 1584
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 48138,
+          "NE": 36945,
+          "U": 1897
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 48137,
+          "NE": 36788,
+          "U": 2055
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 48118,
+          "NE": 36607,
+          "U": 2255
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 48097,
+          "NE": 36402,
+          "U": 2481
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 86980
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 86980
+        }
+      ]
+    },
+    {
+      "cohort": "hek3",
+      "run": "SRR10285861",
+      "reference": "reference",
+      "raw_N": 73360,
+      "statuses": {
+        "evaluated": 72407,
+        "quality_fail": 885,
+        "orientation_absent": 68
+      },
+      "unique_oriented_sequences": 9407,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "programmed_local",
+        "unedited_local"
+      ],
+      "inputs": {
+        "SRR10285861.fastq.gz": "e89a193fe84eda143cbb2c1df154e44157d467a578aeaf077b13f9703d0a816a",
+        "HEK3_COMPLETE_RECORD_LEDGER.csv.gz": "e23d7f441938c020c368838257baca1c63ce861e4e023572bfac50b285b72f56",
+        "extensions/correspondence_frontier/inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285861/Alleles_frequency_table.zip": "ae82a0dbe3506702de854eb5272c5828365a167f613cf3d03ccd89efb55ec6ee",
+        "extensions/correspondence_frontier/inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285861/Alleles_frequency_table.zip": "9b9a4c0f684f10db46c28a303905d143212074b43851438025eab9c1096eebf3"
+      },
+      "records_sha256": "9dfdd9348b30f16bf5fda1c92e28d6191e7956fb3510b45ba3c2ba4456a59b02",
+      "rows": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 9852,
+          "NE": 62039,
+          "U": 1469
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 9846,
+          "NE": 61826,
+          "U": 1688
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 9833,
+          "NE": 61801,
+          "U": 1726
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 9833,
+          "NE": 61746,
+          "U": 1781
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 9825,
+          "NE": 61538,
+          "U": 1997
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 73360
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 73360
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 39779,
+          "NE": 32041,
+          "U": 1540
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 39778,
+          "NE": 31891,
+          "U": 1691
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 39776,
+          "NE": 31867,
+          "U": 1717
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 39774,
+          "NE": 31743,
+          "U": 1843
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 39751,
+          "NE": 31611,
+          "U": 1998
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 73360
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 73360
+        }
+      ]
+    },
+    {
+      "cohort": "hek3",
+      "run": "SRR10285861",
+      "reference": "programmed_reference",
+      "raw_N": 73360,
+      "statuses": {
+        "evaluated": 72407,
+        "quality_fail": 885,
+        "orientation_absent": 68
+      },
+      "unique_oriented_sequences": 9407,
+      "panel_orientation_differences_across_both_references": 0,
+      "targets": [
+        "programmed_local",
+        "unedited_local"
+      ],
+      "inputs": {
+        "SRR10285861.fastq.gz": "e89a193fe84eda143cbb2c1df154e44157d467a578aeaf077b13f9703d0a816a",
+        "HEK3_COMPLETE_RECORD_LEDGER.csv.gz": "e23d7f441938c020c368838257baca1c63ce861e4e023572bfac50b285b72f56",
+        "extensions/correspondence_frontier/inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285861/Alleles_frequency_table.zip": "ae82a0dbe3506702de854eb5272c5828365a167f613cf3d03ccd89efb55ec6ee",
+        "extensions/correspondence_frontier/inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285861/Alleles_frequency_table.zip": "9b9a4c0f684f10db46c28a303905d143212074b43851438025eab9c1096eebf3"
+      },
+      "records_sha256": "09cea1bc8c76c4ab58f84941564fa4d065fbe35956335493db923ab2499b7607",
+      "rows": [
+        {
+          "target": "programmed_local",
+          "delta": 0,
+          "E": 9854,
+          "NE": 61858,
+          "U": 1648
+        },
+        {
+          "target": "programmed_local",
+          "delta": 9,
+          "E": 9846,
+          "NE": 61830,
+          "U": 1684
+        },
+        {
+          "target": "programmed_local",
+          "delta": 18,
+          "E": 9833,
+          "NE": 61799,
+          "U": 1728
+        },
+        {
+          "target": "programmed_local",
+          "delta": 27,
+          "E": 9833,
+          "NE": 61737,
+          "U": 1790
+        },
+        {
+          "target": "programmed_local",
+          "delta": 36,
+          "E": 9827,
+          "NE": 61501,
+          "U": 2032
+        },
+        {
+          "target": "programmed_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 73360
+        },
+        {
+          "target": "programmed_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 73360
+        },
+        {
+          "target": "unedited_local",
+          "delta": 0,
+          "E": 39779,
+          "NE": 32183,
+          "U": 1398
+        },
+        {
+          "target": "unedited_local",
+          "delta": 9,
+          "E": 39778,
+          "NE": 31977,
+          "U": 1605
+        },
+        {
+          "target": "unedited_local",
+          "delta": 18,
+          "E": 39776,
+          "NE": 31865,
+          "U": 1719
+        },
+        {
+          "target": "unedited_local",
+          "delta": 27,
+          "E": 39761,
+          "NE": 31739,
+          "U": 1860
+        },
+        {
+          "target": "unedited_local",
+          "delta": 36,
+          "E": 39738,
+          "NE": 31589,
+          "U": 2033
+        },
+        {
+          "target": "unedited_local",
+          "delta": 45,
+          "E": 0,
+          "NE": 0,
+          "U": 73360
+        },
+        {
+          "target": "unedited_local",
+          "delta": 54,
+          "E": 0,
+          "NE": 0,
+          "U": 73360
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "protocol_sha256": "1aeb70d7b1d52dd124febb75c07735f616bef0d4c2d4c036362f900e1d45d2fa",
+  "projects": {
+    "PRJNA565979": {
+      "runs": 2960,
+      "layout_platform": [
+        {
+          "layout": "PAIRED",
+          "instrument": "NextSeq 550",
+          "count": 30
+        },
+        {
+          "layout": "SINGLE",
+          "instrument": "Illumina MiSeq",
+          "count": 2930
+        }
+      ],
+      "other_same_sample_or_experiment": [],
+      "matching_aliases": {
+        "SRR10285860": "Fig2b_HEK3_10_rep3.fastq.gz",
+        "SRR10285861": "Fig2b_HEK3_10_rep2.fastq.gz",
+        "SRR10285862": "Fig2b_HEK3_10_rep1.fastq.gz"
+      },
+      "paired_aliases": {
+        "SRR10248734": "edfig8_prnp_nick_rep5_R1.fastq.gz",
+        "SRR10248735": "edfig8_prnp_nick_rep4_R1.fastq.gz",
+        "SRR10248736": "edfig8_prnp_nick_rep3_R1.fastq.gz",
+        "SRR10248737": "edfig8_prnp_nick_rep2_R1.fastq.gz",
+        "SRR10248738": "edfig8_prnp_nick_rep1_R1.fastq.gz",
+        "SRR10248739": "edfig8_prnp_drt_rep5_R1.fastq.gz",
+        "SRR10248740": "edfig8_prnp_drt_rep4_R1.fastq.gz",
+        "SRR10248741": "edfig8_hexa_pe2_rep5_R1.fastq.gz",
+        "SRR10248742": "edfig8_hexa_pe2_rep4_R1.fastq.gz",
+        "SRR10248743": "edfig8_hexa_pe2_rep3_R1.fastq.gz",
+        "SRR10248744": "edfig8_hexa_pe2_rep2_R1.fastq.gz",
+        "SRR10248745": "edfig8_hexa_pe2_rep1_R1.fastq.gz",
+        "SRR10248746": "edfig8_hexa_nick_rep5_R1.fastq.gz",
+        "SRR10248747": "edfig8_hexa_nick_rep4_R1.fastq.gz",
+        "SRR10248748": "edfig8_hexa_nick_rep3_R1.fastq.gz",
+        "SRR10248749": "edfig8_hexa_nick_rep2_R1.fastq.gz",
+        "SRR10248750": "edfig8_hexa_nick_rep1_R1.fastq.gz",
+        "SRR10248751": "edfig8_prnp_drt_rep3_R1.fastq.gz",
+        "SRR10248752": "edfig8_hexa_drt_rep5_R1.fastq.gz",
+        "SRR10248753": "edfig8_hexa_drt_rep4_R1.fastq.gz",
+        "SRR10248754": "edfig8_hexa_drt_rep3_R1.fastq.gz",
+        "SRR10248755": "edfig8_hexa_drt_rep2_R1.fastq.gz",
+        "SRR10248756": "edfig8_hexa_drt_rep1_R1.fastq.gz",
+        "SRR10248757": "edfig8_prnp_pe2_rep5_R1.fastq.gz",
+        "SRR10248758": "edfig8_prnp_pe2_rep4_R1.fastq.gz",
+        "SRR10248759": "edfig8_prnp_pe2_rep3_R1.fastq.gz",
+        "SRR10248760": "edfig8_prnp_pe2_rep2_R1.fastq.gz",
+        "SRR10248761": "edfig8_prnp_pe2_rep1_R1.fastq.gz",
+        "SRR10248762": "edfig8_prnp_drt_rep2_R1.fastq.gz",
+        "SRR10248763": "edfig8_prnp_drt_rep1_R1.fastq.gz"
+      }
+    },
+    "PRJNA1055086": {
+      "runs": 2410,
+      "layout_platform": [
+        {
+          "layout": "SINGLE",
+          "instrument": "Illumina MiSeq",
+          "count": 2410
+        }
+      ],
+      "other_same_sample_or_experiment": [],
+      "matching_aliases": {
+        "SRR29623265": "Fig4a_LAS284-040_CFB-26-02_mock.fastq",
+        "SRR29623266": "Fig4a_LAS284-039_CFB-26-02_unmanipulated.fastq",
+        "SRR29623267": "Fig4a_LAS284-038_CFB-06-04_mock.fastq",
+        "SRR29623268": "Fig4a_LAS284-037_CFB-06-04_unmanipulated.fastq",
+        "SRR29623270": "Fig4a_LAS284-014_CFB-06-04_PE6c-epeg147-nsgRNA-dsgRNA.fastq",
+        "SRR29623271": "Fig4a_LAS284-002_CFB-26-02_PE6c-epeg147-nsgRNA-dsgRNA.fastq",
+        "SRR29623272": "Fig4a_LAS283_004_CFB-26-16_PE6c-epeg147-nsgRNA-dsgRNA.fastq",
+        "SRR29623273": "Fig4a_LAS283_002_CFB-26-16_Mock.fastq",
+        "SRR29623274": "Fig4a_LAS283_001_CFB-26-16_Unmanipulated.fastq"
+      },
+      "paired_aliases": {}
+    }
+  },
+  "raw": {
+    "SRR10285860": {
+      "reads": 58590,
+      "bases": 14646018,
+      "sample": "SAMN13035464",
+      "experiment": "SRX6998953",
+      "headers": {
+        "unkeyed": 58590
+      },
+      "flowcell_lanes": {},
+      "sha256": "947ef97d84ae69663f9a254eaba922c4b095bb65fde79e77b8c0e5e07ba8563a",
+      "local_md5": "f4e4084d47615965d7ecf1942bafab0d",
+      "archive_md5": "f4e4084d47615965d7ecf1942bafab0d",
+      "sequence_quality_sha256": "228ef22151677c9b742f11942c7fa06ce19fe8fc71a9995cfe053835d99bd7cb"
+    },
+    "SRR10285861": {
+      "reads": 73360,
+      "bases": 18325720,
+      "sample": "SAMN13035463",
+      "experiment": "SRX6998952",
+      "headers": {
+        "unkeyed": 73360
+      },
+      "flowcell_lanes": {},
+      "sha256": "e89a193fe84eda143cbb2c1df154e44157d467a578aeaf077b13f9703d0a816a",
+      "local_md5": "5a029849ffe530e27928482b835d4ca5",
+      "archive_md5": "5a029849ffe530e27928482b835d4ca5",
+      "sequence_quality_sha256": "60b9e914f87c13e6bf5020d650cd9c8cf4ab28d929af5905968856ef80577018"
+    },
+    "SRR10285862": {
+      "reads": 86980,
+      "bases": 21723205,
+      "sample": "SAMN13035462",
+      "experiment": "SRX6998951",
+      "headers": {
+        "unkeyed": 86980
+      },
+      "flowcell_lanes": {},
+      "sha256": "ca958330d6a3494b717b40ab48e8c5ea2d08560c3ae28d9e6da17573238cc95f",
+      "local_md5": "19a7a9dbd5e2b85d6dd81e2c7c3ba50d",
+      "archive_md5": "19a7a9dbd5e2b85d6dd81e2c7c3ba50d",
+      "sequence_quality_sha256": "4304b62c7a2d07764a713910ce353d9759328ae9e1f9de8b004c293c488ec73b"
+    },
+    "SRR29623265": {
+      "reads": 21041,
+      "bases": 6090322,
+      "sample": "SAMN42146643",
+      "experiment": "SRX25129586",
+      "headers": {
+        "R1": 21041
+      },
+      "flowcell_lanes": {
+        "M05634:891:000000000-GH5HT:1": 21041
+      },
+      "sha256": "e08c98ebdceb3745b17ca8f92be45900385623c8499f4cbaa63af4dac15c01ae",
+      "local_md5": "62b71b1b6797be831dec682a089f60a6",
+      "archive_md5": "62b71b1b6797be831dec682a089f60a6",
+      "sequence_quality_sha256": "a4f8f9822ae0e05dc4c1c345dd354182fc97574ea490362e857dea875802bf82"
+    },
+    "SRR29623266": {
+      "reads": 13617,
+      "bases": 3941642,
+      "sample": "SAMN42146642",
+      "experiment": "SRX25129585",
+      "headers": {
+        "R1": 13617
+      },
+      "flowcell_lanes": {
+        "M05634:891:000000000-GH5HT:1": 13617
+      },
+      "sha256": "44acba4f80562185c7f3720f500106e4797df1bb5a7bcb182e1225cdb3a89bf7",
+      "local_md5": "8c74439b2cb6e4045c17ca348ecf8152",
+      "archive_md5": "8c74439b2cb6e4045c17ca348ecf8152",
+      "sequence_quality_sha256": "4d131cbd720c668ee4243c23babf04e70bddff1d1c6236f9ffc657927b224540"
+    },
+    "SRR29623267": {
+      "reads": 27024,
+      "bases": 7824960,
+      "sample": "SAMN42146641",
+      "experiment": "SRX25129584",
+      "headers": {
+        "R1": 27024
+      },
+      "flowcell_lanes": {
+        "M05634:891:000000000-GH5HT:1": 27024
+      },
+      "sha256": "e26c858bf862b755bf333dd7ba9810bf9926ffc2e3d5652c19417adb83e81b16",
+      "local_md5": "520e87953cfebd0f2377e93d314a1610",
+      "archive_md5": "520e87953cfebd0f2377e93d314a1610",
+      "sequence_quality_sha256": "8fb1089651cfee5ea58340e5ba5dbf388948ac00b51a5ae880cdc9ff923559a0"
+    },
+    "SRR29623268": {
+      "reads": 29956,
+      "bases": 8668951,
+      "sample": "SAMN42146640",
+      "experiment": "SRX25129583",
+      "headers": {
+        "R1": 29956
+      },
+      "flowcell_lanes": {
+        "M05634:891:000000000-GH5HT:1": 29956
+      },
+      "sha256": "5bcdc1e06d0fcabe90c1e40f03725593aea9c7d4d8d2951e00bf93e4e118ec18",
+      "local_md5": "78451e8e15bc677a78b91677e608d222",
+      "archive_md5": "78451e8e15bc677a78b91677e608d222",
+      "sequence_quality_sha256": "6cb79aa2fa59b9da78827e4f48e79825efbb5143da304b248d6fa1301c80a17b"
+    },
+    "SRR29623270": {
+      "reads": 14672,
+      "bases": 4255946,
+      "sample": "SAMN42146639",
+      "experiment": "SRX25129581",
+      "headers": {
+        "R1": 14672
+      },
+      "flowcell_lanes": {
+        "M05634:891:000000000-GH5HT:1": 14672
+      },
+      "sha256": "25b464764843cb52616451bce61b4a2fb15ca3f41ab275308eee05349eb2ad67",
+      "local_md5": "fd3379deedc572a848711c65650e456d",
+      "archive_md5": "fd3379deedc572a848711c65650e456d",
+      "sequence_quality_sha256": "838daf32964c9016330e0686e2aed24f1cfca7af24a929295a140f0987f18aab"
+    },
+    "SRR29623271": {
+      "reads": 19184,
+      "bases": 5564153,
+      "sample": "SAMN42146638",
+      "experiment": "SRX25129580",
+      "headers": {
+        "R1": 19184
+      },
+      "flowcell_lanes": {
+        "M05634:891:000000000-GH5HT:1": 19184
+      },
+      "sha256": "af323c3bf66ec6ced0ba12d746d3bcbb03f74ca09788cd1cb9138905687d129c",
+      "local_md5": "3279240975a615a5da9742106d1baace",
+      "archive_md5": "3279240975a615a5da9742106d1baace",
+      "sequence_quality_sha256": "b8ee1df0dcf47162402fa9c4a8d48285037a1d9893c1ede889d89ac09f00f28e"
+    },
+    "SRR29623272": {
+      "reads": 20573,
+      "bases": 4605687,
+      "sample": "SAMN42146637",
+      "experiment": "SRX25129579",
+      "headers": {
+        "R1": 20573
+      },
+      "flowcell_lanes": {
+        "M00265:1029:000000000-GH8CB:1": 20573
+      },
+      "sha256": "02c9293171e656fedaab5abfeefc1d7683e7d0a25eaa05e13deca2a330420b09",
+      "local_md5": "7308f846524fc777d5f4b7c3be88cf05",
+      "archive_md5": "7308f846524fc777d5f4b7c3be88cf05",
+      "sequence_quality_sha256": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5"
+    },
+    "SRR29623273": {
+      "reads": 17177,
+      "bases": 3845266,
+      "sample": "SAMN42146636",
+      "experiment": "SRX25129578",
+      "headers": {
+        "R1": 17177
+      },
+      "flowcell_lanes": {
+        "M00265:1029:000000000-GH8CB:1": 17177
+      },
+      "sha256": "92bfda645464e561adf6a8c1f308b57530e400ecc64da1a42fcc494687d247d6",
+      "local_md5": "db0157f60759ef8e2d8ebbb1768f3efd",
+      "archive_md5": "db0157f60759ef8e2d8ebbb1768f3efd",
+      "sequence_quality_sha256": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0"
+    },
+    "SRR29623274": {
+      "reads": 13762,
+      "bases": 3081177,
+      "sample": "SAMN42146635",
+      "experiment": "SRX25129577",
+      "headers": {
+        "R1": 13762
+      },
+      "flowcell_lanes": {
+        "M00265:1029:000000000-GH8CB:1": 13762
+      },
+      "sha256": "54c05a34382e2866552264df7aa538a3d0469fc9c20cae3da6179a8cd2b32736",
+      "local_md5": "94bd881f69bda0b31aa1127012b9b603",
+      "archive_md5": "94bd881f69bda0b31aa1127012b9b603",
+      "sequence_quality_sha256": "c1caa43cbb4aa3aea3da80ebb2d30eb0ed8491b880052823d7402e58d054621a"
+    },
+    "SRR29623656": {
+      "reads": 30719,
+      "bases": 8861121,
+      "sample": "SAMN42146583",
+      "experiment": "SRX25129777",
+      "headers": {
+        "R1": 30719
+      },
+      "flowcell_lanes": {
+        "M00265:1086:000000000-GH8KN:1": 30719
+      },
+      "sha256": "a4d3f9195d885648c065cbca9a886522643b45e1416fe0e5d6a1104f40e95bff",
+      "local_md5": "e715629118ef86ba275e6364ae4133ce",
+      "archive_md5": "e715629118ef86ba275e6364ae4133ce",
+      "sequence_quality_sha256": "35a0feef531365608438cc90dd89100ecac3e7854e336a09226d9129dc8ade90"
+    },
+    "SRR29622959": {
+      "reads": 48098,
+      "bases": 13827023,
+      "sample": "SAMN42146615",
+      "experiment": "SRX25129307",
+      "headers": {
+        "R1": 48098
+      },
+      "flowcell_lanes": {
+        "M00265:1086:000000000-GH8KN:1": 48098
+      },
+      "sha256": "36684f56a2c54d71031e0465f7e5d129f4952ad5346e2cabcfaea191f1206831",
+      "local_md5": "677562ff55846fdbd83638ed6f0b4ee8",
+      "archive_md5": "677562ff55846fdbd83638ed6f0b4ee8",
+      "sequence_quality_sha256": "73d6794951b61c202a2ac19ba7790084c049ea1cbc2601a2688a57e1ef256c17"
+    },
+    "SRR29622955": {
+      "reads": 34985,
+      "bases": 10146666,
+      "sample": "SAMN42146619",
+      "experiment": "SRX25129311",
+      "headers": {
+        "R1": 34985
+      },
+      "flowcell_lanes": {
+        "M00265:1086:000000000-GH8KN:1": 34985
+      },
+      "sha256": "24a3a3d7b23a8ae9591b6829eedba5d032e65345baf3c7fd9dc2b30f7a11d9e8",
+      "local_md5": "d0c63ffffbc3ba637c02dd2e44e1e6c1",
+      "archive_md5": "d0c63ffffbc3ba637c02dd2e44e1e6c1",
+      "sequence_quality_sha256": "0bf779d4335d4c070a5f0053e630a9c36b188e92590bf009cdb46e277da5125f"
+    },
+    "SRR29622845": {
+      "reads": 38795,
+      "bases": 11272775,
+      "sample": "SAMN42146587",
+      "experiment": "SRX25129020",
+      "headers": {
+        "R1": 38795
+      },
+      "flowcell_lanes": {
+        "M00265:1086:000000000-GH8KN:1": 38795
+      },
+      "sha256": "738d107308e9e9fa7a7ae887647d5db2ef7840a04c433440734ec9ac858dd53d",
+      "local_md5": "c8fd57d2da0ebd49c6900d4191d27978",
+      "archive_md5": "c8fd57d2da0ebd49c6900d4191d27978",
+      "sequence_quality_sha256": "865543f21581e1bf174b76a681aff92d4918336b9f0adb38595c3366d040d635"
+    },
+    "SRR29622832": {
+      "reads": 48202,
+      "bases": 13862619,
+      "sample": "SAMN42146599",
+      "experiment": "SRX25129033",
+      "headers": {
+        "R1": 48202
+      },
+      "flowcell_lanes": {
+        "M00265:1086:000000000-GH8KN:1": 48202
+      },
+      "sha256": "418fde53f4911a3bb48c485ddb896705d52dbacdada90da1713645b1cde87736",
+      "local_md5": "7b2aa91540f8c20af89f26d220d7448c",
+      "archive_md5": "7b2aa91540f8c20af89f26d220d7448c",
+      "sequence_quality_sha256": "c55c3cbfe4bab11caa4de97a63d048dfe9e90150771bb92e2a1272add17c3506"
+    },
+    "SRR29622827": {
+      "reads": 52007,
+      "bases": 15071780,
+      "sample": "SAMN42146603",
+      "experiment": "SRX25129038",
+      "headers": {
+        "R1": 52007
+      },
+      "flowcell_lanes": {
+        "M00265:1086:000000000-GH8KN:1": 52007
+      },
+      "sha256": "7ea5be753c488c8c30ffb47608ed3ce72689c7fc0c3d39b36230a03a8ed14f05",
+      "local_md5": "36206bd5da64b9867793240e297c236e",
+      "archive_md5": "36206bd5da64b9867793240e297c236e",
+      "sequence_quality_sha256": "1e2c55bffdd7756f2b5f798a9428036df1f5f41b37b650690f23aa071cad331a"
+    },
+    "SRR29536570": {
+      "reads": 14672,
+      "bases": 4255946,
+      "sample": "SAMN42031421",
+      "experiment": "SRX25044612",
+      "headers": {
+        "R1": 14672
+      },
+      "flowcell_lanes": {
+        "M05634:891:000000000-GH5HT:1": 14672
+      },
+      "sha256": "c0ab3203fc4255b5ec56c2c211acaedda64bc762934a9670a8ac0be9c2180694",
+      "local_md5": "6b4653fb3b142c5b14f11cc58f75f08c",
+      "archive_md5": "6b4653fb3b142c5b14f11cc58f75f08c",
+      "sequence_quality_sha256": "838daf32964c9016330e0686e2aed24f1cfca7af24a929295a140f0987f18aab"
+    },
+    "SRR29536571": {
+      "reads": 19184,
+      "bases": 5564153,
+      "sample": "SAMN42031420",
+      "experiment": "SRX25044611",
+      "headers": {
+        "R1": 19184
+      },
+      "flowcell_lanes": {
+        "M05634:891:000000000-GH5HT:1": 19184
+      },
+      "sha256": "a0c4fff5cccd51ba8fbddfc535c9974ea3ae2740970bb96fc9c95afa00e3c995",
+      "local_md5": "694797b37407f393b984b0905434aaef",
+      "archive_md5": "694797b37407f393b984b0905434aaef",
+      "sequence_quality_sha256": "b8ee1df0dcf47162402fa9c4a8d48285037a1d9893c1ede889d89ac09f00f28e"
+    },
+    "SRR29536572": {
+      "reads": 20573,
+      "bases": 4605687,
+      "sample": "SAMN42031419",
+      "experiment": "SRX25044610",
+      "headers": {
+        "R1": 20573
+      },
+      "flowcell_lanes": {
+        "M00265:1029:000000000-GH8CB:1": 20573
+      },
+      "sha256": "0651c8f50dfdf7c8c4cf8d4dccda549bdc8a9f45523b4ad39e3023365f670f18",
+      "local_md5": "835df425b7d92a2e43dd2a8ad43960eb",
+      "archive_md5": "835df425b7d92a2e43dd2a8ad43960eb",
+      "sequence_quality_sha256": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5"
+    }
+  },
+  "unavailable": [],
+  "raw_total": 703171,
+  "distinct_clusters": 429812,
+  "cluster_comparisons": [
+    {
+      "run_a": "SRR29536570",
+      "run_b": "SRR29623270",
+      "type": "identical_same_end",
+      "n": 14672
+    },
+    {
+      "run_a": "SRR29536571",
+      "run_b": "SRR29623271",
+      "type": "identical_same_end",
+      "n": 19184
+    },
+    {
+      "run_a": "SRR29536572",
+      "run_b": "SRR29623272",
+      "type": "identical_same_end",
+      "n": 20573
+    }
+  ],
+  "cluster_ledger_sha256": "aaa95bf82a2da08e0c4da60f5fd12d8c411e8899974a85e935446907296c22b9",
+  "exact_duplicate_streams": [
+    [
+      "SRR29536570",
+      "SRR29623270"
+    ],
+    [
+      "SRR29536571",
+      "SRR29623271"
+    ],
+    [
+      "SRR29536572",
+      "SRR29623272"
+    ]
+  ],
+  "opposite_end_record_ids": [],
+  "targeted_case_audit": {
+    "CFTR_path_panel": {
+      "n": 199,
+      "same_end_repeat": 181,
+      "opposite_end": 0
+    },
+    "CFTR_three_extractor_disagreement": {
+      "n": 83,
+      "same_end_repeat": 83,
+      "opposite_end": 0
+    },
+    "HEK3_path_panel": {
+      "n": 33,
+      "same_end_repeat": 0,
+      "opposite_end": 0
+    }
+  },
+  "manual_hek3_sequence_key": {
+    "total": 73360,
+    "distinct": 10139,
+    "singleton_records": 8403,
+    "largest_sequence_family": 313
+  }
+}

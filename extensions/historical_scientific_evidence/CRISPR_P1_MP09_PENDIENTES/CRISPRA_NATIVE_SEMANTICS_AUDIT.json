@@ -1,0 +1,124 @@
+{
+  "counts": [
+    {
+      "native": "NE",
+      "exact_tract": "NE",
+      "n": 60745
+    },
+    {
+      "native": "E",
+      "exact_tract": "NE",
+      "n": 1571
+    },
+    {
+      "native": "E",
+      "exact_tract": "E",
+      "n": 9814
+    },
+    {
+      "native": "NE",
+      "exact_tract": "U",
+      "n": 1093
+    },
+    {
+      "native": "NE",
+      "exact_tract": "E",
+      "n": 43
+    },
+    {
+      "native": "U",
+      "exact_tract": "U",
+      "n": 94
+    }
+  ],
+  "examples": {
+    "E/NE": [
+      {
+        "id": "SRR10285861.6",
+        "crispra_native_template_call": "E",
+        "unique_local_span": "1",
+        "crispra_span_conditioned": "E",
+        "crispra_exact_tract": "NE",
+        "mp07_delta_0": "NE",
+        "mp07_delta_9": "NE",
+        "mp07_delta_18": "NE",
+        "mp07_delta_27": "NE",
+        "mp07_delta_36": "NE",
+        "mp07_delta_45": "U",
+        "mp07_delta_54": "U"
+      },
+      {
+        "id": "SRR10285861.7",
+        "crispra_native_template_call": "E",
+        "unique_local_span": "1",
+        "crispra_span_conditioned": "E",
+        "crispra_exact_tract": "NE",
+        "mp07_delta_0": "NE",
+        "mp07_delta_9": "NE",
+        "mp07_delta_18": "NE",
+        "mp07_delta_27": "NE",
+        "mp07_delta_36": "NE",
+        "mp07_delta_45": "U",
+        "mp07_delta_54": "U"
+      },
+      {
+        "id": "SRR10285861.109",
+        "crispra_native_template_call": "E",
+        "unique_local_span": "1",
+        "crispra_span_conditioned": "E",
+        "crispra_exact_tract": "NE",
+        "mp07_delta_0": "NE",
+        "mp07_delta_9": "NE",
+        "mp07_delta_18": "NE",
+        "mp07_delta_27": "NE",
+        "mp07_delta_36": "NE",
+        "mp07_delta_45": "U",
+        "mp07_delta_54": "U"
+      }
+    ],
+    "NE/E": [
+      {
+        "id": "SRR10285861.499",
+        "crispra_native_template_call": "NE",
+        "unique_local_span": "1",
+        "crispra_span_conditioned": "NE",
+        "crispra_exact_tract": "E",
+        "mp07_delta_0": "E",
+        "mp07_delta_9": "E",
+        "mp07_delta_18": "U",
+        "mp07_delta_27": "U",
+        "mp07_delta_36": "U",
+        "mp07_delta_45": "U",
+        "mp07_delta_54": "U"
+      },
+      {
+        "id": "SRR10285861.2882",
+        "crispra_native_template_call": "NE",
+        "unique_local_span": "1",
+        "crispra_span_conditioned": "NE",
+        "crispra_exact_tract": "E",
+        "mp07_delta_0": "U",
+        "mp07_delta_9": "U",
+        "mp07_delta_18": "U",
+        "mp07_delta_27": "U",
+        "mp07_delta_36": "U",
+        "mp07_delta_45": "U",
+        "mp07_delta_54": "U"
+      },
+      {
+        "id": "SRR10285861.6905",
+        "crispra_native_template_call": "NE",
+        "unique_local_span": "1",
+        "crispra_span_conditioned": "NE",
+        "crispra_exact_tract": "E",
+        "mp07_delta_0": "E",
+        "mp07_delta_9": "E",
+        "mp07_delta_18": "U",
+        "mp07_delta_27": "U",
+        "mp07_delta_36": "U",
+        "mp07_delta_45": "U",
+        "mp07_delta_54": "U"
+      }
+    ]
+  }
+}

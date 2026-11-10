@@ -1,0 +1,124 @@
+{
+  "cohort": "hek3",
+  "run": "SRR10285862",
+  "reference": "reference",
+  "raw_N": 86980,
+  "statuses": {
+    "evaluated": 85819,
+    "quality_fail": 993,
+    "orientation_absent": 168
+  },
+  "unique_oriented_sequences": 10271,
+  "panel_orientation_differences_across_both_references": 0,
+  "targets": [
+    "programmed_local",
+    "unedited_local"
+  ],
+  "inputs": {
+    "SRR10285862.fastq.gz": "ca958330d6a3494b717b40ab48e8c5ea2d08560c3ae28d9e6da17573238cc95f",
+    "HEK3_COMPLETE_RECORD_LEDGER.csv.gz": "e23d7f441938c020c368838257baca1c63ce861e4e023572bfac50b285b72f56",
+    "extensions/correspondence_frontier/inputs/hek3/runs/M_fw/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": "3e629d510a913a3be07c9bacdd4d3b088df3fe017b60163f5e8967f49eb1cf87",
+    "extensions/correspondence_frontier/inputs/hek3/runs/P_fw/CRISPResso_on_SRR10285862/Alleles_frequency_table.zip": "0aef13b009f5749a7a3afd2adb2686743728c7a80485cbbc9bc2d2b5c74aaa08"
+  },
+  "records_sha256": "c6f068c3bd05a3caefecf13497a542c6f1f3cae7c546b35cad287e2fd9154038",
+  "rows": [
+    {
+      "target": "programmed_local",
+      "delta": 0,
+      "E": 10303,
+      "NE": 74953,
+      "U": 1724
+    },
+    {
+      "target": "programmed_local",
+      "delta": 9,
+      "E": 10300,
+      "NE": 74661,
+      "U": 2019
+    },
+    {
+      "target": "programmed_local",
+      "delta": 18,
+      "E": 10266,
+      "NE": 74653,
+      "U": 2061
+    },
+    {
+      "target": "programmed_local",
+      "delta": 27,
+      "E": 10266,
+      "NE": 74598,
+      "U": 2116
+    },
+    {
+      "target": "programmed_local",
+      "delta": 36,
+      "E": 10242,
+      "NE": 74339,
+      "U": 2399
+    },
+    {
+      "target": "programmed_local",
+      "delta": 45,
+      "E": 0,
+      "NE": 0,
+      "U": 86980
+    },
+    {
+      "target": "programmed_local",
+      "delta": 54,
+      "E": 0,
+      "NE": 0,
+      "U": 86980
+    },
+    {
+      "target": "unedited_local",
+      "delta": 0,
+      "E": 48171,
+      "NE": 36983,
+      "U": 1826
+    },
+    {
+      "target": "unedited_local",
+      "delta": 9,
+      "E": 48138,
+      "NE": 36829,
+      "U": 2013
+    },
+    {
+      "target": "unedited_local",
+      "delta": 18,
+      "E": 48137,
+      "NE": 36788,
+      "U": 2055
+    },
+    {
+      "target": "unedited_local",
+      "delta": 27,
+      "E": 48137,
+      "NE": 36592,
+      "U": 2251
+    },
+    {
+      "target": "unedited_local",
+      "delta": 36,
+      "E": 48116,
+      "NE": 36465,
+      "U": 2399
+    },
+    {
+      "target": "unedited_local",
+      "delta": 45,
+      "E": 0,
+      "NE": 0,
+      "U": 86980
+    },
+    {
+      "target": "unedited_local",
+      "delta": 54,
+      "E": 0,
+      "NE": 0,
+      "U": 86980
+    }
+  ]
+}

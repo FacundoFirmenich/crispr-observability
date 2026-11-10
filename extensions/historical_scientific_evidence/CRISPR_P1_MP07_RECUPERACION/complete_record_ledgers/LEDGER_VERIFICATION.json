@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "scope": "Complete derived record audit from authentic raw reads and complete native allele tables; no repaired native annotations, new engine run, molecular accuracy or human-independent reproduction.",
+  "cftr": {
+    "status": "PASS",
+    "raw_records_rejoined_in_order": 177006,
+    "Q30": 175010,
+    "unique_record_ids_per_run": true,
+    "all_frozen_count_rows_reconstructed": 162,
+    "per_run_N": {
+      "SRR29623274": 13762,
+      "SRR29623266": 13617,
+      "SRR29623268": 29956,
+      "SRR29623273": 17177,
+      "SRR29623265": 21041,
+      "SRR29623267": 27024,
+      "SRR29623272": 20573,
+      "SRR29623271": 19184,
+      "SRR29623270": 14672
+    },
+    "bytes": 13465040,
+    "sha256": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+    "file": "CFTR_COMPLETE_RECORD_LEDGER.csv.gz"
+  },
+  "hek3": {
+    "status": "PASS",
+    "raw_records_rejoined_in_order": 218930,
+    "Q30": 216376,
+    "unique_record_ids_per_run": true,
+    "all_frozen_count_rows_reconstructed": 42,
+    "per_run_N": {
+      "SRR10285860": 58590,
+      "SRR10285862": 86980,
+      "SRR10285861": 73360
+    },
+    "bytes": 13609421,
+    "sha256": "e23d7f441938c020c368838257baca1c63ce861e4e023572bfac50b285b72f56",
+    "file": "HEK3_COMPLETE_RECORD_LEDGER.csv.gz"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "targets_verified": 928,
+  "cutoff": 54,
+  "complete_path_enumeration_cutoff": 9,
+  "enumerations": [
+    {
+      "cohort": "cftr",
+      "read_id": "SRR29623274.3598",
+      "reference": "mutant",
+      "paths": 3
+    },
+    {
+      "cohort": "cftr",
+      "read_id": "SRR29623274.3598",
+      "reference": "programmed",
+      "paths": 11
+    },
+    {
+      "cohort": "cftr",
+      "read_id": "SRR29623274.9522",
+      "reference": "mutant",
+      "paths": 1
+    },
+    {
+      "cohort": "cftr",
+      "read_id": "SRR29623274.9522",
+      "reference": "programmed",
+      "paths": 7
+    },
+    {
+      "cohort": "cftr",
+      "read_id": "SRR29623270.2091",
+      "reference": "programmed",
+      "paths": 24
+    },
+    {
+      "cohort": "hek3",
+      "read_id": "SRR10285860.11062",
+      "reference": "reference",
+      "paths": 16
+    },
+    {
+      "cohort": "hek3",
+      "read_id": "SRR10285860.11062",
+      "reference": "programmed_reference",
+      "paths": 15
+    },
+    {
+      "cohort": "hek3",
+      "read_id": "SRR10285860.140",
+      "reference": "reference",
+      "paths": 1
+    },
+    {
+      "cohort": "hek3",
+      "read_id": "SRR10285860.140",
+      "reference": "programmed_reference",
+      "paths": 1
+    }
+  ],
+  "enumerated_paths": 79
+}

@@ -1,0 +1,124 @@
+{
+  "cohort": "cftr",
+  "run": "SRR29623270",
+  "reference": "mutant",
+  "raw_N": 14672,
+  "statuses": {
+    "evaluated": 14485,
+    "quality_fail": 136,
+    "orientation_absent": 51
+  },
+  "unique_oriented_sequences": 8068,
+  "panel_orientation_differences_across_both_references": 0,
+  "targets": [
+    "native",
+    "exact"
+  ],
+  "inputs": {
+    "SRR29623270.fastq.gz": "25b464764843cb52616451bce61b4a2fb15ca3f41ab275308eee05349eb2ad67",
+    "CFTR_COMPLETE_RECORD_LEDGER.csv.gz": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+    "raw_replay/inputs/alleles/mutant/SRR29623270.zip": "388f0287a244ca8d8517dd6c5e59b526f1c6c25922cd6859790c1152cef9f4e6",
+    "raw_replay/inputs/alleles/programmed/SRR29623270.zip": "ad1c216918c917761442e3e86e9996f8f75a0be8dafb7356b7999f06e8c71463"
+  },
+  "records_sha256": "08ee11d922557b076cb4ff04893f55a2a8c77c59850c7e329ba7a77431a08921",
+  "rows": [
+    {
+      "target": "native",
+      "delta": 0,
+      "E": 3850,
+      "NE": 10528,
+      "U": 294
+    },
+    {
+      "target": "native",
+      "delta": 9,
+      "E": 3830,
+      "NE": 10499,
+      "U": 343
+    },
+    {
+      "target": "native",
+      "delta": 18,
+      "E": 3810,
+      "NE": 10431,
+      "U": 431
+    },
+    {
+      "target": "native",
+      "delta": 27,
+      "E": 3806,
+      "NE": 10359,
+      "U": 507
+    },
+    {
+      "target": "native",
+      "delta": 36,
+      "E": 11,
+      "NE": 9833,
+      "U": 4828
+    },
+    {
+      "target": "native",
+      "delta": 45,
+      "E": 10,
+      "NE": 9705,
+      "U": 4957
+    },
+    {
+      "target": "native",
+      "delta": 54,
+      "E": 0,
+      "NE": 0,
+      "U": 14672
+    },
+    {
+      "target": "exact",
+      "delta": 0,
+      "E": 3815,
+      "NE": 10563,
+      "U": 294
+    },
+    {
+      "target": "exact",
+      "delta": 9,
+      "E": 3795,
+      "NE": 10534,
+      "U": 343
+    },
+    {
+      "target": "exact",
+      "delta": 18,
+      "E": 3775,
+      "NE": 10467,
+      "U": 430
+    },
+    {
+      "target": "exact",
+      "delta": 27,
+      "E": 3771,
+      "NE": 10398,
+      "U": 503
+    },
+    {
+      "target": "exact",
+      "delta": 36,
+      "E": 0,
+      "NE": 9845,
+      "U": 4827
+    },
+    {
+      "target": "exact",
+      "delta": 45,
+      "E": 0,
+      "NE": 9715,
+      "U": 4957
+    },
+    {
+      "target": "exact",
+      "delta": 54,
+      "E": 0,
+      "NE": 0,
+      "U": 14672
+    }
+  ]
+}

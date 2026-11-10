@@ -1,0 +1,37 @@
+{
+  "original_name": "benchmark.vcf.gz",
+  "sha256": "f1ae8e96d89a471adfabc8ae54b5f0195e81608d6a948fb09e1fbed0a0968347",
+  "size": 42067646,
+  "parts": [
+    {
+      "name": "benchmark.vcf.gz.part001",
+      "sha256": "cef608ac8c41b1b8fdfaf921f84ec898f8596c14d41b5fc07c41ff1ece18a524",
+      "size": 8388608
+    },
+    {
+      "name": "benchmark.vcf.gz.part002",
+      "sha256": "01d88ec74bf0618044164580f20c340b1ab9c5b8e8aec86d689beab88a182c3a",
+      "size": 8388608
+    },
+    {
+      "name": "benchmark.vcf.gz.part003",
+      "sha256": "98bbcecc5328acb52c74fa66ca38f5fe4f84c72abf8288a2795a98704a3949d7",
+      "size": 8388608
+    },
+    {
+      "name": "benchmark.vcf.gz.part004",
+      "sha256": "1bafa6183386249002d7d309c8a4d71b13521c6ac9988e543f009f726029221b",
+      "size": 8388608
+    },
+    {
+      "name": "benchmark.vcf.gz.part005",
+      "sha256": "63d2ff0d02190c41e02e39f37a12fada99627850b45b591bf2f875533f6cb8b4",
+      "size": 8388608
+    },
+    {
+      "name": "benchmark.vcf.gz.part006",
+      "sha256": "d49f126da5d251bf487186205e4dee45cfeab58874fc71485ac6f7b5e8c39078",
+      "size": 124606
+    }
+  ]
+}

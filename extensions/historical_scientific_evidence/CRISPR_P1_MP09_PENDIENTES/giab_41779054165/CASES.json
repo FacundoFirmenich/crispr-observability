@@ -1,0 +1,458 @@
+[
+  {
+    "indel": {
+      "pos": 183642,
+      "ref": "G",
+      "alts": [
+        "GAAAAC"
+      ],
+      "gt": [
+        0,
+        1
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t183643\t.\tG\tGAAAAC\t30\t.\t.\tGT:AD\t0|1:1,1"
+    },
+    "marker": {
+      "pos": 183698,
+      "ref": "A",
+      "alts": [
+        "T"
+      ],
+      "gt": [
+        0,
+        1
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t183699\t.\tA\tT\t30\t.\t.\tGT:AD\t0|1:1,1"
+    },
+    "start": 183472,
+    "end": 183813,
+    "reference": "AGACCCTAATAAGCAACCACACAATAGAAACTACAAAGCAACCAGCTAACAACTCCATGATAGGATCAAAACCTCACATATTAACATTAACCTTGAATATGAACACTCTAAATGCTCCACTTAAGAGGCACAGAGTAGCAAGTTGGAAAAGAAAAGAAAAGAAAAGAAAAGAAAACTCATCTGTCTGCAGTCTTCAAGAGACCAATATCACATATATGACACCCATAGGCTCAAAGTAAATGGTTGGAGAAAGATCTACCACATAAACAAAAAACAGAAAAAGAGGAGGGGTCATTATTCTTAGATAAAACAAACTTTAAACCAACAACTACTTAGAAAGA",
+    "local_lo": 165,
+    "local_hi": 176,
+    "target": "GAAAAGAAAACAAAAC",
+    "marker0": "TGACACCCATAGGCTCAAAGT",
+    "marker1": "TGACACCCATTGGCTCAAAGT"
+  },
+  {
+    "indel": {
+      "pos": 255817,
+      "ref": "GAT",
+      "alts": [
+        "G"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t255818\t.\tGAT\tG\t30\t.\tTRF\tGT:AD\t1|0:1,1"
+    },
+    "marker": {
+      "pos": 255777,
+      "ref": "G",
+      "alts": [
+        "A"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t255778\t.\tG\tA\t30\t.\t.\tGT:AD\t1|0:1,1"
+    },
+    "start": 255647,
+    "end": 255990,
+    "reference": "CTGTATCCCATAAATATGTATAATTATTATGTCAATTAAAAATAAAATTTTAATTTAAAAATACATTTTAAAAATCAATACAATATCTGACCTGACACTGCAATCTCAACTCAAGGAGGAAATGAATGCTGTAAAAGGCATTATTAGGTCAATTGGCAAATTGGAATACAGATATATATATATATATATATATATATATGGATAGATGATAGACTAGATAAAAGTGGTGTCCATTTAAATTTATGGAGTTAGTAACTATACTGTCATACAGGAGAATATCCCTATTCTTAGGAAATACACACTGAATTATTTGGGAGTAAAAGGCCACGATAATATAAGGCCA",
+    "local_lo": 165,
+    "local_hi": 178,
+    "target": "ATACAGATATA",
+    "marker0": "AATGAATGCTGTAAAAGGCAT",
+    "marker1": "AATGAATGCTATAAAAGGCAT"
+  },
+  {
+    "indel": {
+      "pos": 263496,
+      "ref": "TGTGTGTGC",
+      "alts": [
+        "T"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t263497\t.\tTGTGTGTGC\tT\t30\t.\tTRF\tGT:AD\t1|0:1,1"
+    },
+    "marker": {
+      "pos": 263450,
+      "ref": "C",
+      "alts": [
+        "G"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t263451\t.\tC\tG\t30\t.\t.\tGT:AD\t1|0:1,1"
+    },
+    "start": 263326,
+    "end": 263675,
+    "reference": "ACCACCGTGGGCTAAAGAGCTCTGGGGTCCTAAATAAACTTGAAAGGCCGTATAGGCCACAAGAACTGCAATTCCTAGGCAACTGCTAGTGCTGTGCTGGGCTCAGAGGCAGTAGATTTAGGGACCACTCAACCTAGTGAGACACCAGCTGGGGTGTGTGTGTGTGTGTGTGTGTGTGCGTGTGTGTGTGTGTGTGTGATTCTCGTGCCTCAGCCTCCCAAGTAGCTGGTGATGGCAGTGGCAGCCCATCTGGAGTGGACGCTGCCATCAAGCCAGCTGCAGCAGGGAGGGACAGCTGGGGCTGCACATTCCACAGAGCTGCAGAGCTGGGGACAATGAGAGCCCCACA",
+    "local_lo": 165,
+    "local_hi": 184,
+    "target": "GTGTGTGTGTG",
+    "marker0": "GATTTAGGGACCACTCAACCT",
+    "marker1": "GATTTAGGGAGCACTCAACCT"
+  },
+  {
+    "indel": {
+      "pos": 454649,
+      "ref": "C",
+      "alts": [
+        "CATTATT"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t454650\t.\tC\tCATTATT\t30\t.\tTRF\tGT:AD\t1|0:1,1"
+    },
+    "marker": {
+      "pos": 454613,
+      "ref": "T",
+      "alts": [
+        "A"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t454614\t.\tT\tA\t30\t.\t.\tGT:AD\t1|0:1,1"
+    },
+    "start": 454479,
+    "end": 454820,
+    "reference": "GCACCAGAGTTCATTTGAAGTGGAAGATATCACCAGAAGGTAGGGCAGATTTTAGAAATAACTAACAGAAGGTACATTAGGTTTTAGAAGGGACACCAAGCATCTTCCCCAGCAATGTTCTAGTCTGAGACCATTGTGAGTCTACAAACTGTTTCTATGACAAAGCTGTACATTATTATTATTATTATTATTATTTTATTTTTATTTTTTGAGACAGAGTCTTGCTTTGTCTCCCAGGCTGGAGTGCAGTGAAGCAATCTTGGCTCACTGGAACCTCTGTCTCTTGGGTTCAAACCATTCTCGGGCCTCAGCCTCCCAGGTAGCCAGGATTACAGGCGCAT",
+    "local_lo": 165,
+    "local_hi": 176,
+    "target": "CTGTACATTATTATTAT",
+    "marker0": "CTGAGACCATTGTGAGTCTAC",
+    "marker1": "CTGAGACCATAGTGAGTCTAC"
+  },
+  {
+    "indel": {
+      "pos": 460433,
+      "ref": "CAAA",
+      "alts": [
+        "C"
+      ],
+      "gt": [
+        0,
+        1
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t460434\t.\tCAAA\tC\t30\t.\t.\tGT:AD\t0|1:1,1"
+    },
+    "marker": {
+      "pos": 460463,
+      "ref": "C",
+      "alts": [
+        "G"
+      ],
+      "gt": [
+        0,
+        1
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t460464\t.\tC\tG\t30\t.\t.\tGT:AD\t0|1:1,1"
+    },
+    "start": 460263,
+    "end": 460607,
+    "reference": "AACTACTGATATTGACATTGGAAATTAACTTGAAAATTTATGCCTGTAGTCCCAGCTACTCAGGAGGCTGAGGTGGGAGGAGCACTTAAGTCCAGGAGTTGGGAGATGACAGTGAGCTTTGACTGTGACACTGCACTCCAACCCGGGTGACAGGGCAAGATCCCATCTCTCAAAAAAAAAAAAAAAAAATGCTTTAACTCCACGTCTGTACCAGAAGACCACAGCAGGAGAGGAAAACCTTATTTCAGTCTGGGTAAGAGTTCTATTAAACACAAAATAAAACAAACTAGCCTCTGTTTCTGGAGGTCTTCATTAGTAGTTTCTACAAAACAGTATCCAAATTA",
+    "local_lo": 165,
+    "local_hi": 179,
+    "target": "TCTCTCAAAAA",
+    "marker0": "GCTTTAACTCCACGTCTGTAC",
+    "marker1": "GCTTTAACTCGACGTCTGTAC"
+  },
+  {
+    "indel": {
+      "pos": 642892,
+      "ref": "GTGA",
+      "alts": [
+        "G"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t642893\t.\tGTGA\tG\t30\t.\tTRF\tGT:AD\t1|0:1,1"
+    },
+    "marker": {
+      "pos": 642860,
+      "ref": "G",
+      "alts": [
+        "T"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t642861\t.\tG\tT\t30\t.\t.\tGT:AD\t1|0:1,1"
+    },
+    "start": 642722,
+    "end": 643066,
+    "reference": "GGAGGGCGGCGCGCGTGGGCCGGCGGGGTGCGGGTGGACGAGCCGGGGGCCCTGCGGCAGGTGGCTACGCTGCTTCGGTCCTCAGTTTACCCGTCTGTCCAACAGGAAAGATCATTTCTGCCCTGTCCACCTCTGGGGGCTAATGTGAGAGTTAAAGTAGGGGAGCTACAGTGATGATGATGATGACGACGGAGGATGACAGCCTTCCCCTAATCGCAGTCTCTACTTCGGGTACCATAGAAGTGCTAAGTCAGGGGCTGGACGCAAATGTGCTTTGTAGCCTATAGTGCGTGCCTGTGTGGGAAGCGGGATGGATGTTTCACCCCACCCTCTTTCAGCCCAGG",
+    "local_lo": 165,
+    "local_hi": 179,
+    "target": "CTACAGTGATG",
+    "marker0": "ACCTCTGGGGGCTAATGTGAG",
+    "marker1": "ACCTCTGGGGTCTAATGTGAG"
+  },
+  {
+    "indel": {
+      "pos": 711119,
+      "ref": "G",
+      "alts": [
+        "GGT"
+      ],
+      "gt": [
+        0,
+        1
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t711120\t.\tG\tGGT\t30\t.\tTRF\tGT:AD\t0|1:1,1"
+    },
+    "marker": {
+      "pos": 711176,
+      "ref": "A",
+      "alts": [
+        "G"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t711177\t.\tA\tG\t30\t.\t.\tGT:AD\t1|0:1,1"
+    },
+    "start": 710949,
+    "end": 711290,
+    "reference": "TGAGTGCTCACAAGTGCTGGTTCTTGCTGTTTTCTGTGATTTTCCTTGGAGGGGCACAGGGAAAACCAAAAATGGCTGGTGCTGGAAAGAGGCCCTTGAGTTTCATCTCACAGCTGGCGGTAGGGTGAAGCTTGGCAAAAAACCTGTGGTCTGTGCTGAGCTTGGGGCTGGGTGTGTGTGTGTGTGTGTGTGTGTCTATGGTCTTTGAGAAGTGTCTTCATCAGCATATGACTTGTGTGAGTTTTTGGGTAGAGAAGGCACAGCCTTCACTAGTTTCTACAAGAAGGGTGTGATCCAGTGTGCGAAGAATCCCTGTGTGCAGGGCTGGGAAATCAGCTTCA",
+    "local_lo": 165,
+    "local_hi": 176,
+    "target": "GGCTGGGTGTGTG",
+    "marker0": "TCATCAGCATATGACTTGTGT",
+    "marker1": "TCATCAGCATGTGACTTGTGT"
+  },
+  {
+    "indel": {
+      "pos": 966448,
+      "ref": "G",
+      "alts": [
+        "GTC"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t966449\t.\tG\tGTC\t30\t.\t.\tGT:AD\t1|0:1,1"
+    },
+    "marker": {
+      "pos": 966506,
+      "ref": "C",
+      "alts": [
+        "T"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t966507\t.\tC\tT\t30\t.\t.\tGT:AD\t1|0:1,1"
+    },
+    "start": 966278,
+    "end": 966619,
+    "reference": "GGAGTGTGACAAGGAGCTGTTAGGAAATAATCAGAGCAGTAATAACACTGATACTGACACGTACTGAGCATCTACTGTGTGCTGGCTGCTGTACTGAGCACTTTAAATTGTACTAATTCACTTTATCCTCATAACAATTCCTCCCCATGAGGTAGGCTCTATGTTCTATTGTCTTTTTTTTTTTCTAACGTTTGGAGAAACCGAAGGACAGAGAGCTGAGGTGGTTTGCTTAAGATCACTAAAGGGTAAGGTTTAGAGCTAGGATTGGACCCCAGGCCTGTCCTATTCCAAAATCAGTGCTCAGCCAGGTGTGGTGGCTCATACCTATACTCCCAATGCTT",
+    "local_lo": 165,
+    "local_hi": 176,
+    "target": "CTATTGTCTCTTT",
+    "marker0": "AGGTGGTTTGCTTAAGATCAC",
+    "marker1": "AGGTGGTTTGTTTAAGATCAC"
+  },
+  {
+    "indel": {
+      "pos": 1184620,
+      "ref": "TACAC",
+      "alts": [
+        "T"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t1184621\t.\tTACAC\tT\t30\t.\tTRF\tGT:AD\t1|0:1,1"
+    },
+    "marker": {
+      "pos": 1184646,
+      "ref": "C",
+      "alts": [
+        "G"
+      ],
+      "gt": [
+        0,
+        1
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t1184647\t.\tC\tG\t30\t.\tTRF\tGT:AD\t0|1:1,1"
+    },
+    "start": 1184450,
+    "end": 1184795,
+    "reference": "AGTTACTAATTTCATCTGCAGTCAGACAGGTCCTGAAAGGAACACTCCAGTTCCACACACACTCCCCCAGCAGCTGTTCCCACAGCAGTACCCACAGACACCCAGAAGTCACGTAGTGTGACCCTCGGATCTTCGGGCCACGCGAGTACCCCGTCACACGCACACGCGCGTACACACACACACACACACACACACACACACACACAAAGTGCCCCTGGGAGTGAGACCCAAGCCAGATCCACCAAGACCCGCAGGGGCCCAATACCCCACCCGCCGCGCGCACTGACACCCGGAGAGAGGGACGCACAGCGGCTGTGGGTGAAGCTTCACAAAACCCAGTCGATA",
+    "local_lo": 165,
+    "local_hi": 180,
+    "target": "GCGCGTACACA",
+    "marker0": "CACACACACACACACACACAA",
+    "marker1": "CACACACACAGACACACACAA"
+  },
+  {
+    "indel": {
+      "pos": 1871502,
+      "ref": "CCA",
+      "alts": [
+        "C"
+      ],
+      "gt": [
+        0,
+        1
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t1871503\t.\tCCA\tC\t30\t.\tTRF\tGT:AD\t0|1:1,1"
+    },
+    "marker": {
+      "pos": 1871470,
+      "ref": "T",
+      "alts": [
+        "C"
+      ],
+      "gt": [
+        0,
+        1
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t1871471\t.\tT\tC\t30\t.\t.\tGT:AD\t0|1:1,1"
+    },
+    "start": 1871332,
+    "end": 1871675,
+    "reference": "TGGAGCCACAGGAGTCTTCTGAGTGCAGGAGGGGGCGTGACCTCACTTTGATTTTACTAACACAGGGTAACCCAGGTGACAAGCTGAGATTGCAGCCGGCTCCCCTGCTCCCACCTTCCAGCCCCGCTGGGCCCCACCTAGTAAGCCCTGCCCAAGCCGCCACCCCCTCTCCACACACACACACACACGCGCTCCATCAGTCCCACGCCTGCTTGTCCGTCAAGTCTCAGTCTAGCCCTCACCTCCTCCTTTGGGAAGCCAGCCCAGAGCCCCTGACCTGCCTCATCCCTCCCTCCCCAGAGAACCAGGAGGCAGTTAGGGGACAGGCCTTGGCAATCAAGCG",
+    "local_lo": 165,
+    "local_hi": 178,
+    "target": "CCTCTCCACAC",
+    "marker0": "GGGCCCCACCTAGTAAGCCCT",
+    "marker1": "GGGCCCCACCCAGTAAGCCCT"
+  },
+  {
+    "indel": {
+      "pos": 1948734,
+      "ref": "AAAAAAAG",
+      "alts": [
+        "A"
+      ],
+      "gt": [
+        0,
+        1
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t1948735\t.\tAAAAAAAG\tA\t30\t.\t.\tGT:AD\t0|1:1,1"
+    },
+    "marker": {
+      "pos": 1948789,
+      "ref": "C",
+      "alts": [
+        "T"
+      ],
+      "gt": [
+        0,
+        1
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t1948790\t.\tC\tT\t30\t.\tTRF\tGT:AD\t0|1:1,1"
+    },
+    "start": 1948564,
+    "end": 1948912,
+    "reference": "AAAACAAAAATGCTCTATGTGGTGGTGCATGCCTGTAATCCCATCTATTCTGGAGGCTGAGGCACCAGGATTATTTAAATCTGGGAGGCAGAGTTTGCAGTGAGCCGAGATCTCACCACCACACTCCAGCCTGGGTGACAGAGTGAGACTCTGTCTCAAAAAACAAAAAAAAAAAAAGAAAAAAGAAAAAAGTAAAAAGAAAAGATGGACAAAGTGTTAGAGAGACGCTGGTTGGGAGAGGGAAAACAATTTACAGACAGTGCGTGAAGTCCCCAGGGATATGGCATTTTACTGCCACCGGAAGGAAGAGAAGGAAGGAGAATGGAGCAGTCCAGGCAGAGGAAGCAG",
+    "local_lo": 165,
+    "local_hi": 183,
+    "target": "AAAAAAAAAAA",
+    "marker0": "GTTAGAGAGACGCTGGTTGGG",
+    "marker1": "GTTAGAGAGATGCTGGTTGGG"
+  },
+  {
+    "indel": {
+      "pos": 2606890,
+      "ref": "CTT",
+      "alts": [
+        "C"
+      ],
+      "gt": [
+        1,
+        0
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t2606891\t.\tCTT\tC\t30\t.\t.\tGT:AD\t1|0:1,1"
+    },
+    "marker": {
+      "pos": 2606924,
+      "ref": "C",
+      "alts": [
+        "A"
+      ],
+      "gt": [
+        0,
+        1
+      ],
+      "phased": true,
+      "filter": [],
+      "vcf": "chr20\t2606925\t.\tC\tA\t30\t.\t.\tGT:AD\t0|1:1,1"
+    },
+    "start": 2606720,
+    "end": 2607063,
+    "reference": "AATATATCTTGTTTTCTCCTGAATCCTATTAACTTCTTTCTTCATATATTTTTTATTTTTAAAACTTTCCCCCTTTTTATCTTTTTCTTGTCATTGTCATTATGTTTTGCAATTGTGATTCTCTTAGGTATTCTTCAATTTTAATATAGTTTTCCCTTAATTTCTTTTTTCTTTTTTTTTTTTTTTTTTTGCAGTATTCTGTCACCCTTTTTCTGGGTTTTTCTAATTTTTATTTATATTGTTTTGTGACCTATATTTTCTTAACATCTTTCAGTTTTCTGTTTTTGAATACTCATTATAATTTTTTAACTGTTTTATACAACTTACTTTTTGGTGCGTTTTC",
+    "local_lo": 165,
+    "local_hi": 178,
+    "target": "TTTTTCTTTTT",
+    "marker0": "TATTCTGTCACCCTTTTTCTG",
+    "marker1": "TATTCTGTCAACCTTTTTCTG"
+  }
+]

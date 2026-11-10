@@ -1,0 +1,645 @@
+{
+  "N": 73360,
+  "native_template_IDs": 11385,
+  "native_primary_alignment_IDs": 73266,
+  "native_sequence_identity": {
+    "trimmed_substring_of_raw": 2817,
+    "exact_raw_oriented": 69774,
+    "other_sequence_change": 675
+  },
+  "paired_endpoint": "Two profiles: native CRISPR-A template event conditioned on a unique primary alignment spanning the target; and the exact ten-base tract projected from that native alignment using MP07 flank ownership. MP07 scores all admitted paths under its own affine objective.",
+  "admission": [
+    {
+      "native_call": "E",
+      "full_local_span": true,
+      "n": 11385
+    },
+    {
+      "native_call": "NE",
+      "full_local_span": false,
+      "n": 421
+    },
+    {
+      "native_call": "NE",
+      "full_local_span": true,
+      "n": 61460
+    },
+    {
+      "native_call": "U",
+      "full_local_span": false,
+      "n": 94
+    }
+  ],
+  "counts": [
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 0,
+      "crispra": "E",
+      "mp07": "E",
+      "n": 9733
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 0,
+      "crispra": "E",
+      "mp07": "NE",
+      "n": 1547
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 0,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 105
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 0,
+      "crispra": "NE",
+      "mp07": "E",
+      "n": 119
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 0,
+      "crispra": "NE",
+      "mp07": "NE",
+      "n": 60234
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 0,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 1107
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 0,
+      "crispra": "U",
+      "mp07": "NE",
+      "n": 77
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 0,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 438
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 9,
+      "crispra": "E",
+      "mp07": "E",
+      "n": 9733
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 9,
+      "crispra": "E",
+      "mp07": "NE",
+      "n": 1547
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 9,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 105
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 9,
+      "crispra": "NE",
+      "mp07": "E",
+      "n": 113
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 9,
+      "crispra": "NE",
+      "mp07": "NE",
+      "n": 60225
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 9,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 1122
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 9,
+      "crispra": "U",
+      "mp07": "NE",
+      "n": 53
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 9,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 462
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 18,
+      "crispra": "E",
+      "mp07": "E",
+      "n": 9733
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 18,
+      "crispra": "E",
+      "mp07": "NE",
+      "n": 1547
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 18,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 105
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 18,
+      "crispra": "NE",
+      "mp07": "E",
+      "n": 100
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 18,
+      "crispra": "NE",
+      "mp07": "NE",
+      "n": 60222
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 18,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 1138
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 18,
+      "crispra": "U",
+      "mp07": "NE",
+      "n": 30
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 18,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 485
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 27,
+      "crispra": "E",
+      "mp07": "E",
+      "n": 9733
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 27,
+      "crispra": "E",
+      "mp07": "NE",
+      "n": 1547
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 27,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 105
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 27,
+      "crispra": "NE",
+      "mp07": "E",
+      "n": 100
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 27,
+      "crispra": "NE",
+      "mp07": "NE",
+      "n": 60156
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 27,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 1204
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 27,
+      "crispra": "U",
+      "mp07": "NE",
+      "n": 22
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 27,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 493
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 36,
+      "crispra": "E",
+      "mp07": "E",
+      "n": 9725
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 36,
+      "crispra": "E",
+      "mp07": "NE",
+      "n": 1536
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 36,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 124
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 36,
+      "crispra": "NE",
+      "mp07": "E",
+      "n": 100
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 36,
+      "crispra": "NE",
+      "mp07": "NE",
+      "n": 59956
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 36,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 1404
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 36,
+      "crispra": "U",
+      "mp07": "NE",
+      "n": 1
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 36,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 514
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 45,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 11385
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 45,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 61460
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 45,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 515
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 54,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 11385
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 54,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 61460
+    },
+    {
+      "profile": "native_template_span_conditioned",
+      "delta": 54,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 515
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 0,
+      "crispra": "E",
+      "mp07": "E",
+      "n": 9763
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 0,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 94
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 0,
+      "crispra": "NE",
+      "mp07": "NE",
+      "n": 61307
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 0,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 1009
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 0,
+      "crispra": "U",
+      "mp07": "E",
+      "n": 89
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 0,
+      "crispra": "U",
+      "mp07": "NE",
+      "n": 551
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 0,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 547
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 9,
+      "crispra": "E",
+      "mp07": "E",
+      "n": 9757
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 9,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 100
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 9,
+      "crispra": "NE",
+      "mp07": "NE",
+      "n": 61277
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 9,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 1039
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 9,
+      "crispra": "U",
+      "mp07": "E",
+      "n": 89
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 9,
+      "crispra": "U",
+      "mp07": "NE",
+      "n": 548
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 9,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 550
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 18,
+      "crispra": "E",
+      "mp07": "E",
+      "n": 9744
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 18,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 113
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 18,
+      "crispra": "NE",
+      "mp07": "NE",
+      "n": 61251
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 18,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 1065
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 18,
+      "crispra": "U",
+      "mp07": "E",
+      "n": 89
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 18,
+      "crispra": "U",
+      "mp07": "NE",
+      "n": 548
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 18,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 550
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 27,
+      "crispra": "E",
+      "mp07": "E",
+      "n": 9744
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 27,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 113
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 27,
+      "crispra": "NE",
+      "mp07": "NE",
+      "n": 61181
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 27,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 1135
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 27,
+      "crispra": "U",
+      "mp07": "E",
+      "n": 89
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 27,
+      "crispra": "U",
+      "mp07": "NE",
+      "n": 544
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 27,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 554
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 36,
+      "crispra": "E",
+      "mp07": "E",
+      "n": 9736
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 36,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 121
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 36,
+      "crispra": "NE",
+      "mp07": "NE",
+      "n": 60951
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 36,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 1365
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 36,
+      "crispra": "U",
+      "mp07": "E",
+      "n": 89
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 36,
+      "crispra": "U",
+      "mp07": "NE",
+      "n": 542
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 36,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 556
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 45,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 9857
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 45,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 62316
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 45,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 1187
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 54,
+      "crispra": "E",
+      "mp07": "U",
+      "n": 9857
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 54,
+      "crispra": "NE",
+      "mp07": "U",
+      "n": 62316
+    },
+    {
+      "profile": "same_tract_from_native_alignment",
+      "delta": 54,
+      "crispra": "U",
+      "mp07": "U",
+      "n": 1187
+    }
+  ],
+  "row_sha256": "f27b94dca6b527aeb7b018949219ce99ddfaf23eec30a44faaa71240d981ea2d"
+}

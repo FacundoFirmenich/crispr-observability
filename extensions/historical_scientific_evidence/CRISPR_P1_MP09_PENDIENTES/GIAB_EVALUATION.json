@@ -1,0 +1,1508 @@
+{
+  "N_reads": 159,
+  "N_sites": 12,
+  "scope": "External HG002 read-level phase-marker concordance, conditional on benchmark phase and correct marker identification. BAM baseline is its published alignment. CRISPR-A was not run on this control. Counts are paired reads and are not independent molecule trials.",
+  "counts": [
+    {
+      "delta": 0,
+      "truth": "E",
+      "bam": "E",
+      "certificate": "E",
+      "n": 3
+    },
+    {
+      "delta": 0,
+      "truth": "E",
+      "bam": "E",
+      "certificate": "U",
+      "n": 29
+    },
+    {
+      "delta": 0,
+      "truth": "E",
+      "bam": "NE",
+      "certificate": "NE",
+      "n": 1
+    },
+    {
+      "delta": 0,
+      "truth": "E",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 9
+    },
+    {
+      "delta": 0,
+      "truth": "E",
+      "bam": "U",
+      "certificate": "U",
+      "n": 33
+    },
+    {
+      "delta": 0,
+      "truth": "NE",
+      "bam": "NE",
+      "certificate": "NE",
+      "n": 4
+    },
+    {
+      "delta": 0,
+      "truth": "NE",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 46
+    },
+    {
+      "delta": 0,
+      "truth": "NE",
+      "bam": "U",
+      "certificate": "U",
+      "n": 34
+    },
+    {
+      "delta": 9,
+      "truth": "E",
+      "bam": "E",
+      "certificate": "U",
+      "n": 32
+    },
+    {
+      "delta": 9,
+      "truth": "E",
+      "bam": "NE",
+      "certificate": "NE",
+      "n": 1
+    },
+    {
+      "delta": 9,
+      "truth": "E",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 9
+    },
+    {
+      "delta": 9,
+      "truth": "E",
+      "bam": "U",
+      "certificate": "U",
+      "n": 33
+    },
+    {
+      "delta": 9,
+      "truth": "NE",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 50
+    },
+    {
+      "delta": 9,
+      "truth": "NE",
+      "bam": "U",
+      "certificate": "U",
+      "n": 34
+    },
+    {
+      "delta": 18,
+      "truth": "E",
+      "bam": "E",
+      "certificate": "U",
+      "n": 32
+    },
+    {
+      "delta": 18,
+      "truth": "E",
+      "bam": "NE",
+      "certificate": "NE",
+      "n": 1
+    },
+    {
+      "delta": 18,
+      "truth": "E",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 9
+    },
+    {
+      "delta": 18,
+      "truth": "E",
+      "bam": "U",
+      "certificate": "U",
+      "n": 33
+    },
+    {
+      "delta": 18,
+      "truth": "NE",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 50
+    },
+    {
+      "delta": 18,
+      "truth": "NE",
+      "bam": "U",
+      "certificate": "U",
+      "n": 34
+    },
+    {
+      "delta": 27,
+      "truth": "E",
+      "bam": "E",
+      "certificate": "U",
+      "n": 32
+    },
+    {
+      "delta": 27,
+      "truth": "E",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 10
+    },
+    {
+      "delta": 27,
+      "truth": "E",
+      "bam": "U",
+      "certificate": "U",
+      "n": 33
+    },
+    {
+      "delta": 27,
+      "truth": "NE",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 50
+    },
+    {
+      "delta": 27,
+      "truth": "NE",
+      "bam": "U",
+      "certificate": "U",
+      "n": 34
+    },
+    {
+      "delta": 36,
+      "truth": "E",
+      "bam": "E",
+      "certificate": "U",
+      "n": 32
+    },
+    {
+      "delta": 36,
+      "truth": "E",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 10
+    },
+    {
+      "delta": 36,
+      "truth": "E",
+      "bam": "U",
+      "certificate": "U",
+      "n": 33
+    },
+    {
+      "delta": 36,
+      "truth": "NE",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 50
+    },
+    {
+      "delta": 36,
+      "truth": "NE",
+      "bam": "U",
+      "certificate": "U",
+      "n": 34
+    },
+    {
+      "delta": 45,
+      "truth": "E",
+      "bam": "E",
+      "certificate": "U",
+      "n": 32
+    },
+    {
+      "delta": 45,
+      "truth": "E",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 10
+    },
+    {
+      "delta": 45,
+      "truth": "E",
+      "bam": "U",
+      "certificate": "U",
+      "n": 33
+    },
+    {
+      "delta": 45,
+      "truth": "NE",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 50
+    },
+    {
+      "delta": 45,
+      "truth": "NE",
+      "bam": "U",
+      "certificate": "U",
+      "n": 34
+    },
+    {
+      "delta": 54,
+      "truth": "E",
+      "bam": "E",
+      "certificate": "U",
+      "n": 32
+    },
+    {
+      "delta": 54,
+      "truth": "E",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 10
+    },
+    {
+      "delta": 54,
+      "truth": "E",
+      "bam": "U",
+      "certificate": "U",
+      "n": 33
+    },
+    {
+      "delta": 54,
+      "truth": "NE",
+      "bam": "NE",
+      "certificate": "U",
+      "n": 50
+    },
+    {
+      "delta": 54,
+      "truth": "NE",
+      "bam": "U",
+      "certificate": "U",
+      "n": 34
+    }
+  ],
+  "sites": [
+    {
+      "site": 183643,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 183643,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "NE",
+      "n": 2
+    },
+    {
+      "site": 183643,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 4
+    },
+    {
+      "site": 183643,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 183643,
+      "delta": 9,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 183643,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 183643,
+      "delta": 18,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 183643,
+      "delta": 27,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 183643,
+      "delta": 27,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 183643,
+      "delta": 36,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 183643,
+      "delta": 36,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 183643,
+      "delta": 45,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 183643,
+      "delta": 45,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 183643,
+      "delta": 54,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 183643,
+      "delta": 54,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 255818,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "U",
+      "n": 3
+    },
+    {
+      "site": 255818,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 255818,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "U",
+      "n": 3
+    },
+    {
+      "site": 255818,
+      "delta": 9,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 255818,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "U",
+      "n": 3
+    },
+    {
+      "site": 255818,
+      "delta": 18,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 255818,
+      "delta": 27,
+      "truth": "E",
+      "certificate": "U",
+      "n": 3
+    },
+    {
+      "site": 255818,
+      "delta": 27,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 255818,
+      "delta": 36,
+      "truth": "E",
+      "certificate": "U",
+      "n": 3
+    },
+    {
+      "site": 255818,
+      "delta": 36,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 255818,
+      "delta": 45,
+      "truth": "E",
+      "certificate": "U",
+      "n": 3
+    },
+    {
+      "site": 255818,
+      "delta": 45,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 255818,
+      "delta": 54,
+      "truth": "E",
+      "certificate": "U",
+      "n": 3
+    },
+    {
+      "site": 255818,
+      "delta": 54,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 263497,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "U",
+      "n": 11
+    },
+    {
+      "site": 263497,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 263497,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "U",
+      "n": 11
+    },
+    {
+      "site": 263497,
+      "delta": 9,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 263497,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "U",
+      "n": 11
+    },
+    {
+      "site": 263497,
+      "delta": 18,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 263497,
+      "delta": 27,
+      "truth": "E",
+      "certificate": "U",
+      "n": 11
+    },
+    {
+      "site": 263497,
+      "delta": 27,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 263497,
+      "delta": 36,
+      "truth": "E",
+      "certificate": "U",
+      "n": 11
+    },
+    {
+      "site": 263497,
+      "delta": 36,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 263497,
+      "delta": 45,
+      "truth": "E",
+      "certificate": "U",
+      "n": 11
+    },
+    {
+      "site": 263497,
+      "delta": 45,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 263497,
+      "delta": 54,
+      "truth": "E",
+      "certificate": "U",
+      "n": 11
+    },
+    {
+      "site": 263497,
+      "delta": 54,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 454650,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 454650,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 13
+    },
+    {
+      "site": 454650,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 454650,
+      "delta": 9,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 13
+    },
+    {
+      "site": 454650,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 454650,
+      "delta": 18,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 13
+    },
+    {
+      "site": 454650,
+      "delta": 27,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 454650,
+      "delta": 27,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 13
+    },
+    {
+      "site": 454650,
+      "delta": 36,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 454650,
+      "delta": 36,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 13
+    },
+    {
+      "site": 454650,
+      "delta": 45,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 454650,
+      "delta": 45,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 13
+    },
+    {
+      "site": 454650,
+      "delta": 54,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 454650,
+      "delta": 54,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 13
+    },
+    {
+      "site": 460434,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 460434,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 4
+    },
+    {
+      "site": 460434,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 460434,
+      "delta": 9,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 4
+    },
+    {
+      "site": 460434,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 460434,
+      "delta": 18,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 4
+    },
+    {
+      "site": 460434,
+      "delta": 27,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 460434,
+      "delta": 27,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 4
+    },
+    {
+      "site": 460434,
+      "delta": 36,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 460434,
+      "delta": 36,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 4
+    },
+    {
+      "site": 460434,
+      "delta": 45,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 460434,
+      "delta": 45,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 4
+    },
+    {
+      "site": 460434,
+      "delta": 54,
+      "truth": "E",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 460434,
+      "delta": 54,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 4
+    },
+    {
+      "site": 642893,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 642893,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 642893,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 642893,
+      "delta": 9,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 642893,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 642893,
+      "delta": 18,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 642893,
+      "delta": 27,
+      "truth": "E",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 642893,
+      "delta": 27,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 642893,
+      "delta": 36,
+      "truth": "E",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 642893,
+      "delta": 36,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 642893,
+      "delta": 45,
+      "truth": "E",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 642893,
+      "delta": 45,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 642893,
+      "delta": 54,
+      "truth": "E",
+      "certificate": "U",
+      "n": 12
+    },
+    {
+      "site": 642893,
+      "delta": 54,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 711120,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "U",
+      "n": 1
+    },
+    {
+      "site": 711120,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 711120,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "U",
+      "n": 1
+    },
+    {
+      "site": 711120,
+      "delta": 9,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 711120,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "U",
+      "n": 1
+    },
+    {
+      "site": 711120,
+      "delta": 18,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 711120,
+      "delta": 27,
+      "truth": "E",
+      "certificate": "U",
+      "n": 1
+    },
+    {
+      "site": 711120,
+      "delta": 27,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 711120,
+      "delta": 36,
+      "truth": "E",
+      "certificate": "U",
+      "n": 1
+    },
+    {
+      "site": 711120,
+      "delta": 36,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 711120,
+      "delta": 45,
+      "truth": "E",
+      "certificate": "U",
+      "n": 1
+    },
+    {
+      "site": 711120,
+      "delta": 45,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 711120,
+      "delta": 54,
+      "truth": "E",
+      "certificate": "U",
+      "n": 1
+    },
+    {
+      "site": 711120,
+      "delta": 54,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 966449,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "E",
+      "n": 3
+    },
+    {
+      "site": 966449,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "NE",
+      "n": 1
+    },
+    {
+      "site": 966449,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 966449,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "NE",
+      "n": 2
+    },
+    {
+      "site": 966449,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 4
+    },
+    {
+      "site": 966449,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "NE",
+      "n": 1
+    },
+    {
+      "site": 966449,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "U",
+      "n": 9
+    },
+    {
+      "site": 966449,
+      "delta": 9,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 966449,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "NE",
+      "n": 1
+    },
+    {
+      "site": 966449,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "U",
+      "n": 9
+    },
+    {
+      "site": 966449,
+      "delta": 18,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 966449,
+      "delta": 27,
+      "truth": "E",
+      "certificate": "U",
+      "n": 10
+    },
+    {
+      "site": 966449,
+      "delta": 27,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 966449,
+      "delta": 36,
+      "truth": "E",
+      "certificate": "U",
+      "n": 10
+    },
+    {
+      "site": 966449,
+      "delta": 36,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 966449,
+      "delta": 45,
+      "truth": "E",
+      "certificate": "U",
+      "n": 10
+    },
+    {
+      "site": 966449,
+      "delta": 45,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 966449,
+      "delta": 54,
+      "truth": "E",
+      "certificate": "U",
+      "n": 10
+    },
+    {
+      "site": 966449,
+      "delta": 54,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 9,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 18,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 27,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 27,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 36,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 36,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 45,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 45,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 54,
+      "truth": "E",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1184621,
+      "delta": 54,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 6
+    },
+    {
+      "site": 1871503,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1871503,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 1871503,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1871503,
+      "delta": 9,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 1871503,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1871503,
+      "delta": 18,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 1871503,
+      "delta": 27,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1871503,
+      "delta": 27,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 1871503,
+      "delta": 36,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1871503,
+      "delta": 36,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 1871503,
+      "delta": 45,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1871503,
+      "delta": 45,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 1871503,
+      "delta": 54,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1871503,
+      "delta": 54,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 8
+    },
+    {
+      "site": 1948735,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1948735,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 1948735,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1948735,
+      "delta": 9,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 1948735,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1948735,
+      "delta": 18,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 1948735,
+      "delta": 27,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1948735,
+      "delta": 27,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 1948735,
+      "delta": 36,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1948735,
+      "delta": 36,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 1948735,
+      "delta": 45,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1948735,
+      "delta": 45,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 1948735,
+      "delta": 54,
+      "truth": "E",
+      "certificate": "U",
+      "n": 7
+    },
+    {
+      "site": 1948735,
+      "delta": 54,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 5
+    },
+    {
+      "site": 2606891,
+      "delta": 0,
+      "truth": "E",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 0,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 9,
+      "truth": "E",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 9,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 18,
+      "truth": "E",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 18,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 27,
+      "truth": "E",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 27,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 36,
+      "truth": "E",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 36,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 45,
+      "truth": "E",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 45,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 54,
+      "truth": "E",
+      "certificate": "U",
+      "n": 2
+    },
+    {
+      "site": 2606891,
+      "delta": 54,
+      "truth": "NE",
+      "certificate": "U",
+      "n": 2
+    }
+  ],
+  "records_sha256": "d5eb6144b3794ae540d854024aaf6dd0347e4cf80d21504245352221eb53321e"
+}

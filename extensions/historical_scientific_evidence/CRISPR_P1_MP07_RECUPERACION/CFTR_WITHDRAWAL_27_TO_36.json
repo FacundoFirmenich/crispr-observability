@@ -1,0 +1,432 @@
+[
+  {
+    "accession": "SRR29623273",
+    "preparation": 1,
+    "condition": "mock",
+    "target": "exact",
+    "label_at_27": "E",
+    "outcome_at_36": "unobservable_only",
+    "n": 2,
+    "example": "SRR29623273.2320"
+  },
+  {
+    "accession": "SRR29623273",
+    "preparation": 1,
+    "condition": "mock",
+    "target": "exact",
+    "label_at_27": "NE",
+    "outcome_at_36": "retained",
+    "n": 16811,
+    "example": "SRR29623273.1"
+  },
+  {
+    "accession": "SRR29623273",
+    "preparation": 1,
+    "condition": "mock",
+    "target": "exact",
+    "label_at_27": "NE",
+    "outcome_at_36": "unobservable_only",
+    "n": 54,
+    "example": "SRR29623273.251"
+  },
+  {
+    "accession": "SRR29623273",
+    "preparation": 1,
+    "condition": "mock",
+    "target": "native",
+    "label_at_27": "E",
+    "outcome_at_36": "unobservable_only",
+    "n": 2,
+    "example": "SRR29623273.2320"
+  },
+  {
+    "accession": "SRR29623273",
+    "preparation": 1,
+    "condition": "mock",
+    "target": "native",
+    "label_at_27": "NE",
+    "outcome_at_36": "retained",
+    "n": 16811,
+    "example": "SRR29623273.1"
+  },
+  {
+    "accession": "SRR29623273",
+    "preparation": 1,
+    "condition": "mock",
+    "target": "native",
+    "label_at_27": "NE",
+    "outcome_at_36": "unobservable_only",
+    "n": 54,
+    "example": "SRR29623273.251"
+  },
+  {
+    "accession": "SRR29623265",
+    "preparation": 2,
+    "condition": "mock",
+    "target": "exact",
+    "label_at_27": "NE",
+    "outcome_at_36": "retained",
+    "n": 20769,
+    "example": "SRR29623265.1"
+  },
+  {
+    "accession": "SRR29623265",
+    "preparation": 2,
+    "condition": "mock",
+    "target": "exact",
+    "label_at_27": "NE",
+    "outcome_at_36": "unobservable_only",
+    "n": 72,
+    "example": "SRR29623265.279"
+  },
+  {
+    "accession": "SRR29623265",
+    "preparation": 2,
+    "condition": "mock",
+    "target": "native",
+    "label_at_27": "NE",
+    "outcome_at_36": "retained",
+    "n": 20769,
+    "example": "SRR29623265.1"
+  },
+  {
+    "accession": "SRR29623265",
+    "preparation": 2,
+    "condition": "mock",
+    "target": "native",
+    "label_at_27": "NE",
+    "outcome_at_36": "unobservable_only",
+    "n": 72,
+    "example": "SRR29623265.279"
+  },
+  {
+    "accession": "SRR29623267",
+    "preparation": 3,
+    "condition": "mock",
+    "target": "exact",
+    "label_at_27": "NE",
+    "outcome_at_36": "retained",
+    "n": 26696,
+    "example": "SRR29623267.1"
+  },
+  {
+    "accession": "SRR29623267",
+    "preparation": 3,
+    "condition": "mock",
+    "target": "exact",
+    "label_at_27": "NE",
+    "outcome_at_36": "unobservable_only",
+    "n": 85,
+    "example": "SRR29623267.21"
+  },
+  {
+    "accession": "SRR29623267",
+    "preparation": 3,
+    "condition": "mock",
+    "target": "native",
+    "label_at_27": "NE",
+    "outcome_at_36": "retained",
+    "n": 26696,
+    "example": "SRR29623267.1"
+  },
+  {
+    "accession": "SRR29623267",
+    "preparation": 3,
+    "condition": "mock",
+    "target": "native",
+    "label_at_27": "NE",
+    "outcome_at_36": "unobservable_only",
+    "n": 85,
+    "example": "SRR29623267.21"
+  },
+  {
+    "accession": "SRR29623272",
+    "preparation": 1,
+    "condition": "PE treated",
+    "target": "exact",
+    "label_at_27": "E",
+    "outcome_at_36": "both",
+    "n": 1,
+    "example": "SRR29623272.14460"
+  },
+  {
+    "accession": "SRR29623272",
+    "preparation": 1,
+    "condition": "PE treated",
+    "target": "exact",
+    "label_at_27": "E",
+    "outcome_at_36": "unobservable_only",
+    "n": 3658,
+    "example": "SRR29623272.2"
+  },
+  {
+    "accession": "SRR29623272",
+    "preparation": 1,
+    "condition": "PE treated",
+    "target": "exact",
+    "label_at_27": "NE",
+    "outcome_at_36": "retained",
+    "n": 15461,
+    "example": "SRR29623272.1"
+  },
+  {
+    "accession": "SRR29623272",
+    "preparation": 1,
+    "condition": "PE treated",
+    "target": "exact",
+    "label_at_27": "NE",
+    "outcome_at_36": "unobservable_only",
+    "n": 748,
+    "example": "SRR29623272.11"
+  },
+  {
+    "accession": "SRR29623272",
+    "preparation": 1,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "E",
+    "outcome_at_36": "both",
+    "n": 1,
+    "example": "SRR29623272.14460"
+  },
+  {
+    "accession": "SRR29623272",
+    "preparation": 1,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "E",
+    "outcome_at_36": "retained",
+    "n": 2,
+    "example": "SRR29623272.19025"
+  },
+  {
+    "accession": "SRR29623272",
+    "preparation": 1,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "E",
+    "outcome_at_36": "unobservable_only",
+    "n": 3680,
+    "example": "SRR29623272.2"
+  },
+  {
+    "accession": "SRR29623272",
+    "preparation": 1,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "NE",
+    "outcome_at_36": "retained",
+    "n": 15459,
+    "example": "SRR29623272.1"
+  },
+  {
+    "accession": "SRR29623272",
+    "preparation": 1,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "NE",
+    "outcome_at_36": "unobservable_only",
+    "n": 726,
+    "example": "SRR29623272.11"
+  },
+  {
+    "accession": "SRR29623271",
+    "preparation": 2,
+    "condition": "PE treated",
+    "target": "exact",
+    "label_at_27": "E",
+    "outcome_at_36": "both",
+    "n": 4,
+    "example": "SRR29623271.506"
+  },
+  {
+    "accession": "SRR29623271",
+    "preparation": 2,
+    "condition": "PE treated",
+    "target": "exact",
+    "label_at_27": "E",
+    "outcome_at_36": "unobservable_only",
+    "n": 5700,
+    "example": "SRR29623271.3"
+  },
+  {
+    "accession": "SRR29623271",
+    "preparation": 2,
+    "condition": "PE treated",
+    "target": "exact",
+    "label_at_27": "NE",
+    "outcome_at_36": "retained",
+    "n": 11911,
+    "example": "SRR29623271.2"
+  },
+  {
+    "accession": "SRR29623271",
+    "preparation": 2,
+    "condition": "PE treated",
+    "target": "exact",
+    "label_at_27": "NE",
+    "outcome_at_36": "unobservable_only",
+    "n": 841,
+    "example": "SRR29623271.20"
+  },
+  {
+    "accession": "SRR29623271",
+    "preparation": 2,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "E",
+    "outcome_at_36": "both",
+    "n": 4,
+    "example": "SRR29623271.506"
+  },
+  {
+    "accession": "SRR29623271",
+    "preparation": 2,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "E",
+    "outcome_at_36": "contradiction_only",
+    "n": 6,
+    "example": "SRR29623271.3349"
+  },
+  {
+    "accession": "SRR29623271",
+    "preparation": 2,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "E",
+    "outcome_at_36": "retained",
+    "n": 22,
+    "example": "SRR29623271.302"
+  },
+  {
+    "accession": "SRR29623271",
+    "preparation": 2,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "E",
+    "outcome_at_36": "unobservable_only",
+    "n": 5739,
+    "example": "SRR29623271.3"
+  },
+  {
+    "accession": "SRR29623271",
+    "preparation": 2,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "NE",
+    "outcome_at_36": "retained",
+    "n": 11883,
+    "example": "SRR29623271.2"
+  },
+  {
+    "accession": "SRR29623271",
+    "preparation": 2,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "NE",
+    "outcome_at_36": "unobservable_only",
+    "n": 799,
+    "example": "SRR29623271.20"
+  },
+  {
+    "accession": "SRR29623270",
+    "preparation": 3,
+    "condition": "PE treated",
+    "target": "exact",
+    "label_at_27": "E",
+    "outcome_at_36": "both",
+    "n": 10,
+    "example": "SRR29623270.382"
+  },
+  {
+    "accession": "SRR29623270",
+    "preparation": 3,
+    "condition": "PE treated",
+    "target": "exact",
+    "label_at_27": "E",
+    "outcome_at_36": "unobservable_only",
+    "n": 3761,
+    "example": "SRR29623270.13"
+  },
+  {
+    "accession": "SRR29623270",
+    "preparation": 3,
+    "condition": "PE treated",
+    "target": "exact",
+    "label_at_27": "NE",
+    "outcome_at_36": "retained",
+    "n": 9739,
+    "example": "SRR29623270.1"
+  },
+  {
+    "accession": "SRR29623270",
+    "preparation": 3,
+    "condition": "PE treated",
+    "target": "exact",
+    "label_at_27": "NE",
+    "outcome_at_36": "unobservable_only",
+    "n": 567,
+    "example": "SRR29623270.5"
+  },
+  {
+    "accession": "SRR29623270",
+    "preparation": 3,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "E",
+    "outcome_at_36": "both",
+    "n": 10,
+    "example": "SRR29623270.382"
+  },
+  {
+    "accession": "SRR29623270",
+    "preparation": 3,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "E",
+    "outcome_at_36": "contradiction_only",
+    "n": 2,
+    "example": "SRR29623270.10424"
+  },
+  {
+    "accession": "SRR29623270",
+    "preparation": 3,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "E",
+    "outcome_at_36": "retained",
+    "n": 9,
+    "example": "SRR29623270.3574"
+  },
+  {
+    "accession": "SRR29623270",
+    "preparation": 3,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "E",
+    "outcome_at_36": "unobservable_only",
+    "n": 3785,
+    "example": "SRR29623270.13"
+  },
+  {
+    "accession": "SRR29623270",
+    "preparation": 3,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "NE",
+    "outcome_at_36": "retained",
+    "n": 9728,
+    "example": "SRR29623270.1"
+  },
+  {
+    "accession": "SRR29623270",
+    "preparation": 3,
+    "condition": "PE treated",
+    "target": "native",
+    "label_at_27": "NE",
+    "outcome_at_36": "unobservable_only",
+    "n": 538,
+    "example": "SRR29623270.5"
+  }
+]

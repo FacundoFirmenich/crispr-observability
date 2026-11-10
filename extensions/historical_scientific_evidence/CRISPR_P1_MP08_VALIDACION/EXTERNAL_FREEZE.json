@@ -1,0 +1,374 @@
+{
+  "study": "Antoniou et al., 10.1038/s41467-025-58653-1; ENA PRJNA1226148",
+  "selection": "All K562 replicates from first three human-locus blocks of Supplementary Data 5, PEn with unmodified pegRNA and paired untreated controls when deposited. No editing frequencies used.",
+  "targets": {
+    "PCSK9": {
+      "primer_row": 3,
+      "guide_row": 3,
+      "parameter_row": 3,
+      "parameter_printed_label": "PCSK9",
+      "spacer": "CAGGTTCCACGGGATGCTCT",
+      "extension": "TGCATCCCGTGGAA",
+      "reference_head_primer": "TGGTATTCATCCGCCCGGTA",
+      "reference_tail_primer": "ATGTGGGGACAGGTTTGATC",
+      "wt": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCTCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+      "edited": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+      "lo": 50,
+      "hi_wt": 66,
+      "hi_edited": 67,
+      "programmed_local": "CGGGATGCATCTGGGCA",
+      "unedited_local": "CGGGATGCTCTGGGCA",
+      "published_crispresso2_parameters": {
+        "A": "PCSK9",
+        "B": "CAGGTTCCACGGGATGCTCT",
+        "C": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCTCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT",
+        "D": "TGCATCCCGTGGAA",
+        "E": "6",
+        "F": "1",
+        "G": "0",
+        "H": "30",
+        "I": "1",
+        "J": "1",
+        "K": "GTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGC",
+        "L": "TGGTATTCATCCGCCCGGTACCGTGGAGGGGTAATCCGCTCCAGGTTCCACGGGATGCATCTGGGCAAAGACAGAGGAGTCCTCCTCGATGTAGTCGACATGGGGCAACTTCAAGGCCTGCAGAAGCCAGAGAGGCCGGGGGACTCTGCTTAAGCCATTTGGACAGCAGCAAACACAGCCACAGCCTGGCCTTACCTGATCAAACCTGTCCCCACAT"
+      }
+    },
+    "CTLA4": {
+      "primer_row": 4,
+      "guide_row": 7,
+      "parameter_row": 5,
+      "parameter_printed_label": "HBEGF",
+      "spacer": "GGCCCAGCCTGCTGTGGTAC",
+      "extension": "TTACTATACCACAGCAGGCTG",
+      "reference_head_primer": "TAGAAGGCAGAAGGGCTTGC",
+      "reference_tail_primer": "AGTGGCTTTGCCTGGAGATG",
+      "wt": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGGTACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+      "edited": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+      "lo": 99,
+      "hi_wt": 117,
+      "hi_edited": 125,
+      "programmed_local": "TGCTGTGGTATAGTAATACTGGCCAG",
+      "unedited_local": "TGCTGTGGTACTGGCCAG",
+      "published_crispresso2_parameters": {
+        "A": "HBEGF",
+        "B": "GGCCCAGCCTGCTGTGGTAC",
+        "C": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGGTACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT",
+        "D": "TTACTATACCACAGCAGGCTG",
+        "E": "8",
+        "F": "1",
+        "G": "0",
+        "H": "30",
+        "I": "1",
+        "J": "1",
+        "K": "GTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGC",
+        "L": "TAGAAGGCAGAAGGGCTTGCCTGGGCTTGGCCATGAAGGAGCATGAGTTCACTGAGTTCCCTTTGGCTTTTCCATGCTAGCAATGCACGTGGCCCAGCCTGCTGTGGTATAGTAATACTGGCCAGCAGCCGAGGCATCGCCAGCTTTGTGTGTGAGTATGCATCTCCAGGCAAAGCCACT"
+      }
+    },
+    "HBEGF": {
+      "primer_row": 5,
+      "guide_row": 11,
+      "parameter_row": 4,
+      "parameter_printed_label": "CTLA4",
+      "spacer": "GGGTGATGTTGCCTGACCGG",
+      "extension": "GATCAAGTCAGGCAACATC",
+      "reference_head_primer": "GCAACATTATGCCTGCCAGA",
+      "reference_tail_primer": "GGCCACGTTGTGAGAGAACA",
+      "wt": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGACCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+      "edited": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+      "lo": 145,
+      "hi_wt": 162,
+      "hi_edited": 168,
+      "programmed_local": "TTGCCTGACTTGATCCGGGGGCT",
+      "unedited_local": "TTGCCTGACCGGGGGCT",
+      "published_crispresso2_parameters": {
+        "A": "CTLA4",
+        "B": "GGGTGATGTTGCCTGACCGG",
+        "C": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGACCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC",
+        "D": "GATCAAGTCAGGCAACATC",
+        "E": "2",
+        "F": "1",
+        "G": "0",
+        "H": "30",
+        "I": "1",
+        "J": "1",
+        "K": "GTTTTAGAGCTAGAAATAGCAAGTTAAAATAAGGCTAGTCCGTTATCAACTTGAAAAAGTGGCACCGAGTCGGTGC",
+        "L": "GCAACATTATGCCTGCCAGAGAGCATGGCAGTGCTGTCATCCCTGAGGGGTTGCCAAGGCAGCCGTTTGCTGGGTTTGGCTTAGGAGAGAGGCTAAGGAACCCACAGCCCCTCCACCCACACACCTACCCAGGGAAGGGGTGATGTTGCCTGACTTGATCCGGGGGCTGATGCCTAATGGGTCAGGTTCCATTTCCTGTGAACCCTGCACAAAGGAATTGTTCTCTCACAACGTGGCC"
+      }
+    }
+  },
+  "samples": [
+    {
+      "locus": "PCSK9",
+      "replicate": 1,
+      "arm": "untreated",
+      "metadata_row": 4,
+      "library_alias": "sample_h_1",
+      "run": "SRR32414269",
+      "ENA_read_count": 55011,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/069/SRR32414269/SRR32414269_1.fastq.gz",
+          "md5": "4a19966f00383f1a1cdec91f426f657a",
+          "bytes": 2656493
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/069/SRR32414269/SRR32414269_2.fastq.gz",
+          "md5": "fd5753cba1a7dba523c47bde5bb290b6",
+          "bytes": 2186821
+        }
+      ]
+    },
+    {
+      "locus": "PCSK9",
+      "replicate": 1,
+      "arm": "PE_unmodified",
+      "metadata_row": 5,
+      "library_alias": "sample_h_2",
+      "run": "SRR32414268",
+      "ENA_read_count": 53437,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/068/SRR32414268/SRR32414268_1.fastq.gz",
+          "md5": "a3bb0cba0a0697e6a83971bc7670b858",
+          "bytes": 2512625
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/068/SRR32414268/SRR32414268_2.fastq.gz",
+          "md5": "eb946257a158e3f5cd52268aab6b2935",
+          "bytes": 2321235
+        }
+      ]
+    },
+    {
+      "locus": "PCSK9",
+      "replicate": 2,
+      "arm": "untreated",
+      "metadata_row": 9,
+      "library_alias": "sample_h_6",
+      "run": "SRR32414210",
+      "ENA_read_count": 59769,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/010/SRR32414210/SRR32414210_1.fastq.gz",
+          "md5": "4d445bddc9c3c5881d4373b6b3f4ed20",
+          "bytes": 2854204
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/010/SRR32414210/SRR32414210_2.fastq.gz",
+          "md5": "67528ad25413218e381f5642abffd8bb",
+          "bytes": 2368667
+        }
+      ]
+    },
+    {
+      "locus": "PCSK9",
+      "replicate": 2,
+      "arm": "PE_unmodified",
+      "metadata_row": 10,
+      "library_alias": "sample_h_7",
+      "run": "SRR32414167",
+      "ENA_read_count": 53035,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/067/SRR32414167/SRR32414167_1.fastq.gz",
+          "md5": "f203cdeb894043ccc46e2abcf3b1a2d1",
+          "bytes": 2510677
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/067/SRR32414167/SRR32414167_2.fastq.gz",
+          "md5": "bc942c79fae3fedac1c95c4a7a9daff0",
+          "bytes": 2310132
+        }
+      ]
+    },
+    {
+      "locus": "PCSK9",
+      "replicate": 3,
+      "arm": "untreated",
+      "metadata_row": 14,
+      "library_alias": "sample_h_11",
+      "run": "SRR32414267",
+      "ENA_read_count": 56381,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/067/SRR32414267/SRR32414267_1.fastq.gz",
+          "md5": "0aeb704869d6dcfc5998ba19fc97e4f7",
+          "bytes": 2687042
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/067/SRR32414267/SRR32414267_2.fastq.gz",
+          "md5": "e6092dbbdd3cfa71ff46a11fb29aaa03",
+          "bytes": 2230876
+        }
+      ]
+    },
+    {
+      "locus": "PCSK9",
+      "replicate": 3,
+      "arm": "PE_unmodified",
+      "metadata_row": 15,
+      "library_alias": "sample_h_12",
+      "run": "SRR32414256",
+      "ENA_read_count": 55171,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/056/SRR32414256/SRR32414256_1.fastq.gz",
+          "md5": "a0ffc08c14609de0389a4acf5d5eb56a",
+          "bytes": 2586541
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/056/SRR32414256/SRR32414256_2.fastq.gz",
+          "md5": "fa47da1c7bea96b96ac9c1cb3e04e87c",
+          "bytes": 2403219
+        }
+      ]
+    },
+    {
+      "locus": "HBEGF",
+      "replicate": 1,
+      "arm": "PE_unmodified",
+      "metadata_row": 64,
+      "library_alias": "sample_h_61",
+      "run": "SRR32414166",
+      "ENA_read_count": 59908,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/066/SRR32414166/SRR32414166_1.fastq.gz",
+          "md5": "be976ffc8d272ee3fba0fc2380cf1f8d",
+          "bytes": 2632017
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/066/SRR32414166/SRR32414166_2.fastq.gz",
+          "md5": "ab592b2e6cca4caffdf9c94712071009",
+          "bytes": 2643338
+        }
+      ]
+    },
+    {
+      "locus": "HBEGF",
+      "replicate": 2,
+      "arm": "PE_unmodified",
+      "metadata_row": 67,
+      "library_alias": "sample_h_64",
+      "run": "SRR32414163",
+      "ENA_read_count": 61787,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/063/SRR32414163/SRR32414163_1.fastq.gz",
+          "md5": "25fe9dcd60c949d59971d8e6c4a849f0",
+          "bytes": 2681079
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/063/SRR32414163/SRR32414163_2.fastq.gz",
+          "md5": "e81a1b5bcf9e5e77eccf67181002a1fb",
+          "bytes": 2649553
+        }
+      ]
+    },
+    {
+      "locus": "HBEGF",
+      "replicate": 3,
+      "arm": "PE_unmodified",
+      "metadata_row": 70,
+      "library_alias": "sample_h_67",
+      "run": "SRR32414160",
+      "ENA_read_count": 62598,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/060/SRR32414160/SRR32414160_1.fastq.gz",
+          "md5": "e5a587edd5365d9604b7a0777f0cda4d",
+          "bytes": 2729925
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/060/SRR32414160/SRR32414160_2.fastq.gz",
+          "md5": "03b7e65f98a5e567ec43b2a99134df76",
+          "bytes": 2717549
+        }
+      ]
+    },
+    {
+      "locus": "CTLA4",
+      "replicate": 1,
+      "arm": "PE_unmodified",
+      "metadata_row": 100,
+      "library_alias": "sample_h_97",
+      "run": "SRR32414095",
+      "ENA_read_count": 71390,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/095/SRR32414095/SRR32414095_1.fastq.gz",
+          "md5": "72dfb6c3f37d2edb0117af090735727b",
+          "bytes": 3488477
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/095/SRR32414095/SRR32414095_2.fastq.gz",
+          "md5": "7b4fda398e74c2fe6124928ca94b26ca",
+          "bytes": 2989146
+        }
+      ]
+    },
+    {
+      "locus": "CTLA4",
+      "replicate": 2,
+      "arm": "PE_unmodified",
+      "metadata_row": 103,
+      "library_alias": "sample_h_100",
+      "run": "SRR32414092",
+      "ENA_read_count": 79616,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/092/SRR32414092/SRR32414092_1.fastq.gz",
+          "md5": "2cadaa7882ac3a2adc566e89c0e92a61",
+          "bytes": 3849813
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/092/SRR32414092/SRR32414092_2.fastq.gz",
+          "md5": "c6295df8cdbd6a31057e8566f628eac9",
+          "bytes": 3339706
+        }
+      ]
+    },
+    {
+      "locus": "CTLA4",
+      "replicate": 3,
+      "arm": "PE_unmodified",
+      "metadata_row": 106,
+      "library_alias": "sample_h_103",
+      "run": "SRR32414264",
+      "ENA_read_count": 75200,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/064/SRR32414264/SRR32414264_1.fastq.gz",
+          "md5": "e833cac62f39b0f0262f9133889ead08",
+          "bytes": 3640802
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR324/064/SRR32414264/SRR32414264_2.fastq.gz",
+          "md5": "1cb732ce9d58319f81aa273bf793c0d1",
+          "bytes": 3169805
+        }
+      ]
+    }
+  ],
+  "score_deltas": [
+    0,
+    9,
+    18,
+    27,
+    36,
+    45,
+    54
+  ],
+  "observation": "One original read pair per unit. Both raw mate means >=30. Require complete opposing locus-specific 5-prime primer in each mate with offset <=8, trim its upstream prefix, trim readthrough following the first complete downstream opposite primer if it occurs after position 24. Unique exact overlap >=24 bases; both mates must agree throughout their overlap. Reject any N in merged sequence. No fill-in. Every rejection is U in raw N.",
+  "analysis": "Both wild-type and programmed amplicons in primer-authenticated orientation, frozen MP07 affine score and flank ownership. Core includes insertion equivalence interval with eight unchanged nucleotides each side. Exact local DNA, both programmed and unedited events. Agreement on determinate label between references required. Report E/NE/U by accession; untreated contrasts only when matched, using [E/N,(E+U)/N]. Report 0,9,18,27,36,45,54; no pooling across loci.",
+  "decision": "A change from positive to nonidentified lower bound on the local programmed event is a change in the reportable sign. Count direct label contradictions separately from projection failure. Joint reference-independent molecular accuracy requires linked independent truth.",
+  "freeze_sha256": {
+    "41467_2025_58653_MOESM3_ESM.xlsx": "9826a0722b79486796be329b32e04bf12227e26fe18b94fee2f1593a7814980d",
+    "41467_2025_58653_MOESM4_ESM.xlsx": "84f5d09bfdb7c8a9cd6c43d0a5861b71819d1f62844aa89d6d190b956fb902b3",
+    "41467_2025_58653_MOESM5_ESM.xlsx": "83a27036952f9c7072bea9d0b8d557399f5a718a2b07e2d86bfe20dcafa618b9",
+    "41467_2025_58653_MOESM7_ESM.xlsx": "fcae215a3d556ae3942f0576d72d31a01396c523cf5534d3575b7fed6abaf743",
+    "PMC11982355.xml": "8ec0486f9803b6f469b443c89bbc637d45e3c81ad1f5370d940e69e5edb0f430",
+    "PMC11982355_supplementary.zip": "fe9f78d553ba7679bcd1344f6c90bcad7c1b224031e1f6eca9a571ab94ee1fe8",
+    "PRJNA1226148_ENA.tsv": "207095966f3169e2a999d6992fd5f2743c70da8b88f8730e8a1133268fb67835"
+  }
+}

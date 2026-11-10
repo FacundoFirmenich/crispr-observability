@@ -1,0 +1,1415 @@
+{
+  "files": [
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/CFTR_WITHDRAWAL_27_TO_36.json",
+      "sha256": "a62935df54edd3f7dd496e1437f5f23e7ab6f32c97913fa0c470aef437de8476",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/CFTR_WITHDRAWAL_WITNESSES.json",
+      "sha256": "74e6eb893701624f3de55431510aa9cdb07dbfc144ed578cb63da82edc2feef0",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/complete_record_ledgers/CFTR_COMPLETE_RECORD_LEDGER.csv.gz",
+      "sha256": "48e897dcf4e848f7c1327caf400119387dedf917438845f01924c95903ac8c3c",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/complete_record_ledgers/HEK3_COMPLETE_RECORD_LEDGER.csv.gz",
+      "sha256": "e23d7f441938c020c368838257baca1c63ce861e4e023572bfac50b285b72f56",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/complete_record_ledgers/LEDGER_VERIFICATION.json",
+      "sha256": "4e85ea710d6d0bff525a1039c84193848105352e390926e523b056159d28b0a5",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/diagnose_withdrawal.py",
+      "sha256": "46bd1eae1024d894f7e7ce6a4a9de68492dcf1a1b1e636e42ed5bf08a233a27b",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/export_record_ledgers.py",
+      "sha256": "81b02f1338062a6c24b1edbcd457c88bbc01b5c1782a9674206d40d28daaeacf",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/i2/extensions/label_error_sensitivity/analyze.py",
+      "sha256": "635f7affaaf417da9e05142ae41ca1597d5c9f994ac82fbb121310901a91795f",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/i2/extensions/label_error_sensitivity/expected/RECEIPT.json",
+      "sha256": "5d7c5c6f02a0914fb69fb25d6d021f34cc2d5907bb17cdf6b1c5eb09a0c09db7",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/i2/extensions/label_error_sensitivity/expected/SENSITIVITY.csv",
+      "sha256": "0e9ee684e05f4e04a5e34599b89f1bf4bcf8216f8231beaf2eeedb08e584ccc0",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/i2/extensions/label_error_sensitivity/expected/TIPPING_CAPS.csv",
+      "sha256": "2f0a0f373d2e94b6ffa2753a8feac71e1d2acae03ab9ee5188d7ae0b52ccf097",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/i2/extensions/label_error_sensitivity/plot.py",
+      "sha256": "8c61b46cf8867bbb3c37cee1ab690fae0cf47d45ac1c01320f896623e43cc8d8",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/i2/extensions/label_error_sensitivity/README.md",
+      "sha256": "44dbffdd59ba0f70cfd9411656e23cfa4c73f643fade8a3544c0dbc9239ec66b",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/OPERATOR_COUPLING.json",
+      "sha256": "384dd345914d2b5502e8faa2c4a0c081c78bd9c7cb30d7f190a0852d5fc849ab",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/panel_MP07/cftr_witnesses.jsonl",
+      "sha256": "908066f73390cb6d3b7262a38559bc2e195a8ba9d6073f07138e48a78fe0320f",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/panel_MP07/cutoff_verification.json",
+      "sha256": "ad79fd270abe42c28a9726937593d179e4bbcf7e31c05383a51e060b26b27af9",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/panel_MP07/hek3_witnesses.jsonl",
+      "sha256": "566939e2704e83ccde00a0b27d03d931c0e1d577a1828f414df2110a3a4ada74",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/panel_MP07/panel_receipt.json",
+      "sha256": "3f6594ca6a401ba175cbc88e1378b2d578636173e37684be8da5a1a460458b30",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/recompute_coupling.py",
+      "sha256": "3e225c8955e642a34f1893ae7bee5439cf4c2be11d3dbf672b93cb70559cf9a2",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/recompute_panel.py",
+      "sha256": "6b65dcd54b00ee283adc5b9b5143e79cd0d4a53dc032e579cf55aa23e22fc1f0",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/recompute_universes.py",
+      "sha256": "9fcace3d6a6ed801fe3b82819e1fab072f69e1d031b73b288c2e41f2782cac57",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/summarize_universes.py",
+      "sha256": "efc117dd150ffedebe16a1142c997c42e66db6fbf156e920c4bdc7e3ed3c43b4",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/CFTR_CONTRASTS.csv",
+      "sha256": "0f0be43c40397ef16f6fa22101a8128dbec9ab7daa1037586a54ae959d7a313e",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/FULL_EVENT_BOUNDS.csv",
+      "sha256": "1d1b492ccfa718b5922b5d391eb33ba4c1eac18350afe58e2f8ef06948793799",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/full_receipt.json",
+      "sha256": "b806f51bdf9f125704c641e300fc7b8475c03aea95b8bb76ae7760b513f27fba",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR10285860_programmed_reference.json",
+      "sha256": "9d1c44ec8e764964546591269fcb2e195549a6c349fde5baf04e96fc51cc606c",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR10285860_programmed_reference.jsonl.gz",
+      "sha256": "2c78b419cdc7d8b42ec31ba9b6a108bcd13b57425f8c03a2a0e3e25785909988",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR10285860_reference.json",
+      "sha256": "9443d126278aa063a0e4be59daa45b0889b200cbf2ace6eb83a52b5bf29105e9",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR10285860_reference.jsonl.gz",
+      "sha256": "c27f5729763de2cbee59c1ede724bfe08e16d6fa95c99b11e638f885716616ed",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR10285861_programmed_reference.json",
+      "sha256": "0d2c1d86643646fb99a47c17c087dab05088f9ee24b21cf48b9efad69018b0df",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR10285861_programmed_reference.jsonl.gz",
+      "sha256": "09cea1bc8c76c4ab58f84941564fa4d065fbe35956335493db923ab2499b7607",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR10285861_reference.json",
+      "sha256": "3792c9c206c5377738728edb0c331c9d79e0074ecc6dd61d0c50224c9dc2ba0b",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR10285861_reference.jsonl.gz",
+      "sha256": "9dfdd9348b30f16bf5fda1c92e28d6191e7956fb3510b45ba3c2ba4456a59b02",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR10285862_programmed_reference.json",
+      "sha256": "bb0fbd6696ba67fdeb309deffdf8cfe944ea73d8ef1c9c76ac246d73d436e671",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR10285862_programmed_reference.jsonl.gz",
+      "sha256": "1a5ef9ebd50ac2a1520d857c8be78d24eb08c14a2d85331c2c9f96eda66e9c45",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR10285862_reference.json",
+      "sha256": "3dff0f0ad4781faad6b4e23674d140b5189fe6662050d2f04f98f628a6bc4b0c",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR10285862_reference.jsonl.gz",
+      "sha256": "c6f068c3bd05a3caefecf13497a542c6f1f3cae7c546b35cad287e2fd9154038",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623265_mutant.json",
+      "sha256": "aedeebc9d0a23e09ce0bc7c5c67aaa74f41f8d3b68836ee58f0cd965bc75b105",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623265_mutant.jsonl.gz",
+      "sha256": "2d9105d4991be97bf29bdec6b2558dbc24b35134e25693ab66d0b8af28e39de9",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623265_programmed.json",
+      "sha256": "56c86eb5d3143100ffd178c10d0f77013be6efbe692599b7f820148d8dd8e3f9",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623265_programmed.jsonl.gz",
+      "sha256": "a52355c3041d11df578b4d736b17209f4cc837739db58a01f61e311402f8eb59",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623266_mutant.json",
+      "sha256": "5510415990a78d1362dfb89b7f746e4b9b15a4eaad2cfe9284f5cf4be1650283",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623266_mutant.jsonl.gz",
+      "sha256": "ef30e0059fcedad6251d8e6b7c390bb8a0a437a724c5252cc8ae193de690beb9",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623266_programmed.json",
+      "sha256": "7a6f0c28a480ef99a8378e5ad619cc24c15e7bca827e08cbbb73637a05bf64a0",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623266_programmed.jsonl.gz",
+      "sha256": "1cedff90417f59bead7755073198d4fa87d280339445d5121e819753e455b4ee",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623267_mutant.json",
+      "sha256": "0876d80c8d64f43786f040b9eec97348efbd4df4e86d6d6f106c78dab528dcae",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623267_mutant.jsonl.gz",
+      "sha256": "ea42a0fdd4711a28e8961a1e4e6cc0eb79e6642d8b32b126f4d6bf5b25dbe571",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623267_programmed.json",
+      "sha256": "d3596b761edc41ec290bbecc8a7948625a2d39c25a17e1fec91e7e7b30b5f7ae",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623267_programmed.jsonl.gz",
+      "sha256": "b5dadcdacb61929461afed87ad617b58e9a062ac83453dae1e7166569c6b6957",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623268_mutant.json",
+      "sha256": "1993857601a6abafcf30321649dcf4f52b30b374b8c1855a383e71ee62b658f7",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623268_mutant.jsonl.gz",
+      "sha256": "b2970481d369b781e136c3b4e704549828f65f753e8f4c41ad71c4685f1c1cb3",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623268_programmed.json",
+      "sha256": "f256a1c918e6445f030c20107afbfc0c1b0cd84ff11ff9f9e47ab50ea528da9b",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623268_programmed.jsonl.gz",
+      "sha256": "11649bcc3224f4f684cea6eeb15283f0e14ce812f92e02e7eafe3e8802e91470",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623270_mutant.json",
+      "sha256": "d343a4d64555c8237bcbd7debf48029f89d1f29a767879edbfc86a71d342177e",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623270_mutant.jsonl.gz",
+      "sha256": "08ee11d922557b076cb4ff04893f55a2a8c77c59850c7e329ba7a77431a08921",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623270_programmed.json",
+      "sha256": "f1efb1ecf9d2bfe6c1039b412b24907fa53a0d0e994bcf296d952a40e77e0d95",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623270_programmed.jsonl.gz",
+      "sha256": "8820c1a7645008a8f8c51070c56c1b5c9e04458a5ae3223bfadb92eea626d976",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623271_mutant.json",
+      "sha256": "a2a86fb1153eab634b98033d2643b0921af892fd4f7b275a8a37097ea5f60559",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623271_mutant.jsonl.gz",
+      "sha256": "bb4b75a07af86260811423c1173f64b4131a820138ffc9a77f261c5bc355ff99",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623271_programmed.json",
+      "sha256": "729a7416345a4ae1c3352921469cc304981a16e97a4baf8d1e63302268706ca1",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623271_programmed.jsonl.gz",
+      "sha256": "75237b1dbdd078bf23d11194afc146f1609173dbd7c5d30774b8b384ff60acc4",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623272_mutant.json",
+      "sha256": "c08f0a3e6f1ba729d487139f67b7d1a60e3c4ecd31628038ad831d1bb306c2bb",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623272_mutant.jsonl.gz",
+      "sha256": "2b69b1609c40a7cb8fdf40af4640da89937a7fd86d47cdd4e08999c0c4fddbb6",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623272_programmed.json",
+      "sha256": "1b10c6f0008a6385eaa5e592f7db1205c0cc3f3b213a0e5860e82bb98de2ed59",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623272_programmed.jsonl.gz",
+      "sha256": "599fd94d4031255584c49c923fee8760d94c983ffee3d09615182e8f0d752e70",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623273_mutant.json",
+      "sha256": "8cd6195fa4e502ed999278c730ede32880c670014fe3af234f1fa600a4d2f2f0",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623273_mutant.jsonl.gz",
+      "sha256": "c89ef052ad0eb7ed5ef301bdf0896beea1ff25dcf50e5021666208823e7685e0",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623273_programmed.json",
+      "sha256": "a85de8fc6abc67367688537869149308483c66b3b0ed3f1063bd7a25ad1d5bc5",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623273_programmed.jsonl.gz",
+      "sha256": "b7f004a0a93fc4d521b62f99744d1d323c3208cee5f3c10acc32f22dd7df01c5",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623274_mutant.json",
+      "sha256": "799f623242f16d03f0ddd3ec3ca6edce49aa3a1cf6ef2cc6812c204433b38a57",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623274_mutant.jsonl.gz",
+      "sha256": "8b3983e5e11d7821003b03d2eb7813fe80ca76f71ec3ec18c3a6be3328b746ac",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623274_programmed.json",
+      "sha256": "ebd42739177d2fcf0074aae600808ec28506f66ee7e9896a09a48bb894752585",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/universes_MP07/SRR29623274_programmed.jsonl.gz",
+      "sha256": "500ddcdac4ffa6c62a62d7f09fc76cd380981265b56b9ac480c2abe7f2f89007",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/verify_cutoff.py",
+      "sha256": "553622f4872b083ea729160b8b1f743e8de57406a773c843969c97db40b3a187",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP07_RECUPERACION/withdrawal_witnesses.py",
+      "sha256": "a3053070d31cbe884169892f3b7e1907b57c327c8299ae03fd44287783d3db35",
+      "source_archive": "CRISPR_P1_MP07_RECUPERACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/acquire.py",
+      "sha256": "09bd6cb6cc0de7f7d21121111c71bcd4f34a5a864b89d82bf07f414b7aca52e7",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/ACQUISITION.json",
+      "sha256": "c3aad625426268bbe693071a40cd7c78582167b2c5ed5222d74225c446d76904",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/c2_discordances.py",
+      "sha256": "f2eaf9019bd4510dfd6e9ba3e002b7f97beb8eb42cb31ddd888e0bd536a92569",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/C2_DISCORDANT_WITNESSES.json",
+      "sha256": "3a6bfc692f923e1379cea96322237a9e941b3511573a5bb7a85fa0269e511af2",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/CRISPR_A_ACCESS.json",
+      "sha256": "399470155907a6fed817aea83b38d94a56bbdc92450cb4afacbbd656da3609fb",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/diagnose.py",
+      "sha256": "4c93ec02877d89ef7a5c2b7e9d7017bfca640a58a07a2c4daa2a07d6a3fc76f0",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/EXTERNAL_DIAGNOSIS.json",
+      "sha256": "7a4180ce4ef693de9ca7d6e0d484c3c65facc77adceaf3181cfa532721186b3c",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/EXTERNAL_FREEZE.json",
+      "sha256": "018c732e0515e6a44da38b5a3e474333b9fc3d1e4c7b0f79ac8442b6980e91e3",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/EXTERNAL_RESULTS.json",
+      "sha256": "a809ee83067a339a7284e2b89f6bd13aef6c4905c6633cae9f83ac920b773765",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414092.json",
+      "sha256": "dc5d4fa272f408dec8904530227e96857d9801c3122d36494e015f56dc8d56dd",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414092_families.jsonl.gz",
+      "sha256": "e15750bbdc073362171c9076b94ace5255f555e33d271db350705d264fd7d8d3",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414092_records.tsv.gz",
+      "sha256": "ae5892a1e7596d82f8af32dedd9b6727807d0128d62ae091501da00a08836958",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414095.json",
+      "sha256": "853505bb8000e57ed8b2f559b7a3a1f8e2bc7dcb092b881ff525060b27117c59",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414095_families.jsonl.gz",
+      "sha256": "5b63d8bdddcaed353e012100ea42fdb6eba585480e987ffc1a8ab9e3c9b0aebf",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414095_records.tsv.gz",
+      "sha256": "da0c25e4728385b60bbf3a0e0735ac896600e723c413861b637997754e026003",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414160.json",
+      "sha256": "a3050d3f979f1ed2c0af71c1ed3daeddd57b45a58a3fbaf8da90764a1f7a130e",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414160_families.jsonl.gz",
+      "sha256": "436bd142be888e68c5d5e5d56b2a8d4e49b8298dfe9f63594e5359813ea39417",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414160_records.tsv.gz",
+      "sha256": "5844a5efc484d5b5dc105f4cda4ba39f7a634bc08c2c45ef540be5d649e0a8e9",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414163.json",
+      "sha256": "c7eb4cf1015bc793f071c38324ee7ffa0f4140a02de44c5cd1ae1e4d29bac6ee",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414163_families.jsonl.gz",
+      "sha256": "a6a2b00ca48162abb1be6988c54fbec0c2a1fe9755f424c18d3e0259caa4e650",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414163_records.tsv.gz",
+      "sha256": "3b7c20cfd7f9c9d8ed491e9b87faf2b71e94bcc0de44b0e4880056b0e0561443",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414166.json",
+      "sha256": "baecac0125bff813845263f0632d08b9eaddfd48309b372d2bf24b761e79985d",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414166_families.jsonl.gz",
+      "sha256": "1e92444f5872e3abd6b3263fe301807c7febfc8455b004161f570f63c126ef22",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414166_records.tsv.gz",
+      "sha256": "6eab1a9f2053bb13f52bab99d4e01b080a7d37af3c2fd1af73b59262f891a3eb",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414167.json",
+      "sha256": "6f947281b5f4f530a2f730b7c1f74fe6e50c18109896c3fc5969509bd75d90c4",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414167_families.jsonl.gz",
+      "sha256": "713aea0cd3a327d51194a7fa0dc8cf71e3f6ed9355c2053cafec263185f76775",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414167_records.tsv.gz",
+      "sha256": "6dd7dd364dc82ee581d48559ab81028e45a07a65a22dc24f805eb6c66cebfd53",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414210.json",
+      "sha256": "7ddd98731d94a0331a1a31b0a16171b15d5b4278a398bd6d39bcd223270d644d",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414210_families.jsonl.gz",
+      "sha256": "21120377a99b00fa85c7411149a20826e8fefdcf632cec13ef790407cb6f3771",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414210_records.tsv.gz",
+      "sha256": "1522803a6c6b47605cd841069e30497725f04d10607dc59e75123e49f546575b",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414256.json",
+      "sha256": "736e9a5b5efb728f57bf9430b70f0da6fe35ae677d86808dd23ad92c1aec6e69",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414256_families.jsonl.gz",
+      "sha256": "0a522d06bbed09bbb68c46127779d6477bcbe826826a59fc91c8f69a7523ff7c",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414256_records.tsv.gz",
+      "sha256": "d2ee8dbfd7307a84c47be354f7eed40d97398f62e7a65f3a0aec7a1e76fb8a8a",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414264.json",
+      "sha256": "06906beaaec1a3fbb56914ee3426618c6b73561c24ed192166fd22bcf3b1bdff",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414264_families.jsonl.gz",
+      "sha256": "44aaa5f119a81ab34bdd0b4a67819591303b66bf80ccb5a5cf354fbc4e3a42f0",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414264_records.tsv.gz",
+      "sha256": "430ac5722acae694365cfbc19b76b61022d196884a86f3860b6f689445a1668a",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414267.json",
+      "sha256": "a9522a44837a1a8b904ba72220185dd9629c389c0ff9c1d18113b1f0d6f8014f",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414267_families.jsonl.gz",
+      "sha256": "9966ed499e32a58d071ca4eafde28cda02d73677344a5c174a526d59389f39a4",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414267_records.tsv.gz",
+      "sha256": "d52f9c91c1d9fb25ef3a714531457a4715a466a61193f058dcf23e35af6e8a4b",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414268.json",
+      "sha256": "e11412cb9e2394566f251e733c6cd2fd36322ed824c50549715884717f4ad34d",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414268_families.jsonl.gz",
+      "sha256": "5395836981bf8b7bba0481598eb9b8fc77eac49ace7b572810cbff3d7141bdfc",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414268_records.tsv.gz",
+      "sha256": "cfcace46bc0e4de1f1f7e0d6e920b4294e059b497463810c741623a293fadfc9",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414269.json",
+      "sha256": "dbdda17fa70d8b7edf9ca33a2b3b7d700cf3b0da501008f2dacf40905e18a104",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414269_families.jsonl.gz",
+      "sha256": "41118f07dd42abfd2edfc2f93d13bdf6656ae12d146b37274a07e8ac3efa0450",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/external_results/SRR32414269_records.tsv.gz",
+      "sha256": "425e4dafdcd86fd18a003cefbcebeb7ef69a80974b7c17bdfe50a5d572380db5",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/freeze.py",
+      "sha256": "8e7a65bf1ec4d41e86b73954681e1dba8f36123bdd1168c4e8255ca25a568a27",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/inputs/PRJNA1226148_ENA.tsv",
+      "sha256": "207095966f3169e2a999d6992fd5f2743c70da8b88f8730e8a1133268fb67835",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/MATE_SUPPORT.json",
+      "sha256": "1d8967a34f350809de462201f3cbd4ff9e662613664183bb5861edeec171b26f",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/MATE_SUPPORT_CONTRACT.json",
+      "sha256": "60d9fa58bc9b4d41214540a2de36e5cab280fa5db34f7b7fc768efaf8a8cb6b9",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/PAIRED_C2_CONFUSION.csv",
+      "sha256": "0f8335a568c714f1f1ae8c94eb9d075900128704f72cedac5fbc070f343f252f",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/PAIRED_C2_RECEIPT.json",
+      "sha256": "fb27f005c41341cd052e20e4190861b9000a6450a38c7c16eed0303e73e8a131",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/PAIRED_C2_SUMMARY.csv",
+      "sha256": "2f20752485bf5e6602ee85f064fc6d6dc53823b3afae1d935111efa175eb0d97",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/paired_crispresso2.py",
+      "sha256": "7530df6f233d11ee71a047c15d3bd78458c53b5caa47e7ea791551635a0f385b",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/paired_mate_support.py",
+      "sha256": "9763402918fbc9e505b867a01aee7f0ae5bd3a8b68058e7269ab62b2b5cfcf13",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/PCSK9_CONTROL_OBSERVATIONS.json",
+      "sha256": "a7c0a07e7a2c706119aaf34a7d76a249e4882a47a0bbd24ae38f0f8a57c4f5b9",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/pcsk9_controls.py",
+      "sha256": "d15a652849d957d711eae72524346dbea5499955344f242d79f6f81113bf6e58",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP08_VALIDACION/run_external.py",
+      "sha256": "8f224e66432019004ddecba4b1ca054e890114cf4ace0fd5b9fde0ebde1a5d92",
+      "source_archive": "CRISPR_P1_MP08_VALIDACION.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/audit_giab_witnesses.py",
+      "sha256": "03868412857a0cd38e021a4376a29081e9e712fae981471e85ae06b83b0daf71",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/CRISPRA_NATIVE_SEMANTICS_AUDIT.json",
+      "sha256": "edef0361b0193939d752e6dd24d0587c64ec737edbc5bd1e0a1cd151932935d7",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/CRISPRA_PAIRED.csv.gz",
+      "sha256": "f27b94dca6b527aeb7b018949219ce99ddfaf23eec30a44faaa71240d981ea2d",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/CRISPRA_PAIRED.json",
+      "sha256": "3ac21c61ae6394cd9ec471652b35204b2878aaebcaf0b121d3160f0e5cf2e76f",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/evaluate_giab.py",
+      "sha256": "7ee18a3e60224fe23d7e815b4d2f615d1fb82a5b2b503df284524ffc6e6613a2",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/bam_header.sam",
+      "sha256": "9384ccec01605c2aec1f32288da4b0b1a5ed60230034dc1f0abe5d74a876132a",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/BAM_SOURCE_METADATA_POSTCHECK.json",
+      "sha256": "c49f64e64efeecd6924661bcac2bd4bb0a7247301d40eac4bf715156057af6f0",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/benchmark.bed",
+      "sha256": "45af78e6b8c3c431d27006149071925aaccdb8db3e83196006cb3d30b9c23854",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/benchmark.vcf.gz",
+      "sha256": "f1ae8e96d89a471adfabc8ae54b5f0195e81608d6a948fb09e1fbed0a0968347",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/BENCHMARK_README.md",
+      "sha256": "14d3fa4d772150ee5e412a84f10c2ed3281dc2a5b26abfd96afd454c5df67ee7",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/CASES.json",
+      "sha256": "cbdb4669ea402facf88de9c6d4450414c2a233f4c1bb8555c6a6ca45333f3987",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/COUNTS.json",
+      "sha256": "b13aae59f1dba65285f61be484560b7ed561c1537881366201dbcb9f1f104942",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/input.bam.bai",
+      "sha256": "245dcdcc474b1971eeb36fc9a8af37b76ac8b4c7ce06a7bdee64e0c42bd93f34",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/original_checksum.md5",
+      "sha256": "bc0ca748df32b4fafd6f02328a86b01638e6a6d6c346bcbed1ed1784ef911c2e",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reads.jsonl.gz",
+      "sha256": "8572920074423d033c2797ee8b9258bac48d4663847d6e31baacb019672d639d",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reference_chr20_1184450_1184795.json",
+      "sha256": "1e1d98a47a5ded69b46004a2a12c8804bb286d03fc07d969c43d0d077f90992a",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reference_chr20_183472_183813.json",
+      "sha256": "af2cec4009ee6ef5153c211c65c6bc6e1da00581a7bead6a8b8f6fb2146980d6",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reference_chr20_1871332_1871675.json",
+      "sha256": "f5ddb3d60d0650caac71eb2f9813fd076379231d9a8a7bca023e28a7e29bc7cc",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reference_chr20_1948564_1948912.json",
+      "sha256": "cd84860de759eba473ace881d58e5996e2e9822376f3a6cda6fe05a7afc7abf0",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reference_chr20_255647_255990.json",
+      "sha256": "a6d875859cde9f160dc27913646084e6d4a856aa5d30acc78a92b689debd9412",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reference_chr20_2606720_2607063.json",
+      "sha256": "f19913d250019d4d58e34abc1ac9a3f9117501995160d072fba8cadb78afb6ec",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reference_chr20_263326_263675.json",
+      "sha256": "118b5167ad3e7c4cf9b480b9bbfbd19c00eb4767150a0c801228a0d44beab957",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reference_chr20_454479_454820.json",
+      "sha256": "5f9e89525511011c67dff2db044a4b0bd7eefea88f966686da1cb84a6c4a62af",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reference_chr20_460263_460607.json",
+      "sha256": "a786f184e009fe49a726d03e7471ce51436ceefa27b4c33da341d80f4176b987",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reference_chr20_642722_643066.json",
+      "sha256": "30d7faa08340b549c507f1abe05eba55b1b03aa6427e89311a1f89bd49e57289",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reference_chr20_710949_711290.json",
+      "sha256": "275d3bd78eb18e64d4960a28bc7414c5dba6369d48c52b7239fdd0cd86de3c64",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/reference_chr20_966278_966619.json",
+      "sha256": "3dcdb3d7e6d6efe38c9745ad1abace1e71581155083d6a085cf85c7b3804cbe9",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/SELECTION_FREEZE.json",
+      "sha256": "dd7a38facf9c11f3a858171285631600360d2df370527208c04e6b97addd0139",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/giab_41779054165/SHA256.json",
+      "sha256": "7e424a93f3b76d43a13b285c73aee7ad9ee765257fb3a01ad5583263d068f6db",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/GIAB_CERTIFICATES.jsonl.gz",
+      "sha256": "d5eb6144b3794ae540d854024aaf6dd0347e4cf80d21504245352221eb53321e",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/GIAB_EVALUATION.json",
+      "sha256": "a398eb3baa01cabcbbbf5ba102b6bcb3e253524373ff5a56e7a2ce5d99f7eb74",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/GIAB_WITNESS_AUDIT.json",
+      "sha256": "75f20ecc99e08066e7b02c3cc6bb1c54f4ddf45fe35805794c2fbbd1030769db",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/image.json",
+      "sha256": "120e396b4fa34fbf3b98acc22fe3d5a9e3bf2489e32a683cf565399a8df85b51",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/inputs.sha256",
+      "sha256": "ab627a2e9d1a1719787e2c513ca915293504d1525f85815091dfdee0fb00d5c0",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/all-samples_indels.csv",
+      "sha256": "f7507093b64a2adf39f8b5e6717239fde381f25f9ea9b07542626ce44b92f493",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/dummy.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_cutSite.json",
+      "sha256": "65364707282964616af32cd45b5bd028b64a64dad6af2f0f94cb9ada8e415c5a",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_Deletions.html",
+      "sha256": "81e6b5983021235527750b66f5046f5b94ed065d41c7547f0b198576ce0c73f1",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_edition.html",
+      "sha256": "615cfb327bbdf4e517f27055110a84ec3f508ee4d07e149325db940791c19313",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_edits.csv",
+      "sha256": "5b75685811581141309f0e008d46a8784af2db710cb3d4c61831c50eaa5f6b97",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_indels.csv",
+      "sha256": "f7507093b64a2adf39f8b5e6717239fde381f25f9ea9b07542626ce44b92f493",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_Insertions.html",
+      "sha256": "e4e10a70e36478fd0fba0570fde7a1b1532da6b8e0a79988478cc24876e9962f",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_length.json",
+      "sha256": "5b1b09b0004ed79dd4a596ba978cd029c90086463e5db00dc61bd364655172c2",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_metadels.json",
+      "sha256": "dc6ddf9af829ea9761e03d36a3819db5e4e6cae6456cbf7f8a07dee5d3c3b380",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_metains.json",
+      "sha256": "835bcb3fa64ea0f808d5f791b4e210e6820571fd5612e1ce90cd5f78fa53c72e",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_QC-indels.html",
+      "sha256": "eb0eb0fba0d63770eb8e5762bc25df6e70c67956d07249317e3857447963306f",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_reads.html",
+      "sha256": "73700ef96f03e8ba4d10ec8dc47569e294dcf8dab4df9b682d32a0a5ba68c66a",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_reference-correctOrient.fasta",
+      "sha256": "90c0a6fbfdb182e7dcfcf2cb25534c7848d5e54288f6da9c5d96546e49f7191e",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_subs-perc.csv",
+      "sha256": "dbe5b81cec1be82c8d05426ddf5e4e4b6b77a4751d1dd032ab607268f3c9bcc5",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_template-reads.csv",
+      "sha256": "f33840f12e8b2ed8ebf519957357576426c9de8c2bfab9fe61edb32c4593ec6a",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_top.html",
+      "sha256": "bc3dec6f5159e2b3f06dbaf4da8e841f043fc888a5b6a129104decdee174ed97",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/native-results/SRR10285861_Total_reads.json",
+      "sha256": "a6a8b8794b1143d98cc45ddfb543fe37e9ff271d516ef4c7cf37ecb6df2134b2",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/nextflow-version.txt",
+      "sha256": "c0491f6c18b3a4c2ee586b9e64e573536d63698fc6694a866d1f949611b6910b",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/nextflow.exit",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/output.sha256",
+      "sha256": "ecf672db3d293e769327c3bb8d5f668b15aa0bd5adac10ec9aeeb293f294d991",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/primary-alignments.tsv.gz",
+      "sha256": "868f08429fd94af28ff500a13fe73b7f6f7015cb0cb9297597eb87d546c9d067",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/process-trace.tsv",
+      "sha256": "b4b2c15ea564b9639cfad1cea7df5f58cee2aeba12e8ddbc6bd7d0e51ee710cd",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/native_41778765788/SRR10285861_reference-correctOrient.fasta",
+      "sha256": "90c0a6fbfdb182e7dcfcf2cb25534c7848d5e54288f6da9c5d96546e49f7191e",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/NATIVE_SEQUENCE_DIFFERENCES.json",
+      "sha256": "1d47e28b0df37138229285b8fce33d5ff623358eadedcd43285adeb4ee52e850",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/reconcile_crispra.py",
+      "sha256": "a07361d360841b86d3f93dccece5b822b5d43fd42515259a929aa4d940ae47e0",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP09_PENDIENTES/runner/giab_acquire.py",
+      "sha256": "1b9bc5db1233cddcd7089e91611c7e21c91647d3985e829a888d1b1412cd6b71",
+      "source_archive": "CRISPR_P1_MP09_PENDIENTES.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/audit_keap1_discordance.py",
+      "sha256": "50caf4494f9ea24c0187ba3721182469b03cbabed060f2ca8b4737b03fb6c767",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/inspect_zenodo_zip.py",
+      "sha256": "7465a9f12223b99278d8c101a9008020f05db37219478f770991595b533d6cab",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/KEAP1_CLONE_REFERENCES.fasta",
+      "sha256": "9091a9fe4ae2ad995e2bad10b31eb822c76011457dff22f8d0c860d96d8984a6",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/keap1_control.py",
+      "sha256": "be7cf0d9430e5ec2108f2b47fc9925fc781797acdcd57cdf6a7a3d98ff307ffb",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/KEAP1_DISCORDANCE_WITNESSES.json",
+      "sha256": "d1ad5c0dc089c40778e1769c32e251a0d6760399e81264f6fcdf2a6400cf58da",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/KEAP1_FREEZE.json",
+      "sha256": "67105bff8073c95a0836e1433f74651227c71f741431e6d3a13b105f6e69fb71",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/KEAP1_ONT_EVALUATION.json",
+      "sha256": "a3c41ee1a03e6d5fe29c081ea2d3194391ded82c257517df69878d12ca3a24db",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/KEAP1_ONT_READS.jsonl.gz",
+      "sha256": "905e92b5f85842f998f12fd0baabc8abc5e5ec0bef470e24897ae5468219bca8",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/SRR18840476.fastq.gz",
+      "sha256": "ef3600c4f4cb458c4faa54bd333475ddc596ee804f4737f9786abc6d41e54e51",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/SRR18840477.fastq.gz",
+      "sha256": "5d44a5d5d6c9cf00d8501c640817d8aa253832d140d4fff984f207000e85c608",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/SRR18840484.fastq.gz",
+      "sha256": "76f979b6f75a2f1f61cb5e3641817054fee37bba5fe30cb75b645926afa59118",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/SRR18884572.fastq.gz",
+      "sha256": "f5ce30cc727b959c0a73fe77343639a54a8d4f1e1fc3924dac26edf43d549837",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/SRR18884573.fastq.gz",
+      "sha256": "9231bdec46bcdb812fedb4ca858b979b6437168c280e48bd60441e5142a35b47",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP10_CONTROL/SRR18884574.fastq.gz",
+      "sha256": "d33f383399fcc303ef184cb6d747b02cc661bb80e41144f4b5fa382176228ba7",
+      "source_archive": "CRISPR_P1_MP10_CONTROL.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP11_ENTREGA/PRIVATE_EXPERIMENT/anchor_perturbation.py",
+      "sha256": "fc25d05a7df2bee4cc9030e981775432dadaa154d22c2bc9add61ab7843dd71c",
+      "source_archive": "CRISPR_P1_MP11_ENTREGA.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP11_ENTREGA/PRIVATE_EXPERIMENT/ANCHOR_RECORDS.jsonl.gz",
+      "sha256": "80944ea12721f1fe062e5ad7ad10acd12755aef690ddb1fc7b23a784d73f3d0a",
+      "source_archive": "CRISPR_P1_MP11_ENTREGA.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP11_ENTREGA/PRIVATE_EXPERIMENT/ANCHOR_RESULT.json",
+      "sha256": "58e415bfb9037c6e7043eb185f46b02bed741a12aa7ef74e70dbf820c91c1c5e",
+      "source_archive": "CRISPR_P1_MP11_ENTREGA.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP11_ENTREGA/PRIVATE_EXPERIMENT/STRATIFIED_RESULT.json",
+      "sha256": "2c7c4774e87ae4c9dc736dc1bfcd1eb32b4001d0edd060fb854353a0d805277e",
+      "source_archive": "CRISPR_P1_MP11_ENTREGA.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP11_ENTREGA/PRIVATE_EXPERIMENT/summarize_experiment.py",
+      "sha256": "809bae6c77b7a9af796b5e22d1e6d5bb460f689b665c64c5dab46287e248d48d",
+      "source_archive": "CRISPR_P1_MP11_ENTREGA.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/acquire.py",
+      "sha256": "e1c877a3e2525b8566260736402cd44462397c291ff9799989f9eb369a9e70b0",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/audit_fragments.py",
+      "sha256": "1c3962bbcb091c3d582377e3ce2949ffc19d92a237f9d65637d62dab8fd00b23",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/CLUSTER_LINKS.csv.gz",
+      "sha256": "aaa95bf82a2da08e0c4da60f5fd12d8c411e8899974a85e935446907296c22b9",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/FRAGMENT_AUDIT.json",
+      "sha256": "be214fcaf1531dc0ef2fc56cfe0469291959c9ff2702ae0de5b3d0c0b1d2bcb2",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/PROTOCOL.md",
+      "sha256": "1aeb70d7b1d52dd124febb75c07735f616bef0d4c2d4c036362f900e1d45d2fa",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/REPRODUCCION.md",
+      "sha256": "c0f3d047e3071548ded7e28d90eb6895995682caa1409e542cd079e75fe09ebc",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/ADDITIONAL_NETWORK_RECEIPT.json",
+      "sha256": "935c5db788f6848e57110dd5af2afb9b00e4e6ddf0aa86912d16a725abc8fb6f",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/bitbucket_repo.json",
+      "sha256": "b02d666c01a5c9dc009b25d0417305996a0612b401b6ef8597e7c7562b840e1f",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/bitbucket_tree.json",
+      "sha256": "2a65990c16eb9f1a8abaf5245da262b96efd1500e6d471cc083323f7654b4ac9",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/CRISPR-A_PLOS_figshare.json",
+      "sha256": "76290958c7d9e4d793042593d1bb2356cd0137c05f869a712393aaa965fa70b6",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/CRISPR-A_PRJEB53901.tsv",
+      "sha256": "278888a3e21c9f01df41931d5e6274ffc9a99526884aecc523379db879435b9b",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/CRISPR-A_S5_figshare.json",
+      "sha256": "c2fae8ca0536a964c4a3bd3708a579b3dc502d76219677e2cbbaf47443bab83f",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/DUPLICATE_SOURCE_RECEIPT.json",
+      "sha256": "ad90ccf92066e22dea9f5faee4b10e7943f8fa64714884865a82655fecc00df7",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/NCBI_CFTR_original_files.json",
+      "sha256": "a5c518c691441a39012ba4e8f4c021b8b227ed63ec3d92df261e049dbd68e81e",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/NCBI_HEK3_original_files.json",
+      "sha256": "283f585963f86520b8ff731f67d676d6a6544ef20072ae500b33c174cfee96e0",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/PRJNA1055086.tsv",
+      "sha256": "472c3f64e6dcb9e24a4aea0e7f37b59114143f4bec33b8b8087d17e7d671bf96",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/PRJNA565979.tsv",
+      "sha256": "8c87f32ffa9c05743836540e2d5e0932227642c76be390d2e6db40ad4f713e02",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/SOURCE_RECEIPT.json",
+      "sha256": "125fd32c1cab216dcedbc1a785689a77f2741b06e9eb8d8966c4c3a2e6d1fad9",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/SRR29536570.fastq.gz",
+      "sha256": "c0ab3203fc4255b5ec56c2c211acaedda64bc762934a9670a8ac0be9c2180694",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/SRR29536571.fastq.gz",
+      "sha256": "a0c4fff5cccd51ba8fbddfc535c9974ea3ae2740970bb96fc9c95afa00e3c995",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/SRR29536572.fastq.gz",
+      "sha256": "0651c8f50dfdf7c8c4cf8d4dccda549bdc8a9f45523b4ad39e3023365f670f18",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/sources/SUPPLEMENTAL_SOURCE_RECEIPT.json",
+      "sha256": "1587930194f67cdb2e31de2538897431df92f3f422c6eab1a28221bdd921ad12",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    },
+    {
+      "path": "CRISPR_P1_MP12_FRAGMENTOS/verify_evidence.py",
+      "sha256": "d9e88eb64404534886a7c85c82fcb07d7600016f94460ffc9c26a9e05a299b13",
+      "source_archive": "CRISPR_P1_MP12_FRAGMENTOS.zip",
+      "source_member_verified": true
+    }
+  ],
+  "scope": "Scientific allowlist; no complete fresh historical replay claimed"
+}

@@ -1,0 +1,20 @@
+{
+  "CRISPR-A_S5_figshare.json": {
+    "url": "https://api.figshare.com/v2/articles/23263517",
+    "retrieved_url": "https://api.figshare.com/v2/articles/23263517",
+    "bytes": 6109,
+    "sha256": "c2fae8ca0536a964c4a3bd3708a579b3dc502d76219677e2cbbaf47443bab83f"
+  },
+  "NCBI_HEK3_original_files.json": {
+    "url": "https://locate.ncbi.nlm.nih.gov/sdl/2/retrieve?acc=SRR10285861",
+    "retrieved_url": "https://locate.ncbi.nlm.nih.gov/sdl/2/retrieve?acc=SRR10285861",
+    "bytes": 423,
+    "sha256": "283f585963f86520b8ff731f67d676d6a6544ef20072ae500b33c174cfee96e0"
+  },
+  "NCBI_CFTR_original_files.json": {
+    "url": "https://locate.ncbi.nlm.nih.gov/sdl/2/retrieve?acc=SRR29623272",
+    "retrieved_url": "https://locate.ncbi.nlm.nih.gov/sdl/2/retrieve?acc=SRR29623272",
+    "bytes": 423,
+    "sha256": "a5c518c691441a39012ba4e8f4c021b8b227ed63ec3d92df261e049dbd68e81e"
+  }
+}
