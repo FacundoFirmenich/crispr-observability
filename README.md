@@ -1,6 +1,6 @@
 # CRISPR observability: computational companion
 
-## Integrated scientific release: 0.8.0
+## Integrated scientific release: 0.8.1
 
 The [generation-model and calibration extension](extensions/generation_model/README.md)
 reintegrates MP27/MP28 with the principal line. It preserves the failed literal-

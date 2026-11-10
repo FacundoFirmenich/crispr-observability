@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "artifact_paths": [
+    "extensions/generation_model/docs/MODEL.md",
+    "extensions/generation_model/src/crispr_extended/core.py",
+    "extensions/generation_model/results/oracle_verification.json",
+    "extensions/generation_model/results/adversarial_regression.json",
+    "extensions/generation_model/docs/ORIGIN_IDENTIFIABILITY_OBSTRUCTION.md",
+    "extensions/generation_model/results/MP27_RESULT.json",
+    "extensions/generation_model/results/MP27_VERIFICATION.json",
+    "extensions/generation_model/results/MP27_CUSTODY.json",
+    "extensions/generation_model/protocols/MP28.json",
+    "extensions/generation_model/results/MP28_RESULT.json",
+    "extensions/generation_model/results/MP28_VERIFICATION.json",
+    "extensions/generation_model/results/MP28_CALIBRATION_FREEZE.json"
+  ],
+  "hash_representation": "UTF-8 LF",
+  "graph": "EPISTEMIC_GRAPH_MP28.json",
+  "scope": "Artifact resolvability and exact identities, not scientific validation"
+}

@@ -1,5 +1,5 @@
 {
-  "version": "0.8.0",
+  "version": "0.8.1",
   "edition": "MP28_INTEGRATED",
   "source_commit": "86101c106932480cb3d9f69079b54bd0ce5755cd",
   "files": {
@@ -57,7 +57,7 @@
     },
     ".zenodo.json": {
       "bytes": 1839,
-      "sha256": "87b2f568d8739e7ee437c4962321b380d461d16231755dec22370767ef8a421d"
+      "sha256": "f1e13558eb81c26b5ac5a842cce76aba24c3c3d905a4668738b7566b7476d245"
     },
     "ACKNOWLEDGMENTS.md": {
       "bytes": 532,
@@ -73,7 +73,7 @@
     },
     "CITATION.cff": {
       "bytes": 2006,
-      "sha256": "eeab5ef1b734f0e46c5c8ed547ab3c5e17f0e8e2f8b66d2614da5b3de8de0626"
+      "sha256": "f1b02de2fc233de257ea14f7d2c85a36a97e111b0029e1460e8c2b45e7fc6153"
     },
     "Dockerfile": {
       "bytes": 744,
@@ -97,7 +97,7 @@
     },
     "README.md": {
       "bytes": 11713,
-      "sha256": "f95d7e6adacd27330cc18c42d3663806b18fc4283093e1529c13dc31b5321960"
+      "sha256": "7a2ed72147469219ddb58c1783a2c93b1d58a1e65b1933781c4d1b5d3325be6a"
     },
     "RELEASE_0_7_0.md": {
       "bytes": 724,
@@ -125,7 +125,7 @@
     },
     "code/check_public_distribution.py": {
       "bytes": 6931,
-      "sha256": "9eabac00fa5aeaa9b0dc92cea53e97a7f60c66142e9da5ade01c360515d27e07"
+      "sha256": "3b9cd0e8265d234fa9bc87a7887156d78a67ed9cac35b45c4280d33b1683b864"
     },
     "code/check_selected_p1_tables.py": {
       "bytes": 16873,
@@ -4581,7 +4581,7 @@
     },
     "metadata/RELEASE_STATE.json": {
       "bytes": 7495,
-      "sha256": "a0905a32cc10507cc19c550132fe5a35481d9b49323880867e80669d498baa1d"
+      "sha256": "b107180e55e55baf638098c799a92484fe130cb0e7ad508424512440992996da"
     },
     "metadata/RUNTIME_SOURCES.json": {
       "bytes": 3209,
@@ -4941,7 +4941,7 @@
     },
     "extensions/generation_model/pyproject.toml": {
       "bytes": 483,
-      "sha256": "d17442f0d478bf9b056852d0c584dd701a208ad9a9116dd367786b712e727506"
+      "sha256": "e3dedb544fb53bf0d1a2f9e00a35ebeec123d6268f15627518572b73f65dae9a"
     },
     "extensions/generation_model/results/EPISTEMIC_GRAPH.json": {
       "bytes": 4322,
@@ -5038,6 +5038,26 @@
     "extensions/generation_model/INTEGRATION_PROVENANCE.json": {
       "bytes": 420,
       "sha256": "87fd28e3b615edc3fb5d5583045aa7d3aa0c99dd5089e1c5feec7e328abd9724"
+    },
+    "extensions/generation_model/results/MP27_CUSTODY.json": {
+      "bytes": 292,
+      "sha256": "07a7e9b7633bfeb122e6503d2f2ebdbed44dc247710d84f6d0b70e00fdd2f72b"
+    },
+    "extensions/generation_model/results/MP28_CUSTODY.json": {
+      "bytes": 283,
+      "sha256": "00d4c889153871d75a0729d578b110ca6da81b67b18a26d4add164c3abc96a2a"
+    },
+    "extensions/generation_model/results/PRINCIPAL_PUBLIC_CUSTODY.json": {
+      "bytes": 1288,
+      "sha256": "3fd3a940cb05fd66039f4304a2383a31742874c81bd0468d582861410ee5c26b"
+    },
+    "extensions/generation_model/results/LICENSE_CHANGE_VERIFICATION.json": {
+      "bytes": 1195,
+      "sha256": "bec2fc295b0acdf3dc8807810ff4864716e8e706d8fe4d2a296284ad1b2e8ed3"
+    },
+    "extensions/generation_model/results/GRAPH_CLOSURE_VERIFICATION.json": {
+      "bytes": 980,
+      "sha256": "e870c725bf14d335d0ae2ced3feaac1967c835cab1d9406bb902d1c84dbca447"
     }
   }
 }

@@ -61,7 +61,7 @@ def main():
             assert '\\begin{document}' not in text, name
             assert 'P1_Revised_Integrated_EN.txt' not in text, name
     release = json.loads((ROOT / 'metadata/RELEASE_STATE.json').read_text())
-    assert release['version'] == inventory['version'] == '0.8.0'
+    assert release['version'] == inventory['version'] == '0.8.1'
     assert release['edition'] == inventory['edition'] == policy['edition'] == 'MP28_INTEGRATED'
     assert release['manuscript_public'] is False and release['supplement_public'] is False
     license_scope = json.loads((ROOT / 'metadata/LICENSE_SCOPE.json').read_text())

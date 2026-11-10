@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "new_license": "MIT",
+  "new_package_version": "0.1.1",
+  "new_scientific_runs": 0,
+  "frozen_scientific_files_unchanged": [
+    {
+      "path": "protocols/MP27.json",
+      "sha256_utf8_lf": "4020f45801cedf431ccaf1b61fb5094d8d8e68efdd410b320e9c366ebbdd2955"
+    },
+    {
+      "path": "campaign/kaggle/kernel.py",
+      "sha256_utf8_lf": "63c1729a7a72f05695a1c9b45c8c380c395be69476bb93f9f1d71c46601aa54b"
+    },
+    {
+      "path": "campaign/kaggle/SOURCE_FREEZE.json",
+      "sha256_utf8_lf": "f7083fc293285d97bb73c88f1c7aa3729947c6ae00c292980436d05a360f1688"
+    },
+    {
+      "path": "src/crispr_extended/core.py",
+      "sha256_utf8_lf": "871aea33d42b57debee8b3fa8acf6d6de551d445524509a2f0f87a86e26b3304"
+    },
+    {
+      "path": "results/MP27_RESULT.json",
+      "sha256_utf8_lf": "5b71dcf92051adb7399e650d6138b589ecb5ec220a00716c398d75d652f26ad6"
+    },
+    {
+      "path": "results/MP27_VERIFICATION.json",
+      "sha256_utf8_lf": "2c49b0bd8094ef66f9c13b558cf5f44c013fb436f41e5dc1b7c4e6eea41c1ecb"
+    },
+    {
+      "path": "results/EPISTEMIC_GRAPH.json",
+      "sha256_utf8_lf": "9b3eba70a60c9986e5065795086bc9cc5c0c449b2a9597826cbeeb0bdcb08d3b"
+    }
+  ]
+}
