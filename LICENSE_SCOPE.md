@@ -1,19 +1,18 @@
-# Scoped software license
+# Software licensing for release 0.7.1
 
-MIT applies only to original code explicitly listed in `metadata/LICENSE_SCOPE.json`.
-The complete license text is in `code/LICENSE`, Copyright (c) 2026 Facundo Firmenich.
-This notice is not a repository-wide grant over raw reads, alignment outputs,
-scientific tables, metadata or manuscript text. See `raw_replay/DATA_NOTICE.md`
-and `THIRD_PARTY_NOTICES.csv` for inherited assets and source attribution.
+SPDX-License-Identifier: GPL-3.0-only
 
-The independent PaperGraph interface and build/check source are included only
-where named in that allowlist. Its generated HTML combines MIT interface code
-with scientific summaries and data that retain separate source terms. The
-KwanTube-derived dark supergraph remains a separate GPL-3.0-only component;
-its full license and modification notice are in `interactive/supergraph/`.
-Neither grant licenses private article or supplement text.
+Copyright (c) 2026 Facundo Firmenich. At the author's explicit instruction,
+the original project software in this release is distributed under GNU General
+Public License version 3 only. The full license is in LICENSE and code/LICENSE.
+The original-code inventory is metadata/LICENSE_SCOPE.json. The new retained-span
+analysis scripts and independently authored graph implementation use the same
+GPL-3.0-only terms. This does not select the "or later" option.
 
-Seq2Music-generated accessible interfaces retain the upstream MIT notice of
-Jacob Vogan in `extensions/scientific_context/SEQ2MUSIC_LICENSE`. Public reference
-sequences, derived scientific observations and contextual database snapshots
-retain provider/source terms; these are outside the author's original-code grant.
+Third-party copyright and license notices are preserved. Existing GPL-3.0-only
+derived components retain that license; separately attributed MIT components
+retain their original notices. Original-study sequencing records and scientific
+data retain source attribution and applicable source terms. This software license
+does not grant rights over third-party data or the private manuscript/supplement.
+Earlier versions already released under MIT keep their historical grants; this
+notice does not attempt to revoke those permissions.

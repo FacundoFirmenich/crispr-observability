@@ -1,10 +1,11 @@
 cff-version: 1.2.0
 message: "Please cite this versioned computational companion and the original data study."
 title: "CRISPR observability: COL17A1 retained-span reproducibility extension"
-version: 0.7.0
+version: 0.7.1
 date-released: 2026-11-10
 authors:
   - family-names: Firmenich
     given-names: Facundo
     orcid: https://orcid.org/0009-0002-6578-3811
 repository-code: https://github.com/FacundoFirmenich/crispr-observability
+license: GPL-3.0-only

@@ -5,6 +5,7 @@ message: >-
 type: software
 title: "CRISPR observability: finite-universe bounds and sequence-correspondence checks"
 version: "0.7.1"
+license: GPL-3.0-only
 authors:
   - family-names: "Firmenich"
     given-names: "Facundo"

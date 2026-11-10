@@ -18,3 +18,5 @@ Original project Python code follows the repository's MIT code license. Source
 data and derived records retain original-study attribution and source terms.
 Third-party source articles, supplementary documents and upstream R scripts are
 not redistributed here. See original studies cited in the acquisition records.
+
+Current-release licensing: original project software is GPL-3.0-only in 0.7.1; prior MIT grants and third-party data/source notices remain preserved. See the repository LICENSE_SCOPE.md.

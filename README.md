@@ -1,8 +1,8 @@
 # CRISPR observability: computational companion
 
-## Current scientific release: 0.7.0
+## Current scientific release: 0.7.1
 
-The [retained-span audit extension](extensions/retained_span_audit/README.md) provides the current unified quick/full reproduction command, complete COL17A1 retained data, claim/evidence graph, source hashes and explicit execution boundaries. [Download the versioned scientific archives](https://github.com/FacundoFirmenich/crispr-observability/releases/tag/v0.7.0), including 235 historical source-bound evidence files. See [release coverage](extensions/retained_span_audit/RELEASE_COVERAGE.json) before interpreting a reproduced computation as independent biological validation. Manuscript and formal supplementary text remain private for author deposit.
+The [retained-span audit extension](extensions/retained_span_audit/README.md) provides the current unified quick/full reproduction command, complete COL17A1 retained data, claim/evidence graph, source hashes and explicit execution boundaries. [Download the versioned scientific archives](https://github.com/FacundoFirmenich/crispr-observability/releases/tag/v0.7.1), including 235 historical source-bound evidence files. See [release coverage](extensions/retained_span_audit/RELEASE_COVERAGE.json) before interpreting a reproduced computation as independent biological validation. Manuscript and formal supplementary text remain private for author deposit.
 
 
 Version **0.6.0 / MP06** (1 November 2026). Public code, numerical data and editable figures for
@@ -162,3 +162,5 @@ The standing preservation and recovery rule is in [AGENTS.md](AGENTS.md). Preser
 ## Verified public KEAP1 sequencing inputs
 
 The [source verification extension](extensions/verified_read_inputs/README.md) pins six public CRISPRnano FASTQ files by accession and checksum and provides a download and integrity checker.
+
+Original project software in release 0.7.1 is GPL-3.0-only. See LICENSE_SCOPE.md for source-data and third-party boundaries. Zenodo metadata is prepared in .zenodo.json; a DOI is not yet assigned.

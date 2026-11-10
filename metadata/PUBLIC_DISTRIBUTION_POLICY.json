@@ -1,6 +1,6 @@
 {
-  "edition": "MP06",
-  "date": "2026-11-01",
+  "edition": "MP21_GPL",
+  "date": "2026-11-10",
   "manuscript_public": false,
   "supplement_public": false,
   "public_figure_and_numerical_assets_retained": true,
@@ -21,5 +21,7 @@
   ],
   "papergraph_withheld_source_identity_policy": "Hashes and sizes may identify withheld author sources; no public access or public hash verification of unavailable bytes is implied.",
   "scientific_context_public": true,
-  "scientific_context_full_manuscript_or_supplement_embedded": false
+  "scientific_context_full_manuscript_or_supplement_embedded": false,
+  "manuscript_release_condition": "Author-confirmed bioRxiv acceptance and explicit authorization",
+  "software_license": "GPL-3.0-only"
 }

@@ -1,6 +1,6 @@
 {
-  "version": "0.6.0",
-  "edition": "MP06",
+  "version": "0.7.1",
+  "edition": "MP21_GPL",
   "status": "PUBLIC_COMPUTATIONAL_COMPANION_PRIVATE_MANUSCRIPTS",
   "public_release": true,
   "external_repository_created": true,
@@ -10,18 +10,18 @@
   "human_final_approval": null,
   "author_current_programme_attribution": "Facundo Firmenich",
   "ORCID": "0009-0002-6578-3811",
-  "license": "MIT for enumerated original code; GPL-3.0-only for enumerated KwanTube-derived supergraph component; scientific data/manuscript terms separate",
+  "license": "GPL-3.0-only for original software; source data and third-party terms retained",
   "data_rights_status": "PUBLIC_SRA_SNAPSHOT_REDISTRIBUTION_DOCUMENTED; source attribution and terms retained; no MIT data relicensing",
   "native_scope": "Original observability audit, complete fixed-objective optimal-path correspondence, target-relative finite-family certificates and raw HEK3 transport.",
   "raw_pipeline_included": false,
   "remote_CI_run": true,
   "raw_observer_replay_included": true,
   "fresh_alignment_included": false,
-  "canonical_review_command": "python3 code/run_review_checks.py",
+  "canonical_review_command": "python extensions/retained_span_audit/reproduce.py --mode quick --output new-output",
   "original_raw_inputs_included": 18,
   "frozen_alignment_tables_included": 84,
   "affiliations": [
-    "Centro de Estudios del Sur (CEDESUR), Spain and Argentina. For this project, academically affiliated with Universidad Nacional Arturo Jauretche (UNAJ), Av. Calchaquí 6200, Florencio Varela, Provincia de Buenos Aires, 1888, Argentina",
+    "Centro de Estudios del Sur (CEDESUR), Spain and Argentina. For this project, academically affiliated with Universidad Nacional Arturo Jauretche (UNAJ), Av. Calchaqu\u00ed 6200, Florencio Varela, Provincia de Buenos Aires, 1888, Argentina",
     "Universitat de Barcelona (UB), Gran Via de les Corts Catalanes, 585, 08007 Barcelona, Spain"
   ],
   "corresponding_email": "f.firmenich@cedesur.org",
@@ -37,20 +37,20 @@
   "full_alignment_large_original_outputs_included_in_repository": false,
   "source_SRA_accessions_currently_resolved": 9,
   "repository_default_branch": "Ulalito's-Island",
-  "release_date": "2026-11-01",
+  "release_date": "2026-11-10",
   "public_source_release_does_not_certify_human_final_manuscript_approval": true,
   "complete_author_profile_recovered": true,
   "source_preprints": 3,
   "personal_acknowledgments_recovered": 5,
   "scientific_observation_values_changed_by_author_recovery": false,
   "additional_ORCID_institutions_recovered": [
-    "Universidad Nacional de Lanús",
+    "Universidad Nacional de Lan\u00fas",
     "Universitat Pompeu Fabra"
   ],
   "complete_ORCID_affiliation_records": 5,
   "manuscript_public": false,
   "supplement_public": false,
-  "manuscript_and_supplement_distribution": "PRIVATE",
+  "manuscript_and_supplement_distribution": "PRIVATE_UNTIL_AUTHOR_CONFIRMS_BIORXIV_ACCEPTANCE",
   "publication_note": "The author reserves formal manuscript deposition to a chosen preprint server. Withdrawal cannot reverse prior public dissemination or guarantee removal of external caches.",
   "interactive_companion_included": true,
   "interactive_companion": "interactive/epistemic_graph.html",
@@ -135,5 +135,7 @@
     "molecular_accuracy_claimed": false,
     "full_text_public": false,
     "actual_CI": "Consult Actions for the exact final commit; no self-certifying future receipt."
-  }
+  },
+  "current_epistemic_graph": "extensions/retained_span_audit/epistemic_graph.html",
+  "historical_baseline_count_scope": "Existing original_raw_inputs_included and frozen_alignment_tables_included fields describe the preserved primary CFTR/HEK3 baseline, not all later sources."
 }

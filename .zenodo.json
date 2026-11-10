@@ -1,0 +1,29 @@
+{
+  "title": "CRISPR observability: software and source-bound scientific evidence",
+  "upload_type": "software",
+  "version": "0.7.1",
+  "publication_date": "2026-11-10",
+  "access_right": "open",
+  "license": "gpl-3.0-only",
+  "creators": [
+    {
+      "name": "Firmenich, Facundo",
+      "orcid": "0009-0002-6578-3811",
+      "affiliation": "Centro de Estudios del Sur (CEDESUR), Spain and Argentina"
+    }
+  ],
+  "description": "<p>Computational software and source-bound evidence for genome-editing observability, finite-record identification and sequence correspondence. The release includes the retained COL17A1 pair ledgers, source spans, target-class witnesses, bounded independent path oracle, executable reproduction entry point and epistemic claim/evidence graph. Historical CFTR/HEK3, K562, HG002, KEAP1 and fragment-linkage evidence is included in the Git tree; one large reference file is preserved as hash-verified reconstructable parts.</p><p>Original software: GPL-3.0-only, as selected by the author. Third-party notices and original-study data terms are retained. Manuscript, formal supplementary text and editable manuscript sources are excluded until author-confirmed bioRxiv acceptance. This computational release does not establish independent molecular truth or biological accuracy.</p>",
+  "keywords": [
+    "genome editing",
+    "observability",
+    "partial identification",
+    "sequence correspondence",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/FacundoFirmenich/crispr-observability",
+      "relation": "isSupplementTo"
+    }
+  ]
+}

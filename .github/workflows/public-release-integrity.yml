@@ -1,0 +1,16 @@
+name: Public release integrity
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - run: python code/check_public_distribution.py
+      - run: python extensions/retained_span_audit/verify_release.py
+      - run: python extensions/historical_scientific_evidence/restore_large_files.py --check
