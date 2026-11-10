@@ -1,0 +1,15 @@
+canonical_residue_1,amino_acid,canonical_cds_first_1,canonical_codon,programmed_codon,synonymous_difference,deleted_bases_overlap_codon
+500,G,1498,GGC,GGC,False,False
+501,T,1501,ACC,ACC,False,False
+502,I,1504,ATT,ATT,False,False
+503,K,1507,AAA,AAA,False,False
+504,E,1510,GAA,GAA,False,False
+505,N,1513,AAT,AAT,False,False
+506,I,1516,ATC,ATC,False,False
+507,I,1519,ATC,ATC,False,True
+508,F,1522,TTT,TTT,False,True
+509,G,1525,GGT,GGT,False,False
+510,V,1528,GTT,GTG,True,False
+511,S,1531,TCC,AGT,True,False
+512,Y,1534,TAT,TAC,True,False
+513,D,1537,GAT,GAT,False,False

@@ -1,0 +1,428 @@
+[
+  {
+    "clone_file": "clone13_pairs.jsonl.gz",
+    "id": "@M04059:78:000000000-DDYY4:1:1102:27669:17653",
+    "library": "DNA",
+    "segment_hashes": [
+      "8e7687561d597d805ea850ef72935a25c896e9829c24ee06dfa3fa9458e17bd8",
+      "472ffee53b3a213adc58f874f3aa49c2c3d5b5fd9aab22d7f5610bc148ce5d71"
+    ],
+    "literal_mate_labels": [
+      [
+        "E",
+        "NE"
+      ],
+      [
+        "NE",
+        "NE"
+      ]
+    ],
+    "target": "long40",
+    "r1_call": "E",
+    "r2_literal": "NE",
+    "r1_segment": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+    "r2_segment": "GATGCCTCCCACAGTCACACCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+    "equal_length": true,
+    "substitution_positions": [
+      19
+    ],
+    "proofs": [
+      {
+        "reference": "HKC",
+        "optimum": 255,
+        "witnesses": {
+          "programmed_local": {
+            "0": {
+              "score": 210,
+              "projection": "CCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGC-GGGGCAGCTC"
+            },
+            "1": {
+              "score": 255,
+              "projection": "CCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 210,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGG-GGCAGCTC"
+            }
+          },
+          "unedited_local": {
+            "0": {
+              "score": 255,
+              "projection": "CCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 210,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGG-GGCAGCTC"
+            }
+          }
+        }
+      },
+      {
+        "reference": "JEB",
+        "optimum": 277,
+        "witnesses": {
+          "programmed_local": {
+            "0": {
+              "score": 232,
+              "projection": "CCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGC-GGGGCAGCTC"
+            },
+            "1": {
+              "score": 277,
+              "projection": "CCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 232,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG-GGCAGCTC"
+            }
+          },
+          "unedited_local": {
+            "0": {
+              "score": 277,
+              "projection": "CCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 232,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG-GGCAGCTC"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "clone_file": "clone16_pairs.jsonl.gz",
+    "id": "@M04059:78:000000000-DDYY4:1:1101:6637:20141",
+    "library": "cDNA",
+    "segment_hashes": [
+      "8e7687561d597d805ea850ef72935a25c896e9829c24ee06dfa3fa9458e17bd8",
+      "c82a7a69d7877b8071dc07b9ac6426612160083f8c52a8a7575f445ee1ab20db"
+    ],
+    "literal_mate_labels": [
+      [
+        "E",
+        "NE"
+      ],
+      [
+        "NE",
+        "NE"
+      ]
+    ],
+    "target": "long40",
+    "r1_call": "E",
+    "r2_literal": "NE",
+    "r1_segment": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+    "r2_segment": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCTCCTCACAGGGTAGCAGCTCCTCTCCTCACACACAGCTCATGTCAGGCGGGGCAGCTC",
+    "equal_length": false,
+    "substitution_positions": null,
+    "proofs": [
+      {
+        "reference": "HKC",
+        "optimum": 255,
+        "witnesses": {
+          "programmed_local": {
+            "0": {
+              "score": 210,
+              "projection": "CCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGC-GGGGCAGCTC"
+            },
+            "1": {
+              "score": 255,
+              "projection": "CCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 210,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGG-GGCAGCTC"
+            }
+          },
+          "unedited_local": {
+            "0": {
+              "score": 255,
+              "projection": "CCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 210,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGG-GGCAGCTC"
+            }
+          }
+        }
+      },
+      {
+        "reference": "JEB",
+        "optimum": 277,
+        "witnesses": {
+          "programmed_local": {
+            "0": {
+              "score": 232,
+              "projection": "CCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGC-GGGGCAGCTC"
+            },
+            "1": {
+              "score": 277,
+              "projection": "CCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 232,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG-GGCAGCTC"
+            }
+          },
+          "unedited_local": {
+            "0": {
+              "score": 277,
+              "projection": "CCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 232,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG-GGCAGCTC"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "clone_file": "clone21_pairs.jsonl.gz",
+    "id": "@M04059:78:000000000-DDYY4:1:1101:12059:14540",
+    "library": "DNA",
+    "segment_hashes": [
+      "3afb689cc5d37ac45f130341e226ad459b5d1f574518784b3cc46317ff36dfe7",
+      "8e7687561d597d805ea850ef72935a25c896e9829c24ee06dfa3fa9458e17bd8"
+    ],
+    "literal_mate_labels": [
+      [
+        "NE",
+        "NE"
+      ],
+      [
+        "E",
+        "NE"
+      ]
+    ],
+    "target": "long40",
+    "r1_call": "NE",
+    "r2_literal": "E",
+    "r1_segment": "GATGCCTCCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+    "r2_segment": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+    "equal_length": true,
+    "substitution_positions": [
+      30
+    ],
+    "proofs": [
+      {
+        "reference": "HKC",
+        "optimum": 246,
+        "witnesses": {
+          "programmed_local": {
+            "0": {
+              "score": 246,
+              "projection": "CCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 201,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGG-GGCAGCTC"
+            }
+          },
+          "unedited_local": {
+            "0": {
+              "score": 246,
+              "projection": "CCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 201,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGG-GGCAGCTC"
+            }
+          }
+        }
+      },
+      {
+        "reference": "JEB",
+        "optimum": 268,
+        "witnesses": {
+          "programmed_local": {
+            "0": {
+              "score": 268,
+              "projection": "CCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 223,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG-GGCAGCTC"
+            }
+          },
+          "unedited_local": {
+            "0": {
+              "score": 268,
+              "projection": "CCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 223,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGCAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGG-GGCAGCTC"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "clone_file": "clone9_pairs.jsonl.gz",
+    "id": "@M04059:78:000000000-DDYY4:1:1101:3177:14992",
+    "library": "DNA",
+    "segment_hashes": [
+      "996f6eec1cc72e5738686660e897a49a13ca91ce37350317ba9ecdc3a895a09f",
+      "4f4b821485bd45558eb5c9cba0561d3f95ca72b2b4aae5eb0ab4cb1d4c1f911b"
+    ],
+    "literal_mate_labels": [
+      [
+        "NE",
+        "E"
+      ],
+      [
+        "NE",
+        "NE"
+      ]
+    ],
+    "target": "short18",
+    "r1_call": "E",
+    "r2_literal": "NE",
+    "r1_segment": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCATGTCAGGCGGGGCAGCTC",
+    "r2_segment": "GATGCCTCCCACAGTCGTGGTAGCAGCTCCTCATGTCAGGCGGGGCAGCTC",
+    "equal_length": true,
+    "substitution_positions": [
+      17
+    ],
+    "proofs": [
+      {
+        "reference": "HKC",
+        "optimum": 200,
+        "witnesses": {
+          "programmed_local": {
+            "0": {
+              "score": 155,
+              "projection": "CCCACAGTCGGGGTAGCAGCTCCTCATGTCAGGCG",
+              "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTC--------------ATGTCAGGC-GGGGCAGCTC"
+            },
+            "1": {
+              "score": 200,
+              "projection": "CCCACAGTCGGGGTAGCAGCTCCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTC--------------ATGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 155,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTC--------------ATGTCAGGCGG-GGCAGCTC"
+            }
+          },
+          "unedited_local": {
+            "0": {
+              "score": 200,
+              "projection": "CCCACAGTCGGGGTAGCAGCTCCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTC--------------ATGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 155,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTC--------------ATGTCAGGCGG-GGCAGCTC"
+            }
+          }
+        }
+      },
+      {
+        "reference": "JEB",
+        "optimum": 213,
+        "witnesses": {
+          "programmed_local": {
+            "0": {
+              "score": 168,
+              "projection": "CCCACAGTCGGGGTAGCAGCTCCTCATGTCAGGCG",
+              "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTC------------CTCATGTCAGGC-GGGGCAGCTC"
+            },
+            "1": {
+              "score": 213,
+              "projection": "CCCACAGTCGGGGTAGCAGCTCCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTC------------CTCATGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 168,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTC------------CTCATGTCAGGCGG-GGCAGCTC"
+            }
+          },
+          "unedited_local": {
+            "0": {
+              "score": 213,
+              "projection": "CCCACAGTCGGGGTAGCAGCTCCTCATGTCAGGCGG",
+              "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTC------------CTCATGTCAGGCGGGGCAGCTC"
+            },
+            "2": {
+              "score": 168,
+              "projection": null,
+              "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGG-CAGCTC",
+              "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTC------------CTCATGTCAGGCGG-GGCAGCTC"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

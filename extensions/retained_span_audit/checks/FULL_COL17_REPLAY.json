@@ -1,0 +1,132 @@
+{
+  "mode": "full",
+  "input_files_verified": 115,
+  "biological_accuracy": "NOT_ESTIMATED",
+  "clones": [
+    {
+      "clone": "3",
+      "spans": 468,
+      "pairs": 27766,
+      "count_rows": 124
+    },
+    {
+      "clone": "6",
+      "spans": 451,
+      "pairs": 26939,
+      "count_rows": 124
+    },
+    {
+      "clone": "9",
+      "spans": 487,
+      "pairs": 29906,
+      "count_rows": 124
+    },
+    {
+      "clone": "10",
+      "spans": 658,
+      "pairs": 22933,
+      "count_rows": 119
+    },
+    {
+      "clone": "12",
+      "spans": 840,
+      "pairs": 22384,
+      "count_rows": 47
+    },
+    {
+      "clone": "13",
+      "spans": 536,
+      "pairs": 21013,
+      "count_rows": 109
+    },
+    {
+      "clone": "14",
+      "spans": 608,
+      "pairs": 24822,
+      "count_rows": 124
+    },
+    {
+      "clone": "16",
+      "spans": 1056,
+      "pairs": 23501,
+      "count_rows": 114
+    },
+    {
+      "clone": "17",
+      "spans": 636,
+      "pairs": 23523,
+      "count_rows": 119
+    },
+    {
+      "clone": "18",
+      "spans": 515,
+      "pairs": 24145,
+      "count_rows": 124
+    },
+    {
+      "clone": "19",
+      "spans": 358,
+      "pairs": 26703,
+      "count_rows": 124
+    },
+    {
+      "clone": "21",
+      "spans": 806,
+      "pairs": 22537,
+      "count_rows": 119
+    },
+    {
+      "clone": "22",
+      "spans": 422,
+      "pairs": 24831,
+      "count_rows": 52
+    },
+    {
+      "clone": "24",
+      "spans": 497,
+      "pairs": 23482,
+      "count_rows": 124
+    },
+    {
+      "clone": "27",
+      "spans": 523,
+      "pairs": 24631,
+      "count_rows": 124
+    },
+    {
+      "clone": "28",
+      "spans": 464,
+      "pairs": 21430,
+      "count_rows": 47
+    },
+    {
+      "clone": "63",
+      "spans": 292,
+      "pairs": 27525,
+      "count_rows": 124
+    },
+    {
+      "clone": "68",
+      "spans": 513,
+      "pairs": 21518,
+      "count_rows": 119
+    }
+  ],
+  "raw_pairs": 439589,
+  "reference_cases": 20260,
+  "attaining_witnesses": 81112,
+  "strict_deficit36": {
+    "DNA": {
+      "any_E": 172149,
+      "all_NE": 7185,
+      "unresolved": 35004
+    },
+    "cDNA": {
+      "any_E": 180758,
+      "all_NE": 4141,
+      "unresolved": 40352
+    }
+  },
+  "status": "PASS",
+  "seconds": 115.88
+}

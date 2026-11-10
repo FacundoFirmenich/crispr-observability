@@ -1,0 +1,192 @@
+{
+  "clone": "3",
+  "protocol_sha256": "44b10f97d71527ab2e18c9271eea1ee896411863c16d8d6e4908312fb7da7f8c",
+  "files": [
+    {
+      "id": "1f5a7b42-1398-4c64-b7cb-3e7657088c9d",
+      "key": "C17Ex52_cDNA immoJEB_PPN_Clone3_fwd.fastq.gz",
+      "size": 1203576,
+      "checksum": "md5:a1a15dba2e09f2ecd7e2fcd7a7857936",
+      "links": {
+        "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone3_fwd.fastq.gz/content"
+      },
+      "sha256": "63e358832c0ea006b3e7ef85851fe2af789b1c0b606c08ae44e37a676b37114f"
+    },
+    {
+      "id": "45e183ab-288b-4259-948f-686b92cf5ec9",
+      "key": "C17Ex52_cDNA immoJEB_PPN_Clone3_rev.fastq.gz",
+      "size": 1122728,
+      "checksum": "md5:52c01c3f02612f4d83ad214b1d0450ce",
+      "links": {
+        "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone3_rev.fastq.gz/content"
+      },
+      "sha256": "b40c3272f9e0699f71fc1a443442118304f318e55c7aa4baa1817c0a4863b503"
+    },
+    {
+      "id": "fbf678e4-b87b-4fe8-9eb9-c5f5fabe707c",
+      "key": "C17Ex52_DNA immoJEB_PPN_Clone3_rev.fastq.gz",
+      "size": 921912,
+      "checksum": "md5:808d42d506bb5f3e5ec0214029f88e75",
+      "links": {
+        "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone3_rev.fastq.gz/content"
+      },
+      "sha256": "40de72f3e3509dadbb7370fee3f4b607f7f044d41d7faab86a1fe228c448b552"
+    },
+    {
+      "id": "ab2cd7d4-91bb-40d6-9b08-57e40fd08495",
+      "key": "C17Ex52_DNA immoJEB_PPN_Clone3_fwd.fastq.gz",
+      "size": 859883,
+      "checksum": "md5:a9395c09da1ec61623e2a48d6ae93fc7",
+      "links": {
+        "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone3_fwd.fastq.gz/content"
+      },
+      "sha256": "3ae073483960786b5485d6e40084cce0e0e18f114dc6a61c61e5af677a7f93ed"
+    }
+  ],
+  "libraries": [
+    {
+      "library": "DNA",
+      "counts": {
+        "raw": 11848,
+        "old_both": 6751,
+        "new_both": 7532,
+        "unresolved": 4316,
+        "determinate_length": 7532,
+        "identical_sequence": 6501,
+        "same_length_different_sequence": 1031
+      },
+      "admission_cross": [
+        {
+          "old": 0,
+          "new": 0,
+          "pairs": 4005
+        },
+        {
+          "old": 0,
+          "new": 1,
+          "pairs": 1092
+        },
+        {
+          "old": 1,
+          "new": 0,
+          "pairs": 311
+        },
+        {
+          "old": 1,
+          "new": 1,
+          "pairs": 6440
+        }
+      ],
+      "length_distribution": {
+        "-40": 6,
+        "-38": 1,
+        "-37": 861,
+        "-34": 1,
+        "-33": 4,
+        "-25": 1,
+        "-22": 1,
+        "-17": 2,
+        "-9": 1,
+        "-7": 3,
+        "-6": 6635,
+        "-4": 2,
+        "0": 2,
+        "2": 6,
+        "3": 2,
+        "7": 1,
+        "34": 3
+      },
+      "events": [
+        {
+          "indel_relative_JEB": 6,
+          "published_DNA_percent": 99.13,
+          "published_mRNA_percent": 3.63,
+          "E": 0,
+          "NE": 7532,
+          "U": 4316,
+          "same_length_sequence_discordant": 0,
+          "support_at_least_100": false
+        },
+        {
+          "indel_relative_JEB": -37,
+          "published_DNA_percent": 0.04,
+          "published_mRNA_percent": 95.59,
+          "E": 861,
+          "NE": 6671,
+          "U": 4316,
+          "same_length_sequence_discordant": 190,
+          "support_at_least_100": true
+        }
+      ]
+    },
+    {
+      "library": "cDNA",
+      "counts": {
+        "raw": 15918,
+        "old_both": 561,
+        "new_both": 4354,
+        "unresolved": 11564,
+        "determinate_length": 4354,
+        "identical_sequence": 3835,
+        "same_length_different_sequence": 519
+      },
+      "admission_cross": [
+        {
+          "old": 0,
+          "new": 0,
+          "pairs": 11524
+        },
+        {
+          "old": 0,
+          "new": 1,
+          "pairs": 3833
+        },
+        {
+          "old": 1,
+          "new": 0,
+          "pairs": 40
+        },
+        {
+          "old": 1,
+          "new": 1,
+          "pairs": 521
+        }
+      ],
+      "length_distribution": {
+        "-46": 1,
+        "-40": 5,
+        "-38": 2,
+        "-37": 3809,
+        "-34": 1,
+        "-15": 2,
+        "-11": 3,
+        "-6": 530,
+        "2": 1
+      },
+      "events": [
+        {
+          "indel_relative_JEB": 6,
+          "published_DNA_percent": 99.13,
+          "published_mRNA_percent": 3.63,
+          "E": 0,
+          "NE": 4354,
+          "U": 11564,
+          "same_length_sequence_discordant": 0,
+          "support_at_least_100": false
+        },
+        {
+          "indel_relative_JEB": -37,
+          "published_DNA_percent": 0.04,
+          "published_mRNA_percent": 95.59,
+          "E": 3809,
+          "NE": 545,
+          "U": 11564,
+          "same_length_sequence_discordant": 493,
+          "support_at_least_100": true
+        }
+      ]
+    }
+  ],
+  "ledger_sha256": "71dea9f86d559fed42b5617a43fdff842ab3aab5fbee1cd88a833f4a167ece57",
+  "segments_sha256": "331820f18114509afbd0e72adcb86bab9a07cb0f3080f366c0785c62286d59ea"
+}

@@ -1,0 +1,839 @@
+{
+  "status": "PASS",
+  "raw_records": 177006,
+  "certificate_subsets": 7,
+  "native_label_agreement_with_unequal_strings": 18,
+  "native_nonexact_programmed_witness_records": 128,
+  "native_nonexact_distinct_strings": 22,
+  "native_nonexact_by_condition": {
+    "PE treated": 127,
+    "mock": 0,
+    "untreated": 1
+  },
+  "variants": [
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATCAAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "a03cc812e6fe7249aff6946b1f58fedc43c09e0f4b1fd32e27c1074eda5368d1",
+      "records": 1,
+      "example_read_id": "SRR29623270.3306",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 3,
+          "canonical_residue": 502,
+          "programmed_codon": "ATT",
+          "observed_codon": "ATC",
+          "amino_acid": "I"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAACATCATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "4d35144d33264629393503ccb418b2cf7c71eda5456602f811011feba8cb333b",
+      "records": 1,
+      "example_read_id": "SRR29623270.7112",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 6,
+          "canonical_residue": 505,
+          "programmed_codon": "AAT",
+          "observed_codon": "AAC",
+          "amino_acid": "N"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATAATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "9c07105e94f2ff134614b42e1e36ef1065999a41129270f399bd7c340ca6312b",
+      "records": 2,
+      "example_read_id": "SRR29623270.38",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 7,
+          "canonical_residue": 506,
+          "programmed_codon": "ATC",
+          "observed_codon": "ATA",
+          "amino_acid": "I"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGAGTGAGTTACGAT",
+      "coding_sha256": "6bc8c5800acc5ef1731550674a3077a1d661ed924aad18a18d1feea9c51d80e8",
+      "records": 2,
+      "example_read_id": "SRR29623270.2696",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 10,
+          "canonical_residue": 509,
+          "programmed_codon": "GGT",
+          "observed_codon": "GGA",
+          "amino_acid": "G"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGCGTGAGTTACGAT",
+      "coding_sha256": "927017fbe5494dc5047e2668464a445d3ef0b6c51fdf289144d060d0949c178b",
+      "records": 2,
+      "example_read_id": "SRR29623270.4666",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 10,
+          "canonical_residue": 509,
+          "programmed_codon": "GGT",
+          "observed_codon": "GGC",
+          "amino_acid": "G"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGGGTGAGTTACGAT",
+      "coding_sha256": "e01d969562f3723148ba0a163afb6673501c7caa6c3ee450c3a30feac1f9ea5b",
+      "records": 1,
+      "example_read_id": "SRR29623270.657",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 10,
+          "canonical_residue": 509,
+          "programmed_codon": "GGT",
+          "observed_codon": "GGG",
+          "amino_acid": "G"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTAAGTTACGAT",
+      "coding_sha256": "bec9d76b84fbfc9e8baaf6b6d6864ea6c0c8252424c793124d7c1b0314cb1e92",
+      "records": 8,
+      "example_read_id": "SRR29623270.2620",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 11,
+          "canonical_residue": 510,
+          "programmed_codon": "GTG",
+          "observed_codon": "GTA",
+          "amino_acid": "V"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTATGAT",
+      "coding_sha256": "d4dc6b81b51af4c3cbc2bd32de64d0c0b9231ebddc4a3c97d5d75d086cd0af71",
+      "records": 8,
+      "example_read_id": "SRR29623270.3574",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 13,
+          "canonical_residue": 512,
+          "programmed_codon": "TAC",
+          "observed_codon": "TAT",
+          "amino_acid": "Y"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTAGTTACGAT",
+      "coding_sha256": "b34c0105b8177719529e3e148590cd012f12270f9e9adb623a562b604259d93b",
+      "records": 1,
+      "example_read_id": "SRR29623270.4945",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 11,
+          "canonical_residue": 510,
+          "programmed_codon": "GTG",
+          "observed_codon": "GTT",
+          "amino_acid": "V"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTCCTATGAT",
+      "coding_sha256": "4e1a8af8adddf7b49daa3fb28d8f136cac483f2f1c04e80e00d7613d19638488",
+      "records": 2,
+      "example_read_id": "SRR29623270.10424",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 11,
+          "canonical_residue": 510,
+          "programmed_codon": "GTG",
+          "observed_codon": "GTT",
+          "amino_acid": "V"
+        },
+        {
+          "local_codon_1based": 12,
+          "canonical_residue": 511,
+          "programmed_codon": "AGT",
+          "observed_codon": "TCC",
+          "amino_acid": "S"
+        },
+        {
+          "local_codon_1based": 13,
+          "canonical_residue": 512,
+          "programmed_codon": "TAC",
+          "observed_codon": "TAT",
+          "amino_acid": "Y"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATTTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "4314e23dbd1d9b60aa65c36d8ab1a955c633355f92199ef417331ba7d6faeeab",
+      "records": 2,
+      "example_read_id": "SRR29623270.37",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 8,
+          "canonical_residue": 507,
+          "programmed_codon": "ATC",
+          "observed_codon": "ATT",
+          "amino_acid": "I"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATTATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "70a949bef3e61c128c6cbc3683cb57bceecf83ea2cd6ce8c31b20edffed552f3",
+      "records": 3,
+      "example_read_id": "SRR29623270.3033",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 7,
+          "canonical_residue": 506,
+          "programmed_codon": "ATC",
+          "observed_codon": "ATT",
+          "amino_acid": "I"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAGGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "b8a0fe2ce4b5f60795874e2e0e868ad00f5a72eaa1d7234db9c727b24d2a12bf",
+      "records": 1,
+      "example_read_id": "SRR29623270.3918",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 4,
+          "canonical_residue": 503,
+          "programmed_codon": "AAA",
+          "observed_codon": "AAG",
+          "amino_acid": "K"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623270",
+      "preparation": 3,
+      "condition": "PE treated",
+      "observed_coding": "GGTACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "74b99495f46840741346a369bd95db1386eda995479b5435ffc439f89b7996f6",
+      "records": 1,
+      "example_read_id": "SRR29623270.4159",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 1,
+          "canonical_residue": 500,
+          "programmed_codon": "GGC",
+          "observed_codon": "GGT",
+          "amino_acid": "G"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATAAAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "759e5a2bd02ad8b77352c2f58fd8df3fb706dbcceac7091ba6b52cc8740598ed",
+      "records": 2,
+      "example_read_id": "SRR29623271.6992",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 3,
+          "canonical_residue": 502,
+          "programmed_codon": "ATT",
+          "observed_codon": "ATA",
+          "amino_acid": "I"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAACATCATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "4d35144d33264629393503ccb418b2cf7c71eda5456602f811011feba8cb333b",
+      "records": 3,
+      "example_read_id": "SRR29623271.4464",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 6,
+          "canonical_residue": 505,
+          "programmed_codon": "AAT",
+          "observed_codon": "AAC",
+          "amino_acid": "N"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATAATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "9c07105e94f2ff134614b42e1e36ef1065999a41129270f399bd7c340ca6312b",
+      "records": 1,
+      "example_read_id": "SRR29623271.7805",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 7,
+          "canonical_residue": 506,
+          "programmed_codon": "ATC",
+          "observed_codon": "ATA",
+          "amino_acid": "I"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATATTTGGTGTGAGTTACGAT",
+      "coding_sha256": "09100ffa58b0175b7ab5f08b7a97cc1e99cfb1fd56542ca98e0373602403c550",
+      "records": 2,
+      "example_read_id": "SRR29623271.7860",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 8,
+          "canonical_residue": 507,
+          "programmed_codon": "ATC",
+          "observed_codon": "ATA",
+          "amino_acid": "I"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTCGGTGTGAGTTACGAT",
+      "coding_sha256": "4174976188a2b677bc5975c90f89e8864ef48a4ada5bc5dbce4dafc2cb27dfa1",
+      "records": 2,
+      "example_read_id": "SRR29623271.678",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 9,
+          "canonical_residue": 508,
+          "programmed_codon": "TTT",
+          "observed_codon": "TTC",
+          "amino_acid": "F"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGAGTGAGTTACGAT",
+      "coding_sha256": "6bc8c5800acc5ef1731550674a3077a1d661ed924aad18a18d1feea9c51d80e8",
+      "records": 1,
+      "example_read_id": "SRR29623271.9213",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 10,
+          "canonical_residue": 509,
+          "programmed_codon": "GGT",
+          "observed_codon": "GGA",
+          "amino_acid": "G"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGCGTGAGTTACGAT",
+      "coding_sha256": "927017fbe5494dc5047e2668464a445d3ef0b6c51fdf289144d060d0949c178b",
+      "records": 1,
+      "example_read_id": "SRR29623271.10666",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 10,
+          "canonical_residue": 509,
+          "programmed_codon": "GGT",
+          "observed_codon": "GGC",
+          "amino_acid": "G"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGGGTGAGTTACGAT",
+      "coding_sha256": "e01d969562f3723148ba0a163afb6673501c7caa6c3ee450c3a30feac1f9ea5b",
+      "records": 2,
+      "example_read_id": "SRR29623271.14727",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 10,
+          "canonical_residue": 509,
+          "programmed_codon": "GGT",
+          "observed_codon": "GGG",
+          "amino_acid": "G"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTAAGTTACGAT",
+      "coding_sha256": "bec9d76b84fbfc9e8baaf6b6d6864ea6c0c8252424c793124d7c1b0314cb1e92",
+      "records": 10,
+      "example_read_id": "SRR29623271.395",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 11,
+          "canonical_residue": 510,
+          "programmed_codon": "GTG",
+          "observed_codon": "GTA",
+          "amino_acid": "V"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGCTACGAT",
+      "coding_sha256": "6a5db60d82473f114acea064255153b950be18da2aa00ceb9376495760d80b37",
+      "records": 3,
+      "example_read_id": "SRR29623271.3171",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 12,
+          "canonical_residue": 511,
+          "programmed_codon": "AGT",
+          "observed_codon": "AGC",
+          "amino_acid": "S"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTATGAT",
+      "coding_sha256": "d4dc6b81b51af4c3cbc2bd32de64d0c0b9231ebddc4a3c97d5d75d086cd0af71",
+      "records": 17,
+      "example_read_id": "SRR29623271.302",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 13,
+          "canonical_residue": 512,
+          "programmed_codon": "TAC",
+          "observed_codon": "TAT",
+          "amino_acid": "Y"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGTCTTATGAT",
+      "coding_sha256": "9c1a5ee3eb68b577c4bcd8b43b42ab6f2b7db7a0c6cffc7ad68939c3e22c7880",
+      "records": 1,
+      "example_read_id": "SRR29623271.9732",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 12,
+          "canonical_residue": 511,
+          "programmed_codon": "AGT",
+          "observed_codon": "TCT",
+          "amino_acid": "S"
+        },
+        {
+          "local_codon_1based": 13,
+          "canonical_residue": 512,
+          "programmed_codon": "TAC",
+          "observed_codon": "TAT",
+          "amino_acid": "Y"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTAGTTACGAT",
+      "coding_sha256": "b34c0105b8177719529e3e148590cd012f12270f9e9adb623a562b604259d93b",
+      "records": 1,
+      "example_read_id": "SRR29623271.3622",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 11,
+          "canonical_residue": 510,
+          "programmed_codon": "GTG",
+          "observed_codon": "GTT",
+          "amino_acid": "V"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTCCTATGAT",
+      "coding_sha256": "4e1a8af8adddf7b49daa3fb28d8f136cac483f2f1c04e80e00d7613d19638488",
+      "records": 7,
+      "example_read_id": "SRR29623271.651",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 11,
+          "canonical_residue": 510,
+          "programmed_codon": "GTG",
+          "observed_codon": "GTT",
+          "amino_acid": "V"
+        },
+        {
+          "local_codon_1based": 12,
+          "canonical_residue": 511,
+          "programmed_codon": "AGT",
+          "observed_codon": "TCC",
+          "amino_acid": "S"
+        },
+        {
+          "local_codon_1based": 13,
+          "canonical_residue": 512,
+          "programmed_codon": "TAC",
+          "observed_codon": "TAT",
+          "amino_acid": "Y"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATTTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "4314e23dbd1d9b60aa65c36d8ab1a955c633355f92199ef417331ba7d6faeeab",
+      "records": 1,
+      "example_read_id": "SRR29623271.4674",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 8,
+          "canonical_residue": 507,
+          "programmed_codon": "ATC",
+          "observed_codon": "ATT",
+          "amino_acid": "I"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATTATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "70a949bef3e61c128c6cbc3683cb57bceecf83ea2cd6ce8c31b20edffed552f3",
+      "records": 10,
+      "example_read_id": "SRR29623271.738",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 7,
+          "canonical_residue": 506,
+          "programmed_codon": "ATC",
+          "observed_codon": "ATT",
+          "amino_acid": "I"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAGAATATCATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "25477468fc0d0607cd811478c0c1ac319ee153ea44199b434be070ca6534bba7",
+      "records": 1,
+      "example_read_id": "SRR29623271.75",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 5,
+          "canonical_residue": 504,
+          "programmed_codon": "GAA",
+          "observed_codon": "GAG",
+          "amino_acid": "E"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAGGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "b8a0fe2ce4b5f60795874e2e0e868ad00f5a72eaa1d7234db9c727b24d2a12bf",
+      "records": 1,
+      "example_read_id": "SRR29623271.10891",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 4,
+          "canonical_residue": 503,
+          "programmed_codon": "AAA",
+          "observed_codon": "AAG",
+          "amino_acid": "K"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGCACTATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "fd262c2ce3081bd100a2eca34d55c936a89289791aac5ddab940c0d13c78fc97",
+      "records": 1,
+      "example_read_id": "SRR29623271.13615",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 2,
+          "canonical_residue": 501,
+          "programmed_codon": "ACC",
+          "observed_codon": "ACT",
+          "amino_acid": "T"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623271",
+      "preparation": 2,
+      "condition": "PE treated",
+      "observed_coding": "GGGACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "93eb78ac15019aa5475d19f57066caec86e594e57355cdb7ca952264a935c71a",
+      "records": 1,
+      "example_read_id": "SRR29623271.5598",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 1,
+          "canonical_residue": 500,
+          "programmed_codon": "GGC",
+          "observed_codon": "GGG",
+          "amino_acid": "G"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623272",
+      "preparation": 1,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGCGTGAGTTACGAT",
+      "coding_sha256": "927017fbe5494dc5047e2668464a445d3ef0b6c51fdf289144d060d0949c178b",
+      "records": 3,
+      "example_read_id": "SRR29623272.18450",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 10,
+          "canonical_residue": 509,
+          "programmed_codon": "GGT",
+          "observed_codon": "GGC",
+          "amino_acid": "G"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623272",
+      "preparation": 1,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTAAGTTACGAT",
+      "coding_sha256": "bec9d76b84fbfc9e8baaf6b6d6864ea6c0c8252424c793124d7c1b0314cb1e92",
+      "records": 1,
+      "example_read_id": "SRR29623272.20119",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 11,
+          "canonical_residue": 510,
+          "programmed_codon": "GTG",
+          "observed_codon": "GTA",
+          "amino_acid": "V"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623272",
+      "preparation": 1,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTATGAT",
+      "coding_sha256": "d4dc6b81b51af4c3cbc2bd32de64d0c0b9231ebddc4a3c97d5d75d086cd0af71",
+      "records": 1,
+      "example_read_id": "SRR29623272.19924",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 13,
+          "canonical_residue": 512,
+          "programmed_codon": "TAC",
+          "observed_codon": "TAT",
+          "amino_acid": "Y"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623272",
+      "preparation": 1,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTAGTTACGAT",
+      "coding_sha256": "b34c0105b8177719529e3e148590cd012f12270f9e9adb623a562b604259d93b",
+      "records": 1,
+      "example_read_id": "SRR29623272.19025",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 11,
+          "canonical_residue": 510,
+          "programmed_codon": "GTG",
+          "observed_codon": "GTT",
+          "amino_acid": "V"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623272",
+      "preparation": 1,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATTTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "4314e23dbd1d9b60aa65c36d8ab1a955c633355f92199ef417331ba7d6faeeab",
+      "records": 13,
+      "example_read_id": "SRR29623272.73",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 8,
+          "canonical_residue": 507,
+          "programmed_codon": "ATC",
+          "observed_codon": "ATT",
+          "amino_acid": "I"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623272",
+      "preparation": 1,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAAGAAAATATTATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "70a949bef3e61c128c6cbc3683cb57bceecf83ea2cd6ce8c31b20edffed552f3",
+      "records": 3,
+      "example_read_id": "SRR29623272.2515",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 7,
+          "canonical_residue": 506,
+          "programmed_codon": "ATC",
+          "observed_codon": "ATT",
+          "amino_acid": "I"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623272",
+      "preparation": 1,
+      "condition": "PE treated",
+      "observed_coding": "GGCACCATTAAGGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "b8a0fe2ce4b5f60795874e2e0e868ad00f5a72eaa1d7234db9c727b24d2a12bf",
+      "records": 1,
+      "example_read_id": "SRR29623272.12354",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 4,
+          "canonical_residue": 503,
+          "programmed_codon": "AAA",
+          "observed_codon": "AAG",
+          "amino_acid": "K"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623272",
+      "preparation": 1,
+      "condition": "PE treated",
+      "observed_coding": "GGTACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACGAT",
+      "coding_sha256": "74b99495f46840741346a369bd95db1386eda995479b5435ffc439f89b7996f6",
+      "records": 1,
+      "example_read_id": "SRR29623272.16693",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 1,
+          "canonical_residue": 500,
+          "programmed_codon": "GGC",
+          "observed_codon": "GGT",
+          "amino_acid": "G"
+        }
+      ]
+    },
+    {
+      "run": "SRR29623274",
+      "preparation": 1,
+      "condition": "untreated",
+      "observed_coding": "GGCACCATTAAAGAAAATATCATCTTTGGTGTTTCCTATGAT",
+      "coding_sha256": "4e1a8af8adddf7b49daa3fb28d8f136cac483f2f1c04e80e00d7613d19638488",
+      "records": 1,
+      "example_read_id": "SRR29623274.12223",
+      "synonymous_codon_differences": [
+        {
+          "local_codon_1based": 11,
+          "canonical_residue": 510,
+          "programmed_codon": "GTG",
+          "observed_codon": "GTT",
+          "amino_acid": "V"
+        },
+        {
+          "local_codon_1based": 12,
+          "canonical_residue": 511,
+          "programmed_codon": "AGT",
+          "observed_codon": "TCC",
+          "amino_acid": "S"
+        },
+        {
+          "local_codon_1based": 13,
+          "canonical_residue": 512,
+          "programmed_codon": "TAC",
+          "observed_codon": "TAT",
+          "amino_acid": "Y"
+        }
+      ]
+    }
+  ],
+  "limits": "Observed local coding strings and synonymous differences only. A sequencing error, mixed product or true allele origin is not adjudicated. No full-allele, expression, function, independent truth or optimal-observer inference."
+}

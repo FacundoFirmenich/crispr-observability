@@ -1,0 +1,27 @@
+{
+  "format": "Explicit tested dependency inventory, not a transitive lockfile",
+  "python": "3.14.0",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "direct_packages": [
+    {
+      "name": "numpy",
+      "version": "2.3.5"
+    },
+    {
+      "name": "numba",
+      "version": "0.65.0"
+    },
+    {
+      "name": "biopython",
+      "version": "1.87"
+    }
+  ],
+  "relevant_transitive_packages": [
+    {
+      "name": "llvmlite",
+      "version": "0.47.0"
+    }
+  ],
+  "installation_validation": "Installed environment tested; fresh installation not executed",
+  "upstream_code_redistribution": false
+}

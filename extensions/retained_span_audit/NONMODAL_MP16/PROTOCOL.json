@@ -1,0 +1,306 @@
+{
+  "scope": "Exhaustive fixed-target P1 scoring of every retained MP15B distal span, including nonmodal observations.",
+  "frozen_utc": "2026-11-06T16:43:31.089962+00:00",
+  "references": [
+    {
+      "name": "HKC",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "lo": 10,
+      "hi": 112
+    },
+    {
+      "name": "JEB",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "lo": 10,
+      "hi": 110
+    }
+  ],
+  "deltas": [
+    0,
+    9,
+    18,
+    27,
+    36,
+    45,
+    54
+  ],
+  "targets": {
+    "3": [
+      {
+        "label": "observed_minus6_S2_plus6_discordant",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -6,
+        "source_published_event": 6
+      },
+      {
+        "label": "S2_-37",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -37,
+        "source_published_event": -37
+      }
+    ],
+    "6": [
+      {
+        "label": "S2_-17",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -17,
+        "source_published_event": -17
+      },
+      {
+        "label": "S2_-25",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -25,
+        "source_published_event": -25
+      }
+    ],
+    "9": [
+      {
+        "label": "S2_-9",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -9,
+        "source_published_event": -9
+      },
+      {
+        "label": "S2_-22",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -22,
+        "source_published_event": -22
+      }
+    ],
+    "10": [
+      {
+        "label": "S2_+10",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": 10,
+        "source_published_event": 10
+      },
+      {
+        "label": "S2_-12",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -12,
+        "source_published_event": -12
+      }
+    ],
+    "12": [
+      {
+        "label": "S2_+34",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAACCCCTCCTCCTCACACAGCTCATACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": 34,
+        "source_published_event": 34
+      }
+    ],
+    "13": [
+      {
+        "label": "S2_+131",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGCTCCTCCTCACACAGCTCAGTCGGGGTAGCAGCTCAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGCTCCTCCTCACACAGCTCAGTCGGGCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": 131,
+        "source_published_event": 131
+      },
+      {
+        "label": "S2_+7",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": 7,
+        "source_published_event": 7
+      }
+    ],
+    "14": [
+      {
+        "label": "S2_-8",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -8,
+        "source_published_event": -8
+      },
+      {
+        "label": "S2_-10",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -10,
+        "source_published_event": -10
+      }
+    ],
+    "16": [
+      {
+        "label": "S2_+34",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTAGCGCAGCTCCTCCTCAGGTAGCAGCTCCTCCTCACACAGCTCATCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": 34,
+        "source_published_event": 34
+      },
+      {
+        "label": "S2_+27",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCTCCTCACAGGGTAGCAGCTCCTCTCCTCACACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": 27,
+        "source_published_event": 27
+      }
+    ],
+    "17": [
+      {
+        "label": "S2_+24",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCACACAGCTCAGTCGGAGTAGCAGCTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": 24,
+        "source_published_event": 24
+      },
+      {
+        "label": "S2_-4",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCTCCTCAGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -4,
+        "source_published_event": -4
+      }
+    ],
+    "18": [
+      {
+        "label": "S2_-13",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -13,
+        "source_published_event": -13
+      },
+      {
+        "label": "S2_-26",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCACAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -26,
+        "source_published_event": -26
+      }
+    ],
+    "19": [
+      {
+        "label": "S2_-26",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -26,
+        "source_published_event": -26
+      },
+      {
+        "label": "S2_-37",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -37,
+        "source_published_event": -37
+      }
+    ],
+    "21": [
+      {
+        "label": "S2_+37",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTACCCTCCTCACACAGCTCATCGCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": 37,
+        "source_published_event": 37
+      },
+      {
+        "label": "S2_-15",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -15,
+        "source_published_event": -15
+      }
+    ],
+    "22": [
+      {
+        "label": "S2_-13",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -13,
+        "source_published_event": -13
+      }
+    ],
+    "24": [
+      {
+        "label": "S2_-16",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCTGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -16,
+        "source_published_event": -16
+      },
+      {
+        "label": "S2_-22",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -22,
+        "source_published_event": -22
+      }
+    ],
+    "27": [
+      {
+        "label": "S2_-11",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACATACCCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -11,
+        "source_published_event": -11
+      },
+      {
+        "label": "S2_-13",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCATCAGGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -13,
+        "source_published_event": -13
+      }
+    ],
+    "28": [
+      {
+        "label": "S2_+7",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATTGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": 7,
+        "source_published_event": 7
+      }
+    ],
+    "63": [
+      {
+        "label": "S2_-17",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -17,
+        "source_published_event": -17
+      },
+      {
+        "label": "S2_-46",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -46,
+        "source_published_event": -46
+      }
+    ],
+    "68": [
+      {
+        "label": "S2_+9",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": 9,
+        "source_published_event": 9
+      },
+      {
+        "label": "S2_-15",
+        "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+        "event_relative_JEB": -15,
+        "source_published_event": -15
+      }
+    ]
+  },
+  "selection": "Every retained span in every clone, no frequency filtering. Frozen MP15 DNA-modal targets; Clone3 observed -6 tracked separately from unobserved published +6. Never redefine each query as its own positive target.",
+  "pair_rule": "Score every available spanning mate and exact-merged span. Require all available representations to give the same determinate label; otherwise U. No observed span yields U. All original pairs retained. Report nonmodal if any available full span differs from all frozen target spans.",
+  "script_sha256": "d5af8040d3a952b3f81c39aaf6b4a968f7bc7dfa8f987196f9de9647656ad29d",
+  "engine_sha256": "6b65dcd54b00ee283adc5b9b5143e79cd0d4a53dc032e579cf55aa23e22fc1f0",
+  "source_protocol_sha256": "6c3fec59dd6a0d684c7a21c46555c300e66303491d97aadc2733dd576ae3047b",
+  "inputs": {
+    "clone10_pairs.jsonl.gz": "0d5e09e6eb5c8df63894084c6838538b2d47bc1d34d24b1e9b5219a205859df3",
+    "clone10_segments.json": "4e102a2a4a7347ec9c2af6ec80a968a5997369334290d8a766e366e7fd56ac7c",
+    "clone12_pairs.jsonl.gz": "d66baef2b1c96c253162a0d058306396f545f4f5f0d6d2058f7fa9d93150cf4c",
+    "clone12_segments.json": "a303386ac6ff0a5bb3cd5e507f52730cda9709ed674524042131193a2b206579",
+    "clone13_pairs.jsonl.gz": "da46e70c0ea0c4931d2f6f500aac0058545b75249dfd3c1232a6a2189f1d464d",
+    "clone13_segments.json": "4209150b3eb8423f29dac8fc8d78ee8f1ebb322bb31ab824dd89d84507e06b27",
+    "clone14_pairs.jsonl.gz": "2005aeb4135f98e65d028c845220144a7d9f39946c0428cfe805c13d25c38ff7",
+    "clone14_segments.json": "dfae971889b3f5ce757bd2e618c4496af03b05ccebe1917be04f5ea29bc16449",
+    "clone16_pairs.jsonl.gz": "4e6846152c6bfdfc130eac1fa9cce9da5f9bd07a46f5b6314b89e47e034472ab",
+    "clone16_segments.json": "c20732cd518afc1b4f7345b98b197af19b757d026be9a833a26b83f5bb9a4727",
+    "clone17_pairs.jsonl.gz": "7be7122b48eb1416756668d56d23bd3eee512fd57590d0d360fa1dd3231ebd69",
+    "clone17_segments.json": "b05ac51580d351559d4420f595fc1813043ee461cd8f4363eb82b3c9dd8bf26c",
+    "clone18_pairs.jsonl.gz": "0ee5968dc7b107e17cd12af189a4f8154deb26624df4cdfeb6b0984aae03673c",
+    "clone18_segments.json": "d4c19f3875a39e60e095f552048677477f58fcb52b47c0ea8cf9e1ae1c4d8be4",
+    "clone19_pairs.jsonl.gz": "ed9658d0c57f8864fa9b99b6e22742c7a9fd14a5e2d31f01088274daaeccfa6f",
+    "clone19_segments.json": "be2c6eb2780fdb572a6e6fb8e97d3a23b3eeb4053db6fd3bad7d8d5b07c67991",
+    "clone21_pairs.jsonl.gz": "3ac61220db44f3ec64de668d087fa1ae4fac29693d4455da09be41e4115a6762",
+    "clone21_segments.json": "c1c99d52b5a0b39d96940ff3a7c378d0356dc976c36c5a4e4617e4ead5bda858",
+    "clone22_pairs.jsonl.gz": "74c80b98991ca0a221268b9417d8054787759dee25369cbc7e14dc48b4775552",
+    "clone22_segments.json": "249bd50b7b24c254b025814b61fcd889848e2e980fd2463afd905aff6e29e70d",
+    "clone24_pairs.jsonl.gz": "dc48a49903cdaed44743d87033c78517e59c8a3c5dfb1efd415d0f1d51d108ce",
+    "clone24_segments.json": "d2a1c95e178cca9ebb3dd6825e7c7f43b6fc0002837e7daa8d03c2c31dd9be8b",
+    "clone27_pairs.jsonl.gz": "b1c1c1a28d153c1a51e113c26029b01779f87e106bfedf8836e42c341c932dbe",
+    "clone27_segments.json": "04df59fa6b85fee88069e7da9a1703bc447a3291b9dcea604b50d58553ba6dab",
+    "clone28_pairs.jsonl.gz": "e9b4d464202355600cfba92dbbac0f643a4492d7b072add23edb872cde2fb451",
+    "clone28_segments.json": "727182c441c3b28d72774146d35e12ad817789677a81917a1e0b1931f7ff79ac",
+    "clone3_pairs.jsonl.gz": "63e1d4932d87267610c4a3e66fba50b48e3c5732849ee3d4769a719180deb13e",
+    "clone3_segments.json": "331820f18114509afbd0e72adcb86bab9a07cb0f3080f366c0785c62286d59ea",
+    "clone63_pairs.jsonl.gz": "ae00eff31c6a6d5bb1a84ad96e7ca31e7bcf474c45cb00bda125ddbbca371a26",
+    "clone63_segments.json": "61c770123392d63c090adfe36a041887ea9ec5e16eb1f3cb683fd49d94ab6fc7",
+    "clone68_pairs.jsonl.gz": "7ad37f86e81aef022f1f687ee095d5185c619c401a2421a4a7a50118f816a412",
+    "clone68_segments.json": "b7d695fe69055a2d415222b1c01d4f520d878a9bcb04fdcb9510237cbceb10e1",
+    "clone6_pairs.jsonl.gz": "c2e1365c6ba3871c60d97ad54ed80ec4c2d594ae15697e7ad65bcd62d89f8723",
+    "clone6_segments.json": "19c7ec2fae532e0116d7b856622b1cb74197e35d0c2a0c88626aded49f7ed981",
+    "clone9_pairs.jsonl.gz": "aaad57c72dae2a54f54734163efce4f36e9c24832e69d4b8da9030cc2e248438",
+    "clone9_segments.json": "bbb50bad7efe918c46e9008e34577dfbd2bc2813b9d98b34b6b2ff5ca58602ad"
+  }
+}

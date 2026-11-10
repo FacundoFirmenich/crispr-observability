@@ -1,0 +1,178 @@
+[
+  {
+    "target": "long40",
+    "reference": "HKC",
+    "optimum": 255,
+    "witnesses": {
+      "programmed_local": {
+        "0": {
+          "score": 255,
+          "projection": "GGGGTAGCAGCTCCTCCTCACACAGCTCAT",
+          "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGGGGCAGCTC"
+        },
+        "1": {
+          "score": 255,
+          "projection": "ACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCAT",
+          "aligned_reference": "GATGCCTCCCACAGTC----------GGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGGGGCAGCTC"
+        },
+        "2": {
+          "score": 246,
+          "projection": null,
+          "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATG--TCAGGCGGGGCAGCTC"
+        }
+      },
+      "unedited_local": {
+        "0": {
+          "score": 255,
+          "projection": "ACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCAT",
+          "aligned_reference": "GATGCCTCCCACAGTC----------GGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGGGGCAGCTC"
+        },
+        "1": {
+          "score": 255,
+          "projection": "GGGGTAGCAGCTCCTCCTCACACAGCTCAT",
+          "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCA--TGTCAGGCGGGGCAGCTC"
+        },
+        "2": {
+          "score": 246,
+          "projection": null,
+          "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATG--TCAGGCGGGGCAGCTC"
+        }
+      }
+    }
+  },
+  {
+    "target": "long40",
+    "reference": "JEB",
+    "optimum": 277,
+    "witnesses": {
+      "programmed_local": {
+        "0": {
+          "score": 277,
+          "projection": "GGGGTAGCAGCTCCTCCTCACACAGCTCAT",
+          "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC"
+        },
+        "1": {
+          "score": 277,
+          "projection": "ACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCAT",
+          "aligned_reference": "GATGCCTCCCACAGTC----------GGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC"
+        },
+        "2": {
+          "score": 241,
+          "projection": null,
+          "aligned_reference": "GATGCCTCCCACAGTCG-----------GGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGT-CACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC"
+        }
+      },
+      "unedited_local": {
+        "0": {
+          "score": 277,
+          "projection": "ACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCAT",
+          "aligned_reference": "GATGCCTCCCACAGTC----------GGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC"
+        },
+        "1": {
+          "score": 277,
+          "projection": "GGGGTAGCAGCTCCTCCTCACACAGCTCAT",
+          "aligned_reference": "GATGCCTCCCACAG----------TCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC"
+        },
+        "2": {
+          "score": 241,
+          "projection": null,
+          "aligned_reference": "GATGCCTCCCACAGTCG-----------GGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGT-CACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC"
+        }
+      }
+    }
+  },
+  {
+    "target": "short18",
+    "reference": "HKC",
+    "optimum": 200,
+    "witnesses": {
+      "programmed_local": {
+        "0": {
+          "score": 173,
+          "projection": "GGGGTAGCAGCTCCTCA",
+          "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCT-GTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCC---------------TCATGTCAGGCGGGGCAGCTC"
+        },
+        "1": {
+          "score": 200,
+          "projection": "GGGGTAGCAGCTCCTCAT",
+          "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTC--------------ATGTCAGGCGGGGCAGCTC"
+        },
+        "2": {
+          "score": 191,
+          "projection": null,
+          "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCATG--------------TCAGGCGGGGCAGCTC"
+        }
+      },
+      "unedited_local": {
+        "0": {
+          "score": 200,
+          "projection": "GGGGTAGCAGCTCCTCAT",
+          "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTC--------------ATGTCAGGCGGGGCAGCTC"
+        },
+        "2": {
+          "score": 191,
+          "projection": null,
+          "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCATG--------------TCAGGCGGGGCAGCTC"
+        }
+      }
+    }
+  },
+  {
+    "target": "short18",
+    "reference": "JEB",
+    "optimum": 213,
+    "witnesses": {
+      "programmed_local": {
+        "0": {
+          "score": 177,
+          "projection": "GGGGTAGCAGCTCCTCA",
+          "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAT-GTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTC-------------ATGTCAGGCGGGGCAGCTC"
+        },
+        "1": {
+          "score": 213,
+          "projection": "GGGGTAGCAGCTCCTCAT",
+          "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTC------------CTCATGTCAGGCGGGGCAGCTC"
+        },
+        "2": {
+          "score": 195,
+          "projection": null,
+          "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCATG------------TCAGGCGGGGCAGCTC"
+        }
+      },
+      "unedited_local": {
+        "0": {
+          "score": 213,
+          "projection": "GGGGTAGCAGCTCCTCAT",
+          "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTC------------CTCATGTCAGGCGGGGCAGCTC"
+        },
+        "2": {
+          "score": 195,
+          "projection": null,
+          "aligned_reference": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTC",
+          "aligned_read": "GATGCCTCCCACAGTCGGGGTAGCAGCTCCTCATG------------TCAGGCGGGGCAGCTC"
+        }
+      }
+    }
+  }
+]

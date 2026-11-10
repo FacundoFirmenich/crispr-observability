@@ -1,0 +1,2956 @@
+{
+  "clone": "21",
+  "protocol_sha256": "f6fe7243507283dd16125ce095a6a9f65372c3589d26e78655788295be13e38c",
+  "totals": {
+    "DNA": 12061,
+    "cDNA": 10476
+  },
+  "files": [
+    {
+      "id": "5c6f122e-6944-489e-9345-6f784791ca4e",
+      "key": "C17Ex52_cDNA immoJEB_PPN_Clone21_fwd.fastq.gz",
+      "size": 459248,
+      "checksum": "md5:962bb59e33628f2f80cebb7e49c5f5bf",
+      "links": {
+        "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone21_fwd.fastq.gz/content"
+      },
+      "sha256": "923748080a109dfc0874c069a0792d8cae0225ccbdc2875490f4aed19fe2261f"
+    },
+    {
+      "id": "b1173f14-b332-4e32-977e-7956391dc8b0",
+      "key": "C17Ex52_cDNA immoJEB_PPN_Clone21_rev.fastq.gz",
+      "size": 837066,
+      "checksum": "md5:c8ad008c48ae479f734bc3761e7a69f4",
+      "links": {
+        "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone21_rev.fastq.gz/content"
+      },
+      "sha256": "3dc3ae93be16f8e90b92d967098510f8b68ec753fed58538c48655a27133931b"
+    },
+    {
+      "id": "5cac952d-d1c0-4a8a-adaf-36054a30c2e4",
+      "key": "C17Ex52_DNA immoJEB_PPN_Clone21_fwd.fastq.gz",
+      "size": 722962,
+      "checksum": "md5:6e87de93d42ed12d3eeca21a7a3e6e65",
+      "links": {
+        "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone21_fwd.fastq.gz/content"
+      },
+      "sha256": "a154896acdd71c8c961b12bb53f1c584d9c6fc4a09d5e400912f8349ddfe4c1d"
+    },
+    {
+      "id": "eec856f0-02f7-4bc7-a34a-3d85711fac2b",
+      "key": "C17Ex52_DNA immoJEB_PPN_Clone21_rev.fastq.gz",
+      "size": 1020997,
+      "checksum": "md5:de91913b5eab6cf895520ef86c5db176",
+      "links": {
+        "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone21_rev.fastq.gz/content"
+      },
+      "sha256": "afe5c950830ce91f3feda220016df1a1fd3ebe1995418079c10a6d1e3e526335"
+    }
+  ],
+  "ledger_sha256": "64518f14ca040cae13041c191284f29a37c38edd208f6dc20645134b1c1c8851",
+  "admission": [
+    {
+      "library": "DNA",
+      "admitted_mates": 0,
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "admitted_mates": 1,
+      "pairs": 813
+    },
+    {
+      "library": "DNA",
+      "admitted_mates": 2,
+      "pairs": 10978
+    },
+    {
+      "library": "cDNA",
+      "admitted_mates": 0,
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "admitted_mates": 1,
+      "pairs": 4136
+    },
+    {
+      "library": "cDNA",
+      "admitted_mates": 2,
+      "pairs": 6073
+    }
+  ],
+  "counts": [
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "call": "NE",
+      "pairs": 10975
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "call": "U",
+      "pairs": 1086
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "call": "NE",
+      "pairs": 40
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "call": "U",
+      "pairs": 12021
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 18,
+      "call": "NE",
+      "pairs": 15
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 18,
+      "call": "U",
+      "pairs": 12046
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 27,
+      "call": "NE",
+      "pairs": 14
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 27,
+      "call": "U",
+      "pairs": 12047
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 36,
+      "call": "U",
+      "pairs": 12061
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 45,
+      "call": "U",
+      "pairs": 12061
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 54,
+      "call": "U",
+      "pairs": 12061
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "call": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "call": "NE",
+      "pairs": 10973
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "call": "U",
+      "pairs": 1085
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 9,
+      "call": "NE",
+      "pairs": 40
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 9,
+      "call": "U",
+      "pairs": 12021
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 18,
+      "call": "NE",
+      "pairs": 18
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 18,
+      "call": "U",
+      "pairs": 12043
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 27,
+      "call": "NE",
+      "pairs": 17
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 27,
+      "call": "U",
+      "pairs": 12044
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 36,
+      "call": "U",
+      "pairs": 12061
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 45,
+      "call": "U",
+      "pairs": 12061
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 54,
+      "call": "U",
+      "pairs": 12061
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "call": "NE",
+      "pairs": 10977
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "call": "U",
+      "pairs": 1084
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "call": "mate_conflict",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "call": "NE",
+      "pairs": 10977
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "call": "U",
+      "pairs": 1084
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "call": "mate_conflict",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "call": "NE",
+      "pairs": 10977
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "call": "U",
+      "pairs": 1084
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "call": "mate_conflict",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "call": "NE",
+      "pairs": 10977
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "call": "U",
+      "pairs": 1084
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "call": "mate_conflict",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "call": "NE",
+      "pairs": 10977
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "call": "U",
+      "pairs": 1084
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "call": "mate_conflict",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 45,
+      "call": "U",
+      "pairs": 12061
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 54,
+      "call": "U",
+      "pairs": 12061
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "call": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "call": "NE",
+      "pairs": 10975
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "call": "U",
+      "pairs": 1083
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "call": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "call": "NE",
+      "pairs": 10975
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "call": "U",
+      "pairs": 1083
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "call": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "call": "NE",
+      "pairs": 10975
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "call": "U",
+      "pairs": 1083
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "call": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "call": "NE",
+      "pairs": 10975
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "call": "U",
+      "pairs": 1083
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "call": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "call": "NE",
+      "pairs": 10975
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "call": "U",
+      "pairs": 1083
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 45,
+      "call": "U",
+      "pairs": 12061
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 54,
+      "call": "U",
+      "pairs": 12061
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "call": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "call": "U",
+      "pairs": 4403
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "call": "NE",
+      "pairs": 6
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "call": "U",
+      "pairs": 10470
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 18,
+      "call": "NE",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 18,
+      "call": "U",
+      "pairs": 10475
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 27,
+      "call": "U",
+      "pairs": 10476
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 36,
+      "call": "U",
+      "pairs": 10476
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 45,
+      "call": "U",
+      "pairs": 10476
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 54,
+      "call": "U",
+      "pairs": 10476
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "call": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "call": "U",
+      "pairs": 4403
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 9,
+      "call": "NE",
+      "pairs": 6
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 9,
+      "call": "U",
+      "pairs": 10470
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 18,
+      "call": "NE",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 18,
+      "call": "U",
+      "pairs": 10475
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 27,
+      "call": "U",
+      "pairs": 10476
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 36,
+      "call": "U",
+      "pairs": 10476
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 45,
+      "call": "U",
+      "pairs": 10476
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 54,
+      "call": "U",
+      "pairs": 10476
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "call": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "call": "U",
+      "pairs": 4403
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "call": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "call": "U",
+      "pairs": 4403
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "call": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "call": "U",
+      "pairs": 4403
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "call": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "call": "U",
+      "pairs": 4403
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "call": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "call": "U",
+      "pairs": 4403
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 45,
+      "call": "U",
+      "pairs": 10476
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 54,
+      "call": "U",
+      "pairs": 10476
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "call": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "call": "U",
+      "pairs": 4403
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "call": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "call": "U",
+      "pairs": 4403
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "call": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "call": "U",
+      "pairs": 4403
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "call": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "call": "U",
+      "pairs": 4403
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "call": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "call": "U",
+      "pairs": 4403
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 45,
+      "call": "U",
+      "pairs": 10476
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 54,
+      "call": "U",
+      "pairs": 10476
+    }
+  ],
+  "r1_vs_r2_literal": [
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 10976
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 355
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 45
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 2
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11286
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 727
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 15
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11316
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 27,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 14
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11317
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11331
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11331
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11331
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "r1": "E",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 10974
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 355
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 45
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 2
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11284
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 727
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 18
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11311
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 27,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 17
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11312
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11329
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11329
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11329
+    },
+    {
+      "library": "DNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 10977
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 354
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 10977
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 354
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 10977
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 354
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "r1": "NE",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 10977
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 354
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "r1": "NE",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 10977
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 354
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11331
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11331
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "r1": "E",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 10975
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 354
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "r1": "E",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 10975
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 354
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "r1": "E",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 10975
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 354
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "r1": "E",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 10975
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 354
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "r1": "E",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 10975
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 354
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11329
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 11329
+    },
+    {
+      "library": "DNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 729
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 4042
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 8
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10107
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 2
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10113
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10115
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10115
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10115
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10115
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "long40",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 4043
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 8
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10108
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 2
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10114
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10116
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10116
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10116
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10116
+    },
+    {
+      "library": "cDNA",
+      "padding": 0,
+      "target": "short18",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 4042
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 4042
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 4042
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 4042
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 4042
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10115
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10115
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "long40",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 4043
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 0,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 4043
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 9,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 4043
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 18,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 4043
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 27,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "r1": "NE",
+      "r2_literal": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "r1": "NE",
+      "r2_literal": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 4043
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 36,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10116
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 45,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "NE",
+      "pairs": 10116
+    },
+    {
+      "library": "cDNA",
+      "padding": 9,
+      "target": "short18",
+      "delta": 54,
+      "r1": "U",
+      "r2_literal": "U",
+      "pairs": 360
+    }
+  ],
+  "literal_pairs": [
+    {
+      "library": "DNA",
+      "target": "long40",
+      "r1": "NE",
+      "r2": "E",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "r1": "NE",
+      "r2": "NE",
+      "pairs": 10977
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "r1": "NE",
+      "r2": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "r1": "U",
+      "r2": "NE",
+      "pairs": 354
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "r1": "U",
+      "r2": "U",
+      "pairs": 270
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "r1": "E",
+      "r2": "E",
+      "pairs": 3
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "r1": "NE",
+      "r2": "NE",
+      "pairs": 10975
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "r1": "NE",
+      "r2": "U",
+      "pairs": 459
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "r1": "U",
+      "r2": "NE",
+      "pairs": 354
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "r1": "U",
+      "r2": "U",
+      "pairs": 270
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "r1": "NE",
+      "r2": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "r1": "NE",
+      "r2": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "r1": "U",
+      "r2": "E",
+      "pairs": 1
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "r1": "U",
+      "r2": "NE",
+      "pairs": 4042
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "r1": "U",
+      "r2": "U",
+      "pairs": 267
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "r1": "NE",
+      "r2": "NE",
+      "pairs": 6073
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "r1": "NE",
+      "r2": "U",
+      "pairs": 93
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "r1": "U",
+      "r2": "NE",
+      "pairs": 4043
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "r1": "U",
+      "r2": "U",
+      "pairs": 267
+    }
+  ]
+}

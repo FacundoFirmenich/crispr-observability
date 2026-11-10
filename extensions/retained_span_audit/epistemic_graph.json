@@ -1,0 +1,394 @@
+{
+  "schema_version": "1.0",
+  "title": "CRISPR observability: claim and evidence graph",
+  "version": "0.7.0",
+  "nodes": [
+    {
+      "id": "P1",
+      "kind": "premise",
+      "status": "declared",
+      "label": "Fixed finite record universe",
+      "scope": "Every E/NE/U count retains the original N; records are not assumed independent molecules.",
+      "artifacts": [],
+      "assumptions": [],
+      "falsifier": "",
+      "details": ""
+    },
+    {
+      "id": "P2",
+      "kind": "premise",
+      "status": "declared",
+      "label": "One explicit event and observation contract",
+      "scope": "Reference, orientation, boundary ownership, quality policy and admissible path set are fixed per comparison.",
+      "artifacts": [],
+      "assumptions": [],
+      "falsifier": "",
+      "details": ""
+    },
+    {
+      "id": "P3",
+      "kind": "premise",
+      "status": "declared",
+      "label": "Accepted labels and free completion",
+      "scope": "Identification hulls assume accepted labels correct and permit all binary completions of unresolved records. Error budgets are a separate sensitivity analysis.",
+      "artifacts": [],
+      "assumptions": [],
+      "falsifier": "",
+      "details": ""
+    },
+    {
+      "id": "C1",
+      "kind": "claim",
+      "status": "observed_conditional",
+      "label": "Anchor geometry changes a contrast lower endpoint",
+      "scope": "CFTR CFB-26-16 under the same Q30 mask: edge lower endpoint -10.09177 pp versus target +13.23196 pp. This is not an identified reversal of a biological treatment effect.",
+      "artifacts": [
+        "tables/Table_S2_M1_All_Counts.csv",
+        "tables/Table_S3_M1_All_Contrasts.csv",
+        "tables/Table_S8_Coding_Witness_Contrasts.csv"
+      ],
+      "assumptions": [
+        "P1",
+        "P2"
+      ],
+      "falsifier": "An exact record-level replay under the declared same-mask geometry fails to reproduce the endpoint difference.",
+      "details": "3071/3227 is a conditional anchor-loss diagnostic, not a sensitivity estimate against true biological edits."
+    },
+    {
+      "id": "C2",
+      "kind": "claim",
+      "status": "observed_conditional",
+      "label": "Equal event labels do not imply equal strings",
+      "scope": "Among 170808 records resolved by three extractors, 83 have unequal coding strings; 18 retain equal event labels.",
+      "artifacts": [
+        "CODING_DISAGREEMENT_RECORDS.json"
+      ],
+      "assumptions": [
+        "P2"
+      ],
+      "falsifier": "Record identities, observed strings and the declared extraction operators fail to reproduce the documented counterexamples.",
+      "details": "The exact 83-record correspondence ledger is included; the earlier extraction replay is pinned separately."
+    },
+    {
+      "id": "C3",
+      "kind": "claim",
+      "status": "mathematical_conditional",
+      "label": "Finite-record identification preserves abstention",
+      "scope": "For N=E+NE+U, all freely completed proportions have hull [E/N,(E+U)/N]; coupled multi-event hulls use per-record feasible sets.",
+      "artifacts": [
+        "tables/Table_S7_Coding_Witness_Counts.csv",
+        "tables/Table_S8_Coding_Witness_Contrasts.csv",
+        "tables/I2_SENSITIVITY.csv"
+      ],
+      "assumptions": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "falsifier": "A completion satisfying the stated premises falls outside the proposed hull, or an asserted endpoint has no admissible completion.",
+      "details": "These are attainable finite-record bounds, not confidence or credible intervals and not estimated biological error rates."
+    },
+    {
+      "id": "C4",
+      "kind": "claim",
+      "status": "computationally_checked",
+      "label": "Complete-path projection and orientation transport",
+      "scope": "Bounded independent path enumeration checks projection images, dual boundary ownership and selected target-class score maxima.",
+      "artifacts": [
+        "optimal_lattice.py",
+        "recompute_panel.py",
+        "verify_alignment_oracle_mp21.py",
+        "checks/INDEPENDENT_ORACLE.json"
+      ],
+      "assumptions": [
+        "P2"
+      ],
+      "falsifier": "A legal enumerated path yields a missing or extra projected image, incorrect score maximum, or failed reverse-complement transport.",
+      "details": "Tests cover finite declared alphabets and sizes; they do not establish formal verification of arbitrary implementation states or biological accuracy."
+    },
+    {
+      "id": "C5",
+      "kind": "claim",
+      "status": "observed_conditional",
+      "label": "Clone3 sign reconciled with retained sequence evidence",
+      "scope": "Retained Clone3 modal span is net -6 against JEB, with equivalent deletion starts 40 and 41. Source Table S2 says +6; Figure 6A supports -6.",
+      "artifacts": [
+        "NONMODAL_MP16/CLONE3_RECONCILIATION.json",
+        "checks/EXAMPLE_REPLAY.json"
+      ],
+      "assumptions": [
+        "P2"
+      ],
+      "falsifier": "Authentic source sequences or an author correction establish the opposite net length or uniquely resolve a coordinate.",
+      "details": "Analytical reconciliation, not an erratum issued by the source authors. DNA and cDNA are distinct libraries, not the same molecule."
+    },
+    {
+      "id": "C6",
+      "kind": "claim",
+      "status": "computationally_checked",
+      "label": "Nonmodal COL17A1 counts and witnesses reproduce",
+      "scope": "Complete retained pair ledgers reproduce strict-admission deficit-36 counts over 439589 pairs; full replay recomputes 20260 reference cases and 81112 attaining witnesses.",
+      "artifacts": [
+        "ADMISSION_MP15B/PROTOCOL.json",
+        "NONMODAL_MP16/PROTOCOL.json",
+        "replay_col17_mp21.py",
+        "checks/FULL_COL17_REPLAY.json"
+      ],
+      "assumptions": [
+        "P1",
+        "P2"
+      ],
+      "falsifier": "Any retained-pair aggregation, target-class deficit or attaining witness fails the frozen counts and hashes.",
+      "details": "Replay begins with retained source spans; fresh extraction of all 72 FASTQ files and an independently calibrated truth benchmark are outside this execution."
+    },
+    {
+      "id": "C7",
+      "kind": "claim",
+      "status": "observed_conditional",
+      "label": "Larger score deficit is not a biological validity ordering",
+      "scope": "Historical HG002 and KEAP1 controls contain concordant calls withdrawn before discordant ones as the admitted score deficit grows.",
+      "artifacts": [
+        "RELEASE_COVERAGE.json"
+      ],
+      "assumptions": [
+        "P2"
+      ],
+      "falsifier": "Recalculation with the frozen references, event labels and score grammar reverses the reported local withdrawal ordering.",
+      "details": "Historical evidence and source code are distributed in the separate scientific archive identified by its SHA-256 and release URL. This result was not freshly rerun in this revision and does not establish a universal error rate or software ranking."
+    },
+    {
+      "id": "V1",
+      "kind": "check",
+      "status": "pass",
+      "label": "Independent exhaustive path oracle",
+      "scope": "Generated test strings are software tests, not new biological observations.",
+      "artifacts": [
+        "checks/INDEPENDENT_ORACLE.json"
+      ],
+      "assumptions": [],
+      "falsifier": "",
+      "details": ""
+    },
+    {
+      "id": "V2",
+      "kind": "check",
+      "status": "pass",
+      "label": "Full retained-span replay",
+      "scope": "All 18 clone ledgers and strict-versus-available admission policies checked.",
+      "artifacts": [
+        "checks/FULL_COL17_REPLAY.json"
+      ],
+      "assumptions": [],
+      "falsifier": "",
+      "details": ""
+    },
+    {
+      "id": "V3",
+      "kind": "check",
+      "status": "repaired",
+      "label": "Zero-cell serialization mismatch",
+      "scope": "A failed equality check compared explicit zero cells with omitted Counter cells; comparison repaired, original zeros and counts preserved.",
+      "artifacts": [
+        "checks/REPLAY_FAILURE_AND_REPAIR.json"
+      ],
+      "assumptions": [],
+      "falsifier": "",
+      "details": ""
+    },
+    {
+      "id": "L1",
+      "kind": "boundary",
+      "status": "not_established",
+      "label": "Biological accuracy and molecular independence",
+      "scope": "No new same-molecule orthogonal truth is established for CFTR/HEK3. Independent clone/benchmark controls have their own narrower jurisdiction.",
+      "artifacts": [],
+      "assumptions": [],
+      "falsifier": "",
+      "details": ""
+    },
+    {
+      "id": "L2",
+      "kind": "boundary",
+      "status": "not_executed",
+      "label": "Fresh raw-data and upstream-engine rerun",
+      "scope": "This release replays retained spans and frozen outputs. It does not claim a fresh complete upstream engine or 72-file FASTQ extraction.",
+      "artifacts": [],
+      "assumptions": [],
+      "falsifier": "",
+      "details": ""
+    },
+    {
+      "id": "L3",
+      "kind": "boundary",
+      "status": "not_executed",
+      "label": "Independent environment and browser interaction",
+      "scope": "Checks executed on the recorded Windows/Python environment. A second OS, fresh environment installation and interactive browser QA were not executed.",
+      "artifacts": [],
+      "assumptions": [],
+      "falsifier": "",
+      "details": ""
+    },
+    {
+      "id": "A1",
+      "kind": "artifact",
+      "status": "available",
+      "label": "Versioned inputs and source baseline",
+      "scope": "File hashes bind local payloads; prior CFTR/HEK3 software is pinned to a public repository commit.",
+      "artifacts": [
+        "DEPENDENCY_BASELINE.json",
+        "TABLE_REGISTRY.json"
+      ],
+      "assumptions": [],
+      "falsifier": "",
+      "details": ""
+    }
+  ],
+  "edges": [
+    {
+      "source": "P1",
+      "target": "C1",
+      "relation": "requires"
+    },
+    {
+      "source": "P2",
+      "target": "C1",
+      "relation": "requires"
+    },
+    {
+      "source": "P2",
+      "target": "C2",
+      "relation": "requires"
+    },
+    {
+      "source": "P1",
+      "target": "C3",
+      "relation": "requires"
+    },
+    {
+      "source": "P2",
+      "target": "C3",
+      "relation": "requires"
+    },
+    {
+      "source": "P3",
+      "target": "C3",
+      "relation": "requires"
+    },
+    {
+      "source": "P2",
+      "target": "C4",
+      "relation": "requires"
+    },
+    {
+      "source": "P2",
+      "target": "C5",
+      "relation": "requires"
+    },
+    {
+      "source": "P1",
+      "target": "C6",
+      "relation": "requires"
+    },
+    {
+      "source": "P2",
+      "target": "C6",
+      "relation": "requires"
+    },
+    {
+      "source": "P2",
+      "target": "C7",
+      "relation": "requires"
+    },
+    {
+      "source": "V1",
+      "target": "C4",
+      "relation": "checks"
+    },
+    {
+      "source": "V2",
+      "target": "C6",
+      "relation": "checks"
+    },
+    {
+      "source": "V3",
+      "target": "V2",
+      "relation": "repaired_before"
+    },
+    {
+      "source": "L1",
+      "target": "C1",
+      "relation": "limits"
+    },
+    {
+      "source": "L1",
+      "target": "C2",
+      "relation": "limits"
+    },
+    {
+      "source": "L1",
+      "target": "C3",
+      "relation": "limits"
+    },
+    {
+      "source": "L1",
+      "target": "C4",
+      "relation": "limits"
+    },
+    {
+      "source": "L1",
+      "target": "C5",
+      "relation": "limits"
+    },
+    {
+      "source": "L1",
+      "target": "C6",
+      "relation": "limits"
+    },
+    {
+      "source": "L1",
+      "target": "C7",
+      "relation": "limits"
+    },
+    {
+      "source": "L2",
+      "target": "C4",
+      "relation": "limits"
+    },
+    {
+      "source": "L3",
+      "target": "C4",
+      "relation": "limits"
+    },
+    {
+      "source": "L2",
+      "target": "C6",
+      "relation": "limits"
+    },
+    {
+      "source": "L3",
+      "target": "C6",
+      "relation": "limits"
+    },
+    {
+      "source": "A1",
+      "target": "C1",
+      "relation": "locates"
+    },
+    {
+      "source": "A1",
+      "target": "C2",
+      "relation": "locates"
+    },
+    {
+      "source": "A1",
+      "target": "C6",
+      "relation": "locates"
+    }
+  ],
+  "semantics": "Edges describe logical requirements, evidence checks or scope limits. They are not probabilities, causal estimates or a claim of independent replication. All premises listed on a claim are jointly required.",
+  "receipt_sources": [
+    "checks/INDEPENDENT_ORACLE.json",
+    "checks/FULL_COL17_REPLAY.json"
+  ],
+  "ui_verification": "Static/data checks executed; browser interaction unavailable in this session."
+}

@@ -1,0 +1,29 @@
+name: Retained-span reproducibility
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        type: choice
+        options: [quick, full]
+        default: quick
+        description: Retained-span reproduction scope
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - run: python -m pip install -r requirements.txt
+        working-directory: extensions/retained_span_audit
+      - run: python reproduce.py --mode "${{ inputs.mode }}" --output ../../retained-span-output
+        working-directory: extensions/retained_span_audit
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: retained-span-reproduction
+          path: retained-span-output

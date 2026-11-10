@@ -1,0 +1,11 @@
+{
+  "scope": "Post hoc boundary sensitivity; does not replace the frozen baseline result.\nFrozen grid after observing baseline: symmetric padding 0,3,6,9; deltas\n0,9,18,27,36,45,54. Same raw pairs, admission, references and engine.\nAll windows reported; no winner selected as independent validation.\n",
+  "padding": [
+    0,
+    3,
+    6,
+    9
+  ],
+  "parent_freeze_sha256": "d6ada41e32ff8f1262ffbe02dd03461764f0cd2080119bf65eec263ed77de2db",
+  "target_semantics": "Exact local string extended by exact observed admitted flanks; reference-projected event boundaries differ."
+}

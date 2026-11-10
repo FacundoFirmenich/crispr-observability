@@ -1,0 +1,71 @@
+{
+  "version": "0.7.0",
+  "repository": "https://github.com/FacundoFirmenich/crispr-observability",
+  "release": "https://github.com/FacundoFirmenich/crispr-observability/releases/tag/v0.7.0",
+  "manuscript_and_formal_supplement": "PRIVATE_AUTHOR_REVIEW",
+  "doi": "NOT_ASSIGNED",
+  "historical_archive": {
+    "name": "CRISPR_P1_MP21_historical_scientific_evidence.zip",
+    "sha256": "05d8c66d4ce24e36ac5fe719dcb0480ff35279451029a2453ebbc1bf110058d0",
+    "files": 235,
+    "MB": 130.25301
+  },
+  "families": [
+    {
+      "family": "CFTR primary observations, geometry, exact strings and frozen engine outputs",
+      "location": "Pinned repository in DEPENDENCY_BASELINE.json; exact 83-record ledger and tables in this archive",
+      "current_execution": "Table identity and 83-record structural checks; earlier comprehensive replays retain their historical receipts"
+    },
+    {
+      "family": "CFTR/HEK3 near-optimal complete domains and label error sensitivity",
+      "location": "Historical scientific archive: CRISPR_P1_MP07_RECUPERACION",
+      "current_execution": "Every distributed member hash verified; full historical analysis not freshly rerun"
+    },
+    {
+      "family": "External K562 and paired HEK3 software comparisons",
+      "location": "Historical scientific archive: CRISPR_P1_MP08_VALIDACION and CRISPR_P1_MP09_PENDIENTES",
+      "current_execution": "Every distributed member hash verified; full historical analysis not freshly rerun"
+    },
+    {
+      "family": "HG002 independent phase-marker control",
+      "location": "Historical scientific archive: CRISPR_P1_MP09_PENDIENTES",
+      "current_execution": "Retained source slices, individual records, evaluation code and outputs verified by hash; upstream BAM acquisition not repeated"
+    },
+    {
+      "family": "KEAP1 clone control and anchor perturbation",
+      "location": "Historical scientific archive: CRISPR_P1_MP10_CONTROL and CRISPR_P1_MP11_ENTREGA/PRIVATE_EXPERIMENT",
+      "current_execution": "Scientific content now publicly distributed despite preserved historical directory name; hash identity verified; no fresh upstream run"
+    },
+    {
+      "family": "Original fragment identity and duplicate-deposit audit",
+      "location": "Historical scientific archive: CRISPR_P1_MP12_FRAGMENTOS",
+      "current_execution": "Cluster-link ledger, source identifiers, audit code and results verified by hash; no new opposite-end observation found by this distribution operation"
+    },
+    {
+      "family": "COL17A1 full retained spans and nonmodal target certificates",
+      "location": "ADMISSION_MP15B, NONMODAL_MP16 and replay_col17_mp21.py in this archive",
+      "current_execution": "Fresh full retained-span witness and count replay PASS; raw FASTQ re-extraction not repeated"
+    },
+    {
+      "family": "All-optimal projection and orientation transport",
+      "location": "verify_alignment_oracle_mp21.py and checks/INDEPENDENT_ORACLE.json",
+      "current_execution": "Bounded independent path-enumeration oracle PASS"
+    },
+    {
+      "family": "Separate advanced BIO programme",
+      "location": "Excluded: another preprint",
+      "current_execution": "Not part of this release"
+    },
+    {
+      "family": "COL17A1 initial boundary, transport and restricted-admission analyses",
+      "location": "BOUNDARY_*, P1_*, TRANSPORT_MP14, ADMISSION_MP15 and original analysis scripts",
+      "current_execution": "Source identity verified during release assembly; these historical stages were not freshly re-extracted from raw FASTQ"
+    }
+  ],
+  "limits": [
+    "A versioned GitHub release and hashes are not a DOI archive. No DOI is claimed.",
+    "Original accessioned data remain at their attributed source repositories. Not every source article or upstream software package is redistributed.",
+    "Historical scripts preserve original execution layouts. Only the new retained-span companion has the tested unified quick/full entry point.",
+    "No new orthogonal molecular truth, prospective validation, independent lab replication or biological accuracy estimate is claimed."
+  ]
+}

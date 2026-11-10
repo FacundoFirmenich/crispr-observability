@@ -1,0 +1,181 @@
+{
+  "status": "PASS",
+  "mode": "full",
+  "integrity": {
+    "status": "PASS",
+    "files": 174,
+    "nodes": 17,
+    "edges": 28,
+    "claims": 7,
+    "status_counts": {
+      "declared": 3,
+      "observed_conditional": 4,
+      "mathematical_conditional": 1,
+      "computationally_checked": 2,
+      "pass": 2,
+      "repaired": 1,
+      "not_established": 1,
+      "not_executed": 2,
+      "available": 1
+    },
+    "browser_interaction": "NOT_EXECUTED",
+    "fresh_environment_install": "NOT_EXECUTED"
+  },
+  "col17": {
+    "mode": "full",
+    "input_files_verified": 174,
+    "biological_accuracy": "NOT_ESTIMATED",
+    "clones": [
+      {
+        "clone": "3",
+        "spans": 468,
+        "pairs": 27766,
+        "count_rows": 124
+      },
+      {
+        "clone": "6",
+        "spans": 451,
+        "pairs": 26939,
+        "count_rows": 124
+      },
+      {
+        "clone": "9",
+        "spans": 487,
+        "pairs": 29906,
+        "count_rows": 124
+      },
+      {
+        "clone": "10",
+        "spans": 658,
+        "pairs": 22933,
+        "count_rows": 119
+      },
+      {
+        "clone": "12",
+        "spans": 840,
+        "pairs": 22384,
+        "count_rows": 47
+      },
+      {
+        "clone": "13",
+        "spans": 536,
+        "pairs": 21013,
+        "count_rows": 109
+      },
+      {
+        "clone": "14",
+        "spans": 608,
+        "pairs": 24822,
+        "count_rows": 124
+      },
+      {
+        "clone": "16",
+        "spans": 1056,
+        "pairs": 23501,
+        "count_rows": 114
+      },
+      {
+        "clone": "17",
+        "spans": 636,
+        "pairs": 23523,
+        "count_rows": 119
+      },
+      {
+        "clone": "18",
+        "spans": 515,
+        "pairs": 24145,
+        "count_rows": 124
+      },
+      {
+        "clone": "19",
+        "spans": 358,
+        "pairs": 26703,
+        "count_rows": 124
+      },
+      {
+        "clone": "21",
+        "spans": 806,
+        "pairs": 22537,
+        "count_rows": 119
+      },
+      {
+        "clone": "22",
+        "spans": 422,
+        "pairs": 24831,
+        "count_rows": 52
+      },
+      {
+        "clone": "24",
+        "spans": 497,
+        "pairs": 23482,
+        "count_rows": 124
+      },
+      {
+        "clone": "27",
+        "spans": 523,
+        "pairs": 24631,
+        "count_rows": 124
+      },
+      {
+        "clone": "28",
+        "spans": 464,
+        "pairs": 21430,
+        "count_rows": 47
+      },
+      {
+        "clone": "63",
+        "spans": 292,
+        "pairs": 27525,
+        "count_rows": 124
+      },
+      {
+        "clone": "68",
+        "spans": 513,
+        "pairs": 21518,
+        "count_rows": 119
+      }
+    ],
+    "raw_pairs": 439589,
+    "reference_cases": 20260,
+    "attaining_witnesses": 81112,
+    "strict_deficit36": {
+      "DNA": {
+        "any_E": 172149,
+        "all_NE": 7185,
+        "unresolved": 35004
+      },
+      "cDNA": {
+        "any_E": 180758,
+        "all_NE": 4141,
+        "unresolved": 40352
+      }
+    },
+    "status": "PASS",
+    "seconds": 178.424
+  },
+  "environment": {
+    "python": "3.14.0",
+    "system": "Windows",
+    "machine": "AMD64"
+  },
+  "independent_biological_validation": "NOT_ESTABLISHED",
+  "fresh_raw_fastq_extraction": "NOT_EXECUTED",
+  "independent_oracle": {
+    "status": "PASS",
+    "scope": "Bounded exhaustive computational tests; artificial test strings are not biological data or additional study observations.",
+    "alphabet": "Exhaustive AC reference lengths 3..5 and read lengths 0..5; N-containing ACN reads to length 4 for length-3 AC references; 80 seeded ACGT/ACGTN cases.",
+    "sequence_pairs": 4328,
+    "paths_enumerated": 176305,
+    "window_contracts": 33928,
+    "dual_transport_checks": 33928,
+    "target_maxima_checks": 410,
+    "modulo_checks": 159531,
+    "seconds": 22.181,
+    "source_hashes": {
+      "verify_alignment_oracle_mp21.py": "1e9a144b5a4a70c1dd45be7074b33207059953768f99d02045eb1e2db4a84613",
+      "optimal_lattice.py": "8c0d08d0c15a3bb6ac4ec0fd6321a3199c35ca18594bd34264d69f6c4859dea7",
+      "recompute_panel.py": "6b65dcd54b00ee283adc5b9b5143e79cd0d4a53dc032e579cf55aa23e22fc1f0"
+    }
+  },
+  "seconds": 203.735
+}

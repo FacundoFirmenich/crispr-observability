@@ -1,0 +1,254 @@
+[
+  {
+    "id": "S1",
+    "historical_MP20_id": "S1",
+    "description": "Primary run manifest",
+    "files": [
+      "Table_S1_Primary_Run_Manifest.csv"
+    ],
+    "rows": {
+      "Table_S1_Primary_Run_Manifest.csv": 9
+    }
+  },
+  {
+    "id": "S2",
+    "historical_MP20_id": "S2",
+    "description": "Observer counts",
+    "files": [
+      "Table_S2_M1_All_Counts.csv"
+    ],
+    "rows": {
+      "Table_S2_M1_All_Counts.csv": 960
+    }
+  },
+  {
+    "id": "S3",
+    "historical_MP20_id": "S3",
+    "description": "Observer contrasts",
+    "files": [
+      "Table_S3_M1_All_Contrasts.csv"
+    ],
+    "rows": {
+      "Table_S3_M1_All_Contrasts.csv": 384
+    }
+  },
+  {
+    "id": "S4",
+    "historical_MP20_id": "S4",
+    "description": "Original ambiguity veto",
+    "files": [
+      "Table_S4_Original_Ambiguity_Veto.csv"
+    ],
+    "rows": {
+      "Table_S4_Original_Ambiguity_Veto.csv": 120
+    }
+  },
+  {
+    "id": "S5",
+    "historical_MP20_id": "S5",
+    "description": "Projection counts",
+    "files": [
+      "Table_S5_Projection_Counts.csv"
+    ],
+    "rows": {
+      "Table_S5_Projection_Counts.csv": 126
+    }
+  },
+  {
+    "id": "S6",
+    "historical_MP20_id": "S6",
+    "description": "Projection contrasts",
+    "files": [
+      "Table_S6_Projection_Contrasts.csv"
+    ],
+    "rows": {
+      "Table_S6_Projection_Contrasts.csv": 84
+    }
+  },
+  {
+    "id": "S7",
+    "historical_MP20_id": "S7",
+    "description": "Coding-witness counts",
+    "files": [
+      "Table_S7_Coding_Witness_Counts.csv"
+    ],
+    "rows": {
+      "Table_S7_Coding_Witness_Counts.csv": 18
+    }
+  },
+  {
+    "id": "S8",
+    "historical_MP20_id": "S8",
+    "description": "Coding-witness contrasts",
+    "files": [
+      "Table_S8_Coding_Witness_Contrasts.csv"
+    ],
+    "rows": {
+      "Table_S8_Coding_Witness_Contrasts.csv": 12
+    }
+  },
+  {
+    "id": "S9",
+    "historical_MP20_id": "S9",
+    "description": "Reference-change records",
+    "files": [
+      "Table_S9_Reference_Changes.csv"
+    ],
+    "rows": {
+      "Table_S9_Reference_Changes.csv": 137
+    }
+  },
+  {
+    "id": "S10",
+    "historical_MP20_id": "S10",
+    "description": "Label withdrawal",
+    "files": [
+      "Table_S10_Resolved_Label_Revocations.csv"
+    ],
+    "rows": {
+      "Table_S10_Resolved_Label_Revocations.csv": 12
+    }
+  },
+  {
+    "id": "S11",
+    "historical_MP20_id": "S11",
+    "description": "Native software and common-event comparison",
+    "files": [
+      "Table_S11_Direct_Software_and_Event_Comparison.csv"
+    ],
+    "rows": {
+      "Table_S11_Direct_Software_and_Event_Comparison.csv": 18
+    }
+  },
+  {
+    "id": "S12",
+    "historical_MP20_id": "S12",
+    "description": "Alignment-grid results",
+    "files": [
+      "Table_S12_Alignment_Parameter_Sensitivity.csv",
+      "Table_S12_PE_Mock_Endpoint_Envelopes.csv"
+    ],
+    "rows": {
+      "Table_S12_Alignment_Parameter_Sensitivity.csv": 288,
+      "Table_S12_PE_Mock_Endpoint_Envelopes.csv": 6
+    }
+  },
+  {
+    "id": "S13",
+    "historical_MP20_id": "S13",
+    "description": "Molecular codon context",
+    "files": [
+      "Table_S13_Molecular_Codon_Context.csv"
+    ],
+    "rows": {
+      "Table_S13_Molecular_Codon_Context.csv": 14
+    }
+  },
+  {
+    "id": "S14",
+    "historical_MP20_id": "S14",
+    "description": "Local peptide reference scope",
+    "files": [
+      "Table_S14_Local_Peptide_Reference_Scope.csv"
+    ],
+    "rows": {
+      "Table_S14_Local_Peptide_Reference_Scope.csv": 3
+    }
+  },
+  {
+    "id": "S15",
+    "historical_MP20_id": "S15",
+    "description": "Original raw QC",
+    "files": [
+      "Table_S15_Raw_QC_By_Stream.csv",
+      "Table_S15A_Raw_QC_By_Position.csv"
+    ],
+    "rows": {
+      "Table_S15_Raw_QC_By_Stream.csv": 9,
+      "Table_S15A_Raw_QC_By_Position.csv": 2472
+    }
+  },
+  {
+    "id": "S16",
+    "historical_MP20_id": "S17",
+    "description": "Dedicated PE results",
+    "files": [
+      "PE_NATIVE_TOOL_METRICS.csv",
+      "PE_EVENT_BOUNDS.csv",
+      "PE_EVENT_CONTRASTS.csv",
+      "PE_TOOL_VS_EVENT_COMPARISON.csv",
+      "PE_CLASS_VS_LOCAL_EVENTS.csv",
+      "PE_STRING_DISAGREEMENTS.csv"
+    ],
+    "rows": {
+      "PE_NATIVE_TOOL_METRICS.csv": 27,
+      "PE_EVENT_BOUNDS.csv": 54,
+      "PE_EVENT_CONTRASTS.csv": 36,
+      "PE_TOOL_VS_EVENT_COMPARISON.csv": 9,
+      "PE_CLASS_VS_LOCAL_EVENTS.csv": 74,
+      "PE_STRING_DISAGREEMENTS.csv": 89
+    }
+  },
+  {
+    "id": "S17",
+    "historical_MP20_id": "S18",
+    "description": "Correspondence ablations",
+    "files": [
+      "CORRESPONDENCE_ABLATION_COUNTS.csv",
+      "CORRESPONDENCE_ABLATION_CONTRASTS.csv"
+    ],
+    "rows": {
+      "CORRESPONDENCE_ABLATION_COUNTS.csv": 126,
+      "CORRESPONDENCE_ABLATION_CONTRASTS.csv": 84
+    }
+  },
+  {
+    "id": "S18",
+    "historical_MP20_id": "S19",
+    "description": "Native nonexact strings",
+    "files": [
+      "NATIVE_NONEXACT_LOCAL_STRINGS.json"
+    ],
+    "rows": {},
+    "source_commit": "7ec3e93b9a840539b85049ba285d48acce6f3b4e"
+  },
+  {
+    "id": "S19",
+    "historical_MP20_id": "S20",
+    "description": "Finite-family certificates",
+    "files": [
+      "FAMILY_CERTIFICATE_COUNTS.csv",
+      "FAMILY_CERTIFICATE_CONTRASTS.csv"
+    ],
+    "rows": {
+      "FAMILY_CERTIFICATE_COUNTS.csv": 162,
+      "FAMILY_CERTIFICATE_CONTRASTS.csv": 108
+    },
+    "source_commit": "7ec3e93b9a840539b85049ba285d48acce6f3b4e"
+  },
+  {
+    "id": "S20",
+    "historical_MP20_id": "S21",
+    "description": "HEK3 event bounds",
+    "files": [
+      "HEK3_EVENT_BOUNDS.csv"
+    ],
+    "rows": {
+      "HEK3_EVENT_BOUNDS.csv": 42
+    },
+    "source_commit": "7ec3e93b9a840539b85049ba285d48acce6f3b4e"
+  },
+  {
+    "id": "S21",
+    "historical_MP20_id": "S22",
+    "description": "Accepted-label sensitivity",
+    "files": [
+      "I2_SENSITIVITY.csv",
+      "I2_TIPPING_CAPS.csv"
+    ],
+    "rows": {
+      "I2_SENSITIVITY.csv": 486,
+      "I2_TIPPING_CAPS.csv": 54
+    }
+  }
+]

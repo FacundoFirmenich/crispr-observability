@@ -1,0 +1,394 @@
+{
+  "freeze_sha256": "d6ada41e32ff8f1262ffbe02dd03461764f0cd2080119bf65eec263ed77de2db",
+  "files": [
+    {
+      "id": "01a91c1c-0859-459e-8481-1220307915fa",
+      "key": "C17Ex52_DNA immoJEB_PPN_Clone10_fwd.fastq.gz",
+      "size": 633456,
+      "checksum": "md5:045202bb35ad4a346c21041a4696562c",
+      "links": {
+        "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone10_fwd.fastq.gz/content"
+      },
+      "sha256": "87b9977ab61af4dc23d825d219b5a452bbcaf15e6ccf8988850ede1c0d7343a3"
+    },
+    {
+      "id": "91d85038-02bf-4836-a127-8718cc91c82c",
+      "key": "C17Ex52_DNA immoJEB_PPN_Clone10_rev.fastq.gz",
+      "size": 1022152,
+      "checksum": "md5:33aa6c38cfca1b697db1df68c473a046",
+      "links": {
+        "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone10_rev.fastq.gz/content"
+      },
+      "sha256": "9fb88e1ae58e50746f447a41b9f53035fa1655ba0b53864c2fc51fd017cd7553"
+    },
+    {
+      "id": "2e9c2813-2ff6-49c9-af7f-159864fccdd6",
+      "key": "C17Ex52_cDNA immoJEB_PPN_Clone10_fwd.fastq.gz",
+      "size": 513925,
+      "checksum": "md5:b8935badf1f463fd3cca14e7da12c2d1",
+      "links": {
+        "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone10_fwd.fastq.gz/content"
+      },
+      "sha256": "64d846995594597424453c9118956c07621d5744abc3d9f15c02196c3f75ae85"
+    },
+    {
+      "id": "e62689d3-e17a-4240-92bb-f7cc169285f4",
+      "key": "C17Ex52_cDNA immoJEB_PPN_Clone10_rev.fastq.gz",
+      "size": 950352,
+      "checksum": "md5:095e25315dce44bd43c20ecc2c4d3f0a",
+      "links": {
+        "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone10_rev.fastq.gz/content"
+      },
+      "sha256": "ce4e74c65c421f2655fc41f5dcc67486d941dcdfe54d4b3dbe75ad40a2cc7035"
+    }
+  ],
+  "totals": {
+    "DNA": 11341,
+    "cDNA": 11592
+  },
+  "admission": [
+    {
+      "library": "DNA",
+      "admitted_mates": 0,
+      "pairs": 125
+    },
+    {
+      "library": "DNA",
+      "admitted_mates": 1,
+      "pairs": 431
+    },
+    {
+      "library": "DNA",
+      "admitted_mates": 2,
+      "pairs": 10785
+    },
+    {
+      "library": "cDNA",
+      "admitted_mates": 0,
+      "pairs": 196
+    },
+    {
+      "library": "cDNA",
+      "admitted_mates": 1,
+      "pairs": 528
+    },
+    {
+      "library": "cDNA",
+      "admitted_mates": 2,
+      "pairs": 10868
+    }
+  ],
+  "counts": [
+    {
+      "library": "DNA",
+      "target": "long40",
+      "delta": 0,
+      "call": "NE",
+      "pairs": 4380
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "delta": 0,
+      "call": "U",
+      "pairs": 6961
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "delta": 9,
+      "call": "NE",
+      "pairs": 7
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "delta": 9,
+      "call": "U",
+      "pairs": 11334
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "delta": 18,
+      "call": "NE",
+      "pairs": 2
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "delta": 18,
+      "call": "U",
+      "pairs": 11339
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "delta": 27,
+      "call": "NE",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "delta": 27,
+      "call": "U",
+      "pairs": 11340
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "delta": 36,
+      "call": "U",
+      "pairs": 11341
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "delta": 45,
+      "call": "U",
+      "pairs": 11341
+    },
+    {
+      "library": "DNA",
+      "target": "long40",
+      "delta": 54,
+      "call": "U",
+      "pairs": 11341
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 0,
+      "call": "E",
+      "pairs": 4148
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 0,
+      "call": "NE",
+      "pairs": 6538
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 0,
+      "call": "U",
+      "pairs": 655
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 0,
+      "call": "mate_conflict",
+      "pairs": 90
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 9,
+      "call": "NE",
+      "pairs": 7
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 9,
+      "call": "U",
+      "pairs": 11334
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 18,
+      "call": "NE",
+      "pairs": 2
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 18,
+      "call": "U",
+      "pairs": 11339
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 27,
+      "call": "NE",
+      "pairs": 1
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 27,
+      "call": "U",
+      "pairs": 11340
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 36,
+      "call": "U",
+      "pairs": 11341
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 45,
+      "call": "U",
+      "pairs": 11341
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "delta": 54,
+      "call": "U",
+      "pairs": 11341
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "delta": 0,
+      "call": "NE",
+      "pairs": 3156
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "delta": 0,
+      "call": "U",
+      "pairs": 8436
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "delta": 9,
+      "call": "NE",
+      "pairs": 2
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "delta": 9,
+      "call": "U",
+      "pairs": 11590
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "delta": 18,
+      "call": "U",
+      "pairs": 11592
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "delta": 27,
+      "call": "U",
+      "pairs": 11592
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "delta": 36,
+      "call": "U",
+      "pairs": 11592
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "delta": 45,
+      "call": "U",
+      "pairs": 11592
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "delta": 54,
+      "call": "U",
+      "pairs": 11592
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "delta": 0,
+      "call": "E",
+      "pairs": 3007
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "delta": 0,
+      "call": "NE",
+      "pairs": 7814
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "delta": 0,
+      "call": "U",
+      "pairs": 771
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "delta": 0,
+      "call": "mate_conflict",
+      "pairs": 38
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "delta": 9,
+      "call": "NE",
+      "pairs": 2
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "delta": 9,
+      "call": "U",
+      "pairs": 11590
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "delta": 18,
+      "call": "U",
+      "pairs": 11592
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "delta": 27,
+      "call": "U",
+      "pairs": 11592
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "delta": 36,
+      "call": "U",
+      "pairs": 11592
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "delta": 45,
+      "call": "U",
+      "pairs": 11592
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "delta": 54,
+      "call": "U",
+      "pairs": 11592
+    }
+  ],
+  "unique_segments": 308,
+  "ledger_sha256": "c5afa46efaa6d4efd55d111aa9851b15af9389a1cd7738afec85c82bd68e667b",
+  "witness_checks": 4
+}

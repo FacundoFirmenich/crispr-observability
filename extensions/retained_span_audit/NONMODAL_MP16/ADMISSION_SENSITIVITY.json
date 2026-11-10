@@ -1,0 +1,917 @@
+{
+  "scope": "Separate scoring availability from the stricter MP15B paired admission contract; no gate substitution hidden.",
+  "counts": [
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 172149
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 12352
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 0,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 7185
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 16180
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 172149
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 12352
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 9,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 7185
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 16180
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 172149
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 12352
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 18,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 7185
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 16180
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 172149
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 12352
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 27,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 7185
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 16180
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 172149
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 12352
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 36,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 7185
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 16180
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 184501
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 45,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 23365
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 184501
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 54,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "MP15B_gate",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 23365
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 184501
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 0,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 9822
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 13543
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 184501
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 9,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 9822
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 13543
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 184501
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 18,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 9822
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 13543
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 184501
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 27,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 9822
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 13543
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 184501
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 36,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 9822
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 13543
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 184501
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 45,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 23365
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 184501
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 54,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 6472
+    },
+    {
+      "library": "DNA",
+      "policy": "any_available_span",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 23365
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 180758
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 23234
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 0,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 4141
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 9113
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 180758
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 23234
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 9,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 4141
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 9113
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 180758
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 23234
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 18,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 4141
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 9113
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 180758
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 23234
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 27,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 4141
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 9113
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 180758
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 23234
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 36,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 4141
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 9113
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 203992
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 45,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 13254
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 203992
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 54,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "MP15B_gate",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 13254
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 203992
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 0,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 8606
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 4648
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 203992
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 9,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 8606
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 4648
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 203992
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 18,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 8606
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 4648
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 203992
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 27,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 8606
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 4648
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "any_E",
+      "pairs": 203992
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 36,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "all_NE",
+      "pairs": 8606
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 4648
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 203992
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 45,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 13254
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "unresolved",
+      "pairs": 203992
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 54,
+      "group": "no_span",
+      "call": "unresolved",
+      "pairs": 8005
+    },
+    {
+      "library": "cDNA",
+      "policy": "any_available_span",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "unresolved",
+      "pairs": 13254
+    }
+  ]
+}

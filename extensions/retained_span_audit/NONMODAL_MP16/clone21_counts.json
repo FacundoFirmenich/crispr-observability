@@ -1,0 +1,2171 @@
+{
+  "clone": "21",
+  "raw": {
+    "DNA": 12061,
+    "cDNA": 10476
+  },
+  "unique_spans": 806,
+  "scores_sha256": "6490ed195fb9ba7e8ffcdc9777daa77320363b8c6cdd0aa5428fc7d0800f642c",
+  "counts": [
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 4098
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 5991
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 1071
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 615
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 4098
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 5991
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 1071
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 615
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 4098
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 5991
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 1071
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 615
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 4098
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 5991
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 1071
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 615
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 4098
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 5991
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 1071
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 615
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 10089
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 1686
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 10089
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 1686
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 5991
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 4098
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 1275
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 411
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 5991
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 4098
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 1275
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 411
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 5991
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 4098
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 1275
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 411
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 5991
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 4098
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 1275
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 411
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 5991
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 4098
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 1275
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 411
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 10089
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 1686
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 10089
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 1686
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "DNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 286
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 3512
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 5973
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 624
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 0,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 3512
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 5973
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 624
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 9,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 3512
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 5973
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 624
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 18,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 3512
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 5973
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 624
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 27,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 3512
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 5973
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 624
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 36,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 9485
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 624
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 45,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 9485
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 624
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_+37",
+      "delta": 54,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 5973
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 3512
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 488
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 136
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 0,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 5973
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 3512
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 488
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 136
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 9,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 5973
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 3512
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 488
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 136
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 18,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 5973
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 3512
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 488
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 136
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 27,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 5973
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 3512
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 488
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 136
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 36,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 9485
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 624
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 45,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "modal_only",
+      "call": "U",
+      "pairs": 9485
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "nonmodal",
+      "call": "U",
+      "pairs": 624
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "no_span",
+      "call": "E",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "no_span",
+      "call": "NE",
+      "pairs": 0
+    },
+    {
+      "library": "cDNA",
+      "target": "S2_-15",
+      "delta": 54,
+      "group": "no_span",
+      "call": "U",
+      "pairs": 367
+    }
+  ],
+  "support": [
+    {
+      "library": "DNA",
+      "group": "nonmodal",
+      "pairs": 1686
+    },
+    {
+      "library": "DNA",
+      "group": "modal_only",
+      "pairs": 10089
+    },
+    {
+      "library": "DNA",
+      "group": "no_span",
+      "pairs": 286
+    },
+    {
+      "library": "cDNA",
+      "group": "modal_only",
+      "pairs": 9485
+    },
+    {
+      "library": "cDNA",
+      "group": "nonmodal",
+      "pairs": 624
+    },
+    {
+      "library": "cDNA",
+      "group": "no_span",
+      "pairs": 367
+    }
+  ],
+  "witness_candidates": [
+    {
+      "id": "@M04059:78:000000000-DDYY4:1:1101:14905:1393",
+      "library": "DNA",
+      "target_index": 0,
+      "delta": 0,
+      "call": "U",
+      "hashes": [
+        "1898cad1a577c89a471878315583d93c8aee6b6e75ab3f910450064f9f07e35c",
+        "645ba8a9451a4bf6073a5bd3eed277736c588aeeab9285f6f700abb192bcbf5e"
+      ]
+    },
+    {
+      "id": "@M04059:78:000000000-DDYY4:1:1101:14905:1393",
+      "library": "DNA",
+      "target_index": 0,
+      "delta": 36,
+      "call": "U",
+      "hashes": [
+        "1898cad1a577c89a471878315583d93c8aee6b6e75ab3f910450064f9f07e35c",
+        "645ba8a9451a4bf6073a5bd3eed277736c588aeeab9285f6f700abb192bcbf5e"
+      ]
+    },
+    {
+      "id": "@M04059:78:000000000-DDYY4:1:1101:14905:1393",
+      "library": "DNA",
+      "target_index": 0,
+      "delta": 45,
+      "call": "U",
+      "hashes": [
+        "1898cad1a577c89a471878315583d93c8aee6b6e75ab3f910450064f9f07e35c",
+        "645ba8a9451a4bf6073a5bd3eed277736c588aeeab9285f6f700abb192bcbf5e"
+      ]
+    },
+    {
+      "id": "@M04059:78:000000000-DDYY4:1:1101:14905:1393",
+      "library": "DNA",
+      "target_index": 1,
+      "delta": 0,
+      "call": "NE",
+      "hashes": [
+        "1898cad1a577c89a471878315583d93c8aee6b6e75ab3f910450064f9f07e35c",
+        "645ba8a9451a4bf6073a5bd3eed277736c588aeeab9285f6f700abb192bcbf5e"
+      ]
+    },
+    {
+      "id": "@M04059:78:000000000-DDYY4:1:1101:14905:1393",
+      "library": "DNA",
+      "target_index": 1,
+      "delta": 36,
+      "call": "NE",
+      "hashes": [
+        "1898cad1a577c89a471878315583d93c8aee6b6e75ab3f910450064f9f07e35c",
+        "645ba8a9451a4bf6073a5bd3eed277736c588aeeab9285f6f700abb192bcbf5e"
+      ]
+    },
+    {
+      "id": "@M04059:78:000000000-DDYY4:1:1101:14905:1393",
+      "library": "DNA",
+      "target_index": 1,
+      "delta": 45,
+      "call": "U",
+      "hashes": [
+        "1898cad1a577c89a471878315583d93c8aee6b6e75ab3f910450064f9f07e35c",
+        "645ba8a9451a4bf6073a5bd3eed277736c588aeeab9285f6f700abb192bcbf5e"
+      ]
+    },
+    {
+      "id": "@M04059:78:000000000-DDYY4:1:1101:14499:1740",
+      "library": "DNA",
+      "target_index": 0,
+      "delta": 0,
+      "call": "NE",
+      "hashes": [
+        "1bec5cc06b2cf57b73a8ffeec8ad786455dbc79daf3ab5604ee93eb32d8d87a6",
+        "921c707bed8b6d3593f23b422a9a8d5bf534e928e2eec7d80f40b17185d8cf10"
+      ]
+    },
+    {
+      "id": "@M04059:78:000000000-DDYY4:1:1101:14499:1740",
+      "library": "DNA",
+      "target_index": 0,
+      "delta": 36,
+      "call": "NE",
+      "hashes": [
+        "1bec5cc06b2cf57b73a8ffeec8ad786455dbc79daf3ab5604ee93eb32d8d87a6",
+        "921c707bed8b6d3593f23b422a9a8d5bf534e928e2eec7d80f40b17185d8cf10"
+      ]
+    },
+    {
+      "id": "@M04059:78:000000000-DDYY4:1:1101:14499:1740",
+      "library": "DNA",
+      "target_index": 1,
+      "delta": 0,
+      "call": "U",
+      "hashes": [
+        "1bec5cc06b2cf57b73a8ffeec8ad786455dbc79daf3ab5604ee93eb32d8d87a6",
+        "921c707bed8b6d3593f23b422a9a8d5bf534e928e2eec7d80f40b17185d8cf10"
+      ]
+    },
+    {
+      "id": "@M04059:78:000000000-DDYY4:1:1101:14499:1740",
+      "library": "DNA",
+      "target_index": 1,
+      "delta": 36,
+      "call": "U",
+      "hashes": [
+        "1bec5cc06b2cf57b73a8ffeec8ad786455dbc79daf3ab5604ee93eb32d8d87a6",
+        "921c707bed8b6d3593f23b422a9a8d5bf534e928e2eec7d80f40b17185d8cf10"
+      ]
+    }
+  ]
+}

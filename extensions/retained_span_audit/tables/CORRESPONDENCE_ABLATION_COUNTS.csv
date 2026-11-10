@@ -1,0 +1,127 @@
+run,preparation,condition,certificate,event,N,E,NE,U,L_exact,H_exact
+SRR29623265,2,mock,mutant_projection,exact_programmed,21041,0,20848,193,0,193/21041
+SRR29623265,2,mock,mutant_projection,native_local,21041,0,20848,193,0,193/21041
+SRR29623265,2,mock,mutant_projection+programmed_projection,exact_programmed,21041,0,20848,193,0,193/21041
+SRR29623265,2,mock,mutant_projection+programmed_projection,native_local,21041,0,20848,193,0,193/21041
+SRR29623265,2,mock,programmed_projection,exact_programmed,21041,0,20848,193,0,193/21041
+SRR29623265,2,mock,programmed_projection,native_local,21041,0,20848,193,0,193/21041
+SRR29623265,2,mock,target,exact_programmed,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,target,native_local,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,target+mutant_projection,exact_programmed,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,target+mutant_projection,native_local,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,target+mutant_projection+programmed_projection,exact_programmed,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,target+mutant_projection+programmed_projection,native_local,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,target+programmed_projection,exact_programmed,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,target+programmed_projection,native_local,21041,0,20528,513,0,513/21041
+SRR29623266,2,untreated,mutant_projection,exact_programmed,13617,0,13491,126,0,14/1513
+SRR29623266,2,untreated,mutant_projection,native_local,13617,0,13491,126,0,14/1513
+SRR29623266,2,untreated,mutant_projection+programmed_projection,exact_programmed,13617,0,13491,126,0,14/1513
+SRR29623266,2,untreated,mutant_projection+programmed_projection,native_local,13617,0,13491,126,0,14/1513
+SRR29623266,2,untreated,programmed_projection,exact_programmed,13617,0,13491,126,0,14/1513
+SRR29623266,2,untreated,programmed_projection,native_local,13617,0,13491,126,0,14/1513
+SRR29623266,2,untreated,target,exact_programmed,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,target,native_local,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,target+mutant_projection,exact_programmed,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,target+mutant_projection,native_local,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,target+mutant_projection+programmed_projection,exact_programmed,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,target+mutant_projection+programmed_projection,native_local,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,target+programmed_projection,exact_programmed,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,target+programmed_projection,native_local,13617,0,13290,327,0,109/4539
+SRR29623267,3,mock,mutant_projection,exact_programmed,27024,0,26790,234,0,39/4504
+SRR29623267,3,mock,mutant_projection,native_local,27024,0,26790,234,0,39/4504
+SRR29623267,3,mock,mutant_projection+programmed_projection,exact_programmed,27024,0,26790,234,0,39/4504
+SRR29623267,3,mock,mutant_projection+programmed_projection,native_local,27024,0,26790,234,0,39/4504
+SRR29623267,3,mock,programmed_projection,exact_programmed,27024,0,26790,234,0,39/4504
+SRR29623267,3,mock,programmed_projection,native_local,27024,0,26790,234,0,39/4504
+SRR29623267,3,mock,target,exact_programmed,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,target,native_local,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,target+mutant_projection,exact_programmed,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,target+mutant_projection,native_local,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,target+mutant_projection+programmed_projection,exact_programmed,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,target+mutant_projection+programmed_projection,native_local,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,target+programmed_projection,exact_programmed,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,target+programmed_projection,native_local,27024,0,26392,632,0,79/3378
+SRR29623268,3,untreated,mutant_projection,exact_programmed,29956,0,29658,298,0,149/14978
+SRR29623268,3,untreated,mutant_projection,native_local,29956,0,29658,298,0,149/14978
+SRR29623268,3,untreated,mutant_projection+programmed_projection,exact_programmed,29956,0,29658,298,0,149/14978
+SRR29623268,3,untreated,mutant_projection+programmed_projection,native_local,29956,0,29658,298,0,149/14978
+SRR29623268,3,untreated,programmed_projection,exact_programmed,29956,0,29658,298,0,149/14978
+SRR29623268,3,untreated,programmed_projection,native_local,29956,0,29658,298,0,149/14978
+SRR29623268,3,untreated,target,exact_programmed,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,target,native_local,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,target+mutant_projection,exact_programmed,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,target+mutant_projection,native_local,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,target+mutant_projection+programmed_projection,exact_programmed,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,target+mutant_projection+programmed_projection,native_local,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,target+programmed_projection,exact_programmed,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,target+programmed_projection,native_local,29956,0,29172,784,0,196/7489
+SRR29623270,3,PE treated,mutant_projection,exact_programmed,14672,3826,10578,268,1913/7336,2047/7336
+SRR29623270,3,PE treated,mutant_projection,native_local,14672,3861,10543,268,3861/14672,4129/14672
+SRR29623270,3,PE treated,mutant_projection+programmed_projection,exact_programmed,14672,3826,10501,345,1913/7336,4171/14672
+SRR29623270,3,PE treated,mutant_projection+programmed_projection,native_local,14672,3861,10466,345,3861/14672,2103/7336
+SRR29623270,3,PE treated,programmed_projection,exact_programmed,14672,3873,10552,247,3873/14672,515/1834
+SRR29623270,3,PE treated,programmed_projection,native_local,14672,3909,10516,247,3909/14672,1039/3668
+SRR29623270,3,PE treated,target,exact_programmed,14672,3715,10329,628,3715/14672,4343/14672
+SRR29623270,3,PE treated,target,native_local,14672,3750,10294,628,1875/7336,2189/7336
+SRR29623270,3,PE treated,target+mutant_projection,exact_programmed,14672,3706,10315,651,1853/7336,4357/14672
+SRR29623270,3,PE treated,target+mutant_projection,native_local,14672,3741,10280,651,3741/14672,549/1834
+SRR29623270,3,PE treated,target+mutant_projection+programmed_projection,exact_programmed,14672,3706,10300,666,1853/7336,1093/3668
+SRR29623270,3,PE treated,target+mutant_projection+programmed_projection,native_local,14672,3741,10265,666,3741/14672,4407/14672
+SRR29623270,3,PE treated,target+programmed_projection,exact_programmed,14672,3711,10312,649,3711/14672,545/1834
+SRR29623270,3,PE treated,target+programmed_projection,native_local,14672,3746,10277,649,1873/7336,4395/14672
+SRR29623271,2,PE treated,mutant_projection,exact_programmed,19184,5744,13038,402,359/1199,3073/9592
+SRR29623271,2,PE treated,mutant_projection,native_local,19184,5812,12970,402,1453/4796,3107/9592
+SRR29623271,2,PE treated,mutant_projection+programmed_projection,exact_programmed,19184,5744,12923,517,359/1199,6261/19184
+SRR29623271,2,PE treated,mutant_projection+programmed_projection,native_local,19184,5812,12855,517,1453/4796,6329/19184
+SRR29623271,2,PE treated,programmed_projection,exact_programmed,19184,5803,12985,396,5803/19184,6199/19184
+SRR29623271,2,PE treated,programmed_projection,native_local,19184,5872,12916,396,367/1199,1567/4796
+SRR29623271,2,PE treated,target,exact_programmed,19184,5616,12720,848,351/1199,404/1199
+SRR29623271,2,PE treated,target,native_local,19184,5684,12652,848,1421/4796,1633/4796
+SRR29623271,2,PE treated,target+mutant_projection,exact_programmed,19184,5605,12698,881,5605/19184,3243/9592
+SRR29623271,2,PE treated,target+mutant_projection,native_local,19184,5673,12630,881,5673/19184,3277/9592
+SRR29623271,2,PE treated,target+mutant_projection+programmed_projection,exact_programmed,19184,5605,12670,909,5605/19184,3257/9592
+SRR29623271,2,PE treated,target+mutant_projection+programmed_projection,native_local,19184,5673,12602,909,5673/19184,3291/9592
+SRR29623271,2,PE treated,target+programmed_projection,exact_programmed,19184,5607,12686,891,5607/19184,3249/9592
+SRR29623271,2,PE treated,target+programmed_projection,native_local,19184,5675,12618,891,5675/19184,3283/9592
+SRR29623272,1,PE treated,mutant_projection,exact_programmed,20573,3670,16405,498,3670/20573,4168/20573
+SRR29623272,1,PE treated,mutant_projection,native_local,20573,3694,16381,498,3694/20573,4192/20573
+SRR29623272,1,PE treated,mutant_projection+programmed_projection,exact_programmed,20573,3670,16326,577,3670/20573,4247/20573
+SRR29623272,1,PE treated,mutant_projection+programmed_projection,native_local,20573,3694,16302,577,3694/20573,4271/20573
+SRR29623272,1,PE treated,programmed_projection,exact_programmed,20573,3704,16398,471,3704/20573,4175/20573
+SRR29623272,1,PE treated,programmed_projection,native_local,20573,3728,16374,471,3728/20573,4199/20573
+SRR29623272,1,PE treated,target,exact_programmed,20573,3539,15901,1133,3539/20573,4672/20573
+SRR29623272,1,PE treated,target,native_local,20573,3563,15877,1133,509/2939,4696/20573
+SRR29623272,1,PE treated,target+mutant_projection,exact_programmed,20573,3539,15900,1134,3539/20573,4673/20573
+SRR29623272,1,PE treated,target+mutant_projection,native_local,20573,3563,15876,1134,509/2939,671/2939
+SRR29623272,1,PE treated,target+mutant_projection+programmed_projection,exact_programmed,20573,3539,15870,1164,3539/20573,4703/20573
+SRR29623272,1,PE treated,target+mutant_projection+programmed_projection,native_local,20573,3563,15846,1164,509/2939,4727/20573
+SRR29623272,1,PE treated,target+programmed_projection,exact_programmed,20573,3539,15871,1163,3539/20573,4702/20573
+SRR29623272,1,PE treated,target+programmed_projection,native_local,20573,3563,15847,1163,509/2939,4726/20573
+SRR29623273,1,mock,mutant_projection,exact_programmed,17177,2,16876,299,2/17177,301/17177
+SRR29623273,1,mock,mutant_projection,native_local,17177,2,16876,299,2/17177,301/17177
+SRR29623273,1,mock,mutant_projection+programmed_projection,exact_programmed,17177,2,16876,299,2/17177,301/17177
+SRR29623273,1,mock,mutant_projection+programmed_projection,native_local,17177,2,16876,299,2/17177,301/17177
+SRR29623273,1,mock,programmed_projection,exact_programmed,17177,2,16876,299,2/17177,301/17177
+SRR29623273,1,mock,programmed_projection,native_local,17177,2,16876,299,2/17177,301/17177
+SRR29623273,1,mock,target,exact_programmed,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,target,native_local,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,target+mutant_projection,exact_programmed,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,target+mutant_projection,native_local,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,target+mutant_projection+programmed_projection,exact_programmed,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,target+mutant_projection+programmed_projection,native_local,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,target+programmed_projection,exact_programmed,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,target+programmed_projection,native_local,17177,2,16475,700,2/17177,702/17177
+SRR29623274,1,untreated,mutant_projection,exact_programmed,13762,0,13548,214,0,107/6881
+SRR29623274,1,untreated,mutant_projection,native_local,13762,1,13547,214,1/13762,215/13762
+SRR29623274,1,untreated,mutant_projection+programmed_projection,exact_programmed,13762,0,13548,214,0,107/6881
+SRR29623274,1,untreated,mutant_projection+programmed_projection,native_local,13762,1,13547,214,1/13762,215/13762
+SRR29623274,1,untreated,programmed_projection,exact_programmed,13762,0,13549,213,0,213/13762
+SRR29623274,1,untreated,programmed_projection,native_local,13762,1,13548,213,1/13762,107/6881
+SRR29623274,1,untreated,target,exact_programmed,13762,0,13176,586,0,293/6881
+SRR29623274,1,untreated,target,native_local,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,target+mutant_projection,exact_programmed,13762,0,13176,586,0,293/6881
+SRR29623274,1,untreated,target+mutant_projection,native_local,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,target+mutant_projection+programmed_projection,exact_programmed,13762,0,13176,586,0,293/6881
+SRR29623274,1,untreated,target+mutant_projection+programmed_projection,native_local,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,target+programmed_projection,exact_programmed,13762,0,13176,586,0,293/6881
+SRR29623274,1,untreated,target+programmed_projection,native_local,13762,1,13175,586,1/13762,587/13762

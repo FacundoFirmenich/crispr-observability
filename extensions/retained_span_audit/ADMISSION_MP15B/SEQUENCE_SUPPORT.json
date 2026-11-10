@@ -1,0 +1,817 @@
+{
+  "scope": "Same-clone DNA/cDNA exact distal-span evidence, without biological truth labels.",
+  "events": [
+    {
+      "clone": "3",
+      "event": 6,
+      "shared_exact_sequences": 0,
+      "DNA_pairs_shared": 0,
+      "cDNA_pairs_shared": 0,
+      "modal": {
+        "DNA": [],
+        "cDNA": []
+      }
+    },
+    {
+      "clone": "3",
+      "event": -37,
+      "shared_exact_sequences": 7,
+      "DNA_pairs_shared": 664,
+      "cDNA_pairs_shared": 3271,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "b2b4503f1d0784a09d614b7d7c8acdc5236683795d011003bfff004b1f2bb27b",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 657
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "b2b4503f1d0784a09d614b7d7c8acdc5236683795d011003bfff004b1f2bb27b",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 3251
+          }
+        ]
+      }
+    },
+    {
+      "clone": "6",
+      "event": -17,
+      "shared_exact_sequences": 3,
+      "DNA_pairs_shared": 5108,
+      "cDNA_pairs_shared": 568,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "f4426412f5294835330f5858125482d459724eb170fa5ec8694673469c3fe575",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5105
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "f4426412f5294835330f5858125482d459724eb170fa5ec8694673469c3fe575",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 566
+          }
+        ]
+      }
+    },
+    {
+      "clone": "6",
+      "event": -25,
+      "shared_exact_sequences": 26,
+      "DNA_pairs_shared": 4666,
+      "cDNA_pairs_shared": 13168,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "bc91159748c83f40b261606b00da3c53e77dede0ce5a2634328d9d7da97fa91e",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4638
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "bc91159748c83f40b261606b00da3c53e77dede0ce5a2634328d9d7da97fa91e",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 13102
+          }
+        ]
+      }
+    },
+    {
+      "clone": "9",
+      "event": -9,
+      "shared_exact_sequences": 6,
+      "DNA_pairs_shared": 7533,
+      "cDNA_pairs_shared": 523,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "33e46b344aeddd4426faae97910597200b19ae73ee0915cadb9da27e35def08c",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 7519
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "33e46b344aeddd4426faae97910597200b19ae73ee0915cadb9da27e35def08c",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 516
+          }
+        ]
+      }
+    },
+    {
+      "clone": "9",
+      "event": -22,
+      "shared_exact_sequences": 36,
+      "DNA_pairs_shared": 7323,
+      "cDNA_pairs_shared": 10734,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "7c6d36587fe604497230725e99f2d2373289195085991515963ff77c802e2f24",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 7259
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "7c6d36587fe604497230725e99f2d2373289195085991515963ff77c802e2f24",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 10642
+          }
+        ]
+      }
+    },
+    {
+      "clone": "10",
+      "event": 10,
+      "shared_exact_sequences": 38,
+      "DNA_pairs_shared": 5324,
+      "cDNA_pairs_shared": 6914,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "5e3391b2538b1a393dc373868cb984bfbfcda6efe790604b954f80ce2cb79834",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5269
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "5e3391b2538b1a393dc373868cb984bfbfcda6efe790604b954f80ce2cb79834",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 6845
+          }
+        ]
+      }
+    },
+    {
+      "clone": "10",
+      "event": -12,
+      "shared_exact_sequences": 14,
+      "DNA_pairs_shared": 3714,
+      "cDNA_pairs_shared": 2837,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "0994d9cabbe32e8a16a8b802f1063fa4d78309306a45320c91c18cd5af5033d3",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 3694
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "0994d9cabbe32e8a16a8b802f1063fa4d78309306a45320c91c18cd5af5033d3",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 2816
+          }
+        ]
+      }
+    },
+    {
+      "clone": "12",
+      "event": 34,
+      "shared_exact_sequences": 56,
+      "DNA_pairs_shared": 8794,
+      "cDNA_pairs_shared": 9368,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "f8eea233b1009282a331da60ad5e2772e558f0dbcba55e5f17811c427313b366",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAACCCCTCCTCCTCACACAGCTCATACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 8690
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "f8eea233b1009282a331da60ad5e2772e558f0dbcba55e5f17811c427313b366",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAACCCCTCCTCCTCACACAGCTCATACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 9258
+          }
+        ]
+      }
+    },
+    {
+      "clone": "13",
+      "event": 131,
+      "shared_exact_sequences": 3,
+      "DNA_pairs_shared": 570,
+      "cDNA_pairs_shared": 386,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "047bab5fca6ff95b52a7d1f3664aee9ad53bea298467c00ca4336d3c05261db4",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGCTCCTCCTCACACAGCTCAGTCGGGGTAGCAGCTCAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGCTCCTCCTCACACAGCTCAGTCGGGCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 565
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "047bab5fca6ff95b52a7d1f3664aee9ad53bea298467c00ca4336d3c05261db4",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGCTCCTCCTCACACAGCTCAGTCGGGGTAGCAGCTCAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGCTCCTCCTCACACAGCTCAGTCGGGCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 376
+          }
+        ]
+      }
+    },
+    {
+      "clone": "13",
+      "event": 7,
+      "shared_exact_sequences": 33,
+      "DNA_pairs_shared": 6921,
+      "cDNA_pairs_shared": 5994,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "71fc75e3c67009aae00a3e31d9cf98cd6ae80b22b7e7c5418da4cbef86e1ced8",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 6857
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "71fc75e3c67009aae00a3e31d9cf98cd6ae80b22b7e7c5418da4cbef86e1ced8",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5939
+          }
+        ]
+      }
+    },
+    {
+      "clone": "14",
+      "event": -8,
+      "shared_exact_sequences": 3,
+      "DNA_pairs_shared": 4861,
+      "cDNA_pairs_shared": 439,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "b6342df743ae1392df714459f5e5e4f4b37c2a90d78adf970e2728e830297d83",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4858
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "b6342df743ae1392df714459f5e5e4f4b37c2a90d78adf970e2728e830297d83",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 437
+          }
+        ]
+      }
+    },
+    {
+      "clone": "14",
+      "event": -10,
+      "shared_exact_sequences": 28,
+      "DNA_pairs_shared": 4818,
+      "cDNA_pairs_shared": 11420,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "a8773224a5d20a363652d6b9d592fb18994a6cba7ecbe851a14c86e1f3abc6a8",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4770
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "a8773224a5d20a363652d6b9d592fb18994a6cba7ecbe851a14c86e1f3abc6a8",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 11349
+          }
+        ]
+      }
+    },
+    {
+      "clone": "16",
+      "event": 34,
+      "shared_exact_sequences": 30,
+      "DNA_pairs_shared": 4920,
+      "cDNA_pairs_shared": 4065,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "55660bec7557986914ee62168a78b26f65789f097b13320f71cb9669f517d660",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTAGCGCAGCTCCTCCTCAGGTAGCAGCTCCTCCTCACACAGCTCATCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4870
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "55660bec7557986914ee62168a78b26f65789f097b13320f71cb9669f517d660",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTAGCGCAGCTCCTCCTCAGGTAGCAGCTCCTCCTCACACAGCTCATCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4021
+          }
+        ]
+      }
+    },
+    {
+      "clone": "16",
+      "event": 27,
+      "shared_exact_sequences": 38,
+      "DNA_pairs_shared": 5159,
+      "cDNA_pairs_shared": 4692,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "aee3b99da78826510301d3266815e72c7a0d280f38470ed8c80db10a70a7a61d",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCTCCTCACAGGGTAGCAGCTCCTCTCCTCACACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5099
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "aee3b99da78826510301d3266815e72c7a0d280f38470ed8c80db10a70a7a61d",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCTCCTCACAGGGTAGCAGCTCCTCTCCTCACACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4637
+          }
+        ]
+      }
+    },
+    {
+      "clone": "17",
+      "event": 24,
+      "shared_exact_sequences": 2,
+      "DNA_pairs_shared": 4281,
+      "cDNA_pairs_shared": 269,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "f67678a16e207606cc4736c871e5034d6c8feaa3b5d59923a19fab983f73754e",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCACACAGCTCAGTCGGAGTAGCAGCTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4278
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "f67678a16e207606cc4736c871e5034d6c8feaa3b5d59923a19fab983f73754e",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCACACAGCTCAGTCGGAGTAGCAGCTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 268
+          }
+        ]
+      }
+    },
+    {
+      "clone": "17",
+      "event": -4,
+      "shared_exact_sequences": 34,
+      "DNA_pairs_shared": 4267,
+      "cDNA_pairs_shared": 10720,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "6a608b44fc8ba3988c8fd7d5ed91d9999db992a3abc23f6528c755ea84e50fc7",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCTCCTCAGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4218
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "6a608b44fc8ba3988c8fd7d5ed91d9999db992a3abc23f6528c755ea84e50fc7",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCTCCTCAGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 10650
+          }
+        ]
+      }
+    },
+    {
+      "clone": "18",
+      "event": -13,
+      "shared_exact_sequences": 28,
+      "DNA_pairs_shared": 4594,
+      "cDNA_pairs_shared": 10349,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "32518408a2f339787a8bc4c493b8eb7a16299bf01363dfafddff076aac1afd78",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4554
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "32518408a2f339787a8bc4c493b8eb7a16299bf01363dfafddff076aac1afd78",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 10282
+          }
+        ]
+      }
+    },
+    {
+      "clone": "18",
+      "event": -26,
+      "shared_exact_sequences": 6,
+      "DNA_pairs_shared": 4286,
+      "cDNA_pairs_shared": 570,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "121720f9f42059872acb2fa933c8cbcf36fbe05317890040b50051a94de4ee3c",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCACAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4281
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "121720f9f42059872acb2fa933c8cbcf36fbe05317890040b50051a94de4ee3c",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCACAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 564
+          }
+        ]
+      }
+    },
+    {
+      "clone": "19",
+      "event": -26,
+      "shared_exact_sequences": 3,
+      "DNA_pairs_shared": 5609,
+      "cDNA_pairs_shared": 545,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "690f88cd092c1d6365a5424b2a504e6c641e0fd7eb343e169ac739432e223954",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5605
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "690f88cd092c1d6365a5424b2a504e6c641e0fd7eb343e169ac739432e223954",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 542
+          }
+        ]
+      }
+    },
+    {
+      "clone": "19",
+      "event": -37,
+      "shared_exact_sequences": 23,
+      "DNA_pairs_shared": 5519,
+      "cDNA_pairs_shared": 11820,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "075b8c1cfe71a959f2050fc282d940121cd829e78ba3efe4a37efe5c9c448a69",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5480
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "075b8c1cfe71a959f2050fc282d940121cd829e78ba3efe4a37efe5c9c448a69",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 11766
+          }
+        ]
+      }
+    },
+    {
+      "clone": "21",
+      "event": 37,
+      "shared_exact_sequences": 16,
+      "DNA_pairs_shared": 3850,
+      "cDNA_pairs_shared": 3357,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "1898cad1a577c89a471878315583d93c8aee6b6e75ab3f910450064f9f07e35c",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTACCCTCCTCACACAGCTCATCGCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 3821
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "1898cad1a577c89a471878315583d93c8aee6b6e75ab3f910450064f9f07e35c",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTACCCTCCTCACACAGCTCATCGCACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 3333
+          }
+        ]
+      }
+    },
+    {
+      "clone": "21",
+      "event": -15,
+      "shared_exact_sequences": 20,
+      "DNA_pairs_shared": 5711,
+      "cDNA_pairs_shared": 5672,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "921c707bed8b6d3593f23b422a9a8d5bf534e928e2eec7d80f40b17185d8cf10",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5685
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "921c707bed8b6d3593f23b422a9a8d5bf534e928e2eec7d80f40b17185d8cf10",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5636
+          }
+        ]
+      }
+    },
+    {
+      "clone": "22",
+      "event": -13,
+      "shared_exact_sequences": 44,
+      "DNA_pairs_shared": 10891,
+      "cDNA_pairs_shared": 11226,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "8a110327b5f18e5038da3605c6c985e6b50fbb3266f84d4e4eb0adf49725e15b",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 10795
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "8a110327b5f18e5038da3605c6c985e6b50fbb3266f84d4e4eb0adf49725e15b",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 11143
+          }
+        ]
+      }
+    },
+    {
+      "clone": "24",
+      "event": -16,
+      "shared_exact_sequences": 23,
+      "DNA_pairs_shared": 3941,
+      "cDNA_pairs_shared": 4891,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "c05ab5a882e4676720bf43faa53b53b4b5c980be41bbd4dc3b1709fbc0f7e3fe",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCTGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 3901
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "c05ab5a882e4676720bf43faa53b53b4b5c980be41bbd4dc3b1709fbc0f7e3fe",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCTGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4844
+          }
+        ]
+      }
+    },
+    {
+      "clone": "24",
+      "event": -22,
+      "shared_exact_sequences": 15,
+      "DNA_pairs_shared": 4072,
+      "cDNA_pairs_shared": 5358,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "14ce09c6fbfcfb0d12f01bbde278adae08cc93c39797baf4068a61e2b603f377",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4044
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "14ce09c6fbfcfb0d12f01bbde278adae08cc93c39797baf4068a61e2b603f377",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5330
+          }
+        ]
+      }
+    },
+    {
+      "clone": "27",
+      "event": -11,
+      "shared_exact_sequences": 2,
+      "DNA_pairs_shared": 5764,
+      "cDNA_pairs_shared": 347,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "797fae3662d815db6f6e107cf65b26cd8f0b1bc871bd2ead7bfcd100e2f8c9bd",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACATACCCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5762
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "797fae3662d815db6f6e107cf65b26cd8f0b1bc871bd2ead7bfcd100e2f8c9bd",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACATACCCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 346
+          }
+        ]
+      }
+    },
+    {
+      "clone": "27",
+      "event": -13,
+      "shared_exact_sequences": 32,
+      "DNA_pairs_shared": 5617,
+      "cDNA_pairs_shared": 9957,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "549e6b026299f1fc7f0b2b17b25498578fdb4ad057fe516fa5282d7802910623",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCATCAGGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5560
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "549e6b026299f1fc7f0b2b17b25498578fdb4ad057fe516fa5282d7802910623",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCATCAGGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 9906
+          }
+        ]
+      }
+    },
+    {
+      "clone": "28",
+      "event": 7,
+      "shared_exact_sequences": 48,
+      "DNA_pairs_shared": 9897,
+      "cDNA_pairs_shared": 7894,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "e85ccc1aa33f43a7a6d11c20c7322e63fcf71f3bae8b266d8d93bf4becbb4949",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATTGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 9754
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "e85ccc1aa33f43a7a6d11c20c7322e63fcf71f3bae8b266d8d93bf4becbb4949",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATTGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 7808
+          }
+        ]
+      }
+    },
+    {
+      "clone": "63",
+      "event": -17,
+      "shared_exact_sequences": 5,
+      "DNA_pairs_shared": 4646,
+      "cDNA_pairs_shared": 534,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "acc23cb21f7c71c5543ce27eda0fe6acc9f1fa4579516b4fecc62a8b80bdde26",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4634
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "acc23cb21f7c71c5543ce27eda0fe6acc9f1fa4579516b4fecc62a8b80bdde26",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 528
+          }
+        ]
+      }
+    },
+    {
+      "clone": "63",
+      "event": -46,
+      "shared_exact_sequences": 16,
+      "DNA_pairs_shared": 5607,
+      "cDNA_pairs_shared": 13834,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "8be98cb0d6156c1497628ba7cacee0393e7012b619e6ccb512f39a4e9cd739a3",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5580
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "8be98cb0d6156c1497628ba7cacee0393e7012b619e6ccb512f39a4e9cd739a3",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 13787
+          }
+        ]
+      }
+    },
+    {
+      "clone": "68",
+      "event": 9,
+      "shared_exact_sequences": 21,
+      "DNA_pairs_shared": 4224,
+      "cDNA_pairs_shared": 4533,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "98b833e8bb2fb8ccf5c7d017a96a257b08139bb76a0653a45a333fcef3b33f97",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4197
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "98b833e8bb2fb8ccf5c7d017a96a257b08139bb76a0653a45a333fcef3b33f97",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4507
+          }
+        ]
+      }
+    },
+    {
+      "clone": "68",
+      "event": -15,
+      "shared_exact_sequences": 12,
+      "DNA_pairs_shared": 4439,
+      "cDNA_pairs_shared": 5284,
+      "modal": {
+        "DNA": [
+          {
+            "hash": "921c707bed8b6d3593f23b422a9a8d5bf534e928e2eec7d80f40b17185d8cf10",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 4421
+          }
+        ],
+        "cDNA": [
+          {
+            "hash": "921c707bed8b6d3593f23b422a9a8d5bf534e928e2eec7d80f40b17185d8cf10",
+            "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+            "pairs": 5263
+          }
+        ]
+      }
+    }
+  ],
+  "events_shared_ge100_each_library": 32,
+  "clone3_minus6": {
+    "published_plus6_kept_unchanged": true,
+    "reference_JEB": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+    "modal_observations": {
+      "DNA": [
+        {
+          "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+          "pairs_with_sequence": 6513,
+          "descriptive_alignment_not_truth": [
+            [
+              "equal",
+              0,
+              40,
+              0,
+              40
+            ],
+            [
+              "delete",
+              40,
+              46,
+              40,
+              40
+            ],
+            [
+              "equal",
+              46,
+              120,
+              40,
+              114
+            ]
+          ]
+        }
+      ],
+      "cDNA": [
+        {
+          "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+          "pairs_with_sequence": 523,
+          "descriptive_alignment_not_truth": [
+            [
+              "equal",
+              0,
+              40,
+              0,
+              40
+            ],
+            [
+              "delete",
+              40,
+              46,
+              40,
+              40
+            ],
+            [
+              "equal",
+              46,
+              120,
+              40,
+              114
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

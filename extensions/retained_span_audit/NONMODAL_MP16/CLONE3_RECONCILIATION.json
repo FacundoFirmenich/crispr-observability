@@ -1,0 +1,52 @@
+{
+  "status": "SIGN_RESOLVED_BY_WITHIN_PUBLICATION_AND_READ_TRIANGULATION",
+  "checked_utc": "2026-11-06T16:49:32.883445+00:00",
+  "published_table_S2": {
+    "page": 23,
+    "clone": 3,
+    "event": 6,
+    "preserved_unchanged": true,
+    "source_sha256": "111cf7fff9d1bc478dcb9458388f70326b499a4310b69fc51949c858e091dac7"
+  },
+  "published_figure6A": {
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9372311.1/gr6.jpg",
+    "sha256": "2ca451bfedd9173fe3b40b3f8766d75a4d35876dcca6ae8a42dc9764a3c6134d",
+    "visually_verified_labels": [
+      "PPN Clone 3",
+      "6 nt del",
+      "37 nt del"
+    ]
+  },
+  "observed_reference_JEB": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+  "observed_clone3_sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+  "net_length_relative_JEB": -6,
+  "net_length_relative_HKC": -8,
+  "equivalent_6nt_deletion_positions_zero_based_in_span": [
+    {
+      "start": 40,
+      "end": 46,
+      "deleted": "GGGGTA"
+    },
+    {
+      "start": 41,
+      "end": 47,
+      "deleted": "GGGTAG"
+    }
+  ],
+  "raw_pair_length_counts": {
+    "DNA": {
+      "raw": 11848,
+      "minus6": 6635,
+      "plus6": 0,
+      "unresolved": 4316
+    },
+    "cDNA": {
+      "raw": 15918,
+      "minus6": 531,
+      "plus6": 0,
+      "unresolved": 11561
+    }
+  },
+  "decision": "Use observed -6 event, corroborated explicitly by Figure6A. Preserve S2 +6 as internal sign inconsistency. This is an evidence-based analytical reconciliation, not an author-issued correction.",
+  "limits": "No correction of published aggregate percentages, no assertion of a unique indel coordinate: repeat context gives two equivalent deletion placements. No independent biological truth inferred."
+}

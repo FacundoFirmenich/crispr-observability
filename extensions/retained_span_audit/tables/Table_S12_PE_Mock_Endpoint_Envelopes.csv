@@ -1,0 +1,7 @@
+preparation,event,OAT_reference_settings,L_min_pp,L_min_reference,L_min_setting,H_max_pp,H_max_reference,H_max_setting,all_lower_endpoints_positive
+1,CTT_plus_full_SE2,14,15.90186372060652,mutant,score_70,20.437488881202725,mutant,extend_m4,True
+1,native_local_peptide_all_observed_sequences,14,16.01852147591688,mutant,score_70,20.55414663651308,mutant,extend_m4,True
+2,CTT_plus_full_SE2,14,28.703475499341828,mutant,score_70,32.70954962468724,programmed,score_70,True
+2,native_local_peptide_all_observed_sequences,14,29.057937551051584,mutant,score_70,33.06922435362802,programmed,score_70,True
+3,CTT_plus_full_SE2,14,24.92238410963751,mutant,score_70,28.503271537622684,programmed,score_70,True
+3,native_local_peptide_all_observed_sequences,14,25.16093372795812,mutant,score_70,28.74863685932388,programmed,score_70,True

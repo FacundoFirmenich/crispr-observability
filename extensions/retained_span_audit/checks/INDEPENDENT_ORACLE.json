@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Bounded exhaustive computational tests; artificial test strings are not biological data or additional study observations.",
+  "alphabet": "Exhaustive AC reference lengths 3..5 and read lengths 0..5; N-containing ACN reads to length 4 for length-3 AC references; 80 seeded ACGT/ACGTN cases.",
+  "sequence_pairs": 4328,
+  "paths_enumerated": 176305,
+  "window_contracts": 33928,
+  "dual_transport_checks": 33928,
+  "target_maxima_checks": 410,
+  "modulo_checks": 159531,
+  "seconds": 26.205,
+  "source_hashes": {
+    "verify_alignment_oracle_mp21.py": "1e9a144b5a4a70c1dd45be7074b33207059953768f99d02045eb1e2db4a84613",
+    "optimal_lattice.py": "8c0d08d0c15a3bb6ac4ec0fd6321a3199c35ca18594bd34264d69f6c4859dea7",
+    "recompute_panel.py": "6b65dcd54b00ee283adc5b9b5143e79cd0d4a53dc032e579cf55aa23e22fc1f0"
+  }
+}

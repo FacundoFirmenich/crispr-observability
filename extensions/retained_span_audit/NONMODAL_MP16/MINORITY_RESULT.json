@@ -1,0 +1,3129 @@
+{
+  "scope": "Retrospective DNA-discovered recurrent nonmodal sequence events, separately corroborated in cDNA.",
+  "candidates": 84,
+  "distinct_sequences": 72,
+  "cDNA_observed_ge1": 62,
+  "cDNA_supported_ge5": 30,
+  "DNA_support_total": 3107,
+  "cDNA_support_total": 382,
+  "certified_by_delta": {
+    "0": 84,
+    "9": 84,
+    "18": 84,
+    "27": 84,
+    "36": 84,
+    "45": 0,
+    "54": 0
+  },
+  "results": [
+    {
+      "clone": "3",
+      "hash": "7a24da04056ab5298b50e88f4d3080966e4ca67c4cd98b35836dc5db748b9e33",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": -40,
+      "cDNA_pairs": 5,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 298,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 302,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "3",
+      "hash": "ef0d35013051c020916976f81babf0af8654ff8515259e15e1285b8cd08eced4",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": 2,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 610,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 578,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "6",
+      "hash": "acc23cb21f7c71c5543ce27eda0fe6acc9f1fa4579516b4fecc62a8b80bdde26",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 7,
+      "net_length_JEB": -17,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 441,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 463,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "6",
+      "hash": "ea7a0ff0ef3d1b86b4cc901df1acee5dfac0cdbea09a7f80dc768f6b26fe5276",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCCTCATGTCAGGTGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": -17,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 432,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 454,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "9",
+      "hash": "0056cd99fe940322e50262adecb4f4073247b61f31b2d255f7db19ffe8dd33d6",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGTCTCCCACAGTCGGGGTAGCAGCTCCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": -9,
+      "cDNA_pairs": 2,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 506,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 510,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "9",
+      "hash": "218287d2e4058a2fd4749b21c52fad20d1967c1841c1c60679bc5bc323e51836",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCTCCTCACACAGCTCATGTCAGGCAGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": -22,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 397,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 419,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "9",
+      "hash": "28dbeee4ebe4282494ca0040d488c2dda120893a34be2a74f0b176b07251897c",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCATGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 8,
+      "net_length_JEB": -9,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 506,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 510,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "9",
+      "hash": "3381f6759ca61ffdd2a8223b06c669f2b7bba4ff7d976dbece60bcd40f869398",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATACCTCCCACAGTCGGGGTAGCAGCTCCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -9,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 506,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 510,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "9",
+      "hash": "650f66b1e21f21542e286519e8ae2fff94ac844b8da2f03322642b7d5d3e469b",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCCCCCACAGTCGGGGTAGCAGCTCCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": -9,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 506,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 510,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "9",
+      "hash": "dc68213ec124e071d28ef867b6c6ebc19ecfe8b5c6b37a8fadf1bc4557694008",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGTCTCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 7,
+      "net_length_JEB": -22,
+      "cDNA_pairs": 8,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 397,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 419,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "10",
+      "hash": "204e0686b9782b6c69a55ab9b5d32986170897cb658ada159197116c9342a64c",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 20,
+      "net_length_JEB": 0,
+      "cDNA_pairs": 9,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 578,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 600,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "10",
+      "hash": "b977deb659cda482ee6accf77ba04fb910d98de59d2f55958f52768306c18292",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCACAGCTCATCGGGGTAGCAGCTCCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 8,
+      "net_length_JEB": -2,
+      "cDNA_pairs": 8,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 447,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 460,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "12",
+      "hash": "204e0686b9782b6c69a55ab9b5d32986170897cb658ada159197116c9342a64c",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 0,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 578,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 600,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "12",
+      "hash": "21bcc9653f572b78de785788189c35e3e6aab56ef8d98da38239cf4c1822af8d",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAACCCCTCCTCCTCACACAGCTCATACACAGCCCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": 34,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 519,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 514,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "12",
+      "hash": "6ef2ef3a2d9cd43a404e69f6e770d76a8a87bb346b907bc4fa40c89cf3161ad5",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGTCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAACCCCTCCTCCTCACACAGCTCATACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": 34,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 510,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 505,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "12",
+      "hash": "921c707bed8b6d3593f23b422a9a8d5bf534e928e2eec7d80f40b17185d8cf10",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 8,
+      "net_length_JEB": -15,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 464,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 477,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "12",
+      "hash": "a2944190e9f1e08cabe7491689ba0fa61016f0b7f955b0fd08cc52d8d6826d7b",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAACCCCTCCTCCTCACACAGCTCATACACAGCTCATGTCAGGTGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 34,
+      "cDNA_pairs": 4,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 510,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 505,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "12",
+      "hash": "e259d6fd343b8c199775d98e593fcd380c6673b5e79bad18651cc9696676527c",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGTAGCTCCTCCTCACACAGCTCAACCCCTCCTCCTCACACAGCTCATACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": 34,
+      "cDNA_pairs": 5,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 510,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 505,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "12",
+      "hash": "ef0d35013051c020916976f81babf0af8654ff8515259e15e1285b8cd08eced4",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 19,
+      "net_length_JEB": 2,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 610,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 578,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "13",
+      "hash": "204e0686b9782b6c69a55ab9b5d32986170897cb658ada159197116c9342a64c",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 41,
+      "net_length_JEB": 0,
+      "cDNA_pairs": 44,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 578,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 600,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "13",
+      "hash": "294e59004b7c0bcbfda223fb4f96df1a48ba714a434f9755c41992e8e7aad787",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGTCTCCCACAGTCGGGGTTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 7,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 537,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 559,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "13",
+      "hash": "4092ba84ba327cc3b0207db8f984b1e9a8ef81bf9e3a698b25782e3cc05f591b",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTTCGGGGTAGCAGCTCCTCCTCACACAGCTCAGTCGGGCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 16,
+      "net_length_JEB": 15,
+      "cDNA_pairs": 14,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 530,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 534,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "13",
+      "hash": "53c386917cc5e0d43708d5a5ee360d676685ff418de564f85ff5e7e90fe33cc6",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGCTCCTCCTCACACAGCTCAGTCGGGCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": 29,
+      "cDNA_pairs": 2,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 529,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 524,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "13",
+      "hash": "6fe5a3c72479348c26df21a5285250174dbefae874259080b465b1211533b513",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAGTCGGGCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 8,
+      "cDNA_pairs": 9,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 562,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 566,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "13",
+      "hash": "800d7beba9b6300a637c66ac2fd5f24d0d51c427118bf0ebcb1225521c761823",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGCTCCTCCTCACACAGCTCAGTCGGGCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 14,
+      "net_length_JEB": 36,
+      "cDNA_pairs": 13,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 497,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 492,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "13",
+      "hash": "a0f6647ad0b379df28e6adea4701b5837ff19220be858d96b03d8a01b2f31a23",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTTCGGGGTAGCGGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 7,
+      "net_length_JEB": 7,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 537,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 559,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "13",
+      "hash": "beedefeef7cda7afd567d20815f20b4bf226c7543c48e35c43d7192091bc56e9",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAGTCGGGGTAGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 7,
+      "net_length_JEB": -2,
+      "cDNA_pairs": 9,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 519,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 523,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "13",
+      "hash": "c6d90adaba9675db3968f38ad87ba791cd0bb2dc781f36079667373982cf0d2d",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGCTCCTCCTCACACAGCTCAGTCGGGCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 9,
+      "net_length_JEB": 61,
+      "cDNA_pairs": 11,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 456,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 460,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "13",
+      "hash": "d14038873b515b2f80c748eea290d9b5d252cf07aea0283c8bca7645a15212ea",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCATGGATGCCTCCCACAGTCGGGGTTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 7,
+      "cDNA_pairs": 5,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 537,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 559,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "13",
+      "hash": "d1a201ad576e9be0a8686d6101077c1d831fe7669342bc57e344264e98c64348",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTTCCACAGTCGGGGTTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 7,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 537,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 559,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "14",
+      "hash": "204e0686b9782b6c69a55ab9b5d32986170897cb658ada159197116c9342a64c",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": 0,
+      "cDNA_pairs": 6,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 578,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 600,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "14",
+      "hash": "7ed86d07e49116243ea4a4c282fc1936879dbc556b77b62b51ca791497df485b",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 7,
+      "net_length_JEB": -10,
+      "cDNA_pairs": 9,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 490,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 512,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "14",
+      "hash": "bfd995ab954dee9ca7a04e69c3f49f6e7b59b4ea8317f507004ec9a3b5cc8b5b",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCGGGGTAGCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -18,
+      "cDNA_pairs": 9,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 416,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 438,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "14",
+      "hash": "c36f4436b0bde73b56c76a62d3819f7c0653f228f2f7d69f50a896fb9daf0892",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTCCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -10,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 481,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 503,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "16",
+      "hash": "05c831b10ef67b319f906b3a1091383f5d391ea39548204d1d75b4ecad9892f6",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTAGCGCAGCTCCTCTCCTCACAGGGTAGCAGCTCCTCTCCTCACACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": 28,
+      "cDNA_pairs": 14,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 477,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 499,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "16",
+      "hash": "6a2a566b4350e0b1011183d2541ad021f1899dc180bd7eb7015fa4353e8474b6",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTAGCGCAGCTCCTCCTCAGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 7,
+      "net_length_JEB": 19,
+      "cDNA_pairs": 2,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 522,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 544,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "16",
+      "hash": "80eed8f96b1d71feccdc1a53b77eb2e80ba86a9a7965c79f3336e6bc248faaa5",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTAGCACAGCTCCTCCTCAGGTAGCAGCTCCTCCTCACACAGCTCATCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": 34,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 510,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 496,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "16",
+      "hash": "8cd3176536c7c7c8780ed237974c29eba07f5fac90302895d131f128e4765a27",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCTCCTCACAGGGTAGCAGCTCCTCCTCACACAGCTCATCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 16,
+      "net_length_JEB": 38,
+      "cDNA_pairs": 12,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 502,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 506,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "16",
+      "hash": "bd208b5198c3514abd289a19e967b3db9b11e0d1b62d22dc9e4c67a1bd9b8ba2",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTAGCGCAGCTCCTCCTCAGGTAGCAGCTCCTCCTCACACAGCTCATCCTCACACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 36,
+      "cDNA_pairs": 2,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 506,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 492,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "16",
+      "hash": "c1bd3e3e2f61771bcdc62611286a23683383689bfb8ad8fc74f7f16bf5024a06",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCAGGTAGCAGCTCCTCCTCACACAGCTCATCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 11,
+      "net_length_JEB": 33,
+      "cDNA_pairs": 8,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 512,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 516,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "16",
+      "hash": "d0718f08564d0382a1190af50a61b04168f950f3b02e5b058b4409a418394693",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTAGCGCAGCTCCTCCTCAGGTAGCAGCTCCTCTCCTCACACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 14,
+      "net_length_JEB": 23,
+      "cDNA_pairs": 11,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 487,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 509,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "16",
+      "hash": "f1b7ed50cf5f6e7f290786a205d26b9f7e6466fd436b6672d58072fede3e1f72",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCATGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCTCCTCACAGGGTAGCAGCTCCTCTCCTCACACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 27,
+      "cDNA_pairs": 5,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 488,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 510,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "17",
+      "hash": "204e0686b9782b6c69a55ab9b5d32986170897cb658ada159197116c9342a64c",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 11,
+      "net_length_JEB": 0,
+      "cDNA_pairs": 8,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 578,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 600,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "17",
+      "hash": "bd51b8e7678af9f85c05976ea505fed79137cf23a1fcb4b835db84ca4e23ede1",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAACTCCTCCTCACACAGCTCATCACACAGCTCAGTCGGAGTAGCAGCTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 24,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 521,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 516,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "18",
+      "hash": "6a608b44fc8ba3988c8fd7d5ed91d9999db992a3abc23f6528c755ea84e50fc7",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCTCCTCAGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -4,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 487,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 509,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "18",
+      "hash": "a8773224a5d20a363652d6b9d592fb18994a6cba7ecbe851a14c86e1f3abc6a8",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 14,
+      "net_length_JEB": -10,
+      "cDNA_pairs": 12,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 490,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 512,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "18",
+      "hash": "b6342df743ae1392df714459f5e5e4f4b37c2a90d78adf970e2728e830297d83",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 19,
+      "net_length_JEB": -8,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 504,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 526,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "19",
+      "hash": "05c881b68e219ca6aa2b92b39e13267f884f20bd703dc2336cb79a5b4608a541",
+      "sequence": "GGGGACAGCCGCCTCCTGTCTACGGATGCCTCCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -26,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 369,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 391,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "19",
+      "hash": "0f79d27b934d562cc08a1a59da3e084bb7d070709a8400af3f65d32373a779de",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGTCTCCCACAGTCGGGGTAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -37,
+      "cDNA_pairs": 4,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 310,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 314,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "19",
+      "hash": "6d09ad81c06461c5134666c3f94e88d993b0506538d07f474d84a6ae07761a7e",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCGCGGATGCCTCCCACAGTCGGGGTAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": -37,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 310,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 314,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "19",
+      "hash": "93098f386f887a09021fe1a17e3d45e532bfff7fccd45ce3d32d5b6516cf52e6",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGTCTCCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -26,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 369,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 391,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "21",
+      "hash": "0dc9bcd0c8906aad21b25e3b8c18eced3c1277d8b46b3e56629b9547bf097ec6",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTACCCTCCTCACACAGCTCATCGCACAGCTCATCGGGGTAGCAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 17,
+      "net_length_JEB": 22,
+      "cDNA_pairs": 5,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 462,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 448,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "21",
+      "hash": "204e0686b9782b6c69a55ab9b5d32986170897cb658ada159197116c9342a64c",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 19,
+      "net_length_JEB": 0,
+      "cDNA_pairs": 10,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 578,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 600,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "21",
+      "hash": "ca4bce4f5d698c1fe043eb63742dfca9b10d6d8ca17ecb19c46f16524040afd4",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTACCCTCCTCACACAGCTCATCGCACAGCTCATCGGGGTAGCAGCTCCCCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 37,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 477,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 499,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "21",
+      "hash": "ec7dd99356913440f897702a22388d1c0f243181c7426fc630f87307a2559338",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGTACCCTCCTCACACAGCTCATCACACAGCTCATCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 37,
+      "cDNA_pairs": 4,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 486,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 508,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "21",
+      "hash": "f8eea233b1009282a331da60ad5e2772e558f0dbcba55e5f17811c427313b366",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAACCCCTCCTCCTCACACAGCTCATACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": 34,
+      "cDNA_pairs": 2,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 519,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 514,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "22",
+      "hash": "196da491bf8199386d6542935fd5216a6c9e5482485a9e9bf3e6e19c6b583676",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACGGTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -13,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 460,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 482,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "22",
+      "hash": "204e0686b9782b6c69a55ab9b5d32986170897cb658ada159197116c9342a64c",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 21,
+      "net_length_JEB": 0,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 578,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 600,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "22",
+      "hash": "461edffeca4aca57eee5774109952a5dd4e33e229bda59801f2eab3ca88f9f67",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGTCTCCCACAGTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -13,
+      "cDNA_pairs": 5,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 460,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 482,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "22",
+      "hash": "76055df82e70db485d21bfa0ccc69ec98dae388c01ffc3b599d89023ad86cecc",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCCTCCTCACACAGCCCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 8,
+      "net_length_JEB": -13,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 460,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 482,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "22",
+      "hash": "acc23cb21f7c71c5543ce27eda0fe6acc9f1fa4579516b4fecc62a8b80bdde26",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 11,
+      "net_length_JEB": -17,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 441,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 463,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "22",
+      "hash": "d75626cc50c50aa0fd382efb6ae76143efbe9775f7efe2cf16b3060860248be4",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCCTCCTCACACAGCTCATGTCAGGTGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -13,
+      "cDNA_pairs": 2,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 460,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 482,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "24",
+      "hash": "204e0686b9782b6c69a55ab9b5d32986170897cb658ada159197116c9342a64c",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 0,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 578,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 600,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "24",
+      "hash": "256dae678dbd8f90b86897a6f86c196cd005276f70d3af9cdc072cf858ce5347",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCATGGATGCCTCCCACAGTCGGGGTAGCAGCTCTGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": -16,
+      "cDNA_pairs": 5,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 457,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 461,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "24",
+      "hash": "4892fc0030b154d34ab971577d29d69265a6296c414d1cf2966fff312e564da1",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 1108,
+      "net_length_JEB": -33,
+      "cDNA_pairs": 28,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 347,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 351,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "24",
+      "hash": "7c7be705bf43c5dc497a3741109d57883e106e47e7744efb21921ba420d33af0",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 1125,
+      "net_length_JEB": -35,
+      "cDNA_pairs": 22,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 333,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 337,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "24",
+      "hash": "8a110327b5f18e5038da3605c6c985e6b50fbb3266f84d4e4eb0adf49725e15b",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -13,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 469,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 491,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "27",
+      "hash": "22c5e5c8410882e795fda833a6c76985c1679dd2f9eef8b58bc1d90cfe81a508",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCATGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCATCAGGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -13,
+      "cDNA_pairs": 2,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 460,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 464,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "27",
+      "hash": "2db499e5fcf7f5d6754d189371b6955f62c2a1d85c0435d11a9f402b44d5f2b7",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGTCTCCCACAGTCGGGGTAGCAGCTCCTCATCAGGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -13,
+      "cDNA_pairs": 6,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 460,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 464,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "27",
+      "hash": "54227ed13b6a727a16c462843f5a32d4d72e79faba2ddef07f48ff87b1e5a5c8",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGTCTCCCACATACCCCTCCTCACACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 8,
+      "net_length_JEB": -11,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 447,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 469,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "27",
+      "hash": "e85ccc1aa33f43a7a6d11c20c7322e63fcf71f3bae8b266d8d93bf4becbb4949",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATTGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 27,
+      "net_length_JEB": 7,
+      "cDNA_pairs": 2,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 573,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 568,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "28",
+      "hash": "39a5d86083d3196e21a670229fc032c937c8364e0377ff62a0888629466e6ece",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATTGCTCATGTCAGGTGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 7,
+      "net_length_JEB": 7,
+      "cDNA_pairs": 4,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 564,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 559,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "28",
+      "hash": "39d02d7fd9ff425852b7381064db30843e34abd682c1054d519c9cc851d49de9",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCAATGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 23,
+      "net_length_JEB": 7,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 564,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 568,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "28",
+      "hash": "7ec2a66a30558c403eee7a97345ee45a99587507d7566210945e1b5d77852933",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATTGCTCATGTCAGGCGGGGCAGCTCCTATAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": 7,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 564,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 559,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "28",
+      "hash": "87fdc875c55917132b41ba1e82604d7563b85364b9763847a5d3028c6a1adcf6",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGAATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATTGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 6,
+      "net_length_JEB": 7,
+      "cDNA_pairs": 1,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 564,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 559,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "28",
+      "hash": "907ad8bf64ec8365d41aa9946722391d5ec7a6ce159e8e489b75f0412186b4ad",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCATGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATTGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 8,
+      "net_length_JEB": 7,
+      "cDNA_pairs": 3,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 564,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 559,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "28",
+      "hash": "921c707bed8b6d3593f23b422a9a8d5bf534e928e2eec7d80f40b17185d8cf10",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 43,
+      "net_length_JEB": -15,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 464,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 477,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "28",
+      "hash": "9ccea2886b50bb6f58e75e37fb4a0263b4dc7e1e384988b1c7c9ab760a5d3b7d",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 21,
+      "net_length_JEB": -27,
+      "cDNA_pairs": 0,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 371,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 393,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "28",
+      "hash": "e8e1de9c786fc3d2d6c0002d6950be2637f0feee6f80c2355538da817c004084",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATTGCCCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 43,
+      "net_length_JEB": 7,
+      "cDNA_pairs": 2,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 573,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 568,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "28",
+      "hash": "ef0d35013051c020916976f81babf0af8654ff8515259e15e1285b8cd08eced4",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCCTCCTCACACAGCTCATCTGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 79,
+      "net_length_JEB": 2,
+      "cDNA_pairs": 2,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 610,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 578,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "63",
+      "hash": "87dff22d09de898164057d11bc9b9e9b9df30167211ecfc4b7e18e37a7cd5dea",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 9,
+      "net_length_JEB": -17,
+      "cDNA_pairs": 2,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 459,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 463,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "63",
+      "hash": "8a56d923a3abc1f0925201caff673291981da9e96983bb1ca5dbee0df2124b7b",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCATGGATGCCTCCCACAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -46,
+      "cDNA_pairs": 5,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 247,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 251,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "63",
+      "hash": "921c707bed8b6d3593f23b422a9a8d5bf534e928e2eec7d80f40b17185d8cf10",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCACAGTCGGGGTAGCAGCTCATGTCAGGCGGGGCAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 18,
+      "net_length_JEB": -15,
+      "cDNA_pairs": 4,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 464,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 477,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "clone": "63",
+      "hash": "95ab6d1552e692e9c6dcac8dbada19617a94c134739e72d38be9f4c09cd8e22f",
+      "sequence": "GGGGACAGCCGCCTCCTGTCCACGGATGCCTCCCATAGCTCCTACAGCTCTTCCATGAGCACAGGAGGAGGTGG",
+      "DNA_pairs": 5,
+      "net_length_JEB": -46,
+      "cDNA_pairs": 3,
+      "reference_scores": [
+        {
+          "reference": "HKC",
+          "optimum": 247,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        },
+        {
+          "reference": "JEB",
+          "optimum": 251,
+          "deficits": [
+            45,
+            0,
+            45
+          ]
+        }
+      ],
+      "calls": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E",
+        "U",
+        "U"
+      ]
+    }
+  ],
+  "reference_witness_cases": 168
+}

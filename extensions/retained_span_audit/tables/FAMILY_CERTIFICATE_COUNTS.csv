@@ -1,0 +1,163 @@
+run,preparation,condition,family,certificate,event,N,E,NE,U,L_exact,H_exact
+SRR29623265,2,mock,F3,string_witness,exact_programmed,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F3,string_witness,native,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F3,string_witness,native_nonexact,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F3,target_relative,exact_programmed,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F3,target_relative,native,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F3,target_relative,native_nonexact,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F4,string_witness,exact_programmed,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F4,string_witness,native,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F4,string_witness,native_nonexact,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F4,target_relative,exact_programmed,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F4,target_relative,native,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F4,target_relative,native_nonexact,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F9,string_witness,exact_programmed,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F9,string_witness,native,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F9,string_witness,native_nonexact,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F9,target_relative,exact_programmed,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F9,target_relative,native,21041,0,20528,513,0,513/21041
+SRR29623265,2,mock,F9,target_relative,native_nonexact,21041,0,20528,513,0,513/21041
+SRR29623266,2,untreated,F3,string_witness,exact_programmed,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F3,string_witness,native,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F3,string_witness,native_nonexact,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F3,target_relative,exact_programmed,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F3,target_relative,native,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F3,target_relative,native_nonexact,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F4,string_witness,exact_programmed,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F4,string_witness,native,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F4,string_witness,native_nonexact,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F4,target_relative,exact_programmed,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F4,target_relative,native,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F4,target_relative,native_nonexact,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F9,string_witness,exact_programmed,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F9,string_witness,native,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F9,string_witness,native_nonexact,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F9,target_relative,exact_programmed,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F9,target_relative,native,13617,0,13290,327,0,109/4539
+SRR29623266,2,untreated,F9,target_relative,native_nonexact,13617,0,13290,327,0,109/4539
+SRR29623267,3,mock,F3,string_witness,exact_programmed,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F3,string_witness,native,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F3,string_witness,native_nonexact,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F3,target_relative,exact_programmed,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F3,target_relative,native,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F3,target_relative,native_nonexact,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F4,string_witness,exact_programmed,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F4,string_witness,native,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F4,string_witness,native_nonexact,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F4,target_relative,exact_programmed,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F4,target_relative,native,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F4,target_relative,native_nonexact,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F9,string_witness,exact_programmed,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F9,string_witness,native,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F9,string_witness,native_nonexact,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F9,target_relative,exact_programmed,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F9,target_relative,native,27024,0,26392,632,0,79/3378
+SRR29623267,3,mock,F9,target_relative,native_nonexact,27024,0,26392,632,0,79/3378
+SRR29623268,3,untreated,F3,string_witness,exact_programmed,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F3,string_witness,native,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F3,string_witness,native_nonexact,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F3,target_relative,exact_programmed,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F3,target_relative,native,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F3,target_relative,native_nonexact,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F4,string_witness,exact_programmed,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F4,string_witness,native,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F4,string_witness,native_nonexact,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F4,target_relative,exact_programmed,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F4,target_relative,native,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F4,target_relative,native_nonexact,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F9,string_witness,exact_programmed,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F9,string_witness,native,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F9,string_witness,native_nonexact,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F9,target_relative,exact_programmed,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F9,target_relative,native,29956,0,29172,784,0,196/7489
+SRR29623268,3,untreated,F9,target_relative,native_nonexact,29956,0,29172,784,0,196/7489
+SRR29623270,3,PE treated,F3,string_witness,exact_programmed,14672,3706,10300,666,1853/7336,1093/3668
+SRR29623270,3,PE treated,F3,string_witness,native,14672,3741,10265,666,3741/14672,4407/14672
+SRR29623270,3,PE treated,F3,string_witness,native_nonexact,14672,35,13971,666,5/2096,701/14672
+SRR29623270,3,PE treated,F3,target_relative,exact_programmed,14672,3706,10304,662,1853/7336,39/131
+SRR29623270,3,PE treated,F3,target_relative,native,14672,3741,10269,662,3741/14672,629/2096
+SRR29623270,3,PE treated,F3,target_relative,native_nonexact,14672,35,13990,647,5/2096,341/7336
+SRR29623270,3,PE treated,F4,string_witness,exact_programmed,14672,3706,10255,711,1853/7336,631/2096
+SRR29623270,3,PE treated,F4,string_witness,native,14672,3741,10220,711,3741/14672,159/524
+SRR29623270,3,PE treated,F4,string_witness,native_nonexact,14672,35,13926,711,5/2096,373/7336
+SRR29623270,3,PE treated,F4,target_relative,exact_programmed,14672,3706,10288,678,1853/7336,274/917
+SRR29623270,3,PE treated,F4,target_relative,native,14672,3741,10250,681,3741/14672,2211/7336
+SRR29623270,3,PE treated,F4,target_relative,native_nonexact,14672,35,13985,652,5/2096,687/14672
+SRR29623270,3,PE treated,F9,string_witness,exact_programmed,14672,3706,10255,711,1853/7336,631/2096
+SRR29623270,3,PE treated,F9,string_witness,native,14672,3741,10220,711,3741/14672,159/524
+SRR29623270,3,PE treated,F9,string_witness,native_nonexact,14672,35,13926,711,5/2096,373/7336
+SRR29623270,3,PE treated,F9,target_relative,exact_programmed,14672,3706,10287,679,1853/7336,4385/14672
+SRR29623270,3,PE treated,F9,target_relative,native,14672,3741,10249,682,3741/14672,4423/14672
+SRR29623270,3,PE treated,F9,target_relative,native_nonexact,14672,35,13984,653,5/2096,43/917
+SRR29623271,2,PE treated,F3,string_witness,exact_programmed,19184,5605,12670,909,5605/19184,3257/9592
+SRR29623271,2,PE treated,F3,string_witness,native,19184,5673,12602,909,5673/19184,3291/9592
+SRR29623271,2,PE treated,F3,string_witness,native_nonexact,19184,68,18207,909,17/4796,977/19184
+SRR29623271,2,PE treated,F3,target_relative,exact_programmed,19184,5605,12683,896,5605/19184,591/1744
+SRR29623271,2,PE treated,F3,target_relative,native,19184,5673,12615,896,5673/19184,6569/19184
+SRR29623271,2,PE treated,F3,target_relative,native_nonexact,19184,68,18241,875,17/4796,943/19184
+SRR29623271,2,PE treated,F4,string_witness,exact_programmed,19184,5605,12642,937,5605/19184,3271/9592
+SRR29623271,2,PE treated,F4,string_witness,native,19184,5673,12574,937,5673/19184,3305/9592
+SRR29623271,2,PE treated,F4,string_witness,native_nonexact,19184,68,18179,937,17/4796,1005/19184
+SRR29623271,2,PE treated,F4,target_relative,exact_programmed,19184,5605,12668,911,5605/19184,1629/4796
+SRR29623271,2,PE treated,F4,target_relative,native,19184,5673,12599,912,5673/19184,6585/19184
+SRR29623271,2,PE treated,F4,target_relative,native_nonexact,19184,68,18239,877,17/4796,945/19184
+SRR29623271,2,PE treated,F9,string_witness,exact_programmed,19184,5605,12633,946,5605/19184,6551/19184
+SRR29623271,2,PE treated,F9,string_witness,native,19184,5673,12565,946,5673/19184,6619/19184
+SRR29623271,2,PE treated,F9,string_witness,native_nonexact,19184,68,18170,946,17/4796,507/9592
+SRR29623271,2,PE treated,F9,target_relative,exact_programmed,19184,5605,12659,920,5605/19184,6525/19184
+SRR29623271,2,PE treated,F9,target_relative,native,19184,5673,12590,921,5673/19184,3297/9592
+SRR29623271,2,PE treated,F9,target_relative,native_nonexact,19184,68,18230,886,17/4796,477/9592
+SRR29623272,1,PE treated,F3,string_witness,exact_programmed,20573,3539,15870,1164,3539/20573,4703/20573
+SRR29623272,1,PE treated,F3,string_witness,native,20573,3563,15846,1164,509/2939,4727/20573
+SRR29623272,1,PE treated,F3,string_witness,native_nonexact,20573,24,19385,1164,24/20573,1188/20573
+SRR29623272,1,PE treated,F3,target_relative,exact_programmed,20573,3539,15871,1163,3539/20573,4702/20573
+SRR29623272,1,PE treated,F3,target_relative,native,20573,3563,15847,1163,509/2939,4726/20573
+SRR29623272,1,PE treated,F3,target_relative,native_nonexact,20573,24,19415,1134,24/20573,1158/20573
+SRR29623272,1,PE treated,F4,string_witness,exact_programmed,20573,3539,15850,1184,3539/20573,4723/20573
+SRR29623272,1,PE treated,F4,string_witness,native,20573,3563,15826,1184,509/2939,4747/20573
+SRR29623272,1,PE treated,F4,string_witness,native_nonexact,20573,24,19365,1184,24/20573,1208/20573
+SRR29623272,1,PE treated,F4,target_relative,exact_programmed,20573,3539,15866,1168,3539/20573,4707/20573
+SRR29623272,1,PE treated,F4,target_relative,native,20573,3563,15842,1168,509/2939,4731/20573
+SRR29623272,1,PE treated,F4,target_relative,native_nonexact,20573,24,19414,1135,24/20573,1159/20573
+SRR29623272,1,PE treated,F9,string_witness,exact_programmed,20573,3539,15824,1210,3539/20573,4749/20573
+SRR29623272,1,PE treated,F9,string_witness,native,20573,3563,15800,1210,509/2939,4773/20573
+SRR29623272,1,PE treated,F9,string_witness,native_nonexact,20573,24,19339,1210,24/20573,1234/20573
+SRR29623272,1,PE treated,F9,target_relative,exact_programmed,20573,3539,15840,1194,3539/20573,4733/20573
+SRR29623272,1,PE treated,F9,target_relative,native,20573,3563,15816,1194,509/2939,4757/20573
+SRR29623272,1,PE treated,F9,target_relative,native_nonexact,20573,24,19388,1161,24/20573,1185/20573
+SRR29623273,1,mock,F3,string_witness,exact_programmed,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,F3,string_witness,native,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,F3,string_witness,native_nonexact,17177,0,16477,700,0,700/17177
+SRR29623273,1,mock,F3,target_relative,exact_programmed,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,F3,target_relative,native,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,F3,target_relative,native_nonexact,17177,0,16477,700,0,700/17177
+SRR29623273,1,mock,F4,string_witness,exact_programmed,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,F4,string_witness,native,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,F4,string_witness,native_nonexact,17177,0,16477,700,0,700/17177
+SRR29623273,1,mock,F4,target_relative,exact_programmed,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,F4,target_relative,native,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,F4,target_relative,native_nonexact,17177,0,16477,700,0,700/17177
+SRR29623273,1,mock,F9,string_witness,exact_programmed,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,F9,string_witness,native,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,F9,string_witness,native_nonexact,17177,0,16477,700,0,700/17177
+SRR29623273,1,mock,F9,target_relative,exact_programmed,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,F9,target_relative,native,17177,2,16475,700,2/17177,702/17177
+SRR29623273,1,mock,F9,target_relative,native_nonexact,17177,0,16477,700,0,700/17177
+SRR29623274,1,untreated,F3,string_witness,exact_programmed,13762,0,13176,586,0,293/6881
+SRR29623274,1,untreated,F3,string_witness,native,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,F3,string_witness,native_nonexact,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,F3,target_relative,exact_programmed,13762,0,13176,586,0,293/6881
+SRR29623274,1,untreated,F3,target_relative,native,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,F3,target_relative,native_nonexact,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,F4,string_witness,exact_programmed,13762,0,13176,586,0,293/6881
+SRR29623274,1,untreated,F4,string_witness,native,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,F4,string_witness,native_nonexact,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,F4,target_relative,exact_programmed,13762,0,13176,586,0,293/6881
+SRR29623274,1,untreated,F4,target_relative,native,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,F4,target_relative,native_nonexact,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,F9,string_witness,exact_programmed,13762,0,13176,586,0,293/6881
+SRR29623274,1,untreated,F9,string_witness,native,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,F9,string_witness,native_nonexact,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,F9,target_relative,exact_programmed,13762,0,13176,586,0,293/6881
+SRR29623274,1,untreated,F9,target_relative,native,13762,1,13175,586,1/13762,587/13762
+SRR29623274,1,untreated,F9,target_relative,native_nonexact,13762,1,13175,586,1/13762,587/13762

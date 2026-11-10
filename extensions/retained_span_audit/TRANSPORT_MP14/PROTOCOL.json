@@ -1,0 +1,674 @@
+{
+  "frozen_utc": "2026-11-06T14:31:09.157153+00:00",
+  "scope": "Fixed computational transport to all 17 other deposited COL17A1 clones.\nSame-study held-out reads, not independent biological truth or external-study validation.\nTargets/references from Clone10 analysis; primary padding9/deficit36 fixed now.\nBoth padding0/9 and the original complete deficit grid are retained.\n",
+  "primary": {
+    "padding": 9,
+    "deficit": 36
+  },
+  "padding": [
+    0,
+    9
+  ],
+  "deltas": [
+    0,
+    9,
+    18,
+    27,
+    36,
+    45,
+    54
+  ],
+  "groups": {
+    "12": [
+      {
+        "id": "70028538-a77c-4853-9de2-65a2c842a4e3",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone12_fwd.fastq.gz",
+        "size": 493105,
+        "checksum": "md5:31d873c1a84544121e3f88aabc65a3b1",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone12_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "accd9792-e6fb-442a-8967-b10bc3f0cf1a",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone12_rev.fastq.gz",
+        "size": 946112,
+        "checksum": "md5:e391354600e52c3fc9cef28763f78efc",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone12_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "809a13a4-35cb-42fd-8fa5-3057ace01fae",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone12_rev.fastq.gz",
+        "size": 1042034,
+        "checksum": "md5:0a46bab29b9f760f3ba4fa943d723e58",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone12_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "885efabf-751a-4d3f-bd04-883fb0bf14ff",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone12_fwd.fastq.gz",
+        "size": 497593,
+        "checksum": "md5:d89084924956455b70fdb4f97a70cca3",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone12_fwd.fastq.gz/content"
+        }
+      }
+    ],
+    "13": [
+      {
+        "id": "ad80bb8d-f924-48cb-afe7-0d11a2f4778b",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone13_fwd.fastq.gz",
+        "size": 418947,
+        "checksum": "md5:821cf73a22c435fd48ae4a97636ec4fd",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone13_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "0bd4e41e-c4d8-4bd0-a357-bffbe1bd174f",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone13_rev.fastq.gz",
+        "size": 819478,
+        "checksum": "md5:d827f643fd35f910050433ddcf8a1bbd",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone13_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "85d6965b-bcde-4d4a-854a-85ef5dec96fd",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone13_rev.fastq.gz",
+        "size": 1149991,
+        "checksum": "md5:e3f0aab100fd6655df5ac2c874f47205",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone13_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "f3863b51-acf2-4200-80c6-e62b492ccce9",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone13_fwd.fastq.gz",
+        "size": 625683,
+        "checksum": "md5:a046b51bda434fd6ec2bce13e39c7db9",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone13_fwd.fastq.gz/content"
+        }
+      }
+    ],
+    "9": [
+      {
+        "id": "69e5b553-d704-4045-b944-efcb6d42dcb5",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone9_rev.fastq.gz",
+        "size": 1476807,
+        "checksum": "md5:6d02a4927669a3edd110c27683227b9a",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone9_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "b9db8ab8-f0d8-4541-8896-d7391599dddb",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone9_fwd.fastq.gz",
+        "size": 987183,
+        "checksum": "md5:fc86fe5f0b5802c47e44ad8ecda0dab6",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone9_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "6de6bbd0-c3d3-4bc3-909f-6f958abaa29e",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone9_fwd.fastq.gz",
+        "size": 588653,
+        "checksum": "md5:fff298027abcca5039630c508fb25110",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone9_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "595fd155-ec99-48ad-a839-59b74b913fa6",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone9_rev.fastq.gz",
+        "size": 965386,
+        "checksum": "md5:1abadfe594e13317943f7c6c7ba2a454",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone9_rev.fastq.gz/content"
+        }
+      }
+    ],
+    "14": [
+      {
+        "id": "daf95f1f-1769-4ec4-a92d-ab407122a5e3",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone14_fwd.fastq.gz",
+        "size": 602068,
+        "checksum": "md5:6129f58b1bcb2a59cdc2d41e27e3fdba",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone14_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "383d4311-55ec-4959-be93-f876496e5c43",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone14_rev.fastq.gz",
+        "size": 990495,
+        "checksum": "md5:159f2e3ebc40caccdf0b5d1ab24007d5",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone14_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "6f998302-b0aa-4ef4-9cdc-88ef232053b4",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone14_rev.fastq.gz",
+        "size": 1033533,
+        "checksum": "md5:99cd346c26afde7a274b000b48e7dc4f",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone14_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "8250438b-d23f-4256-9b51-0e8ec4e26ad8",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone14_fwd.fastq.gz",
+        "size": 675016,
+        "checksum": "md5:91cdd0fda57babc83cba2eaaeb426ddf",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone14_fwd.fastq.gz/content"
+        }
+      }
+    ],
+    "16": [
+      {
+        "id": "6fba7338-47a5-4f57-83f7-c56aa2c18cbc",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone16_fwd.fastq.gz",
+        "size": 519049,
+        "checksum": "md5:065f9f9d4657e6796bbc91ad9924479b",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone16_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "1d24a706-53d5-4c07-926e-40a8a5594545",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone16_rev.fastq.gz",
+        "size": 995710,
+        "checksum": "md5:3996c1a148fd6f17c4a600a0ad4a3a15",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone16_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "bac445dd-1d3c-4b99-a99f-1e296a6e9aed",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone16_rev.fastq.gz",
+        "size": 1079900,
+        "checksum": "md5:c93e0846f02848e1d2447608f5394c10",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone16_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "2d4bfad4-33c8-439f-845e-cd54aa3cead1",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone16_fwd.fastq.gz",
+        "size": 656343,
+        "checksum": "md5:fe5ee3a2cfa55b9203e9669e8c2054dc",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone16_fwd.fastq.gz/content"
+        }
+      }
+    ],
+    "17": [
+      {
+        "id": "40aa56b1-65eb-4388-8f01-09f14a83c454",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone17_fwd.fastq.gz",
+        "size": 589809,
+        "checksum": "md5:43de464fe38b94b8858153e04547d343",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone17_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "1bfc4174-5a25-41db-a1f1-863fe2c2bfe3",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone17_rev.fastq.gz",
+        "size": 1013930,
+        "checksum": "md5:9e0df036c3ae1887e3ba38196cc47fdc",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone17_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "debbb06a-4ee1-472e-89b7-c5ce43103fc4",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone17_rev.fastq.gz",
+        "size": 875476,
+        "checksum": "md5:db3ed35a7ac199123c6b29ed900a0642",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone17_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "e4275618-b90a-4661-874e-b09ef1573c17",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone17_fwd.fastq.gz",
+        "size": 584733,
+        "checksum": "md5:b45ee7447486a0470b9676595c250bac",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone17_fwd.fastq.gz/content"
+        }
+      }
+    ],
+    "22": [
+      {
+        "id": "62bcede7-ec2a-4eb5-b1b5-550b086acc0f",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone22_rev.fastq.gz",
+        "size": 923332,
+        "checksum": "md5:b4eb4fd8e065a3737eaf2d54ce680f95",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone22_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "a3cce6a8-cf78-4f0e-908e-d2e449b90029",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone22_fwd.fastq.gz",
+        "size": 524788,
+        "checksum": "md5:a824679a729260df914e507fd5506e6c",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone22_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "c90d9411-6153-4578-9710-06bcc7bb8fdd",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone22_rev.fastq.gz",
+        "size": 875381,
+        "checksum": "md5:332ffabd9e41393070a5e5dbadf13007",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone22_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "f38a353e-8bc1-4b5c-b38c-9169c710d726",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone22_fwd.fastq.gz",
+        "size": 655247,
+        "checksum": "md5:f0018798be92c178892a1e46fe3cbccb",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone22_fwd.fastq.gz/content"
+        }
+      }
+    ],
+    "18": [
+      {
+        "id": "a9c2ff75-f316-4180-a1e1-f42700025a58",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone18_fwd.fastq.gz",
+        "size": 664360,
+        "checksum": "md5:5e64a198c460e9990850c3620a5db210",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone18_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "d98ff0c5-aa3a-42cd-a959-1a022d60de7c",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone18_rev.fastq.gz",
+        "size": 1019195,
+        "checksum": "md5:9bd8595a949188c44609a1ed52763de8",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone18_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "fc5103bb-25dd-44f5-8687-e3b430b03832",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone18_fwd.fastq.gz",
+        "size": 708161,
+        "checksum": "md5:84118dc9554b57d3f4121fd4d8f8be70",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone18_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "9f524724-488d-47fb-a8f7-d8e3b95e3a4f",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone18_rev.fastq.gz",
+        "size": 868764,
+        "checksum": "md5:3820f76e8638216b778fb25b705e14cd",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone18_rev.fastq.gz/content"
+        }
+      }
+    ],
+    "19": [
+      {
+        "id": "7236dd06-0ca8-43bc-b74a-433cfc714c97",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone19_fwd.fastq.gz",
+        "size": 592450,
+        "checksum": "md5:c9e99bb7a8e8e0bed6ef01af75e5678d",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone19_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "6343e976-b00b-44b8-8540-63578bc3f220",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone19_rev.fastq.gz",
+        "size": 1093914,
+        "checksum": "md5:208ebd37d50781497d26b32a1e802e6a",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone19_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "e4e5d8fa-efa1-4a8a-b8f4-d4eebc8fd18f",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone19_fwd.fastq.gz",
+        "size": 835259,
+        "checksum": "md5:26618fc5b5c5945ad2f85615c34ddd3d",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone19_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "7f3630a0-3512-4f7d-8544-3f4def31810c",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone19_rev.fastq.gz",
+        "size": 992110,
+        "checksum": "md5:5a3f6bb9396d2e228b5270a8aec4ebbe",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone19_rev.fastq.gz/content"
+        }
+      }
+    ],
+    "21": [
+      {
+        "id": "5c6f122e-6944-489e-9345-6f784791ca4e",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone21_fwd.fastq.gz",
+        "size": 459248,
+        "checksum": "md5:962bb59e33628f2f80cebb7e49c5f5bf",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone21_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "b1173f14-b332-4e32-977e-7956391dc8b0",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone21_rev.fastq.gz",
+        "size": 837066,
+        "checksum": "md5:c8ad008c48ae479f734bc3761e7a69f4",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone21_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "5cac952d-d1c0-4a8a-adaf-36054a30c2e4",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone21_fwd.fastq.gz",
+        "size": 722962,
+        "checksum": "md5:6e87de93d42ed12d3eeca21a7a3e6e65",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone21_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "eec856f0-02f7-4bc7-a34a-3d85711fac2b",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone21_rev.fastq.gz",
+        "size": 1020997,
+        "checksum": "md5:de91913b5eab6cf895520ef86c5db176",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone21_rev.fastq.gz/content"
+        }
+      }
+    ],
+    "24": [
+      {
+        "id": "1087d9a2-cbc9-4b0b-94a0-8e1fcec211d5",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone24_fwd.fastq.gz",
+        "size": 751699,
+        "checksum": "md5:d85bfe41c7b59c42c1eb3baa86dd7383",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone24_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "896a0692-63b0-49fd-890d-76021c461696",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone24_rev.fastq.gz",
+        "size": 966242,
+        "checksum": "md5:8349c1c56646d1a293c54c4f8978d5c8",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone24_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "4bc9d002-268c-419c-965e-5899789aee24",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone24_fwd.fastq.gz",
+        "size": 499257,
+        "checksum": "md5:d3872f883e885f184e01bdebea538b6d",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone24_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "74c8a524-570d-41fc-8a20-2e1b6d9bb3e3",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone24_rev.fastq.gz",
+        "size": 903442,
+        "checksum": "md5:d46b227eb69e1fa1c0a6f4130333ae54",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone24_rev.fastq.gz/content"
+        }
+      }
+    ],
+    "27": [
+      {
+        "id": "24d5ed8e-3205-4f79-9f44-a9abea2e9937",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone27_fwd.fastq.gz",
+        "size": 491763,
+        "checksum": "md5:296abc721de6f277fbd47f393c201ce2",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone27_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "89fbf129-1566-48d1-934c-6713afc5f431",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone27_rev.fastq.gz",
+        "size": 905742,
+        "checksum": "md5:c64e723f9157182fe3e38b18f067fb26",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone27_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "57a53a69-9b3d-4bd6-9dbc-9558921ef5c8",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone27_fwd.fastq.gz",
+        "size": 699375,
+        "checksum": "md5:2ba0a0174299b9f646b2784d11f78f8c",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone27_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "a07c19b9-4768-4328-a948-6513ccdcf0ee",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone27_rev.fastq.gz",
+        "size": 916920,
+        "checksum": "md5:b24162989c66959e30d3fa5b9d3db934",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone27_rev.fastq.gz/content"
+        }
+      }
+    ],
+    "28": [
+      {
+        "id": "15fb3b20-f008-4ae6-ac70-cb5745cf2edf",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone28_fwd.fastq.gz",
+        "size": 509151,
+        "checksum": "md5:63ac6a9770faea05a6216b2619f0d134",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone28_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "6709424d-c6c6-43af-a2cc-c1d44a62f174",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone28_rev.fastq.gz",
+        "size": 981987,
+        "checksum": "md5:75686099df292fd74c99f4e0590e3f14",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone28_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "09e80045-3824-4a16-b689-a75f70f28d48",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone28_fwd.fastq.gz",
+        "size": 611928,
+        "checksum": "md5:dbac701a9eb28a13301178ef8e802b10",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone28_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "a830d117-b930-46e4-be1b-c34e726a7528",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone28_rev.fastq.gz",
+        "size": 915250,
+        "checksum": "md5:6b750e0f58bf1f28197b655fe70be495",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone28_rev.fastq.gz/content"
+        }
+      }
+    ],
+    "3": [
+      {
+        "id": "1f5a7b42-1398-4c64-b7cb-3e7657088c9d",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone3_fwd.fastq.gz",
+        "size": 1203576,
+        "checksum": "md5:a1a15dba2e09f2ecd7e2fcd7a7857936",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone3_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "45e183ab-288b-4259-948f-686b92cf5ec9",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone3_rev.fastq.gz",
+        "size": 1122728,
+        "checksum": "md5:52c01c3f02612f4d83ad214b1d0450ce",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone3_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "fbf678e4-b87b-4fe8-9eb9-c5f5fabe707c",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone3_rev.fastq.gz",
+        "size": 921912,
+        "checksum": "md5:808d42d506bb5f3e5ec0214029f88e75",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone3_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "ab2cd7d4-91bb-40d6-9b08-57e40fd08495",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone3_fwd.fastq.gz",
+        "size": 859883,
+        "checksum": "md5:a9395c09da1ec61623e2a48d6ae93fc7",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone3_fwd.fastq.gz/content"
+        }
+      }
+    ],
+    "63": [
+      {
+        "id": "43c32bca-9cd7-4562-8132-0a2a449165e6",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone63_fwd.fastq.gz",
+        "size": 705261,
+        "checksum": "md5:0a16b8d7a1b61b975d986a44c942924e",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone63_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "c50b26f5-0c11-41ee-8449-c680d66037c1",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone63_rev.fastq.gz",
+        "size": 1160978,
+        "checksum": "md5:79c51dd39b480cb7b91ab37cdfe97f6f",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone63_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "a8c898d9-6bec-4a17-a076-3ba8692742ba",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone63_fwd.fastq.gz",
+        "size": 740843,
+        "checksum": "md5:de1f779c6a76d8a87c3c930c17af8bbe",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone63_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "076acab1-e0d2-4838-bc7e-d31aa6a37425",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone63_rev.fastq.gz",
+        "size": 815179,
+        "checksum": "md5:d3e06b85aba52e806d76188d22835317",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone63_rev.fastq.gz/content"
+        }
+      }
+    ],
+    "68": [
+      {
+        "id": "a357a58a-3a51-47e3-b1e0-266cf2a64139",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone68_fwd.fastq.gz",
+        "size": 496517,
+        "checksum": "md5:9d18de92ef378efaab8761bc5ef7810c",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone68_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "d5476ae7-1b93-4db6-8753-b038c2f0722d",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone68_rev.fastq.gz",
+        "size": 920298,
+        "checksum": "md5:aae13eef303d8ef8b5fe0f68981b0a5b",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone68_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "025a36ab-26c3-4ad4-8cc4-4b689b95e9c4",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone68_fwd.fastq.gz",
+        "size": 543455,
+        "checksum": "md5:5bab10bb27430b274a84e30f113af2c8",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone68_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "2ffbf065-93a7-4254-b1b0-861829e58f8a",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone68_rev.fastq.gz",
+        "size": 823883,
+        "checksum": "md5:393ae750dc4b6f696c61d4eb10fa7534",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone68_rev.fastq.gz/content"
+        }
+      }
+    ],
+    "6": [
+      {
+        "id": "e8c79671-99bd-4d5a-aaa1-c29ef800a9ec",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone6_rev.fastq.gz",
+        "size": 983399,
+        "checksum": "md5:141ca3250cd48bc419561147369a0737",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone6_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "ceb2b4cb-06f2-4ce7-b52d-43b84f18a524",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone6_fwd.fastq.gz",
+        "size": 715417,
+        "checksum": "md5:27b8d8c722cbac59dab25428015b99ac",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone6_fwd.fastq.gz/content"
+        }
+      },
+      {
+        "id": "3a9011e5-49d0-48d8-a4ba-e417af398ced",
+        "key": "C17Ex52_cDNA immoJEB_PPN_Clone6_rev.fastq.gz",
+        "size": 1146291,
+        "checksum": "md5:36513a4a6a38f0d04a777d0a43fd5389",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_cDNA%20immoJEB_PPN_Clone6_rev.fastq.gz/content"
+        }
+      },
+      {
+        "id": "854395a1-87c3-4274-89b0-e893deed646f",
+        "key": "C17Ex52_DNA immoJEB_PPN_Clone6_fwd.fastq.gz",
+        "size": 697303,
+        "checksum": "md5:5360507249cc44ddb42b5ec59b3eaf02",
+        "links": {
+          "self": "https://zenodo.org/api/records/6242279/files/C17Ex52_DNA%20immoJEB_PPN_Clone6_fwd.fastq.gz/content"
+        }
+      }
+    ]
+  },
+  "parent_freeze_sha256": "d6ada41e32ff8f1262ffbe02dd03461764f0cd2080119bf65eec263ed77de2db",
+  "engine_sha256": "6b65dcd54b00ee283adc5b9b5143e79cd0d4a53dc032e579cf55aa23e22fc1f0",
+  "script_sha256": "3289db9d4b92b48ba3df3c7bf3ad632dc7b725a5c5f2faf4fcc043fdeb3461a9",
+  "comparison": "R1 P1 call versus separately observed R2 exact-flank local string; disagreement is not independently adjudicated biological error.",
+  "retention": "All raw pair denominators retained. All17 clones reported. No parameter changes based on new read outcomes."
+}

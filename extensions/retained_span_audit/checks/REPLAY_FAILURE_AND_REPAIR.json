@@ -1,0 +1,8 @@
+{
+  "failure": "Exact dict equality rejected zero-count cells explicitly present in frozen table but absent from computed Counter",
+  "affected_clone": 3,
+  "repair": "Compare against nonzero frozen cells; preserve all source zeros and numeric data unchanged",
+  "status": "REPAIRED_AND_RERUN_PASS",
+  "verification": "FULL_COL17_REPLAY.json",
+  "scientific_counts_changed": false
+}

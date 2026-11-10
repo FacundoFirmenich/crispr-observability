@@ -1,0 +1,83 @@
+{
+  "clones": 17,
+  "totals": {
+    "DNA": 202997,
+    "cDNA": 213659
+  },
+  "primary_counts": [
+    {
+      "library": "DNA",
+      "target": "long40",
+      "E": 5,
+      "NE": 112196,
+      "U": 90796,
+      "mate_conflict": 2
+    },
+    {
+      "library": "DNA",
+      "target": "short18",
+      "E": 11,
+      "NE": 112191,
+      "U": 90795,
+      "mate_conflict": 1
+    },
+    {
+      "library": "cDNA",
+      "target": "long40",
+      "E": 1,
+      "NE": 64533,
+      "U": 149125,
+      "mate_conflict": 1
+    },
+    {
+      "library": "cDNA",
+      "target": "short18",
+      "E": 2,
+      "NE": 64533,
+      "U": 149124,
+      "mate_conflict": 0
+    }
+  ],
+  "admission": [
+    {
+      "library": "DNA",
+      "admitted_mates": 0,
+      "pairs": 85655
+    },
+    {
+      "library": "DNA",
+      "admitted_mates": 1,
+      "pairs": 5139
+    },
+    {
+      "library": "DNA",
+      "admitted_mates": 2,
+      "pairs": 112203
+    },
+    {
+      "library": "cDNA",
+      "admitted_mates": 0,
+      "pairs": 126484
+    },
+    {
+      "library": "cDNA",
+      "admitted_mates": 1,
+      "pairs": 22640
+    },
+    {
+      "library": "cDNA",
+      "admitted_mates": 2,
+      "pairs": 64535
+    }
+  ],
+  "primary_opposed_r1_r2_event_comparisons": 4,
+  "primary_joint_determinate_event_comparisons": 353476,
+  "full_strata": 952,
+  "published_clone_catalog_reconciled": true,
+  "limitations": [
+    "same-study computational holdout",
+    "no author-declared main target alleles outside clone10",
+    "mate agreement is not independently adjudicated biological accuracy",
+    "raw-denominator admission loss retained"
+  ]
+}

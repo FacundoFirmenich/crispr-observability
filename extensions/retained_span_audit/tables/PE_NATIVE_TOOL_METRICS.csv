@@ -1,0 +1,28 @@
+run,preparation,condition,Amplicon,Unmodified%,Modified%,Reads_in_input,Reads_aligned_all_amplicons,Reads_aligned,Unmodified,Modified,Discarded,Insertions,Deletions,Substitutions,Only Insertions,Only Deletions,Only Substitutions,Insertions and Deletions,Insertions and Substitutions,Deletions and Substitutions,Insertions Deletions and Substitutions
+SRR29623274,1,untreated,observed_mutant,98.11056167,1.88943833,13558,13549,13549,13293,256,0,0,2,254,0,2,254,0,0,0,0
+SRR29623274,1,untreated,Prime-edited,NA,NA,13558,13549,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRR29623274,1,untreated,Scaffold-incorporated,NA,NA,13558,13549,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRR29623266,2,untreated,observed_mutant,98.88073531,1.11926469,13498,13491,13491,13340,151,0,0,1,150,0,1,150,0,0,0,0
+SRR29623266,2,untreated,Prime-edited,NA,NA,13498,13491,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRR29623266,2,untreated,Scaffold-incorporated,NA,NA,13498,13491,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRR29623268,3,untreated,observed_mutant,98.91095452,1.08904548,29677,29660,29659,29336,323,0,0,7,317,0,6,316,0,0,1,0
+SRR29623268,3,untreated,Prime-edited,100.0,0.0,29677,29660,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+SRR29623268,3,untreated,Scaffold-incorporated,NA,NA,29677,29660,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRR29623273,1,mock,observed_mutant,98.32306234,1.67693766,16887,16879,16876,16593,283,0,0,5,279,0,4,278,0,0,1,0
+SRR29623273,1,mock,Prime-edited,100.0,0.0,16887,16879,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+SRR29623273,1,mock,Scaffold-incorporated,NA,NA,16887,16879,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRR29623265,2,mock,observed_mutant,98.99266081,1.00733919,20855,20848,20847,20637,210,0,0,5,205,0,5,205,0,0,0,0
+SRR29623265,2,mock,Prime-edited,0.0,100.0,20855,20848,1,0,1,0,0,0,1,0,0,1,0,0,0,0
+SRR29623265,2,mock,Scaffold-incorporated,NA,NA,20855,20848,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRR29623267,3,mock,observed_mutant,98.93247732,1.06752268,26805,26791,26791,26505,286,0,0,7,280,0,6,279,0,0,1,0
+SRR29623267,3,mock,Prime-edited,NA,NA,26805,26791,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRR29623267,3,mock,Scaffold-incorporated,NA,NA,26805,26791,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SRR29623272,1,PE treated,observed_mutant,97.05919878,2.94080122,20212,20176,15676,15215,461,0,22,113,334,17,110,326,0,5,3,0
+SRR29623272,1,PE treated,Prime-edited,97.25752508,2.74247492,20212,20176,4485,4362,123,0,45,23,65,35,23,55,0,10,0,0
+SRR29623272,1,PE treated,Scaffold-incorporated,0.0,100.0,20212,20176,14,0,14,0,14,0,0,14,0,0,0,0,0,0
+SRR29623271,2,PE treated,observed_mutant,98.10031661,1.89968339,18982,18880,12002,11774,228,0,30,104,115,17,96,98,0,9,4,4
+SRR29623271,2,PE treated,Prime-edited,94.80746791,5.19253209,18982,18880,6856,6500,356,0,136,126,129,111,115,95,1,24,10,0
+SRR29623271,2,PE treated,Scaffold-incorporated,0.0,100.0,18982,18880,20,0,20,0,15,0,7,13,0,5,0,2,0,0
+SRR29623270,3,PE treated,observed_mutant,97.66852509,2.33147491,14536,14490,9865,9635,230,0,26,124,85,22,123,80,0,4,1,0
+SRR29623270,3,PE treated,Prime-edited,93.77575363,6.22424637,14536,14490,4611,4324,287,0,133,77,118,97,72,77,0,36,5,0
+SRR29623270,3,PE treated,Scaffold-incorporated,0.0,100.0,14536,14490,12,0,12,0,7,0,7,5,0,5,0,2,0,0
