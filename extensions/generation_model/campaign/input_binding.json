@@ -1,0 +1,16 @@
+{
+  "MP24": {
+    "manifest_sha256": "a423625443508c0898afee6f65b3c5e9db02aa91ab96019d5983d008bd9e70f6",
+    "protocol_sha256": "8ea109900bd5141cf3cdce8544790749294ef013b91ed306d7a0958c07a88f8a",
+    "selection_sha256": "a2a9d2c70fbad170c1bc8758905915a577ae163f5edb593bb01d5989def09833"
+  },
+  "MP25": {
+    "manifest_sha256": "deb07917b50482dbdfebf48627bccacc0bb73fe24aac74b448cf176fba9c98b8",
+    "protocol_sha256": "75478e9ce983094288b8094204430534858f59345702f70eaa91052db9fc74a2",
+    "selection_sha256": "c23a977f61aab479fa2c7ff20f11c74082f3fab646e82dc8dff8d54170e787e3"
+  },
+  "reference": {
+    "sha256": "271ca0ee4247c2fa30c8491764ad8acd4bdde8eb3cf314f0720235010ae85c9f",
+    "file": "chr20.fa.gz"
+  }
+}

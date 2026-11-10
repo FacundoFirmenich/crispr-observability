@@ -1,0 +1,360 @@
+{
+  "all_records": {
+    "development|0": {
+      "N": 33440,
+      "observed_E": 3375,
+      "observed_correct": 6836,
+      "allele_correct": 10821,
+      "observed_U": 26602,
+      "allele_U": 22618,
+      "observed_incompatible": 2,
+      "observed_NE": 3463,
+      "allele_discordant": 1
+    },
+    "development|1": {
+      "N": 33440,
+      "observed_E": 3054,
+      "observed_correct": 6386,
+      "allele_correct": 15354,
+      "observed_U": 27052,
+      "allele_U": 18083,
+      "observed_incompatible": 2,
+      "observed_NE": 3334,
+      "allele_discordant": 3
+    },
+    "development|2": {
+      "N": 33440,
+      "observed_E": 1701,
+      "observed_correct": 3980,
+      "allele_correct": 16501,
+      "observed_NE": 2286,
+      "observed_incompatible": 7,
+      "allele_discordant": 5,
+      "observed_U": 29453,
+      "allele_U": 16934
+    },
+    "development|3": {
+      "N": 33440,
+      "observed_E": 884,
+      "observed_correct": 2487,
+      "allele_correct": 15997,
+      "observed_U": 30950,
+      "allele_U": 17439,
+      "observed_incompatible": 3,
+      "allele_discordant": 4,
+      "observed_NE": 1606
+    },
+    "development|5": {
+      "N": 33440,
+      "observed_E": 169,
+      "observed_correct": 556,
+      "allele_correct": 11422,
+      "observed_U": 32883,
+      "allele_U": 22015,
+      "observed_NE": 388,
+      "allele_discordant": 3,
+      "observed_incompatible": 1
+    },
+    "development|8": {
+      "N": 33440,
+      "observed_E": 4,
+      "observed_correct": 12,
+      "allele_correct": 5939,
+      "observed_U": 33428,
+      "allele_U": 27501,
+      "observed_NE": 8
+    },
+    "development|12": {
+      "N": 33440,
+      "observed_U": 33439,
+      "allele_correct": 2714,
+      "allele_U": 30726,
+      "observed_NE": 1,
+      "observed_correct": 1
+    },
+    "heldout|0": {
+      "N": 10800,
+      "observed_E": 606,
+      "observed_correct": 1214,
+      "allele_correct": 2880,
+      "observed_U": 9584,
+      "allele_U": 7919,
+      "observed_NE": 610,
+      "observed_incompatible": 2,
+      "allele_discordant": 1
+    },
+    "heldout|1": {
+      "N": 10800,
+      "observed_E": 927,
+      "observed_correct": 1938,
+      "allele_correct": 4359,
+      "observed_U": 8857,
+      "allele_U": 6438,
+      "observed_NE": 1016,
+      "allele_discordant": 3,
+      "observed_incompatible": 5
+    },
+    "heldout|2": {
+      "N": 10800,
+      "observed_E": 632,
+      "observed_correct": 1424,
+      "allele_correct": 5330,
+      "observed_NE": 803,
+      "observed_incompatible": 11,
+      "allele_discordant": 8,
+      "observed_U": 9365,
+      "allele_U": 5462
+    },
+    "heldout|3": {
+      "N": 10800,
+      "observed_E": 473,
+      "observed_correct": 1126,
+      "allele_correct": 5574,
+      "observed_NE": 666,
+      "observed_incompatible": 13,
+      "allele_discordant": 3,
+      "observed_U": 9661,
+      "allele_U": 5223
+    },
+    "heldout|5": {
+      "N": 10800,
+      "observed_E": 146,
+      "observed_correct": 314,
+      "allele_correct": 4580,
+      "observed_U": 10483,
+      "allele_U": 6220,
+      "observed_NE": 171,
+      "observed_incompatible": 3
+    },
+    "heldout|8": {
+      "N": 10800,
+      "observed_E": 4,
+      "observed_correct": 11,
+      "allele_correct": 2906,
+      "observed_U": 10789,
+      "allele_U": 7894,
+      "observed_NE": 7
+    },
+    "heldout|12": {
+      "N": 10800,
+      "observed_U": 10800,
+      "allele_correct": 1451,
+      "allele_U": 9349
+    },
+    "real|0": {
+      "N": 16816,
+      "observed_E": 7976,
+      "allele_correct": 8462,
+      "genotype_unknown": 1863,
+      "observed_NE": 662,
+      "allele_discordant": 21,
+      "observed_U": 8178,
+      "allele_U": 6470
+    },
+    "real|1": {
+      "N": 16816,
+      "observed_E": 9306,
+      "allele_discordant": 27,
+      "allele_correct": 9570,
+      "genotype_unknown": 1863,
+      "observed_NE": 945,
+      "allele_U": 5356,
+      "observed_U": 6565
+    },
+    "real|2": {
+      "N": 16816,
+      "observed_E": 2065,
+      "allele_correct": 7826,
+      "genotype_unknown": 1863,
+      "observed_NE": 435,
+      "allele_discordant": 29,
+      "allele_U": 7098,
+      "observed_U": 14316
+    },
+    "real|3": {
+      "N": 16816,
+      "observed_E": 818,
+      "allele_correct": 6823,
+      "genotype_unknown": 1863,
+      "observed_NE": 258,
+      "allele_discordant": 35,
+      "allele_U": 8095,
+      "observed_U": 15740
+    },
+    "real|5": {
+      "N": 16816,
+      "observed_E": 314,
+      "allele_correct": 5014,
+      "genotype_unknown": 1863,
+      "observed_NE": 166,
+      "allele_discordant": 25,
+      "allele_U": 9914,
+      "observed_U": 16336
+    },
+    "real|8": {
+      "N": 16816,
+      "observed_E": 146,
+      "allele_correct": 3019,
+      "genotype_unknown": 1863,
+      "observed_NE": 100,
+      "allele_discordant": 12,
+      "allele_U": 11922,
+      "observed_U": 16570
+    },
+    "real|12": {
+      "N": 16816,
+      "observed_E": 93,
+      "allele_correct": 1616,
+      "genotype_unknown": 1863,
+      "observed_NE": 72,
+      "allele_discordant": 8,
+      "allele_U": 13329,
+      "observed_U": 16651
+    }
+  },
+  "in_domain_simulation": {
+    "development|0": {
+      "N": 14308,
+      "observed_correct": 6822,
+      "allele_correct": 10791,
+      "observed_U": 7486,
+      "allele_U": 3517
+    },
+    "development|1": {
+      "N": 21478,
+      "observed_correct": 6337,
+      "allele_correct": 15243,
+      "observed_U": 15141,
+      "allele_U": 6235
+    },
+    "development|2": {
+      "N": 27001,
+      "observed_correct": 3905,
+      "allele_correct": 16356,
+      "observed_U": 23096,
+      "allele_U": 10645
+    },
+    "development|3": {
+      "N": 30496,
+      "observed_correct": 2431,
+      "allele_correct": 15865,
+      "observed_U": 28065,
+      "allele_U": 14631
+    },
+    "development|5": {
+      "N": 33035,
+      "observed_correct": 529,
+      "allele_correct": 11378,
+      "observed_U": 32506,
+      "allele_U": 21657
+    },
+    "development|8": {
+      "N": 33430,
+      "observed_correct": 9,
+      "allele_correct": 5934,
+      "observed_U": 33421,
+      "allele_U": 27496
+    },
+    "development|12": {
+      "N": 33440,
+      "observed_U": 33439,
+      "allele_correct": 2714,
+      "allele_U": 30726,
+      "observed_correct": 1
+    },
+    "heldout|0": {
+      "N": 3628,
+      "observed_correct": 1189,
+      "allele_correct": 2819,
+      "observed_U": 2439,
+      "allele_U": 809
+    },
+    "heldout|1": {
+      "N": 5314,
+      "observed_correct": 1751,
+      "allele_correct": 3892,
+      "observed_U": 3563,
+      "allele_U": 1422
+    },
+    "heldout|2": {
+      "N": 6703,
+      "observed_correct": 966,
+      "allele_correct": 4230,
+      "observed_U": 5737,
+      "allele_U": 2473
+    },
+    "heldout|3": {
+      "N": 7757,
+      "observed_correct": 642,
+      "allele_correct": 4236,
+      "observed_U": 7115,
+      "allele_U": 3521
+    },
+    "heldout|5": {
+      "N": 9235,
+      "observed_correct": 103,
+      "allele_correct": 3712,
+      "observed_U": 9132,
+      "allele_U": 5523
+    },
+    "heldout|8": {
+      "N": 10481,
+      "observed_correct": 6,
+      "allele_correct": 2766,
+      "observed_U": 10475,
+      "allele_U": 7715
+    },
+    "heldout|12": {
+      "N": 10796,
+      "observed_U": 10796,
+      "allele_correct": 1449,
+      "allele_U": 9347
+    }
+  },
+  "heldout_clean_center": {
+    "0": {
+      "N": 720,
+      "observed_E": 360,
+      "allele_correct": 720,
+      "observed_NE": 360
+    },
+    "1": {
+      "N": 720,
+      "observed_E": 359,
+      "allele_correct": 717,
+      "observed_U": 3,
+      "allele_U": 3,
+      "observed_NE": 358
+    },
+    "2": {
+      "N": 720,
+      "observed_U": 720,
+      "allele_correct": 594,
+      "allele_U": 126
+    },
+    "3": {
+      "N": 720,
+      "observed_U": 720,
+      "allele_correct": 537,
+      "allele_U": 183
+    },
+    "5": {
+      "N": 720,
+      "observed_U": 720,
+      "allele_correct": 467,
+      "allele_U": 253
+    },
+    "8": {
+      "N": 720,
+      "observed_U": 720,
+      "allele_correct": 299,
+      "allele_U": 421
+    },
+    "12": {
+      "N": 720,
+      "observed_U": 720,
+      "allele_correct": 166,
+      "allele_U": 554
+    }
+  }
+}

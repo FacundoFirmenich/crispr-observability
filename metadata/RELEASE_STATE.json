@@ -1,6 +1,6 @@
 {
-  "version": "0.7.1",
-  "edition": "MP21_GPL",
+  "version": "0.8.0",
+  "edition": "MP28_INTEGRATED",
   "status": "PUBLIC_COMPUTATIONAL_COMPANION_PRIVATE_MANUSCRIPTS",
   "public_release": true,
   "external_repository_created": true,
@@ -21,7 +21,7 @@
   "original_raw_inputs_included": 18,
   "frozen_alignment_tables_included": 84,
   "affiliations": [
-    "Centro de Estudios del Sur (CEDESUR), Spain and Argentina. For this project, academically affiliated with Universidad Nacional Arturo Jauretche (UNAJ), Av. Calchaqu\u00ed 6200, Florencio Varela, Provincia de Buenos Aires, 1888, Argentina",
+    "Centro de Estudios del Sur (CEDESUR), Spain and Argentina. For this project, academically affiliated with Universidad Nacional Arturo Jauretche (UNAJ), Av. Calchaquí 6200, Florencio Varela, Provincia de Buenos Aires, 1888, Argentina",
     "Universitat de Barcelona (UB), Gran Via de les Corts Catalanes, 585, 08007 Barcelona, Spain"
   ],
   "corresponding_email": "f.firmenich@cedesur.org",
@@ -44,7 +44,7 @@
   "personal_acknowledgments_recovered": 5,
   "scientific_observation_values_changed_by_author_recovery": false,
   "additional_ORCID_institutions_recovered": [
-    "Universidad Nacional de Lan\u00fas",
+    "Universidad Nacional de Lanús",
     "Universitat Pompeu Fabra"
   ],
   "complete_ORCID_affiliation_records": 5,
@@ -137,5 +137,14 @@
     "actual_CI": "Consult Actions for the exact final commit; no self-certifying future receipt."
   },
   "current_epistemic_graph": "extensions/retained_span_audit/epistemic_graph.html",
-  "historical_baseline_count_scope": "Existing original_raw_inputs_included and frozen_alignment_tables_included fields describe the preserved primary CFTR/HEK3 baseline, not all later sources."
+  "historical_baseline_count_scope": "Existing original_raw_inputs_included and frozen_alignment_tables_included fields describe the preserved primary CFTR/HEK3 baseline, not all later sources.",
+  "generation_model_extension": {
+    "path": "extensions/generation_model/",
+    "license": "MIT",
+    "campaigns": [
+      "MP27",
+      "MP28"
+    ],
+    "manuscripts_private": true
+  }
 }

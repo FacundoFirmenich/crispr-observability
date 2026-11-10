@@ -1,0 +1,1380 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "6b2e0eb1bc30d896d354975285ddec80a32a61d8e77b7873b284bc8ffe4a7959",
+  "engine_sha256": "89e14e6628eb9271594833eb30198767da08ddae9ebb782e654045d1ea53c647",
+  "calibration_blocks": 256,
+  "test_blocks": 256,
+  "calibration_records": 6144,
+  "test_records": 9216,
+  "soundness_failures": 0,
+  "seconds": 164.65567249800006,
+  "comparisons": [
+    {
+      "comparison": "baseline_matched",
+      "alpha": [
+        1,
+        10
+      ],
+      "scope": "matched",
+      "threshold": {
+        "n_blocks": 256,
+        "rank": 232,
+        "q": 4,
+        "infinity": false,
+        "alpha": [
+          1,
+          10
+        ]
+      },
+      "blocks": 256,
+      "covered_blocks": 246,
+      "records": 3072,
+      "included": 3062,
+      "correct_singleton": 512,
+      "ambiguous": 2550,
+      "empty": 10
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": [
+        1,
+        20
+      ],
+      "scope": "matched",
+      "threshold": {
+        "n_blocks": 256,
+        "rank": 245,
+        "q": 5,
+        "infinity": false,
+        "alpha": [
+          1,
+          20
+        ]
+      },
+      "blocks": 256,
+      "covered_blocks": 255,
+      "records": 3072,
+      "included": 3071,
+      "correct_singleton": 312,
+      "ambiguous": 2759,
+      "empty": 1
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": [
+        1,
+        10
+      ],
+      "scope": "stress_no_nominal_guarantee",
+      "threshold": {
+        "n_blocks": 256,
+        "rank": 232,
+        "q": 4,
+        "infinity": false,
+        "alpha": [
+          1,
+          10
+        ]
+      },
+      "blocks": 256,
+      "covered_blocks": 1,
+      "records": 3072,
+      "included": 1705,
+      "correct_singleton": 614,
+      "ambiguous": 1091,
+      "empty": 1364,
+      "wrong_singleton": 3
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": [
+        1,
+        20
+      ],
+      "scope": "stress_no_nominal_guarantee",
+      "threshold": {
+        "n_blocks": 256,
+        "rank": 245,
+        "q": 5,
+        "infinity": false,
+        "alpha": [
+          1,
+          20
+        ]
+      },
+      "blocks": 256,
+      "covered_blocks": 3,
+      "records": 3072,
+      "included": 2202,
+      "correct_singleton": 687,
+      "ambiguous": 1515,
+      "empty": 867,
+      "wrong_singleton": 3
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": [
+        1,
+        10
+      ],
+      "scope": "stress_no_nominal_guarantee",
+      "threshold": {
+        "n_blocks": 256,
+        "rank": 232,
+        "q": 4,
+        "infinity": false,
+        "alpha": [
+          1,
+          10
+        ]
+      },
+      "blocks": 256,
+      "covered_blocks": 0,
+      "records": 3072,
+      "included": 1386,
+      "empty": 1678,
+      "ambiguous": 1185,
+      "correct_singleton": 201,
+      "wrong_singleton": 8
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": [
+        1,
+        20
+      ],
+      "scope": "stress_no_nominal_guarantee",
+      "threshold": {
+        "n_blocks": 256,
+        "rank": 245,
+        "q": 5,
+        "infinity": false,
+        "alpha": [
+          1,
+          20
+        ]
+      },
+      "blocks": 256,
+      "covered_blocks": 1,
+      "records": 3072,
+      "included": 2167,
+      "empty": 894,
+      "ambiguous": 1485,
+      "correct_singleton": 682,
+      "wrong_singleton": 11
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": [
+        1,
+        10
+      ],
+      "scope": "matched",
+      "threshold": {
+        "n_blocks": 256,
+        "rank": 232,
+        "q": 8,
+        "infinity": false,
+        "alpha": [
+          1,
+          10
+        ]
+      },
+      "blocks": 256,
+      "covered_blocks": 233,
+      "records": 3072,
+      "included": 3049,
+      "correct_singleton": 622,
+      "ambiguous": 2427,
+      "empty": 23
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": [
+        1,
+        20
+      ],
+      "scope": "matched",
+      "threshold": {
+        "n_blocks": 256,
+        "rank": 245,
+        "q": 9,
+        "infinity": false,
+        "alpha": [
+          1,
+          20
+        ]
+      },
+      "blocks": 256,
+      "covered_blocks": 254,
+      "records": 3072,
+      "included": 3070,
+      "correct_singleton": 393,
+      "ambiguous": 2677,
+      "empty": 2
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": [
+        1,
+        10
+      ],
+      "scope": "paired_diagnostic_no_nominal_guarantee",
+      "threshold": {
+        "n_blocks": 256,
+        "rank": 232,
+        "q": 4,
+        "infinity": false,
+        "alpha": [
+          1,
+          10
+        ]
+      },
+      "blocks": 256,
+      "covered_blocks": 245,
+      "records": 3072,
+      "included": 3061,
+      "correct_singleton": 504,
+      "ambiguous": 2557,
+      "empty": 11
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": [
+        1,
+        20
+      ],
+      "scope": "paired_diagnostic_no_nominal_guarantee",
+      "threshold": {
+        "n_blocks": 256,
+        "rank": 245,
+        "q": 5,
+        "infinity": false,
+        "alpha": [
+          1,
+          20
+        ]
+      },
+      "blocks": 256,
+      "covered_blocks": 254,
+      "records": 3072,
+      "included": 3070,
+      "correct_singleton": 315,
+      "ambiguous": 2755,
+      "empty": 2
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": [
+        1,
+        10
+      ],
+      "scope": "matched",
+      "threshold": {
+        "n_blocks": 256,
+        "rank": 232,
+        "q": 4,
+        "infinity": false,
+        "alpha": [
+          1,
+          10
+        ]
+      },
+      "blocks": 256,
+      "covered_blocks": 245,
+      "records": 3072,
+      "included": 3061,
+      "correct_singleton": 504,
+      "ambiguous": 2557,
+      "empty": 11
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": [
+        1,
+        20
+      ],
+      "scope": "matched",
+      "threshold": {
+        "n_blocks": 256,
+        "rank": 245,
+        "q": 4,
+        "infinity": false,
+        "alpha": [
+          1,
+          20
+        ]
+      },
+      "blocks": 256,
+      "covered_blocks": 245,
+      "records": 3072,
+      "included": 3061,
+      "correct_singleton": 504,
+      "ambiguous": 2557,
+      "empty": 11
+    }
+  ],
+  "stratified": [
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/10",
+      "group": "geometry:center",
+      "records": 1024,
+      "included": 1022,
+      "correct_singleton": 414,
+      "ambiguous": 608,
+      "empty": 2
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/10",
+      "group": "geometry:left_event_absent",
+      "records": 1024,
+      "included": 1017,
+      "ambiguous": 925,
+      "correct_singleton": 92,
+      "empty": 7
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/10",
+      "group": "geometry:right_event_absent",
+      "records": 1024,
+      "included": 1023,
+      "ambiguous": 1017,
+      "correct_singleton": 6,
+      "empty": 1
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/10",
+      "group": "stratum:del_11-30",
+      "records": 72,
+      "included": 72,
+      "correct_singleton": 32,
+      "ambiguous": 40
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/10",
+      "group": "stratum:del_2-5",
+      "records": 1296,
+      "included": 1294,
+      "ambiguous": 1134,
+      "correct_singleton": 160,
+      "empty": 2
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/10",
+      "group": "stratum:del_6-10",
+      "records": 132,
+      "included": 132,
+      "correct_singleton": 58,
+      "ambiguous": 74
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/10",
+      "group": "stratum:ins_11-30",
+      "records": 96,
+      "included": 96,
+      "correct_singleton": 50,
+      "ambiguous": 46
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/10",
+      "group": "stratum:ins_2-5",
+      "records": 1320,
+      "included": 1313,
+      "correct_singleton": 149,
+      "ambiguous": 1164,
+      "empty": 7
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/10",
+      "group": "stratum:ins_6-10",
+      "records": 156,
+      "included": 155,
+      "correct_singleton": 63,
+      "ambiguous": 92,
+      "empty": 1
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/20",
+      "group": "geometry:center",
+      "records": 1024,
+      "included": 1024,
+      "correct_singleton": 261,
+      "ambiguous": 763
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/20",
+      "group": "geometry:left_event_absent",
+      "records": 1024,
+      "included": 1024,
+      "ambiguous": 976,
+      "correct_singleton": 48
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/20",
+      "group": "geometry:right_event_absent",
+      "records": 1024,
+      "included": 1023,
+      "ambiguous": 1020,
+      "empty": 1,
+      "correct_singleton": 3
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/20",
+      "group": "stratum:del_11-30",
+      "records": 72,
+      "included": 72,
+      "correct_singleton": 30,
+      "ambiguous": 42
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/20",
+      "group": "stratum:del_2-5",
+      "records": 1296,
+      "included": 1295,
+      "ambiguous": 1238,
+      "correct_singleton": 57,
+      "empty": 1
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/20",
+      "group": "stratum:del_6-10",
+      "records": 132,
+      "included": 132,
+      "correct_singleton": 55,
+      "ambiguous": 77
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/20",
+      "group": "stratum:ins_11-30",
+      "records": 96,
+      "included": 96,
+      "correct_singleton": 47,
+      "ambiguous": 49
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/20",
+      "group": "stratum:ins_2-5",
+      "records": 1320,
+      "included": 1320,
+      "ambiguous": 1257,
+      "correct_singleton": 63
+    },
+    {
+      "comparison": "baseline_matched",
+      "alpha": "1/20",
+      "group": "stratum:ins_6-10",
+      "records": 156,
+      "included": 156,
+      "correct_singleton": 60,
+      "ambiguous": 96
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/10",
+      "group": "geometry:center",
+      "records": 1024,
+      "included": 1021,
+      "correct_singleton": 416,
+      "ambiguous": 605,
+      "empty": 3
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/10",
+      "group": "geometry:left_event_absent",
+      "records": 1024,
+      "included": 1018,
+      "ambiguous": 935,
+      "correct_singleton": 83,
+      "empty": 6
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/10",
+      "group": "geometry:right_event_absent",
+      "records": 1024,
+      "included": 1022,
+      "ambiguous": 1017,
+      "correct_singleton": 5,
+      "empty": 2
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/10",
+      "group": "stratum:del_11-30",
+      "records": 72,
+      "included": 72,
+      "correct_singleton": 33,
+      "ambiguous": 39
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/10",
+      "group": "stratum:del_2-5",
+      "records": 1296,
+      "included": 1292,
+      "ambiguous": 1153,
+      "correct_singleton": 139,
+      "empty": 4
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/10",
+      "group": "stratum:del_6-10",
+      "records": 132,
+      "included": 132,
+      "correct_singleton": 59,
+      "ambiguous": 73
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/10",
+      "group": "stratum:ins_11-30",
+      "records": 96,
+      "included": 94,
+      "correct_singleton": 49,
+      "ambiguous": 45,
+      "empty": 2
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/10",
+      "group": "stratum:ins_2-5",
+      "records": 1320,
+      "included": 1315,
+      "ambiguous": 1151,
+      "correct_singleton": 164,
+      "empty": 5
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/10",
+      "group": "stratum:ins_6-10",
+      "records": 156,
+      "included": 156,
+      "correct_singleton": 60,
+      "ambiguous": 96
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/20",
+      "group": "geometry:center",
+      "records": 1024,
+      "included": 1024,
+      "correct_singleton": 262,
+      "ambiguous": 762
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/20",
+      "group": "geometry:left_event_absent",
+      "records": 1024,
+      "included": 1023,
+      "ambiguous": 971,
+      "correct_singleton": 52,
+      "empty": 1
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/20",
+      "group": "geometry:right_event_absent",
+      "records": 1024,
+      "included": 1023,
+      "ambiguous": 1022,
+      "correct_singleton": 1,
+      "empty": 1
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/20",
+      "group": "stratum:del_11-30",
+      "records": 72,
+      "included": 72,
+      "correct_singleton": 31,
+      "ambiguous": 41
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/20",
+      "group": "stratum:del_2-5",
+      "records": 1296,
+      "included": 1295,
+      "ambiguous": 1229,
+      "correct_singleton": 66,
+      "empty": 1
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/20",
+      "group": "stratum:del_6-10",
+      "records": 132,
+      "included": 132,
+      "correct_singleton": 53,
+      "ambiguous": 79
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/20",
+      "group": "stratum:ins_11-30",
+      "records": 96,
+      "included": 95,
+      "correct_singleton": 47,
+      "ambiguous": 48,
+      "empty": 1
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/20",
+      "group": "stratum:ins_2-5",
+      "records": 1320,
+      "included": 1320,
+      "ambiguous": 1261,
+      "correct_singleton": 59
+    },
+    {
+      "comparison": "catalogue_expanded_fixed_threshold",
+      "alpha": "1/20",
+      "group": "stratum:ins_6-10",
+      "records": 156,
+      "included": 156,
+      "correct_singleton": 59,
+      "ambiguous": 97
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/10",
+      "group": "geometry:center",
+      "records": 1024,
+      "included": 1021,
+      "correct_singleton": 416,
+      "ambiguous": 605,
+      "empty": 3
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/10",
+      "group": "geometry:left_event_absent",
+      "records": 1024,
+      "included": 1018,
+      "ambiguous": 935,
+      "correct_singleton": 83,
+      "empty": 6
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/10",
+      "group": "geometry:right_event_absent",
+      "records": 1024,
+      "included": 1022,
+      "ambiguous": 1017,
+      "correct_singleton": 5,
+      "empty": 2
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/10",
+      "group": "stratum:del_11-30",
+      "records": 72,
+      "included": 72,
+      "correct_singleton": 33,
+      "ambiguous": 39
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/10",
+      "group": "stratum:del_2-5",
+      "records": 1296,
+      "included": 1292,
+      "ambiguous": 1153,
+      "correct_singleton": 139,
+      "empty": 4
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/10",
+      "group": "stratum:del_6-10",
+      "records": 132,
+      "included": 132,
+      "correct_singleton": 59,
+      "ambiguous": 73
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/10",
+      "group": "stratum:ins_11-30",
+      "records": 96,
+      "included": 94,
+      "correct_singleton": 49,
+      "ambiguous": 45,
+      "empty": 2
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/10",
+      "group": "stratum:ins_2-5",
+      "records": 1320,
+      "included": 1315,
+      "ambiguous": 1151,
+      "correct_singleton": 164,
+      "empty": 5
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/10",
+      "group": "stratum:ins_6-10",
+      "records": 156,
+      "included": 156,
+      "correct_singleton": 60,
+      "ambiguous": 96
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/20",
+      "group": "geometry:center",
+      "records": 1024,
+      "included": 1021,
+      "correct_singleton": 416,
+      "ambiguous": 605,
+      "empty": 3
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/20",
+      "group": "geometry:left_event_absent",
+      "records": 1024,
+      "included": 1018,
+      "ambiguous": 935,
+      "correct_singleton": 83,
+      "empty": 6
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/20",
+      "group": "geometry:right_event_absent",
+      "records": 1024,
+      "included": 1022,
+      "ambiguous": 1017,
+      "correct_singleton": 5,
+      "empty": 2
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/20",
+      "group": "stratum:del_11-30",
+      "records": 72,
+      "included": 72,
+      "correct_singleton": 33,
+      "ambiguous": 39
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/20",
+      "group": "stratum:del_2-5",
+      "records": 1296,
+      "included": 1292,
+      "ambiguous": 1153,
+      "correct_singleton": 139,
+      "empty": 4
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/20",
+      "group": "stratum:del_6-10",
+      "records": 132,
+      "included": 132,
+      "correct_singleton": 59,
+      "ambiguous": 73
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/20",
+      "group": "stratum:ins_11-30",
+      "records": 96,
+      "included": 94,
+      "correct_singleton": 49,
+      "ambiguous": 45,
+      "empty": 2
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/20",
+      "group": "stratum:ins_2-5",
+      "records": 1320,
+      "included": 1315,
+      "ambiguous": 1151,
+      "correct_singleton": 164,
+      "empty": 5
+    },
+    {
+      "comparison": "catalogue_expanded_recalibrated",
+      "alpha": "1/20",
+      "group": "stratum:ins_6-10",
+      "records": 156,
+      "included": 156,
+      "correct_singleton": 60,
+      "ambiguous": 96
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/10",
+      "group": "geometry:center",
+      "records": 1024,
+      "included": 1005,
+      "correct_singleton": 542,
+      "empty": 19,
+      "ambiguous": 463
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/10",
+      "group": "geometry:left_event_absent",
+      "records": 1024,
+      "included": 1020,
+      "ambiguous": 940,
+      "correct_singleton": 80,
+      "empty": 4
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/10",
+      "group": "geometry:right_event_absent",
+      "records": 1024,
+      "included": 1024,
+      "ambiguous": 1024
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/10",
+      "group": "stratum:del_11-30",
+      "records": 72,
+      "included": 71,
+      "empty": 1,
+      "correct_singleton": 30,
+      "ambiguous": 41
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/10",
+      "group": "stratum:del_2-5",
+      "records": 1296,
+      "included": 1287,
+      "ambiguous": 1079,
+      "correct_singleton": 208,
+      "empty": 9
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/10",
+      "group": "stratum:del_6-10",
+      "records": 132,
+      "included": 130,
+      "correct_singleton": 52,
+      "ambiguous": 78,
+      "empty": 2
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/10",
+      "group": "stratum:ins_11-30",
+      "records": 96,
+      "included": 93,
+      "correct_singleton": 46,
+      "ambiguous": 47,
+      "empty": 3
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/10",
+      "group": "stratum:ins_2-5",
+      "records": 1320,
+      "included": 1314,
+      "ambiguous": 1080,
+      "correct_singleton": 234,
+      "empty": 6
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/10",
+      "group": "stratum:ins_6-10",
+      "records": 156,
+      "included": 154,
+      "correct_singleton": 52,
+      "ambiguous": 102,
+      "empty": 2
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/20",
+      "group": "geometry:center",
+      "records": 1024,
+      "included": 1022,
+      "correct_singleton": 347,
+      "ambiguous": 675,
+      "empty": 2
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/20",
+      "group": "geometry:left_event_absent",
+      "records": 1024,
+      "included": 1024,
+      "ambiguous": 978,
+      "correct_singleton": 46
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/20",
+      "group": "geometry:right_event_absent",
+      "records": 1024,
+      "included": 1024,
+      "ambiguous": 1024
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/20",
+      "group": "stratum:del_11-30",
+      "records": 72,
+      "included": 72,
+      "correct_singleton": 30,
+      "ambiguous": 42
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/20",
+      "group": "stratum:del_2-5",
+      "records": 1296,
+      "included": 1296,
+      "ambiguous": 1189,
+      "correct_singleton": 107
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/20",
+      "group": "stratum:del_6-10",
+      "records": 132,
+      "included": 132,
+      "correct_singleton": 48,
+      "ambiguous": 84
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/20",
+      "group": "stratum:ins_11-30",
+      "records": 96,
+      "included": 95,
+      "correct_singleton": 46,
+      "ambiguous": 49,
+      "empty": 1
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/20",
+      "group": "stratum:ins_2-5",
+      "records": 1320,
+      "included": 1319,
+      "ambiguous": 1205,
+      "correct_singleton": 114,
+      "empty": 1
+    },
+    {
+      "comparison": "catalogue_recalibrated",
+      "alpha": "1/20",
+      "group": "stratum:ins_6-10",
+      "records": 156,
+      "included": 156,
+      "correct_singleton": 48,
+      "ambiguous": 108
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/10",
+      "group": "geometry:center",
+      "records": 1024,
+      "included": 4,
+      "empty": 1017,
+      "correct_singleton": 4,
+      "wrong_singleton": 3
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/10",
+      "group": "geometry:left_event_absent",
+      "records": 1024,
+      "included": 372,
+      "empty": 647,
+      "ambiguous": 185,
+      "correct_singleton": 187,
+      "wrong_singleton": 5
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/10",
+      "group": "geometry:right_event_absent",
+      "records": 1024,
+      "included": 1010,
+      "ambiguous": 1000,
+      "correct_singleton": 10,
+      "empty": 14
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/10",
+      "group": "stratum:del_11-30",
+      "records": 72,
+      "included": 32,
+      "empty": 40,
+      "ambiguous": 27,
+      "correct_singleton": 5
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/10",
+      "group": "stratum:del_2-5",
+      "records": 1296,
+      "included": 583,
+      "empty": 711,
+      "ambiguous": 510,
+      "correct_singleton": 73,
+      "wrong_singleton": 2
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/10",
+      "group": "stratum:del_6-10",
+      "records": 132,
+      "included": 56,
+      "empty": 76,
+      "correct_singleton": 9,
+      "ambiguous": 47
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/10",
+      "group": "stratum:ins_11-30",
+      "records": 96,
+      "included": 39,
+      "empty": 57,
+      "ambiguous": 32,
+      "correct_singleton": 7
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/10",
+      "group": "stratum:ins_2-5",
+      "records": 1320,
+      "included": 612,
+      "empty": 702,
+      "ambiguous": 516,
+      "correct_singleton": 96,
+      "wrong_singleton": 6
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/10",
+      "group": "stratum:ins_6-10",
+      "records": 156,
+      "included": 64,
+      "empty": 92,
+      "ambiguous": 53,
+      "correct_singleton": 11
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/20",
+      "group": "geometry:center",
+      "records": 1024,
+      "included": 388,
+      "empty": 628,
+      "correct_singleton": 379,
+      "ambiguous": 9,
+      "wrong_singleton": 8
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/20",
+      "group": "geometry:left_event_absent",
+      "records": 1024,
+      "included": 757,
+      "ambiguous": 459,
+      "empty": 264,
+      "correct_singleton": 298,
+      "wrong_singleton": 3
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/20",
+      "group": "geometry:right_event_absent",
+      "records": 1024,
+      "included": 1022,
+      "ambiguous": 1017,
+      "correct_singleton": 5,
+      "empty": 2
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/20",
+      "group": "stratum:del_11-30",
+      "records": 72,
+      "included": 50,
+      "empty": 22,
+      "correct_singleton": 18,
+      "ambiguous": 32
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/20",
+      "group": "stratum:del_2-5",
+      "records": 1296,
+      "included": 922,
+      "empty": 368,
+      "correct_singleton": 290,
+      "ambiguous": 632,
+      "wrong_singleton": 6
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/20",
+      "group": "stratum:del_6-10",
+      "records": 132,
+      "included": 93,
+      "empty": 39,
+      "correct_singleton": 32,
+      "ambiguous": 61
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/20",
+      "group": "stratum:ins_11-30",
+      "records": 96,
+      "included": 64,
+      "empty": 32,
+      "ambiguous": 40,
+      "correct_singleton": 24
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/20",
+      "group": "stratum:ins_2-5",
+      "records": 1320,
+      "included": 923,
+      "correct_singleton": 274,
+      "empty": 392,
+      "ambiguous": 649,
+      "wrong_singleton": 5
+    },
+    {
+      "comparison": "catalogue_shift",
+      "alpha": "1/20",
+      "group": "stratum:ins_6-10",
+      "records": 156,
+      "included": 115,
+      "empty": 41,
+      "ambiguous": 71,
+      "correct_singleton": 44
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/10",
+      "group": "geometry:center",
+      "records": 1024,
+      "included": 551,
+      "correct_singleton": 441,
+      "empty": 473,
+      "ambiguous": 110
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/10",
+      "group": "geometry:left_event_absent",
+      "records": 1024,
+      "included": 560,
+      "ambiguous": 404,
+      "empty": 461,
+      "correct_singleton": 156,
+      "wrong_singleton": 3
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/10",
+      "group": "geometry:right_event_absent",
+      "records": 1024,
+      "included": 594,
+      "empty": 430,
+      "ambiguous": 577,
+      "correct_singleton": 17
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/10",
+      "group": "stratum:del_11-30",
+      "records": 72,
+      "included": 41,
+      "correct_singleton": 19,
+      "empty": 31,
+      "ambiguous": 22
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/10",
+      "group": "stratum:del_2-5",
+      "records": 1296,
+      "included": 722,
+      "ambiguous": 475,
+      "correct_singleton": 247,
+      "empty": 573,
+      "wrong_singleton": 1
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/10",
+      "group": "stratum:del_6-10",
+      "records": 132,
+      "included": 74,
+      "empty": 58,
+      "correct_singleton": 37,
+      "ambiguous": 37
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/10",
+      "group": "stratum:ins_11-30",
+      "records": 96,
+      "included": 50,
+      "empty": 46,
+      "correct_singleton": 25,
+      "ambiguous": 25
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/10",
+      "group": "stratum:ins_2-5",
+      "records": 1320,
+      "included": 731,
+      "empty": 587,
+      "correct_singleton": 241,
+      "ambiguous": 490,
+      "wrong_singleton": 2
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/10",
+      "group": "stratum:ins_6-10",
+      "records": 156,
+      "included": 87,
+      "correct_singleton": 45,
+      "ambiguous": 42,
+      "empty": 69
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/20",
+      "group": "geometry:center",
+      "records": 1024,
+      "included": 713,
+      "correct_singleton": 504,
+      "empty": 308,
+      "ambiguous": 209,
+      "wrong_singleton": 3
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/20",
+      "group": "geometry:left_event_absent",
+      "records": 1024,
+      "included": 741,
+      "ambiguous": 570,
+      "empty": 283,
+      "correct_singleton": 171
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/20",
+      "group": "geometry:right_event_absent",
+      "records": 1024,
+      "included": 748,
+      "empty": 276,
+      "ambiguous": 736,
+      "correct_singleton": 12
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/20",
+      "group": "stratum:del_11-30",
+      "records": 72,
+      "included": 51,
+      "correct_singleton": 22,
+      "empty": 21,
+      "ambiguous": 29
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/20",
+      "group": "stratum:del_2-5",
+      "records": 1296,
+      "included": 930,
+      "ambiguous": 670,
+      "empty": 365,
+      "correct_singleton": 260,
+      "wrong_singleton": 1
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/20",
+      "group": "stratum:del_6-10",
+      "records": 132,
+      "included": 92,
+      "correct_singleton": 40,
+      "empty": 40,
+      "ambiguous": 52
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/20",
+      "group": "stratum:ins_11-30",
+      "records": 96,
+      "included": 69,
+      "correct_singleton": 35,
+      "empty": 27,
+      "ambiguous": 34
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/20",
+      "group": "stratum:ins_2-5",
+      "records": 1320,
+      "included": 949,
+      "correct_singleton": 275,
+      "empty": 369,
+      "ambiguous": 674,
+      "wrong_singleton": 2
+    },
+    {
+      "comparison": "noise_shift",
+      "alpha": "1/20",
+      "group": "stratum:ins_6-10",
+      "records": 156,
+      "included": 111,
+      "correct_singleton": 55,
+      "ambiguous": 56,
+      "empty": 45
+    }
+  ],
+  "scope": "Standard split-conformal coverage is marginal over exchangeable locus blocks with fixed score and matched generation regime. The fixed chr20 panel is a controlled empirical evaluation, not proof of exchangeability, per-locus conditional coverage, biological calibration or robustness to arbitrary distribution shift."
+}

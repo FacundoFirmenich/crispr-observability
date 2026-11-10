@@ -1,6 +1,15 @@
 # CRISPR observability: computational companion
 
-## Current scientific release: 0.7.1
+## Integrated scientific release: 0.8.0
+
+The [generation-model and calibration extension](extensions/generation_model/README.md)
+reintegrates MP27/MP28 with the principal line. It preserves the failed literal-
+ancestry gate, adds locus-block source-allele calibration and retains the observed
+noise/catalogue transport failures. Code and full output archives are public;
+the manuscript and formal supplement remain private. The new independent
+extension is MIT; pre-existing license scopes are preserved.
+
+## Historical scientific release: 0.7.1
 
 The [retained-span audit extension](extensions/retained_span_audit/README.md) provides the current unified quick/full reproduction command, complete COL17A1 retained data, claim/evidence graph, source hashes and explicit execution boundaries. [Download the versioned scientific archives](https://github.com/FacundoFirmenich/crispr-observability/releases/tag/v0.7.1), including 235 historical source-bound evidence files. See [release coverage](extensions/retained_span_audit/RELEASE_COVERAGE.json) before interpreting a reproduced computation as independent biological validation. Manuscript and formal supplementary text remain private for author deposit.
 

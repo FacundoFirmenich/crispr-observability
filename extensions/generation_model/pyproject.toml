@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crispr-observability-extended"
+version = "0.1.1"
+description = "Conditional observation certificates over bounded generation histories"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Facundo Firmenich"}]
+dependencies = ["numpy>=1.26", "numba>=0.60"]
+
+[project.scripts]
+crispr-extended = "crispr_extended.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

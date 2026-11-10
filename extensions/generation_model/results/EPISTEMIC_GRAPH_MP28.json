@@ -1,0 +1,240 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "model",
+      "kind": "artifact",
+      "path": "docs/MODEL.md",
+      "sha256": "7dc342fcfe6b4214755b4b3f6eac51403c0c015e6ee64d318a9887f50bb4f2a8",
+      "hash_representation": "UTF-8 text with LF line endings"
+    },
+    {
+      "id": "implementation",
+      "kind": "artifact",
+      "path": "src/crispr_extended/core.py",
+      "sha256": "871aea33d42b57debee8b3fa8acf6d6de551d445524509a2f0f87a86e26b3304",
+      "hash_representation": "UTF-8 text with LF line endings"
+    },
+    {
+      "id": "oracle",
+      "kind": "artifact",
+      "path": "results/oracle_verification.json",
+      "sha256": "442d4eec5602eab3967db542064b8e170d06adc4eb805d03232ef2410251df87",
+      "hash_representation": "UTF-8 text with LF line endings"
+    },
+    {
+      "id": "regression",
+      "kind": "artifact",
+      "path": "results/adversarial_regression.json",
+      "sha256": "04c7622dfc8fabf0493c7690b5edbffe8a598a88dbc168ed8b584b8c55c78f02",
+      "hash_representation": "UTF-8 text with LF line endings"
+    },
+    {
+      "id": "obstruction",
+      "kind": "artifact",
+      "path": "docs/ORIGIN_IDENTIFIABILITY_OBSTRUCTION.md",
+      "sha256": "2cd1fdde2f500aa79258d1bc9142cf4b89f44b38823ab5706e5abca7f733652d",
+      "hash_representation": "UTF-8 text with LF line endings"
+    },
+    {
+      "id": "campaign",
+      "kind": "artifact",
+      "path": "results/MP27_RESULT.json",
+      "sha256": "5b71dcf92051adb7399e650d6138b589ecb5ec220a00716c398d75d652f26ad6",
+      "hash_representation": "UTF-8 text with LF line endings"
+    },
+    {
+      "id": "recount",
+      "kind": "artifact",
+      "path": "results/MP27_VERIFICATION.json",
+      "sha256": "2c49b0bd8094ef66f9c13b558cf5f44c013fb436f41e5dc1b7c4e6eea41c1ecb",
+      "hash_representation": "UTF-8 text with LF line endings"
+    },
+    {
+      "id": "custody",
+      "kind": "artifact",
+      "path": "results/MP27_CUSTODY.json",
+      "sha256": "07a7e9b7633bfeb122e6503d2f2ebdbed44dc247710d84f6d0b70e00fdd2f72b",
+      "hash_representation": "UTF-8 text with LF line endings"
+    },
+    {
+      "id": "C1",
+      "kind": "claim",
+      "text": "The finite generation-model certificate is exact under its contract",
+      "status": "CONDITIONAL_FORMAL_ARGUMENT_AND_COMPUTATIONAL_VERIFICATION"
+    },
+    {
+      "id": "C2",
+      "kind": "claim",
+      "text": "The literal-flank certificate is nonvacuous at budget 2 on clean centered heldout reads",
+      "status": "FAILED_FROZEN_GATE"
+    },
+    {
+      "id": "C3",
+      "kind": "claim",
+      "text": "The source-allele endpoint retains information in the declared candidate domain",
+      "status": "SUPPORTED_IN_CONTROLLED_PANEL"
+    },
+    {
+      "id": "C4",
+      "kind": "claim",
+      "text": "Error budget and candidate catalogue cover real biological histories",
+      "status": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "C5",
+      "kind": "claim",
+      "text": "Independent molecular accuracy has been validated",
+      "status": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "mp28_protocol",
+      "kind": "artifact",
+      "path": "protocols/MP28.json",
+      "sha256": "08286ddf1d4c2a051e08e1c1e8d649eda1e85241925c04ec173170367dda41d8",
+      "hash_representation": "UTF-8 text with LF line endings"
+    },
+    {
+      "id": "mp28_result",
+      "kind": "artifact",
+      "path": "results/MP28_RESULT.json",
+      "sha256": "6d777a0d5c5a9c920069edf2fce113e3fbc421102a97d84b70ed607a2ca97c56",
+      "hash_representation": "UTF-8 text with LF line endings"
+    },
+    {
+      "id": "mp28_verification",
+      "kind": "artifact",
+      "path": "results/MP28_VERIFICATION.json",
+      "sha256": "f15d7eba0af5647429e57023c915f142d374cd39aa7013751d844eda27b5d53b",
+      "hash_representation": "UTF-8 text with LF line endings"
+    },
+    {
+      "id": "mp28_calibration",
+      "kind": "artifact",
+      "path": "results/MP28_CALIBRATION_FREEZE.json",
+      "sha256": "b6b31ce8a2334009cbfa6be63e1639ee7fd05caaa781e7a03e1d683b244d7a5b",
+      "hash_representation": "UTF-8 text with LF line endings"
+    },
+    {
+      "id": "C6",
+      "kind": "claim",
+      "text": "Locus-block calibration attains useful coverage under matched controlled regimes",
+      "status": "EMPIRICALLY_SUPPORTED_WITH_LOW_SINGLETON_RESOLUTION"
+    },
+    {
+      "id": "C7",
+      "kind": "claim",
+      "text": "Unchanged calibration transports across the declared noise and catalogue shifts",
+      "status": "ADVERSE_TEST_FAILED"
+    },
+    {
+      "id": "C8",
+      "kind": "claim",
+      "text": "Oracle catalogue expansion and matched recalibration repair coverage on the nuisance panel",
+      "status": "SUPPORTED_CONTROLLED_SIMULATION_NOT_HAPLOTYPE_DISCOVERY"
+    }
+  ],
+  "edges": [
+    {
+      "from": "model",
+      "to": "C1",
+      "relation": "states_conditions"
+    },
+    {
+      "from": "implementation",
+      "to": "C1",
+      "relation": "implements"
+    },
+    {
+      "from": "oracle",
+      "to": "C1",
+      "relation": "bounded_independent_check"
+    },
+    {
+      "from": "regression",
+      "to": "C1",
+      "relation": "known_adverse_check"
+    },
+    {
+      "from": "campaign",
+      "to": "C1",
+      "relation": "in_domain_evaluation"
+    },
+    {
+      "from": "recount",
+      "to": "campaign",
+      "relation": "verifies_counts"
+    },
+    {
+      "from": "custody",
+      "to": "campaign",
+      "relation": "preserves_exact_output"
+    },
+    {
+      "from": "obstruction",
+      "to": "C2",
+      "relation": "explains_failure"
+    },
+    {
+      "from": "campaign",
+      "to": "C2",
+      "relation": "fails_gate"
+    },
+    {
+      "from": "campaign",
+      "to": "C3",
+      "relation": "supports_conditionally"
+    },
+    {
+      "from": "C4",
+      "to": "C3",
+      "relation": "limits_transport"
+    },
+    {
+      "from": "C4",
+      "to": "C5",
+      "relation": "blocks_unqualified_promotion"
+    },
+    {
+      "from": "mp28_protocol",
+      "to": "mp28_result",
+      "relation": "freezes_design"
+    },
+    {
+      "from": "mp28_calibration",
+      "to": "mp28_result",
+      "relation": "fixes_thresholds_before_test"
+    },
+    {
+      "from": "mp28_verification",
+      "to": "mp28_result",
+      "relation": "replays_and_recounts"
+    },
+    {
+      "from": "mp28_result",
+      "to": "C6",
+      "relation": "supports_conditionally"
+    },
+    {
+      "from": "mp28_result",
+      "to": "C7",
+      "relation": "refutes_in_declared_stress_panel"
+    },
+    {
+      "from": "mp28_result",
+      "to": "C8",
+      "relation": "supports_conditionally"
+    },
+    {
+      "from": "C4",
+      "to": "C6",
+      "relation": "limits_transport"
+    },
+    {
+      "from": "C8",
+      "to": "C5",
+      "relation": "does_not_establish"
+    }
+  ],
+  "rule": "No computational, custody or model-conditional evidence is promoted to independent biological truth"
+}

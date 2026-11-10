@@ -1,0 +1,15 @@
+{
+  "MP25": {
+    "manifest_sha256": "deb07917b50482dbdfebf48627bccacc0bb73fe24aac74b448cf176fba9c98b8",
+    "protocol_sha256": "75478e9ce983094288b8094204430534858f59345702f70eaa91052db9fc74a2",
+    "selection_sha256": "c23a977f61aab479fa2c7ff20f11c74082f3fab646e82dc8dff8d54170e787e3"
+  },
+  "reference": {
+    "sha256": "271ca0ee4247c2fa30c8491764ad8acd4bdde8eb3cf314f0720235010ae85c9f",
+    "file": "chr20.fa.gz"
+  },
+  "MP27": {
+    "manifest_sha256": "e9943f12e41ac0d9233dc41fbbb013febc251671554c7110d497f7df8a914c81",
+    "selection_sha256": "89649c750b9aaa49c59ac741ffa161f894eddcb97a68a586e7a3df9be61724ce"
+  }
+}

@@ -16,3 +16,6 @@ data retain source attribution and applicable source terms. This software licens
 does not grant rights over third-party data or the private manuscript/supplement.
 Earlier versions already released under MIT keep their historical grants; this
 notice does not attempt to revoke those permissions.
+
+
+Release 0.8.0 adds an independently implemented MIT extension under `extensions/generation_model/`. This exception does not relicense historical code, third-party components or source data. See that directory LICENSE and docs/LICENSING.md.

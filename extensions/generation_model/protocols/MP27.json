@@ -1,0 +1,18 @@
+{
+  "id": "EXTENDED_MP27_GENERATION_V1",
+  "budgets": [0, 1, 2, 3, 5, 8, 12],
+  "context": 300,
+  "paddings": [5, 15],
+  "model": "bounded-edit-fragment-v1",
+  "development": "All 33440 MP24 records from 209 loci; historical outcomes known; regression only",
+  "real": "All 16816 MP25 read-locus records from 489 loci; genotype concordance only for source-allele endpoint, no observed-tract truth imputed",
+  "heldout": "Up to 20 previously unused chr20 indels per insertion/deletion by length 2-5,6-10,11-30 stratum; SHA256 ranking EXTENDED_MP27_HOLDOUT_V1|position; exclude MP09, MP22 and MP25 loci; benchmark BED containment with 300bp context and no other VCF record within that context",
+  "heldout_generator": "Independent script; source allele 0/1; lengths 100,150,200; center/left-flank-absent/right-flank-absent; clean once, sparse substitutions and clustered indels twice; fixed SHA256 seeds; 90 records per selected locus",
+  "truth_separation": "Known origins and noise ledger are evaluation only. API inputs are read, candidate sequences, target and interval. Benchmark genotypes never supplied to certification.",
+  "primary_reporting": "Every declared budget and both distinct padding endpoints; no winner selection. Conservation of all records; possible labels, abstention reasons, source-allele candidates, truth-in-domain checks and certified errors by stratum.",
+  "soundness_gate": "Every evaluable simulated history whose literal error count is <= budget must have its observed label and source allele in the returned candidate sets. A determinate observed certificate inconsistent with that in-domain truth fails the gate. Out-of-budget cases remain separate.",
+  "nonvacuity_gate": "At budget 2, heldout center/clean must contain at least one correctly certified E and one correctly certified NE for padding 5. This only excludes vacuity; it is not a practical or clinical utility threshold. Report all coverage counts.",
+  "verification": "Independent exhaustive finite history oracle before remote execution. No tuning of model/budgets after heldout outcomes without a new exploratory version.",
+  "runtime": "9.5h soft stop between loci, 11h platform cap, checkpoint per locus and source/hash-bound resume. CPU only.",
+  "publication": "New repository only, GPL-3.0-only own code. No original manuscript or supplementary edits or uploads. Retain adverse findings."
+}

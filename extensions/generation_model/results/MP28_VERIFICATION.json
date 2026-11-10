@@ -1,0 +1,9 @@
+{
+  "status": "PASS_FULL_RECORD_REPLAY_AND_RECOUNT",
+  "records_replayed": 15360,
+  "independent_score_check_records": 36,
+  "quantile_recount": "PASS",
+  "catalogue_monotonicity": "PASS",
+  "soundness_failures": 0,
+  "scope": "All generated strings and primary counts replayed; 36 records independently rescored. Controlled simulation, not biological calibration."
+}

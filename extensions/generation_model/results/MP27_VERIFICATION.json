@@ -1,0 +1,28 @@
+{
+  "status": "PASS_INTERNAL_RECOUNT",
+  "execution": {
+    "status": "COMPLETE",
+    "protocol_sha256": "36c9f7ee92fe45bc53283f910a2d67c62c74cf27bca98b9c4823d3a377ea3a7b",
+    "engine_sha256": "871aea33d42b57debee8b3fa8acf6d6de551d445524509a2f0f87a86e26b3304",
+    "records_by_stage": {
+      "development": 33440,
+      "real": 16816,
+      "heldout": 10800
+    },
+    "sites_completed": 818,
+    "sites_planned": 818,
+    "soundness_failures": 0,
+    "in_domain_soundness_gate": "PASS",
+    "nonvacuity_budget2_clean_center_padding5": {},
+    "nonvacuity_gate": "FAIL",
+    "seconds": 541.887639916,
+    "scope": "Conditional computational validation; no independent biological accuracy"
+  },
+  "records_recounted": {
+    "development": 33440,
+    "heldout": 10800,
+    "real": 16816
+  },
+  "decision_rows_recounted": 854784,
+  "scope": "Recount from frozen class minima, not a second full DP or independent biological validation"
+}

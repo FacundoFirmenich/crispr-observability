@@ -1,0 +1,43 @@
+{
+  "bundle_sha256": "b193c0ab4b46ba42115fdd9a609d2745c5088db1be622e31d8909eb312c8e6a5",
+  "kernel_source_sha256": "45b14f0dce9aa43f25fc61c77f323bf3d0b9167d02ce8a780411d2809c7709a7",
+  "normalization": "UTF8 LF",
+  "files": [
+    {
+      "path": "protocols/MP28.json",
+      "sha256": "08286ddf1d4c2a051e08e1c1e8d649eda1e85241925c04ec173170367dda41d8"
+    },
+    {
+      "path": "campaign/mp28/input_binding.json",
+      "sha256": "065a876dc8d279362f6cdde0f77ef1b6d0631a2c27fce03a4c79917ae81e859a"
+    },
+    {
+      "path": "campaign/mp28/generator.py",
+      "sha256": "1c8ca1575ed391beec9f87d93f0c2f6651dc73a8918ab4189be823c2d0d54bd5"
+    },
+    {
+      "path": "campaign/mp28/run.py",
+      "sha256": "f28a338b41ffca1aeddb7a9ae1b0689333e82aa43a530aa30bcbf77881dbc21f"
+    },
+    {
+      "path": "src/crispr_extended/__init__.py",
+      "sha256": "8e2b642be7a9f16c88243318c6d1f5eb0cb9ab7bc560d5c3151dadb0cd3ab05e"
+    },
+    {
+      "path": "src/crispr_extended/calibration.py",
+      "sha256": "36698f7118c2db4610f6b253bd1bf957d449072f99f6b1411037d1f26ccc03aa"
+    },
+    {
+      "path": "src/crispr_extended/cli.py",
+      "sha256": "4b552c1836ff621bacecaaf5e9936ed88a729544c925a6421a8ae36f72658d4c"
+    },
+    {
+      "path": "src/crispr_extended/core.py",
+      "sha256": "871aea33d42b57debee8b3fa8acf6d6de551d445524509a2f0f87a86e26b3304"
+    },
+    {
+      "path": "src/crispr_extended/oracle.py",
+      "sha256": "fa5a673df95bb4ba37bae3030e53fbd9b45ea5d0dd2e9d054b4d5e243cb5fe33"
+    }
+  ]
+}

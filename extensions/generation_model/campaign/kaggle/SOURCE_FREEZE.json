@@ -1,0 +1,42 @@
+{
+  "bundle_sha256": "f24d554b7f80084e0b6ae1232bdb29d2166d531011ccaffc1970e39f84182225",
+  "kernel_source_sha256": "63c1729a7a72f05695a1c9b45c8c380c395be69476bb93f9f1d71c46601aa54b",
+  "files": [
+    {
+      "path": "pyproject.toml",
+      "sha256": "c4dc7561d84c14069cc88ad4fe97f4d45d1cba95dd9233e6b96dbaa7395d9dfb"
+    },
+    {
+      "path": "protocols/MP27.json",
+      "sha256": "4020f45801cedf431ccaf1b61fb5094d8d8e68efdd410b320e9c366ebbdd2955"
+    },
+    {
+      "path": "campaign/input_binding.json",
+      "sha256": "bf51a4175cb4b208d19742eec3b866300cdbbeea27a96aac58f79c22478b514b"
+    },
+    {
+      "path": "campaign/heldout_generator.py",
+      "sha256": "c35902d35576cdabb90246c8a4e0333001235bd9dee03f179e17b8e34a1b2255"
+    },
+    {
+      "path": "campaign/run_campaign.py",
+      "sha256": "d0bbd6f13688582d467cd133eddafca00f328f77a1e311194fd2dac28123a9ea"
+    },
+    {
+      "path": "src/crispr_extended/__init__.py",
+      "sha256": "629970d0acc885ba6ac277e2766a557e352a47b373f753014d8a6419e4fa3e19"
+    },
+    {
+      "path": "src/crispr_extended/cli.py",
+      "sha256": "4b552c1836ff621bacecaaf5e9936ed88a729544c925a6421a8ae36f72658d4c"
+    },
+    {
+      "path": "src/crispr_extended/core.py",
+      "sha256": "871aea33d42b57debee8b3fa8acf6d6de551d445524509a2f0f87a86e26b3304"
+    },
+    {
+      "path": "src/crispr_extended/oracle.py",
+      "sha256": "fa5a673df95bb4ba37bae3030e53fbd9b45ea5d0dd2e9d054b4d5e243cb5fe33"
+    }
+  ]
+}

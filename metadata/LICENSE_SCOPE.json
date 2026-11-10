@@ -341,5 +341,8 @@
     "notice": "extensions/scientific_context/SEQ2MUSIC_LICENSE",
     "scope": "Retain upstream MIT notice for generated interface code; scientific sequences/data are not newly relicensed."
   },
-  "original_code_license": "GPL-3.0-only"
+  "original_code_license": "GPL-3.0-only",
+  "independent_extension_exceptions": {
+    "extensions/generation_model/": "MIT; original extension code only; source data retain provenance"
+  }
 }

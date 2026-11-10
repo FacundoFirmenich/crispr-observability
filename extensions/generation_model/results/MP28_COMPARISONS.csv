@@ -1,0 +1,13 @@
+comparison,nominal_percent,threshold,covered_blocks,blocks,block_coverage_percent,included_records,records,record_coverage_percent,correct_singleton,wrong_singleton,ambiguous,empty,scope
+baseline_matched,90.0,4,246,256,96.09375,3062,3072,99.67447916666667,512,0,2550,10,matched
+baseline_matched,95.0,5,255,256,99.609375,3071,3072,99.96744791666667,312,0,2759,1,matched
+noise_shift,90.0,4,1,256,0.390625,1705,3072,55.501302083333336,614,3,1091,1364,stress_no_nominal_guarantee
+noise_shift,95.0,5,3,256,1.171875,2202,3072,71.6796875,687,3,1515,867,stress_no_nominal_guarantee
+catalogue_shift,90.0,4,0,256,0.0,1386,3072,45.1171875,201,8,1185,1678,stress_no_nominal_guarantee
+catalogue_shift,95.0,5,1,256,0.390625,2167,3072,70.54036458333333,682,11,1485,894,stress_no_nominal_guarantee
+catalogue_recalibrated,90.0,8,233,256,91.015625,3049,3072,99.25130208333333,622,0,2427,23,matched
+catalogue_recalibrated,95.0,9,254,256,99.21875,3070,3072,99.93489583333333,393,0,2677,2,matched
+catalogue_expanded_fixed_threshold,90.0,4,245,256,95.703125,3061,3072,99.64192708333333,504,0,2557,11,paired_diagnostic_no_nominal_guarantee
+catalogue_expanded_fixed_threshold,95.0,5,254,256,99.21875,3070,3072,99.93489583333333,315,0,2755,2,paired_diagnostic_no_nominal_guarantee
+catalogue_expanded_recalibrated,90.0,4,245,256,95.703125,3061,3072,99.64192708333333,504,0,2557,11,matched
+catalogue_expanded_recalibrated,95.0,4,245,256,95.703125,3061,3072,99.64192708333333,504,0,2557,11,matched
