@@ -98,7 +98,7 @@ def main():
         for extension in PACKAGED_EXTENSIONS:
             shutil.copytree(ROOT / "extensions" / extension, bundle / "evidence" / "extensions" / extension,
                             ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
-        for name in ("README.md", "LEEME_ES.md", "EVIDENCE.md"):
+        for name in ("README.md", "EVIDENCE.md"):
             shutil.copy2(PROJECT / name, bundle / name)
         source = bundle / "source"
         source.mkdir()

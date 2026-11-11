@@ -2,6 +2,9 @@
 
 ## Portable reproduction
 
+The [repository guide](docs/REPOSITORY_GUIDE.md) provides an English entry point
+to the software, the scope of each validation, and the historical evidence.
+
 Use the [offline reproduction guide](reproducibility/README.md) and the
 [evidence map](reproducibility/EVIDENCE.md). The unified command combines
 historical COL17A1 replay with the frozen ONT/HiFi decision reconstruction.

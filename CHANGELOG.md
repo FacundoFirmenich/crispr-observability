@@ -4,6 +4,7 @@
 - Integrate selected frozen MP33–MP38, ONT and HiFi validation artifacts from the MIT extension.
 - Add one offline command with quick, count and full retained-span modes and independent germline decision reconstruction.
 - Build and test native Windows, Linux and macOS packages with scoped runtime notices and receipts.
+- Provide English package guidance and a repository-wide English documentation index.
 
 # 0.6.0 / MP06 — 1 November 2026
 

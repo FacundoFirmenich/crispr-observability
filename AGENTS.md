@@ -1,54 +1,19 @@
-# Conservación íntegra y recuperación de investigación
+# Research preservation and recovery
 
-Instrucción expresa de Facundo Firmenich, aclarada y ratificada el 1 de noviembre de 2026. La aclaración posterior autoriza y exige recomputar lo valioso que realmente se haya perdido.
+Explicit instruction from Facundo Firmenich, clarified and ratified on 1 November 2026. The subsequent clarification authorizes and requires recomputation of valuable work that has genuinely been lost.
 
-Conservar los archivos reales de investigación: fuentes, datos, configuraciones,
-resultados, intermedios costosos, registros, intentos fallidos y entregas. Un hash,
-un índice, un registro SQL, una cita conversacional o un enlace temporal no
-sustituyen los bytes del archivo. Los hashes sirven para comprobar identidades
-de archivos que efectivamente se han recuperado.
+Preserve the actual research files: sources, data, configurations, results, costly intermediate outputs, logs, failed attempts, and deliverables. A hash, index, SQL record, chat citation, or temporary link cannot replace the bytes of a file. Use hashes to establish the identity of files that have been recovered.
 
-Antes de una ejecución costosa debe existir un destino persistente autorizado.
-Guardar por etapas y antes del cierre. Los archivos propios de un repositorio
-se sincronizan con su remoto; los materiales privados y los grandes resultados
-que Git no incluya se guardan mediante el destino persistente autorizado. El
-manuscrito y el suplemento CRISPR completos permanecen privados para el depósito
-del autor. No publicar un resultado privado para resolver una falta de respaldo.
+Establish an authorized persistent destination before any costly execution. Save work in stages and before closing a task. Synchronize repository files with their remote. Store private materials and large results that Git cannot accommodate in an authorized persistent destination. The complete CRISPR manuscript and supplement remain private for deposit by the author. A private result cannot be published as a substitute for backup.
 
-Al retomar, recuperar primero los originales desde sus ubicaciones persistentes.
-Verificar recepción, apertura, tamaño e identidad. Para entregas científicas
-costosas, comprobar también que los archivos enumerados dentro de los paquetes
-están presentes y corresponden a sus inventarios. Distinguir copia temporal,
-guardado remoto confirmado y descarga posterior realmente verificada.
+On resumption, recover originals from their persistent locations first. Verify receipt, readability, size, and identity. For costly research deliverables, also verify that each package contains the files listed in its inventory. Distinguish temporary copies, confirmed remote storage, and verified downloads.
 
-Si falta un archivo, buscarlo primero en las versiones y respaldos autorizados.
-Si no se recupera y aporta valor al primer paper CRISPR, recomputar íntegramente
-el componente necesario con fuentes auténticas, entradas y condiciones explícitas.
-Esta recomputación está expresamente autorizada y exigida por el usuario; no
-requiere pedirle de nuevo la misma autorización. Verificar los nuevos resultados,
-contrastar su compatibilidad con la evidencia conservada e integrarlos en el
-manuscrito y suplemento cuando corresponda. Guardar los archivos durante la ejecución.
-Un hash sin el archivo no cierra el problema. No dejar un hueco evitable en P1.
+If a file is missing, search authorized versions and backups first. If it cannot be recovered and matters to the first CRISPR paper, recompute the required component in full with authentic sources, explicit inputs, and declared conditions. The author has authorized this recomputation. Verify the new results, test their compatibility with preserved evidence, and integrate them into the manuscript or supplement where warranted. Save files during execution.
 
-La nueva ejecución debe conservar su fecha y procedencia reales. Mantener en el
-registro histórico que el original se perdió, sin fingir que la recomputación
-es una recuperación byte por byte. Esta trazabilidad no es una excusa para no
-rehacer el trabajo necesario. No inventar observaciones ni fuentes. Si faltan
-entradas experimentales, obtenerlas de una fuente auténtica o resolver el alcance
-científico con evidencia real antes de sostener la afirmación afectada.
+A hash without the corresponding file leaves the gap open. Keep the actual recomputation date and provenance. Record the loss of the original, distinguish recomputation from exact recovery, and keep meaningful adverse outcomes. If an experimental input is unavailable, obtain an authentic source or resolve the affected claim at the level the evidence supports.
 
-No declarar una entrega completa sin confirmar cada guardado. Registrar por
-archivo su ubicación persistente, identidad, estado y último acceso verificado.
-Una fila de base de datos es un índice salvo que contenga también el archivo.
-Si se conservan BLOBs en SQL, verificar que se pueden extraer sus bytes reales.
-Conservar los fallos como fallos; la recuperación de un archivo defectuoso no
-lo convierte en una ejecución científica exitosa.
+Confirm persistent storage for each deliverable before reporting completion. Record location, identity, state, and the latest verified access for each file. A database row serves as an index unless it contains the actual file. If a database contains BLOBs, verify that the original bytes can be extracted. A recovered defective artifact remains defective.
 
-No cambiar resultados, estados aprobatorios o fechas para aparentar continuidad.
-La integridad de los archivos no constituye por sí sola una validación del método,
-una medida de exactitud o una puntuación científica. Las limitaciones deben
-revisarse sobre la evidencia íntegra, sin añadir barreras editoriales inventadas.
+Preserve historical results, dates, and adjudications. File integrity alone establishes neither methodological validity nor biological accuracy. Review limitations against the complete evidence and distinguish actual publication requirements from editorial choices.
 
-No incluir credenciales en respaldos. No prometer control sobre la limpieza de
-proveedores ni activación automática en todas las conversaciones. Identificar
-el alcance efectivamente instalado y los respaldos recuperables.
+Exclude credentials from backups. Report the exact installed scope and retrievable backups. External platform storage, deletion, and cross-conversation activation require their own verification.

@@ -76,12 +76,12 @@
       "sha256": "e6875bbc93dbaea9059f1a4c92f14dc385526a0319aa51ed61aea36383f9f37b"
     },
     "AGENTS.md": {
-      "bytes": 3624,
-      "sha256": "29f7315239161942355f9fdc4272c541cce0467425c1f47bb238b154ff3fac19"
+      "bytes": 2944,
+      "sha256": "967bc6ff91cf8a99a601b580bcf52197c62456a1978b93b939f1b50ab557770b"
     },
     "CHANGELOG.md": {
-      "bytes": 5576,
-      "sha256": "514269c29ddb2c8cfda81a89199d49ec148450179e49ebc8c086177b798583e7"
+      "bytes": 5662,
+      "sha256": "e56cdb81ef4632af1f598738c52e4fed45fa39b1ae27c182b456ea7d9b07e810"
     },
     "CITATION.cff": {
       "bytes": 2089,
@@ -108,16 +108,16 @@
       "sha256": "ecfafd9e83369debddf2adc591c57446a0f40896a8b50fc4761e28792763a85b"
     },
     "README.md": {
-      "bytes": 12186,
-      "sha256": "253617df1a414a47ab3fd827d207da5cb73b2b7fd76f7133ca65d5367cc211c0"
+      "bytes": 12344,
+      "sha256": "6be29d891fa46ac3bf6089fdef26c8ec88133b6143c30da85a4fd58ee7c17af9"
     },
     "RELEASE_0_7_0.md": {
       "bytes": 724,
       "sha256": "41d90b9c8797596b56323308bd40a09b677664ac67ddd45705e3257e52b13df6"
     },
     "THIRD_PARTY_NOTICES.csv": {
-      "bytes": 406259,
-      "sha256": "06dfaefaaf65fe2983fddb77e85922a73ba5d28d60b93a208e23918de8318141"
+      "bytes": 406747,
+      "sha256": "e98aa2ec222329270bb9080e4ae73cd25cf945fa522572ff47c1e8bc64dee30a"
     },
     "ZENODO_RELEASE.md": {
       "bytes": 1861,
@@ -163,6 +163,10 @@
       "bytes": 655,
       "sha256": "df437fa7054d9339756c9c9c6b9089999a983d7fc437be8af8f969e5d4e2f76e"
     },
+    "docs/REPOSITORY_GUIDE.md": {
+      "bytes": 1750,
+      "sha256": "2667ce2c4f35c281aae57d2853c5b38d1706f4505ecb6c26275f2eb34b7c6707"
+    },
     "docs/REPRODUCTION_SCOPE.md": {
       "bytes": 9448,
       "sha256": "202445a999ed4485b7899e57c0e8229d8ef775b9318702cdc8e0812c20c9547d"
@@ -170,6 +174,10 @@
     "docs/SCIENTIFIC_FRONTIER.md": {
       "bytes": 6835,
       "sha256": "6081d40b5049c48f6e1d3892e1997d8bc30f2b71f25cc686b4af860ada61d5a3"
+    },
+    "docs/VISUAL_STYLE.md": {
+      "bytes": 951,
+      "sha256": "bace04aa737c672e92c915bfffdef5c759b3cdfe5147132376b83a3fd3652dfa"
     },
     "engine_replay/DEPENDENCY_MANIFEST.json": {
       "bytes": 10219,
@@ -5404,8 +5412,8 @@
       "sha256": "dc0504a07dfacc464d314f9a9694dfc5ec79ce236154d50612afd65e94f4b827"
     },
     "reproducibility/build_native.py": {
-      "bytes": 6809,
-      "sha256": "1821900ae0ded54527c79391bf18ac8c08c991f9c0dd5cafa600167de028b03a"
+      "bytes": 6794,
+      "sha256": "35a2123f85aaf5ffbfafe0ffbd6c8b84d2093f85d8c5db16a427c21b9de9fe1b"
     },
     "reproducibility/reproduce.py": {
       "bytes": 11679,
