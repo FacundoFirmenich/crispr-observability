@@ -6,6 +6,8 @@ on:
       - 'reproducibility/**'
       - '.github/workflows/native-reproduction.yml'
       - '.gitattributes'
+      - 'code/check_public_distribution.py'
+      - 'metadata/REPOSITORY_MANIFEST.json'
       - 'extensions/retained_span_audit/**'
       - 'extensions/generation_model/validation/**'
 permissions:

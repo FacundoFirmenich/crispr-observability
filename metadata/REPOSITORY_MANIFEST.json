@@ -36,8 +36,8 @@
       "sha256": "ce60ec40488f9622291f2e58baf1b72f35525453d561cade913d1033ba5476f9"
     },
     ".github/workflows/native-reproduction.yml": {
-      "bytes": 2015,
-      "sha256": "f3a412dcc0ea2343c725d12dc7b8c541784c61cf980631e15579c6cd2d91c618"
+      "bytes": 2103,
+      "sha256": "45934454d6d9ebc8b736d521a5aff3af319d3471e2aaeaf1df9ee0ee8fa3751b"
     },
     ".github/workflows/papergraph-checks.yml": {
       "bytes": 1840,
@@ -136,8 +136,8 @@
       "sha256": "420b0453c3235d6c8ae65cf21ceeced7a18f7d4f641c86a1e134ed0623e3b289"
     },
     "code/check_public_distribution.py": {
-      "bytes": 6935,
-      "sha256": "7f92ac80dad2cb2ce538ac6978345b0916ca6547f2b92e83b89157e3780a5153"
+      "bytes": 7055,
+      "sha256": "8dbcc9ca502e56100ef5876b3dfc25e97a5f9115f44711fccd30f2601ea64cf2"
     },
     "code/check_selected_p1_tables.py": {
       "bytes": 16873,
@@ -5400,8 +5400,8 @@
       "sha256": "9ba878dc03d400ab1056a65a3b12f87e7fd2a6dd776fd3fd86560eca7964d393"
     },
     "reproducibility/build_native.py": {
-      "bytes": 6728,
-      "sha256": "4098986277c3ff07a37d9745b5b070a9b2afc05285a9ab6d08f479108120c863"
+      "bytes": 6809,
+      "sha256": "1821900ae0ded54527c79391bf18ac8c08c991f9c0dd5cafa600167de028b03a"
     },
     "reproducibility/reproduce.py": {
       "bytes": 7049,
@@ -5495,5 +5495,7 @@
       "bytes": 28445,
       "sha256": "d632ecbec1243b79bcedd115b4a336035e0267c055f528c03ecfb18c8aa06c4b"
     }
-  }
+  },
+  "source_commit_role": "Historical source archive from the 0.7.1 integration",
+  "native_reproduction_base_commit": "c0608bdae73a6202442aa27a416526e9085d544d"
 }

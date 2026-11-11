@@ -120,16 +120,17 @@ def main():
         test_root.mkdir()
         shutil.unpack_archive(archive, test_root, filter="data" if operating_system != "windows" else None)
         executable = test_root / bundle.name / binary
-        report_path = output / "replay"
         env = os.environ.copy()
         env.pop("PYTHONPATH", None)
         env.pop("PYTHONHOME", None)
         env["PYTHONNOUSERSITE"] = "1"
-        subprocess.run([str(executable), "--mode", args.test_mode, "--output", str(report_path)],
-                       cwd=test_root, env=env, check=True)
-        report = json.loads((report_path / "REPRODUCTION.json").read_bytes())
-        if report["status"] != "PASS" or report["environment"]["frozen"] is not True:
-            raise ValueError("Packaged executable did not complete the selected replay")
+        for mode in dict.fromkeys(("quick", args.test_mode)):
+            report_path = output / ("replay-" + mode)
+            subprocess.run([str(executable), "--mode", mode, "--output", str(report_path)],
+                           cwd=test_root, env=env, check=True)
+            report = json.loads((report_path / "REPRODUCTION.json").read_bytes())
+            if report["status"] != "PASS" or report["environment"]["frozen"] is not True:
+                raise ValueError(f"Packaged executable did not complete {mode} replay")
     (output / "SHA256SUMS.txt").write_text(f"{sha256(archive)}  {archive.name}\n", encoding="utf-8")
     print(json.dumps({"archive": archive.name, "platform": platform_name, "test_mode": args.test_mode}))
 

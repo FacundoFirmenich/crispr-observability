@@ -57,9 +57,10 @@ def main():
         assert len(data) == expected['bytes'], name
         assert hashlib.sha256(data).hexdigest() == expected['sha256'], name
         if relative.suffix in {'.json', '.html', '.md', '.txt', '.csv', '.yml', '.svg', '.js'}:
-            text = data.decode('utf-8')
-            assert '\\begin{document}' not in text, name
-            assert 'P1_Revised_Integrated_EN.txt' not in text, name
+            # The text markers are ASCII. Scan exact bytes so archived Windows
+            # code-page files can be checked without rewriting their evidence.
+            assert b'\\begin{document}' not in data, name
+            assert b'P1_Revised_Integrated_EN.txt' not in data, name
     release = json.loads((ROOT / 'metadata/RELEASE_STATE.json').read_text())
     assert release['version'] == inventory['version'] == '0.9.0'
     assert release['edition'] == inventory['edition'] == policy['edition'] == 'NATIVE_REPRODUCTION'
