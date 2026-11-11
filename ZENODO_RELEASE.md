@@ -1,4 +1,6 @@
-# GitHub to Zenodo release handoff
+# Archival citation and GitHub to Zenodo release handoff
+
+The [Zenodo v0.8.1 record](https://doi.org/10.5281/zenodo.24121127) contains the versioned source ZIP. The native reproduction release uses a separate release identifier and links to this archived source version for attribution.
 
 Version 0.7.1 is a packaging and citation update to the scientifically checked
 0.7.0 release. It adds the 235 historical evidence files to the Git tree itself,
@@ -13,9 +15,7 @@ The integration handles new release events once enabled; if the pre-existing
 release is not offered for archiving, a subsequent release event is required.
 
 Manuscript, formal supplement and their editable sources remain excluded until
-the author confirms bioRxiv acceptance and authorizes adding them. No DOI has
-been assigned or reserved by this preparation. Once Zenodo reports the record DOI,
-use that actual identifier in citation metadata and the private manuscript.
+the author confirms bioRxiv acceptance and authorizes adding them. Cite an archive DOI only for the version deposited under that identifier.
 
 Official instructions:
 https://help.zenodo.org/docs/github/enable-repository/

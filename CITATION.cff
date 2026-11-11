@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: >-
   Cite this software with its version and exact Git commit. The manuscript is a
-  distinct scientific object; no DOI is assigned to this repository.
+  distinct scientific object. The Zenodo DOI in references identifies the archived v0.8.1 source snapshot.
 type: software
 title: "CRISPR observability: finite-universe bounds and sequence-correspondence checks"
 version: "0.9.0"
@@ -40,3 +40,15 @@ keywords:
 repository-code: "https://github.com/FacundoFirmenich/crispr-observability"
 url: "https://github.com/FacundoFirmenich/crispr-observability"
 date-released: "2026-11-11"
+
+references:
+  - type: software
+    title: 'CRISPR observability: software and source-bound scientific evidence'
+    authors:
+      - family-names: Firmenich
+        given-names: Facundo
+        orcid: 'https://orcid.org/0009-0002-6578-3811'
+    version: '0.8.1'
+    year: 2026
+    doi: '10.5281/zenodo.24121127'
+    url: 'https://zenodo.org/records/24121127'

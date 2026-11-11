@@ -31,6 +31,8 @@ outside these offline commands. MP33–MP38 protocols and results in the
 bundle are checked for file identity. Their full remote acquisitions and
 executions are identified separately.
 
+The earlier v0.8.1 source archive has its own [Zenodo DOI](https://doi.org/10.5281/zenodo.24121127). The native release is identified by its version and the source commit in BUILD.json.
+
 ## Run or build from source
 
 From the repository root, with CPython 3.14 and a fresh environment.

@@ -84,8 +84,8 @@
       "sha256": "e56cdb81ef4632af1f598738c52e4fed45fa39b1ae27c182b456ea7d9b07e810"
     },
     "CITATION.cff": {
-      "bytes": 2089,
-      "sha256": "2ba59b13031fde0e786af7bf2177871c3b922f12c8bcd85a4ef6e3d63dc7fa80"
+      "bytes": 2487,
+      "sha256": "a5475a6e6cf6f5f6001feed15e9df55d13f7554f5e1289777b8a0d76ffbf3291"
     },
     "Dockerfile": {
       "bytes": 744,
@@ -108,8 +108,8 @@
       "sha256": "ecfafd9e83369debddf2adc591c57446a0f40896a8b50fc4761e28792763a85b"
     },
     "README.md": {
-      "bytes": 12344,
-      "sha256": "6be29d891fa46ac3bf6089fdef26c8ec88133b6143c30da85a4fd58ee7c17af9"
+      "bytes": 12578,
+      "sha256": "c4b782707eec844ff68ae26cbfb7b27729a90f5a05881a404fc74be3c9be5622"
     },
     "RELEASE_0_7_0.md": {
       "bytes": 724,
@@ -120,8 +120,8 @@
       "sha256": "e98aa2ec222329270bb9080e4ae73cd25cf945fa522572ff47c1e8bc64dee30a"
     },
     "ZENODO_RELEASE.md": {
-      "bytes": 1861,
-      "sha256": "0b04bb5e5452547dedbd1f860b1b0cbcd6471d736cdc151ff2b71ace5811b135"
+      "bytes": 2017,
+      "sha256": "a9e654208b00ff5afca6a16d1b36d02c9a2d6da50a49f1f1a6ff08a394e1eeab"
     },
     "code/LICENSE": {
       "bytes": 34674,
@@ -5232,8 +5232,8 @@
       "sha256": "d82805536e74749a6cf9e6b863ee1feb8e3604fe3e25a8278fca8527da4c0962"
     },
     "metadata/RELEASE_STATE.json": {
-      "bytes": 7584,
-      "sha256": "5a4c9f4f47e9902f89d7327582289d5b2cf8b56c0ff92c0d443698c898e4f8cd"
+      "bytes": 7794,
+      "sha256": "df442ba4a99a042213566ea39bbbc5f1147caab51e0d5a04e071a23a4676f627"
     },
     "metadata/RUNTIME_SOURCES.json": {
       "bytes": 3209,
@@ -5408,8 +5408,8 @@
       "sha256": "5978c996c62d539811e63309bcf4aa7911e00c1ecaa8dfbd312fffe6c0332c58"
     },
     "reproducibility/README.md": {
-      "bytes": 2472,
-      "sha256": "dc0504a07dfacc464d314f9a9694dfc5ec79ce236154d50612afd65e94f4b827"
+      "bytes": 2659,
+      "sha256": "3e016d7283036a13c18d6fe951ce065b1f79994fc749cd9da412719183e72f6f"
     },
     "reproducibility/build_native.py": {
       "bytes": 6794,

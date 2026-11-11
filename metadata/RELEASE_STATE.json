@@ -147,5 +147,11 @@
     ],
     "manuscripts_private": true
   },
-  "native_artifact_verification": "Per-platform full replay receipts accompany released binaries."
+  "native_artifact_verification": "Per-platform full replay receipts accompany released binaries.",
+  "archived_source_release": {
+    "version": "0.8.1",
+    "doi": "10.5281/zenodo.24121127",
+    "concept_doi": "10.5281/zenodo.24121088",
+    "archive": "FacundoFirmenich/crispr-observability-v0.8.1.zip"
+  }
 }
