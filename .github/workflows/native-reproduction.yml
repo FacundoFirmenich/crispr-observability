@@ -43,7 +43,8 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - name: Install exact build dependencies
-        run: python -m pip install --only-binary=:all: -r reproducibility/${{ matrix.requirements }}
+        run: >-
+          python -m pip install --only-binary=:all: -r reproducibility/${{ matrix.requirements }}
       - name: Check public distribution
         run: python code/check_public_distribution.py
       - name: Build, extract and run native full replay
