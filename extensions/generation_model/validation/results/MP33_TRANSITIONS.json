@@ -1,0 +1,197 @@
+[
+  {
+    "id": "931ba1b30aa7187200fe33b5b529c75e747cb984674eec40a4aad0199aa750aa",
+    "site": "chr21_32160285",
+    "geometry": "center",
+    "before": "correct_singleton",
+    "after": "ambiguous",
+    "before_scores": {
+      "0": 7,
+      "1": 8
+    },
+    "after_scores": {
+      "0": 3,
+      "1": 3
+    }
+  },
+  {
+    "id": "828bcd6baf8f2491e822341f1b3b1d87f8a1c6f601d285b3112cdef82f708588",
+    "site": "chr21_32160285",
+    "geometry": "center",
+    "before": "wrong_singleton",
+    "after": "correct_singleton",
+    "before_scores": {
+      "0": 6,
+      "1": 7
+    },
+    "after_scores": {
+      "0": 4,
+      "1": 2
+    }
+  },
+  {
+    "id": "c067250baac1b95a1145283c386c3723d9b1eccdc3b2672eb45d50a5951297b9",
+    "site": "chr21_32160285",
+    "geometry": "center",
+    "before": "wrong_singleton",
+    "after": "correct_singleton",
+    "before_scores": {
+      "0": 6,
+      "1": 7
+    },
+    "after_scores": {
+      "0": 3,
+      "1": 2
+    }
+  },
+  {
+    "id": "279d3b0b6840b38fa54fd7be46b280aadb3f1efdcd9f8928d0d098027e0761ae",
+    "site": "chr21_32160285",
+    "geometry": "left_event_absent",
+    "before": "wrong_singleton",
+    "after": "ambiguous",
+    "before_scores": {
+      "0": 4,
+      "1": 5
+    },
+    "after_scores": {
+      "0": 1,
+      "1": 1
+    }
+  },
+  {
+    "id": "ebe3d38640cd97b81adf42f1ad582ff0c301f6aca20d94999c3ce21747644892",
+    "site": "chr21_32160285",
+    "geometry": "left_event_absent",
+    "before": "wrong_singleton",
+    "after": "ambiguous",
+    "before_scores": {
+      "0": 4,
+      "1": 5
+    },
+    "after_scores": {
+      "0": 1,
+      "1": 1
+    }
+  },
+  {
+    "id": "8a3371428201b06a805d5eae8ea4daca924aa852a9a3aed2ecf126e6b0fe058a",
+    "site": "chr21_19463992",
+    "geometry": "left_event_absent",
+    "before": "ambiguous",
+    "after": "correct_singleton",
+    "before_scores": {
+      "0": 5,
+      "1": 5
+    },
+    "after_scores": {
+      "0": 1,
+      "1": 2
+    }
+  },
+  {
+    "id": "7472c422824c3905524e550e5e52c22d4177d9e6f58c09db7a7494ca8b3dca45",
+    "site": "chr21_24391759",
+    "geometry": "center",
+    "before": "ambiguous",
+    "after": "correct_singleton",
+    "before_scores": {
+      "0": 7,
+      "1": 7
+    },
+    "after_scores": {
+      "0": 2,
+      "1": 7
+    }
+  },
+  {
+    "id": "eca090d6a1e9c7709be5ead97e8ff6f99ad2aefdd11d3f7e51138b10afb9bf8d",
+    "site": "chr21_24391759",
+    "geometry": "center",
+    "before": "ambiguous",
+    "after": "correct_singleton",
+    "before_scores": {
+      "0": 5,
+      "1": 5
+    },
+    "after_scores": {
+      "0": 0,
+      "1": 5
+    }
+  },
+  {
+    "id": "eff338e8f49f29c00171444f1c43422b76b0fd789000c662949afac8871b4637",
+    "site": "chr21_24391759",
+    "geometry": "center",
+    "before": "ambiguous",
+    "after": "correct_singleton",
+    "before_scores": {
+      "0": 6,
+      "1": 6
+    },
+    "after_scores": {
+      "0": 6,
+      "1": 1
+    }
+  },
+  {
+    "id": "874ec9c20f8478bedf2aa804f499f04bcd08439dec31865eabf20f59cdd686a5",
+    "site": "chr21_24391759",
+    "geometry": "center",
+    "before": "ambiguous",
+    "after": "correct_singleton",
+    "before_scores": {
+      "0": 5,
+      "1": 5
+    },
+    "after_scores": {
+      "0": 5,
+      "1": 0
+    }
+  },
+  {
+    "id": "23f5f22d39a2e29287c8ba54c4dfc90a18689c5852f5bb0e1bdb6dac68398ea5",
+    "site": "chr21_45061428",
+    "geometry": "center",
+    "before": "ambiguous",
+    "after": "correct_singleton",
+    "before_scores": {
+      "0": 5,
+      "1": 5
+    },
+    "after_scores": {
+      "0": 0,
+      "1": 4
+    }
+  },
+  {
+    "id": "2fbc3bd3cdcc7e40a84a153146e929f29e8cbb39c81ab0080fdcaf49e871e734",
+    "site": "chr21_45061428",
+    "geometry": "center",
+    "before": "ambiguous",
+    "after": "correct_singleton",
+    "before_scores": {
+      "0": 6,
+      "1": 6
+    },
+    "after_scores": {
+      "0": 1,
+      "1": 5
+    }
+  },
+  {
+    "id": "33f18db3c1d404308de14e443dfe677c3a1e67cdc60d4d891fb4f56ef22484c1",
+    "site": "chr21_31794476",
+    "geometry": "left_event_absent",
+    "before": "wrong_singleton",
+    "after": "wrong_singleton",
+    "before_scores": {
+      "0": 6,
+      "1": 5
+    },
+    "after_scores": {
+      "0": 2,
+      "1": 1
+    }
+  }
+]

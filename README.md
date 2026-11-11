@@ -1,5 +1,14 @@
 # CRISPR observability: computational companion
 
+## Portable reproduction
+
+Use the [offline reproduction guide](reproducibility/README.md) and the
+[evidence map](reproducibility/EVIDENCE.md). The unified command combines
+historical COL17A1 replay with the frozen ONT/HiFi decision reconstruction.
+The [integrated validation evidence](extensions/generation_model/validation/)
+preserves local outcomes, protocol timing and adverse results from the MIT
+extension. Manuscript and formal supplement are maintained separately.
+
 ## Integrated scientific release: 0.8.1
 
 The [generation-model and calibration extension](extensions/generation_model/README.md)

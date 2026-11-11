@@ -1,0 +1,21 @@
+{
+  "sources": [
+    {
+      "path": "inputs/truth_chr22.vcf",
+      "sha256": "09acdfb989aa3f441d5eeca4dbb2fdbae31ceb73081c96408bb4c4de150a95ec",
+      "MB": 29.028408
+    },
+    {
+      "path": "inputs/truth.vcf.gz.tbi",
+      "sha256": "5d8e65ab012a0e8f6a44cf0f5c98df6848c7c8f48a062de1491804d7d0380733",
+      "MB": 1.615818
+    },
+    {
+      "path": "inputs/truth.bed",
+      "sha256": "24141b618d3b33c1595e73c25e7958673a190482534bd28d0122af1f61758195",
+      "MB": 18.61534
+    }
+  ],
+  "truth_base": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/ChineseTrio/HG005_NA24631_son/NISTv4.2.1/GRCh38/HG005_GRCh38_1_22_v4.2.1_benchmark",
+  "scope": "No real read outcomes used in selection."
+}

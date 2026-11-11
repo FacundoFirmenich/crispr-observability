@@ -1,0 +1,79 @@
+{
+  "status": "HEADER_AND_METADATA_ADMITTED",
+  "source": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG005/PAW88001/output/SAMPLE.haplotagged.cram",
+  "source_GB": 58.922274845,
+  "etag": "\"8130ee35ab3336fb43e4eceecc3e959d-7025\"",
+  "reference": {
+    "SN": "chr20",
+    "LN": 64444167,
+    "M5": "b18e6c531b0bd70e949a7fc20859cb01",
+    "UR": "/humvar-work-sup/a5/104081c1b47fa13a0027577f01bb72/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta"
+  },
+  "reference_sha256": "2442701218d3b2f7e2d7cacd78774e1628fd48a7a13b58bee53ab8b7cb3d1af4",
+  "index_shift": -186,
+  "published_index_sha256": "80c594c1fa4cba627348dff62c5c1a21a96ab8c0592e3feb6708dac64d722bc7",
+  "derived_index_sha256": "1fb90cc2333876eb4341c246b8b411e1c53eb3253266f64176c143ec3dcd62c5",
+  "container_checks": [
+    {
+      "published": 9492,
+      "actual": 9306,
+      "length": 3163422,
+      "next_gap": 3163447,
+      "header_sha256": "fe464364e91d93a4884fa53850a3416bb6c2f4fd7b56445aed1e4931b769a5f7"
+    },
+    {
+      "published": 3172939,
+      "actual": 3172753,
+      "length": 3559748,
+      "next_gap": 3559775,
+      "header_sha256": "bcb1b0e2714fd1b693979d8962ed4691cfd9165aae390f91e1d7f69019c2dfea"
+    },
+    {
+      "published": 52200755676,
+      "actual": 52200755490,
+      "length": 3420808,
+      "next_gap": 3420837,
+      "header_sha256": "3f43ca0df8d95457eb6dc4fbb94beced189558cf3bfbcf108604044b54c9042c"
+    },
+    {
+      "published": 52891061662,
+      "actual": 52891061476,
+      "length": 3723888,
+      "next_gap": 3723918,
+      "header_sha256": "e6addf4ba8327ef7908e52ad61d070a65f1d58cf5ddfe3c61b559510b3fee74d"
+    },
+    {
+      "published": 53642410751,
+      "actual": 53642410565,
+      "length": 2399365,
+      "next_gap": 2399395,
+      "header_sha256": "83a45f33b80d58d613fca6fabcb2036b5508acd39bfe531370034474f2332624"
+    }
+  ],
+  "acquisition_metadata": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/flowcells/HG005/PAW88001/final_summary_PAW88001_00acf80a_a8d5af55.txt",
+  "acquisition": {
+    "instrument": "PCAMP151",
+    "position": "5A",
+    "flow_cell_id": "PAW88001",
+    "sample_id": "hg005",
+    "protocol_group_id": "ca_hg001_hg005_dataset_110924",
+    "protocol": "sequencing/sequencing_PRO114_DNA_e8_2_400K:FLO-PRO114M:SQK-LSK114:400",
+    "protocol_run_id": "00acf80a-8ca0-41b8-989b-595941d667e6",
+    "acquisition_run_id": "a8d5af552ff51e897800ec22cbadf6e3d71b0af8",
+    "started": "2024-09-11T11:29:15.895149+00:00",
+    "acquisition_stopped": "2024-09-13T15:47:07.793239+00:00",
+    "processing_stopped": "2024-09-13T15:47:20.071091+00:00",
+    "basecalling_enabled": "1",
+    "sequencing_summary_file": "sequencing_summary_PAW88001_00acf80a_a8d5af55.txt",
+    "fast5_files_in_final_dest": "0",
+    "fast5_files_in_fallback": "0",
+    "pod5_files_in_final_dest": "53",
+    "pod5_files_in_fallback": "0",
+    "fastq_files_in_final_dest": "628",
+    "fastq_files_in_fallback": "0",
+    "bam_files_in_final_dest": "0",
+    "bam_files_in_fallback": "0"
+  },
+  "acquisition_sha256": "44c2fd8d82d64ca43a6b5b608a7b90a10728d96a6aaaae5560df23e382df340f",
+  "scope": "Metadata/header/container admission. Scientific use additionally requires successful full source decoding. No assumption of independently prepared library."
+}

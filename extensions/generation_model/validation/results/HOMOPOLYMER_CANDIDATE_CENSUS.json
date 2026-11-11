@@ -1,0 +1,53 @@
+{
+  "scope": "Truth-only feasibility. chr20, one-base anchored indels, isolated +-500, prior chr20 coordinates excluded. Reference candidates from homozygous HG002 calls absent from the donor confident interval. No sequencing reads were scored.",
+  "donors": {
+    "HG006": {
+      "eligible_counts": {
+        "alternate_ge15": 46,
+        "alternate_lt15": 242,
+        "reference_lt15": 166,
+        "reference_ge15": 39
+      },
+      "occupied_1mb_blocks": {
+        "alternate_ge15": 33,
+        "alternate_lt15": 59,
+        "reference_lt15": 42,
+        "reference_ge15": 21
+      },
+      "truth_chr20_rows": 80232,
+      "vcf_range": [
+        111602410,
+        114129623
+      ],
+      "inputs_sha256": {
+        "GIAB.vcf.gz.tbi": "e364173dc0a5c252f20d256545836f01d00da84200406092bf74d35484f51eb3",
+        "GIAB_chr20.bgzf": "990e76cadc89cf4523544a1c41dbf3166a1847dafe19a07a755a7edaef8739cc",
+        "GIAB_confidence.bed": "1140193050a4b9aa6bc4a057ff0dfc1b27613384a8400f9125cab6279df05510"
+      }
+    },
+    "HG007": {
+      "eligible_counts": {
+        "alternate_lt15": 231,
+        "alternate_ge15": 54,
+        "reference_lt15": 132,
+        "reference_ge15": 26
+      },
+      "occupied_1mb_blocks": {
+        "alternate_lt15": 60,
+        "alternate_ge15": 30,
+        "reference_lt15": 41,
+        "reference_ge15": 19
+      },
+      "truth_chr20_rows": 81411,
+      "vcf_range": [
+        112446588,
+        115017695
+      ],
+      "inputs_sha256": {
+        "GIAB.vcf.gz.tbi": "cd06ca861380357c956c02d00e57da46753af534a1a577c0f07835f954c7cd80",
+        "GIAB_chr20.bgzf": "e99bfbdc544ac70103ee4878378d586e02b77d4a5bd5c9c82c0d96f3e72b5e3b",
+        "GIAB_confidence.bed": "e8dcb609c8697c723b99daa14e7bf1d75d2c34eafa4d166c38d918a37013d4e9"
+      }
+    }
+  }
+}

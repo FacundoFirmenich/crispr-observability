@@ -1,0 +1,597 @@
+{
+  "test": [
+    {
+      "id": "chr20_6116729_C_CAAAA",
+      "pos": 6116728,
+      "ref": "C",
+      "alt": "CAAAA",
+      "expected": "0",
+      "region": 6,
+      "rank": "0025999e1019e32e70919cf569fe94f2314e23f59bc63e58423da86382684c63"
+    },
+    {
+      "id": "chr20_31805133_ATGC_A",
+      "pos": 31805132,
+      "ref": "ATGC",
+      "alt": "A",
+      "expected": "0",
+      "region": 31,
+      "rank": "011f9d4a4778a65f580ac059f5a25f15c540db935c97647295e2ab0c489cf6bd"
+    },
+    {
+      "id": "chr20_38253070_C_CGCCTGGGCCA",
+      "pos": 38253069,
+      "ref": "C",
+      "alt": "CGCCTGGGCCA",
+      "expected": "0",
+      "region": 38,
+      "rank": "0166511185fb0465447b98391e1855af720ebc75e1a07f64979ad1536e5ae24a"
+    },
+    {
+      "id": "chr20_2216688_GTT_G",
+      "pos": 2216687,
+      "ref": "GTT",
+      "alt": "G",
+      "expected": "0",
+      "region": 2,
+      "rank": "022929ae430ec773463ffd156f7d66823c96b5e4c44678e794302ca2cc2e58d5"
+    },
+    {
+      "id": "chr20_46149227_G_GTGT",
+      "pos": 46149226,
+      "ref": "G",
+      "alt": "GTGT",
+      "expected": "0",
+      "region": 46,
+      "rank": "02431a6828e03e8a7f341381a784279af845ac0b4e34ce876a1e8cfe47bb7a7c"
+    },
+    {
+      "id": "chr20_41522390_ACG_A",
+      "pos": 41522389,
+      "ref": "ACG",
+      "alt": "A",
+      "expected": "0",
+      "region": 41,
+      "rank": "024e75b15da1843b755baf314e40141b5c36ebf62bc4e656ce2e71f7b6172c0f"
+    },
+    {
+      "id": "chr20_41228971_AAC_A",
+      "pos": 41228970,
+      "ref": "AAC",
+      "alt": "A",
+      "expected": "0",
+      "region": 41,
+      "rank": "028f9eb96787b0c72193f5e3484e612d52debae433f57636de219044b00810b5"
+    },
+    {
+      "id": "chr20_44349146_T_TAAATA",
+      "pos": 44349145,
+      "ref": "T",
+      "alt": "TAAATA",
+      "expected": "0",
+      "region": 44,
+      "rank": "02d44aebae1c8b9e2e86bf9b5ac9ef5d2098be67eebcf927373d68f289abceb4"
+    },
+    {
+      "id": "chr20_60169595_C_CTT",
+      "pos": 60169594,
+      "ref": "C",
+      "alt": "CTT",
+      "expected": "0",
+      "region": 60,
+      "rank": "02f308ed136d9a8e884a71d5837b77832e631360dba41a688d18448f21a27576"
+    },
+    {
+      "id": "chr20_31727615_CTCTT_C",
+      "pos": 31727614,
+      "ref": "CTCTT",
+      "alt": "C",
+      "expected": "0",
+      "region": 31,
+      "rank": "03ba0ddd5b97adb7d7bdfb8fa02c826b7a6433a86be63f5e1a6393a71dbe11c3"
+    },
+    {
+      "id": "chr20_16520126_GTT_G",
+      "pos": 16520125,
+      "ref": "GTT",
+      "alt": "G",
+      "expected": "0",
+      "region": 16,
+      "rank": "0409733742095f11958b26bba9c31a2497f32be648d830e3338f5abf005b55a9"
+    },
+    {
+      "id": "chr20_57675147_T_TCACCGCC",
+      "pos": 57675146,
+      "ref": "T",
+      "alt": "TCACCGCC",
+      "expected": "0",
+      "region": 57,
+      "rank": "041634bf80191aa529133d6af6c34280637a1ec7a9cb3764d413c259ec6ee5e8"
+    },
+    {
+      "id": "chr20_61645476_TAA_T",
+      "pos": 61645475,
+      "ref": "TAA",
+      "alt": "T",
+      "expected": "0",
+      "region": 61,
+      "rank": "04752d392cfd53718bab92f6b333b1107526d973c06ab75f3e663b21e19e69ea"
+    },
+    {
+      "id": "chr20_50143701_CTT_C",
+      "pos": 50143700,
+      "ref": "CTT",
+      "alt": "C",
+      "expected": "0",
+      "region": 50,
+      "rank": "048a32679b79821bb2e44676043c5d3fcf71473a1f72e2005f1cdaa95466f7d6"
+    },
+    {
+      "id": "chr20_32607149_TTCTCTG_T",
+      "pos": 32607148,
+      "ref": "TTCTCTG",
+      "alt": "T",
+      "expected": "0",
+      "region": 32,
+      "rank": "055a9faef0f2e7e7ceab254b244530b0cbb83a28635f664250ccd493972bde7b"
+    },
+    {
+      "id": "chr20_46753704_C_CAA",
+      "pos": 46753703,
+      "ref": "C",
+      "alt": "CAA",
+      "expected": "0",
+      "region": 46,
+      "rank": "061f22f99c6f078f05ac200b07abb3e8dc5bebb7684b1085ea97e9e2a0cd78a9"
+    },
+    {
+      "id": "chr20_44773029_C_CAT",
+      "pos": 44773028,
+      "ref": "C",
+      "alt": "CAT",
+      "expected": "0",
+      "region": 44,
+      "rank": "064980dba84c4b9fd6a7641f200774f1ce663d1891bd1fb79a037b0c5122fcb9"
+    },
+    {
+      "id": "chr20_37252180_CCTTTCACAGAGTCGAAA_C",
+      "pos": 37252179,
+      "ref": "CCTTTCACAGAGTCGAAA",
+      "alt": "C",
+      "expected": "0",
+      "region": 37,
+      "rank": "0666bb6b1737782c58f101f88de60102ac223e1d977800c245868b9cc8a8cbfc"
+    },
+    {
+      "id": "chr20_12281787_CAAACAAAACA_C",
+      "pos": 12281786,
+      "ref": "CAAACAAAACA",
+      "alt": "C",
+      "expected": "0",
+      "region": 12,
+      "rank": "06a00548ddac8cae6c6521eabb16ba7ac7fcba1fe2e15ab854650282ce2ed2a4"
+    },
+    {
+      "id": "chr20_10805018_GAAGAAAGA_G",
+      "pos": 10805017,
+      "ref": "GAAGAAAGA",
+      "alt": "G",
+      "expected": "0",
+      "region": 10,
+      "rank": "06eeb9eb62439696cb78a42b521cabe3a21c34ecb7ec7ddbadfc2cbe0a31c803"
+    },
+    {
+      "id": "chr20_34257064_CTT_C",
+      "pos": 34257063,
+      "ref": "CTT",
+      "alt": "C",
+      "expected": "0",
+      "region": 34,
+      "rank": "07db3b8c594eae9bd9d5bc1d16dbf8d57329af8d5dedad8777a0e59653dd16d2"
+    },
+    {
+      "id": "chr20_10369712_CTG_C",
+      "pos": 10369711,
+      "ref": "CTG",
+      "alt": "C",
+      "expected": "0",
+      "region": 10,
+      "rank": "07f91a65305c079cfdf1e5cf60e13c898e8f1255dd1530175d68ee6776c4b92a"
+    },
+    {
+      "id": "chr20_52544796_TTTG_T",
+      "pos": 52544795,
+      "ref": "TTTG",
+      "alt": "T",
+      "expected": "0",
+      "region": 52,
+      "rank": "082e23230b2e04903b0d6bd06213ecd9fca5c8109c218b303d754d85ef4223ae"
+    },
+    {
+      "id": "chr20_33270112_AATAT_A",
+      "pos": 33270111,
+      "ref": "AATAT",
+      "alt": "A",
+      "expected": "0",
+      "region": 33,
+      "rank": "084beebdef7e7610526a42b59d8851a9646e075d6fad1a91468b547d7c30b6a7"
+    },
+    {
+      "id": "chr20_41385977_TTTTCTTTTCTC_T",
+      "pos": 41385976,
+      "ref": "TTTTCTTTTCTC",
+      "alt": "T",
+      "expected": "0",
+      "region": 41,
+      "rank": "09c4f59d40897bde790153508916c7eea9275e2729c9ac0e519c8d3ea999e539"
+    },
+    {
+      "id": "chr20_13251958_GAAGC_G",
+      "pos": 13251957,
+      "ref": "GAAGC",
+      "alt": "G",
+      "expected": "0",
+      "region": 13,
+      "rank": "0b84387b18f1014b4a4e6e35410cfda5b66e97ff60c9466e2b7390ef7d394233"
+    },
+    {
+      "id": "chr20_5843295_C_CTTT",
+      "pos": 5843294,
+      "ref": "C",
+      "alt": "CTTT",
+      "expected": "0",
+      "region": 5,
+      "rank": "0c165294509c417ffd309396022896086d54b00e89ef439bc27c03bdc99bb137"
+    },
+    {
+      "id": "chr20_32103203_A_AGCTGGGGGCTGCCTCCAGG",
+      "pos": 32103202,
+      "ref": "A",
+      "alt": "AGCTGGGGGCTGCCTCCAGG",
+      "expected": "0",
+      "region": 32,
+      "rank": "0d5e24166698301d3d0d39ad0be37ea88135187d03454962e056784b1c965d53"
+    },
+    {
+      "id": "chr20_50204012_A_AAC",
+      "pos": 50204011,
+      "ref": "A",
+      "alt": "AAC",
+      "expected": "0",
+      "region": 50,
+      "rank": "0d98b1b8d651b6645a96fc5d1b60b08164972e4ed461b3dced7ef7492e6b5bc3"
+    },
+    {
+      "id": "chr20_21289755_A_AAGAAAAGCTTTTTGATCCTT",
+      "pos": 21289754,
+      "ref": "A",
+      "alt": "AAGAAAAGCTTTTTGATCCTT",
+      "expected": "0",
+      "region": 21,
+      "rank": "0db2dd4886f5a31635d7e54efab4289c8842125fe7b38fd7b1f9a3288cc556c3"
+    },
+    {
+      "id": "chr20_21401696_CTA_C",
+      "pos": 21401695,
+      "ref": "CTA",
+      "alt": "C",
+      "expected": "0",
+      "region": 21,
+      "rank": "0e8a20c1af200489e6b48f828953f31fe7c3023c34c4baebbc94164b5dcc8998"
+    },
+    {
+      "id": "chr20_47855789_A_AAGAG",
+      "pos": 47855788,
+      "ref": "A",
+      "alt": "AAGAG",
+      "expected": "0",
+      "region": 47,
+      "rank": "0f74d78ed1533ff9a9474c8749228704edd18d949a1e16f514a8f6e1fcbdcf59"
+    },
+    {
+      "id": "chr20_34369333_A_AAAAC",
+      "pos": 34369332,
+      "ref": "A",
+      "alt": "AAAAC",
+      "expected": "1",
+      "region": 34,
+      "rank": "00d6d2f990ffded207c2a91753ae1b9779a0ce7121ccea9b6c8828982724845c"
+    },
+    {
+      "id": "chr20_62122389_GGGCGGTGCGT_G",
+      "pos": 62122388,
+      "ref": "GGGCGGTGCGT",
+      "alt": "G",
+      "expected": "1",
+      "region": 62,
+      "rank": "020dba531917ec2dc775555289a801ee06d92861d0c2ff64a3cbaabd46f8480e"
+    },
+    {
+      "id": "chr20_655173_C_CAGAAAAAAA",
+      "pos": 655172,
+      "ref": "C",
+      "alt": "CAGAAAAAAA",
+      "expected": "1",
+      "region": 0,
+      "rank": "07082d2b598e23f45d6cd7e70006a24883d6fc2caf9d3ba3a7d306f06b353d8f"
+    },
+    {
+      "id": "chr20_35800419_C_CCTT",
+      "pos": 35800418,
+      "ref": "C",
+      "alt": "CCTT",
+      "expected": "1",
+      "region": 35,
+      "rank": "09a549086f6891768ecfd010559d2266e7508b9c8cfcc89140ebde271b3cbb10"
+    },
+    {
+      "id": "chr20_38616935_C_CTTTA",
+      "pos": 38616934,
+      "ref": "C",
+      "alt": "CTTTA",
+      "expected": "1",
+      "region": 38,
+      "rank": "0dc98b823e9ba2dd3d4cec280df1df47bfa5d969e190335809803ddcc24e3f3f"
+    },
+    {
+      "id": "chr20_273903_A_AAGGGAGGG",
+      "pos": 273902,
+      "ref": "A",
+      "alt": "AAGGGAGGG",
+      "expected": "1",
+      "region": 0,
+      "rank": "15094380000ad297b38d76647037b90edc2a43defec4d430cd826155379c51ca"
+    },
+    {
+      "id": "chr20_58242307_C_CAA",
+      "pos": 58242306,
+      "ref": "C",
+      "alt": "CAA",
+      "expected": "1",
+      "region": 58,
+      "rank": "1d30058feaddc886ec622cedf362dc075fa1f8011afb4b1a3e1f903c07695b78"
+    },
+    {
+      "id": "chr20_595643_T_TTTA",
+      "pos": 595642,
+      "ref": "T",
+      "alt": "TTTA",
+      "expected": "1",
+      "region": 0,
+      "rank": "1db05eef312b7ffa1edad8a7fdf46c5a33f307fd0d93eea3f917d37e086edc77"
+    },
+    {
+      "id": "chr20_34106427_CTT_C",
+      "pos": 34106426,
+      "ref": "CTT",
+      "alt": "C",
+      "expected": "1",
+      "region": 34,
+      "rank": "1e537df787d9790545a4b81c86a6ee3f7eadaea8c424ebd6c54a02f140a8ebae"
+    },
+    {
+      "id": "chr20_52709779_G_GTA",
+      "pos": 52709778,
+      "ref": "G",
+      "alt": "GTA",
+      "expected": "1",
+      "region": 52,
+      "rank": "2034d3e47f37e0f6aec9268e9858f189efc5d197bc1a078dff4445aab907dc2b"
+    },
+    {
+      "id": "chr20_20615786_T_TGATG",
+      "pos": 20615785,
+      "ref": "T",
+      "alt": "TGATG",
+      "expected": "1",
+      "region": 20,
+      "rank": "2345851cdc9180d2605285eb027c1bac72b67db4c83d6dc6b0bf709a36653aaf"
+    },
+    {
+      "id": "chr20_52280822_G_GGAATGTCAGCC",
+      "pos": 52280821,
+      "ref": "G",
+      "alt": "GGAATGTCAGCC",
+      "expected": "1",
+      "region": 52,
+      "rank": "239a00c4795032f6b53f31ca3a1db1ae5fd65eaeaec101e9f5568b2bb8aba718"
+    },
+    {
+      "id": "chr20_50432515_AAAATAAAT_A",
+      "pos": 50432514,
+      "ref": "AAAATAAAT",
+      "alt": "A",
+      "expected": "1",
+      "region": 50,
+      "rank": "25ede4341d8a051c866a618ced6d1945195bb3ea676f88315ef35c92fa2817a6"
+    },
+    {
+      "id": "chr20_14400063_C_CCTT",
+      "pos": 14400062,
+      "ref": "C",
+      "alt": "CCTT",
+      "expected": "1",
+      "region": 14,
+      "rank": "315e614ffb8752497b9b7fafecb6d7d6a77ba9c65e570a3c2f64e05af340ab1e"
+    },
+    {
+      "id": "chr20_23245468_GGT_G",
+      "pos": 23245467,
+      "ref": "GGT",
+      "alt": "G",
+      "expected": "1",
+      "region": 23,
+      "rank": "3743a12db0fed5b44972a7955f3558b2f4643160c33900042f0ad0cb6d60f7be"
+    },
+    {
+      "id": "chr20_4464900_T_TAA",
+      "pos": 4464899,
+      "ref": "T",
+      "alt": "TAA",
+      "expected": "1",
+      "region": 4,
+      "rank": "3d61ad171a1d8e3c651ed0e993a3832a2ad635a02b01d4f8c66f0c36fd778dec"
+    },
+    {
+      "id": "chr20_35461882_G_GGTTAA",
+      "pos": 35461881,
+      "ref": "G",
+      "alt": "GGTTAA",
+      "expected": "1",
+      "region": 35,
+      "rank": "3ded154ceb72b2ecfea772ed426236bb338f11a9f5cfb5dfb2229c1637de4f28"
+    },
+    {
+      "id": "chr20_44875750_C_CATT",
+      "pos": 44875749,
+      "ref": "C",
+      "alt": "CATT",
+      "expected": "1",
+      "region": 44,
+      "rank": "3edb0136efa06be6d1d1a643e73bfb2e5f623f23f5ffbc48ce30d933fe3a11f0"
+    },
+    {
+      "id": "chr20_18376965_AAAAT_A",
+      "pos": 18376964,
+      "ref": "AAAAT",
+      "alt": "A",
+      "expected": "1",
+      "region": 18,
+      "rank": "45ea59792a0b9282bc706b9eeabaed5cadbe1fd6416b9f46feba20e34a346cc8"
+    },
+    {
+      "id": "chr20_17529064_A_AGT",
+      "pos": 17529063,
+      "ref": "A",
+      "alt": "AGT",
+      "expected": "1",
+      "region": 17,
+      "rank": "47389b150d2ac3fa5d2eda08a2585249ac0f386cad7703037200c4154c2401d2"
+    },
+    {
+      "id": "chr20_41411215_C_CAA",
+      "pos": 41411214,
+      "ref": "C",
+      "alt": "CAA",
+      "expected": "1",
+      "region": 41,
+      "rank": "4775e524e5831ab586c99172778e1fd14165df701f3d46ba9122f70b74d8f990"
+    },
+    {
+      "id": "chr20_41779262_C_CAGAT",
+      "pos": 41779261,
+      "ref": "C",
+      "alt": "CAGAT",
+      "expected": "1",
+      "region": 41,
+      "rank": "4b2e6ae137056a3d476d23836984dda2dae49ebc490f76562cfa964264542a7d"
+    },
+    {
+      "id": "chr20_7136515_A_AAAGAG",
+      "pos": 7136514,
+      "ref": "A",
+      "alt": "AAAGAG",
+      "expected": "1",
+      "region": 7,
+      "rank": "4e4fd8f762a5f6e99ad23af6525fa3d846edde9bfbbabcee6e8b731902c57beb"
+    },
+    {
+      "id": "chr20_13194543_ATGTG_A",
+      "pos": 13194542,
+      "ref": "ATGTG",
+      "alt": "A",
+      "expected": "1",
+      "region": 13,
+      "rank": "4f2c8a81c501936d2aacccb79b6364f5c9584050706738746c7858003683a0cf"
+    },
+    {
+      "id": "chr20_6706490_CAT_C",
+      "pos": 6706489,
+      "ref": "CAT",
+      "alt": "C",
+      "expected": "1",
+      "region": 6,
+      "rank": "4f9960c806daf319b0631c405eb82a0db714a9783fe362ed7d35fc6f6ffaf233"
+    },
+    {
+      "id": "chr20_14306006_G_GCT",
+      "pos": 14306005,
+      "ref": "G",
+      "alt": "GCT",
+      "expected": "1",
+      "region": 14,
+      "rank": "4fdba77412f85f6c2dc06b8d01ade1bb5f99534ad61c17a74f5bc36e2a09b86a"
+    },
+    {
+      "id": "chr20_60350157_A_AAC",
+      "pos": 60350156,
+      "ref": "A",
+      "alt": "AAC",
+      "expected": "1",
+      "region": 60,
+      "rank": "52f2958ff19dd3b646f52094f709aeae514cb9a841f3ceeb96e55a0a9d1813d8"
+    },
+    {
+      "id": "chr20_62766637_A_AAC",
+      "pos": 62766636,
+      "ref": "A",
+      "alt": "AAC",
+      "expected": "1",
+      "region": 62,
+      "rank": "53436df7fc390522c66c533f13f0920f5f112926125de42d8e568bf259f14980"
+    },
+    {
+      "id": "chr20_54187265_TTGTG_T",
+      "pos": 54187264,
+      "ref": "TTGTG",
+      "alt": "T",
+      "expected": "1",
+      "region": 54,
+      "rank": "54e6a8aefa400443a84233a413955c214e878cc1a97e295713beb606456aa736"
+    },
+    {
+      "id": "chr20_4393918_T_TGAGGCAGA",
+      "pos": 4393917,
+      "ref": "T",
+      "alt": "TGAGGCAGA",
+      "expected": "1",
+      "region": 4,
+      "rank": "5c1c9e65ff010c8ce7b4467e2bffe9237c42574beac06c5c7495b75e7bc2c773"
+    },
+    {
+      "id": "chr20_58141095_A_ACT",
+      "pos": 58141094,
+      "ref": "A",
+      "alt": "ACT",
+      "expected": "1",
+      "region": 58,
+      "rank": "60fe59dad66f6557be0992af93387cd68335e89133c8b62f3dc6903bb0d320a1"
+    },
+    {
+      "id": "chr20_61470407_AATTT_A",
+      "pos": 61470406,
+      "ref": "AATTT",
+      "alt": "A",
+      "expected": "1",
+      "region": 61,
+      "rank": "63b6a8735be582ac6b7acbe7552785b168601e955e1a9f45f6f08c40e83deefb"
+    }
+  ],
+  "eligible": {
+    "0": 210,
+    "1": 65
+  },
+  "excluded": {
+    "simple_indel": 170877,
+    "region_boundary": 1800,
+    "nonisolated_heterozygous_representation": 2227,
+    "reference_or_confident_context": 3992,
+    "development_locus": 128,
+    "100kb_thinning": 334
+  },
+  "protocol_sha256": "c9d8fc1939d3f5619ab5e64c5391f468c2d777aa2a74140811e4655bea5e6c2a",
+  "benchmark_headers": {
+    "bed_last_modified": "Mon, 20 Sep 2021 16:50:33 GMT"
+  },
+  "status": "SELECTED"
+}

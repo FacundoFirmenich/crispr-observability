@@ -1,0 +1,3 @@
+# Checkouts must preserve every frozen file's exact byte stream.
+* -text
+/reproducibility/** text eol=lf

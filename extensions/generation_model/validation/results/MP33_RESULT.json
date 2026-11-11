@@ -1,0 +1,1260 @@
+{
+  "status": "COMPLETE",
+  "binding": {
+    "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+    "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+  },
+  "comparisons": [
+    {
+      "arm": "nuisance_canonical_canonical_10",
+      "regime": "nuisance",
+      "score_catalogue": "canonical",
+      "calibration_catalogue": "canonical",
+      "alpha": [
+        1,
+        10
+      ],
+      "blocks": 128,
+      "covered_blocks": 126,
+      "absolute_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 10
+      },
+      "relative_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 1531,
+      "correct_singleton": 794,
+      "wrong_singleton": 5,
+      "ambiguous": 737,
+      "empty": 0,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 501,
+          "wrong_singleton": 2,
+          "ambiguous": 9
+        },
+        "left_event_absent": {
+          "records": 512,
+          "correct_singleton": 255,
+          "ambiguous": 254,
+          "wrong_singleton": 3
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 474,
+          "correct_singleton": 38
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "aac8b1f2087789fee070a7b855c7daf4face22861157894f9e98fac06d698098",
+      "mp32_exact_reproduction": "PASS"
+    },
+    {
+      "arm": "nuisance_canonical_canonical_20",
+      "regime": "nuisance",
+      "score_catalogue": "canonical",
+      "calibration_catalogue": "canonical",
+      "alpha": [
+        1,
+        20
+      ],
+      "blocks": 128,
+      "covered_blocks": 126,
+      "absolute_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 10
+      },
+      "relative_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 1531,
+      "correct_singleton": 794,
+      "wrong_singleton": 5,
+      "ambiguous": 737,
+      "empty": 0,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 501,
+          "wrong_singleton": 2,
+          "ambiguous": 9
+        },
+        "left_event_absent": {
+          "records": 512,
+          "correct_singleton": 255,
+          "ambiguous": 254,
+          "wrong_singleton": 3
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 474,
+          "correct_singleton": 38
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "f571018e8f454db591dc530cb1dc0ee639384994902e238f04396d85c8f50fd2",
+      "mp32_exact_reproduction": "PASS"
+    },
+    {
+      "arm": "nuisance_canonical_expanded_10",
+      "regime": "nuisance",
+      "score_catalogue": "canonical",
+      "calibration_catalogue": "expanded",
+      "alpha": [
+        1,
+        10
+      ],
+      "blocks": 128,
+      "covered_blocks": 1,
+      "absolute_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 5
+      },
+      "relative_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 1083,
+      "correct_singleton": 419,
+      "wrong_singleton": 3,
+      "ambiguous": 664,
+      "empty": 450,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 203,
+          "empty": 305,
+          "ambiguous": 4
+        },
+        "left_event_absent": {
+          "records": 512,
+          "correct_singleton": 178,
+          "ambiguous": 188,
+          "empty": 143,
+          "wrong_singleton": 3
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 472,
+          "correct_singleton": 38,
+          "empty": 2
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "ff1502a15f18ae7ace120d8b004865149e3697dfd7fde66fec373fa8f1550317"
+    },
+    {
+      "arm": "nuisance_canonical_expanded_20",
+      "regime": "nuisance",
+      "score_catalogue": "canonical",
+      "calibration_catalogue": "expanded",
+      "alpha": [
+        1,
+        20
+      ],
+      "blocks": 128,
+      "covered_blocks": 25,
+      "absolute_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 6
+      },
+      "relative_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 1351,
+      "correct_singleton": 633,
+      "wrong_singleton": 5,
+      "ambiguous": 718,
+      "empty": 180,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 367,
+          "empty": 136,
+          "wrong_singleton": 2,
+          "ambiguous": 7
+        },
+        "left_event_absent": {
+          "records": 512,
+          "correct_singleton": 228,
+          "ambiguous": 238,
+          "empty": 43,
+          "wrong_singleton": 3
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 473,
+          "correct_singleton": 38,
+          "empty": 1
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "793091a0c13ee8d7418eaca71fc77dbf5cec1a4a54817b72fd4963c212148235"
+    },
+    {
+      "arm": "nuisance_expanded_canonical_10",
+      "regime": "nuisance",
+      "score_catalogue": "expanded",
+      "calibration_catalogue": "canonical",
+      "alpha": [
+        1,
+        10
+      ],
+      "blocks": 128,
+      "covered_blocks": 127,
+      "absolute_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 10
+      },
+      "relative_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 1535,
+      "correct_singleton": 802,
+      "wrong_singleton": 1,
+      "ambiguous": 733,
+      "empty": 0,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 508,
+          "ambiguous": 4
+        },
+        "left_event_absent": {
+          "records": 512,
+          "correct_singleton": 256,
+          "ambiguous": 255,
+          "wrong_singleton": 1
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 474,
+          "correct_singleton": 38
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "07fe78fa75c6eaa6fd37f13bf8589452fccd5b3bb5215a46f1bb0c96ce46dd8e"
+    },
+    {
+      "arm": "nuisance_expanded_canonical_20",
+      "regime": "nuisance",
+      "score_catalogue": "expanded",
+      "calibration_catalogue": "canonical",
+      "alpha": [
+        1,
+        20
+      ],
+      "blocks": 128,
+      "covered_blocks": 127,
+      "absolute_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 10
+      },
+      "relative_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 1535,
+      "correct_singleton": 802,
+      "wrong_singleton": 1,
+      "ambiguous": 733,
+      "empty": 0,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 508,
+          "ambiguous": 4
+        },
+        "left_event_absent": {
+          "records": 512,
+          "correct_singleton": 256,
+          "ambiguous": 255,
+          "wrong_singleton": 1
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 474,
+          "correct_singleton": 38
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "7b95a56372241e9c1cbc4f3bd96c86a61818955d004eaddd45e99c76c20e474e"
+    },
+    {
+      "arm": "nuisance_expanded_expanded_10",
+      "regime": "nuisance",
+      "score_catalogue": "expanded",
+      "calibration_catalogue": "expanded",
+      "alpha": [
+        1,
+        10
+      ],
+      "blocks": 128,
+      "covered_blocks": 126,
+      "absolute_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 5
+      },
+      "relative_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 1534,
+      "correct_singleton": 802,
+      "wrong_singleton": 1,
+      "ambiguous": 732,
+      "empty": 1,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 508,
+          "ambiguous": 4
+        },
+        "left_event_absent": {
+          "records": 512,
+          "correct_singleton": 256,
+          "ambiguous": 255,
+          "wrong_singleton": 1
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 473,
+          "correct_singleton": 38,
+          "empty": 1
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "b6ad51cf378b43e44b59fed13d2a9a7ebedda67e9f7c5b61bc86a8f5efb5f44c"
+    },
+    {
+      "arm": "nuisance_expanded_expanded_20",
+      "regime": "nuisance",
+      "score_catalogue": "expanded",
+      "calibration_catalogue": "expanded",
+      "alpha": [
+        1,
+        20
+      ],
+      "blocks": 128,
+      "covered_blocks": 127,
+      "absolute_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 6
+      },
+      "relative_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 1535,
+      "correct_singleton": 802,
+      "wrong_singleton": 1,
+      "ambiguous": 733,
+      "empty": 0,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 508,
+          "ambiguous": 4
+        },
+        "left_event_absent": {
+          "records": 512,
+          "correct_singleton": 256,
+          "ambiguous": 255,
+          "wrong_singleton": 1
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 474,
+          "correct_singleton": 38
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "6dc290564bef801acd212dfff552356358e99a7ea629cf17f148ef2f1b69e1fd"
+    },
+    {
+      "arm": "outside_canonical_canonical_10",
+      "regime": "outside",
+      "score_catalogue": "canonical",
+      "calibration_catalogue": "canonical",
+      "alpha": [
+        1,
+        10
+      ],
+      "blocks": 128,
+      "covered_blocks": 0,
+      "absolute_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 0,
+      "correct_singleton": 0,
+      "wrong_singleton": 0,
+      "ambiguous": 0,
+      "empty": 1536,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "empty": 512
+        },
+        "left_event_absent": {
+          "records": 512,
+          "empty": 512
+        },
+        "right_event_absent": {
+          "records": 512,
+          "empty": 512
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "ecd7014522a10a6112f51804420028485a33087ad3181f0ff4c686eb99e85190",
+      "mp32_exact_reproduction": "PASS"
+    },
+    {
+      "arm": "outside_canonical_canonical_20",
+      "regime": "outside",
+      "score_catalogue": "canonical",
+      "calibration_catalogue": "canonical",
+      "alpha": [
+        1,
+        20
+      ],
+      "blocks": 128,
+      "covered_blocks": 0,
+      "absolute_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 1
+      },
+      "records": 1536,
+      "included": 0,
+      "correct_singleton": 0,
+      "wrong_singleton": 0,
+      "ambiguous": 0,
+      "empty": 1536,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "empty": 512
+        },
+        "left_event_absent": {
+          "records": 512,
+          "empty": 512
+        },
+        "right_event_absent": {
+          "records": 512,
+          "empty": 512
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "9d81ce13f4c6f8866a9626f379ed55797ea3d469d43b18e8a7580e3ecefbac36",
+      "mp32_exact_reproduction": "PASS"
+    },
+    {
+      "arm": "outside_canonical_expanded_10",
+      "regime": "outside",
+      "score_catalogue": "canonical",
+      "calibration_catalogue": "expanded",
+      "alpha": [
+        1,
+        10
+      ],
+      "blocks": 128,
+      "covered_blocks": 0,
+      "absolute_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 0,
+      "correct_singleton": 0,
+      "wrong_singleton": 0,
+      "ambiguous": 0,
+      "empty": 1536,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "empty": 512
+        },
+        "left_event_absent": {
+          "records": 512,
+          "empty": 512
+        },
+        "right_event_absent": {
+          "records": 512,
+          "empty": 512
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "51de5b935dde66ee6dfd78fcb9f76dab6b48c62e6a4b3965dca2ffe7c64fc8a5"
+    },
+    {
+      "arm": "outside_canonical_expanded_20",
+      "regime": "outside",
+      "score_catalogue": "canonical",
+      "calibration_catalogue": "expanded",
+      "alpha": [
+        1,
+        20
+      ],
+      "blocks": 128,
+      "covered_blocks": 0,
+      "absolute_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 1
+      },
+      "records": 1536,
+      "included": 0,
+      "correct_singleton": 0,
+      "wrong_singleton": 0,
+      "ambiguous": 0,
+      "empty": 1536,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "empty": 512
+        },
+        "left_event_absent": {
+          "records": 512,
+          "empty": 512
+        },
+        "right_event_absent": {
+          "records": 512,
+          "empty": 512
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "8e9ff65a8c7e984c5febc20383f746633a52b115cc66e5996691798059207f8e"
+    },
+    {
+      "arm": "outside_expanded_canonical_10",
+      "regime": "outside",
+      "score_catalogue": "expanded",
+      "calibration_catalogue": "canonical",
+      "alpha": [
+        1,
+        10
+      ],
+      "blocks": 128,
+      "covered_blocks": 0,
+      "absolute_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 0,
+      "correct_singleton": 0,
+      "wrong_singleton": 0,
+      "ambiguous": 0,
+      "empty": 1536,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "empty": 512
+        },
+        "left_event_absent": {
+          "records": 512,
+          "empty": 512
+        },
+        "right_event_absent": {
+          "records": 512,
+          "empty": 512
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "7a6cc3532e10d090cb470aee67e8de0e73db94c91bec93c7a953b6b324ea1f6c"
+    },
+    {
+      "arm": "outside_expanded_canonical_20",
+      "regime": "outside",
+      "score_catalogue": "expanded",
+      "calibration_catalogue": "canonical",
+      "alpha": [
+        1,
+        20
+      ],
+      "blocks": 128,
+      "covered_blocks": 0,
+      "absolute_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 1
+      },
+      "records": 1536,
+      "included": 0,
+      "correct_singleton": 0,
+      "wrong_singleton": 0,
+      "ambiguous": 0,
+      "empty": 1536,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "empty": 512
+        },
+        "left_event_absent": {
+          "records": 512,
+          "empty": 512
+        },
+        "right_event_absent": {
+          "records": 512,
+          "empty": 512
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "343eb83341a00e7d5e2252a4abfa517d325031f0e42acfd7652e12f8bae87f18"
+    },
+    {
+      "arm": "outside_expanded_expanded_10",
+      "regime": "outside",
+      "score_catalogue": "expanded",
+      "calibration_catalogue": "expanded",
+      "alpha": [
+        1,
+        10
+      ],
+      "blocks": 128,
+      "covered_blocks": 0,
+      "absolute_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 0,
+      "correct_singleton": 0,
+      "wrong_singleton": 0,
+      "ambiguous": 0,
+      "empty": 1536,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "empty": 512
+        },
+        "left_event_absent": {
+          "records": 512,
+          "empty": 512
+        },
+        "right_event_absent": {
+          "records": 512,
+          "empty": 512
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "72b6c46eaf7bb48a47848ef7ec3b3f98ec9a9a27097f1a3c399945356c87b75f"
+    },
+    {
+      "arm": "outside_expanded_expanded_20",
+      "regime": "outside",
+      "score_catalogue": "expanded",
+      "calibration_catalogue": "expanded",
+      "alpha": [
+        1,
+        20
+      ],
+      "blocks": 128,
+      "covered_blocks": 0,
+      "absolute_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 1
+      },
+      "records": 1536,
+      "included": 0,
+      "correct_singleton": 0,
+      "wrong_singleton": 0,
+      "ambiguous": 0,
+      "empty": 1536,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "empty": 512
+        },
+        "left_event_absent": {
+          "records": 512,
+          "empty": 512
+        },
+        "right_event_absent": {
+          "records": 512,
+          "empty": 512
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "2720fae860966733e8f57c31a19df387aa591695112473e43d252042d1a1d16f"
+    },
+    {
+      "arm": "shifted_canonical_canonical_10",
+      "regime": "shifted",
+      "score_catalogue": "canonical",
+      "calibration_catalogue": "canonical",
+      "alpha": [
+        1,
+        10
+      ],
+      "blocks": 128,
+      "covered_blocks": 121,
+      "absolute_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 1528,
+      "correct_singleton": 774,
+      "wrong_singleton": 5,
+      "ambiguous": 754,
+      "empty": 3,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 495,
+          "ambiguous": 13,
+          "wrong_singleton": 4
+        },
+        "left_event_absent": {
+          "records": 512,
+          "correct_singleton": 242,
+          "ambiguous": 268,
+          "wrong_singleton": 1,
+          "empty": 1
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 473,
+          "correct_singleton": 37,
+          "empty": 2
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "42d5bb8139e803ef7fc64c79ed2820111ab4c43213cfc19e5fda303f3a14c7a9",
+      "mp32_exact_reproduction": "PASS"
+    },
+    {
+      "arm": "shifted_canonical_canonical_20",
+      "regime": "shifted",
+      "score_catalogue": "canonical",
+      "calibration_catalogue": "canonical",
+      "alpha": [
+        1,
+        20
+      ],
+      "blocks": 128,
+      "covered_blocks": 125,
+      "absolute_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 1
+      },
+      "records": 1536,
+      "included": 1533,
+      "correct_singleton": 596,
+      "wrong_singleton": 0,
+      "ambiguous": 937,
+      "empty": 3,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 456,
+          "ambiguous": 56
+        },
+        "left_event_absent": {
+          "records": 512,
+          "ambiguous": 378,
+          "correct_singleton": 133,
+          "empty": 1
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 503,
+          "correct_singleton": 7,
+          "empty": 2
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "08ac17ef6c5c968defed419ed74c8946e47beb5dd69eada70eea87d69c65be97",
+      "mp32_exact_reproduction": "PASS"
+    },
+    {
+      "arm": "shifted_canonical_expanded_10",
+      "regime": "shifted",
+      "score_catalogue": "canonical",
+      "calibration_catalogue": "expanded",
+      "alpha": [
+        1,
+        10
+      ],
+      "blocks": 128,
+      "covered_blocks": 121,
+      "absolute_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 1528,
+      "correct_singleton": 774,
+      "wrong_singleton": 5,
+      "ambiguous": 754,
+      "empty": 3,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 495,
+          "ambiguous": 13,
+          "wrong_singleton": 4
+        },
+        "left_event_absent": {
+          "records": 512,
+          "correct_singleton": 242,
+          "ambiguous": 268,
+          "wrong_singleton": 1,
+          "empty": 1
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 473,
+          "correct_singleton": 37,
+          "empty": 2
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "2878f10bda52ca870d4bf6f5e44c3f9e09356cb681ec04a20bc87c68782c16c1"
+    },
+    {
+      "arm": "shifted_canonical_expanded_20",
+      "regime": "shifted",
+      "score_catalogue": "canonical",
+      "calibration_catalogue": "expanded",
+      "alpha": [
+        1,
+        20
+      ],
+      "blocks": 128,
+      "covered_blocks": 125,
+      "absolute_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 1
+      },
+      "records": 1536,
+      "included": 1533,
+      "correct_singleton": 596,
+      "wrong_singleton": 0,
+      "ambiguous": 937,
+      "empty": 3,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 456,
+          "ambiguous": 56
+        },
+        "left_event_absent": {
+          "records": 512,
+          "ambiguous": 378,
+          "correct_singleton": 133,
+          "empty": 1
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 503,
+          "correct_singleton": 7,
+          "empty": 2
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "00d6c7087ef388b8576808393d176c7c331e26c3d0f0e3ac00240b2261b3b554"
+    },
+    {
+      "arm": "shifted_expanded_canonical_10",
+      "regime": "shifted",
+      "score_catalogue": "expanded",
+      "calibration_catalogue": "canonical",
+      "alpha": [
+        1,
+        10
+      ],
+      "blocks": 128,
+      "covered_blocks": 121,
+      "absolute_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 1528,
+      "correct_singleton": 774,
+      "wrong_singleton": 5,
+      "ambiguous": 754,
+      "empty": 3,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 495,
+          "ambiguous": 13,
+          "wrong_singleton": 4
+        },
+        "left_event_absent": {
+          "records": 512,
+          "correct_singleton": 242,
+          "ambiguous": 268,
+          "wrong_singleton": 1,
+          "empty": 1
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 473,
+          "correct_singleton": 37,
+          "empty": 2
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "23c9a3fc2cc9bd1bd447892681043029e5c024747943b644c2478b5a8f634183"
+    },
+    {
+      "arm": "shifted_expanded_canonical_20",
+      "regime": "shifted",
+      "score_catalogue": "expanded",
+      "calibration_catalogue": "canonical",
+      "alpha": [
+        1,
+        20
+      ],
+      "blocks": 128,
+      "covered_blocks": 125,
+      "absolute_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 1
+      },
+      "records": 1536,
+      "included": 1533,
+      "correct_singleton": 596,
+      "wrong_singleton": 0,
+      "ambiguous": 937,
+      "empty": 3,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 456,
+          "ambiguous": 56
+        },
+        "left_event_absent": {
+          "records": 512,
+          "ambiguous": 378,
+          "correct_singleton": 133,
+          "empty": 1
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 503,
+          "correct_singleton": 7,
+          "empty": 2
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "0a6186abaf79adb2c7bef90542be65bc09f17bfa537b1426af72f4b149eb4f54"
+    },
+    {
+      "arm": "shifted_expanded_expanded_10",
+      "regime": "shifted",
+      "score_catalogue": "expanded",
+      "calibration_catalogue": "expanded",
+      "alpha": [
+        1,
+        10
+      ],
+      "blocks": 128,
+      "covered_blocks": 121,
+      "absolute_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 123,
+        "n": 128,
+        "q": 0
+      },
+      "records": 1536,
+      "included": 1528,
+      "correct_singleton": 774,
+      "wrong_singleton": 5,
+      "ambiguous": 754,
+      "empty": 3,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 495,
+          "ambiguous": 13,
+          "wrong_singleton": 4
+        },
+        "left_event_absent": {
+          "records": 512,
+          "correct_singleton": 242,
+          "ambiguous": 268,
+          "wrong_singleton": 1,
+          "empty": 1
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 473,
+          "correct_singleton": 37,
+          "empty": 2
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "eb46d0859f6a1171a5eb07b2eab5cf241da28af0882524429413b38ce34f36ca"
+    },
+    {
+      "arm": "shifted_expanded_expanded_20",
+      "regime": "shifted",
+      "score_catalogue": "expanded",
+      "calibration_catalogue": "expanded",
+      "alpha": [
+        1,
+        20
+      ],
+      "blocks": 128,
+      "covered_blocks": 125,
+      "absolute_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 11
+      },
+      "relative_threshold": {
+        "rank": 126,
+        "n": 128,
+        "q": 1
+      },
+      "records": 1536,
+      "included": 1533,
+      "correct_singleton": 596,
+      "wrong_singleton": 0,
+      "ambiguous": 937,
+      "empty": 3,
+      "false_admission": 0,
+      "geometry": {
+        "center": {
+          "records": 512,
+          "correct_singleton": 456,
+          "ambiguous": 56
+        },
+        "left_event_absent": {
+          "records": 512,
+          "ambiguous": 378,
+          "correct_singleton": 133,
+          "empty": 1
+        },
+        "right_event_absent": {
+          "records": 512,
+          "ambiguous": 503,
+          "correct_singleton": 7,
+          "empty": 2
+        }
+      },
+      "binding": {
+        "protocol_sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+        "script_sha256": "8c59b670856828923ab853f6ded28e8a93edce41f9b24c8eb8036ac1b57c00bb"
+      },
+      "decisions_sha256": "631b00a33208582aa7efae1033848137da93488117e7f12b99a32bf8108c31bf"
+    }
+  ],
+  "last_batch_seconds": 1.0971406090000073,
+  "new_observations": 0,
+  "scope": "Retrospective paired diagnostic of MP31 existing simulated records. MP31 and MP32 aggregate results were known before this protocol. No independent new biological or simulated observations are claimed."
+}

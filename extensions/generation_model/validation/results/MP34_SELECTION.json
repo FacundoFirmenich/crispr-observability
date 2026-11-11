@@ -1,0 +1,3851 @@
+{
+  "eligible": 640,
+  "calibration": [
+    {
+      "id": "chr22_36606757",
+      "variant": {
+        "pos": 36606756,
+        "ref": "CGT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "00084da87f6c9030385a03fc07042a8df6fa10a0c606e22b8944f9df2fe4b5a1"
+    },
+    {
+      "id": "chr22_26418870",
+      "variant": {
+        "pos": 26418869,
+        "ref": "T",
+        "alt": "TCA",
+        "filter": "."
+      },
+      "rank": "004cbb3ca550d51493e33c70618799cf2b74a6d80b4c38594bb263da2307a420"
+    },
+    {
+      "id": "chr22_37106155",
+      "variant": {
+        "pos": 37106154,
+        "ref": "AAGGCACAGAG",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "00a86b93285441a91e4ef4cf1ec88b59adc99c1baeba4341c9dc2853e522af0b"
+    },
+    {
+      "id": "chr22_26837132",
+      "variant": {
+        "pos": 26837131,
+        "ref": "C",
+        "alt": "CTT",
+        "filter": "."
+      },
+      "rank": "00d3b7bf00e7467d3fafdf72c82deab4fc72b7aafde0555f3baa3824eaeaf4d0"
+    },
+    {
+      "id": "chr22_44529040",
+      "variant": {
+        "pos": 44529039,
+        "ref": "TCA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "00fa608a0510484f9b855f76e5cda81db8ad4e1b55a9d28c2cb583a968fbd6d5"
+    },
+    {
+      "id": "chr22_46369284",
+      "variant": {
+        "pos": 46369283,
+        "ref": "G",
+        "alt": "GTCAGGTCGCCGAC",
+        "filter": "."
+      },
+      "rank": "01543e4d8ea09b7797da6a373b50f868e895fb30db988725dda515782d8a938f"
+    },
+    {
+      "id": "chr22_23300660",
+      "variant": {
+        "pos": 23300659,
+        "ref": "TGA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "01e9685127bae6d1a5d3d93b0b2c2eb5392f91307f46419dd87e32756036216a"
+    },
+    {
+      "id": "chr22_38044497",
+      "variant": {
+        "pos": 38044496,
+        "ref": "C",
+        "alt": "CTT",
+        "filter": "."
+      },
+      "rank": "020a65c69f58063eaeb8e6f0f50d4eb33ed1a14b0e17ef346f51aa9e63b8fc54"
+    },
+    {
+      "id": "chr22_24092687",
+      "variant": {
+        "pos": 24092686,
+        "ref": "A",
+        "alt": "AGT",
+        "filter": "."
+      },
+      "rank": "029dd280a3cc529827e001dd92fa2b34b4766f035cb94290435f126aa1e63770"
+    },
+    {
+      "id": "chr22_39784543",
+      "variant": {
+        "pos": 39784542,
+        "ref": "TAC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "036e40b5d7cb5661cd102c981fa85b2f4b3e29d6f7a159dc614c9de7ff6c1534"
+    },
+    {
+      "id": "chr22_47694795",
+      "variant": {
+        "pos": 47694794,
+        "ref": "C",
+        "alt": "CAA",
+        "filter": "."
+      },
+      "rank": "0388a07f50c311fb34b06851ecd1e45e0b5fd799d429e1b97140cb149bee7964"
+    },
+    {
+      "id": "chr22_24853769",
+      "variant": {
+        "pos": 24853768,
+        "ref": "ATTTTTTT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "0391edc25f5d8e60f2d00a35c662c21f3a13dd4c3322afdff304a5bc07fc58ac"
+    },
+    {
+      "id": "chr22_32094012",
+      "variant": {
+        "pos": 32094011,
+        "ref": "G",
+        "alt": "GTC",
+        "filter": "."
+      },
+      "rank": "03bed9bf057fd384177d565eb629730ad18f505c39f567e280ce747203175e9e"
+    },
+    {
+      "id": "chr22_35022243",
+      "variant": {
+        "pos": 35022242,
+        "ref": "T",
+        "alt": "TTTTTTTAAATG",
+        "filter": "."
+      },
+      "rank": "041fc900068dbcfc487065991ae5591b9b1bc6f8b37909199c0fedccba138861"
+    },
+    {
+      "id": "chr22_30308324",
+      "variant": {
+        "pos": 30308323,
+        "ref": "A",
+        "alt": "ATGCCTGCC",
+        "filter": "."
+      },
+      "rank": "043ce0f283a1cc1542c8b17f276d5967026af2ccbe81a8926e41152b0fcf10e0"
+    },
+    {
+      "id": "chr22_41572343",
+      "variant": {
+        "pos": 41572342,
+        "ref": "TCCACCCACCCACCCACCCAC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "04414b1b0685c2c60748ac7e8cb16fdca4e9340eba6e90e513933a30386ede2a"
+    },
+    {
+      "id": "chr22_25423436",
+      "variant": {
+        "pos": 25423435,
+        "ref": "CTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "048171672c7cca40ede9e66e5da67869687b9d01b0f4c44a84ead297a6c89314"
+    },
+    {
+      "id": "chr22_35876701",
+      "variant": {
+        "pos": 35876700,
+        "ref": "A",
+        "alt": "AAC",
+        "filter": "."
+      },
+      "rank": "04931cdb4351c105858bcf4ee609329da233cb7478f5a10abc961c768821c654"
+    },
+    {
+      "id": "chr22_21948298",
+      "variant": {
+        "pos": 21948297,
+        "ref": "GCCAC",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "04bb901a06309932d9353f3367a0c35b928b6017c930e4b50a90425cb0bf58e7"
+    },
+    {
+      "id": "chr22_40358822",
+      "variant": {
+        "pos": 40358821,
+        "ref": "GTCTC",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "0574f504020fe207728452198a9def91f5d772bdf6ab8394eac5aa40e008e4e8"
+    },
+    {
+      "id": "chr22_41032108",
+      "variant": {
+        "pos": 41032107,
+        "ref": "C",
+        "alt": "CAAAAT",
+        "filter": "."
+      },
+      "rank": "0677c8e39ba01c1d465bd20bf3af7cfd7f63b1d15bb17cc2b88380afcff77664"
+    },
+    {
+      "id": "chr22_25185631",
+      "variant": {
+        "pos": 25185630,
+        "ref": "G",
+        "alt": "GAGGCTCTC",
+        "filter": "."
+      },
+      "rank": "075fbcc969deed2cda9675cb0e4ef7d84627fc8ba200b711c7b853070a6dde2d"
+    },
+    {
+      "id": "chr22_33203066",
+      "variant": {
+        "pos": 33203065,
+        "ref": "ACTCT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "0853cbaab9d586f276a9bddb2c9a5330762eb5e56ba7dfba142bb98cfcf8b7ae"
+    },
+    {
+      "id": "chr22_28140934",
+      "variant": {
+        "pos": 28140933,
+        "ref": "AGAG",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "08dd3699152b0d8abbd016bf2dcb0ffc93b66d43a414e5b0bce5e00c32aef4c2"
+    },
+    {
+      "id": "chr22_38600316",
+      "variant": {
+        "pos": 38600315,
+        "ref": "G",
+        "alt": "GTA",
+        "filter": "."
+      },
+      "rank": "09d786c7b2d9553134dabe83b466d00b85c0edf9fe99358d367e6793a1681b62"
+    },
+    {
+      "id": "chr22_35372996",
+      "variant": {
+        "pos": 35372995,
+        "ref": "C",
+        "alt": "CATTATTATT",
+        "filter": "."
+      },
+      "rank": "0a5a1bc0813c498aacfe93fbdd123fb2c466d28d1f573ad8240afc04eef98f01"
+    },
+    {
+      "id": "chr22_26207910",
+      "variant": {
+        "pos": 26207909,
+        "ref": "ATT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "0aa81e38de94485cbabae016b8b9894f51b51f027b8271c69cc7739f980f3318"
+    },
+    {
+      "id": "chr22_36181680",
+      "variant": {
+        "pos": 36181679,
+        "ref": "C",
+        "alt": "CTGTG",
+        "filter": "."
+      },
+      "rank": "0abe07b0d10fef750d4a76c15199dd01cc4eec4d4748e6dbf96c2bba1e0a779c"
+    },
+    {
+      "id": "chr22_37661330",
+      "variant": {
+        "pos": 37661329,
+        "ref": "CAGTGTGGTGTGGTGTGGTGTGTGTGTGT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "0ae3f57ba3e8d54f05fcb88e179166025b68ed08e342a9bf35c4d8f022bf33ef"
+    },
+    {
+      "id": "chr22_42161972",
+      "variant": {
+        "pos": 42161971,
+        "ref": "CTTTTTTTTTTTTTTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "0b78b6dca164e956267d55b86c49eaf7dacf47f60650f417acb1bc423810b1b3"
+    },
+    {
+      "id": "chr22_49827425",
+      "variant": {
+        "pos": 49827424,
+        "ref": "A",
+        "alt": "AGGC",
+        "filter": "."
+      },
+      "rank": "0cb770785c3945ce81e1559fc0136d25522357c608bf273cbec80d5bd0f376bb"
+    },
+    {
+      "id": "chr22_32179698",
+      "variant": {
+        "pos": 32179697,
+        "ref": "TAC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "0cc1f24d5021b3d4ba4408ad387b9925a6b4c572f8a6b53c0e7bdc7052151b6d"
+    },
+    {
+      "id": "chr22_41709615",
+      "variant": {
+        "pos": 41709614,
+        "ref": "CTTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "0de26703b52bce9ba0127d135b54f600792db248959763d44de236184d57408d"
+    },
+    {
+      "id": "chr22_25876630",
+      "variant": {
+        "pos": 25876629,
+        "ref": "CTTTA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "0de90dd87845c15de1a6d5b3cbd1d4e3d15b74d479517843b867e53f61149366"
+    },
+    {
+      "id": "chr22_36191797",
+      "variant": {
+        "pos": 36191796,
+        "ref": "ACT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "0dee34c3408de840f3bb51f61f913c20ee7f390c30e663fa7c23570ea3716954"
+    },
+    {
+      "id": "chr22_31166558",
+      "variant": {
+        "pos": 31166557,
+        "ref": "T",
+        "alt": "TTTC",
+        "filter": "."
+      },
+      "rank": "0e44976e92362ec442dfff7916dde8854efecad7c14cabe1945ffa869adb2937"
+    },
+    {
+      "id": "chr22_43689349",
+      "variant": {
+        "pos": 43689348,
+        "ref": "G",
+        "alt": "GCACACACA",
+        "filter": "."
+      },
+      "rank": "0e9b2a2f2bf331e411caf0954ce00bdd90650c6305de3f9fa4e3a4e7ad6006f0"
+    },
+    {
+      "id": "chr22_35078168",
+      "variant": {
+        "pos": 35078167,
+        "ref": "A",
+        "alt": "ATTT",
+        "filter": "."
+      },
+      "rank": "0e9ff1b21dd02b7eb183a4364bb312b7946f5e751d41e01ebd87113815aed2ce"
+    },
+    {
+      "id": "chr22_24745717",
+      "variant": {
+        "pos": 24745716,
+        "ref": "GAA",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "0f02b173d38851fefed66624994c4c5cb11e3c41ac06234487a65c3f50fb038c"
+    },
+    {
+      "id": "chr22_29891308",
+      "variant": {
+        "pos": 29891307,
+        "ref": "CGT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "0f144592866a3375796ee0ed320c0e34d8e4b2ba7ba36376d6650faf45b887fd"
+    },
+    {
+      "id": "chr22_41175272",
+      "variant": {
+        "pos": 41175271,
+        "ref": "G",
+        "alt": "GAC",
+        "filter": "."
+      },
+      "rank": "0fbb46227db204c3231e90fca5e2504b1586af27bd7c5a0850e5a382c282b3da"
+    },
+    {
+      "id": "chr22_33327979",
+      "variant": {
+        "pos": 33327978,
+        "ref": "AGATGTACT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "102ec58939ca62b54051fa189291084bbde764cddf8b73cc0730fe59a3e22c03"
+    },
+    {
+      "id": "chr22_38206340",
+      "variant": {
+        "pos": 38206339,
+        "ref": "CTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "10580b80fe69c08915df75cd5aea3946ddfbace4f8a8e9e75197024e4571f305"
+    },
+    {
+      "id": "chr22_41000988",
+      "variant": {
+        "pos": 41000987,
+        "ref": "C",
+        "alt": "CTT",
+        "filter": "."
+      },
+      "rank": "107990f597ba526c747d07bd708b650fb8bf9fac1a2b7423352652d22c49dc70"
+    },
+    {
+      "id": "chr22_26842958",
+      "variant": {
+        "pos": 26842957,
+        "ref": "G",
+        "alt": "GTT",
+        "filter": "."
+      },
+      "rank": "122c8442f27fc513a0e310633dc8276facf7ddc52625aee9a15427180151ea9d"
+    },
+    {
+      "id": "chr22_30688290",
+      "variant": {
+        "pos": 30688289,
+        "ref": "CTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "13243c208067a8303fb6c7e7db27859b2b381d5d634bb4500d910ec33c52b725"
+    },
+    {
+      "id": "chr22_23240302",
+      "variant": {
+        "pos": 23240301,
+        "ref": "C",
+        "alt": "CGT",
+        "filter": "."
+      },
+      "rank": "13a33f972985f5220c83f9371d22ce6e828177305b6c95603358fc331993cdb1"
+    },
+    {
+      "id": "chr22_39243252",
+      "variant": {
+        "pos": 39243251,
+        "ref": "G",
+        "alt": "GTC",
+        "filter": "."
+      },
+      "rank": "15013ef4d74d2344e8397de29581cae74dee0dea0b33f500d59ba543a2437e7c"
+    },
+    {
+      "id": "chr22_40133970",
+      "variant": {
+        "pos": 40133969,
+        "ref": "CAAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "16140f371ec1451a1188cb108dbbd83626a9d872df4dad525ccbfc430b665bf0"
+    },
+    {
+      "id": "chr22_37937418",
+      "variant": {
+        "pos": 37937417,
+        "ref": "C",
+        "alt": "CTT",
+        "filter": "."
+      },
+      "rank": "1615ca11e5fbea9babc9f8e18c0ba2056208b0059f8861318d877ce058ca4bee"
+    },
+    {
+      "id": "chr22_27258535",
+      "variant": {
+        "pos": 27258534,
+        "ref": "CATAT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "161c40026cd9641dc0bc08b274395bf3adc7a3b760f38ae515ff8723053845a9"
+    },
+    {
+      "id": "chr22_38643329",
+      "variant": {
+        "pos": 38643328,
+        "ref": "TAGTG",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "169b6baa76dcae577d7de2559dfe9c7fe370d04d6e70a17350ec49349d2bc955"
+    },
+    {
+      "id": "chr22_19409288",
+      "variant": {
+        "pos": 19409287,
+        "ref": "C",
+        "alt": "CTTTCT",
+        "filter": "."
+      },
+      "rank": "16a4eaaf1e8f63a5744a57242c6874ea1fb6b609a8693ddbbcff9ccf41bc5919"
+    },
+    {
+      "id": "chr22_24887686",
+      "variant": {
+        "pos": 24887685,
+        "ref": "TCTCA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "16acd7f7f3559be1537d483a89973fcd3df99603d846f9a51921df168cf43a56"
+    },
+    {
+      "id": "chr22_34461442",
+      "variant": {
+        "pos": 34461441,
+        "ref": "T",
+        "alt": "TGA",
+        "filter": "."
+      },
+      "rank": "17af3c0cc64c3573adcfe69ec07cef54455458c7bcbe938a53759ba452d8760e"
+    },
+    {
+      "id": "chr22_24946423",
+      "variant": {
+        "pos": 24946422,
+        "ref": "C",
+        "alt": "CCACA",
+        "filter": "."
+      },
+      "rank": "17c9474951c2d1e85d75eb95cbfdf0e007d143228d4c12a18b57384753cd53ce"
+    },
+    {
+      "id": "chr22_37395106",
+      "variant": {
+        "pos": 37395105,
+        "ref": "A",
+        "alt": "AAAAT",
+        "filter": "."
+      },
+      "rank": "18ac083e9687eb4bf3f85419c0de632ff7756acd31d435d6a88c03b9d3cb639e"
+    },
+    {
+      "id": "chr22_41486104",
+      "variant": {
+        "pos": 41486103,
+        "ref": "T",
+        "alt": "TTG",
+        "filter": "."
+      },
+      "rank": "18acee408fa3bda693358cf41b32bf09c70889511b7a55037a6858cec5199c1a"
+    },
+    {
+      "id": "chr22_29882679",
+      "variant": {
+        "pos": 29882678,
+        "ref": "CAAAAAAAAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "18c74ade8d142eebf191ba2476cbdee8d5d4e4ee4746ed0292056cf879d6db32"
+    },
+    {
+      "id": "chr22_47392030",
+      "variant": {
+        "pos": 47392029,
+        "ref": "A",
+        "alt": "AAGCAGGAG",
+        "filter": "."
+      },
+      "rank": "18d92f1a94bac986d4dfbee0c6d6ddbabeacc5e88e9980487980db5fd312ad43"
+    },
+    {
+      "id": "chr22_39974147",
+      "variant": {
+        "pos": 39974146,
+        "ref": "A",
+        "alt": "AAAG",
+        "filter": "."
+      },
+      "rank": "1961e5125865adb870321e7690c3954440581836c7f28f76c14c46e405db1817"
+    },
+    {
+      "id": "chr22_17093975",
+      "variant": {
+        "pos": 17093974,
+        "ref": "C",
+        "alt": "CTTTATTTTATTTTATTTTAT",
+        "filter": "."
+      },
+      "rank": "197f24456c501b7022b152c9c99db7dfce2eb57c5b9e48b3f7816dce14536199"
+    },
+    {
+      "id": "chr22_45156694",
+      "variant": {
+        "pos": 45156693,
+        "ref": "CTTTA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "1a32e54c6ec340d6bee072e2d96258ff045fc3dd0890c82be41fbc32344ce1cd"
+    },
+    {
+      "id": "chr22_25857478",
+      "variant": {
+        "pos": 25857477,
+        "ref": "ATCTCAAGAG",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "1a8bf2cbed80be59d497afdfd1c4d32d193d3a0144e25a82ecaaa9a0b710bbc7"
+    },
+    {
+      "id": "chr22_30644979",
+      "variant": {
+        "pos": 30644978,
+        "ref": "GAA",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "1aa28b941c145feed60276cfeb6cc3903dd9f92ff04313799f7e87bc6086c320"
+    },
+    {
+      "id": "chr22_39975134",
+      "variant": {
+        "pos": 39975133,
+        "ref": "TTTTTTGTTTTTG",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "1ad554e747306790ca3cd6d535b344705bfe7b4c8e0db5655fbe3626fa82993d"
+    },
+    {
+      "id": "chr22_40984969",
+      "variant": {
+        "pos": 40984968,
+        "ref": "C",
+        "alt": "CAATA",
+        "filter": "."
+      },
+      "rank": "1b66a930fcda7a0867626c8eb4088c8a54a91c2762d49e260810e408bd5b7fe9"
+    },
+    {
+      "id": "chr22_25443918",
+      "variant": {
+        "pos": 25443917,
+        "ref": "G",
+        "alt": "GAA",
+        "filter": "."
+      },
+      "rank": "1c3faf5c1e243ae034bca18ecd70713fabc916171930926cd7cdf9df1c8b7d52"
+    },
+    {
+      "id": "chr22_31519256",
+      "variant": {
+        "pos": 31519255,
+        "ref": "TTTTTC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "1c4795cd0ee4380aed092acf7168b3bd2772c635b6835f7f1c202a70dc531b3b"
+    },
+    {
+      "id": "chr22_40014131",
+      "variant": {
+        "pos": 40014130,
+        "ref": "C",
+        "alt": "CTTT",
+        "filter": "."
+      },
+      "rank": "1c7a1f34c10327d0a60ce9ef3a903317b4a1bd2ab107459c829440ad1a585074"
+    },
+    {
+      "id": "chr22_38207423",
+      "variant": {
+        "pos": 38207422,
+        "ref": "CTTTTTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "1c9d26aefb591242837ae3674c4ed2db815bee98b77027f997e60a3ebb2137f7"
+    },
+    {
+      "id": "chr22_17504046",
+      "variant": {
+        "pos": 17504045,
+        "ref": "C",
+        "alt": "CTAAATAAATAAATAAA",
+        "filter": "."
+      },
+      "rank": "1ca11701fddb67847bc1f0a85ee83bb60ebda3d844116d6711fcc6f466e7fc53"
+    },
+    {
+      "id": "chr22_43701619",
+      "variant": {
+        "pos": 43701618,
+        "ref": "CAT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "1d8227768ecc03fa24cf2915a3b974dd8d10ed01635f1d3c280e475697f7d6f6"
+    },
+    {
+      "id": "chr22_34106317",
+      "variant": {
+        "pos": 34106316,
+        "ref": "C",
+        "alt": "CTTACTCCAATAATTACT",
+        "filter": "."
+      },
+      "rank": "1ddb321adf012bffe78dfc2e2959bac09db983ae204c6ef925f81d922f3f8afe"
+    },
+    {
+      "id": "chr22_35145223",
+      "variant": {
+        "pos": 35145222,
+        "ref": "CTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "1e0f4002e26f163e9241cd02708b9978eb07d7569676070636fc3270b5f924dd"
+    },
+    {
+      "id": "chr22_47434072",
+      "variant": {
+        "pos": 47434071,
+        "ref": "A",
+        "alt": "ACAAT",
+        "filter": "."
+      },
+      "rank": "1e1d91a4e8aac8583b459a126140d46554d722fe1fb99f79e07a07bae7e527ac"
+    },
+    {
+      "id": "chr22_31443419",
+      "variant": {
+        "pos": 31443418,
+        "ref": "T",
+        "alt": "TCTGCGAAAG",
+        "filter": "."
+      },
+      "rank": "1e9f155cf2ff3e1dfbdd8f9538ef9091e618e825a46a4aab9be67444d597bcbf"
+    },
+    {
+      "id": "chr22_44433414",
+      "variant": {
+        "pos": 44433413,
+        "ref": "ATTTT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "1ebd4364096bc177e8952b3c55eadc78b2274459d941732bb1a86031335698f3"
+    },
+    {
+      "id": "chr22_48261164",
+      "variant": {
+        "pos": 48261163,
+        "ref": "ACAT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "1f20ea0c363f702f11ecdc85e4f58ab38c355028622419700fa0b8d286f4e962"
+    },
+    {
+      "id": "chr22_42078672",
+      "variant": {
+        "pos": 42078671,
+        "ref": "A",
+        "alt": "ATTCTGC",
+        "filter": "."
+      },
+      "rank": "1f3b22d434385fec8ffc87c62c291ae93f5a2e5d88498862d2bf245e336c4d9b"
+    },
+    {
+      "id": "chr22_43743989",
+      "variant": {
+        "pos": 43743988,
+        "ref": "AAATGGATGAATG",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "1fd93e23b4f1f9e763c5f46a1ba6681a4f922ce64b4012c55aa3a3ded5911e7f"
+    },
+    {
+      "id": "chr22_28258902",
+      "variant": {
+        "pos": 28258901,
+        "ref": "A",
+        "alt": "AGT",
+        "filter": "."
+      },
+      "rank": "1fde853043f233b59aa949b4f42d12d9adcbd02c10950fa2b6e7da5d761881c2"
+    },
+    {
+      "id": "chr22_47722657",
+      "variant": {
+        "pos": 47722656,
+        "ref": "TAAA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "1fefee684990d59047eaf464069ab4f15f3844587f055b411a1c98fda5ccb1be"
+    },
+    {
+      "id": "chr22_50628918",
+      "variant": {
+        "pos": 50628917,
+        "ref": "GTGT",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "200ea67191520c203224d725995fdc57e7179a01a1372414328296e6b50e99c6"
+    },
+    {
+      "id": "chr22_31711776",
+      "variant": {
+        "pos": 31711775,
+        "ref": "C",
+        "alt": "CAA",
+        "filter": "."
+      },
+      "rank": "20438b8ed97b44a31eb8a88adf73fc1dc2c62b0f5b13be7d19405848bea62cbf"
+    },
+    {
+      "id": "chr22_45891306",
+      "variant": {
+        "pos": 45891305,
+        "ref": "GTCCTCACCCCGCGTCCTCACCCCGCGTCC",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "21fd32b8a74ba71dd4fdeb0d609068f83248282d04ca6d73926fd1dfaa917806"
+    },
+    {
+      "id": "chr22_28720092",
+      "variant": {
+        "pos": 28720091,
+        "ref": "A",
+        "alt": "ATT",
+        "filter": "."
+      },
+      "rank": "22051dad00fda17810f860858579da081c9fe0186eba05411cf01c82cfa239ac"
+    },
+    {
+      "id": "chr22_30960808",
+      "variant": {
+        "pos": 30960807,
+        "ref": "CAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "2299ef3d108d09f134ee80da87ed817904276446cb8bc0ee45385cf03298e0d1"
+    },
+    {
+      "id": "chr22_40727442",
+      "variant": {
+        "pos": 40727441,
+        "ref": "C",
+        "alt": "CGAGA",
+        "filter": "."
+      },
+      "rank": "23acc4bb058a3aa967caeeb7e1b253cae700b4660af7010eeb4b26dae13e3448"
+    },
+    {
+      "id": "chr22_20888311",
+      "variant": {
+        "pos": 20888310,
+        "ref": "TCACA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "2479f108d09bf248d7d883aba3b2ff168e2b709b003a3cf738bd075159f5a5d4"
+    },
+    {
+      "id": "chr22_44848361",
+      "variant": {
+        "pos": 44848360,
+        "ref": "GTT",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "24ceba07c6022f9485585d261733b6af08f6fdd84f4cad3a09f1b3bac9da87c2"
+    },
+    {
+      "id": "chr22_23887536",
+      "variant": {
+        "pos": 23887535,
+        "ref": "GCT",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "2504a3fae35f30ea09a09211ad785739f9ad946017b6cc559f0116173cda744e"
+    },
+    {
+      "id": "chr22_39180535",
+      "variant": {
+        "pos": 39180534,
+        "ref": "CAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "25468ad0e821e09c593233abcefce1606da447fb4fa37748058da2372406d879"
+    },
+    {
+      "id": "chr22_37255586",
+      "variant": {
+        "pos": 37255585,
+        "ref": "GAAGA",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "2586220a37b093eae8509865705c3e1853bcaf09f05793f06c54552f979675d0"
+    },
+    {
+      "id": "chr22_24754473",
+      "variant": {
+        "pos": 24754472,
+        "ref": "CAGTG",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "2589ec24d57aea3276f916f7f60a53ab047363b5a0561ff85243ded2d2ac3aac"
+    },
+    {
+      "id": "chr22_30158583",
+      "variant": {
+        "pos": 30158582,
+        "ref": "C",
+        "alt": "CTCCTTCCT",
+        "filter": "."
+      },
+      "rank": "25a1734912de7b12bebc961f8c628811eaa0b446cbca24feff208c3b8bdd19fb"
+    },
+    {
+      "id": "chr22_36514344",
+      "variant": {
+        "pos": 36514343,
+        "ref": "CAG",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "25ba27c0b72d2b6021ff5cf5844c7ba7cb757546fb6841274b23fe542f13c8cf"
+    },
+    {
+      "id": "chr22_25847948",
+      "variant": {
+        "pos": 25847947,
+        "ref": "TACACAC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "25f950425b268c81408f51a459e8933f2bd4f8688e6b6c73e03d72593ddd0cab"
+    },
+    {
+      "id": "chr22_28601777",
+      "variant": {
+        "pos": 28601776,
+        "ref": "G",
+        "alt": "GACACACAC",
+        "filter": "."
+      },
+      "rank": "26e4e58752b00d25e602005c06afdb37a634a463e1975453fba5d37578b396bc"
+    },
+    {
+      "id": "chr22_46941934",
+      "variant": {
+        "pos": 46941933,
+        "ref": "TAC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "278079388c4097103a8b335d8ac0ef30efcd42a0f4b2e0d719b79118a8bf6508"
+    },
+    {
+      "id": "chr22_25899799",
+      "variant": {
+        "pos": 25899798,
+        "ref": "A",
+        "alt": "AGAGTGACTGATGGTTCAGAT",
+        "filter": "."
+      },
+      "rank": "27fef6d0893693faf5ca723f8d2bb767a05397a75fbf77b287b8865979a8d45b"
+    },
+    {
+      "id": "chr22_31771715",
+      "variant": {
+        "pos": 31771714,
+        "ref": "TCACA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "28d4e003eeab38ec5a60daeb486ecfb486196e7de9b9c45ffb5d0a9104f72838"
+    },
+    {
+      "id": "chr22_35483871",
+      "variant": {
+        "pos": 35483870,
+        "ref": "A",
+        "alt": "AGAGGAAGGAAGGAAGG",
+        "filter": "."
+      },
+      "rank": "293668b3b7ba693f734f128fae88943ae9e3dbfd4d78614ad30a8b289d138f80"
+    },
+    {
+      "id": "chr22_40625950",
+      "variant": {
+        "pos": 40625949,
+        "ref": "A",
+        "alt": "AAAGT",
+        "filter": "."
+      },
+      "rank": "2974c2ed06307dee162cb88d5c884e69a89e1f09eb9d8a47adebd3448effd538"
+    },
+    {
+      "id": "chr22_36484469",
+      "variant": {
+        "pos": 36484468,
+        "ref": "C",
+        "alt": "CAAA",
+        "filter": "."
+      },
+      "rank": "29fa6d06e3d90d2a9a01b919e8e2083a38a646dd890a194b9f5980c1178fb64c"
+    },
+    {
+      "id": "chr22_43399101",
+      "variant": {
+        "pos": 43399100,
+        "ref": "CTA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "2a38d3b315fee1870429d19031fbfbe3c7d5c78de357fb362a6ea6ee987db8bb"
+    },
+    {
+      "id": "chr22_21618212",
+      "variant": {
+        "pos": 21618211,
+        "ref": "T",
+        "alt": "TAGTGAA",
+        "filter": "."
+      },
+      "rank": "2a8f156dad4a19f80ec320e2b97c7d982cb19261fb1fcf8fb008153d50566eed"
+    },
+    {
+      "id": "chr22_25573916",
+      "variant": {
+        "pos": 25573915,
+        "ref": "AAACCAACC",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "2a9a632716bf060f9af5d84609da7ed11e6bf60644581df290a44a391542209f"
+    },
+    {
+      "id": "chr22_16803077",
+      "variant": {
+        "pos": 16803076,
+        "ref": "C",
+        "alt": "CAT",
+        "filter": "."
+      },
+      "rank": "2afe01c7d8d9498a9294a48a9cb92c395cc2dfc63aa035dc2eb5ebd36022231b"
+    },
+    {
+      "id": "chr22_28056610",
+      "variant": {
+        "pos": 28056609,
+        "ref": "A",
+        "alt": "ATTTG",
+        "filter": "."
+      },
+      "rank": "2b45167d25e50097171111dd3c2749c66bd935e39bd7a1fe506b7ce6a9da8a23"
+    },
+    {
+      "id": "chr22_23727459",
+      "variant": {
+        "pos": 23727458,
+        "ref": "C",
+        "alt": "CAAAAAAAA",
+        "filter": "."
+      },
+      "rank": "2b46b537f8e36786d779b44c5218978ec600c29e7fb5a60b2a1b335e54b530b1"
+    },
+    {
+      "id": "chr22_26517996",
+      "variant": {
+        "pos": 26517995,
+        "ref": "CTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "2b53c7ec7407998f2653fb93afdbb09455843c72306c43da434365e0404539bc"
+    },
+    {
+      "id": "chr22_33265007",
+      "variant": {
+        "pos": 33265006,
+        "ref": "TCTCCTG",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "2c11bec77183d78c55804085e69f6037c8f1727f884ca71bcba970913f70af79"
+    },
+    {
+      "id": "chr22_46277046",
+      "variant": {
+        "pos": 46277045,
+        "ref": "TAC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "2c4caa63a0fdc0fd093a59b53c34fd8bcc09f3e3a888ba6dee68c6e47ee97f19"
+    },
+    {
+      "id": "chr22_32852737",
+      "variant": {
+        "pos": 32852736,
+        "ref": "A",
+        "alt": "ATGTG",
+        "filter": "."
+      },
+      "rank": "2c755422cc4e8339554958c5df922d9bf12bc9a38667af5b5ad2edb3dfd4b932"
+    },
+    {
+      "id": "chr22_41126729",
+      "variant": {
+        "pos": 41126728,
+        "ref": "CTTTTTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "2ca51b5833ce231216082b68a9012044d30193b048931915f81a310955e3f637"
+    },
+    {
+      "id": "chr22_25533968",
+      "variant": {
+        "pos": 25533967,
+        "ref": "C",
+        "alt": "CCT",
+        "filter": "."
+      },
+      "rank": "2d267ff2b8742dbfe51b067f5deefe3cad6c0c63c40e3f0569cc2f69d3fe962d"
+    },
+    {
+      "id": "chr22_31375530",
+      "variant": {
+        "pos": 31375529,
+        "ref": "C",
+        "alt": "CTTT",
+        "filter": "."
+      },
+      "rank": "2df109fa385c0090d19234d2fd0925b67d46c777557830ec1d88b24fb2959f90"
+    },
+    {
+      "id": "chr22_26232346",
+      "variant": {
+        "pos": 26232345,
+        "ref": "TCACACACA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "2e0c2dc830dc3bba5e3449ae2c172875b21e7504c1571cdc2a092c0213471655"
+    },
+    {
+      "id": "chr22_31408752",
+      "variant": {
+        "pos": 31408751,
+        "ref": "CAAAAAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "2e15b3374c92fcc013fd1d7af704ecba8e5fc502c0fab02c26e52001b98a3d4c"
+    },
+    {
+      "id": "chr22_36511894",
+      "variant": {
+        "pos": 36511893,
+        "ref": "C",
+        "alt": "CTT",
+        "filter": "."
+      },
+      "rank": "2e5d06ea00755667fc0a67a6f055affdf4130554effd3245be4ec4560a0d6115"
+    },
+    {
+      "id": "chr22_40255843",
+      "variant": {
+        "pos": 40255842,
+        "ref": "CTTGTTTGTTTGT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "2e6b09294a2a262f2599def1d58833cab6b1bb612c106fda7d87c06f76562fb0"
+    },
+    {
+      "id": "chr22_29785893",
+      "variant": {
+        "pos": 29785892,
+        "ref": "ACTACCAAGT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "2ec952cd99d9e95d21b2aacbe306484dcf9ae5d0acb90451aa89b8c16113fea8"
+    },
+    {
+      "id": "chr22_20851336",
+      "variant": {
+        "pos": 20851335,
+        "ref": "T",
+        "alt": "TTTG",
+        "filter": "."
+      },
+      "rank": "2ed2632b99f54e2cda4a582fd0f76f5aab90ef1e49ca789a866e9bb838cd3f89"
+    },
+    {
+      "id": "chr22_47495300",
+      "variant": {
+        "pos": 47495299,
+        "ref": "CTGAG",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "2efa800eae4507f08194a5a10d1ef1ef54d76c00762771fd3f303ddb11219b0f"
+    },
+    {
+      "id": "chr22_35958229",
+      "variant": {
+        "pos": 35958228,
+        "ref": "T",
+        "alt": "TTA",
+        "filter": "."
+      },
+      "rank": "2f0808babbf49f7b08bdd1bef8149ba48861caa540b9ca0d9d0c3131a0dbaf74"
+    },
+    {
+      "id": "chr22_49249020",
+      "variant": {
+        "pos": 49249019,
+        "ref": "CTG",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "2f64c4e20e0fee09d7d9b0f2da5e02ff652a69da12379e8c9c9bbc3fdc454763"
+    },
+    {
+      "id": "chr22_41100323",
+      "variant": {
+        "pos": 41100322,
+        "ref": "CGG",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "2f8d47565b0cbb3cdf431502d049c23f98cbcd8b45da5314af22beb932d19be6"
+    }
+  ],
+  "test": [
+    {
+      "id": "chr22_29844124",
+      "variant": {
+        "pos": 29844123,
+        "ref": "T",
+        "alt": "TTTTG",
+        "filter": "."
+      },
+      "rank": "2fa864dceaa7227aae1a0d262581e82376333b5ccec34ccd30c9922b93cea006"
+    },
+    {
+      "id": "chr22_20488681",
+      "variant": {
+        "pos": 20488680,
+        "ref": "A",
+        "alt": "AGGGAGGGGAGGGGAGGGGAGAGGAG",
+        "filter": "."
+      },
+      "rank": "30698008e61bdca05c3e35caf794b099face4edd0e5ece0d687684d9a71c8b82"
+    },
+    {
+      "id": "chr22_24795136",
+      "variant": {
+        "pos": 24795135,
+        "ref": "C",
+        "alt": "CAATA",
+        "filter": "."
+      },
+      "rank": "30db5ee713926e9d7bfc7d50721b7447bea6a4ad3c47f69a119266afca1ddefb"
+    },
+    {
+      "id": "chr22_34743181",
+      "variant": {
+        "pos": 34743180,
+        "ref": "CGTGT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "320c547bf145eb59276375a1000aa85c382e9fc488a744cc0a99baa62d39788f"
+    },
+    {
+      "id": "chr22_33103432",
+      "variant": {
+        "pos": 33103431,
+        "ref": "C",
+        "alt": "CAA",
+        "filter": "."
+      },
+      "rank": "33949d78a7f6706277770efa01bb1b3d05fbc188cba3e197c86d49ebc904d318"
+    },
+    {
+      "id": "chr22_26366706",
+      "variant": {
+        "pos": 26366705,
+        "ref": "TCAAA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "33ed0b8ce742a52276fe312311142085c0c8334857bfe9f63bb25bdf84216a1b"
+    },
+    {
+      "id": "chr22_34785654",
+      "variant": {
+        "pos": 34785653,
+        "ref": "T",
+        "alt": "TTC",
+        "filter": "."
+      },
+      "rank": "346e4471fde688e267bf7a1b83c4da745873cda9a0ae530c4b7f0d6dd25a4b40"
+    },
+    {
+      "id": "chr22_39373138",
+      "variant": {
+        "pos": 39373137,
+        "ref": "TAC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "34a0e35faf81b41f75af28a19ef1519ac2cc8c1dfe6a84b42fadceaae851ae56"
+    },
+    {
+      "id": "chr22_38290472",
+      "variant": {
+        "pos": 38290471,
+        "ref": "C",
+        "alt": "CGCGTGGCACCTGTG",
+        "filter": "."
+      },
+      "rank": "34d443d6b5a2ba3ab6bc0bfe2fd5c4a6aba4ca30ee47c24111fe07f3f7955164"
+    },
+    {
+      "id": "chr22_50674573",
+      "variant": {
+        "pos": 50674572,
+        "ref": "CCG",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "35503f627139909a903f408456588e218f8b4521e3af0c6acb010ee27992c666"
+    },
+    {
+      "id": "chr22_30672921",
+      "variant": {
+        "pos": 30672920,
+        "ref": "G",
+        "alt": "GTCCCGTCCCA",
+        "filter": "."
+      },
+      "rank": "3618f5a7a283cc1e31ef0f98b0a74d37ffb03025e3560d474cf53d1b1358f8b4"
+    },
+    {
+      "id": "chr22_39493580",
+      "variant": {
+        "pos": 39493579,
+        "ref": "A",
+        "alt": "AATCATCATC",
+        "filter": "."
+      },
+      "rank": "363e26e3f5e716b290151984d2d2bf532ad6f0fa0fc5eb68c787bbfe6b776b86"
+    },
+    {
+      "id": "chr22_34766936",
+      "variant": {
+        "pos": 34766935,
+        "ref": "ATGTGTATGTGTGTGTGTG",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "36976bec5af02316876d43f7ac75179dab3f00f46f0021e15acacf607b7c8765"
+    },
+    {
+      "id": "chr22_34958652",
+      "variant": {
+        "pos": 34958651,
+        "ref": "CGTGTGT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "36c8938efc0a56cb7f03a537f91bcfab74bdcaa453eef45aed13945525d25eea"
+    },
+    {
+      "id": "chr22_44037937",
+      "variant": {
+        "pos": 44037936,
+        "ref": "TCCAGC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "36f1704f9a859586b8d1a3b82556886064eb7ec4638900f53d3b44863f490a65"
+    },
+    {
+      "id": "chr22_39780375",
+      "variant": {
+        "pos": 39780374,
+        "ref": "C",
+        "alt": "CAA",
+        "filter": "."
+      },
+      "rank": "37902a42920230f975f8e1a1c117cec07a68fbf890cb644f1fabef8f8bbe6298"
+    },
+    {
+      "id": "chr22_34664854",
+      "variant": {
+        "pos": 34664853,
+        "ref": "A",
+        "alt": "ATT",
+        "filter": "."
+      },
+      "rank": "37d7e0ac6674e0f7c42319b5266661ec91434ea6c5ebbd1b9767d42b6db42225"
+    },
+    {
+      "id": "chr22_44487506",
+      "variant": {
+        "pos": 44487505,
+        "ref": "C",
+        "alt": "CACAAATATTGAGGGGAT",
+        "filter": "."
+      },
+      "rank": "37e660b7a03c710588f1f9b660d5aea02b3a2da76a15b237d7c6fe254832fc89"
+    },
+    {
+      "id": "chr22_50265143",
+      "variant": {
+        "pos": 50265142,
+        "ref": "C",
+        "alt": "CAG",
+        "filter": "."
+      },
+      "rank": "3853adc601020a91eb842e3d9df7aa667527cdc3cfdb3dc8be8ab1e87938fc8a"
+    },
+    {
+      "id": "chr22_28593469",
+      "variant": {
+        "pos": 28593468,
+        "ref": "CTAGG",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "387639131e4922275ac9707ac2e46a198619e42dab08c7b4c64d3e084c465dbd"
+    },
+    {
+      "id": "chr22_28715397",
+      "variant": {
+        "pos": 28715396,
+        "ref": "T",
+        "alt": "TTTTA",
+        "filter": "."
+      },
+      "rank": "38ca2a44b6c724ea6e9d760969b9879d8e31b9121dc16fc83c2855a7d89e77a8"
+    },
+    {
+      "id": "chr22_42250467",
+      "variant": {
+        "pos": 42250466,
+        "ref": "AAG",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "38cb62f12e75d38ff747650269e057308197067205790b23e3d61f26cc7b5a38"
+    },
+    {
+      "id": "chr22_44131035",
+      "variant": {
+        "pos": 44131034,
+        "ref": "T",
+        "alt": "TCCTC",
+        "filter": "."
+      },
+      "rank": "39a58a91f1c924a0451823d1daa9d6f473676a45e8394b173785d9bbee3eb1d0"
+    },
+    {
+      "id": "chr22_25382278",
+      "variant": {
+        "pos": 25382277,
+        "ref": "C",
+        "alt": "CAAA",
+        "filter": "."
+      },
+      "rank": "3a4b51d409cffac341f904086be6adb8ce1fe26a29ec92f4fe80e9be90c6f439"
+    },
+    {
+      "id": "chr22_28081152",
+      "variant": {
+        "pos": 28081151,
+        "ref": "TAC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "3b0f6a70a0092c91dd3370b7b283f1d80466eca7758afbcf4269b48dc51e8e3b"
+    },
+    {
+      "id": "chr22_41056150",
+      "variant": {
+        "pos": 41056149,
+        "ref": "C",
+        "alt": "CTTT",
+        "filter": "."
+      },
+      "rank": "3b13bf3a35a7cf2e41fd2176aedf4647222ee39c3992f8fffce6317ca1407d00"
+    },
+    {
+      "id": "chr22_31682401",
+      "variant": {
+        "pos": 31682400,
+        "ref": "C",
+        "alt": "CTT",
+        "filter": "."
+      },
+      "rank": "3b92e669ffd25c6ac5e0156d197a9f3ad87b35979faa24d9a7b4544c5b47724a"
+    },
+    {
+      "id": "chr22_38228406",
+      "variant": {
+        "pos": 38228405,
+        "ref": "A",
+        "alt": "AAGC",
+        "filter": "."
+      },
+      "rank": "3bace81ded32d0fc88f7173b3ff0a95ba1c57fda9c79500e0daf98f69cb0fab2"
+    },
+    {
+      "id": "chr22_39987400",
+      "variant": {
+        "pos": 39987399,
+        "ref": "TCACA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "3cdf6a186da193439560e2bde619acc2d970adab1d510dc62ad5c7602b1d29fe"
+    },
+    {
+      "id": "chr22_41561074",
+      "variant": {
+        "pos": 41561073,
+        "ref": "ACACACAC",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "3d6807dc478c52e12a4283a78a722f71e6c33aac262437e497fa47d37ed68883"
+    },
+    {
+      "id": "chr22_35659753",
+      "variant": {
+        "pos": 35659752,
+        "ref": "CTGTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "3d7b557a1900e4f2da1a38b8b8134316e41e06a9cb0168e71dff9af856bde640"
+    },
+    {
+      "id": "chr22_49752240",
+      "variant": {
+        "pos": 49752239,
+        "ref": "CCTGGACAGAGGAGGGGTGTGGTTCAGA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "3dbe22590f9d50470aa64231927019bada0d60ce39f3b9e4341ac90c93a982c7"
+    },
+    {
+      "id": "chr22_37868634",
+      "variant": {
+        "pos": 37868633,
+        "ref": "C",
+        "alt": "CTTTTT",
+        "filter": "."
+      },
+      "rank": "3e00b99e931026c288ec87bd1848d6d3c9084d7a13ef66311fedef74ec1d0cd3"
+    },
+    {
+      "id": "chr22_34318130",
+      "variant": {
+        "pos": 34318129,
+        "ref": "TGGAA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "3e411fe4f50ac65a3f3c2b9f55c1ebfcf96565ac98cb5b9488ea2ecc7fb64e33"
+    },
+    {
+      "id": "chr22_47445267",
+      "variant": {
+        "pos": 47445266,
+        "ref": "G",
+        "alt": "GTCC",
+        "filter": "."
+      },
+      "rank": "3e82cd8b54e3c6b31df1df952c7f352b6bc9637caa1f71d06a32d0690b1c5677"
+    },
+    {
+      "id": "chr22_29394336",
+      "variant": {
+        "pos": 29394335,
+        "ref": "T",
+        "alt": "TTTTTG",
+        "filter": "."
+      },
+      "rank": "3ec0da69a54ade54f941b5eb2e6f520e399cd364dcb610ac27016a31aa19fe99"
+    },
+    {
+      "id": "chr22_31020995",
+      "variant": {
+        "pos": 31020994,
+        "ref": "CTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "3f9e34a27437667c2d00790e17ff53c0093121aa44160ce7c5f818995070bfd0"
+    },
+    {
+      "id": "chr22_31748450",
+      "variant": {
+        "pos": 31748449,
+        "ref": "C",
+        "alt": "CTG",
+        "filter": "."
+      },
+      "rank": "3fb0e6744735d1b8717d65727474e04e01efb624e93268bfbf3c6849e8fbaa43"
+    },
+    {
+      "id": "chr22_45364824",
+      "variant": {
+        "pos": 45364823,
+        "ref": "CTTTTTTTTTTTTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "3fea87d0661763dc2d62d176a01c142dd5b5eeb5156f4c50019bf48b372f5695"
+    },
+    {
+      "id": "chr22_46759957",
+      "variant": {
+        "pos": 46759956,
+        "ref": "G",
+        "alt": "GTT",
+        "filter": "."
+      },
+      "rank": "415e7f2de8ecbf7ed46b82aedb859a02f7d2da9578b48c8b5980793797e5186a"
+    },
+    {
+      "id": "chr22_20449040",
+      "variant": {
+        "pos": 20449039,
+        "ref": "TTTTTG",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "42e0af9b28ea357936871aa392090ae8f91773aa238f189340bffcb43e7c806b"
+    },
+    {
+      "id": "chr22_17540234",
+      "variant": {
+        "pos": 17540233,
+        "ref": "CAATATAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "4325dfbf2acf7f41b2956bd669b045c89f900a063f858a4600082f0c3c8dc236"
+    },
+    {
+      "id": "chr22_23166147",
+      "variant": {
+        "pos": 23166146,
+        "ref": "TAAAA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "4365926c9e74a6d88aef6a794e0ec7c897ed596d31ca7cb93ef5bb51ea6894ac"
+    },
+    {
+      "id": "chr22_50337109",
+      "variant": {
+        "pos": 50337108,
+        "ref": "AGT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "43ab2f7f373a7fedf607251d810ac787a472956a2a4a47b5d690f89722489b59"
+    },
+    {
+      "id": "chr22_39067810",
+      "variant": {
+        "pos": 39067809,
+        "ref": "CAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "451ca965cf7485753ed4dcdd4ac80fd676a6446be9ac9cbf55033d8b538b3571"
+    },
+    {
+      "id": "chr22_31100043",
+      "variant": {
+        "pos": 31100042,
+        "ref": "CCTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "4551a7163bb7800d39edea88ec57f9fdf32394d2734775760241fe5d63e96d6d"
+    },
+    {
+      "id": "chr22_17379581",
+      "variant": {
+        "pos": 17379580,
+        "ref": "G",
+        "alt": "GGTGTGTGTGT",
+        "filter": "."
+      },
+      "rank": "45ad168bac35edd493a6d59a967c3ece5530f9e49ea0e3a9cdb80e1c6792db76"
+    },
+    {
+      "id": "chr22_40376712",
+      "variant": {
+        "pos": 40376711,
+        "ref": "G",
+        "alt": "GGTGGA",
+        "filter": "."
+      },
+      "rank": "466f5feac3e53ced08e4ad43b7b8b0c6d4eeaa0290e3f24b96c93a558a648db8"
+    },
+    {
+      "id": "chr22_27142700",
+      "variant": {
+        "pos": 27142699,
+        "ref": "T",
+        "alt": "TGAGAGAGAGAGAGAGA",
+        "filter": "."
+      },
+      "rank": "469a3ec044ddcd81fc336516773e7df019209be9abfaa6fea34dd9a207318e98"
+    },
+    {
+      "id": "chr22_39964715",
+      "variant": {
+        "pos": 39964714,
+        "ref": "T",
+        "alt": "TAAAA",
+        "filter": "."
+      },
+      "rank": "47235d06bf84cf1c78b5b7d27d9ce36496fdf4b68dc230a74748d58c671b442c"
+    },
+    {
+      "id": "chr22_40477175",
+      "variant": {
+        "pos": 40477174,
+        "ref": "CAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "4793f22e58d784bc1384b5159a0fff7f21f088ebaa4dcd7ba34ace905724d873"
+    },
+    {
+      "id": "chr22_50705863",
+      "variant": {
+        "pos": 50705862,
+        "ref": "G",
+        "alt": "GCCC",
+        "filter": "."
+      },
+      "rank": "4841e9778b39d81382d4f661420df44f46ea00b1be3681cc3fadcbbc31380fef"
+    },
+    {
+      "id": "chr22_37661917",
+      "variant": {
+        "pos": 37661916,
+        "ref": "ATTTTTTTTTTTTTTTTTTT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "49461978209b04b5deeb60dc9113f78a3d9eedd25adb4f4436e9fe3b6c468044"
+    },
+    {
+      "id": "chr22_21718783",
+      "variant": {
+        "pos": 21718782,
+        "ref": "T",
+        "alt": "TAC",
+        "filter": "."
+      },
+      "rank": "494c70267da85f994d77ddf51ce321e3211a2f188cd12b40c27729ecb1b7b07c"
+    },
+    {
+      "id": "chr22_34347956",
+      "variant": {
+        "pos": 34347955,
+        "ref": "GGT",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "4be54de8cf36d2eb5b133ea388f578b06f1d459dc7e77c5fb483e69262319149"
+    },
+    {
+      "id": "chr22_39279062",
+      "variant": {
+        "pos": 39279061,
+        "ref": "C",
+        "alt": "CTT",
+        "filter": "."
+      },
+      "rank": "4c5d8e2aaccd3211fbd76656f9f569c60672fbd613ddd61947301f696ea63bf1"
+    },
+    {
+      "id": "chr22_33937038",
+      "variant": {
+        "pos": 33937037,
+        "ref": "TGTTTTGTTTG",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "4c63f5cfb7093a810af5e1b0ec7856cbddda1ecfb1a239ddecd9dab94839665c"
+    },
+    {
+      "id": "chr22_27946964",
+      "variant": {
+        "pos": 27946963,
+        "ref": "CGTGT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "4da72672d72e5bb7b0042da77d59bdb47b544533e0616ad9fe457f22c0f3c62f"
+    },
+    {
+      "id": "chr22_40097669",
+      "variant": {
+        "pos": 40097668,
+        "ref": "T",
+        "alt": "TACAC",
+        "filter": "."
+      },
+      "rank": "4db459caa7d4f829d01de8ed489b0b10fb9441a51142214b2f1245e24d073df0"
+    },
+    {
+      "id": "chr22_25332327",
+      "variant": {
+        "pos": 25332326,
+        "ref": "CAAAAAAAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "4df87f1b68a7d39ad3835bb8ec36fa3e36a6e139adac2313f058ab47a7f2d60d"
+    },
+    {
+      "id": "chr22_33713982",
+      "variant": {
+        "pos": 33713981,
+        "ref": "G",
+        "alt": "GTAACA",
+        "filter": "."
+      },
+      "rank": "4e00defe4c849889c00106b6b2482d6525cc167206587af35081d764817dea65"
+    },
+    {
+      "id": "chr22_29248259",
+      "variant": {
+        "pos": 29248258,
+        "ref": "CTTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "4e1bfb993e232524d7bfdd6212bc79df9de7b16e5bc09b9a1fd4ce0b27872a1c"
+    },
+    {
+      "id": "chr22_39881388",
+      "variant": {
+        "pos": 39881387,
+        "ref": "GAT",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "4e2528b25aef5b610a011dfe7f8350364e4903c66e2ab6683eea7f0a64124b1c"
+    },
+    {
+      "id": "chr22_37903938",
+      "variant": {
+        "pos": 37903937,
+        "ref": "TTTTGTATTTTTAGTA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "4ec5b952b52c704dad7c014e696a2e8c0f17cd8abfd68cf3f41636ecd868d7a3"
+    },
+    {
+      "id": "chr22_35385936",
+      "variant": {
+        "pos": 35385935,
+        "ref": "G",
+        "alt": "GTTTA",
+        "filter": "."
+      },
+      "rank": "4efc32b734aaafec75940d9743bc81e947b07677d57b80bdedf54227770d8784"
+    },
+    {
+      "id": "chr22_32498964",
+      "variant": {
+        "pos": 32498963,
+        "ref": "GTTTGT",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "4f31b96dd31e173e7185f8501c9a7bc6ed90dc00820821648fb163dc0da02df5"
+    },
+    {
+      "id": "chr22_31589211",
+      "variant": {
+        "pos": 31589210,
+        "ref": "CGT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "4f99d883da554a90908eabbfd5032208e8e953e2acd40842dac75cd42235802c"
+    },
+    {
+      "id": "chr22_45603778",
+      "variant": {
+        "pos": 45603777,
+        "ref": "GTT",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "50103cd788abdfccc29cec3dd891f6e8dd6804abc335d1dbfd2cab9d94803186"
+    },
+    {
+      "id": "chr22_42827089",
+      "variant": {
+        "pos": 42827088,
+        "ref": "C",
+        "alt": "CAT",
+        "filter": "."
+      },
+      "rank": "50209e0c584e33b68249692b7df49bc72d20b8a19cb793fb82dc7b8bf7cbd14e"
+    },
+    {
+      "id": "chr22_26213321",
+      "variant": {
+        "pos": 26213320,
+        "ref": "A",
+        "alt": "ACACC",
+        "filter": "."
+      },
+      "rank": "50b15ead52c0d8c5c2a81c388191297a9404f1e602e3fd993b2ca82192f25c7c"
+    },
+    {
+      "id": "chr22_25320806",
+      "variant": {
+        "pos": 25320805,
+        "ref": "TCCA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "50fda09ce661cfc22e7731559fb0e45991360319a5d5c4747cb94fa89cdf77de"
+    },
+    {
+      "id": "chr22_28352312",
+      "variant": {
+        "pos": 28352311,
+        "ref": "CATAT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "515b29df29b2af723190f1afde5a9c269c728f9367d536984272cff81e4586bf"
+    },
+    {
+      "id": "chr22_24112145",
+      "variant": {
+        "pos": 24112144,
+        "ref": "TTTTC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "523b9e93dc18c0df82241dbe45c7eccf97b9d049ed711ac78bc122ff0fc8b2a0"
+    },
+    {
+      "id": "chr22_31866409",
+      "variant": {
+        "pos": 31866408,
+        "ref": "GAC",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "5291e23829f8e209af8496a0f6eee7a93b6f8dc9340129ed112693cb802ea492"
+    },
+    {
+      "id": "chr22_37094381",
+      "variant": {
+        "pos": 37094380,
+        "ref": "T",
+        "alt": "TGATA",
+        "filter": "."
+      },
+      "rank": "52e68805e451d2efa807c9cbb4cf2a1123ef21b7a9bea7ebb9d8b02ca6901ee6"
+    },
+    {
+      "id": "chr22_25349927",
+      "variant": {
+        "pos": 25349926,
+        "ref": "C",
+        "alt": "CTTCT",
+        "filter": "."
+      },
+      "rank": "531c467c7e0891a99c05d65f6294ca721b8eb08fe2ca4726881111c1623ac0ea"
+    },
+    {
+      "id": "chr22_30378879",
+      "variant": {
+        "pos": 30378878,
+        "ref": "T",
+        "alt": "TAA",
+        "filter": "."
+      },
+      "rank": "532e529ae194351fd51d36fd236a9f2355f094562e4cf08b0486d891d09d2658"
+    },
+    {
+      "id": "chr22_35924190",
+      "variant": {
+        "pos": 35924189,
+        "ref": "CCT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "5387ae410626db1b0b7448a4f977a947d5aef1304b57ffa0ee3aaffc70c0ed81"
+    },
+    {
+      "id": "chr22_29845494",
+      "variant": {
+        "pos": 29845493,
+        "ref": "C",
+        "alt": "CTTT",
+        "filter": "."
+      },
+      "rank": "53976c4a132d8fb907e97961e01367367ea0a859a8acb5f6db1afeed4fcb0ad7"
+    },
+    {
+      "id": "chr22_35053182",
+      "variant": {
+        "pos": 35053181,
+        "ref": "CAGG",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "53a679902687a0f831b28bb4c5e4ea4223aecf310ee3125eb5367a0f8b8321a9"
+    },
+    {
+      "id": "chr22_39390763",
+      "variant": {
+        "pos": 39390762,
+        "ref": "TTAGCTGGGTGG",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "541c06b991dcdd8b0f57bd717e53456a3a3133417d9531f9e03ee542bbc34d8a"
+    },
+    {
+      "id": "chr22_27303407",
+      "variant": {
+        "pos": 27303406,
+        "ref": "T",
+        "alt": "TAC",
+        "filter": "."
+      },
+      "rank": "544bb98cd7d7e30cbec696773f1e836a38a5b81b47a712261e1a0f8d330426ed"
+    },
+    {
+      "id": "chr22_33637605",
+      "variant": {
+        "pos": 33637604,
+        "ref": "T",
+        "alt": "TTC",
+        "filter": "."
+      },
+      "rank": "549afb55f69b54498e0297032c62b5f08e5d8eaeb659891587e3512321f9ea04"
+    },
+    {
+      "id": "chr22_47461907",
+      "variant": {
+        "pos": 47461906,
+        "ref": "TTA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "54e948ca78ada085525004decb5a250851387a8678546b94d62be1217d864c23"
+    },
+    {
+      "id": "chr22_43044247",
+      "variant": {
+        "pos": 43044246,
+        "ref": "C",
+        "alt": "CCA",
+        "filter": "."
+      },
+      "rank": "54fa886d8e0f2f726a2d7081e63f9e363087c96d8f1149c7dcce2b6b4f92b6ed"
+    },
+    {
+      "id": "chr22_39422400",
+      "variant": {
+        "pos": 39422399,
+        "ref": "C",
+        "alt": "CTTTT",
+        "filter": "."
+      },
+      "rank": "5507374e2fa87327939d2908fb8e5a7db93e04d134633340b3b693decac7f682"
+    },
+    {
+      "id": "chr22_20525530",
+      "variant": {
+        "pos": 20525529,
+        "ref": "CTTTTTTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "5584b4a96814d3a2552f09f212efe5af34b130c14b20f92648f1962a0d749a4d"
+    },
+    {
+      "id": "chr22_36967952",
+      "variant": {
+        "pos": 36967951,
+        "ref": "T",
+        "alt": "TTTTATTTA",
+        "filter": "."
+      },
+      "rank": "56ee9c6d4326c5e01168d0f3c919061e18670a5c6e0d734168fa91f2447caa1d"
+    },
+    {
+      "id": "chr22_29141226",
+      "variant": {
+        "pos": 29141225,
+        "ref": "C",
+        "alt": "CGT",
+        "filter": "."
+      },
+      "rank": "570d1faef9f440a9db6708671e0190d172e8b2e6ccf5c0c6e62ebc3012437cb9"
+    },
+    {
+      "id": "chr22_40410091",
+      "variant": {
+        "pos": 40410090,
+        "ref": "G",
+        "alt": "GTGTC",
+        "filter": "."
+      },
+      "rank": "572d8aab4d54519794f9f6cad8ae8583921ccacfc4e2973a5d646c55d5500a50"
+    },
+    {
+      "id": "chr22_44816165",
+      "variant": {
+        "pos": 44816164,
+        "ref": "C",
+        "alt": "CAT",
+        "filter": "."
+      },
+      "rank": "57d2381c61f18a391677e6ed023dc237c0a33d86f04748a864a61a6929d7233b"
+    },
+    {
+      "id": "chr22_34799179",
+      "variant": {
+        "pos": 34799178,
+        "ref": "A",
+        "alt": "ATTTT",
+        "filter": "."
+      },
+      "rank": "5a5b1b5c9ed8fe5b91d239e7f5908a832ea072b99da13a0627ff6f53d0d69d59"
+    },
+    {
+      "id": "chr22_50232372",
+      "variant": {
+        "pos": 50232371,
+        "ref": "AAAAAAG",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "5ae489a7cb31b7b25d922a6fd5b58212a26259e218cff762ea1da597a3387ca6"
+    },
+    {
+      "id": "chr22_45379723",
+      "variant": {
+        "pos": 45379722,
+        "ref": "C",
+        "alt": "CTT",
+        "filter": "."
+      },
+      "rank": "5b79d3f30751cd6b3933a48f5c026912bebc4ff8c793048221863adc2a485f52"
+    },
+    {
+      "id": "chr22_40509982",
+      "variant": {
+        "pos": 40509981,
+        "ref": "T",
+        "alt": "TAAAAAAAAAA",
+        "filter": "."
+      },
+      "rank": "5bbd7db244454836f8bff2c1e9c67a993e383c227da0f68a237d7f483d43db26"
+    },
+    {
+      "id": "chr22_23028330",
+      "variant": {
+        "pos": 23028329,
+        "ref": "T",
+        "alt": "TTTTATTTA",
+        "filter": "."
+      },
+      "rank": "5bcf62789b67df84020abfc64f7356f6159da0a96f2fa70b0dd958f1db24a9b9"
+    },
+    {
+      "id": "chr22_39314279",
+      "variant": {
+        "pos": 39314278,
+        "ref": "C",
+        "alt": "CTT",
+        "filter": "."
+      },
+      "rank": "5c25b053456e3c6944714f15f549303d7bc8f349260ebba1bc6aab2edbc14567"
+    },
+    {
+      "id": "chr22_39558968",
+      "variant": {
+        "pos": 39558967,
+        "ref": "G",
+        "alt": "GGTGT",
+        "filter": "."
+      },
+      "rank": "5c6b387f237ea25fc8a47924c3e17c4366deedd0d79572ceb43fad848e436b99"
+    },
+    {
+      "id": "chr22_39807888",
+      "variant": {
+        "pos": 39807887,
+        "ref": "CGT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "5c89945d35be7df2be0374c0b37c2ac7e7c155016bab2510474b7c4dc20ff0db"
+    },
+    {
+      "id": "chr22_31207501",
+      "variant": {
+        "pos": 31207500,
+        "ref": "C",
+        "alt": "CAT",
+        "filter": "."
+      },
+      "rank": "5c9baa85531bbb6d3cf4d36e41054a52044c42e9e21ee2b48aa606ef80434e88"
+    },
+    {
+      "id": "chr22_40903874",
+      "variant": {
+        "pos": 40903873,
+        "ref": "TCACA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "5ca7fc95dcb1dbd843cf98c32d2ce83cf7f985885075dd1158d86cc6ce7dee6f"
+    },
+    {
+      "id": "chr22_44241639",
+      "variant": {
+        "pos": 44241638,
+        "ref": "TCTTTTC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "5d4b9c3da57ceb7f28e2324a6ef1043c48d87549475fd6084606dffb73e2be5f"
+    },
+    {
+      "id": "chr22_41616525",
+      "variant": {
+        "pos": 41616524,
+        "ref": "AACACAC",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "5d8d8bd977b7623157a94c6ca2de8c9de26cde3f97dd3b97b398c5760600d6f2"
+    },
+    {
+      "id": "chr22_41599217",
+      "variant": {
+        "pos": 41599216,
+        "ref": "CAAG",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "5da1c71a0e4b8a501975d8bd9dc7e2687c026c2ead09d097b0b274aba2b2e775"
+    },
+    {
+      "id": "chr22_31925064",
+      "variant": {
+        "pos": 31925063,
+        "ref": "ACATC",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "5de0e38125d97ac36b088e4284e1f488509f35eac930d74910e522376a391d69"
+    },
+    {
+      "id": "chr22_39244732",
+      "variant": {
+        "pos": 39244731,
+        "ref": "GGCTGCGA",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "5e2e6d4b571ebb0df2fcc78a2e3ed993a0df1d402986ec0ce105cafa0134de85"
+    },
+    {
+      "id": "chr22_27980719",
+      "variant": {
+        "pos": 27980718,
+        "ref": "ATACT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "5f207fff4b03164afd698f0c261d32c7e6a0e2a11646c500e441ece30f633d73"
+    },
+    {
+      "id": "chr22_41568134",
+      "variant": {
+        "pos": 41568133,
+        "ref": "C",
+        "alt": "CTTTTTTTTTTTTTT",
+        "filter": "."
+      },
+      "rank": "5f277d99345c8532e8e569238098ffca78643326f58a3057156e480b52ef129d"
+    },
+    {
+      "id": "chr22_17157085",
+      "variant": {
+        "pos": 17157084,
+        "ref": "T",
+        "alt": "TACACACAC",
+        "filter": "."
+      },
+      "rank": "5fed12db3f467a85172539b812c8503677123803a9cb200a2344c64741d19ea9"
+    },
+    {
+      "id": "chr22_49377537",
+      "variant": {
+        "pos": 49377536,
+        "ref": "C",
+        "alt": "CGGCTCTGGGACTTGAGGAAAGTTGACCT",
+        "filter": "."
+      },
+      "rank": "60442012087134a7492fd6f85ff5ae84a189c6545349e261a9b57bc0f56a328b"
+    },
+    {
+      "id": "chr22_25890884",
+      "variant": {
+        "pos": 25890883,
+        "ref": "TCAGGGGTGGC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "60538075b3a7ce20a23e796dfb5959c10298dda706fd17af5174457a7f40b5c8"
+    },
+    {
+      "id": "chr22_32031235",
+      "variant": {
+        "pos": 32031234,
+        "ref": "A",
+        "alt": "ATG",
+        "filter": "."
+      },
+      "rank": "61914abd01fbe038070a7c4c489d483677afbb25c6f5c00710cce02aa1d8f18d"
+    },
+    {
+      "id": "chr22_37985818",
+      "variant": {
+        "pos": 37985817,
+        "ref": "AACACAC",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "61b770b32210830b08e7cd48e9608d2fd006ce5310edb01e626401673142b5dd"
+    },
+    {
+      "id": "chr22_40522526",
+      "variant": {
+        "pos": 40522525,
+        "ref": "GTTGTT",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "61c008cca60c456515da9e551c2abfa056ce78e8e1f7e073cce78fafe4c1e88c"
+    },
+    {
+      "id": "chr22_31887419",
+      "variant": {
+        "pos": 31887418,
+        "ref": "C",
+        "alt": "CAAAAAAAA",
+        "filter": "."
+      },
+      "rank": "6296352767e39bc66995ece97f2da1583a1b707eb827e7631ad55f16b8a0c66c"
+    },
+    {
+      "id": "chr22_29624799",
+      "variant": {
+        "pos": 29624798,
+        "ref": "CTCTTTCTTTCTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "629b6203a9b22119e4fa2a409a79ccdd49a7495fae63c86c877508e27b77ed1c"
+    },
+    {
+      "id": "chr22_31459752",
+      "variant": {
+        "pos": 31459751,
+        "ref": "A",
+        "alt": "ATGTTTTTATT",
+        "filter": "."
+      },
+      "rank": "62ba2e040d3e54f71615c494dfb41532575a2527cd49e4bdd27dfd03eb8caff1"
+    },
+    {
+      "id": "chr22_35846330",
+      "variant": {
+        "pos": 35846329,
+        "ref": "TTG",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "62cbb53f750b919443c249b415f8ec0ff311448db4ab6dd512afd1f56b33fb71"
+    },
+    {
+      "id": "chr22_24907260",
+      "variant": {
+        "pos": 24907259,
+        "ref": "CAAAT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "62f13de64d209596687b235abfd449211751eca7262da891998627fd322b33ef"
+    },
+    {
+      "id": "chr22_37427253",
+      "variant": {
+        "pos": 37427252,
+        "ref": "CCGGT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "64211bf209efb4e9fccd72c9e707d2c79630a4c3767078f28f0d9e9eff240abb"
+    },
+    {
+      "id": "chr22_38473974",
+      "variant": {
+        "pos": 38473973,
+        "ref": "AAAAAAAG",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "643c6dccd790c1f146089a936b12d6f65b6c332664c9db1917d66f3191a9f6cb"
+    },
+    {
+      "id": "chr22_36578357",
+      "variant": {
+        "pos": 36578356,
+        "ref": "C",
+        "alt": "CAA",
+        "filter": "."
+      },
+      "rank": "6443c4aa82a83d83dea946e03192f69b4553487d60890fa2aad865dbcfaa41e6"
+    },
+    {
+      "id": "chr22_43378146",
+      "variant": {
+        "pos": 43378145,
+        "ref": "C",
+        "alt": "CAG",
+        "filter": "."
+      },
+      "rank": "648f89229d26539a557c43069bed4e8b6bce31b814a774e838e90ca9802b15ca"
+    },
+    {
+      "id": "chr22_36512858",
+      "variant": {
+        "pos": 36512857,
+        "ref": "GACAC",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "64f5fbc1f98f71f07d557a6268bbc5da43810783c350b44dd22c3406396553fa"
+    },
+    {
+      "id": "chr22_36834806",
+      "variant": {
+        "pos": 36834805,
+        "ref": "TTTTTA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "65203ce9e0f5fc6befd0d26a59f2c040f75dc79acca93ede3669cc8796a847bb"
+    },
+    {
+      "id": "chr22_40942341",
+      "variant": {
+        "pos": 40942340,
+        "ref": "CTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "654c29d60d349192706d0a66ce9f7e66e948429623fc9516c9f9a358150a20f3"
+    },
+    {
+      "id": "chr22_17948912",
+      "variant": {
+        "pos": 17948911,
+        "ref": "C",
+        "alt": "CAAAAAAAAAAAA",
+        "filter": "."
+      },
+      "rank": "654dd7e57f0b573e2bee321943d68b2905ac379c856cf7ff8daacfd7c623b91f"
+    },
+    {
+      "id": "chr22_39959951",
+      "variant": {
+        "pos": 39959950,
+        "ref": "CAG",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "659817d7c857461e126566d0056291aa521907f2270bba2ab0fc3b15aff24ecd"
+    },
+    {
+      "id": "chr22_32078954",
+      "variant": {
+        "pos": 32078953,
+        "ref": "CAAAAAAAAAAAAAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "65e3e8f1feb573b3a7765f6936fc0fa721ae76570d0e5cdbbb2ce26bb8d75428"
+    },
+    {
+      "id": "chr22_37152929",
+      "variant": {
+        "pos": 37152928,
+        "ref": "C",
+        "alt": "CTTTT",
+        "filter": "."
+      },
+      "rank": "6655552198020c5b26c1902abb4a288d666ffb83c223cb2c8f8edc2c45b136de"
+    },
+    {
+      "id": "chr22_36088876",
+      "variant": {
+        "pos": 36088875,
+        "ref": "A",
+        "alt": "AATTT",
+        "filter": "."
+      },
+      "rank": "66ab5c6c90cc4b5269c2a18acba13ac0c8500dcdd6c1c45edcb3e53bad69b8fd"
+    },
+    {
+      "id": "chr22_31872735",
+      "variant": {
+        "pos": 31872734,
+        "ref": "TTTTTA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "67093c8bee76b9184e2484bb7658abdc1edf453a6927113402f0c50aa9626af7"
+    },
+    {
+      "id": "chr22_38370851",
+      "variant": {
+        "pos": 38370850,
+        "ref": "GTTT",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "672829e51cd23ee807ae0348aa03a131f0772b314327a1fe3722723e61b3bbcb"
+    },
+    {
+      "id": "chr22_26755228",
+      "variant": {
+        "pos": 26755227,
+        "ref": "C",
+        "alt": "CAAA",
+        "filter": "."
+      },
+      "rank": "67c96907bffcf2c13bf9b715804413a7403769431a571f03b9f7e03cb4c5a70c"
+    },
+    {
+      "id": "chr22_48633494",
+      "variant": {
+        "pos": 48633493,
+        "ref": "G",
+        "alt": "GTGTC",
+        "filter": "."
+      },
+      "rank": "68a43c4536aa4a9ba6bc6615d905be4e4cc59e50b758ca685b50be6d9439e43a"
+    },
+    {
+      "id": "chr22_36853984",
+      "variant": {
+        "pos": 36853983,
+        "ref": "TTTTGTTTGTTTG",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "6900cb0ddeb487b28329f7d0ba78fc0c7cf10bf0647d6024e93bf32f481bb5fb"
+    },
+    {
+      "id": "chr22_40692430",
+      "variant": {
+        "pos": 40692429,
+        "ref": "CAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "6957a639a0dcc4edd36026b37a0954224a52d7f955311f93873ec4134bde955e"
+    },
+    {
+      "id": "chr22_41195309",
+      "variant": {
+        "pos": 41195308,
+        "ref": "TCACA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "6a58d00d880ae9f7774b64025cd893f53bc0a987b077d247b24d7ce36c2143bf"
+    },
+    {
+      "id": "chr22_31228021",
+      "variant": {
+        "pos": 31228020,
+        "ref": "CGTGT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "6b2634315ba0d08798c75b510983496a951283b3911c20f07cd023ae12596c34"
+    },
+    {
+      "id": "chr22_40335764",
+      "variant": {
+        "pos": 40335763,
+        "ref": "G",
+        "alt": "GAAAAAAA",
+        "filter": "."
+      },
+      "rank": "6bd2e606f7f60477f519ed4ef240d741535875f8d754f29886c0f68f8da327b8"
+    },
+    {
+      "id": "chr22_39475128",
+      "variant": {
+        "pos": 39475127,
+        "ref": "CTTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "6c274cfb2209662ff23a8761f09e0683eaae228ca1e152d40c6230d08895be9f"
+    },
+    {
+      "id": "chr22_20113869",
+      "variant": {
+        "pos": 20113868,
+        "ref": "C",
+        "alt": "CCT",
+        "filter": "."
+      },
+      "rank": "6d03225aa342b0fac2d4840e6bad5764af30c0a38c372ffebc74c55c1e34389f"
+    },
+    {
+      "id": "chr22_33059165",
+      "variant": {
+        "pos": 33059164,
+        "ref": "A",
+        "alt": "AAAAAGAAAAG",
+        "filter": "."
+      },
+      "rank": "6da042a5ee15795d1767ae61cd767479ad65607fddf8fe4948b32b6edb81116f"
+    },
+    {
+      "id": "chr22_36082092",
+      "variant": {
+        "pos": 36082091,
+        "ref": "T",
+        "alt": "TGAGA",
+        "filter": "."
+      },
+      "rank": "6da69109924ca16221a002c9d1bac2dfb98a7d78ad870b82ba251ade8cece0c6"
+    },
+    {
+      "id": "chr22_37858219",
+      "variant": {
+        "pos": 37858218,
+        "ref": "C",
+        "alt": "CTT",
+        "filter": "."
+      },
+      "rank": "6de7f1ead7b20ecd40472f4bdcbbbc6fe69d85c3b9dc226eb92e55a6ada1d049"
+    },
+    {
+      "id": "chr22_20893847",
+      "variant": {
+        "pos": 20893846,
+        "ref": "CTTTA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "6de85b77d0768521d595d38d257fcc27480422d75931e39e101b40f3fa19852c"
+    },
+    {
+      "id": "chr22_28302039",
+      "variant": {
+        "pos": 28302038,
+        "ref": "A",
+        "alt": "AAAT",
+        "filter": "."
+      },
+      "rank": "6de9c3bb5670461998474d14889a50667d1d719acec71c4d2e014d542e0e1cdf"
+    },
+    {
+      "id": "chr22_39833941",
+      "variant": {
+        "pos": 39833940,
+        "ref": "CAAAAAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "6e64e21fcb628cf9f211db47b0bd77d469a099382fbb5ef4fdc57dd9cbf37667"
+    },
+    {
+      "id": "chr22_49645986",
+      "variant": {
+        "pos": 49645985,
+        "ref": "AAAATAAACCAGCGGTCCACAGG",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "6e88f9aa386492c97a2f28c8b348c16456ae5fa1328218ec4652b3ec0fb9a78f"
+    },
+    {
+      "id": "chr22_45782967",
+      "variant": {
+        "pos": 45782966,
+        "ref": "TACA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "6e98b6e8c269b595bfb9c1b7eae9696aae9ad4ce73ea988f1b3f504210813c20"
+    },
+    {
+      "id": "chr22_29179931",
+      "variant": {
+        "pos": 29179930,
+        "ref": "A",
+        "alt": "AAAAAAG",
+        "filter": "."
+      },
+      "rank": "6f13e29153c7400aff25b20ad716494dfbc8d6d93b77c2bece37db849a78005b"
+    },
+    {
+      "id": "chr22_33971597",
+      "variant": {
+        "pos": 33971596,
+        "ref": "GCTTA",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "6f410320206c7da3bae6f33e26c6f30035d3c0f90dcab083fe9b5828f0c5fa5e"
+    },
+    {
+      "id": "chr22_30071019",
+      "variant": {
+        "pos": 30071018,
+        "ref": "AAAC",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "6f87b1b7f2129ddfee74d5d4efb4cc322ad4b27ceb8564c025f5cb5ad85dcc0b"
+    },
+    {
+      "id": "chr22_29846525",
+      "variant": {
+        "pos": 29846524,
+        "ref": "ATTGAGT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "702e8a8147c2e8a67c6f4c0b1304f78f67eb7976d5347d5f8a75209831af0d81"
+    },
+    {
+      "id": "chr22_43735298",
+      "variant": {
+        "pos": 43735297,
+        "ref": "TCACCCTCCTGCCGCACACCC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "703ff7e891feffa08713600dc6f3f15213fcca443e5874839cd7f88cb629ac1a"
+    },
+    {
+      "id": "chr22_40466967",
+      "variant": {
+        "pos": 40466966,
+        "ref": "A",
+        "alt": "ATG",
+        "filter": "."
+      },
+      "rank": "705ebfb91c8127e8781183d27413d33ae213f445df3bc7a1b04344fb7610a0bf"
+    },
+    {
+      "id": "chr22_19661512",
+      "variant": {
+        "pos": 19661511,
+        "ref": "CCCTTCCTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "70b4d425260129ec2b9725224a211d384a37e120baeabb7050ca3343d2a40ca7"
+    },
+    {
+      "id": "chr22_47335955",
+      "variant": {
+        "pos": 47335954,
+        "ref": "TATCTCCACCTTC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "710931839005c15f20245a869a86445759f87a4f271cfaa847dbefb44dccba0e"
+    },
+    {
+      "id": "chr22_17112157",
+      "variant": {
+        "pos": 17112156,
+        "ref": "CAT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "7114bc1807234afbab180ef88e2e044e98a1e5a2b041d7b694b7c6abbaac2329"
+    },
+    {
+      "id": "chr22_41707028",
+      "variant": {
+        "pos": 41707027,
+        "ref": "CAAAAAAAAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "720ceb6f4950e78c20e57ae4381f20df2179ff12169e56c25b726a87a496276f"
+    },
+    {
+      "id": "chr22_47240964",
+      "variant": {
+        "pos": 47240963,
+        "ref": "CTCTAT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "729bc83a95f5448013f4799bfbc44124f1948b8bf94bceff951ddeac119b4e3f"
+    },
+    {
+      "id": "chr22_47477688",
+      "variant": {
+        "pos": 47477687,
+        "ref": "TCTCA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "731d2514007e5e89ddd37eb0e071bd122c3c5eef60c031f1b09f1a7f3fa7150f"
+    },
+    {
+      "id": "chr22_41010311",
+      "variant": {
+        "pos": 41010310,
+        "ref": "TATA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "73f0ee49a0b7a63f7ed1496f7f50feb484691a5a6dfea90c8607e21650e6e248"
+    },
+    {
+      "id": "chr22_33861860",
+      "variant": {
+        "pos": 33861859,
+        "ref": "C",
+        "alt": "CTTT",
+        "filter": "."
+      },
+      "rank": "741c25a9c12e4f23a456f7c7ba9a881bda4c457491cc7e0adf60d5b58d7beb0a"
+    },
+    {
+      "id": "chr22_50165289",
+      "variant": {
+        "pos": 50165288,
+        "ref": "TAAAG",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "7432291158551039782a27bd432a826f2a102fc5cbafe0aa1744cf3a54e4c541"
+    },
+    {
+      "id": "chr22_42018915",
+      "variant": {
+        "pos": 42018914,
+        "ref": "GAA",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "750e50e3fe051b1434f7430b9885d40f4b2d4e813a86c652663e1dd16f152eea"
+    },
+    {
+      "id": "chr22_26113851",
+      "variant": {
+        "pos": 26113850,
+        "ref": "A",
+        "alt": "ATG",
+        "filter": "."
+      },
+      "rank": "758cfcfb2222ad9f16d91b045125475f096e34129ee13e75def5b69ccc96a667"
+    },
+    {
+      "id": "chr22_50323020",
+      "variant": {
+        "pos": 50323019,
+        "ref": "C",
+        "alt": "CTT",
+        "filter": "."
+      },
+      "rank": "7601addaaf0a1439ae60058388de4a80bcac34c63aa7d3ac1edec645b7a8ffb1"
+    },
+    {
+      "id": "chr22_35843447",
+      "variant": {
+        "pos": 35843446,
+        "ref": "G",
+        "alt": "GATTGTTTCCTC",
+        "filter": "."
+      },
+      "rank": "76a8e1c09b9b28e5f6ff4d3d80fda75a4142c6f0a0193431214c3359c6d9ca6e"
+    },
+    {
+      "id": "chr22_39712126",
+      "variant": {
+        "pos": 39712125,
+        "ref": "CAGTGGAGGTGACAGTGGTGGGGGTGATGGA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "76c8064268cfd51cac100b8b7141422b7febc63930b559b73e80dd42dc2175df"
+    },
+    {
+      "id": "chr22_23698007",
+      "variant": {
+        "pos": 23698006,
+        "ref": "A",
+        "alt": "AGT",
+        "filter": "."
+      },
+      "rank": "781cc99285612935048cbe0fcdfdf45812ccbacfd78ad0c919b31f3324ee05d9"
+    },
+    {
+      "id": "chr22_46060898",
+      "variant": {
+        "pos": 46060897,
+        "ref": "T",
+        "alt": "TAATA",
+        "filter": "."
+      },
+      "rank": "7914e2a247a9c3c840db856669ffc85be820d526a5f30f936c4e665c435e13cb"
+    },
+    {
+      "id": "chr22_21743603",
+      "variant": {
+        "pos": 21743602,
+        "ref": "A",
+        "alt": "AAG",
+        "filter": "."
+      },
+      "rank": "799043c8519c5047f384d4dd4ef72f4bfd6e32facb12db6f113db50c5ddbfc9d"
+    },
+    {
+      "id": "chr22_36867110",
+      "variant": {
+        "pos": 36867109,
+        "ref": "C",
+        "alt": "CGTGTGT",
+        "filter": "."
+      },
+      "rank": "7a970e67782f61e7142c0ca9ec0d182a9095ab622c31f147b3fbe6561f3cc9d1"
+    },
+    {
+      "id": "chr22_38386634",
+      "variant": {
+        "pos": 38386633,
+        "ref": "A",
+        "alt": "AAT",
+        "filter": "."
+      },
+      "rank": "7ab02d10a9459b794bc0b42683b829414ee882d8aa0b52aa4f2d39336a08bfb2"
+    },
+    {
+      "id": "chr22_40353622",
+      "variant": {
+        "pos": 40353621,
+        "ref": "T",
+        "alt": "TTC",
+        "filter": "."
+      },
+      "rank": "7b0bfebae7b722b4aeb550eef30fbbafd5235e10f9212892c71872ce9444b559"
+    },
+    {
+      "id": "chr22_16944489",
+      "variant": {
+        "pos": 16944488,
+        "ref": "T",
+        "alt": "TAAG",
+        "filter": "."
+      },
+      "rank": "7b836820ac8a12ca9d46073fa2e7e6d75ebf45a41e1ea6676fabca37e8aba9d6"
+    },
+    {
+      "id": "chr22_28750247",
+      "variant": {
+        "pos": 28750246,
+        "ref": "CAAAAAAAAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "7bbd3b6c631cd64646cc3df6ca36d0f678503387166924a47baada169c9b666f"
+    },
+    {
+      "id": "chr22_25852395",
+      "variant": {
+        "pos": 25852394,
+        "ref": "T",
+        "alt": "TAATG",
+        "filter": "."
+      },
+      "rank": "7d2ea2cf8045780f8192ba81d9026a33571bf1b6945b188385764378f8ad8e00"
+    },
+    {
+      "id": "chr22_18116229",
+      "variant": {
+        "pos": 18116228,
+        "ref": "A",
+        "alt": "AGCCATTC",
+        "filter": "."
+      },
+      "rank": "7d86fa8d61a7c6626557b8069cfe8ee8cefb6612806e0e7089fa567b54cbb18c"
+    },
+    {
+      "id": "chr22_29884551",
+      "variant": {
+        "pos": 29884550,
+        "ref": "CTTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "7de3246c0694fc16d47d74fe5c924e600d0f416642cd8d321b637229be41265d"
+    },
+    {
+      "id": "chr22_44289466",
+      "variant": {
+        "pos": 44289465,
+        "ref": "A",
+        "alt": "ATG",
+        "filter": "."
+      },
+      "rank": "7de5c24552c88a4d991b1a194a94d9cdc547c953be55f042ed84250ebbda3c02"
+    },
+    {
+      "id": "chr22_31506131",
+      "variant": {
+        "pos": 31506130,
+        "ref": "C",
+        "alt": "CCT",
+        "filter": "."
+      },
+      "rank": "7de670bacb6b681f00e1caf1118496cb3bf058358dada01914b3385cf71ee96e"
+    },
+    {
+      "id": "chr22_46020320",
+      "variant": {
+        "pos": 46020319,
+        "ref": "ATT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "7e3be17541d9eeaef7d49cc28020ffe4e9ad7aa751eecc48e52da257e9f2f43c"
+    },
+    {
+      "id": "chr22_23139623",
+      "variant": {
+        "pos": 23139622,
+        "ref": "AAAAT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "7ee117e9a5f39b61c4f0c9d96fd2ffcdcea4618da45f57d047015e5000caf3cd"
+    },
+    {
+      "id": "chr22_42835980",
+      "variant": {
+        "pos": 42835979,
+        "ref": "CTTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "7ef5bf8a6905f6193c11fe3d154a1d3eef81a3f8e139ffbc5c480a352fd705a9"
+    },
+    {
+      "id": "chr22_37050259",
+      "variant": {
+        "pos": 37050258,
+        "ref": "AAGAGAG",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "7f338de000a377e2c4a2f234280244f8fc6235654158f80a0f287b0c3e0b4822"
+    },
+    {
+      "id": "chr22_36794386",
+      "variant": {
+        "pos": 36794385,
+        "ref": "GCA",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "7f8fe2f474e6c6945abcb5fae22e3b0652133551a39f29b8f780009873a9a943"
+    },
+    {
+      "id": "chr22_23191451",
+      "variant": {
+        "pos": 23191450,
+        "ref": "A",
+        "alt": "AAACAAC",
+        "filter": "."
+      },
+      "rank": "7fb362c58cdddcd945c1afcde20d420844133aca5d43d981012fd25d611fb17c"
+    },
+    {
+      "id": "chr22_26107648",
+      "variant": {
+        "pos": 26107647,
+        "ref": "CTCTCCT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "7fe96a51cd01b98200a363802628cffd74fc0a7de7b8dada46505f23c007f982"
+    },
+    {
+      "id": "chr22_46807256",
+      "variant": {
+        "pos": 46807255,
+        "ref": "T",
+        "alt": "TGTGATGGTGATTGTGGGGGTGATG",
+        "filter": "."
+      },
+      "rank": "80bfb5046ba6a2b45eeed693e5251debd36c763071d8bca7cf1a3e3222b3b962"
+    },
+    {
+      "id": "chr22_17356018",
+      "variant": {
+        "pos": 17356017,
+        "ref": "C",
+        "alt": "CAAAAT",
+        "filter": "."
+      },
+      "rank": "80c7c0835ad2bd8123ce3124cd3ddc29872a43d475da86d08ba79c41df1d73de"
+    },
+    {
+      "id": "chr22_31752272",
+      "variant": {
+        "pos": 31752271,
+        "ref": "GCTTGGC",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "80cb05e8bd7191ef310336211d87660ed118a89cd1422871b4f056184585d55a"
+    },
+    {
+      "id": "chr22_35033047",
+      "variant": {
+        "pos": 35033046,
+        "ref": "TAC",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "8196e1210988fd54a37078d41761648a74911b484bc187a431b7f3d926a47cc4"
+    },
+    {
+      "id": "chr22_45296455",
+      "variant": {
+        "pos": 45296454,
+        "ref": "A",
+        "alt": "AAAAC",
+        "filter": "."
+      },
+      "rank": "81e4d904628aced8889e37206b5d9cd8508badb22ea4c476cb1bae71350ce01b"
+    },
+    {
+      "id": "chr22_24916042",
+      "variant": {
+        "pos": 24916041,
+        "ref": "GTT",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "81ec43c265b43fa756528497744adf8678faad3134a6bce6a260861dc59f657b"
+    },
+    {
+      "id": "chr22_44863830",
+      "variant": {
+        "pos": 44863829,
+        "ref": "TTG",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "82ea47a8188371d03ff60342f2f8f1d087df7500f7a7191b119b325713ad8851"
+    },
+    {
+      "id": "chr22_21597775",
+      "variant": {
+        "pos": 21597774,
+        "ref": "ATT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "83a0c4c4ae2ef3829eacbbf334bb8588834e0cd51e086c9552115dae8f41205f"
+    },
+    {
+      "id": "chr22_20201396",
+      "variant": {
+        "pos": 20201395,
+        "ref": "C",
+        "alt": "CCCTTCCTT",
+        "filter": "."
+      },
+      "rank": "8406f90aabceaafeb1df3cf4bf2e592961d204bac74b5afe038a466bb08eefff"
+    },
+    {
+      "id": "chr22_43566850",
+      "variant": {
+        "pos": 43566849,
+        "ref": "A",
+        "alt": "ACC",
+        "filter": "."
+      },
+      "rank": "857cf74b21dd262441b65c5de97e96e55a6217343e471c6de4353a3c9e13c8a9"
+    },
+    {
+      "id": "chr22_47863730",
+      "variant": {
+        "pos": 47863729,
+        "ref": "T",
+        "alt": "TCAAA",
+        "filter": "."
+      },
+      "rank": "85934447204e23487e2c029cc6c53d72e562a53706b7c0bec75cd98609898720"
+    },
+    {
+      "id": "chr22_40527174",
+      "variant": {
+        "pos": 40527173,
+        "ref": "TGACA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "859b5b92815771835fda16dc0b7a69131ab50866d94dd126c32f06e50abc6212"
+    },
+    {
+      "id": "chr22_42198665",
+      "variant": {
+        "pos": 42198664,
+        "ref": "G",
+        "alt": "GTT",
+        "filter": "."
+      },
+      "rank": "85ec42eb6432c89ac28031e378919d84832fb1923ad5303461505d95cc457605"
+    },
+    {
+      "id": "chr22_38392759",
+      "variant": {
+        "pos": 38392758,
+        "ref": "TTTAA",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "8630c493ca4f821401b2ff64d7905efad8df621d11830b788c7747ccbd10c1f5"
+    },
+    {
+      "id": "chr22_33486530",
+      "variant": {
+        "pos": 33486529,
+        "ref": "CAG",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "8703b2f359c5d82d64f300ce16820cfce793305161a2523d42e143de1aea77e0"
+    },
+    {
+      "id": "chr22_23262691",
+      "variant": {
+        "pos": 23262690,
+        "ref": "TGGCGGGCCCGGGTGAG",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "8788dbc7c59af2e30a857a4c77491deed13061daf4b1b717edeb0d5f14570e53"
+    },
+    {
+      "id": "chr22_30711209",
+      "variant": {
+        "pos": 30711208,
+        "ref": "AAT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "87bfc625522cae8aba03b708330e08349427e71605958b4014ba40e215900345"
+    },
+    {
+      "id": "chr22_38303045",
+      "variant": {
+        "pos": 38303044,
+        "ref": "GAGGC",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "87ddfb53854b25412233898ca00099be46451ae10f89b4ec1e11e3341c380e9e"
+    },
+    {
+      "id": "chr22_25326283",
+      "variant": {
+        "pos": 25326282,
+        "ref": "C",
+        "alt": "CAG",
+        "filter": "."
+      },
+      "rank": "87fc19819d3d4f42a18ba3ea34f063da6d125196cf9e11b71f744e05d47ac922"
+    },
+    {
+      "id": "chr22_20301349",
+      "variant": {
+        "pos": 20301348,
+        "ref": "C",
+        "alt": "CTT",
+        "filter": "."
+      },
+      "rank": "88740c7d2035cd0246bd348bf01eef59f3d93f56992ce360a89192da6acae2e8"
+    },
+    {
+      "id": "chr22_38040282",
+      "variant": {
+        "pos": 38040281,
+        "ref": "C",
+        "alt": "CAAA",
+        "filter": "."
+      },
+      "rank": "888e2e88dbb93a98e762a2f25d8b5e3e5b0b4207d7f9cb7b84ad546f89cf7d04"
+    },
+    {
+      "id": "chr22_28880175",
+      "variant": {
+        "pos": 28880174,
+        "ref": "C",
+        "alt": "CTG",
+        "filter": "."
+      },
+      "rank": "88fe73fd3dff03707e470ac70ec8ae04e7336f43bb551f055db7821b46f0559a"
+    },
+    {
+      "id": "chr22_39203217",
+      "variant": {
+        "pos": 39203216,
+        "ref": "AGAAGGAAG",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "891670f8f022d585b064aebe75a04f298ba21734550b7f015a14a1c5c65b22bf"
+    },
+    {
+      "id": "chr22_40944664",
+      "variant": {
+        "pos": 40944663,
+        "ref": "CTG",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "893978c87c890283149adf1e5f50b21655c3bbe124aab553998fe1265c507ff4"
+    },
+    {
+      "id": "chr22_38580096",
+      "variant": {
+        "pos": 38580095,
+        "ref": "T",
+        "alt": "TTTTA",
+        "filter": "."
+      },
+      "rank": "8990e2700927020c4df1c5cfb5c692546fedcf522a6ea29b370dcfb410d8394e"
+    },
+    {
+      "id": "chr22_35849298",
+      "variant": {
+        "pos": 35849297,
+        "ref": "A",
+        "alt": "AAC",
+        "filter": "."
+      },
+      "rank": "89be9c32d3283392534a5daf1b4c4d7724599b1afe48080e678e0dcbcc721945"
+    },
+    {
+      "id": "chr22_42616310",
+      "variant": {
+        "pos": 42616309,
+        "ref": "A",
+        "alt": "AAAAG",
+        "filter": "."
+      },
+      "rank": "89f59cb5fbe8384c7669c41fb6b26380ac2a295dbbf525faf1318b0258c4c211"
+    },
+    {
+      "id": "chr22_40687678",
+      "variant": {
+        "pos": 40687677,
+        "ref": "CAAAAAAAAAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "8a593a99772d51e265450dccabf92cfe570bd348f111997f7aec232442fcf2c9"
+    },
+    {
+      "id": "chr22_44090942",
+      "variant": {
+        "pos": 44090941,
+        "ref": "ACT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "8aaa1a85125e4fb39d5b4d67952b671f48143d229b164ff4dc40131fc966de62"
+    },
+    {
+      "id": "chr22_46539864",
+      "variant": {
+        "pos": 46539863,
+        "ref": "TTTTTG",
+        "alt": "T",
+        "filter": "."
+      },
+      "rank": "8ad3016b09ec5c8988f285aa9382ed202b2e39b72773eaf9ff2ee65e9f604379"
+    },
+    {
+      "id": "chr22_42439016",
+      "variant": {
+        "pos": 42439015,
+        "ref": "C",
+        "alt": "CAAAAAAAAAAAAAA",
+        "filter": "."
+      },
+      "rank": "8adcb62650ec46b17b157a37637119faa306296df8b9776e6137a6f35960dc77"
+    },
+    {
+      "id": "chr22_33117435",
+      "variant": {
+        "pos": 33117434,
+        "ref": "CTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "8b0880bb1c3834c16a1f5a81319a57d2ce54b103fceb6f2791d979bc2c27c450"
+    },
+    {
+      "id": "chr22_47602939",
+      "variant": {
+        "pos": 47602938,
+        "ref": "GGAAA",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "8c36af1f1acddd360a09072b1c8047d986ffd0f81d42c39228147e4f2d0c98b5"
+    },
+    {
+      "id": "chr22_25469358",
+      "variant": {
+        "pos": 25469357,
+        "ref": "C",
+        "alt": "CTAT",
+        "filter": "."
+      },
+      "rank": "8cd7080e8ed7a14492d6a58f4efa76e2b4d0078839497a9ecd8cf256087ffe0d"
+    },
+    {
+      "id": "chr22_38500175",
+      "variant": {
+        "pos": 38500174,
+        "ref": "C",
+        "alt": "CAA",
+        "filter": "."
+      },
+      "rank": "8d8471a5836e89af1bfae110b3f145d814921253514497bb24c07279217a3b4e"
+    },
+    {
+      "id": "chr22_17669030",
+      "variant": {
+        "pos": 17669029,
+        "ref": "C",
+        "alt": "CTTT",
+        "filter": "."
+      },
+      "rank": "8e218a4d1784de81578272dbcb3d33835188a2162038dadc39409a2211a913f4"
+    },
+    {
+      "id": "chr22_31563580",
+      "variant": {
+        "pos": 31563579,
+        "ref": "T",
+        "alt": "TTTG",
+        "filter": "."
+      },
+      "rank": "8e9a1c9e55b8eacd3522e3af9796b5468480802708e9b2174fb57ec48d342255"
+    },
+    {
+      "id": "chr22_33459441",
+      "variant": {
+        "pos": 33459440,
+        "ref": "CTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "8f21d18101eae4e873c6b39a594db0cb2ab1d805c9844076a595ff5c39354f51"
+    },
+    {
+      "id": "chr22_20771565",
+      "variant": {
+        "pos": 20771564,
+        "ref": "CTTTATTTA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "8f29c80bec71f0d63c3ed9670c1c311b704626061d8a3e848c2d7be10f0e4f4a"
+    },
+    {
+      "id": "chr22_40936594",
+      "variant": {
+        "pos": 40936593,
+        "ref": "A",
+        "alt": "ATT",
+        "filter": "."
+      },
+      "rank": "8fa39e973509e82f3dc142c61c2fa6a01efb7190ab5e466889658843180edda6"
+    },
+    {
+      "id": "chr22_19624271",
+      "variant": {
+        "pos": 19624270,
+        "ref": "CTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "9008dcd8054ae8206ea37230cc70a4063bdb1cfeb90a85dd518d9abdf0b9e536"
+    },
+    {
+      "id": "chr22_21777451",
+      "variant": {
+        "pos": 21777450,
+        "ref": "CTCTTCT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "90262c0d4a939b78267b6f0dc8f7a5510f890e8472916659b5fea39041b0cdec"
+    },
+    {
+      "id": "chr22_38731010",
+      "variant": {
+        "pos": 38731009,
+        "ref": "T",
+        "alt": "TTGTGTG",
+        "filter": "."
+      },
+      "rank": "903b5587dbbfaa8dafc8849a134752fa9ccd9f29deb53481a8d5c715e3481750"
+    },
+    {
+      "id": "chr22_41185618",
+      "variant": {
+        "pos": 41185617,
+        "ref": "C",
+        "alt": "CAA",
+        "filter": "."
+      },
+      "rank": "91d3da3a5f54baf10ad0677d39b194cc34d7836171cb2ff69bd53dcf7e318578"
+    },
+    {
+      "id": "chr22_47032509",
+      "variant": {
+        "pos": 47032508,
+        "ref": "AAC",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "91d5de86c852a102c06dd2d78846f2317aaa736627255ea59706fd605ad9d7f3"
+    },
+    {
+      "id": "chr22_23787366",
+      "variant": {
+        "pos": 23787365,
+        "ref": "GGC",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "92ac0bdc33620abc39a358b4679d2213a3f55ceb4f301e0ebafd3d073780fe6c"
+    },
+    {
+      "id": "chr22_20428684",
+      "variant": {
+        "pos": 20428683,
+        "ref": "GGAAAGAGA",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "92fa410b4a7b3d90f17edcf3ccc49a29d4d1f5bc35b959e3a58165db582d9451"
+    },
+    {
+      "id": "chr22_45706698",
+      "variant": {
+        "pos": 45706697,
+        "ref": "G",
+        "alt": "GTTTATTTTCTAAATGTCCTTTTGTTACGGT",
+        "filter": "."
+      },
+      "rank": "92fe957f0de96e49af8cf6db9b83a247cc824fd3b3c46aa18b6be725ff2d2a5f"
+    },
+    {
+      "id": "chr22_42366603",
+      "variant": {
+        "pos": 42366602,
+        "ref": "CAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "944b9e4e698d9f4b0d73495e1ea0754724773317eb664c28c6248498ff3c75ce"
+    },
+    {
+      "id": "chr22_38387607",
+      "variant": {
+        "pos": 38387606,
+        "ref": "A",
+        "alt": "AGAGT",
+        "filter": "."
+      },
+      "rank": "945e328e72a0f428f0b8e27938c6eb547ff91326556cb03f3f25b16779c71c8b"
+    },
+    {
+      "id": "chr22_38499516",
+      "variant": {
+        "pos": 38499515,
+        "ref": "AAAG",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "949d9558811075879f664464efeda1e2852d697f769db1489ca856fd421e2a7b"
+    },
+    {
+      "id": "chr22_29610033",
+      "variant": {
+        "pos": 29610032,
+        "ref": "T",
+        "alt": "TAG",
+        "filter": "."
+      },
+      "rank": "94a5eed876b0b98c9fb8bc453a89e8472a3e00bcc78fedbd7af4f4cb243e5a77"
+    },
+    {
+      "id": "chr22_46874562",
+      "variant": {
+        "pos": 46874561,
+        "ref": "CTTT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "94de68479ddc5dd87a9ab76a4911ef968ccb7d73cbec4085d080a5927c1c4345"
+    },
+    {
+      "id": "chr22_24283970",
+      "variant": {
+        "pos": 24283969,
+        "ref": "AAT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "94ea72767e460b6063f75a37f4bd80701245d14d0a63538d42200c2941a8c866"
+    },
+    {
+      "id": "chr22_38550930",
+      "variant": {
+        "pos": 38550929,
+        "ref": "CAAAA",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "9540d5e4f3855b1738523cc95c612283084d946c2c4ef0e9895b75933b71a447"
+    },
+    {
+      "id": "chr22_34035818",
+      "variant": {
+        "pos": 34035817,
+        "ref": "CCT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "955e387c7c7ae5a4c9494c8395afc1e015a67cde48c5829403c959e827dab364"
+    },
+    {
+      "id": "chr22_35810188",
+      "variant": {
+        "pos": 35810187,
+        "ref": "GACACAC",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "961c3ff7da5b1053ebf553ca40c1c6131abd61e16d8b2ae75e50361ff16e8b16"
+    },
+    {
+      "id": "chr22_20444779",
+      "variant": {
+        "pos": 20444778,
+        "ref": "T",
+        "alt": "TTTTGTTTGTTTG",
+        "filter": "."
+      },
+      "rank": "961d0ee1dee1ed080a0db5d4c816d520a647bdc5181a83a14b9a441eb872ca81"
+    },
+    {
+      "id": "chr22_42527774",
+      "variant": {
+        "pos": 42527773,
+        "ref": "C",
+        "alt": "CTTTTTTT",
+        "filter": "."
+      },
+      "rank": "96217c74026e8ceedbf36a2395f7c0484d74e332e3638db83908d66bd337986c"
+    },
+    {
+      "id": "chr22_30329637",
+      "variant": {
+        "pos": 30329636,
+        "ref": "AAAAT",
+        "alt": "A",
+        "filter": "."
+      },
+      "rank": "967479bfff79b271daae3c19d6306ced8c764a8e3d27c315617618952bea89f8"
+    },
+    {
+      "id": "chr22_44394032",
+      "variant": {
+        "pos": 44394031,
+        "ref": "A",
+        "alt": "ACT",
+        "filter": "."
+      },
+      "rank": "9783acb512d5deded759019cf53e882418a7bcf624858aa56ed146aeb890ffe4"
+    },
+    {
+      "id": "chr22_37257784",
+      "variant": {
+        "pos": 37257783,
+        "ref": "C",
+        "alt": "CAAAA",
+        "filter": "."
+      },
+      "rank": "97e67ef645b738e7570d40bf521e53aa502bd2c2ae248f1bc118db36ce17deb8"
+    },
+    {
+      "id": "chr22_32956041",
+      "variant": {
+        "pos": 32956040,
+        "ref": "CATATATAT",
+        "alt": "C",
+        "filter": "."
+      },
+      "rank": "980fddcae141840a112bb71c0d0b3fa4d32619bfa40ae892466f3df6ecc67f7c"
+    },
+    {
+      "id": "chr22_40156755",
+      "variant": {
+        "pos": 40156754,
+        "ref": "GTTT",
+        "alt": "G",
+        "filter": "."
+      },
+      "rank": "991b7e538a4b50a4b70ccdc0c7186cdeb1362221e71b7065d6f57712c6af8f8a"
+    },
+    {
+      "id": "chr22_50306681",
+      "variant": {
+        "pos": 50306680,
+        "ref": "C",
+        "alt": "CCACCCT",
+        "filter": "."
+      },
+      "rank": "995b992821503cf93210ea17a40ebd47449c68ce560f0ae2590acf4521bc1a8a"
+    },
+    {
+      "id": "chr22_36483281",
+      "variant": {
+        "pos": 36483280,
+        "ref": "C",
+        "alt": "CTTTTTTTTTTTTTTTT",
+        "filter": "."
+      },
+      "rank": "995f5a11534794d66e96258a3038484f327df59ac32f922e7bc5a3a4870bde4a"
+    }
+  ],
+  "binding": {
+    "protocol": "3584ab1354beee1ec4eaeb10ffe7a2245e7aa2e2a9820242633acecc2377dadc",
+    "script": "fe4e63b2271795df0a6163c5f0541f851035f4af6c1ea4a99ee4cd488642fb8c"
+  }
+}

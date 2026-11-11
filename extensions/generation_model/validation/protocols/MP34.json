@@ -1,0 +1,20 @@
+{
+ "id":"MP34_AB_CHR22_PAIRED_CONTEXT_V1",
+ "license":"MIT",
+ "scope":"Prospective computational confirmation after MP33 development; new chr22 loci. Controlled paired context simulation, not real-read validation B and not independent biological validation C.",
+ "selection":"Isolated PASS biallelic indels length2-30, ACGT, minimum allele length1; 500bp flanks inside frozen2024 benchmark BED with no other VCF record. Rank SHA256 MP34_CHR22|position; first128 calibration, next256 test. If fewer384 eligible sites, stop and report insufficiency without relaxing selection.",
+ "n_calibration":128,"n_test":256,
+ "reference_url":"https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/chr22.fa.gz",
+ "benchmark_base":"https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/AshkenazimTrio/analysis/NIST_HG002_DraftBenchmark_defrabbV0.019-20241113/GRCh38_HG2-T2TQ100-V1.1_smvar",
+ "vcf_md5":"a77065ecb99ece71939be763d7811209","bed_md5":"77a7f0b49d8bbbab16d346cf1a086ba4",
+ "sources":"Reference/alternate with500bp flanks. Classifier uses canonical templates only. Nuisance stress adds SNP at event_start-25 and event_end+25 and GCA insertion before event_end+40, never supplied to classifier.",
+ "records":"For each locus, 2 source alleles x3 geometries x2 replicates x3 regimes: baseline, shifted, nuisance. Generate a300-source-base noisy fragment and its nested150-source-base view from the SAME edit ledger. Short start: center=500-floor((150-event_length)/2), left_event_absent=501, right_event_absent=event_end-1-150. Long start=short_start-75.",
+ "noise":{"baseline":[0.005,0.001,0.001],"shifted":[0.02,0.005,0.005],"nuisance":[0.005,0.001,0.001]},
+ "score":"Minimum unit edit distance over all positive template substrings; exact cap600; reject censored values. Truth and ledger used only for evaluation and invariant checks.",
+ "arms":"For each length150/300 and each regime, absolute conformal allele sets at alpha0.05 versus prior paired absolute/relative rule at alpha/2 each. Matched regime calibration. Nuisance uses incomplete canonical catalogue even during calibration. 12 arms, all reported.",
+ "calibration":"Whole-locus maximum true score across12 reads per regime/view; rank ceil((n+1)*(1-alpha)). Absolute arm one gate; paired arm splits alpha equally. No tuning to test outputs.",
+ "primary":"Baseline and shifted, compare absolute300 with absolute150; report block coverage, correct/wrong singletons, ambiguous/empty, and paired transitions. A descriptive success requires more correct singleton calls, no increase in wrong singletons and empirical block coverage>=0.95 in each primary regime. Passing is not a statistical proof of superiority or conditional coverage.",
+ "secondary":"Compare absolute300 versus paired150 at fixed nominal block coverage; preserve all nuisance results and all geometry strata. No adverse stratum hidden by aggregate.",
+ "runtime":"CPU; batches of32 loci, atomic per-locus checkpoint; calibration freeze before test. Persistent archive after each batch, source/hash bound resume. Initial pilot first32 calibration loci only for runtime/invariants, no parameter tuning. Maximum24h compute; report incomplete if exceeded.",
+ "next":"B remains open until paired REAL-read context analysis. C requires current benchmark and documented independence from benchmark construction. Manuscripts private. D optional."
+}

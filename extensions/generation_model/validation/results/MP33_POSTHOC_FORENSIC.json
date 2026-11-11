@@ -1,0 +1,220 @@
+{
+  "scope": "Selected after outcomes; independent DP score recomputation for the five observed canonical errors and their uncorrupted source crops. Diagnostic, not validation sample.",
+  "findings": [
+    {
+      "id": "828bcd6baf8f2491e822341f1b3b1d87f8a1c6f601d285b3112cdef82f708588",
+      "site": "chr21_32160285",
+      "geometry": "center",
+      "truth": "1",
+      "edits": [
+        [
+          "X",
+          244,
+          "A",
+          "C"
+        ],
+        [
+          "X",
+          335,
+          "A",
+          "G"
+        ]
+      ],
+      "source_start": 226,
+      "source_end": 376,
+      "sequence": "GTCCCCAGACCCCTCAGACGGGAATTTGGGTAAGATAAAAAAATCAGAGGTTAGTCCTCAATAAACACCTCTGCAACACACACACACACACACACACACAGACACACACGCACACGCAACACATACACCATTTCCTCTATTATTGATATC",
+      "clean_same_crop": "GTCCCCAGACCCCTCAGAAGGGAATTTGGGTAAGATAAAAAAATCAGAGGTTAGTCCTCAATAAACACCTCTGCAACACACACACACACACACACACACAGACACACACACACACGCAACACATACACCATTTCCTCTATTATTGATATC",
+      "independent_scores": {
+        "observed": {
+          "canonical": {
+            "0": 6,
+            "1": 7
+          },
+          "expanded": {
+            "0": 4,
+            "1": 2
+          }
+        },
+        "clean_same_crop": {
+          "canonical": {
+            "0": 4,
+            "1": 5
+          },
+          "expanded": {
+            "0": 2,
+            "1": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "c067250baac1b95a1145283c386c3723d9b1eccdc3b2672eb45d50a5951297b9",
+      "site": "chr21_32160285",
+      "geometry": "center",
+      "truth": "1",
+      "edits": [
+        [
+          "D",
+          290,
+          "A"
+        ],
+        [
+          "X",
+          322,
+          "C",
+          "A"
+        ]
+      ],
+      "source_start": 226,
+      "source_end": 376,
+      "sequence": "GTCCCCAGACCCCTCAGAAGGGAATTTGGGTAAGATAAAAAAATCAGAGGTTAGTCCTCAATAACACCTCTGCAACACACACACACACACACACAAACAGACACACACACACACGCAACACATACACCATTTCCTCTATTATTGATATC",
+      "clean_same_crop": "GTCCCCAGACCCCTCAGAAGGGAATTTGGGTAAGATAAAAAAATCAGAGGTTAGTCCTCAATAAACACCTCTGCAACACACACACACACACACACACACAGACACACACACACACGCAACACATACACCATTTCCTCTATTATTGATATC",
+      "independent_scores": {
+        "observed": {
+          "canonical": {
+            "0": 6,
+            "1": 7
+          },
+          "expanded": {
+            "0": 3,
+            "1": 2
+          }
+        },
+        "clean_same_crop": {
+          "canonical": {
+            "0": 4,
+            "1": 5
+          },
+          "expanded": {
+            "0": 2,
+            "1": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "279d3b0b6840b38fa54fd7be46b280aadb3f1efdcd9f8928d0d098027e0761ae",
+      "site": "chr21_32160285",
+      "geometry": "left_event_absent",
+      "truth": "1",
+      "edits": [
+        [
+          "I",
+          448,
+          "C"
+        ]
+      ],
+      "source_start": 301,
+      "source_end": 451,
+      "sequence": "ACACACACACACACACACACACACAGACACACACACACACGCAACACATACACCATTTCCTCTATTATTGATATCTTACATTAGTACAGTATGTGAACCCCAAATATCTGAGACAGGTCACAGTTAATATAGAAAGTTTAGTTTGCCCAAG",
+      "clean_same_crop": "ACACACACACACACACACACACACAGACACACACACACACGCAACACATACACCATTTCCTCTATTATTGATATCTTACATTAGTACAGTATGTGAACCCCAAATATCTGAGACAGGTCACAGTTAATATAGAAAGTTTAGTTTGCCAAG",
+      "independent_scores": {
+        "observed": {
+          "canonical": {
+            "0": 4,
+            "1": 5
+          },
+          "expanded": {
+            "0": 1,
+            "1": 1
+          }
+        },
+        "clean_same_crop": {
+          "canonical": {
+            "0": 3,
+            "1": 4
+          },
+          "expanded": {
+            "0": 0,
+            "1": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "ebe3d38640cd97b81adf42f1ad582ff0c301f6aca20d94999c3ce21747644892",
+      "site": "chr21_32160285",
+      "geometry": "left_event_absent",
+      "truth": "1",
+      "edits": [
+        [
+          "X",
+          445,
+          "G",
+          "C"
+        ]
+      ],
+      "source_start": 301,
+      "source_end": 451,
+      "sequence": "ACACACACACACACACACACACACAGACACACACACACACGCAACACATACACCATTTCCTCTATTATTGATATCTTACATTAGTACAGTATGTGAACCCCAAATATCTGAGACAGGTCACAGTTAATATAGAAAGTTTAGTTTCCCAAG",
+      "clean_same_crop": "ACACACACACACACACACACACACAGACACACACACACACGCAACACATACACCATTTCCTCTATTATTGATATCTTACATTAGTACAGTATGTGAACCCCAAATATCTGAGACAGGTCACAGTTAATATAGAAAGTTTAGTTTGCCAAG",
+      "independent_scores": {
+        "observed": {
+          "canonical": {
+            "0": 4,
+            "1": 5
+          },
+          "expanded": {
+            "0": 1,
+            "1": 1
+          }
+        },
+        "clean_same_crop": {
+          "canonical": {
+            "0": 3,
+            "1": 4
+          },
+          "expanded": {
+            "0": 0,
+            "1": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "33f18db3c1d404308de14e443dfe677c3a1e67cdc60d4d891fb4f56ef22484c1",
+      "site": "chr21_31794476",
+      "geometry": "left_event_absent",
+      "truth": "0",
+      "edits": [
+        [
+          "I",
+          305,
+          "T"
+        ],
+        [
+          "X",
+          383,
+          "A",
+          "T"
+        ]
+      ],
+      "source_start": 301,
+      "source_end": 451,
+      "sequence": "TTTTTTTTTTTTTTTTTTTTTTTTGATACAGAGTCTCACTCGCATGTCACCCAGGCTGGAGTGCAGTGACGTGATCCTAGCTCTCTGCAACCTCCGACTCCTGGGTTCAAGCAATTCTCCTGTCAGCCTCCCGAGAAGCTGTGACTATAGG",
+      "clean_same_crop": "TTTTTTTTTTTTTTTTTTTTTTTGATACAGAGTCTCACTCGCATGTCACCCAGGCTGGAGTGCAGTGACGTGATCCTAGCTCACTGCAACCTCCGACTCCTGGGTTCAAGCAATTCTCCTGTCAGCCTCCCGAGAAGCTGTGACTATAGG",
+      "independent_scores": {
+        "observed": {
+          "canonical": {
+            "0": 6,
+            "1": 5
+          },
+          "expanded": {
+            "0": 2,
+            "1": 1
+          }
+        },
+        "clean_same_crop": {
+          "canonical": {
+            "0": 4,
+            "1": 4
+          },
+          "expanded": {
+            "0": 0,
+            "1": 0
+          }
+        }
+      }
+    }
+  ]
+}

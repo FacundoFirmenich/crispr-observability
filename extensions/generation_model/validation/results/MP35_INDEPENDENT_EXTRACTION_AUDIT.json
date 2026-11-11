@@ -1,0 +1,169 @@
+{
+  "status": "PASS",
+  "sites": 16,
+  "records": 32,
+  "checked": [
+    {
+      "stage": "test",
+      "site": "chr22_40315685_A_AAAGGGACCCAAGAACTCCC",
+      "read_id": "a0351928-dc9b-4e33-9a2f-9ccaf04769c1"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_40315685_A_AAAGGGACCCAAGAACTCCC",
+      "read_id": "38cc887a-9327-4c35-b9aa-c2020f0707cd"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_28512094_C_CAA",
+      "read_id": "ce68fa05-a4b5-44ff-992e-2c179c9d8ca3"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_28512094_C_CAA",
+      "read_id": "25f29211-0248-4c6e-9bbb-d03047da3430"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_38112888_CCT_C",
+      "read_id": "8d080d0a-0388-46ad-bd77-bb6fbd5f60e7"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_38112888_CCT_C",
+      "read_id": "37542b6c-0b2f-4e43-9c44-ae577feb851b"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_46992857_C_CTT",
+      "read_id": "f7baceb8-0bb5-4cd6-acf1-b36d4ab153e2"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_46992857_C_CTT",
+      "read_id": "dd37afa3-329c-489d-832a-a4ff33a691ed"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_47687480_A_AAGGTCCG",
+      "read_id": "8b27ad57-5da0-4c62-8609-b7f23e99a18d"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_47687480_A_AAGGTCCG",
+      "read_id": "00741d4c-3561-4564-a546-10d6fb2bdb26"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_35447467_GTATTTATT_G",
+      "read_id": "1792f872-7629-4e9d-8381-0c08460c2d85"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_35447467_GTATTTATT_G",
+      "read_id": "75def8b1-fc30-4a73-9689-0d336fc3d909"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_26418870_T_TCA",
+      "read_id": "ea70728c-da37-423c-b396-0cbc0049378a"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_26418870_T_TCA",
+      "read_id": "8f1402a6-171d-4616-a98d-26844f960cfd"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_26529001_C_CAA",
+      "read_id": "693a2c73-ae87-41f0-aa1d-87444d7eb35a"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_26529001_C_CAA",
+      "read_id": "d37b29cb-fe77-43be-9c45-5c3a06cc47eb"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_30935670_T_TGC",
+      "read_id": "db407af9-d33d-4eec-adc4-45ff8179d291"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_30935670_T_TGC",
+      "read_id": "0195f19a-0b94-4f9f-bad4-220d473d40e1"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_37912041_ATGTG_A",
+      "read_id": "71650ea2-ced3-4a43-9b44-4e6f56f0011e"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_37912041_ATGTG_A",
+      "read_id": "ffd7fadf-db85-447e-bf33-1cff7e3833e9"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_20108791_G_GCGCCTACCTTGCCAGACCCTGGGCA",
+      "read_id": "6c5f07c8-80e1-4acc-8a82-1180716bc9f2"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_20108791_G_GCGCCTACCTTGCCAGACCCTGGGCA",
+      "read_id": "c9f95998-5b50-4a9b-8665-9888072e662d"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_29844124_T_TTTTG",
+      "read_id": "2a7957fb-49dc-49fc-bc12-87766393f818"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_29844124_T_TTTTG",
+      "read_id": "dc5e5525-d6cc-41c1-9712-efc312eeafe4"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_40727442_C_CGAGA",
+      "read_id": "91508e5d-502a-45ef-bbc8-ea909b222bf6"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_40727442_C_CGAGA",
+      "read_id": "61c58a87-dde5-4ceb-a9e1-d3b080864678"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_42037128_TTGTGTG_T",
+      "read_id": "3c8b5d84-5a09-4ad4-8deb-395a0d3b0970"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_42037128_TTGTGTG_T",
+      "read_id": "264e7f67-a5ac-45b2-adb5-7185ca537595"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_33550142_T_TACACAC",
+      "read_id": "7b01f5c4-0975-4e31-b7d8-7d0c7d22bfdc"
+    },
+    {
+      "stage": "test",
+      "site": "chr22_33550142_T_TACACAC",
+      "read_id": "6279126a-4692-4358-b6ff-e84b00179416"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_31166558_T_TTTC",
+      "read_id": "399026b9-6d55-45c1-af0f-8a3920deb03b"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_31166558_T_TTTC",
+      "read_id": "8f4872f3-3b65-41a2-8ae0-230da3598b0d"
+    }
+  ],
+  "seconds": 39.17485310399934,
+  "scope": "Second source fetch and independent query-coordinate mapping in16 prespecified hash-selected sites; not all records, not biological truth."
+}

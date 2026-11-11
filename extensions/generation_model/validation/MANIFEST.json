@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "source_commit": "31692668fc4b18c993b963a2769a2997501eaffa",
+  "scope": "Frozen protocols, result artifacts and selected source code from the MIT extension. Third-party source data terms apply.",
+  "files": [
+    {
+      "path": "campaign/homopolymer_transfer/README.md",
+      "sha256": "38dc5acc74690190cfe766eff9ff993550559ce5eaad0f5e8b0542b6bdef618e",
+      "size": 3625
+    },
+    {
+      "path": "campaign/homopolymer_transfer/discover.py",
+      "sha256": "48c808ef2dd5d5c31d941868db2f8d7342433631538117e87113e6881098df47",
+      "size": 6107
+    },
+    {
+      "path": "campaign/homopolymer_transfer/freeze_panel.py",
+      "sha256": "f2f4ff81719e14f9f62367bb6890fe489acac98689eeb4b993c515beb95159fe",
+      "size": 6759
+    },
+    {
+      "path": "campaign/homopolymer_transfer/launch_replication.py",
+      "sha256": "5c4642561d96121e225abfb203a42ffbcf0347bc7ce065c642351744056755d8",
+      "size": 427
+    },
+    {
+      "path": "campaign/homopolymer_transfer/run_hifi_replication.py",
+      "sha256": "3f76a90ac5a00561988387368c68a3bfd99367fdf1e21654cfa6830498766258",
+      "size": 3343
+    },
+    {
+      "path": "campaign/homopolymer_transfer/run_panel.py",
+      "sha256": "4363e508525955c1616efdc45866a43eb782a84aedf50e0f4d26bf71214a964f",
+      "size": 9104
+    },
+    {
+      "path": "campaign/homopolymer_transfer/verify_aliases.py",
+      "sha256": "faadc287bec5f20806147d680fe3a8ee79a95b1308788b36dfa165c5328e40e6",
+      "size": 2799
+    },
+    {
+      "path": "campaign/homopolymer_transfer/verify_replication.py",
+      "sha256": "dcd544468fcc7cef17363a9a369fe91192dc49a5b7e7bb06f980aeb90db7e79f",
+      "size": 4420
+    },
+    {
+      "path": "docs/CIERRE_CIENTIFICO_MP33_ES.md",
+      "sha256": "1dac33c13dde1939358297771967e9993e470c41d0f2574eb3cde80f6558b4aa",
+      "size": 5226
+    },
+    {
+      "path": "docs/CIERRE_MP34_A_B_CONTROLADO_2026-11-11.md",
+      "sha256": "8c2cea416061f0d9f89c42581670989bb1bb0d33f6ae51c3ef036e28b9093ac7",
+      "size": 6144
+    },
+    {
+      "path": "docs/CIERRE_SUSTANTIVO_MP34_MP35_2026-11-11.md",
+      "sha256": "eff70b9d0ff9e1ef280144cbdc2436d0670fbbd34b117931868c5f790852222b",
+      "size": 8563
+    },
+    {
+      "path": "docs/CIERRE_SUSTANTIVO_MP36_LOCAL_2026-11-11.md",
+      "sha256": "455214d70bc611cd122eaa775ff89f814eb30e934c50e67cdae72641c025a594",
+      "size": 6521
+    },
+    {
+      "path": "docs/MP36_EXECUTION_ADVERSE_LEDGER.md",
+      "sha256": "87b45f69d83bb7aefe52e4a12c0ccc7faf2e211c659cc9112d5e734a24eaddc2",
+      "size": 4113
+    },
+    {
+      "path": "protocols/MP33.json",
+      "sha256": "55e828f35e172917647c0acc939e2491803a5f0480b53d8e0d99b7c7623dc7d7",
+      "size": 2605
+    },
+    {
+      "path": "protocols/MP34.json",
+      "sha256": "3584ab1354beee1ec4eaeb10ffe7a2245e7aa2e2a9820242633acecc2377dadc",
+      "size": 3375
+    },
+    {
+      "path": "protocols/MP35.json",
+      "sha256": "26d8694b17ceb5db84466ac4b6e24af9b3c910424a6b675f87528dcf64b19d34",
+      "size": 4497
+    },
+    {
+      "path": "protocols/MP35_PRETEST_DEPENDENCE_AUDIT.md",
+      "sha256": "060a883eb2a2c098bfc1e2aab63a8ac6648e9832df47998e21c8bdc69d722f3a",
+      "size": 865
+    },
+    {
+      "path": "protocols/MP35_SOURCE_TRANSPORT_ADDENDUM.md",
+      "sha256": "ba3727b920e00fd74d85d4da4610da997f1b2cebb175615ce6bc36d9a9064a3e",
+      "size": 1386
+    },
+    {
+      "path": "protocols/MP36.json",
+      "sha256": "a57afc8783bfdbd3f0c1798a22d8f2ca7b8654bce3786f1d55fe28b91fedeed4",
+      "size": 4883
+    },
+    {
+      "path": "protocols/MP36_LOCAL_JURISDICTION_AUDIT.json",
+      "sha256": "c9cb76dc6ab8a3e4f5db12d5a0856d16f509286765c1aad755c8b7291d7c8adc",
+      "size": 2744
+    },
+    {
+      "path": "protocols/MP36_SECONDARY_MECHANISM_AUDIT.json",
+      "sha256": "c28dc7359f248e8b1fd71d74225518cd007b6d3a314489480fe74ee4383f62ff",
+      "size": 1722
+    },
+    {
+      "path": "protocols/MP37.json",
+      "sha256": "6b80881f71042db3379f07dabc2b8e99c99908b19bc2c346cea33debb5f025a8",
+      "size": 3250
+    },
+    {
+      "path": "protocols/MP38.json",
+      "sha256": "c9d8fc1939d3f5619ab5e64c5391f468c2d777aa2a74140811e4655bea5e6c2a",
+      "size": 3237
+    },
+    {
+      "path": "results/HOMOPOLYMER_ALIAS_READBACK.json",
+      "sha256": "0b241e4e41b8a059d10ca5cee87a2bb48b1379534250916e3a4e9bd2cb483857",
+      "size": 1761
+    },
+    {
+      "path": "results/HOMOPOLYMER_CANDIDATE_CENSUS.json",
+      "sha256": "d13c868a3b3c67d494e77480e62e462ca204aec9d69c1b37966ef6c56f328e69",
+      "size": 1837
+    },
+    {
+      "path": "results/HOMOPOLYMER_FROZEN_PANEL.json",
+      "sha256": "e97bdfadb655ca68cb4ea3e45a1f947216d9a8a4d145dee0576d38355961c1e4",
+      "size": 32909
+    },
+    {
+      "path": "results/HOMOPOLYMER_HG003_HG004_FROZEN_PANEL.json",
+      "sha256": "7799b7b951dcd3923ab1df123cc2cf2739e38ef438a929d3206f638b7d6343ad",
+      "size": 29553
+    },
+    {
+      "path": "results/HOMOPOLYMER_HG003_HG004_REPORT.md",
+      "sha256": "4d55ca00d11eb19f3a95975768acef72ce8586ca5e227ecf19bde66b24fbf20c",
+      "size": 2403
+    },
+    {
+      "path": "results/HOMOPOLYMER_HG003_HG004_RESULT.json",
+      "sha256": "9ff90ecd1deaa072a3e1abfb5d326d27a3c46cfa9d2b9ea0321e06a9937851bf",
+      "size": 762555
+    },
+    {
+      "path": "results/HOMOPOLYMER_HG006_HG007_REPORT.md",
+      "sha256": "05a8bd1601dccd1c63aa59cca48073d517739b460a660f990b17085af7b1c050",
+      "size": 2315
+    },
+    {
+      "path": "results/HOMOPOLYMER_HG006_HG007_RESULT.json",
+      "sha256": "62b4fa1366ae64e06c3f231038bdaf8bd81e5311c0846b4335f5e3e0cbadd478",
+      "size": 860487
+    },
+    {
+      "path": "results/HOMOPOLYMER_HIFI_CROSSCHECK.json",
+      "sha256": "053b3b0fbc07d6d94e16fa88c3a7765ccf5bcb09a68eeee2b1c9521ade8f177a",
+      "size": 755623
+    },
+    {
+      "path": "results/HOMOPOLYMER_HIFI_CROSSCHECK_REPORT.md",
+      "sha256": "37126c4e0264bd410dd56727ce156c36aa27c51f16a2a3ae443ae83f1e577a2a",
+      "size": 1636
+    },
+    {
+      "path": "results/HOMOPOLYMER_PUBLIC_SOURCE_INVENTORY.json",
+      "sha256": "c686fd863d4a53565a9bb1b1c8c7fd66bbd3ebfc263291d209254d710a7c332a",
+      "size": 14331
+    },
+    {
+      "path": "results/HOMOPOLYMER_REPLICATION_COMPARISON.json",
+      "sha256": "f8b8b4a6682b5a7bb4e0b025a50109fc2329f7582b3ebd4f220d4298e040743c",
+      "size": 8088
+    },
+    {
+      "path": "results/MP33_CALIBRATION_FREEZE.json",
+      "sha256": "3498cff60e4f2f704b19ade94232e095898d00ff7560c51359173642a674096e",
+      "size": 25185
+    },
+    {
+      "path": "results/MP33_COMPARISONS.csv",
+      "sha256": "554cc061b56a6198157bf61ad14ab9e4f71cfcbb382eb26b755b2046d6eeaca2",
+      "size": 2322
+    },
+    {
+      "path": "results/MP33_POSTHOC_FORENSIC.json",
+      "sha256": "86933859eaf0250bf769488a916825af46c85ed8a8f135cbe397d3e1a152616b",
+      "size": 5910
+    },
+    {
+      "path": "results/MP33_RESULT.json",
+      "sha256": "5d2a23ee54275f0e1b86d221945381dc84c75133c67650c8e3f21201ddaefe45",
+      "size": 33213
+    },
+    {
+      "path": "results/MP33_TRANSITIONS.json",
+      "sha256": "b96c0b1aa2ff6d30888184e48039a5dfa18a4c90f5d515ee2c563fe7456e3bc0",
+      "size": 4364
+    },
+    {
+      "path": "results/MP33_VERIFICATION.json",
+      "sha256": "aa7e3e8a42148252b1fa5db71d5718c1e99457a2a1fca14183581e67e16f726f",
+      "size": 459
+    },
+    {
+      "path": "results/MP34_CALIBRATION_FREEZE.json",
+      "sha256": "9f0bd955572ba8dc45c6203c1c714253a365ec4c7a63bec08c10e68bdbd4d209",
+      "size": 18362
+    },
+    {
+      "path": "results/MP34_INPUT_MANIFEST.json",
+      "sha256": "0dc74b70fa1be9d02812167d617a58facbdbba8e0b3da7a2a57c19c131fc25ee",
+      "size": 469
+    },
+    {
+      "path": "results/MP34_MP35_EPISTEMIC_GRAPH.json",
+      "sha256": "37b61a72adb2b60cee41bfa28842d5b03b60b944a96438567e82097596d4d9b7",
+      "size": 3092
+    },
+    {
+      "path": "results/MP34_RESULT.json",
+      "sha256": "4f5ee948911ad1098a2d134177ba7fc9e38f99aa9e4eeaa602171d400849d058",
+      "size": 50689
+    },
+    {
+      "path": "results/MP34_SELECTION.json",
+      "sha256": "71c69441d01ac373913679b5cadf1802d54f837677d0d68d5b6715afd0b6a987",
+      "size": 94064
+    },
+    {
+      "path": "results/MP34_SOURCE_REPLAY_AUDIT.json",
+      "sha256": "36415f410a4ed541a05fceee6a7e4ab8a7d88d247de7b31e358c5278e8dca2e5",
+      "size": 170
+    },
+    {
+      "path": "results/MP34_VERIFICATION.json",
+      "sha256": "a52bef69a64e2fcd0678422695e1c4ba33a27c91b2faf0daa0ed104275ff9bb3",
+      "size": 376
+    },
+    {
+      "path": "results/MP35_BENCHMARK_SOURCE_DATES.json",
+      "sha256": "549349ced811551544c6717e1b2e772b923b1f74f62f9f6ccf938c780c710f65",
+      "size": 530
+    },
+    {
+      "path": "results/MP35_CALIBRATION_FREEZE.json",
+      "sha256": "00417eb30067e56446b89272ee4724301c5c375a7575622258b9184d9cbe63c6",
+      "size": 3666
+    },
+    {
+      "path": "results/MP35_CONTEXT_DIAGNOSTICS.json",
+      "sha256": "119684050f2c37b3a8f06f66fef3668a5eff3a2434622c369394f1a9b80ab9ef",
+      "size": 84778
+    },
+    {
+      "path": "results/MP35_DEPENDENCE_AUDIT.json",
+      "sha256": "0e49e005a39d9506c653ce62ba77e762830b348dc2b6e78c30157eb36a56a026",
+      "size": 7116
+    },
+    {
+      "path": "results/MP35_DISJOINT_READ_SENSITIVITY.json",
+      "sha256": "0817ecca15a7904e6cb29f84db82ab7e584b02ffaa4ca8f9693b4b844269fb40",
+      "size": 25448
+    },
+    {
+      "path": "results/MP35_DISJOINT_READ_SENSITIVITY.verification.json",
+      "sha256": "7ac54ed5d783c369d3f31f068b7f5012d7b33a1446d1d75474608655971c5de9",
+      "size": 254
+    },
+    {
+      "path": "results/MP35_INDEPENDENT_DISTANCE_AUDIT.json",
+      "sha256": "31c4c6484cb53acd3ece8b7bf01cfea57171be11ff90f75d8b78c3785a5e73bf",
+      "size": 429
+    },
+    {
+      "path": "results/MP35_INDEPENDENT_EXTRACTION_AUDIT.json",
+      "sha256": "a5a06000e87d07bcacb97c3911ab4f81139eab64381d182b5ef21e2768a12090",
+      "size": 4649
+    },
+    {
+      "path": "results/MP35_INDEX_CORRESPONDENCE.json",
+      "sha256": "2ee5c4022578ae5207f0e38003631459123da81558cea126420a7b220a391971",
+      "size": 666
+    },
+    {
+      "path": "results/MP35_INDEX_REPAIR.json",
+      "sha256": "aafe68d7fd20757ee4c1a688c42fcf05b7d79139ee994c7ae73d005a9f346dcd",
+      "size": 1205
+    },
+    {
+      "path": "results/MP35_RANGE_DIAGNOSTIC.json",
+      "sha256": "7160fb7d94332e260f00178f3c88b7f297a448afcaa05f71fa184d29619b736d",
+      "size": 707
+    },
+    {
+      "path": "results/MP35_REFERENCE_TRANSFER.json",
+      "sha256": "c320b2dc9f0eb519124857d744a3c3d78208aaf669ef3eadeec3ebb8d6ec3d4a",
+      "size": 136
+    },
+    {
+      "path": "results/MP35_RESULT.json",
+      "sha256": "633612c8e6f6f47c87108c7d94c330fff61ff61c94794e26ef09d5719bb4cbef",
+      "size": 24544
+    },
+    {
+      "path": "results/MP35_SELECTION.json",
+      "sha256": "b85f05b9ddecda55f1a8122a4603c8e04d0dc4c99d67ba94aa7da888bb9707ad",
+      "size": 28704
+    },
+    {
+      "path": "results/MP35_SOURCE_ADMISSION.json",
+      "sha256": "d626565bbf236cd3c55bb953ae7cf275e2bf2342484cb226855494f84e91787e",
+      "size": 1032
+    },
+    {
+      "path": "results/MP35_SOURCE_MANIFEST.json",
+      "sha256": "40441a01b95992c3e99ed4e55c0aeeaee1cbd198af4f531feeadef2adfa4b743",
+      "size": 714
+    },
+    {
+      "path": "results/MP35_VERIFICATION.json",
+      "sha256": "d6b59bb8eb83665f06dd48586c65b26c10820b08647a83e8e4b48c7122d827f8",
+      "size": 325
+    },
+    {
+      "path": "results/MP36_CALIBRATION_FREEZE.json",
+      "sha256": "5c15f814c2e4efe06470918d43d2d5abf08e9bc36470ed943a166a81fce070d7",
+      "size": 57349
+    },
+    {
+      "path": "results/MP36_EPISTEMIC_GRAPH.json",
+      "sha256": "68d6b42e826c7bc1c92e021472db9c555fbe2777c3b6883aa4d704c761b5b816",
+      "size": 6150
+    },
+    {
+      "path": "results/MP36_FULL_ARCHIVE_VERIFICATION.json",
+      "sha256": "d9e311e42a3abd36526f286d0b83ba3271cbe29b91409ed15288902f1c00c63c",
+      "size": 242
+    },
+    {
+      "path": "results/MP36_INDEPENDENT_DISTANCE_AUDIT.json",
+      "sha256": "4ead1920dde26b119ec2280539aff0ab8033c1767175cdc5496d9db6ebcbea0b",
+      "size": 165
+    },
+    {
+      "path": "results/MP36_INDEPENDENT_EXTRACTION_AUDIT.json",
+      "sha256": "c3447b9e197e77683d7660f1a0e1c1e0d5e1d5e1f231acc3d7acff5f578bcebf",
+      "size": 4643
+    },
+    {
+      "path": "results/MP36_LOCAL_AUDIT_VERIFICATION.json",
+      "sha256": "9a6007f415bc4654432258cc5e962beb9e95b336f9264b93739e29a3a392834d",
+      "size": 369
+    },
+    {
+      "path": "results/MP36_LOCAL_JURISDICTION_AUDIT.json",
+      "sha256": "23f41397dc8f32f0e99d79e376605a4f860533475751f97b71268c56d9ce606a",
+      "size": 356908
+    },
+    {
+      "path": "results/MP36_LOCAL_READ_SEGMENTS.csv",
+      "sha256": "c68d00005fc1bf9d8ee6f3d65a044f2856408527ced986bd3f60d25211275e93",
+      "size": 380591
+    },
+    {
+      "path": "results/MP36_MECHANISM_AUDIT.json",
+      "sha256": "fd21b57c12e39a3e785cb4aa10a35cdee6806a4cbb6c5fe849c94eb5e83bb658",
+      "size": 73754
+    },
+    {
+      "path": "results/MP36_PARTITION_AUDIT.json",
+      "sha256": "18f8bc46d772eb70c19dc06421b35eb8e3161b25021ebcf2ce1e240411a5b064",
+      "size": 827
+    },
+    {
+      "path": "results/MP36_PROTOCOL.json",
+      "sha256": "a57afc8783bfdbd3f0c1798a22d8f2ca7b8654bce3786f1d55fe28b91fedeed4",
+      "size": 4883
+    },
+    {
+      "path": "results/MP36_REFERENCE.json",
+      "sha256": "867e68a9e52af7ce1178ea5ef82e6579202d1493211755d24bd7fbfee33b0ca4",
+      "size": 386
+    },
+    {
+      "path": "results/MP36_RESULT.json",
+      "sha256": "42003ac7773f894046181fa0a4896c9a6eb75baeeab7f26290016cf8ab571151",
+      "size": 89453
+    },
+    {
+      "path": "results/MP36_SELECTION.json",
+      "sha256": "b0e28cea5171cd407e022d21e3c0d716f624159941d2ee5972015bc6fda04c13",
+      "size": 35175
+    },
+    {
+      "path": "results/MP36_SET_INCLUSIONS_AND_PROJECTIONS.json",
+      "sha256": "ef5ddc62573038ec5602b994afcc753decb556075345fc304181118068fbe73a",
+      "size": 1853447
+    },
+    {
+      "path": "results/MP36_SOURCE_MANIFEST.json",
+      "sha256": "72415336f3d37860740b8862d4b62b6d2b95e6d942339c0cc92fa7d8291ee721",
+      "size": 1534
+    },
+    {
+      "path": "results/MP37_ADMISSION.json",
+      "sha256": "7a526da72edb2d8bf83965ae01f0719d95262e981bb96b3cfbe27f5e7c5b8dac",
+      "size": 3295
+    },
+    {
+      "path": "results/MP37_INDEPENDENT_AUDIT.json",
+      "sha256": "12421d3d9866788d7deb38f569485accf6f48ab9ea57fd4f59ccabf0d68b1649",
+      "size": 3915
+    },
+    {
+      "path": "results/MP37_LOCAL_AUDIT.json",
+      "sha256": "26d07cda955101dd67ba2ef01ee688807684aaed916585d05d7ef4a9fe45c81f",
+      "size": 7552
+    },
+    {
+      "path": "results/MP37_LOCAL_MEMBERSHIPS.json",
+      "sha256": "8e470bd0dc0e62c68ebd02e3758035f320c140ec0d667bcd58e3b65b3d9995f6",
+      "size": 619410
+    },
+    {
+      "path": "results/MP37_LOCAL_OBSERVATIONS.csv",
+      "sha256": "0bb118382f361f869d8b2a0266c5c8291cb034b3cac3f9223741a41dfeb28410",
+      "size": 283619
+    },
+    {
+      "path": "results/MP37_MP38_CIERRE_SUSTANTIVO_20261111.md",
+      "sha256": "af70866a05fcdbdef5e30de0ae00d07fadc221cd8a0a27d0e72c86aadc25135d",
+      "size": 6458
+    },
+    {
+      "path": "results/MP37_MP38_MECHANISTIC_INTERPRETATION.json",
+      "sha256": "1f41d96f7872add11e2bd47650eecc04914eed812834169ee9a19f11a3e89f33",
+      "size": 14436
+    },
+    {
+      "path": "results/MP37_MP38_ZERO_MEDIAN_IDENTITY.json",
+      "sha256": "239e9ed488b753657f02c9069a3884912ff183a7e240a9f6f2b5360e5ab4b181",
+      "size": 619
+    },
+    {
+      "path": "results/MP37_RESULT.json",
+      "sha256": "7562422d42e64171f3e2a0fd1a4bc433326983c503312df7c947d602b815c296",
+      "size": 266347
+    },
+    {
+      "path": "results/MP37_SELECTION.json",
+      "sha256": "0227d1d29fd8f93f12c705b0c3192c3cd0291993f6cc3296fca2e238f6b88d60",
+      "size": 16911
+    },
+    {
+      "path": "results/MP38_ADMISSION.json",
+      "sha256": "49f8bc0d2d1da80478df790fbd6abebb1913ecbd5ca366d22585bc2825fda4e4",
+      "size": 3295
+    },
+    {
+      "path": "results/MP38_INDEPENDENT_AUDIT.json",
+      "sha256": "6bd61dc386e4e0a376e37b243a2f03c19b85172b22a4a97384fe4e5b2c0d29ff",
+      "size": 3855
+    },
+    {
+      "path": "results/MP38_LOCAL_AUDIT.json",
+      "sha256": "bae05ec190cd70359b6fe52fcd65d79b41c164c0388a8a648cb90ed78d6f7842",
+      "size": 9910
+    },
+    {
+      "path": "results/MP38_LOCAL_MEMBERSHIPS.json",
+      "sha256": "37a030199e54b649b7f8b6fe1d8f95c7f45c52f1f8aa8c09751c5753e616dc4d",
+      "size": 627853
+    },
+    {
+      "path": "results/MP38_LOCAL_OBSERVATIONS.csv",
+      "sha256": "587a2735e9f36934d8e7411dc487614980abdda06efdfd001b2995343ea76289",
+      "size": 286618
+    },
+    {
+      "path": "results/MP38_RESULT.json",
+      "sha256": "35ce1e9666c807cafa58575dae0157626d621c362eff499941acf8e611e22dae",
+      "size": 274876
+    },
+    {
+      "path": "results/MP38_SELECTION.json",
+      "sha256": "d2a3ffa4e90b4e6d804ca0acd48c813ff981d849b9f41c4714b075bc231da269",
+      "size": 15786
+    }
+  ]
+}

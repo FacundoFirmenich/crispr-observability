@@ -1,3 +1,10 @@
+# 0.9.0
+
+- Preserve exact repository bytes on all platforms, including Windows Git checkouts.
+- Integrate selected frozen MP33–MP38, ONT and HiFi validation artifacts from the MIT extension.
+- Add one offline command with quick, count and full retained-span modes and independent germline decision reconstruction.
+- Build and test native Windows, Linux and macOS packages with scoped runtime notices and receipts.
+
 # 0.6.0 / MP06 — 1 November 2026
 
 Complete optimal-path correspondence with dual boundary transport; task-relative and joint-domain certificates; 45-configuration mechanism intervention; twelve-job HEK3 application on 218,930 original records; published marginal-agreement identification with integer verification; figures and exact raw/frozen-allele replay. Real incomplete annotation artifacts are disclosed and excluded from the analysis channel; complete native allele outputs reconcile exact original abundances. Full article/supplement remain private. Prior CSVs, acknowledgments and graph baselines are preserved. No molecular accuracy, independent-human reproduction or independent-laboratory validation claimed.

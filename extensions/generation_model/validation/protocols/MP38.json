@@ -1,0 +1,18 @@
+{
+ "id":"MP38_HG001_UNRELATED_DONOR_FROZEN_TRANSFER_V1",
+ "cohort":"MP38",
+ "objective":"Frozen-rule transfer from HG005 development to HG001 on a newly hash-selected chr20 panel, with exact local support and no recalibration from HG001 outcomes.",
+ "sample":"HG001",
+ "flowcell":"PAW79146",
+ "source":"https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG001/PAW79146/output/SAMPLE.haplotagged.cram",
+ "flowcell_selection":"Lexicographically first listed HG001 SUP flowcell before outcome inspection; no performance-based selection.",
+ "truth_base":"https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/NA12878_HG001/NISTv4.2.1/GRCh38/HG001_GRCh38_1_22_v4.2.1_benchmark",
+ "selection":"Use frozen HG002 candidate chr20 catalog from MP36 archive. PASS or dot simple biallelic ACGT indels2-30nt, shorter allele1nt; exact reference,500bp confident flanks, isolated HG001 truth context. Positive exact homozygous-alt PASS/dot allele; negative absent overlapping truth record. Heterozygous/complex/representation-conflicted contexts excluded before observations. Exclude all128 MP36 calibration/test positions. Buffer100kb around1Mb boundaries. One lowest SHA256(MP38_LOCUS|chr20|pos|ref|alt) per100kb bin regardless label, then first32 per label by hash. Require32 per class without relaxation, otherwise INSUFFICIENT_ELIGIBLE_LOCI. Preserve full exclusions. No new calibration partition or fitting.",
+ "source_admission":"Verify sample identity and acquisition date from public flowcell metadata; CRAM chr20 length/M5 must match archived exact reference. Preserve original index and derive/check any header shift, never assume -186. Bind source bytes/ETag and benchmark subset before scoring.",
+ "reads":"As MP37: at most20 hash-ranked eligible primary MAPQ20 reads with actual nested150/300nt observations; minimum10; no locus replacement. Exclude all MP36 retained IDs and report cross-cohort overlap.",
+ "rules":"Transport unchanged median relative cutoff0, strict>=80% read consensus cutoff0, prior consensus cutoff4, and median0 with>=80% absolute guard. Absolute thresholds59/118. No use of benchmark labels in scores or parameter fitting.",
+ "primary":"At300nt, separate descriptive transfer gates for median0 and consensus0: more concordant calls than consensus4, no more discordant calls, concordance>=95% of64 planned loci, no development-ID overlap. Report all local failures; no claim of conditional coverage or population accuracy.",
+ "local_reporting":"All loci, source observations, size2-4/5-10/11-30, genotype class, insertion/deletion,1Mb region, orientation, support and nested set memberships. Paired method and context transitions. No outcome-adaptive strata.",
+ "limitations":"New individual, acquisition and selected targets, but one flowcell and same platform/laboratory pipeline. Targeted balanced isolated homozygotes, not heterozygous or de-novo discovery accuracy. No same-fragment editing truth. Independence of all upstream benchmark/preprocessing choices is not established.",
+ "runtime":"CPU Colab CLI,8-locus checkpoints persisted per batch,24h maximum. Independent distances and second source extraction before closure. No alteration of MP36/MP37 outcomes."
+}

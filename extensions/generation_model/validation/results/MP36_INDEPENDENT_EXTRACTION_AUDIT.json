@@ -1,0 +1,169 @@
+{
+  "status": "PASS",
+  "sites": 16,
+  "records": 32,
+  "checked": [
+    {
+      "stage": "calibration",
+      "site": "chr20_12464005_CTAA_C",
+      "read_id": "4ff40a0a-a88c-4106-9bdd-1b4c0cc04eb4"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_12464005_CTAA_C",
+      "read_id": "6d96c078-3030-4b17-a4bd-f4f275c0a96b"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_61839954_G_GGT",
+      "read_id": "2b19411a-8a93-4e4f-b8f5-1f9dac7e0c6f"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_61839954_G_GGT",
+      "read_id": "c34ac87f-f705-41c0-b0d0-41465b5cf9d3"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_42288341_TTTTTG_T",
+      "read_id": "11dd2030-b938-41ff-a1c9-77465bd707e9"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_42288341_TTTTTG_T",
+      "read_id": "04efb53f-54d5-496f-b0ef-89caab138340"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_58703761_GGCCTTCCCTAGAGGCCACAGCTGCACA_G",
+      "read_id": "9efd4eb7-9f39-4512-b201-429f909940e3"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_58703761_GGCCTTCCCTAGAGGCCACAGCTGCACA_G",
+      "read_id": "4e902f1b-e8ea-4b7a-93cd-47c745800b22"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_19826110_A_ATAATT",
+      "read_id": "60757a6c-4917-4b0e-ac72-b1a991b96aac"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_19826110_A_ATAATT",
+      "read_id": "1a98b005-cb67-4f7b-94c1-cf4964ff9da4"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_5391823_A_AAAC",
+      "read_id": "888eee95-f041-4eff-8f54-9b718c1f13e3"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_5391823_A_AAAC",
+      "read_id": "9336a121-969f-4b34-bfb2-893ae7e2e1ce"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_51317634_CAGGAG_C",
+      "read_id": "d668f778-4feb-4376-a44a-0e38d26d5fd4"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_51317634_CAGGAG_C",
+      "read_id": "d6a40efe-21ff-4fde-ad1a-2ff6798d566d"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_62140621_T_TTC",
+      "read_id": "15a0b66b-9583-419e-b8db-510ed3f27aac"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_62140621_T_TTC",
+      "read_id": "ff0e1d4e-00f0-4759-b55b-8f5c5565165d"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_1764706_A_ACAATAATCACATCAAAGAT",
+      "read_id": "adde8cb2-f1fb-4a0d-b520-531b9885f0f9"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_1764706_A_ACAATAATCACATCAAAGAT",
+      "read_id": "9758ee61-3bc8-4637-a0e6-6b4fe8e4538f"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_38799776_CTGTT_C",
+      "read_id": "175c474a-8b7e-4820-a8a5-a26d1b522507"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_38799776_CTGTT_C",
+      "read_id": "a5b758db-d338-41ab-8dd4-6a8a8e2fb2f4"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_24562950_T_TGAG",
+      "read_id": "0cd80ff4-0f56-4ef5-98a9-e7faa6a707cd"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_24562950_T_TGAG",
+      "read_id": "eb71db89-e182-4013-959e-82da5b143653"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_59288906_G_GAAACC",
+      "read_id": "297ca431-0c40-48f7-b6bc-7a1a01f343a3"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_59288906_G_GAAACC",
+      "read_id": "2a47c417-2019-440c-88ea-cf64c14d9030"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_45133433_TTTTG_T",
+      "read_id": "d07d2050-34ee-4e89-a46e-d138b797d855"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_45133433_TTTTG_T",
+      "read_id": "38687d8e-46a4-448c-9f5d-44726b45c2d3"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_9558043_T_TATTTATTCATTC",
+      "read_id": "bb59c478-b566-44a6-911b-f10e6e55da3d"
+    },
+    {
+      "stage": "calibration",
+      "site": "chr20_9558043_T_TATTTATTCATTC",
+      "read_id": "78c1df37-f9fa-4a4d-a640-92f2eeb52fcc"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_5664070_G_GTC",
+      "read_id": "9e6695bc-5936-4108-9083-f1a017f38dba"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_5664070_G_GTC",
+      "read_id": "7b4760c9-9956-495f-907c-89fc1dad68d1"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_14730979_G_GCACA",
+      "read_id": "38dd1fe1-3de4-48b3-99c8-d00fddd4a6cd"
+    },
+    {
+      "stage": "test",
+      "site": "chr20_14730979_G_GCACA",
+      "read_id": "14b64dbe-d43f-4cf3-ac5a-f6e643d08922"
+    }
+  ],
+  "seconds": 56.34706291600014,
+  "scope": "Second source fetch, independent coordinate extraction on16 hash-selected sites; not every record."
+}

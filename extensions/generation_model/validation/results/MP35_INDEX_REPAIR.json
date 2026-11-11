@@ -1,0 +1,30 @@
+{
+  "status": "HEADER_SHIFT_DERIVED_AND_PILOT_HEADERS_CHECKED",
+  "shift": -186,
+  "published_index_sha256": "71c66616a2773ee772f24f57490ea3f591ab57d43c4b67b28af07899fc9119e7",
+  "rebased_index_sha256": "b77f4ae9d46b3aa2de8e76f77d1ac6cf3523d7fff3e1bcce16244460bb4f140b",
+  "checks": [
+    {
+      "published_offset": 9494,
+      "actual_offset": 9308,
+      "container_data_length": 3351345,
+      "distance_to_next_container": 3351370,
+      "header_sha256": "fdfd72c1d1c01147706360c33d2ca18904204246cb60af630148599f617c6470"
+    },
+    {
+      "published_offset": 3360864,
+      "actual_offset": 3360678,
+      "container_data_length": 3706198,
+      "distance_to_next_container": 3706225,
+      "header_sha256": "466571003d0cee1c6e6edba9322ec53631fbadc7731df7da6c0f5d53ee961c9c"
+    },
+    {
+      "published_offset": 52853145275,
+      "actual_offset": 52853145089,
+      "container_data_length": 3553470,
+      "distance_to_next_container": 3553499,
+      "header_sha256": "2b1c30713451109bcff3482650cac2cc9dc97ea277be984077fba19ef354550b"
+    }
+  ],
+  "scope": "Derived repair, not source-author confirmed. Each scientifically used container still requires successful integrity-checked decoding."
+}

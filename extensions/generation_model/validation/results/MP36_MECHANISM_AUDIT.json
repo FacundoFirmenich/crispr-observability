@@ -1,0 +1,3244 @@
+{
+  "status": "COMPLETE_SECONDARY_DIAGNOSTIC",
+  "protocol_sha256": "c28dc7359f248e8b1fd71d74225518cd007b6d3a314489480fe74ee4383f62ff",
+  "primary_result_sha256": "42003ac7773f894046181fa0a4896c9a6eb75baeeab7f26290016cf8ab571151",
+  "arms": {
+    "read_consensus|150|relative0|absolute_guardTrue": {
+      "outcomes": {
+        "correct": 61,
+        "unresolved": 3
+      },
+      "confusion": {
+        "0->0": 30,
+        "0->U": 2,
+        "1->1": 31,
+        "1->U": 1
+      },
+      "calls": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "call": "1"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "call": "1"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "call": "1"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "call": "U"
+        }
+      ]
+    },
+    "read_consensus|150|relative4|absolute_guardTrue": {
+      "outcomes": {
+        "unresolved": 46,
+        "correct": 18
+      },
+      "confusion": {
+        "0->U": 21,
+        "0->0": 11,
+        "1->U": 25,
+        "1->1": 7
+      },
+      "calls": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "call": "U"
+        }
+      ]
+    },
+    "median|150|relative0|absolute_guardFalse": {
+      "outcomes": {
+        "correct": 63,
+        "unresolved": 1
+      },
+      "confusion": {
+        "0->0": 31,
+        "0->U": 1,
+        "1->1": 32
+      },
+      "calls": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "call": "1"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "call": "1"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "call": "1"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "call": "1"
+        }
+      ]
+    },
+    "median|150|relative0|absolute_guardTrue": {
+      "outcomes": {
+        "correct": 63,
+        "unresolved": 1
+      },
+      "confusion": {
+        "0->0": 31,
+        "0->U": 1,
+        "1->1": 32
+      },
+      "calls": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "call": "1"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "call": "1"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "call": "1"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "call": "1"
+        }
+      ]
+    },
+    "median|150|relative4|absolute_guardFalse": {
+      "outcomes": {
+        "unresolved": 46,
+        "correct": 18
+      },
+      "confusion": {
+        "0->U": 21,
+        "0->0": 11,
+        "1->U": 25,
+        "1->1": 7
+      },
+      "calls": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "call": "U"
+        }
+      ]
+    },
+    "median|150|relative4|absolute_guardTrue": {
+      "outcomes": {
+        "unresolved": 46,
+        "correct": 18
+      },
+      "confusion": {
+        "0->U": 21,
+        "0->0": 11,
+        "1->U": 25,
+        "1->1": 7
+      },
+      "calls": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "call": "U"
+        }
+      ]
+    },
+    "read_consensus|300|relative0|absolute_guardTrue": {
+      "outcomes": {
+        "correct": 62,
+        "unresolved": 2
+      },
+      "confusion": {
+        "0->0": 31,
+        "0->U": 1,
+        "1->1": 31,
+        "1->U": 1
+      },
+      "calls": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "call": "1"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "call": "1"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "call": "1"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "call": "U"
+        }
+      ]
+    },
+    "read_consensus|300|relative4|absolute_guardTrue": {
+      "outcomes": {
+        "unresolved": 46,
+        "correct": 18
+      },
+      "confusion": {
+        "0->U": 21,
+        "0->0": 11,
+        "1->U": 25,
+        "1->1": 7
+      },
+      "calls": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "call": "U"
+        }
+      ]
+    },
+    "median|300|relative0|absolute_guardFalse": {
+      "outcomes": {
+        "correct": 63,
+        "unresolved": 1
+      },
+      "confusion": {
+        "0->0": 31,
+        "0->U": 1,
+        "1->1": 32
+      },
+      "calls": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "call": "1"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "call": "1"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "call": "1"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "call": "1"
+        }
+      ]
+    },
+    "median|300|relative0|absolute_guardTrue": {
+      "outcomes": {
+        "correct": 63,
+        "unresolved": 1
+      },
+      "confusion": {
+        "0->0": 31,
+        "0->U": 1,
+        "1->1": 32
+      },
+      "calls": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "call": "0"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "call": "1"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "call": "1"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "call": "1"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "call": "1"
+        }
+      ]
+    },
+    "median|300|relative4|absolute_guardFalse": {
+      "outcomes": {
+        "unresolved": 46,
+        "correct": 18
+      },
+      "confusion": {
+        "0->U": 21,
+        "0->0": 11,
+        "1->U": 25,
+        "1->1": 7
+      },
+      "calls": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "call": "U"
+        }
+      ]
+    },
+    "median|300|relative4|absolute_guardTrue": {
+      "outcomes": {
+        "unresolved": 46,
+        "correct": 18
+      },
+      "confusion": {
+        "0->U": 21,
+        "0->0": 11,
+        "1->U": 25,
+        "1->1": 7
+      },
+      "calls": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "call": "0"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "call": "0"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "call": "0"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "call": "0"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "call": "0"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "call": "0"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "call": "1"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "call": "1"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "call": "1"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "call": "U"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "call": "U"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "call": "U"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "call": "U"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "call": "U"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "call": "U"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "call": "U"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "call": "1"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "call": "U"
+        }
+      ]
+    }
+  },
+  "scope": "Aggregation/threshold/admission decomposition on identical test data; diagnostic alternatives not independently calibrated."
+}

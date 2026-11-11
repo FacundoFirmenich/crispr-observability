@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "loci": 64,
+  "read_window_rows_recounted": 2508,
+  "csv_sha256": "c68d00005fc1bf9d8ee6f3d65a044f2856408527ced986bd3f60d25211275e93",
+  "json_sha256": "23f41397dc8f32f0e99d79e376605a4f860533475751f97b71268c56d9ce606a",
+  "scope": "Cross-format recount, signed-margin arithmetic and per-locus support; not independent molecular truth."
+}

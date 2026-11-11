@@ -1,0 +1,959 @@
+{
+  "status": "COMPLETE",
+  "binding": {
+    "protocol": "26d8694b17ceb5db84466ac4b6e24af9b3c910424a6b675f87528dcf64b19d34",
+    "selection": "b85f05b9ddecda55f1a8122a4603c8e04d0dc4c99d67ba94aa7da888bb9707ad",
+    "worker": "29ec0aa72f2e01507d68b195a2b3d864f25fa216ecbf6bedd05e6534d45c3e98",
+    "rebased_index": "b77f4ae9d46b3aa2de8e76f77d1ac6cf3523d7fff3e1bcce16244460bb4f140b",
+    "source_manifest": "40441a01b95992c3e99ed4e55c0aeeaee1cbd198af4f531feeadef2adfa4b743"
+  },
+  "arms": {
+    "150": {
+      "read_outcomes": {
+        "ambiguous": 758,
+        "records": 1266,
+        "concordant_singleton": 508
+      },
+      "covered_evaluable_sites": 64,
+      "evaluable_sites": 64,
+      "planned_sites": 64,
+      "confusion": {
+        "0->U": 17,
+        "0->0": 15,
+        "1->U": 22,
+        "1->1": 10
+      },
+      "sites": [
+        {
+          "site": "chr22_29276991_GGTT_G",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_35232100_TTTA_T",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_19424662_G_GTT",
+          "expected": "0",
+          "call": "U",
+          "retained": 16,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_35681917_G_GTCTGGTGTAAACA",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_33464883_GCA_G",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_42360039_G_GCCTT",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_25288101_CTATTT_C",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_21639255_A_AAAAACAAAACAAAACAAAAC",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_48832290_A_AAAAAAAAC",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_27818765_G_GTCTTAGCTACAGACC",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_45144182_AAGAC_A",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_19041509_G_GGGCTGACACTTCTGTCAGACCCAGCCTCT",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_43128481_CCT_C",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_37912041_ATGTG_A",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_17695036_G_GCAGGAACTTATGGTT",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_23139623_AAAAT_A",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_47523242_CAAGTA_C",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_17314160_AAAAAG_A",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_46992857_C_CTT",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_40391653_CAAAAG_C",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_35447467_GTATTTATT_G",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_30223262_GGGACTGA_G",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_26418870_T_TCA",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_31733904_C_CCA",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_47477688_TCTCA_T",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_35436895_AGAGTCAGTTCGCAGAT_A",
+          "expected": "0",
+          "call": "0",
+          "retained": 14,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_36666423_A_ATTAAT",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_49074409_CCAA_C",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_31330295_TAAAG_T",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_49294162_C_CCAAA",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_38276246_CAAGA_C",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_49125641_C_CTATTT",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_42037128_TTGTGTG_T",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_41175272_G_GAC",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_33550142_T_TACACAC",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_26733887_ATC_A",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_28283325_T_TAC",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_38228406_A_AAGC",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_21718783_T_TAC",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_26366706_TCAAA_T",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_50557737_A_ATGT",
+          "expected": "1",
+          "call": "U",
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_33475424_ATATTTATT_A",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_48461982_C_CAT",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_42190791_T_TTGA",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_19367368_ATT_A",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_47538172_T_TAAG",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_35843447_G_GATTGTTTCCTC",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_30681800_C_CAAAAT",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_21702021_TCAAAAAACAACAA_T",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_38112888_CCT_C",
+          "expected": "1",
+          "call": "U",
+          "retained": 17,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_40315685_A_AAAGGGACCCAAGAACTCCC",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_20108791_G_GCGCCTACCTTGCCAGACCCTGGGCA",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_28124168_T_TTTG",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_29316533_GGC_G",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_30285808_T_TCTGCCCCAGCCCTTGGTGCTCCCC",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_27980719_ATACT_A",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_28411010_G_GAAAATGAAA",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_28056610_A_ATTTG",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_34531446_TTGTGTGTGTGTGTG_T",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_49073807_C_CCATCAT",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_38766179_AAAC_A",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_47034476_T_TGAG",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_44394032_A_ACT",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_45724046_GTA_G",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        }
+      ]
+    },
+    "300": {
+      "read_outcomes": {
+        "ambiguous": 758,
+        "records": 1266,
+        "concordant_singleton": 508
+      },
+      "covered_evaluable_sites": 64,
+      "evaluable_sites": 64,
+      "planned_sites": 64,
+      "confusion": {
+        "0->U": 17,
+        "0->0": 15,
+        "1->U": 22,
+        "1->1": 10
+      },
+      "sites": [
+        {
+          "site": "chr22_29276991_GGTT_G",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_35232100_TTTA_T",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_19424662_G_GTT",
+          "expected": "0",
+          "call": "U",
+          "retained": 16,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_35681917_G_GTCTGGTGTAAACA",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_33464883_GCA_G",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_42360039_G_GCCTT",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_25288101_CTATTT_C",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_21639255_A_AAAAACAAAACAAAACAAAAC",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_48832290_A_AAAAAAAAC",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_27818765_G_GTCTTAGCTACAGACC",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_45144182_AAGAC_A",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_19041509_G_GGGCTGACACTTCTGTCAGACCCAGCCTCT",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_43128481_CCT_C",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_37912041_ATGTG_A",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_17695036_G_GCAGGAACTTATGGTT",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_23139623_AAAAT_A",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_47523242_CAAGTA_C",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_17314160_AAAAAG_A",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_46992857_C_CTT",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_40391653_CAAAAG_C",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_35447467_GTATTTATT_G",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_30223262_GGGACTGA_G",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_26418870_T_TCA",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_31733904_C_CCA",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_47477688_TCTCA_T",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_35436895_AGAGTCAGTTCGCAGAT_A",
+          "expected": "0",
+          "call": "0",
+          "retained": 14,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_36666423_A_ATTAAT",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_49074409_CCAA_C",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_31330295_TAAAG_T",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_49294162_C_CCAAA",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_38276246_CAAGA_C",
+          "expected": "0",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_49125641_C_CTATTT",
+          "expected": "0",
+          "call": "0",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_42037128_TTGTGTG_T",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_41175272_G_GAC",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_33550142_T_TACACAC",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_26733887_ATC_A",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_28283325_T_TAC",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_38228406_A_AAGC",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_21718783_T_TAC",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_26366706_TCAAA_T",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_50557737_A_ATGT",
+          "expected": "1",
+          "call": "U",
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_33475424_ATATTTATT_A",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_48461982_C_CAT",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_42190791_T_TTGA",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_19367368_ATT_A",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_47538172_T_TAAG",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_35843447_G_GATTGTTTCCTC",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_30681800_C_CAAAAT",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_21702021_TCAAAAAACAACAA_T",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_38112888_CCT_C",
+          "expected": "1",
+          "call": "U",
+          "retained": 17,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_40315685_A_AAAGGGACCCAAGAACTCCC",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_20108791_G_GCGCCTACCTTGCCAGACCCTGGGCA",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_28124168_T_TTTG",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_29316533_GGC_G",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_30285808_T_TCTGCCCCAGCCCTTGGTGCTCCCC",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_27980719_ATACT_A",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_28411010_G_GAAAATGAAA",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_28056610_A_ATTTG",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_34531446_TTGTGTGTGTGTGTG_T",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_49073807_C_CCATCAT",
+          "expected": "1",
+          "call": "1",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_38766179_AAAC_A",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_47034476_T_TGAG",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_44394032_A_ACT",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr22_45724046_GTA_G",
+          "expected": "1",
+          "call": "U",
+          "retained": 20,
+          "status": "EVALUABLE"
+        }
+      ]
+    }
+  },
+  "paired_read_transitions": {
+    "0,1->0,1": 758,
+    "0->0": 283,
+    "1->1": 225
+  },
+  "paired_site_transitions": {
+    "U->U": 39,
+    "0->0": 15,
+    "1->1": 10
+  },
+  "unique_read_ids": 1214,
+  "read_site_records": 1266,
+  "primary_descriptive_gate": false,
+  "scope": "B: same actual read, nested observed150/300nt context. C: independent-acquisition concordance with HG005 GIAB v4.2.1 at predefined variant targets; not genome-wide discovery accuracy or molecular ground truth.",
+  "limitations": "HG005 is a reference cell line, not an editing experiment; absence from VCF is admitted only within benchmark BED under simple isolated context rules. Chronological independence of acquisition does not prove independence of every computational preprocessing choice. Conditional locus coverage assumes exchangeability, not established by this sample."
+}

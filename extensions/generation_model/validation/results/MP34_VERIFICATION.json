@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "paired_records": 13824,
+  "views": 27648,
+  "verified_arms": 12,
+  "primary_descriptive_gates": {
+    "baseline": false,
+    "shifted": true
+  },
+  "archive_sha256": "ced659bfea9b5ff95991bea949090b817e3ec09805aa19678870feea6e7741b0",
+  "scope": "Full recount from stored distances; alignment distances not all independently recomputed."
+}

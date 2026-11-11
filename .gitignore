@@ -21,3 +21,7 @@ private_prechange/
 !extensions/reproduction/geometry/source/**/results/*.json
 
 !extensions/correspondence_frontier/inputs/**/Alleles_frequency_table.zip
+
+.build-native*/
+!extensions/generation_model/validation/results/
+!extensions/generation_model/validation/results/**

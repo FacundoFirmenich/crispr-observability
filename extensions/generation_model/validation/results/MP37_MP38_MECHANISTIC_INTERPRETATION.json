@@ -1,0 +1,522 @@
+{
+  "status": "EXACT_DESCRIPTIVE_AUDIT",
+  "cohorts": {
+    "MP37": {
+      "150": {
+        "median_gain_over_consensus0": [
+          {
+            "site": "chr20_5664070_G_GTC",
+            "expected": "0",
+            "call": "0",
+            "labels": [
+              "0"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 5,
+            "event_size": 2,
+            "preferences": {
+              "contrary": 7,
+              "concordant": 13
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 0.0,
+                "1": 2.0
+              },
+              "absolute_admitted": 20
+            }
+          },
+          {
+            "site": "chr20_40147874_G_GGA",
+            "expected": "0",
+            "call": "0",
+            "labels": [
+              "0"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 40,
+            "event_size": 2,
+            "preferences": {
+              "concordant": 13,
+              "contrary": 7
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 0.0,
+                "1": 2.0
+              },
+              "absolute_admitted": 20
+            }
+          },
+          {
+            "site": "chr20_48196173_GGA_G",
+            "expected": "1",
+            "call": "1",
+            "labels": [
+              "1"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 48,
+            "event_size": 2,
+            "preferences": {
+              "concordant": 13,
+              "contrary": 7
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 2.0,
+                "1": 0.0
+              },
+              "absolute_admitted": 20
+            }
+          }
+        ],
+        "threshold_gain": 44,
+        "concordant_median_loci_with_contrary_preferences": 12,
+        "contrary_preferences_inside_concordant_median_loci": 35,
+        "all_contrary_preferences": 35
+      },
+      "300": {
+        "median_gain_over_consensus0": [
+          {
+            "site": "chr20_5664070_G_GTC",
+            "expected": "0",
+            "call": "0",
+            "labels": [
+              "0"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 5,
+            "event_size": 2,
+            "preferences": {
+              "contrary": 7,
+              "concordant": 13
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 0.0,
+                "1": 2.0
+              },
+              "absolute_admitted": 20
+            }
+          },
+          {
+            "site": "chr20_40147874_G_GGA",
+            "expected": "0",
+            "call": "0",
+            "labels": [
+              "0"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 40,
+            "event_size": 2,
+            "preferences": {
+              "concordant": 13,
+              "contrary": 7
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 0.0,
+                "1": 2.0
+              },
+              "absolute_admitted": 20
+            }
+          },
+          {
+            "site": "chr20_48196173_GGA_G",
+            "expected": "1",
+            "call": "1",
+            "labels": [
+              "1"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 48,
+            "event_size": 2,
+            "preferences": {
+              "concordant": 13,
+              "contrary": 7
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 2.0,
+                "1": 0.0
+              },
+              "absolute_admitted": 20
+            }
+          }
+        ],
+        "threshold_gain": 44,
+        "concordant_median_loci_with_contrary_preferences": 12,
+        "contrary_preferences_inside_concordant_median_loci": 35,
+        "all_contrary_preferences": 35
+      }
+    },
+    "MP38": {
+      "150": {
+        "median_gain_over_consensus0": [
+          {
+            "site": "chr20_2216688_GTT_G",
+            "expected": "0",
+            "call": "0",
+            "labels": [
+              "0"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 2,
+            "event_size": 2,
+            "preferences": {
+              "concordant": 14,
+              "tie": 3,
+              "contrary": 3
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 0.0,
+                "1": 2.0
+              },
+              "absolute_admitted": 20
+            }
+          },
+          {
+            "site": "chr20_50143701_CTT_C",
+            "expected": "0",
+            "call": "0",
+            "labels": [
+              "0"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 50,
+            "event_size": 2,
+            "preferences": {
+              "concordant": 15,
+              "contrary": 5
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 0.0,
+                "1": 2.0
+              },
+              "absolute_admitted": 20
+            }
+          },
+          {
+            "site": "chr20_46753704_C_CAA",
+            "expected": "0",
+            "call": "0",
+            "labels": [
+              "0"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 46,
+            "event_size": 2,
+            "preferences": {
+              "concordant": 12,
+              "tie": 4,
+              "contrary": 4
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 0.0,
+                "1": 2.0
+              },
+              "absolute_admitted": 20
+            }
+          },
+          {
+            "site": "chr20_34257064_CTT_C",
+            "expected": "0",
+            "call": "0",
+            "labels": [
+              "0"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 34,
+            "event_size": 2,
+            "preferences": {
+              "concordant": 15,
+              "tie": 5
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 0.0,
+                "1": 1.0
+              },
+              "absolute_admitted": 20
+            }
+          }
+        ],
+        "threshold_gain": 43,
+        "concordant_median_loci_with_contrary_preferences": 22,
+        "contrary_preferences_inside_concordant_median_loci": 40,
+        "all_contrary_preferences": 48
+      },
+      "300": {
+        "median_gain_over_consensus0": [
+          {
+            "site": "chr20_2216688_GTT_G",
+            "expected": "0",
+            "call": "0",
+            "labels": [
+              "0"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 2,
+            "event_size": 2,
+            "preferences": {
+              "concordant": 14,
+              "tie": 3,
+              "contrary": 3
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 0.0,
+                "1": 2.0
+              },
+              "absolute_admitted": 20
+            }
+          },
+          {
+            "site": "chr20_50143701_CTT_C",
+            "expected": "0",
+            "call": "0",
+            "labels": [
+              "0"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 50,
+            "event_size": 2,
+            "preferences": {
+              "concordant": 15,
+              "contrary": 5
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 0.0,
+                "1": 2.0
+              },
+              "absolute_admitted": 20
+            }
+          },
+          {
+            "site": "chr20_46753704_C_CAA",
+            "expected": "0",
+            "call": "0",
+            "labels": [
+              "0"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 46,
+            "event_size": 2,
+            "preferences": {
+              "concordant": 12,
+              "tie": 4,
+              "contrary": 4
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 0.0,
+                "1": 2.0
+              },
+              "absolute_admitted": 20
+            }
+          },
+          {
+            "site": "chr20_34257064_CTT_C",
+            "expected": "0",
+            "call": "0",
+            "labels": [
+              "0"
+            ],
+            "status": "EVALUABLE",
+            "retained": 20,
+            "region": 34,
+            "event_size": 2,
+            "preferences": {
+              "concordant": 15,
+              "tie": 5
+            },
+            "diagnostic": {
+              "median_relative": {
+                "0": 0.0,
+                "1": 1.0
+              },
+              "absolute_admitted": 20
+            }
+          }
+        ],
+        "threshold_gain": 42,
+        "concordant_median_loci_with_contrary_preferences": 22,
+        "contrary_preferences_inside_concordant_median_loci": 40,
+        "all_contrary_preferences": 48
+      }
+    }
+  },
+  "MP36_to_MP37_paired_acquisition_transitions": {
+    "median0_150": {
+      "transitions": {
+        "0->0": 31,
+        "U->0": 1,
+        "1->1": 32
+      },
+      "changed": [
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "before": "U",
+          "after": "0",
+          "before_support": 6,
+          "after_support": 20
+        }
+      ]
+    },
+    "consensus4_150": {
+      "transitions": {
+        "U->U": 46,
+        "0->0": 11,
+        "1->U": 1,
+        "1->1": 6
+      },
+      "changed": [
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "before": "1",
+          "after": "U",
+          "before_support": 20,
+          "after_support": 20
+        }
+      ]
+    },
+    "median0_300": {
+      "transitions": {
+        "0->0": 31,
+        "U->0": 1,
+        "1->1": 32
+      },
+      "changed": [
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "before": "U",
+          "after": "0",
+          "before_support": 6,
+          "after_support": 20
+        }
+      ]
+    },
+    "consensus4_300": {
+      "transitions": {
+        "U->U": 46,
+        "0->0": 11,
+        "1->U": 1,
+        "1->1": 6
+      },
+      "changed": [
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "before": "1",
+          "after": "U",
+          "before_support": 20,
+          "after_support": 20
+        }
+      ]
+    }
+  },
+  "observational_read_edges": [
+    {
+      "cohort": "MP38",
+      "type": "same_observed_read_not_causal_edge",
+      "read_id": "e6b886a8-82dd-4f74-8908-65a142d00816",
+      "source": "chr20_41385977_TTTTCTTTTCTC_T",
+      "target": "chr20_41411215_C_CAA",
+      "reference_distance": 25238,
+      "query_anchor_distance": 25237,
+      "query_sha256": "0c0515ea91d5a2d765f936a246c0e055a2f0aed1c7b7169260317ab350b0aa17",
+      "expected_labels": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "cohort": "MP38",
+      "type": "same_observed_read_not_causal_edge",
+      "read_id": "969da6f7-19c4-4bd0-81e0-15b49528ae27",
+      "source": "chr20_41385977_TTTTCTTTTCTC_T",
+      "target": "chr20_41411215_C_CAA",
+      "reference_distance": 25238,
+      "query_anchor_distance": 25209,
+      "query_sha256": "72687e1308028bba458a61b8267c831304d453fc0542dbefc456562a82ec884f",
+      "expected_labels": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "cohort": "MP38",
+      "type": "same_observed_read_not_causal_edge",
+      "read_id": "8e4579b2-4c9c-4efb-a41e-efc869f44888",
+      "source": "chr20_41385977_TTTTCTTTTCTC_T",
+      "target": "chr20_41411215_C_CAA",
+      "reference_distance": 25238,
+      "query_anchor_distance": 25212,
+      "query_sha256": "e8a84bd25823672ceaef98c52f87db7d23797501551deeabf0fdd411265f84a5",
+      "expected_labels": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "cohort": "MP38",
+      "type": "same_observed_read_not_causal_edge",
+      "read_id": "45db08be-58b6-4457-8275-44a0a1b663a8",
+      "source": "chr20_41385977_TTTTCTTTTCTC_T",
+      "target": "chr20_41411215_C_CAA",
+      "reference_distance": 25238,
+      "query_anchor_distance": 25223,
+      "query_sha256": "5ab44496349589f46db15ff91f553259eb283008c76c5af9d2afb48d77464ea2",
+      "expected_labels": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "cohort": "MP38",
+      "type": "same_observed_read_not_causal_edge",
+      "read_id": "4a5251aa-7855-47a9-a884-c8d3b79cfe84",
+      "source": "chr20_41385977_TTTTCTTTTCTC_T",
+      "target": "chr20_41411215_C_CAA",
+      "reference_distance": 25238,
+      "query_anchor_distance": 25245,
+      "query_sha256": "7f9fc5122df63137f33e142160171454870043df8d88ed544c5df2edbba13ac7",
+      "expected_labels": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "cohort": "MP38",
+      "type": "same_observed_read_not_causal_edge",
+      "read_id": "8c29b197-6049-4ea2-b8fa-0cb7d7bcb61c",
+      "source": "chr20_13251958_GAAGC_G",
+      "target": "chr20_13194543_ATGTG_A",
+      "reference_distance": 57415,
+      "query_anchor_distance": 57298,
+      "query_sha256": "024e2b252aabb3a5f51240b8a4f4477b932465ac831285b116b0f5a172c479bf",
+      "expected_labels": [
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "limitations": "New-acquisition contrasts are observational; no intervention on library preparation. Edges identify shared observed reads, not independent replication, causal links or molecular truth. Ties and contrary score preferences are not calibrated sequencing-error labels."
+}

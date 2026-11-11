@@ -1,0 +1,30 @@
+{
+ "schema":"claims-evidence-limits-v1",
+ "mission":"Strengthen CRISPR observability preprint through A computational calibration, B observed context, C external variants, D optional.",
+ "nodes":[
+  {"id":"E34","type":"experiment","status":"COMPLETE_PRIMARY_GATE_FAILED","source":"MP34_RESULT.json","unit":"controlled simulated read views and loci"},
+  {"id":"E35","type":"experiment","status":"COMPLETE_NO_CONTEXT_GAIN","source":"MP35_RESULT.json","unit":"real read-site records and targeted loci"},
+  {"id":"D35","type":"adverse_evidence","status":"OBSERVED","source":"MP35_DEPENDENCE_AUDIT.json","claim":"152 read IDs cross calibration/test;177 test records affected"},
+  {"id":"S35","type":"secondary_sensitivity","status":"COMPLETE","source":"MP35_DISJOINT_READ_SENSITIVITY.json","claim":"Fixed thresholds, shared test IDs removed,20/64 loci resolved; no context gain"},
+  {"id":"A_DIST","type":"implementation_audit","status":"PASS","source":"MP35_INDEPENDENT_DISTANCE_AUDIT.json","claim":"65452 distances agree with Edlib"},
+  {"id":"A_EXTRACT","type":"source_audit","status":"PASS_BOUNDED_SAMPLE","source":"MP35_INDEPENDENT_EXTRACTION_AUDIT.json","claim":"32 reads in16 hash-selected loci re-extracted by different coordinate mapping"},
+  {"id":"C_MARGIN","type":"posthoc_diagnostic","status":"OBSERVED_IN_PANEL","source":"MP35_CONTEXT_DIAGNOSTICS.json","claim":"All732 test records at2-4nt indels ambiguous in both views; frozen relative margin4"},
+  {"id":"C_EXTERNAL","type":"scope_claim","status":"SUPPORTED_AT_GENOTYPE_LEVEL","source":"MP35_BENCHMARK_SOURCE_DATES.json","claim":"HG005 benchmark files dated2021 precede read acquisition2024"},
+  {"id":"L_MOLECULE","type":"limit","status":"NOT_ESTABLISHED","claim":"Independent per-fragment molecular truth, editing efficacy and functional correction are not validated"},
+  {"id":"L_INDEPENDENCE","type":"limit","status":"PRIMARY_SPLIT_NOT_READ_DISJOINT","claim":"Locus separation does not ensure molecule separation; secondary exclusion is not retrospective preregistration"},
+  {"id":"G_SEND","type":"decision_gate","status":"NOT_CLOSED","claim":"Prospective region/read-disjoint validation and manuscript claim reconciliation remain"}
+ ],
+ "edges":[
+  {"from":"A_DIST","to":"E34","relation":"checks_distances_only"},
+  {"from":"A_DIST","to":"E35","relation":"checks_distances_only"},
+  {"from":"A_EXTRACT","to":"E35","relation":"checks_bounded_extraction_sample"},
+  {"from":"D35","to":"L_INDEPENDENCE","relation":"establishes_limitation"},
+  {"from":"S35","to":"E35","relation":"secondary_robustness_not_replacement"},
+  {"from":"C_MARGIN","to":"E35","relation":"explains_observed_abstention_in_size_stratum"},
+  {"from":"C_EXTERNAL","to":"E35","relation":"supports_external_genotype_comparison"},
+  {"from":"L_MOLECULE","to":"C_EXTERNAL","relation":"restricts_inference"},
+  {"from":"L_INDEPENDENCE","to":"G_SEND","relation":"prevents_strict_independence_claim"},
+  {"from":"E34","to":"G_SEND","relation":"preserves_failed_primary_gate"},
+  {"from":"E35","to":"G_SEND","relation":"no_demonstrated_real_context_benefit"}
+ ]
+}

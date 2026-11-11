@@ -1,0 +1,141 @@
+{
+  "status": "PASS",
+  "distance_engine": "edlib 1.3.9.post1",
+  "distance_comparisons": 5084,
+  "mismatches": 0,
+  "source_extraction_loci": 16,
+  "source_extraction_records": 32,
+  "checked": [
+    {
+      "site": "chr20_47134575_T_TAC",
+      "read_id": "b74d2ae3-993f-4e95-a526-1f0963bb3d20"
+    },
+    {
+      "site": "chr20_47134575_T_TAC",
+      "read_id": "9ea34b6d-7b96-49c2-a97f-727b74316cc8"
+    },
+    {
+      "site": "chr20_38602407_T_TAG",
+      "read_id": "00c1ff1c-126e-4f68-a545-33fcdec8ca62"
+    },
+    {
+      "site": "chr20_38602407_T_TAG",
+      "read_id": "6ddb1680-290d-4a4f-a499-070041e7580f"
+    },
+    {
+      "site": "chr20_7554429_G_GTGTATATATA",
+      "read_id": "ddf07df8-4ece-48c0-8495-d3d1af3d847a"
+    },
+    {
+      "site": "chr20_7554429_G_GTGTATATATA",
+      "read_id": "1f181e97-4da8-4e88-b2b4-1d0bd233cecb"
+    },
+    {
+      "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+      "read_id": "c5b6ddc4-5f5a-43ef-8ed9-2cc2a2c618e3"
+    },
+    {
+      "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+      "read_id": "28d9b92e-321f-48f3-9b06-f3c289059c77"
+    },
+    {
+      "site": "chr20_183100_T_TACACAC",
+      "read_id": "9ec1a0b5-d260-42a9-afa1-5bf383770ae3"
+    },
+    {
+      "site": "chr20_183100_T_TACACAC",
+      "read_id": "1eb45351-9c64-451b-bee5-7ce19d2cb0e5"
+    },
+    {
+      "site": "chr20_51317634_CAGGAG_C",
+      "read_id": "8b0c4c71-66c8-49c5-a93b-779fde0da609"
+    },
+    {
+      "site": "chr20_51317634_CAGGAG_C",
+      "read_id": "3d118bf3-805b-4553-a818-5b5fbbeaec81"
+    },
+    {
+      "site": "chr20_23213784_TAATAGA_T",
+      "read_id": "7f8f222f-957e-4b7b-b5db-08490155ebe2"
+    },
+    {
+      "site": "chr20_23213784_TAATAGA_T",
+      "read_id": "f66d5713-0406-4e4a-9aa5-69277e83f240"
+    },
+    {
+      "site": "chr20_25686787_C_CAGG",
+      "read_id": "0aad7cfc-8872-48bd-a12a-90d60e335ee3"
+    },
+    {
+      "site": "chr20_25686787_C_CAGG",
+      "read_id": "064ad985-59ab-4ff7-93f2-ce869ad998e3"
+    },
+    {
+      "site": "chr20_53146217_AATC_A",
+      "read_id": "85aa3591-906b-42d4-8fc8-7d61de0b425d"
+    },
+    {
+      "site": "chr20_53146217_AATC_A",
+      "read_id": "6ab12621-6cea-44a2-8fb8-69656a0cbf21"
+    },
+    {
+      "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+      "read_id": "2861131c-2cce-4d88-8760-255105482c65"
+    },
+    {
+      "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+      "read_id": "04b45920-80a7-44db-aa28-15722b11108b"
+    },
+    {
+      "site": "chr20_21389696_C_CTT",
+      "read_id": "2661d0f0-3660-43b3-a219-d76bffe292a8"
+    },
+    {
+      "site": "chr20_21389696_C_CTT",
+      "read_id": "0febf056-7787-4677-9e23-c30931a4a22c"
+    },
+    {
+      "site": "chr20_18423912_GAATA_G",
+      "read_id": "d18ea37d-c733-42b4-8a91-b9dabbfea1b9"
+    },
+    {
+      "site": "chr20_18423912_GAATA_G",
+      "read_id": "ca52a3f8-4fc4-49a6-9136-9961c64bc986"
+    },
+    {
+      "site": "chr20_17683798_G_GTTCA",
+      "read_id": "4a9cfdb2-fbbf-40da-8bd2-c692260b0499"
+    },
+    {
+      "site": "chr20_17683798_G_GTTCA",
+      "read_id": "93873b16-3f16-4f78-b7eb-ea052d30aecd"
+    },
+    {
+      "site": "chr20_659380_T_TGGAG",
+      "read_id": "e92553c4-9545-441a-9788-18b30780e639"
+    },
+    {
+      "site": "chr20_659380_T_TGGAG",
+      "read_id": "46dfbb98-2cce-4d89-b530-bf5a035dd3b6"
+    },
+    {
+      "site": "chr20_40147874_G_GGA",
+      "read_id": "eed584e7-4c9c-4a49-ae31-a7f559d7b1d4"
+    },
+    {
+      "site": "chr20_40147874_G_GGA",
+      "read_id": "a3805f5c-2d4f-4a9f-af21-3ba86c10ae9d"
+    },
+    {
+      "site": "chr20_14412430_CAG_C",
+      "read_id": "15c88e3d-481d-4ae1-9684-c7bf5d0ce91b"
+    },
+    {
+      "site": "chr20_14412430_CAG_C",
+      "read_id": "ebd34cc1-264a-4620-ba9c-f30bac17c133"
+    }
+  ],
+  "classifier_checks": 512,
+  "development_id_overlap": 0,
+  "scope": "All distances and calls checked; second extraction is hash-selected subset, not all records. No biological molecule truth."
+}

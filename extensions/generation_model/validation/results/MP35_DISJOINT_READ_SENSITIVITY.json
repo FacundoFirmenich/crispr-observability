@@ -1,0 +1,946 @@
+{
+  "status": "SECONDARY_POSTHOC_COMPLETE",
+  "primary_result_sha256": "633612c8e6f6f47c87108c7d94c330fff61ff61c94794e26ef09d5719bb4cbef",
+  "thresholds_unchanged": true,
+  "arms": {
+    "150": {
+      "removed_shared_records": 177,
+      "remaining_records": 1089,
+      "unique_remaining_reads": 1062,
+      "evaluable_sites": 55,
+      "planned_sites": 64,
+      "covered_evaluable_sites": 55,
+      "read_outcomes": {
+        "records": 1056,
+        "ambiguous": 657,
+        "concordant_singleton": 399
+      },
+      "confusion": {
+        "0->U": 20,
+        "0->0": 12,
+        "1->U": 24,
+        "1->1": 8
+      },
+      "sites": [
+        {
+          "site": "chr22_29276991_GGTT_G",
+          "expected": "0",
+          "retained_after_exclusion": 1,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_35232100_TTTA_T",
+          "expected": "0",
+          "retained_after_exclusion": 19,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_19424662_G_GTT",
+          "expected": "0",
+          "retained_after_exclusion": 16,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_35681917_G_GTCTGGTGTAAACA",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_33464883_GCA_G",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_42360039_G_GCCTT",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_25288101_CTATTT_C",
+          "expected": "0",
+          "retained_after_exclusion": 2,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_21639255_A_AAAAACAAAACAAAACAAAAC",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_48832290_A_AAAAAAAAC",
+          "expected": "0",
+          "retained_after_exclusion": 14,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_27818765_G_GTCTTAGCTACAGACC",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_45144182_AAGAC_A",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_19041509_G_GGGCTGACACTTCTGTCAGACCCAGCCTCT",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_43128481_CCT_C",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_37912041_ATGTG_A",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_17695036_G_GCAGGAACTTATGGTT",
+          "expected": "0",
+          "retained_after_exclusion": 6,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_23139623_AAAAT_A",
+          "expected": "0",
+          "retained_after_exclusion": 16,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_47523242_CAAGTA_C",
+          "expected": "0",
+          "retained_after_exclusion": 17,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_17314160_AAAAAG_A",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_46992857_C_CTT",
+          "expected": "0",
+          "retained_after_exclusion": 18,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_40391653_CAAAAG_C",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_35447467_GTATTTATT_G",
+          "expected": "0",
+          "retained_after_exclusion": 9,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_30223262_GGGACTGA_G",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_26418870_T_TCA",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_31733904_C_CCA",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_47477688_TCTCA_T",
+          "expected": "0",
+          "retained_after_exclusion": 0,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_35436895_AGAGTCAGTTCGCAGAT_A",
+          "expected": "0",
+          "retained_after_exclusion": 10,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_36666423_A_ATTAAT",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_49074409_CCAA_C",
+          "expected": "0",
+          "retained_after_exclusion": 4,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_31330295_TAAAG_T",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_49294162_C_CCAAA",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_38276246_CAAGA_C",
+          "expected": "0",
+          "retained_after_exclusion": 16,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_49125641_C_CTATTT",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_42037128_TTGTGTG_T",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_41175272_G_GAC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_33550142_T_TACACAC",
+          "expected": "1",
+          "retained_after_exclusion": 19,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_26733887_ATC_A",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_28283325_T_TAC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_38228406_A_AAGC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_21718783_T_TAC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_26366706_TCAAA_T",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_50557737_A_ATGT",
+          "expected": "1",
+          "retained_after_exclusion": 19,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_33475424_ATATTTATT_A",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_48461982_C_CAT",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_42190791_T_TTGA",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_19367368_ATT_A",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_47538172_T_TAAG",
+          "expected": "1",
+          "retained_after_exclusion": 19,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_35843447_G_GATTGTTTCCTC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_30681800_C_CAAAAT",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_21702021_TCAAAAAACAACAA_T",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_38112888_CCT_C",
+          "expected": "1",
+          "retained_after_exclusion": 17,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_40315685_A_AAAGGGACCCAAGAACTCCC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_20108791_G_GCGCCTACCTTGCCAGACCCTGGGCA",
+          "expected": "1",
+          "retained_after_exclusion": 5,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_28124168_T_TTTG",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_29316533_GGC_G",
+          "expected": "1",
+          "retained_after_exclusion": 19,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_30285808_T_TCTGCCCCAGCCCTTGGTGCTCCCC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_27980719_ATACT_A",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_28411010_G_GAAAATGAAA",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_28056610_A_ATTTG",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_34531446_TTGTGTGTGTGTGTG_T",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_49073807_C_CCATCAT",
+          "expected": "1",
+          "retained_after_exclusion": 4,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_38766179_AAAC_A",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_47034476_T_TGAG",
+          "expected": "1",
+          "retained_after_exclusion": 2,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_44394032_A_ACT",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_45724046_GTA_G",
+          "expected": "1",
+          "retained_after_exclusion": 17,
+          "call": "U",
+          "evaluable": true
+        }
+      ]
+    },
+    "300": {
+      "removed_shared_records": 177,
+      "remaining_records": 1089,
+      "unique_remaining_reads": 1062,
+      "evaluable_sites": 55,
+      "planned_sites": 64,
+      "covered_evaluable_sites": 55,
+      "read_outcomes": {
+        "records": 1056,
+        "ambiguous": 657,
+        "concordant_singleton": 399
+      },
+      "confusion": {
+        "0->U": 20,
+        "0->0": 12,
+        "1->U": 24,
+        "1->1": 8
+      },
+      "sites": [
+        {
+          "site": "chr22_29276991_GGTT_G",
+          "expected": "0",
+          "retained_after_exclusion": 1,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_35232100_TTTA_T",
+          "expected": "0",
+          "retained_after_exclusion": 19,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_19424662_G_GTT",
+          "expected": "0",
+          "retained_after_exclusion": 16,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_35681917_G_GTCTGGTGTAAACA",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_33464883_GCA_G",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_42360039_G_GCCTT",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_25288101_CTATTT_C",
+          "expected": "0",
+          "retained_after_exclusion": 2,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_21639255_A_AAAAACAAAACAAAACAAAAC",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_48832290_A_AAAAAAAAC",
+          "expected": "0",
+          "retained_after_exclusion": 14,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_27818765_G_GTCTTAGCTACAGACC",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_45144182_AAGAC_A",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_19041509_G_GGGCTGACACTTCTGTCAGACCCAGCCTCT",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_43128481_CCT_C",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_37912041_ATGTG_A",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_17695036_G_GCAGGAACTTATGGTT",
+          "expected": "0",
+          "retained_after_exclusion": 6,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_23139623_AAAAT_A",
+          "expected": "0",
+          "retained_after_exclusion": 16,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_47523242_CAAGTA_C",
+          "expected": "0",
+          "retained_after_exclusion": 17,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_17314160_AAAAAG_A",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_46992857_C_CTT",
+          "expected": "0",
+          "retained_after_exclusion": 18,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_40391653_CAAAAG_C",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_35447467_GTATTTATT_G",
+          "expected": "0",
+          "retained_after_exclusion": 9,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_30223262_GGGACTGA_G",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_26418870_T_TCA",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_31733904_C_CCA",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_47477688_TCTCA_T",
+          "expected": "0",
+          "retained_after_exclusion": 0,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_35436895_AGAGTCAGTTCGCAGAT_A",
+          "expected": "0",
+          "retained_after_exclusion": 10,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_36666423_A_ATTAAT",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_49074409_CCAA_C",
+          "expected": "0",
+          "retained_after_exclusion": 4,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_31330295_TAAAG_T",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_49294162_C_CCAAA",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_38276246_CAAGA_C",
+          "expected": "0",
+          "retained_after_exclusion": 16,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_49125641_C_CTATTT",
+          "expected": "0",
+          "retained_after_exclusion": 20,
+          "call": "0",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_42037128_TTGTGTG_T",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_41175272_G_GAC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_33550142_T_TACACAC",
+          "expected": "1",
+          "retained_after_exclusion": 19,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_26733887_ATC_A",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_28283325_T_TAC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_38228406_A_AAGC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_21718783_T_TAC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_26366706_TCAAA_T",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_50557737_A_ATGT",
+          "expected": "1",
+          "retained_after_exclusion": 19,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_33475424_ATATTTATT_A",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_48461982_C_CAT",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_42190791_T_TTGA",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_19367368_ATT_A",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_47538172_T_TAAG",
+          "expected": "1",
+          "retained_after_exclusion": 19,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_35843447_G_GATTGTTTCCTC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_30681800_C_CAAAAT",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_21702021_TCAAAAAACAACAA_T",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_38112888_CCT_C",
+          "expected": "1",
+          "retained_after_exclusion": 17,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_40315685_A_AAAGGGACCCAAGAACTCCC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_20108791_G_GCGCCTACCTTGCCAGACCCTGGGCA",
+          "expected": "1",
+          "retained_after_exclusion": 5,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_28124168_T_TTTG",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_29316533_GGC_G",
+          "expected": "1",
+          "retained_after_exclusion": 19,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_30285808_T_TCTGCCCCAGCCCTTGGTGCTCCCC",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_27980719_ATACT_A",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_28411010_G_GAAAATGAAA",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_28056610_A_ATTTG",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_34531446_TTGTGTGTGTGTGTG_T",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "1",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_49073807_C_CCATCAT",
+          "expected": "1",
+          "retained_after_exclusion": 4,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_38766179_AAAC_A",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_47034476_T_TGAG",
+          "expected": "1",
+          "retained_after_exclusion": 2,
+          "call": "U",
+          "evaluable": false
+        },
+        {
+          "site": "chr22_44394032_A_ACT",
+          "expected": "1",
+          "retained_after_exclusion": 20,
+          "call": "U",
+          "evaluable": true
+        },
+        {
+          "site": "chr22_45724046_GTA_G",
+          "expected": "1",
+          "retained_after_exclusion": 17,
+          "call": "U",
+          "evaluable": true
+        }
+      ]
+    }
+  },
+  "scope": "Exclude test read IDs present in calibration; no replacement, no refitting, minimum10 reads/site preserved; all64 planned sites remain in genotype denominators. Secondary sensitivity does not retroactively make original split independent. Shared biological sample, library and spatial dependence remain."
+}

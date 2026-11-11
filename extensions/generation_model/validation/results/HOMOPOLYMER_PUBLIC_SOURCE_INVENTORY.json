@@ -1,0 +1,294 @@
+{
+  "HG003": {
+    "status": "HOLD_SAMPLE_ALIAS",
+    "cram": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG003/PAY87794/output/SAMPLE.haplotagged.cram",
+    "cram_bytes": 73960128262,
+    "cram_etag": "\"e1a91a52025abf38367a2d7e9e6790c8-8817\"",
+    "header_prefix_sha256": "b206d5a0f54b4c942ebad477e47d003aeb288ab7ac2326ad02f126577037dd6c",
+    "chr20": {
+      "SN": "chr20",
+      "LN": "64444167",
+      "M5": "b18e6c531b0bd70e949a7fc20859cb01",
+      "UR": "/humvar-output/sup/work2/eb/8d076627a67a82b476e8c33cc346ed/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta"
+    },
+    "crai": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG003/PAY87794/output/SAMPLE.haplotagged.cram.crai",
+    "crai_sha256": "7bc91e747d30b96ff544888848e9d419c41cfd2ade12f5ab019e69b4f31a5ed0",
+    "index_offset_delta": -67,
+    "chr20_container_checks": [
+      {
+        "original_offset": 65615757105,
+        "physical_offset": 65615757038,
+        "sha256": "6a05dd05b9319cd2d8803239b8c29f457533ae53984297729b4d536ff43dfac1"
+      },
+      {
+        "original_offset": 66480987044,
+        "physical_offset": 66480986977,
+        "sha256": "8653fda9d3f954715edfdb04041f14b6fc10aaac4dac3edc66064297aec140ef"
+      },
+      {
+        "original_offset": 67432066393,
+        "physical_offset": 67432066326,
+        "sha256": "4d1d1bd59da9ce7bf7a285fb21a89d597dca177d68c30dc745ba5c0d516a9ea4"
+      }
+    ],
+    "flowcell": "PAY87794",
+    "acquisition_url": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/flowcells/HG003/PAY87794/final_summary_PAY87794_1103257b_5da671d2.txt",
+    "acquisition_sha256": "d8c1b17507f1aaa7c710e40d2396f7601cd2233e56364a8db028afa70b0b5e3b",
+    "acquisition": {
+      "instrument": "PC48LILITH",
+      "position": "2A",
+      "flow_cell_id": "PAY87794",
+      "sample_id": "ONLL08561",
+      "protocol_group_id": "20240819_HUMVAR_HG003_HG004_AS",
+      "protocol": "sequencing/sequencing_PRO114_DNA_e8_2_400K:FLO-PRO114M:SQK-LSK114:400",
+      "protocol_run_id": "1103257b-a866-48d1-8271-3295d71df243",
+      "acquisition_run_id": "5da671d21089870116e0b96e0f0fba1055f2416f",
+      "started": "2024-08-19T16:21:25.855682+01:00",
+      "acquisition_stopped": "2024-08-22T16:21:29.034184+01:00",
+      "processing_stopped": "2024-08-24T12:08:21.847455+01:00",
+      "basecalling_enabled": "1",
+      "sequencing_summary_file": "sequencing_summary_PAY87794_1103257b_5da671d2.txt",
+      "fast5_files_in_final_dest": "0",
+      "fast5_files_in_fallback": "0",
+      "pod5_files_in_final_dest": "188",
+      "pod5_files_in_fallback": "0",
+      "fastq_files_in_final_dest": "1390",
+      "fastq_files_in_fallback": "0",
+      "bam_files_in_final_dest": "0",
+      "bam_files_in_fallback": "0"
+    },
+    "truth": {
+      "vcf": {
+        "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG003_NA24149_father/NISTv4.2.1/GRCh38/HG003_GRCh38_1_22_v4.2.1_benchmark.vcf.gz",
+        "bytes": 147212428
+      },
+      "tabix": {
+        "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG003_NA24149_father/NISTv4.2.1/GRCh38/HG003_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi",
+        "bytes": 1651307
+      },
+      "bed": {
+        "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG003_NA24149_father/NISTv4.2.1/GRCh38/HG003_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed",
+        "bytes": 13219856
+      }
+    }
+  },
+  "HG004": {
+    "status": "HOLD_SAMPLE_ALIAS",
+    "cram": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG004/PAY87778/output/SAMPLE.haplotagged.cram",
+    "cram_bytes": 57866456954,
+    "cram_etag": "\"9ec5c278b97d040d6dfd0e3547153e06-6899\"",
+    "header_prefix_sha256": "1450cc54211ce6d5674ecde7872a9465e825ab44460c0fe32b2a9e5e66ef10b0",
+    "chr20": {
+      "SN": "chr20",
+      "LN": "64444167",
+      "M5": "b18e6c531b0bd70e949a7fc20859cb01",
+      "UR": "/humvar-output/sup/work2/a3/91d457a2f06c67a44a8779aec7d9c6/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta"
+    },
+    "crai": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG004/PAY87778/output/SAMPLE.haplotagged.cram.crai",
+    "crai_sha256": "cb4007581dcb8d8e65c708337fc55fb210dc291de6481d2ea9ab6769bf1233f9",
+    "index_offset_delta": -68,
+    "chr20_container_checks": [
+      {
+        "original_offset": 50385034997,
+        "physical_offset": 50385034929,
+        "sha256": "d482b299b8fcfc531131288633226e3b9112a4efcd9ec1d63d10400ca50674c7"
+      },
+      {
+        "original_offset": 51041919207,
+        "physical_offset": 51041919139,
+        "sha256": "15faa2c5b568242ee0363e2f4a783d4ab9ef47c115014ffd250a71efa5acf27d"
+      },
+      {
+        "original_offset": 51767620057,
+        "physical_offset": 51767619989,
+        "sha256": "19e43774b8f809aa5a81239754504175436b9eea97000ea00e2e2192521eefc1"
+      }
+    ],
+    "flowcell": "PAY87778",
+    "acquisition_url": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/flowcells/HG004/PAY87778/final_summary_PAY87778_09c771c3_4cc7b9e6.txt",
+    "acquisition_sha256": "23d6df171db27e596ab49622f64e5d73a44b80e2a65420c62ffac786e9e8916f",
+    "acquisition": {
+      "instrument": "PC48LILITH",
+      "position": "2D",
+      "flow_cell_id": "PAY87778",
+      "sample_id": "ONLL08564",
+      "protocol_group_id": "20240819_HUMVAR_HG003_HG004_AS",
+      "protocol": "sequencing/sequencing_PRO114_DNA_e8_2_400K:FLO-PRO114M:SQK-LSK114:400",
+      "protocol_run_id": "09c771c3-9cd3-47ff-aa85-74659b73d592",
+      "acquisition_run_id": "4cc7b9e6115bf1b7526fcaa36f2f4c9edbed36af",
+      "started": "2024-08-19T16:17:05.016916+01:00",
+      "acquisition_stopped": "2024-08-22T16:17:09.047762+01:00",
+      "processing_stopped": "2024-08-23T22:11:39.691984+01:00",
+      "basecalling_enabled": "1",
+      "sequencing_summary_file": "sequencing_summary_PAY87778_09c771c3_4cc7b9e6.txt",
+      "fast5_files_in_final_dest": "0",
+      "fast5_files_in_fallback": "0",
+      "pod5_files_in_final_dest": "161",
+      "pod5_files_in_fallback": "0",
+      "fastq_files_in_final_dest": "1224",
+      "fastq_files_in_fallback": "0",
+      "bam_files_in_final_dest": "0",
+      "bam_files_in_fallback": "0"
+    },
+    "truth": {
+      "vcf": {
+        "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG004_NA24143_mother/NISTv4.2.1/GRCh38/HG004_GRCh38_1_22_v4.2.1_benchmark.vcf.gz",
+        "bytes": 148948118
+      },
+      "tabix": {
+        "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG004_NA24143_mother/NISTv4.2.1/GRCh38/HG004_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi",
+        "bytes": 1653057
+      },
+      "bed": {
+        "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG004_NA24143_mother/NISTv4.2.1/GRCh38/HG004_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed",
+        "bytes": 13081043
+      }
+    }
+  },
+  "HG006": {
+    "status": "HEADER_INDEX_AND_ACQUISITION_VERIFIED",
+    "cram": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG006/PAY77227/output/SAMPLE.haplotagged.cram",
+    "cram_bytes": 51948758562,
+    "cram_etag": "\"4c56d6db9a11eda3f8a2d96d5500f24b-6193\"",
+    "header_prefix_sha256": "877a56c1a99bee5f1ba610207be56e84cc1317e3ef42f2e24c742b8b089d8bb9",
+    "chr20": {
+      "SN": "chr20",
+      "LN": "64444167",
+      "M5": "b18e6c531b0bd70e949a7fc20859cb01",
+      "UR": "/humvar-work-sup/72/78b3ed68504ec1ca6d8a1281dfba11/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta"
+    },
+    "crai": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG006/PAY77227/output/SAMPLE.haplotagged.cram.crai",
+    "crai_sha256": "c029acb4fa5d528b26236efed4de758edbde110ad17c38b9d8e16b2d02909068",
+    "index_offset_delta": -188,
+    "chr20_container_checks": [
+      {
+        "original_offset": 45818023411,
+        "physical_offset": 45818023223,
+        "sha256": "4f3dabe873ec90d1801541a1d46077d6babc8a57a2649c35a1178673f89a6b19"
+      },
+      {
+        "original_offset": 46434197306,
+        "physical_offset": 46434197118,
+        "sha256": "4306e7099067a3939c8703f204b9bc4509bc63d69215178066539e7288e92035"
+      },
+      {
+        "original_offset": 47102871777,
+        "physical_offset": 47102871589,
+        "sha256": "69a47afdfa4621765016c1c7a2492dabaeacd6dbe93da21cb295c8d80d35c04f"
+      }
+    ],
+    "flowcell": "PAY77227",
+    "acquisition_url": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/flowcells/HG006/PAY77227/final_summary_PAY77227_257a7011_61e9a8b0.txt",
+    "acquisition_sha256": "e7a11c0f65016064d48553176e52cb74cf33549678f44d8bb890e6bb24dc30cd",
+    "acquisition": {
+      "instrument": "PCAMP151",
+      "position": "5C",
+      "flow_cell_id": "PAY77227",
+      "sample_id": "hg006",
+      "protocol_group_id": "ca_dataset_hg006",
+      "protocol": "sequencing/sequencing_PRO114_DNA_e8_2_400K:FLO-PRO114M:SQK-LSK114:400",
+      "protocol_run_id": "257a7011-69a3-4cf7-9466-a9639ea49a9b",
+      "acquisition_run_id": "61e9a8b04aec8d872546e359d0652e83190c08d7",
+      "started": "2024-10-09T15:07:52.708428+00:00",
+      "acquisition_stopped": "2024-10-12T15:07:55.659150+00:00",
+      "processing_stopped": "2024-10-12T15:08:19.074543+00:00",
+      "basecalling_enabled": "1",
+      "sequencing_summary_file": "sequencing_summary_PAY77227_257a7011_61e9a8b0.txt",
+      "fast5_files_in_final_dest": "0",
+      "fast5_files_in_fallback": "0",
+      "pod5_files_in_final_dest": "75",
+      "pod5_files_in_fallback": "0",
+      "fastq_files_in_final_dest": "866",
+      "fastq_files_in_fallback": "0",
+      "bam_files_in_final_dest": "0",
+      "bam_files_in_fallback": "0"
+    },
+    "truth": {
+      "vcf": {
+        "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/ChineseTrio/HG006_NA24694_father/NISTv4.2.1/GRCh38/HG006_GRCh38_1_22_v4.2.1_benchmark.vcf.gz",
+        "bytes": 117161667
+      },
+      "tabix": {
+        "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/ChineseTrio/HG006_NA24694_father/NISTv4.2.1/GRCh38/HG006_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi",
+        "bytes": 1597126
+      },
+      "bed": {
+        "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/ChineseTrio/HG006_NA24694_father/NISTv4.2.1/GRCh38/HG006_GRCh38_1_22_v4.2.1_benchmark.bed",
+        "bytes": 15762527
+      }
+    }
+  },
+  "HG007": {
+    "status": "HEADER_INDEX_AND_ACQUISITION_VERIFIED",
+    "cram": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG007/PAY12990/output/SAMPLE.haplotagged.cram",
+    "cram_bytes": 65226836331,
+    "cram_etag": "\"674777d27c6276ad8170e0655439b0c0-7776\"",
+    "header_prefix_sha256": "e467b90b79dd48902d727e3d849e78dc028e346b80471d769adcef10fae1aa23",
+    "chr20": {
+      "SN": "chr20",
+      "LN": "64444167",
+      "M5": "b18e6c531b0bd70e949a7fc20859cb01",
+      "UR": "/humvar-work-sup/a6/7007d109e9a65a0b7463d851a51974/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta"
+    },
+    "crai": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG007/PAY12990/output/SAMPLE.haplotagged.cram.crai",
+    "crai_sha256": "66a377afeb5e32c6c1eb06cc1e11d11066e415f1e1a201f405719160360b3330",
+    "index_offset_delta": -186,
+    "chr20_container_checks": [
+      {
+        "original_offset": 56742132796,
+        "physical_offset": 56742132610,
+        "sha256": "94e1a1e5de80c8e7868126295633ba8eecefaa55ecb5f651140ac4c00a9e8003"
+      },
+      {
+        "original_offset": 57503334900,
+        "physical_offset": 57503334714,
+        "sha256": "bd72466889f157e65df8fffd90e6d3b00dc313540e78222c2450ab2526373120"
+      },
+      {
+        "original_offset": 58349752860,
+        "physical_offset": 58349752674,
+        "sha256": "57cb3a1cc202bbb5507522bd7a9afa87ddc9735dba68e538a059ec5c080258e8"
+      }
+    ],
+    "flowcell": "PAY12990",
+    "acquisition_url": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/flowcells/HG007/PAY12990/final_summary_PAY12990_339decd7_28b61cc7.txt",
+    "acquisition_sha256": "2b91da88c2d483aaea277eebafdaef02e307938ec1271d379cc81d19c8cf28c1",
+    "acquisition": {
+      "instrument": "PCAMP151",
+      "position": "5E",
+      "flow_cell_id": "PAY12990",
+      "sample_id": "hg007",
+      "protocol_group_id": "ca_dataset_hg007",
+      "protocol": "sequencing/sequencing_PRO114_DNA_e8_2_400K:FLO-PRO114M:SQK-LSK114:400",
+      "protocol_run_id": "339decd7-5c1b-4e81-a018-9721dff38370",
+      "acquisition_run_id": "28b61cc727e43b9ebdd2c7a28779e982fbc720b7",
+      "started": "2024-10-09T15:08:42.621305+00:00",
+      "acquisition_stopped": "2024-10-12T15:08:42.437781+00:00",
+      "processing_stopped": "2024-10-12T15:09:01.162364+00:00",
+      "basecalling_enabled": "1",
+      "sequencing_summary_file": "sequencing_summary_PAY12990_339decd7_28b61cc7.txt",
+      "fast5_files_in_final_dest": "0",
+      "fast5_files_in_fallback": "0",
+      "pod5_files_in_final_dest": "73",
+      "pod5_files_in_fallback": "0",
+      "fastq_files_in_final_dest": "866",
+      "fastq_files_in_fallback": "0",
+      "bam_files_in_final_dest": "0",
+      "bam_files_in_fallback": "0"
+    },
+    "truth": {
+      "vcf": {
+        "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/ChineseTrio/HG007_NA24695_mother/NISTv4.2.1/GRCh38/HG007_GRCh38_1_22_v4.2.1_benchmark.vcf.gz",
+        "bytes": 118171165
+      },
+      "tabix": {
+        "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/ChineseTrio/HG007_NA24695_mother/NISTv4.2.1/GRCh38/HG007_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi",
+        "bytes": 1596141
+      },
+      "bed": {
+        "url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/ChineseTrio/HG007_NA24695_mother/NISTv4.2.1/GRCh38/HG007_GRCh38_1_22_v4.2.1_benchmark.bed",
+        "bytes": 16208979
+      }
+    }
+  }
+}

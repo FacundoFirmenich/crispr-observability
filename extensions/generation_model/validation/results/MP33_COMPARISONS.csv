@@ -1,0 +1,25 @@
+arm,regime,score_catalogue,calibration_catalogue,alpha,covered_blocks,records,correct_singleton,wrong_singleton,ambiguous,empty,false_admission
+nuisance_canonical_canonical_10,nuisance,canonical,canonical,"[1, 10]",126,1536,794,5,737,0,0
+nuisance_canonical_canonical_20,nuisance,canonical,canonical,"[1, 20]",126,1536,794,5,737,0,0
+nuisance_canonical_expanded_10,nuisance,canonical,expanded,"[1, 10]",1,1536,419,3,664,450,0
+nuisance_canonical_expanded_20,nuisance,canonical,expanded,"[1, 20]",25,1536,633,5,718,180,0
+nuisance_expanded_canonical_10,nuisance,expanded,canonical,"[1, 10]",127,1536,802,1,733,0,0
+nuisance_expanded_canonical_20,nuisance,expanded,canonical,"[1, 20]",127,1536,802,1,733,0,0
+nuisance_expanded_expanded_10,nuisance,expanded,expanded,"[1, 10]",126,1536,802,1,732,1,0
+nuisance_expanded_expanded_20,nuisance,expanded,expanded,"[1, 20]",127,1536,802,1,733,0,0
+outside_canonical_canonical_10,outside,canonical,canonical,"[1, 10]",0,1536,0,0,0,1536,0
+outside_canonical_canonical_20,outside,canonical,canonical,"[1, 20]",0,1536,0,0,0,1536,0
+outside_canonical_expanded_10,outside,canonical,expanded,"[1, 10]",0,1536,0,0,0,1536,0
+outside_canonical_expanded_20,outside,canonical,expanded,"[1, 20]",0,1536,0,0,0,1536,0
+outside_expanded_canonical_10,outside,expanded,canonical,"[1, 10]",0,1536,0,0,0,1536,0
+outside_expanded_canonical_20,outside,expanded,canonical,"[1, 20]",0,1536,0,0,0,1536,0
+outside_expanded_expanded_10,outside,expanded,expanded,"[1, 10]",0,1536,0,0,0,1536,0
+outside_expanded_expanded_20,outside,expanded,expanded,"[1, 20]",0,1536,0,0,0,1536,0
+shifted_canonical_canonical_10,shifted,canonical,canonical,"[1, 10]",121,1536,774,5,754,3,0
+shifted_canonical_canonical_20,shifted,canonical,canonical,"[1, 20]",125,1536,596,0,937,3,0
+shifted_canonical_expanded_10,shifted,canonical,expanded,"[1, 10]",121,1536,774,5,754,3,0
+shifted_canonical_expanded_20,shifted,canonical,expanded,"[1, 20]",125,1536,596,0,937,3,0
+shifted_expanded_canonical_10,shifted,expanded,canonical,"[1, 10]",121,1536,774,5,754,3,0
+shifted_expanded_canonical_20,shifted,expanded,canonical,"[1, 20]",125,1536,596,0,937,3,0
+shifted_expanded_expanded_10,shifted,expanded,expanded,"[1, 10]",121,1536,774,5,754,3,0
+shifted_expanded_expanded_20,shifted,expanded,expanded,"[1, 20]",125,1536,596,0,937,3,0

@@ -1,0 +1,19 @@
+{
+  "engine": "edlib",
+  "version": "1.3.9.post1",
+  "mode": "HW",
+  "reports": {
+    "MP34": {
+      "comparisons": 55296,
+      "mismatches": [],
+      "status": "PASS"
+    },
+    "MP35": {
+      "comparisons": 10156,
+      "mismatches": [],
+      "status": "PASS"
+    }
+  },
+  "seconds": 2.460869434000415,
+  "scope": "Independent distance implementation, not independent biological truth or independent source extraction."
+}

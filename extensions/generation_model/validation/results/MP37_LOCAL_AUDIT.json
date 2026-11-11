@@ -1,0 +1,407 @@
+{
+  "strata": {
+    "150|type:deletion": {
+      "concordant": 582,
+      "tie": 5,
+      "contrary": 13
+    },
+    "150|orientation:False": {
+      "concordant": 596,
+      "tie": 5,
+      "contrary": 16
+    },
+    "150|size:2-4": {
+      "concordant": 855,
+      "tie": 10,
+      "contrary": 32
+    },
+    "150|class:0": {
+      "concordant": 607,
+      "tie": 3,
+      "contrary": 24
+    },
+    "150|region:14": {
+      "concordant": 79,
+      "tie": 1
+    },
+    "150|type:deletion&class:0": {
+      "concordant": 354,
+      "tie": 2,
+      "contrary": 4
+    },
+    "300|type:deletion": {
+      "concordant": 582,
+      "tie": 5,
+      "contrary": 13
+    },
+    "300|orientation:False": {
+      "concordant": 596,
+      "tie": 5,
+      "contrary": 16
+    },
+    "300|size:2-4": {
+      "concordant": 855,
+      "tie": 10,
+      "contrary": 32
+    },
+    "300|class:0": {
+      "concordant": 607,
+      "tie": 3,
+      "contrary": 24
+    },
+    "300|region:14": {
+      "concordant": 79,
+      "tie": 1
+    },
+    "300|type:deletion&class:0": {
+      "concordant": 354,
+      "tie": 2,
+      "contrary": 4
+    },
+    "150|orientation:True": {
+      "concordant": 628,
+      "contrary": 19,
+      "tie": 7
+    },
+    "300|orientation:True": {
+      "concordant": 628,
+      "contrary": 19,
+      "tie": 7
+    },
+    "150|type:insertion": {
+      "concordant": 642,
+      "contrary": 22,
+      "tie": 7
+    },
+    "150|size:5-10": {
+      "concordant": 313,
+      "contrary": 3,
+      "tie": 2
+    },
+    "150|region:48": {
+      "concordant": 69,
+      "contrary": 7
+    },
+    "150|type:insertion&class:0": {
+      "concordant": 253,
+      "contrary": 20,
+      "tie": 1
+    },
+    "300|type:insertion": {
+      "concordant": 642,
+      "contrary": 22,
+      "tie": 7
+    },
+    "300|size:5-10": {
+      "concordant": 313,
+      "contrary": 3,
+      "tie": 2
+    },
+    "300|region:48": {
+      "concordant": 69,
+      "contrary": 7
+    },
+    "300|type:insertion&class:0": {
+      "concordant": 253,
+      "contrary": 20,
+      "tie": 1
+    },
+    "150|region:0": {
+      "concordant": 80
+    },
+    "300|region:0": {
+      "concordant": 80
+    },
+    "150|region:13": {
+      "concordant": 96,
+      "tie": 2,
+      "contrary": 2
+    },
+    "300|region:13": {
+      "concordant": 96,
+      "tie": 2,
+      "contrary": 2
+    },
+    "150|region:25": {
+      "concordant": 78,
+      "contrary": 1,
+      "tie": 1
+    },
+    "300|region:25": {
+      "concordant": 78,
+      "contrary": 1,
+      "tie": 1
+    },
+    "150|region:5": {
+      "contrary": 7,
+      "concordant": 33
+    },
+    "300|region:5": {
+      "contrary": 7,
+      "concordant": 33
+    },
+    "150|region:8": {
+      "concordant": 20
+    },
+    "300|region:8": {
+      "concordant": 20
+    },
+    "150|region:18": {
+      "concordant": 38,
+      "contrary": 2
+    },
+    "300|region:18": {
+      "concordant": 38,
+      "contrary": 2
+    },
+    "150|region:23": {
+      "concordant": 36,
+      "tie": 1
+    },
+    "300|region:23": {
+      "concordant": 36,
+      "tie": 1
+    },
+    "150|size:11-30": {
+      "concordant": 56
+    },
+    "150|region:3": {
+      "concordant": 39,
+      "tie": 1
+    },
+    "300|size:11-30": {
+      "concordant": 56
+    },
+    "300|region:3": {
+      "concordant": 39,
+      "tie": 1
+    },
+    "150|region:53": {
+      "concordant": 19,
+      "contrary": 1
+    },
+    "300|region:53": {
+      "concordant": 19,
+      "contrary": 1
+    },
+    "150|region:38": {
+      "concordant": 78
+    },
+    "300|region:38": {
+      "concordant": 78
+    },
+    "150|region:63": {
+      "concordant": 40
+    },
+    "300|region:63": {
+      "concordant": 40
+    },
+    "150|region:40": {
+      "concordant": 33,
+      "contrary": 7
+    },
+    "300|region:40": {
+      "concordant": 33,
+      "contrary": 7
+    },
+    "150|region:7": {
+      "concordant": 56,
+      "contrary": 4
+    },
+    "300|region:7": {
+      "concordant": 56,
+      "contrary": 4
+    },
+    "150|region:47": {
+      "concordant": 17,
+      "tie": 1,
+      "contrary": 2
+    },
+    "300|region:47": {
+      "concordant": 17,
+      "tie": 1,
+      "contrary": 2
+    },
+    "150|region:51": {
+      "concordant": 40
+    },
+    "300|region:51": {
+      "concordant": 40
+    },
+    "150|class:1": {
+      "concordant": 617,
+      "tie": 9,
+      "contrary": 11
+    },
+    "150|region:46": {
+      "concordant": 77,
+      "tie": 2,
+      "contrary": 1
+    },
+    "150|type:insertion&class:1": {
+      "concordant": 389,
+      "tie": 6,
+      "contrary": 2
+    },
+    "300|class:1": {
+      "concordant": 617,
+      "tie": 9,
+      "contrary": 11
+    },
+    "300|region:46": {
+      "concordant": 77,
+      "tie": 2,
+      "contrary": 1
+    },
+    "300|type:insertion&class:1": {
+      "concordant": 389,
+      "tie": 6,
+      "contrary": 2
+    },
+    "150|region:21": {
+      "concordant": 40
+    },
+    "150|type:deletion&class:1": {
+      "concordant": 228,
+      "tie": 3,
+      "contrary": 9
+    },
+    "300|region:21": {
+      "concordant": 40
+    },
+    "300|type:deletion&class:1": {
+      "concordant": 228,
+      "tie": 3,
+      "contrary": 9
+    },
+    "150|region:54": {
+      "concordant": 59,
+      "tie": 1
+    },
+    "300|region:54": {
+      "concordant": 59,
+      "tie": 1
+    },
+    "150|region:60": {
+      "concordant": 20
+    },
+    "300|region:60": {
+      "concordant": 20
+    },
+    "150|region:6": {
+      "concordant": 38,
+      "tie": 2
+    },
+    "300|region:6": {
+      "concordant": 38,
+      "tie": 2
+    },
+    "150|region:17": {
+      "concordant": 20
+    },
+    "300|region:17": {
+      "concordant": 20
+    },
+    "150|region:32": {
+      "concordant": 80
+    },
+    "300|region:32": {
+      "concordant": 80
+    },
+    "150|region:59": {
+      "concordant": 19,
+      "contrary": 1
+    },
+    "300|region:59": {
+      "concordant": 19,
+      "contrary": 1
+    },
+    "150|region:62": {
+      "concordant": 20
+    },
+    "300|region:62": {
+      "concordant": 20
+    }
+  },
+  "read_site_records": 1271,
+  "unique_reads": 1271,
+  "shared_read_ids": {},
+  "shared_read_removal_sensitivity": {
+    "status": "POSTHOC_DIAGNOSTIC_NO_REPLACEMENT_NO_PRIMARY_GATE_REWRITE",
+    "removed_read_site_records": 0,
+    "arms": {
+      "consensus4_150": {
+        "outcomes": {
+          "unresolved": 47,
+          "correct": 17
+        },
+        "changed": []
+      },
+      "consensus0_150": {
+        "outcomes": {
+          "correct": 61,
+          "unresolved": 3
+        },
+        "changed": []
+      },
+      "median0_150": {
+        "outcomes": {
+          "correct": 64
+        },
+        "changed": []
+      },
+      "median_guard_150": {
+        "outcomes": {
+          "correct": 64
+        },
+        "changed": []
+      },
+      "consensus4_300": {
+        "outcomes": {
+          "unresolved": 47,
+          "correct": 17
+        },
+        "changed": []
+      },
+      "consensus0_300": {
+        "outcomes": {
+          "correct": 61,
+          "unresolved": 3
+        },
+        "changed": []
+      },
+      "median0_300": {
+        "outcomes": {
+          "correct": 64
+        },
+        "changed": []
+      },
+      "median_guard_300": {
+        "outcomes": {
+          "correct": 64
+        },
+        "changed": []
+      }
+    }
+  },
+  "nested_window_transitions": {
+    "consensus4": {
+      "U->U": 47,
+      "0->0": 11,
+      "1->1": 6
+    },
+    "consensus0": {
+      "0->0": 30,
+      "U->U": 3,
+      "1->1": 31
+    },
+    "median0": {
+      "0->0": 32,
+      "1->1": 32
+    },
+    "median_guard": {
+      "0->0": 32,
+      "1->1": 32
+    }
+  }
+}

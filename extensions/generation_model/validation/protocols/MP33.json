@@ -1,0 +1,16 @@
+{
+  "id": "MP33_PAIRED_CATALOGUE_ADMISSION_COLAB_V1",
+  "license": "MIT",
+  "scope": "Retrospective paired diagnostic of MP31 existing simulated records. MP31 and MP32 aggregate results were known before this protocol. No independent new biological or simulated observations are claimed.",
+  "question": "Does oracle catalogue expansion remove nuisance-background errors under the paired absolute-admission and relative-score rule, and how much change comes from scores versus recalibration?",
+  "input_sha256": "42ac9bb3872e1cb66d9283c595bb00a40263100874b2f0ed9548c84fc408bbbb",
+  "mp31_archive_sha256": "29261606702a1031516d55fd520310c7ee2b04ca39fd62f85396e3305bcfdce9",
+  "design": "Full 2x2 crossing of scoring catalogue {canonical, expanded} and calibration catalogue {canonical, expanded}; regimes shifted, nuisance, outside; alpha 1/10 and 1/20. All 24 arms reported. Outside uses shifted calibration and has no in-catalogue true allele.",
+  "calibration": "128 calibration locus blocks, 12 reads per regime. Absolute score maximum is the maximum true-allele distance in each block. Relative score maximum is max(d_true - min(d_0,d_1)). Each gate uses alpha/2: order rank ceil((n+1)*(1-alpha/2)); infinity if rank>n. Thresholds saved before test decisions.",
+  "rule": "Admit iff min(d_0,d_1)<=qA. Return allele a iff admitted and d_a-min(d_0,d_1)<=qR.",
+  "primary": "Paired nuisance-regime comparison canonical/canonical versus expanded/expanded at alpha 1/20; report whole-block coverage, correct and wrong singletons, ambiguity, empty sets and each adverse record's transition. Do not select favourable alpha or geometry.",
+  "secondary": "Crossed catalogue arms separate score changes from threshold changes. Report all geometry strata and source labels. The expanded catalogue is an oracle containing constructed nuisance templates; it does not discover unknown haplotypes.",
+  "validation": "Verify complete input archives and every MP31 manifest entry; reproduce all six MP32 canonical/canonical aggregate arms exactly; independently recompute calibration order statistics and recount decisions after download.",
+  "custody": "Three CPU batches, one regime per batch. Each produces a resumable archive, transferred through CLI and persisted to private Drive before the next batch. Reused checkpoints must match exact protocol and script hashes.",
+  "limits": "No nominal guarantee for transferred thresholds, outside records or arbitrary distribution shift. Distant outside controls do not establish rejection of homologous negatives. Source-base ancestry obstruction remains unchanged."
+}

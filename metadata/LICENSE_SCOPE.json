@@ -344,5 +344,11 @@
   "original_code_license": "GPL-3.0-only",
   "independent_extension_exceptions": {
     "extensions/generation_model/": "MIT; original extension code only; source data retain provenance"
+  },
+  "native_reproduction": {
+    "new_build_and_replay_code": "GPL-3.0-only",
+    "generation_model_validation_author_code": "MIT",
+    "historical_files": "Original source and licence notices preserved verbatim",
+    "data": "Source terms apply"
   }
 }

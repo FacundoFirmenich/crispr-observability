@@ -1,0 +1,50 @@
+{
+  "inputs": [
+    {
+      "path": "inputs/source.cram.crai",
+      "sha256": "71c66616a2773ee772f24f57490ea3f591ab57d43c4b67b28af07899fc9119e7",
+      "MB": 0.333085
+    },
+    {
+      "path": "inputs/chr20.fa.fai",
+      "sha256": "7455fb06dab8ff448f729300bc8fb43ab486a06cfb97b8d91851696c1995a887",
+      "MB": 2.3e-05
+    },
+    {
+      "path": "inputs/chr20_sequence.txt.gz",
+      "sha256": "c605f019a249af3c04a80201578a4346051ecbacdf4e1a3e99eb862c5d9164dc",
+      "MB": 16.544034
+    },
+    {
+      "path": "inputs/INDEX_REPAIR.json",
+      "sha256": "aafe68d7fd20757ee4c1a688c42fcf05b7d79139ee994c7ae73d005a9f346dcd",
+      "MB": 0.001205
+    },
+    {
+      "path": "inputs/truth.bed",
+      "sha256": "24141b618d3b33c1595e73c25e7958673a190482534bd28d0122af1f61758195",
+      "MB": 18.61534
+    },
+    {
+      "path": "inputs/truth_chr20.vcf",
+      "sha256": "c7beb36f21df8d39e4c0322ef5cc25ae4fc731884571508a338f3caa3935ff48",
+      "MB": 49.562228
+    },
+    {
+      "path": "inputs/candidate.vcf.gz",
+      "sha256": "f1ae8e96d89a471adfabc8ae54b5f0195e81608d6a948fb09e1fbed0a0968347",
+      "MB": 42.067646
+    },
+    {
+      "path": "inputs/truth.vcf.gz.tbi",
+      "sha256": "5d8e65ab012a0e8f6a44cf0f5c98df6848c7c8f48a062de1491804d7d0380733",
+      "MB": 1.615818
+    },
+    {
+      "path": "inputs/source.rebased.crai",
+      "sha256": "b77f4ae9d46b3aa2de8e76f77d1ac6cf3523d7fff3e1bcce16244460bb4f140b",
+      "MB": 0.332535
+    }
+  ],
+  "scope": "Frozen sources and selection, no HG005 chr20 read outcomes examined."
+}

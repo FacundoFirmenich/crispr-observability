@@ -1,0 +1,3234 @@
+{
+  "status": "POSTHOC_DESCRIPTIVE",
+  "counts": {
+    "calibration|150|records": 1273,
+    "calibration|150|mapped_span_outside_template": 0,
+    "calibration|300|records": 1273,
+    "calibration|300|mapped_span_outside_template": 0,
+    "test|150|records": 1266,
+    "test|150|mapped_span_outside_template": 0,
+    "test|300|records": 1266,
+    "test|300|mapped_span_outside_template": 0
+  },
+  "outcomes_by_indel_size": {
+    "calibration|150|2_to_4": {
+      "records": 876,
+      "ambiguous": 876,
+      "score_gap_le_event_size": 876
+    },
+    "calibration|300|2_to_4": {
+      "records": 876,
+      "ambiguous": 876,
+      "score_gap_le_event_size": 876
+    },
+    "calibration|150|5_to_30": {
+      "records": 397,
+      "concordant_singleton": 382,
+      "score_gap_le_event_size": 397,
+      "ambiguous": 15
+    },
+    "calibration|300|5_to_30": {
+      "records": 397,
+      "concordant_singleton": 382,
+      "score_gap_le_event_size": 397,
+      "ambiguous": 15
+    },
+    "test|150|2_to_4": {
+      "records": 732,
+      "ambiguous": 732,
+      "score_gap_le_event_size": 732
+    },
+    "test|300|2_to_4": {
+      "records": 732,
+      "ambiguous": 732,
+      "score_gap_le_event_size": 732
+    },
+    "test|150|5_to_30": {
+      "records": 534,
+      "concordant_singleton": 508,
+      "score_gap_le_event_size": 534,
+      "ambiguous": 26
+    },
+    "test|300|5_to_30": {
+      "records": 534,
+      "concordant_singleton": 508,
+      "score_gap_le_event_size": 534,
+      "ambiguous": 26
+    }
+  },
+  "largest_20_expected_scores": [
+    {
+      "stage": "calibration",
+      "site": "chr22_34106317_C_CTTACTCCAATAATTACT",
+      "expected": "0",
+      "read_id": "a83963c3-5d51-4bbf-985c-415e794a2bec",
+      "mapq": 60,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 56,
+          "1": 63
+        },
+        "300": {
+          "0": 118,
+          "1": 126
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            34106288,
+            34106395
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106304,
+              "query_position": 1046
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106309,
+              "query_position": 1050
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 34106327,
+              "query_position": 1068
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 34106353,
+              "query_position": 1092
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106363,
+              "query_position": 1104
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106369,
+              "query_position": 1109
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 34106372,
+              "query_position": 1111
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106382,
+              "query_position": 1119
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106385,
+              "query_position": 1121
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            34106288,
+            34106476
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106304,
+              "query_position": 1046
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106309,
+              "query_position": 1050
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 34106327,
+              "query_position": 1068
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 34106353,
+              "query_position": 1092
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106363,
+              "query_position": 1104
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106369,
+              "query_position": 1109
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 34106372,
+              "query_position": 1111
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106382,
+              "query_position": 1119
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106385,
+              "query_position": 1121
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106396,
+              "query_position": 1133
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106403,
+              "query_position": 1139
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106426,
+              "query_position": 1161
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106428,
+              "query_position": 1162
+            },
+            {
+              "operation": 2,
+              "length": 4,
+              "reference_start": 34106434,
+              "query_position": 1167
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34106473,
+              "query_position": 1205
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "test",
+      "site": "chr22_35436895_AGAGTCAGTTCGCAGAT_A",
+      "expected": "0",
+      "read_id": "3b5510ec-d8e3-4e02-b597-b8e32b894211",
+      "mapq": 60,
+      "reverse": false,
+      "scores": {
+        "150": {
+          "0": 58,
+          "1": 63
+        },
+        "300": {
+          "0": 115,
+          "1": 120
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            35436826,
+            35436968
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 6,
+              "reference_start": 35436833,
+              "query_position": 229
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436858,
+              "query_position": 251
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 35436861,
+              "query_position": 253
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 35436882,
+              "query_position": 273
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436899,
+              "query_position": 288
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436904,
+              "query_position": 292
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436916,
+              "query_position": 304
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436937,
+              "query_position": 332
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436946,
+              "query_position": 340
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436948,
+              "query_position": 341
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 35436957,
+              "query_position": 349
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            35436794,
+            35437044
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 6,
+              "reference_start": 35436833,
+              "query_position": 229
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436858,
+              "query_position": 251
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 35436861,
+              "query_position": 253
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 35436882,
+              "query_position": 273
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436899,
+              "query_position": 288
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436904,
+              "query_position": 292
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436916,
+              "query_position": 304
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436937,
+              "query_position": 332
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436946,
+              "query_position": 340
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35436948,
+              "query_position": 341
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 35436957,
+              "query_position": 349
+            },
+            {
+              "operation": 2,
+              "length": 4,
+              "reference_start": 35436991,
+              "query_position": 382
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35437005,
+              "query_position": 393
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 35437029,
+              "query_position": 417
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_17117269_CAATT_C",
+      "expected": "0",
+      "read_id": "2ccba248-ba15-4027-8f56-1a9f034a732f",
+      "mapq": 60,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 59,
+          "1": 58
+        },
+        "300": {
+          "0": 108,
+          "1": 105
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            17117175,
+            17117348
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117192,
+              "query_position": 4729
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117198,
+              "query_position": 4734
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117206,
+              "query_position": 4741
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 17117216,
+              "query_position": 4750
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117225,
+              "query_position": 4756
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 17117235,
+              "query_position": 4765
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 17117245,
+              "query_position": 4770
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117265,
+              "query_position": 4785
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117297,
+              "query_position": 4816
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117304,
+              "query_position": 4822
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117313,
+              "query_position": 4832
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 17117324,
+              "query_position": 4844
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117330,
+              "query_position": 4848
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117333,
+              "query_position": 4850
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 17117345,
+              "query_position": 4861
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            17117098,
+            17117432
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117104,
+              "query_position": 4643
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117120,
+              "query_position": 4660
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117150,
+              "query_position": 4690
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117154,
+              "query_position": 4693
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117173,
+              "query_position": 4711
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117192,
+              "query_position": 4729
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117198,
+              "query_position": 4734
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117206,
+              "query_position": 4741
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 17117216,
+              "query_position": 4750
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117225,
+              "query_position": 4756
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 17117235,
+              "query_position": 4765
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 17117245,
+              "query_position": 4770
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117265,
+              "query_position": 4785
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117297,
+              "query_position": 4816
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117304,
+              "query_position": 4822
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117313,
+              "query_position": 4832
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 17117324,
+              "query_position": 4844
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117330,
+              "query_position": 4848
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117333,
+              "query_position": 4850
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 17117345,
+              "query_position": 4861
+            },
+            {
+              "operation": 2,
+              "length": 4,
+              "reference_start": 17117349,
+              "query_position": 4863
+            },
+            {
+              "operation": 2,
+              "length": 4,
+              "reference_start": 17117372,
+              "query_position": 4882
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 17117410,
+              "query_position": 4918
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 17117421,
+              "query_position": 4928
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "test",
+      "site": "chr22_23139623_AAAAT_A",
+      "expected": "0",
+      "read_id": "67fcdf85-21d3-4e05-84a6-eafb4ee0b3bc",
+      "mapq": 60,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 52,
+          "1": 52
+        },
+        "300": {
+          "0": 92,
+          "1": 90
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            23139529,
+            23139706
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 18,
+              "reference_start": 23139601,
+              "query_position": 15488
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 23139626,
+              "query_position": 15495
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 23139630,
+              "query_position": 15498
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 23139657,
+              "query_position": 15525
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 23139671,
+              "query_position": 15537
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 23139689,
+              "query_position": 15552
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 23139695,
+              "query_position": 15557
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            23139454,
+            23139803
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 18,
+              "reference_start": 23139601,
+              "query_position": 15488
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 23139626,
+              "query_position": 15495
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 23139630,
+              "query_position": 15498
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 23139657,
+              "query_position": 15525
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 23139671,
+              "query_position": 15537
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 23139689,
+              "query_position": 15552
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 23139695,
+              "query_position": 15557
+            },
+            {
+              "operation": 2,
+              "length": 4,
+              "reference_start": 23139736,
+              "query_position": 15597
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 23139741,
+              "query_position": 15598
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 23139749,
+              "query_position": 15605
+            },
+            {
+              "operation": 2,
+              "length": 11,
+              "reference_start": 23139765,
+              "query_position": 15619
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 23139786,
+              "query_position": 15629
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "test",
+      "site": "chr22_47523242_CAAGTA_C",
+      "expected": "0",
+      "read_id": "4190d59a-f2bc-4dcf-b9aa-c41693cbe66c",
+      "mapq": 60,
+      "reverse": false,
+      "scores": {
+        "150": {
+          "0": 38,
+          "1": 40
+        },
+        "300": {
+          "0": 75,
+          "1": 77
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            47523163,
+            47523321
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523182,
+              "query_position": 5504
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523187,
+              "query_position": 5508
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523190,
+              "query_position": 5510
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523200,
+              "query_position": 5519
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 47523219,
+              "query_position": 5538
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523250,
+              "query_position": 5569
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 47523272,
+              "query_position": 5590
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523289,
+              "query_position": 5603
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523308,
+              "query_position": 5622
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            47523085,
+            47523398
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523110,
+              "query_position": 5435
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523114,
+              "query_position": 5438
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523145,
+              "query_position": 5469
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523147,
+              "query_position": 5470
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523182,
+              "query_position": 5504
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523187,
+              "query_position": 5508
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523190,
+              "query_position": 5510
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523200,
+              "query_position": 5519
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 47523219,
+              "query_position": 5538
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523250,
+              "query_position": 5569
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 47523272,
+              "query_position": 5590
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523289,
+              "query_position": 5603
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523308,
+              "query_position": 5622
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523340,
+              "query_position": 5655
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47523359,
+              "query_position": 5673
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 47523388,
+              "query_position": 5702
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "test",
+      "site": "chr22_26733887_ATC_A",
+      "expected": "1",
+      "read_id": "4ca94f19-3c8c-4708-aca1-f070c9f9a699",
+      "mapq": 60,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 36,
+          "1": 34
+        },
+        "300": {
+          "0": 70,
+          "1": 68
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            26733805,
+            26733967
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26733806,
+              "query_position": 5595
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26733821,
+              "query_position": 5608
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26733838,
+              "query_position": 5624
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26733850,
+              "query_position": 5636
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26733866,
+              "query_position": 5650
+            },
+            {
+              "operation": 2,
+              "length": 8,
+              "reference_start": 26733887,
+              "query_position": 5670
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26733942,
+              "query_position": 5717
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            26733724,
+            26734048
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 26733733,
+              "query_position": 5528
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26733778,
+              "query_position": 5572
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26733780,
+              "query_position": 5573
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26733784,
+              "query_position": 5575
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26733791,
+              "query_position": 5581
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26733806,
+              "query_position": 5595
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26733821,
+              "query_position": 5608
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26733838,
+              "query_position": 5624
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26733850,
+              "query_position": 5636
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26733866,
+              "query_position": 5650
+            },
+            {
+              "operation": 2,
+              "length": 8,
+              "reference_start": 26733887,
+              "query_position": 5670
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26733942,
+              "query_position": 5717
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26733968,
+              "query_position": 5745
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26733971,
+              "query_position": 5746
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26734011,
+              "query_position": 5785
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26734014,
+              "query_position": 5787
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 26734026,
+              "query_position": 5798
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_49639714_GTGCCCA_G",
+      "expected": "0",
+      "read_id": "e52f6ffd-6d1d-4bf1-aa4c-19ebe658d4d0",
+      "mapq": 40,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 21,
+          "1": 24
+        },
+        "300": {
+          "0": 65,
+          "1": 68
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            49639637,
+            49639792
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 49639646,
+              "query_position": 404
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 49639669,
+              "query_position": 426
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 49639728,
+              "query_position": 485
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 49639732,
+              "query_position": 487
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 49639746,
+              "query_position": 499
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 49639776,
+              "query_position": 529
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            49639576,
+            49639864
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 49639580,
+              "query_position": 324
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 49639646,
+              "query_position": 404
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 49639669,
+              "query_position": 426
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 49639728,
+              "query_position": 485
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 49639732,
+              "query_position": 487
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 49639746,
+              "query_position": 499
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 49639776,
+              "query_position": 529
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 49639856,
+              "query_position": 615
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_33637605_T_TTC",
+      "expected": "1",
+      "read_id": "fd735a78-bd5c-41eb-89e8-2aed03f19087",
+      "mapq": 60,
+      "reverse": false,
+      "scores": {
+        "150": {
+          "0": 33,
+          "1": 33
+        },
+        "300": {
+          "0": 64,
+          "1": 64
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            33637522,
+            33637685
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 33637545,
+              "query_position": 8880
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 33637560,
+              "query_position": 8896
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 33637591,
+              "query_position": 8926
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 33637594,
+              "query_position": 8927
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 33637620,
+              "query_position": 8950
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 33637646,
+              "query_position": 8971
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 33637650,
+              "query_position": 8974
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 33637678,
+              "query_position": 9001
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            33637450,
+            33637760
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 33637449,
+              "query_position": 8782
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 33637508,
+              "query_position": 8846
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 33637545,
+              "query_position": 8880
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 33637560,
+              "query_position": 8896
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 33637591,
+              "query_position": 8926
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 33637594,
+              "query_position": 8927
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 33637620,
+              "query_position": 8950
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 33637646,
+              "query_position": 8971
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 33637650,
+              "query_position": 8974
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 33637678,
+              "query_position": 9001
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 33637695,
+              "query_position": 9017
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 33637703,
+              "query_position": 9025
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 33637724,
+              "query_position": 9044
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_34582586_T_TAATAA",
+      "expected": "1",
+      "read_id": "f97aa52b-238c-4823-9a44-b39a76b57547",
+      "mapq": 60,
+      "reverse": false,
+      "scores": {
+        "150": {
+          "0": 26,
+          "1": 26
+        },
+        "300": {
+          "0": 62,
+          "1": 62
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            34582505,
+            34582654
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582529,
+              "query_position": 10089
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582540,
+              "query_position": 10099
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 34582544,
+              "query_position": 10102
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582553,
+              "query_position": 10109
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582647,
+              "query_position": 10209
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            34582421,
+            34582738
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582424,
+              "query_position": 9993
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582427,
+              "query_position": 9995
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582440,
+              "query_position": 10007
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 34582450,
+              "query_position": 10016
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582459,
+              "query_position": 10022
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582465,
+              "query_position": 10027
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582488,
+              "query_position": 10049
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582529,
+              "query_position": 10089
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582540,
+              "query_position": 10099
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 34582544,
+              "query_position": 10102
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582553,
+              "query_position": 10109
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582647,
+              "query_position": 10209
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 34582660,
+              "query_position": 10221
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582685,
+              "query_position": 10243
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582691,
+              "query_position": 10248
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 34582704,
+              "query_position": 10260
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 34582713,
+              "query_position": 10268
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 34582718,
+              "query_position": 10271
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "test",
+      "site": "chr22_43128481_CCT_C",
+      "expected": "0",
+      "read_id": "484102f6-d941-4efc-9d09-330292c8653c",
+      "mapq": 60,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 32,
+          "1": 32
+        },
+        "300": {
+          "0": 62,
+          "1": 62
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            43128404,
+            43128551
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 43128455,
+              "query_position": 8834
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 43128501,
+              "query_position": 8883
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 43128519,
+              "query_position": 8901
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 43128544,
+              "query_position": 8926
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            43128329,
+            43128628
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 43128364,
+              "query_position": 8744
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 43128455,
+              "query_position": 8834
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 43128501,
+              "query_position": 8883
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 43128519,
+              "query_position": 8901
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 43128544,
+              "query_position": 8926
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 43128562,
+              "query_position": 8946
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 43128573,
+              "query_position": 8955
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 43128575,
+              "query_position": 8956
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 43128609,
+              "query_position": 8991
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 43128620,
+              "query_position": 9001
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 43128623,
+              "query_position": 9003
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "test",
+      "site": "chr22_50557737_A_ATGT",
+      "expected": "1",
+      "read_id": "4631f482-887a-4bee-b672-64263bde9e01",
+      "mapq": 60,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 28,
+          "1": 25
+        },
+        "300": {
+          "0": 60,
+          "1": 57
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            50557665,
+            50557811
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557667,
+              "query_position": 15817
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557676,
+              "query_position": 15826
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557684,
+              "query_position": 15836
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557742,
+              "query_position": 15899
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557751,
+              "query_position": 15907
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557792,
+              "query_position": 15947
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            50557593,
+            50557893
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557617,
+              "query_position": 15767
+            },
+            {
+              "operation": 2,
+              "length": 4,
+              "reference_start": 50557627,
+              "query_position": 15783
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557634,
+              "query_position": 15786
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557649,
+              "query_position": 15800
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557667,
+              "query_position": 15817
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557676,
+              "query_position": 15826
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557684,
+              "query_position": 15836
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557742,
+              "query_position": 15899
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557751,
+              "query_position": 15907
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557792,
+              "query_position": 15947
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557831,
+              "query_position": 15985
+            },
+            {
+              "operation": 2,
+              "length": 4,
+              "reference_start": 50557866,
+              "query_position": 16019
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 50557881,
+              "query_position": 16032
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 50557887,
+              "query_position": 16035
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_46054899_GTATC_G",
+      "expected": "0",
+      "read_id": "cd243ba7-0a7f-4da4-a3e0-5b57dcec5606",
+      "mapq": 60,
+      "reverse": false,
+      "scores": {
+        "150": {
+          "0": 32,
+          "1": 32
+        },
+        "300": {
+          "0": 55,
+          "1": 55
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            46054821,
+            46054975
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 46054893,
+              "query_position": 29310
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46054912,
+              "query_position": 29330
+            },
+            {
+              "operation": 2,
+              "length": 4,
+              "reference_start": 46054920,
+              "query_position": 29337
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46054933,
+              "query_position": 29349
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46054956,
+              "query_position": 29371
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46054958,
+              "query_position": 29372
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            46054745,
+            46055052
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46054760,
+              "query_position": 29178
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46054817,
+              "query_position": 29235
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 46054893,
+              "query_position": 29310
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46054912,
+              "query_position": 29330
+            },
+            {
+              "operation": 2,
+              "length": 4,
+              "reference_start": 46054920,
+              "query_position": 29337
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46054933,
+              "query_position": 29349
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46054956,
+              "query_position": 29371
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46054958,
+              "query_position": 29372
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46055013,
+              "query_position": 29428
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46055019,
+              "query_position": 29433
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46055026,
+              "query_position": 29439
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46055029,
+              "query_position": 29441
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46055033,
+              "query_position": 29444
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "test",
+      "site": "chr22_36666423_A_ATTAAT",
+      "expected": "0",
+      "read_id": "190cde83-b3de-4c1a-8ff5-946d311b1612",
+      "mapq": 60,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 27,
+          "1": 28
+        },
+        "300": {
+          "0": 55,
+          "1": 56
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            36666349,
+            36666490
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 36666451,
+              "query_position": 33844
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 36666476,
+              "query_position": 33873
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            36666278,
+            36666566
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 36666451,
+              "query_position": 33844
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 36666476,
+              "query_position": 33873
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 36666496,
+              "query_position": 33898
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 36666516,
+              "query_position": 33918
+            },
+            {
+              "operation": 2,
+              "length": 6,
+              "reference_start": 36666525,
+              "query_position": 33926
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_19295843_G_GAACTGAAAT",
+      "expected": "1",
+      "read_id": "1e28eaa6-d9da-4898-9080-14afebce0a8a",
+      "mapq": 60,
+      "reverse": false,
+      "scores": {
+        "150": {
+          "0": 29,
+          "1": 30
+        },
+        "300": {
+          "0": 51,
+          "1": 52
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            19295766,
+            19295918
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 19295778,
+              "query_position": 15504
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 19295813,
+              "query_position": 15539
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 19295855,
+              "query_position": 15580
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 19295864,
+              "query_position": 15589
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 19295872,
+              "query_position": 15596
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 19295890,
+              "query_position": 15616
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            19295693,
+            19295996
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 19295751,
+              "query_position": 15479
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 19295778,
+              "query_position": 15504
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 19295813,
+              "query_position": 15539
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 19295855,
+              "query_position": 15580
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 19295864,
+              "query_position": 15589
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 19295872,
+              "query_position": 15596
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 19295890,
+              "query_position": 15616
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 19295919,
+              "query_position": 15643
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "test",
+      "site": "chr22_46992857_C_CTT",
+      "expected": "0",
+      "read_id": "11858d62-87c6-4f26-b87f-41ed33edc756",
+      "mapq": 60,
+      "reverse": false,
+      "scores": {
+        "150": {
+          "0": 27,
+          "1": 29
+        },
+        "300": {
+          "0": 51,
+          "1": 53
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            46992782,
+            46992936
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 46992793,
+              "query_position": 786
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992801,
+              "query_position": 792
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992814,
+              "query_position": 807
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 46992830,
+              "query_position": 823
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992861,
+              "query_position": 855
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992871,
+              "query_position": 864
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992880,
+              "query_position": 872
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992887,
+              "query_position": 878
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 46992902,
+              "query_position": 894
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            46992708,
+            46993014
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 46992755,
+              "query_position": 752
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992762,
+              "query_position": 757
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992768,
+              "query_position": 762
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 46992793,
+              "query_position": 786
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992801,
+              "query_position": 792
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992814,
+              "query_position": 807
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 46992830,
+              "query_position": 823
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992861,
+              "query_position": 855
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992871,
+              "query_position": 864
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992880,
+              "query_position": 872
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992887,
+              "query_position": 878
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 46992902,
+              "query_position": 894
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992976,
+              "query_position": 965
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 46992981,
+              "query_position": 969
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 46992988,
+              "query_position": 975
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "test",
+      "site": "chr22_27980719_ATACT_A",
+      "expected": "1",
+      "read_id": "44285201-a88c-42a4-8252-53ef3f871f0a",
+      "mapq": 60,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 43,
+          "1": 39
+        },
+        "300": {
+          "0": 54,
+          "1": 50
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            27980646,
+            27980798
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 27980647,
+              "query_position": 7805
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980651,
+              "query_position": 7807
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980660,
+              "query_position": 7816
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 27980713,
+              "query_position": 7877
+            },
+            {
+              "operation": 2,
+              "length": 4,
+              "reference_start": 27980719,
+              "query_position": 7880
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980732,
+              "query_position": 7889
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980737,
+              "query_position": 7893
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980744,
+              "query_position": 7899
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980752,
+              "query_position": 7906
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980756,
+              "query_position": 7912
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            27980571,
+            27980874
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 27980647,
+              "query_position": 7805
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980651,
+              "query_position": 7807
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980660,
+              "query_position": 7816
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 27980713,
+              "query_position": 7877
+            },
+            {
+              "operation": 2,
+              "length": 4,
+              "reference_start": 27980719,
+              "query_position": 7880
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980732,
+              "query_position": 7889
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980737,
+              "query_position": 7893
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980744,
+              "query_position": 7899
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980752,
+              "query_position": 7906
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980756,
+              "query_position": 7912
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 27980844,
+              "query_position": 8000
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_26529001_C_CAA",
+      "expected": "0",
+      "read_id": "6f4736c3-c4f7-4f24-a476-cf7ee2453a83",
+      "mapq": 60,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 37,
+          "1": 39
+        },
+        "300": {
+          "0": 48,
+          "1": 50
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            26528921,
+            26529091
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26528981,
+              "query_position": 1243
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26528989,
+              "query_position": 1249
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26528995,
+              "query_position": 1254
+            },
+            {
+              "operation": 2,
+              "length": 6,
+              "reference_start": 26529001,
+              "query_position": 1259
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26529022,
+              "query_position": 1274
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26529036,
+              "query_position": 1287
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26529057,
+              "query_position": 1310
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26529061,
+              "query_position": 1312
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 26529065,
+              "query_position": 1314
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 26529070,
+              "query_position": 1316
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            26528846,
+            26529166
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26528981,
+              "query_position": 1243
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26528989,
+              "query_position": 1249
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26528995,
+              "query_position": 1254
+            },
+            {
+              "operation": 2,
+              "length": 6,
+              "reference_start": 26529001,
+              "query_position": 1259
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26529022,
+              "query_position": 1274
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26529036,
+              "query_position": 1287
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26529057,
+              "query_position": 1310
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 26529061,
+              "query_position": 1312
+            },
+            {
+              "operation": 2,
+              "length": 3,
+              "reference_start": 26529065,
+              "query_position": 1314
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 26529070,
+              "query_position": 1316
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26529091,
+              "query_position": 1333
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 26529116,
+              "query_position": 1357
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_20113869_C_CCT",
+      "expected": "0",
+      "read_id": "983f365d-235f-4f89-bb1d-87b42d219e22",
+      "mapq": 60,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 21,
+          "1": 23
+        },
+        "300": {
+          "0": 47,
+          "1": 49
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            20113792,
+            20113946
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113815,
+              "query_position": 22729
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113841,
+              "query_position": 22758
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113845,
+              "query_position": 22761
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 20113849,
+              "query_position": 22764
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113894,
+              "query_position": 22807
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113899,
+              "query_position": 22811
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113920,
+              "query_position": 22831
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            20113717,
+            20114018
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 20113765,
+              "query_position": 22681
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113815,
+              "query_position": 22729
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113841,
+              "query_position": 22758
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113845,
+              "query_position": 22761
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 20113849,
+              "query_position": 22764
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113894,
+              "query_position": 22807
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113899,
+              "query_position": 22811
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113920,
+              "query_position": 22831
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113980,
+              "query_position": 22894
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113983,
+              "query_position": 22896
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113993,
+              "query_position": 22907
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20113996,
+              "query_position": 22909
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 20114006,
+              "query_position": 22918
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_25289155_C_CTT",
+      "expected": "0",
+      "read_id": "b7efe80e-777e-4d52-8631-222cb7f18a52",
+      "mapq": 60,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 10,
+          "1": 12
+        },
+        "300": {
+          "0": 46,
+          "1": 48
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            25289080,
+            25289226
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 25289175,
+              "query_position": 31873
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 25289179,
+              "query_position": 31876
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            25289005,
+            25289300
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 25289006,
+              "query_position": 31703
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 25289025,
+              "query_position": 31722
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 25289045,
+              "query_position": 31741
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 25289175,
+              "query_position": 31873
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 25289179,
+              "query_position": 31876
+            },
+            {
+              "operation": 2,
+              "length": 2,
+              "reference_start": 25289283,
+              "query_position": 31988
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 25289291,
+              "query_position": 31994
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stage": "calibration",
+      "site": "chr22_47687480_A_AAGGTCCG",
+      "expected": "1",
+      "read_id": "cd867116-496f-4f71-8da6-773f4e05c958",
+      "mapq": 60,
+      "reverse": true,
+      "scores": {
+        "150": {
+          "0": 27,
+          "1": 23
+        },
+        "300": {
+          "0": 50,
+          "1": 46
+        }
+      },
+      "views": {
+        "150": {
+          "mapped_reference_span": [
+            47687406,
+            47687556
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 47687420,
+              "query_position": 13091
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687440,
+              "query_position": 13106
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687443,
+              "query_position": 13108
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687501,
+              "query_position": 13173
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687515,
+              "query_position": 13186
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687529,
+              "query_position": 13200
+            }
+          ]
+        },
+        "300": {
+          "mapped_reference_span": [
+            47687331,
+            47687635
+          ],
+          "outside_template": false,
+          "deletion_or_skip_crossings": [
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687396,
+              "query_position": 13066
+            },
+            {
+              "operation": 2,
+              "length": 5,
+              "reference_start": 47687420,
+              "query_position": 13091
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687440,
+              "query_position": 13106
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687443,
+              "query_position": 13108
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687501,
+              "query_position": 13173
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687515,
+              "query_position": 13186
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687529,
+              "query_position": 13200
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687556,
+              "query_position": 13226
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687567,
+              "query_position": 13236
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687582,
+              "query_position": 13250
+            },
+            {
+              "operation": 2,
+              "length": 1,
+              "reference_start": 47687595,
+              "query_position": 13262
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "scope": "Reference span from stored CIGAR is an alignment-derived diagnostic, not molecular truth. No filtering, recalibration or primary result changes. Large score alone does not distinguish sequencing errors, mapping errors or catalogue incompleteness. Size strata are post-hoc explanatory diagnostics."
+}

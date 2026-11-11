@@ -1,6 +1,6 @@
 {
-  "version": "0.8.1",
-  "edition": "MP28_INTEGRATED",
+  "version": "0.9.0",
+  "edition": "NATIVE_REPRODUCTION",
   "status": "PUBLIC_COMPUTATIONAL_COMPANION_PRIVATE_MANUSCRIPTS",
   "public_release": true,
   "external_repository_created": true,
@@ -17,7 +17,7 @@
   "remote_CI_run": true,
   "raw_observer_replay_included": true,
   "fresh_alignment_included": false,
-  "canonical_review_command": "python extensions/retained_span_audit/reproduce.py --mode quick --output new-output",
+  "canonical_review_command": "python reproducibility/reproduce.py --mode quick --output new-output",
   "original_raw_inputs_included": 18,
   "frozen_alignment_tables_included": 84,
   "affiliations": [
@@ -37,7 +37,7 @@
   "full_alignment_large_original_outputs_included_in_repository": false,
   "source_SRA_accessions_currently_resolved": 9,
   "repository_default_branch": "Ulalito's-Island",
-  "release_date": "2026-11-10",
+  "release_date": "2026-11-11",
   "public_source_release_does_not_certify_human_final_manuscript_approval": true,
   "complete_author_profile_recovered": true,
   "source_preprints": 3,
@@ -146,5 +146,6 @@
       "MP28"
     ],
     "manuscripts_private": true
-  }
+  },
+  "native_artifact_verification": "Per-platform full replay receipts accompany released binaries."
 }

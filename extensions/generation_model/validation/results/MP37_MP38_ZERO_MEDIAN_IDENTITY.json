@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "proof": "For n nonnegative regrets sorted ascending, the usual median equals zero iff at least floor(n/2)+1 entries are zero. For even n both middle entries must vanish; for odd n the middle entry must vanish. Hence zero-threshold allele admission equals strict-majority zero-regret support, with ties supporting both alleles. Singleton selection additionally requires the other allele not be admitted.",
+  "exhaustive_sign_count_patterns_n1_to30": 5455,
+  "scope": "Algebraic characterization of the realized zero threshold, not a new statistical guarantee or biological truth claim."
+}

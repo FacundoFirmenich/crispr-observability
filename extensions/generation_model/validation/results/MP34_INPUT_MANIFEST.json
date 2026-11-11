@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "path": "benchmark.vcf.gz",
+      "sha256": "f1ae8e96d89a471adfabc8ae54b5f0195e81608d6a948fb09e1fbed0a0968347",
+      "MB": 42.067646
+    },
+    {
+      "path": "benchmark.bed",
+      "sha256": "45af78e6b8c3c431d27006149071925aaccdb8db3e83196006cb3d30b9c23854",
+      "MB": 0.684153
+    },
+    {
+      "path": "chr22.fa.gz",
+      "sha256": "05f9d97d6fbfd08a44ca45b50837ca2ae9c471f35ba79dffec04d2cb5eaaf695",
+      "MB": 12.255678
+    }
+  ]
+}

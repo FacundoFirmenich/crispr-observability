@@ -1,0 +1,3996 @@
+{
+  "status": "COMPLETE",
+  "binding": {
+    "protocol": "a57afc8783bfdbd3f0c1798a22d8f2ca7b8654bce3786f1d55fe28b91fedeed4",
+    "selection": "b0e28cea5171cd407e022d21e3c0d716f624159941d2ee5972015bc6fda04c13",
+    "worker": "3a975c867ff88a59f43a74ac4b53eaa690aadfc69c7f0e609c0e91995e89e079",
+    "rebased_index": "b77f4ae9d46b3aa2de8e76f77d1ac6cf3523d7fff3e1bcce16244460bb4f140b",
+    "source_manifest": "72415336f3d37860740b8862d4b62b6d2b95e6d942339c0cc92fa7d8291ee721"
+  },
+  "arms": {
+    "aggregate_150": {
+      "confusion": {
+        "0->0": 31,
+        "0->U": 1,
+        "1->1": 32
+      },
+      "outcomes": {
+        "correct": 63,
+        "unresolved": 1
+      },
+      "covered_planned_sites": 63,
+      "planned_sites": 64,
+      "evaluable_sites": 63,
+      "region_coverage": {
+        "14": true,
+        "48": true,
+        "0": true,
+        "13": true,
+        "25": false,
+        "5": true,
+        "8": true,
+        "18": true,
+        "23": true,
+        "3": true,
+        "53": true,
+        "38": true,
+        "63": true,
+        "40": true,
+        "7": true,
+        "47": true,
+        "51": true,
+        "46": true,
+        "21": true,
+        "54": true,
+        "60": true,
+        "6": true,
+        "17": true,
+        "32": true,
+        "59": true,
+        "62": true
+      },
+      "sites": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "region": 14,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 6
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "region": 48,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 16
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "region": 0,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 8
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "region": 13,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "region": 25,
+          "expected": "0",
+          "call": "U",
+          "labels": [],
+          "covered": false,
+          "score2": null,
+          "retained": 6,
+          "status": "INSUFFICIENT_READS"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "region": 5,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "region": 13,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "region": 8,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 20
+          },
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "region": 48,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 8
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "region": 18,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "region": 23,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 12
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "region": 3,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 28
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "region": 53,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 6
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "region": 0,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 6
+          },
+          "retained": 17,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "region": 38,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 8
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "region": 48,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 28
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "region": 38,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 10
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "region": 0,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 16
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "region": 0,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 12
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "region": 63,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 20
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "region": 63,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "region": 40,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "region": 7,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 20
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "region": 47,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "region": 7,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "region": 7,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "region": 13,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 6
+          },
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "region": 25,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 8
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "region": 18,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 8
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "region": 25,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "region": 40,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "region": 51,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 10
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "region": 46,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "region": 38,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "region": 46,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 14,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "region": 21,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "region": 54,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "region": 60,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 20,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "region": 46,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 32,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "region": 6,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "region": 14,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "region": 38,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "region": 17,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "region": 32,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 6,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "region": 32,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 10,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "region": 54,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 16,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "region": 59,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 10,
+            "1": 0
+          },
+          "retained": 18,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "region": 32,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "region": 13,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "region": 14,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 17,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "region": 25,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 6,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "region": 62,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "region": 5,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 6,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "region": 54,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "region": 3,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "region": 32,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "region": 46,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 6,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "region": 14,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "region": 6,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "region": 13,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "region": 23,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 6,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "region": 21,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "region": 51,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 10,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "region": 48,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        }
+      ]
+    },
+    "baseline_150": {
+      "confusion": {
+        "0->U": 21,
+        "0->0": 11,
+        "1->U": 25,
+        "1->1": 7
+      },
+      "outcomes": {
+        "unresolved": 46,
+        "correct": 18
+      },
+      "covered_planned_sites": 63,
+      "planned_sites": 64,
+      "evaluable_sites": 63,
+      "region_coverage": {
+        "14": true,
+        "48": true,
+        "0": true,
+        "13": true,
+        "25": false,
+        "5": true,
+        "8": true,
+        "18": true,
+        "23": true,
+        "3": true,
+        "53": true,
+        "38": true,
+        "63": true,
+        "40": true,
+        "7": true,
+        "47": true,
+        "51": true,
+        "46": true,
+        "21": true,
+        "54": true,
+        "60": true,
+        "6": true,
+        "17": true,
+        "32": true,
+        "59": true,
+        "62": true
+      },
+      "sites": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "region": 14,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "region": 48,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "region": 0,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "region": 13,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "region": 25,
+          "expected": "0",
+          "call": "U",
+          "labels": [],
+          "covered": false,
+          "score2": null,
+          "retained": 6,
+          "status": "INSUFFICIENT_READS"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "region": 5,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "region": 13,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "region": 8,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "region": 48,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "region": 18,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "region": 23,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "region": 3,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "region": 53,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "region": 0,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 17,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "region": 38,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "region": 48,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "region": 38,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "region": 0,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "region": 0,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "region": 63,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "region": 63,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "region": 40,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "region": 7,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "region": 47,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "region": 7,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "region": 7,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "region": 13,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "region": 25,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "region": 18,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "region": 25,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "region": 40,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "region": 51,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "region": 46,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "region": 38,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "region": 46,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "region": 21,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "region": 54,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "region": 60,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "region": 46,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "region": 6,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "region": 14,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "region": 38,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "region": 17,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "region": 32,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "region": 32,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "region": 54,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "region": 59,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 18,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "region": 32,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "region": 13,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "region": 14,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 17,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "region": 25,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "region": 62,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "region": 5,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "region": 54,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "region": 3,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "region": 32,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "region": 46,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "region": 14,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "region": 6,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "region": 13,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "region": 23,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "region": 21,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "region": 51,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "region": 48,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        }
+      ]
+    },
+    "aggregate_300": {
+      "confusion": {
+        "0->0": 31,
+        "0->U": 1,
+        "1->1": 32
+      },
+      "outcomes": {
+        "correct": 63,
+        "unresolved": 1
+      },
+      "covered_planned_sites": 63,
+      "planned_sites": 64,
+      "evaluable_sites": 63,
+      "region_coverage": {
+        "14": true,
+        "48": true,
+        "0": true,
+        "13": true,
+        "25": false,
+        "5": true,
+        "8": true,
+        "18": true,
+        "23": true,
+        "3": true,
+        "53": true,
+        "38": true,
+        "63": true,
+        "40": true,
+        "7": true,
+        "47": true,
+        "51": true,
+        "46": true,
+        "21": true,
+        "54": true,
+        "60": true,
+        "6": true,
+        "17": true,
+        "32": true,
+        "59": true,
+        "62": true
+      },
+      "sites": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "region": 14,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 6
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "region": 48,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 16
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "region": 0,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 8
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "region": 13,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "region": 25,
+          "expected": "0",
+          "call": "U",
+          "labels": [],
+          "covered": false,
+          "score2": null,
+          "retained": 6,
+          "status": "INSUFFICIENT_READS"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "region": 5,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "region": 13,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "region": 8,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 20
+          },
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "region": 48,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 8
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "region": 18,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "region": 23,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 12
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "region": 3,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 28
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "region": 53,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 6
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "region": 0,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 6
+          },
+          "retained": 17,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "region": 38,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 8
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "region": 48,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 42
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "region": 38,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 10
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "region": 0,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 16
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "region": 0,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 12
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "region": 63,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 20
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "region": 63,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "region": 40,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "region": 7,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 20
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "region": 47,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "region": 7,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "region": 7,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "region": 13,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 6
+          },
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "region": 25,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 8
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "region": 18,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 8
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "region": 25,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "region": 40,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 4
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "region": 51,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 0,
+            "1": 10
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "region": 46,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "region": 38,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "region": 46,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 14,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "region": 21,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "region": 54,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "region": 60,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 20,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "region": 46,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 32,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "region": 6,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "region": 14,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "region": 38,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "region": 17,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "region": 32,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 6,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "region": 32,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 10,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "region": 54,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 16,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "region": 59,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 10,
+            "1": 0
+          },
+          "retained": 18,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "region": 32,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "region": 13,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "region": 14,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 17,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "region": 25,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 6,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "region": 62,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "region": 5,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 6,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "region": 54,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "region": 3,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "region": 32,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "region": 46,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 6,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "region": 14,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "region": 6,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 8,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "region": 13,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "region": 23,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 6,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "region": 21,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "region": 51,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 10,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "region": 48,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": {
+            "0": 4,
+            "1": 0
+          },
+          "retained": 20,
+          "status": "EVALUABLE"
+        }
+      ]
+    },
+    "baseline_300": {
+      "confusion": {
+        "0->U": 21,
+        "0->0": 11,
+        "1->U": 25,
+        "1->1": 7
+      },
+      "outcomes": {
+        "unresolved": 46,
+        "correct": 18
+      },
+      "covered_planned_sites": 63,
+      "planned_sites": 64,
+      "evaluable_sites": 63,
+      "region_coverage": {
+        "14": true,
+        "48": true,
+        "0": true,
+        "13": true,
+        "25": false,
+        "5": true,
+        "8": true,
+        "18": true,
+        "23": true,
+        "3": true,
+        "53": true,
+        "38": true,
+        "63": true,
+        "40": true,
+        "7": true,
+        "47": true,
+        "51": true,
+        "46": true,
+        "21": true,
+        "54": true,
+        "60": true,
+        "6": true,
+        "17": true,
+        "32": true,
+        "59": true,
+        "62": true
+      },
+      "sites": [
+        {
+          "site": "chr20_14300862_CATT_C",
+          "region": 14,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48552608_G_GCACACACA",
+          "region": 48,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_659380_T_TGGAG",
+          "region": 0,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13330455_TGA_T",
+          "region": 13,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25434443_T_TTTTTC",
+          "region": 25,
+          "expected": "0",
+          "call": "U",
+          "labels": [],
+          "covered": false,
+          "score2": null,
+          "retained": 6,
+          "status": "INSUFFICIENT_READS"
+        },
+        {
+          "site": "chr20_5664070_G_GTC",
+          "region": 5,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13246937_A_AAT",
+          "region": 13,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_8518528_ATTGTCAGTTT_A",
+          "region": 8,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48696606_CACAT_C",
+          "region": 48,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_18200343_CAT_C",
+          "region": 18,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_23213784_TAATAGA_T",
+          "region": 23,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_3755760_CCCCCAGCCCAGTGG_C",
+          "region": 3,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_53146217_AATC_A",
+          "region": 53,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_359400_GCAC_G",
+          "region": 0,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 17,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38799776_CTGTT_C",
+          "region": 38,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48828528_C_CCTGGGCAGTGACGGCCCCTCT",
+          "region": 48,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38155107_A_AAAAAC",
+          "region": 38,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_456337_TTTCATCCA_T",
+          "region": 0,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_183100_T_TACACAC",
+          "region": 0,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_63447595_G_GTTTGTTTTGT",
+          "region": 63,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_63312144_AAC_A",
+          "region": 63,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_40147874_G_GGA",
+          "region": 40,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_7554429_G_GTGTATATATA",
+          "region": 7,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_47134575_T_TAC",
+          "region": 47,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_7627154_T_TTG",
+          "region": 7,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_7495678_TAC_T",
+          "region": 7,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13757118_GATA_G",
+          "region": 13,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25175367_AGTGT_A",
+          "region": 25,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_18423912_GAATA_G",
+          "region": 18,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25526375_CTT_C",
+          "region": 25,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_40243159_T_TTA",
+          "region": 40,
+          "expected": "0",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_51856669_GTCCTC_G",
+          "region": 51,
+          "expected": "0",
+          "call": "0",
+          "labels": [
+            "0"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46343762_C_CGT",
+          "region": 46,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38602407_T_TAG",
+          "region": 38,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46437259_T_TGGGGATG",
+          "region": 46,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_21298252_CAA_C",
+          "region": 21,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_54701160_T_TCA",
+          "region": 54,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_60859404_A_AGGAGTCTGTG",
+          "region": 60,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46867716_A_ATTTCACTCCATTTATT",
+          "region": 46,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_6410327_TAA_T",
+          "region": 6,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_14412430_CAG_C",
+          "region": 14,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_38506056_ACTGC_A",
+          "region": 38,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_17683798_G_GTTCA",
+          "region": 17,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32444957_A_AAAC",
+          "region": 32,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32246283_CAAAAAAA_C",
+          "region": 32,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_54859248_A_AAGAAAGAG",
+          "region": 54,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_59288906_G_GAAACC",
+          "region": 59,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 18,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32782738_CAG_C",
+          "region": 32,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13844361_AGTGT_A",
+          "region": 13,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_14580441_GAA_G",
+          "region": 14,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 17,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_25686787_C_CAGG",
+          "region": 25,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_62140621_T_TTC",
+          "region": 62,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_5391823_A_AAAC",
+          "region": 5,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_54475471_A_AGC",
+          "region": 54,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_3238535_G_GGGTC",
+          "region": 3,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_32302519_C_CTTCT",
+          "region": 32,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 19,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_46747365_T_TTTC",
+          "region": 46,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_14730979_G_GCACA",
+          "region": 14,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_6573308_TTATA_T",
+          "region": 6,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_13606136_CGT_C",
+          "region": 13,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_23662820_A_ACTC",
+          "region": 23,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_21389696_C_CTT",
+          "region": 21,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_51317634_CAGGAG_C",
+          "region": 51,
+          "expected": "1",
+          "call": "1",
+          "labels": [
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        },
+        {
+          "site": "chr20_48196173_GGA_G",
+          "region": 48,
+          "expected": "1",
+          "call": "U",
+          "labels": [
+            "0",
+            "1"
+          ],
+          "covered": true,
+          "score2": null,
+          "retained": 20,
+          "status": "EVALUABLE"
+        }
+      ]
+    }
+  },
+  "primary_descriptive_gate": true,
+  "calibration_test_read_overlap": [],
+  "unique_test_reads": 1254,
+  "read_site_records": 1254,
+  "paired_site_transitions": {
+    "aggregate": {
+      "0->0": 31,
+      "U->U": 1,
+      "1->1": 32
+    },
+    "baseline": {
+      "U->U": 46,
+      "0->0": 11,
+      "1->1": 7
+    }
+  },
+  "scope": "Prospective targeted genotype-level aggregation on previously unexamined HG005 chr20 reads after MP35 development. Preserve read-level uncertainty; do not reinterpret genotype concordance as per-molecule truth.",
+  "limitations": "One public HG005 sample and one ONT flowcell; inherited benchmark and mapping assumptions. Acquisition independent of2021 benchmark, not independent laboratories in this work. Region-block exchangeability is an assumption. Balanced candidate panel does not estimate population PPV or de novo discovery sensitivity."
+}

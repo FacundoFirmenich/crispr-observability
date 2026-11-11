@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "arms": 24,
+  "decisions_recounted": 36864,
+  "prior_arms_exactly_reproduced": 6,
+  "quantiles_recomputed": 16,
+  "remote_archive_sha256": "583dc721eeca459864e603cd7b533ca94ea0726c5b870a3a02ac16a79ff4bce6",
+  "source_archive_sha256": "413d2a73571f247af8447af8bf8db95f4079934d3848791d5c0e5ed4618b2ada",
+  "scope": "Independent full recount from frozen scores; not an independent recomputation of sequence alignment scores."
+}

@@ -1,0 +1,18 @@
+{
+ "id":"MP37_HG005_SECOND_FLOWCELL_FROZEN_TRANSFER_V1",
+ "cohort":"MP37",
+ "objective":"Technical transport of frozen MP36 genotype rules to a distinct HG005 sequencing acquisition on the exact same64 test loci, with local adjudication and nested evidence retained.",
+ "sample":"HG005",
+ "flowcell":"PAW88001",
+ "source":"https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG005/PAW88001/output/SAMPLE.haplotagged.cram",
+ "acquisition_metadata":"https://ont-open-data.s3.amazonaws.com/giab_2025.01/flowcells/HG005/PAW88001/final_summary_PAW88001_00acf80a_a8d5af55.txt",
+ "selection":"Exact64 MP36 test loci and benchmark labels, no replacements, new genotype selection or outcome-dependent exclusions. This is new-acquisition validation at known loci, not new-locus or independent-individual validation.",
+ "source_admission":"Verify sample/flowcell metadata, CRAM chr20 length and reference MD5. Preserve published CRAI; if header offsets disagree, derive a single header-size shift, check first/second and chr20 containers independently and require successful integrity-checked decoding. No assumed reuse of previous -186 shift.",
+ "reads":"Same MAPQ20, primary, nonduplicate/nonQCfail, mapped query anchor,300 observed ACGT bases and nested150nt. Exclude every read ID retained in MP36 calibration or test before ranking. Hash-rank IDs, retain at most20, minimum10/site. Preserve non-evaluable sites and all exclusions.",
+ "rules":"No recalibration. Median relative cutoff0 at150/300nt. Consensus>=80% at relative cutoff0 and4 with absolute admission59/118. Also median cutoff0 with>=80% absolute-admission guard. Same candidates, retained observations and event. Raw signed score preferences, ties, absolute failure and complete allele sets retained.",
+ "primary":"At300nt, separately assess frozen median0 and strict consensus0 against transported consensus4: more concordant singleton loci, no increase in discordant locus calls, at least95% concordant calls over all64 planned loci, and zero retained MP36/external ID overlap. This is an empirical descriptive transfer gate, not a conditional statistical guarantee. Each rule retains its own outcome; neither rescues the other.",
+ "local_reporting":"Every locus and record; size2-4,5-10,11-30; expected label0/1; insertion/deletion; fixed1Mb region; read orientation. Paired source-to-source and rule-to-rule transitions. Preserve contrary preferences within concordant loci, containing sets and intersections. No global score grants local authority.",
+ "comparators":"Strict consensus0 is a strong frozen simple comparator; median gain must be attributed relative to it. Edlib is a computational distance verification, not an independent biological pipeline benchmark.",
+ "limits":"Same individual and prior loci; metadata do not establish independent DNA preparation. Same laboratory/platform and benchmark assumptions may persist. No editing-efficacy or same-fragment HEK3/CFTR truth claim.",
+ "runtime":"CPU Colab CLI, eight-locus atomic checkpoint batches, persist outputs after each batch to Drive.24h wall-clock ceiling, no large local downloads. Independent distance/extraction and identifier audits before final adjudication. Manuscripts private."
+}

@@ -1,0 +1,519 @@
+{
+  "strata": {
+    "150|type:insertion": {
+      "concordant": 686,
+      "contrary": 22,
+      "tie": 12
+    },
+    "150|orientation:False": {
+      "concordant": 598,
+      "tie": 24,
+      "contrary": 30
+    },
+    "150|size:2-4": {
+      "concordant": 842,
+      "contrary": 45,
+      "tie": 33
+    },
+    "150|class:0": {
+      "concordant": 587,
+      "contrary": 28,
+      "tie": 25
+    },
+    "150|region:6": {
+      "concordant": 36,
+      "contrary": 2,
+      "tie": 2
+    },
+    "150|type:insertion&class:0": {
+      "concordant": 246,
+      "contrary": 8,
+      "tie": 6
+    },
+    "300|type:insertion": {
+      "concordant": 686,
+      "contrary": 22,
+      "tie": 12
+    },
+    "300|orientation:False": {
+      "concordant": 599,
+      "tie": 23,
+      "contrary": 30
+    },
+    "300|size:2-4": {
+      "concordant": 843,
+      "contrary": 45,
+      "tie": 32
+    },
+    "300|class:0": {
+      "concordant": 587,
+      "contrary": 28,
+      "tie": 25
+    },
+    "300|region:6": {
+      "concordant": 36,
+      "contrary": 2,
+      "tie": 2
+    },
+    "300|type:insertion&class:0": {
+      "concordant": 246,
+      "contrary": 8,
+      "tie": 6
+    },
+    "150|orientation:True": {
+      "concordant": 597,
+      "contrary": 18,
+      "tie": 13
+    },
+    "300|orientation:True": {
+      "concordant": 597,
+      "contrary": 18,
+      "tie": 13
+    },
+    "150|type:deletion": {
+      "concordant": 509,
+      "tie": 25,
+      "contrary": 26
+    },
+    "150|region:31": {
+      "concordant": 36,
+      "tie": 3,
+      "contrary": 1
+    },
+    "150|type:deletion&class:0": {
+      "concordant": 341,
+      "tie": 19,
+      "contrary": 20
+    },
+    "300|type:deletion": {
+      "concordant": 510,
+      "tie": 24,
+      "contrary": 26
+    },
+    "300|region:31": {
+      "concordant": 36,
+      "tie": 3,
+      "contrary": 1
+    },
+    "300|type:deletion&class:0": {
+      "concordant": 341,
+      "tie": 19,
+      "contrary": 20
+    },
+    "150|size:5-10": {
+      "concordant": 254,
+      "tie": 4,
+      "contrary": 2
+    },
+    "150|region:38": {
+      "concordant": 40
+    },
+    "300|size:5-10": {
+      "concordant": 254,
+      "tie": 4,
+      "contrary": 2
+    },
+    "300|region:38": {
+      "concordant": 40
+    },
+    "150|region:2": {
+      "concordant": 14,
+      "tie": 3,
+      "contrary": 3
+    },
+    "300|region:2": {
+      "concordant": 14,
+      "tie": 3,
+      "contrary": 3
+    },
+    "150|region:46": {
+      "concordant": 32,
+      "tie": 4,
+      "contrary": 4
+    },
+    "300|region:46": {
+      "concordant": 32,
+      "tie": 4,
+      "contrary": 4
+    },
+    "150|region:41": {
+      "concordant": 100
+    },
+    "300|region:41": {
+      "concordant": 100
+    },
+    "150|region:44": {
+      "concordant": 57,
+      "contrary": 3
+    },
+    "300|region:44": {
+      "concordant": 57,
+      "contrary": 3
+    },
+    "150|region:60": {
+      "concordant": 40
+    },
+    "300|region:60": {
+      "concordant": 40
+    },
+    "150|region:16": {
+      "contrary": 8,
+      "tie": 4,
+      "concordant": 8
+    },
+    "300|region:16": {
+      "contrary": 8,
+      "tie": 4,
+      "concordant": 8
+    },
+    "150|region:57": {
+      "concordant": 20
+    },
+    "300|region:57": {
+      "concordant": 20
+    },
+    "150|region:61": {
+      "concordant": 39,
+      "tie": 1
+    },
+    "300|region:61": {
+      "concordant": 39,
+      "tie": 1
+    },
+    "150|region:50": {
+      "concordant": 54,
+      "contrary": 6
+    },
+    "300|region:50": {
+      "concordant": 54,
+      "contrary": 6
+    },
+    "150|region:32": {
+      "concordant": 40
+    },
+    "300|region:32": {
+      "concordant": 40
+    },
+    "150|size:11-30": {
+      "concordant": 99,
+      "contrary": 1
+    },
+    "150|region:37": {
+      "concordant": 20
+    },
+    "300|size:11-30": {
+      "concordant": 99,
+      "contrary": 1
+    },
+    "300|region:37": {
+      "concordant": 20
+    },
+    "150|region:12": {
+      "concordant": 20
+    },
+    "300|region:12": {
+      "concordant": 20
+    },
+    "150|region:10": {
+      "concordant": 37,
+      "tie": 3
+    },
+    "300|region:10": {
+      "concordant": 37,
+      "tie": 3
+    },
+    "150|region:34": {
+      "concordant": 50,
+      "tie": 7,
+      "contrary": 3
+    },
+    "300|region:34": {
+      "concordant": 50,
+      "tie": 7,
+      "contrary": 3
+    },
+    "150|region:52": {
+      "concordant": 57,
+      "contrary": 2,
+      "tie": 1
+    },
+    "300|region:52": {
+      "concordant": 57,
+      "contrary": 2,
+      "tie": 1
+    },
+    "150|region:33": {
+      "concordant": 18,
+      "contrary": 2
+    },
+    "300|region:33": {
+      "concordant": 18,
+      "contrary": 2
+    },
+    "150|region:13": {
+      "concordant": 37,
+      "contrary": 1,
+      "tie": 2
+    },
+    "300|region:13": {
+      "concordant": 38,
+      "contrary": 1,
+      "tie": 1
+    },
+    "150|region:5": {
+      "concordant": 20
+    },
+    "300|region:5": {
+      "concordant": 20
+    },
+    "150|region:21": {
+      "concordant": 40
+    },
+    "300|region:21": {
+      "concordant": 40
+    },
+    "150|region:47": {
+      "concordant": 19,
+      "contrary": 1
+    },
+    "300|region:47": {
+      "concordant": 19,
+      "contrary": 1
+    },
+    "150|class:1": {
+      "concordant": 608,
+      "tie": 12,
+      "contrary": 20
+    },
+    "150|type:insertion&class:1": {
+      "concordant": 440,
+      "tie": 6,
+      "contrary": 14
+    },
+    "300|class:1": {
+      "concordant": 609,
+      "tie": 11,
+      "contrary": 20
+    },
+    "300|type:insertion&class:1": {
+      "concordant": 440,
+      "tie": 6,
+      "contrary": 14
+    },
+    "150|region:62": {
+      "concordant": 40
+    },
+    "150|type:deletion&class:1": {
+      "concordant": 168,
+      "contrary": 6,
+      "tie": 6
+    },
+    "300|region:62": {
+      "concordant": 40
+    },
+    "300|type:deletion&class:1": {
+      "concordant": 169,
+      "contrary": 6,
+      "tie": 5
+    },
+    "150|region:0": {
+      "concordant": 57,
+      "tie": 1,
+      "contrary": 2
+    },
+    "300|region:0": {
+      "concordant": 57,
+      "tie": 1,
+      "contrary": 2
+    },
+    "150|region:35": {
+      "concordant": 40
+    },
+    "300|region:35": {
+      "concordant": 40
+    },
+    "150|region:58": {
+      "concordant": 39,
+      "contrary": 1
+    },
+    "300|region:58": {
+      "concordant": 39,
+      "contrary": 1
+    },
+    "150|region:20": {
+      "concordant": 20
+    },
+    "300|region:20": {
+      "concordant": 20
+    },
+    "150|region:14": {
+      "concordant": 36,
+      "contrary": 1,
+      "tie": 3
+    },
+    "300|region:14": {
+      "concordant": 36,
+      "contrary": 1,
+      "tie": 3
+    },
+    "150|region:23": {
+      "concordant": 18,
+      "contrary": 2
+    },
+    "300|region:23": {
+      "concordant": 18,
+      "contrary": 2
+    },
+    "150|region:4": {
+      "concordant": 40
+    },
+    "300|region:4": {
+      "concordant": 40
+    },
+    "150|region:18": {
+      "concordant": 20
+    },
+    "300|region:18": {
+      "concordant": 20
+    },
+    "150|region:17": {
+      "contrary": 4,
+      "concordant": 16
+    },
+    "300|region:17": {
+      "contrary": 4,
+      "concordant": 16
+    },
+    "150|region:7": {
+      "concordant": 19,
+      "contrary": 1
+    },
+    "300|region:7": {
+      "concordant": 19,
+      "contrary": 1
+    },
+    "150|region:54": {
+      "concordant": 16,
+      "tie": 3,
+      "contrary": 1
+    },
+    "300|region:54": {
+      "concordant": 16,
+      "tie": 3,
+      "contrary": 1
+    }
+  },
+  "read_site_records": 1280,
+  "unique_reads": 1274,
+  "shared_read_ids": {
+    "e6b886a8-82dd-4f74-8908-65a142d00816": [
+      "chr20_41385977_TTTTCTTTTCTC_T",
+      "chr20_41411215_C_CAA"
+    ],
+    "969da6f7-19c4-4bd0-81e0-15b49528ae27": [
+      "chr20_41385977_TTTTCTTTTCTC_T",
+      "chr20_41411215_C_CAA"
+    ],
+    "8e4579b2-4c9c-4efb-a41e-efc869f44888": [
+      "chr20_41385977_TTTTCTTTTCTC_T",
+      "chr20_41411215_C_CAA"
+    ],
+    "45db08be-58b6-4457-8275-44a0a1b663a8": [
+      "chr20_41385977_TTTTCTTTTCTC_T",
+      "chr20_41411215_C_CAA"
+    ],
+    "4a5251aa-7855-47a9-a884-c8d3b79cfe84": [
+      "chr20_41385977_TTTTCTTTTCTC_T",
+      "chr20_41411215_C_CAA"
+    ],
+    "8c29b197-6049-4ea2-b8fa-0cb7d7bcb61c": [
+      "chr20_13194543_ATGTG_A",
+      "chr20_13251958_GAAGC_G"
+    ]
+  },
+  "shared_read_removal_sensitivity": {
+    "status": "POSTHOC_DIAGNOSTIC_NO_REPLACEMENT_NO_PRIMARY_GATE_REWRITE",
+    "removed_read_site_records": 12,
+    "arms": {
+      "consensus4_150": {
+        "outcomes": {
+          "unresolved": 48,
+          "correct": 16
+        },
+        "changed": []
+      },
+      "consensus0_150": {
+        "outcomes": {
+          "correct": 59,
+          "unresolved": 5
+        },
+        "changed": []
+      },
+      "median0_150": {
+        "outcomes": {
+          "correct": 63,
+          "unresolved": 1
+        },
+        "changed": []
+      },
+      "median_guard_150": {
+        "outcomes": {
+          "correct": 63,
+          "unresolved": 1
+        },
+        "changed": []
+      },
+      "consensus4_300": {
+        "outcomes": {
+          "unresolved": 47,
+          "correct": 17
+        },
+        "changed": []
+      },
+      "consensus0_300": {
+        "outcomes": {
+          "correct": 59,
+          "unresolved": 5
+        },
+        "changed": []
+      },
+      "median0_300": {
+        "outcomes": {
+          "correct": 63,
+          "unresolved": 1
+        },
+        "changed": []
+      },
+      "median_guard_300": {
+        "outcomes": {
+          "correct": 63,
+          "unresolved": 1
+        },
+        "changed": []
+      }
+    }
+  },
+  "nested_window_transitions": {
+    "consensus4": {
+      "U->U": 47,
+      "0->0": 9,
+      "1->1": 7,
+      "U->1": 1
+    },
+    "consensus0": {
+      "0->0": 27,
+      "U->U": 5,
+      "1->1": 32
+    },
+    "median0": {
+      "0->0": 31,
+      "U->U": 1,
+      "1->1": 32
+    },
+    "median_guard": {
+      "0->0": 31,
+      "U->U": 1,
+      "1->1": 32
+    }
+  }
+}

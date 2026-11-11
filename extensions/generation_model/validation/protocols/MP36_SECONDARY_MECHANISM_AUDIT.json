@@ -1,0 +1,10 @@
+{
+  "id": "MP36_SECONDARY_MECHANISM_AUDIT_V1",
+  "timing": "Added after calibration revealed doubled-median thresholds0/0 and while test batches were executing. Primary test outcome tables have not been inspected to design this diagnostic. This is secondary development-stage analysis, not an original primary preregistration.",
+  "reason": "The primary comparison changes aggregation, calibration threshold and absolute admission together. A favorable primary result cannot by itself attribute improvement specifically to aggregation.",
+  "data": "All64 planned MP36 test sites, same retained observations, no new labels, exclusions or replacement. Minimum10 records. Both150/300nt.",
+  "read_rules": "Retain original absolute gates59/118 and>=80% same-singleton consensus. Compare relative cutoffs0 and4.",
+  "median_rules": "Median relative score per allele; cutoffs0 and4 (stored doubled cutoffs0 and8). Compare without absolute admission and with a locus absolute-admission guard requiring>=80% of retained reads to satisfy best absolute<=59/118. Median computed across all retained reads; guard failure abstains without dropping records.",
+  "report": "Every confusion cell, correct/discordant/unresolved count and paired call transitions. Primary MP36 result is immutable. Explicitly report whether strict readwise scoring alone explains the gain. No claim that these diagnostic alternatives have independently calibrated coverage, and no error-control inference for cutoff0 readwise consensus.",
+  "scope": "Same-data mechanism decomposition, not new biological validation or confirmatory replication. A catalog-admission guard on this isolated in-catalog panel is not an out-of-catalog specificity experiment."
+}

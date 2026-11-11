@@ -1,0 +1,21 @@
+{
+  "status": "CANDIDATE",
+  "sources": [
+    {
+      "name": "hg005_acquisition",
+      "url": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/flowcells/HG005/PAW87816/final_summary_PAW87816_017ec17c_cb358aeb.txt",
+      "sha256": "6d173c4b40e80379ac70880460d197a2c8894c68617e7329fb2cd3d6b8d20101"
+    },
+    {
+      "name": "hg002_acquisition",
+      "url": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/flowcells/HG002/PAW70337/final_summary_PAW70337_66b2eea5_de8117b1.txt",
+      "sha256": "6b411422b0df705e3fcb919181e4b12c3358ae97fd01b86372ef2fea02b925d0"
+    },
+    {
+      "name": "q100_sources",
+      "url": "https://raw.githubusercontent.com/marbl/HG002/main/Sequencing_data.md",
+      "sha256": "285c4b3287ddc9f1505971c993f68068705759e59ca83ea99aa4a6a4582d7139"
+    }
+  ],
+  "decision": "Prefer HG005 September2024 acquired reads versus earlier GIAB v4.2.1 over HG002 June2024 acquired reads versus July2024 assembly; reference/variant matching and real-read validation still pending."
+}

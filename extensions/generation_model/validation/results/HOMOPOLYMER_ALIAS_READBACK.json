@@ -1,0 +1,29 @@
+{
+  "source_inventory_sha256": "c686fd863d4a53565a9bb1b1c8c7fd66bbd3ebfc263291d209254d710a7c332a",
+  "donors": {
+    "HG003": {
+      "status": "PUBLIC_RUN_LINK_VERIFIED",
+      "sample": "hg003",
+      "alias": "ONLL08561",
+      "run_id": "5da671d21089870116e0b96e0f0fba1055f2416f",
+      "flowcell": "PAY87794",
+      "read_group_time": "2024-08-19T15:21:25.855+00:00",
+      "sample_sheet_url": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/flowcells/HG003/PAY87794/sample_sheet_PAY87794_20240819_1621_1103257b.csv",
+      "sample_sheet_sha256": "46f3023a34ab4bf4e5be017e6d4a1b63fc2b22696709c30a1f8091ab205dade7",
+      "cram": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG003/PAY87794/output/SAMPLE.haplotagged.cram",
+      "summary": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/flowcells/HG003/PAY87794/final_summary_PAY87794_1103257b_5da671d2.txt"
+    },
+    "HG004": {
+      "status": "PUBLIC_RUN_LINK_VERIFIED",
+      "sample": "hg004",
+      "alias": "ONLL08564",
+      "run_id": "4cc7b9e6115bf1b7526fcaa36f2f4c9edbed36af",
+      "flowcell": "PAY87778",
+      "read_group_time": "2024-08-19T15:17:05.016+00:00",
+      "sample_sheet_url": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/flowcells/HG004/PAY87778/sample_sheet_PAY87778_20240819_1617_09c771c3.csv",
+      "sample_sheet_sha256": "5689de39dd053ce2f007bdc6034102749f20e9827f4f003efe3f69e81582cdc1",
+      "cram": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/analysis/wf-human-variation/sup/HG004/PAY87778/output/SAMPLE.haplotagged.cram",
+      "summary": "https://ont-open-data.s3.amazonaws.com/giab_2025.01/flowcells/HG004/PAY87778/final_summary_PAY87778_09c771c3_4cc7b9e6.txt"
+    }
+  }
+}

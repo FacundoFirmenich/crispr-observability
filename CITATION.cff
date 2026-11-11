@@ -4,7 +4,7 @@ message: >-
   distinct scientific object; no DOI is assigned to this repository.
 type: software
 title: "CRISPR observability: finite-universe bounds and sequence-correspondence checks"
-version: "0.8.1"
+version: "0.9.0"
 license: GPL-3.0-only
 authors:
   - family-names: "Firmenich"
@@ -29,6 +29,7 @@ abstract: >-
   retain attribution and data terms; code licenses are explicitly scoped.
   Manuscript and formal supplementary text are excluded until the author
   confirms bioRxiv acceptance.
+  Version 0.9.0 adds portable offline replay and fixed germline validation panels.
 keywords:
   - "genome editing readouts"
   - "observability"
@@ -38,4 +39,4 @@ keywords:
 
 repository-code: "https://github.com/FacundoFirmenich/crispr-observability"
 url: "https://github.com/FacundoFirmenich/crispr-observability"
-date-released: "2026-11-10"
+date-released: "2026-11-11"
