@@ -24,3 +24,6 @@ identities are distinct from an offline replay of the decisions. The command
 does not regenerate the archived scores from raw alignments. The source
 snapshot's cloud custody receipts and manuscript material remain outside
 this public integration.
+
+[UTF-8 graph view](MP36_EPISTEMIC_GRAPH.utf8.json) preserves the JSON structure
+of the archived Windows-1252 graph. The original bytes remain in results/.

@@ -12,7 +12,8 @@ Comprobá el archivo descargado con la suma SHA-256 de su release. Consultá
 nivel de evidencia.
 
 - `--mode quick` comprueba integridad y grafo, vuelve a resolver el caso
-  auténtico de Clone3 y reconstruye las decisiones germinales archivadas.
+  auténtico de Clone3 y reconstruye los intervalos exactos de CFTR y las
+  decisiones germinales a partir de las observaciones archivadas.
 - `--mode counts` recompone los recuentos de los 439.589 pares COL17A1.
 - `--mode full` añade el recálculo de 20.260 casos referencia–segmento,
   81.112 testigos y la comprobación con el oráculo independiente acotado.

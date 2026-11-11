@@ -492,6 +492,20 @@
       "path": "results/MP38_SELECTION.json",
       "sha256": "d2a3ffa4e90b4e6d804ca0acd48c813ff981d849b9f41c4714b075bc231da269",
       "size": 15786
+    },
+    {
+      "path": "MP36_EPISTEMIC_GRAPH.utf8.json",
+      "sha256": "b20f6d334d85b01e81c2430d1fe5d83957e0409543a44b6ffb2fabc37acc9574",
+      "size": 6039
+    }
+  ],
+  "derived_views": [
+    {
+      "path": "MP36_EPISTEMIC_GRAPH.utf8.json",
+      "source": "results/MP36_EPISTEMIC_GRAPH.json",
+      "source_encoding": "windows-1252",
+      "output_encoding": "utf-8",
+      "check": "JSON tree equality after decoding; original bytes retained"
     }
   ]
 }

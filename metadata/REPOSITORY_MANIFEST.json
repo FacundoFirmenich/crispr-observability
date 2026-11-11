@@ -116,8 +116,8 @@
       "sha256": "41d90b9c8797596b56323308bd40a09b677664ac67ddd45705e3257e52b13df6"
     },
     "THIRD_PARTY_NOTICES.csv": {
-      "bytes": 405993,
-      "sha256": "be7ca2dfcb468636c7307b390c9c811183fbf52cf604dad35d042e44d1fd5cce"
+      "bytes": 406259,
+      "sha256": "06dfaefaaf65fe2983fddb77e85922a73ba5d28d60b93a208e23918de8318141"
     },
     "ZENODO_RELEASE.md": {
       "bytes": 1861,
@@ -1172,12 +1172,16 @@
       "sha256": "ec805de2f92d1bd223711b988a6972fa98ec19bcc8d33ee29664c5e5cf6bf7b0"
     },
     "extensions/generation_model/validation/MANIFEST.json": {
-      "bytes": 16939,
-      "sha256": "d362a1cd477da287f397ea56bbdc2c9516147863c562741b1f95462a71a382bc"
+      "bytes": 17393,
+      "sha256": "d1f418c43a3eacd3fb67f55e7a198b1221ab126da06553ad6ccd12e135d062ee"
+    },
+    "extensions/generation_model/validation/MP36_EPISTEMIC_GRAPH.utf8.json": {
+      "bytes": 6039,
+      "sha256": "b20f6d334d85b01e81c2430d1fe5d83957e0409543a44b6ffb2fabc37acc9574"
     },
     "extensions/generation_model/validation/README.md": {
-      "bytes": 1869,
-      "sha256": "35d3accea180fa5f8fd387e25730a7c7e27f886e33f0b6b41160c16df858468e"
+      "bytes": 2025,
+      "sha256": "0fe0f18480a01872f6d9761b1b27fed1685adf819a279cbe882d58f129ceccce"
     },
     "extensions/generation_model/validation/campaign/homopolymer_transfer/README.md": {
       "bytes": 3625,
@@ -5388,24 +5392,24 @@
       "sha256": "6567d059cd5cd753c666ed467faca16e12a23c88361b04a2c84e1258770e9490"
     },
     "reproducibility/EVIDENCE.md": {
-      "bytes": 1642,
-      "sha256": "56078f936a68ed628911c40e9e354de576cdbcad6c3f15b55123925f2956d125"
+      "bytes": 1824,
+      "sha256": "021ff9de546df41e84f95898dd5d741cceafb65f09a97e1af7fdfed537495360"
     },
     "reproducibility/LEEME_ES.md": {
-      "bytes": 1217,
-      "sha256": "96b4967a968cd7228533b2acd7db20ac1d33b3ce5b28e7167c401e945d21d5f2"
+      "bytes": 1282,
+      "sha256": "5978c996c62d539811e63309bcf4aa7911e00c1ecaa8dfbd312fffe6c0332c58"
     },
     "reproducibility/README.md": {
-      "bytes": 2401,
-      "sha256": "9ba878dc03d400ab1056a65a3b12f87e7fd2a6dd776fd3fd86560eca7964d393"
+      "bytes": 2472,
+      "sha256": "dc0504a07dfacc464d314f9a9694dfc5ec79ce236154d50612afd65e94f4b827"
     },
     "reproducibility/build_native.py": {
       "bytes": 6809,
       "sha256": "1821900ae0ded54527c79391bf18ac8c08c991f9c0dd5cafa600167de028b03a"
     },
     "reproducibility/reproduce.py": {
-      "bytes": 7049,
-      "sha256": "53858139a6bf01532031ecff37b7eaa38f0b940be2932d8675fe12d7e5d97168"
+      "bytes": 11679,
+      "sha256": "bf15e08749a44ef0035f5f5e137bc0bfad5091978576ff1787b2ca9f02be760a"
     },
     "reproducibility/requirements-macos-intel.txt": {
       "bytes": 184,

@@ -2,6 +2,7 @@
 
 | Paper result | Observation unit | Operation in portable package | Evidence boundary |
 | --- | --- | --- | --- |
+| CFTR anchor contrast | Original sequence record | Reconstructs exact finite-record endpoints from the archived counts | Common observation mask and finite-record accepted labels |
 | CFTR label agreement with unequal strings | Original sequence record | Checks 83 unequal strings and 18 agreeing label cases against the historical graph and manifest | Same records, multiple observation rules |
 | Clone3 event length and placement | Retained span under two references | Re-solves the −6 case and retains two exact placements in quick mode | Observed target support under the declared reference/window |
 | COL17A1 admission and nonmodal extension | Library pair, span, clone | Recounts the fixed pair ledger, recalculates target scores and reprojects witnesses in full mode | Retained observed spans and pair ledgers |

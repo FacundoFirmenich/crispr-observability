@@ -15,7 +15,8 @@ directory must be new. Validate the archive against `SHA256SUMS.txt` from
 the same release. Each successful replay writes `REPRODUCTION.json` with
 the executed mode, environment, count and evidence scope.
 
-- **quick** checks frozen files and graph links, reruns the authentic Clone3
+- **quick** checks frozen files and graph links, reconstructs the exact CFTR
+  contrast endpoints from archived counts, reruns the authentic Clone3
   example, and reconstructs 241 ONT locus decisions and 113 matched HiFi
   decisions from stored scores and flank calls.
 - **counts** adds the 439,589 retained COL17A1 pair ledger counts in place of

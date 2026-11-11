@@ -1,0 +1,147 @@
+{
+  "schema": "claim-evidence-limits-v2",
+  "nodes": [
+    {
+      "id": "scope",
+      "title": "Pregunta y unidad",
+      "status": "DECLARADO",
+      "text": "Identificar genotipos en64sitios HG005 seleccionados; no autenticar el origen literal de cada base ni cuantificar edición clínica.",
+      "source": "MP36_RESULT.json",
+      "sha256": "42003ac7773f894046181fa0a4896c9a6eb75baeeab7f26290016cf8ab571151"
+    },
+    {
+      "id": "freeze",
+      "title": "Separación previa",
+      "status": "FROZEN",
+      "text": "Regiones disjuntas y exclusión de identificadores de calibración antes de ordenar lecturas de evaluación. Los umbrales se fijaron antes de evaluar.",
+      "source": "MP36_CALIBRATION_FREEZE.json",
+      "sha256": "5c15f814c2e4efe06470918d43d2d5abf08e9bc36470ed943a166a81fce070d7"
+    },
+    {
+      "id": "result",
+      "title": "Contraste primario",
+      "status": "PASS",
+      "text": "{\"aggregate_150\": {\"correct\": 63, \"unresolved\": 1}, \"baseline_150\": {\"unresolved\": 46, \"correct\": 18}, \"aggregate_300\": {\"correct\": 63, \"unresolved\": 1}, \"baseline_300\": {\"unresolved\": 46, \"correct\": 18}}",
+      "source": "MP36_RESULT.json",
+      "sha256": "42003ac7773f894046181fa0a4896c9a6eb75baeeab7f26290016cf8ab571151"
+    },
+    {
+      "id": "distance",
+      "title": "Distancia independiente",
+      "status": "PASS",
+      "text": "Edlib recalcula todas las distancias retenidas. Acuerdo computacional, no verdad molecular.",
+      "source": "MP36_INDEPENDENT_DISTANCE_AUDIT.json",
+      "sha256": "4ead1920dde26b119ec2280539aff0ab8033c1767175cdc5496d9db6ebcbea0b"
+    },
+    {
+      "id": "partition",
+      "title": "Partición auditada",
+      "status": "PASS",
+      "text": "Sin identificadores compartidos entre las particiones. Una muestra y una biblioteca no constituyen replicación entre individuos o laboratorios.",
+      "source": "MP36_PARTITION_AUDIT.json",
+      "sha256": "18f8bc46d772eb70c19dc06421b35eb8e3161b25021ebcf2ce1e240411a5b064"
+    },
+    {
+      "id": "mechanism",
+      "title": "Qué explica la ganancia",
+      "status": "DIAGNÓSTICO SECUNDARIO",
+      "text": "A 300 nt, consenso con umbral 4: 18 loci concordantes; consenso con umbral 0: 62; mediana con umbral 0: 63. El cambio de umbral explica la mayor parte de la recuperación. La mediana aporta un locus adicional; no se atribuye a la agregación todo el salto.",
+      "source": "MP36_MECHANISM_AUDIT.json",
+      "sha256": "fd21b57c12e39a3e785cb4aa10a35cdee6806a4cbb6c5fe849c94eb5e83bb658"
+    },
+    {
+      "id": "local",
+      "title": "Jurisdicciones y discordancias internas",
+      "status": "AUDITADO LOCALMENTE",
+      "text": "Los 45 loci recuperados son indels de 2–4 nt. En 21 loci con conclusión agregada concordante persisten 35 preferencias de lectura contrarias al benchmark. Un locus de 5 nt conserva estado no estimable con 6 lecturas frente al mínimo de 10.",
+      "source": "MP36_LOCAL_JURISDICTION_AUDIT.json",
+      "sha256": "23f41397dc8f32f0e99d79e376605a4f860533475751f97b71268c56d9ce606a"
+    },
+    {
+      "id": "nesting",
+      "title": "Anidaciones y pérdida de detalle",
+      "status": "DIAGNÓSTICO RETROSPECTIVO",
+      "text": "114 conjuntos conservan las 1.254 observaciones y sus intersecciones. Loci con igual número de lecturas, etiqueta esperada y medianas pueden contener distintas preferencias contrarias. No se ha estimado información de Fisher ni demostrado una meseta informativa.",
+      "source": "MP36_SET_INCLUSIONS_AND_PROJECTIONS.json",
+      "sha256": "ef5ddc62573038ec5602b994afcc753decb556075345fc304181118068fbe73a"
+    },
+    {
+      "id": "limits",
+      "title": "Límites y falsadores",
+      "status": "ABIERTOS",
+      "text": "Catálogo dirigido, variantes simples aisladas y genotipos homocigotos. Intercambiabilidad regional es un supuesto; no hay garantía de cobertura individual por locus. Una etiqueta de referencia errónea, una extracción incorrecta o solapamiento inadvertido invalidarían el resultado afectado. No establece sensibilidad de descubrimiento de novo, PPV poblacional ni verdad de fragmentos HEK3/CFTR.",
+      "source": null
+    },
+    {
+      "id": "history",
+      "title": "Evidencia adversa preservada",
+      "status": "CONSERVADA",
+      "text": "MP34 no pasó su criterio primario conjunto. MP35 no obtuvo ganancia de contexto y compartió152IDs entre calibración y evaluación. MP36 no reemplaza esos resultados.",
+      "source": "MP34_MP35_EPISTEMIC_GRAPH.json",
+      "sha256": "37b61a72adb2b60cee41bfa28842d5b03b60b944a96438567e82097596d4d9b7"
+    }
+  ],
+  "edges": [
+    {
+      "from": "scope",
+      "to": "freeze",
+      "relation": "define"
+    },
+    {
+      "from": "freeze",
+      "to": "result",
+      "relation": "premisa requerida"
+    },
+    {
+      "from": "distance",
+      "to": "result",
+      "relation": "verifica cálculo"
+    },
+    {
+      "from": "partition",
+      "to": "result",
+      "relation": "verifica separación"
+    },
+    {
+      "from": "result",
+      "to": "mechanism",
+      "relation": "requiere separar cambios"
+    },
+    {
+      "from": "mechanism",
+      "to": "local",
+      "relation": "localiza la ganancia"
+    },
+    {
+      "from": "local",
+      "to": "nesting",
+      "relation": "conserva conjuntos y detalle"
+    },
+    {
+      "from": "nesting",
+      "to": "limits",
+      "relation": "no equivale a suficiencia estadística"
+    },
+    {
+      "from": "local",
+      "to": "limits",
+      "relation": "preserva límites locales"
+    },
+    {
+      "from": "result",
+      "to": "limits",
+      "relation": "interpretación acotada"
+    },
+    {
+      "from": "history",
+      "to": "freeze",
+      "relation": "motiva rediseño"
+    },
+    {
+      "from": "history",
+      "to": "limits",
+      "relation": "no se borra"
+    }
+  ],
+  "semantics": "Edges indicate specified relations, not probabilities. Source and audit premises are jointly required. A passed descriptive criterion is not universal biological validation."
+}
