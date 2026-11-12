@@ -1,0 +1,185 @@
+[
+  {
+    "title": "When the product hides the evidence",
+    "question": "Can an edit move its own evidence outside the read?",
+    "finding": "In the CFTR example, a three-base insertion shifts the downstream anchor from [210, 222) to [213, 225). The observed read ends at 224. Under the same quality mask, changing the observation rule moved the treated-minus-mock lower endpoint from −10.09177 to +13.23196 percentage points.",
+    "scope": "The comparison isolates the effect of the observation rule on the recorded contrast. The positive lower endpoint applies to the recorded set under the stated label assumptions.",
+    "nodes": [
+      "A_quality",
+      "E_geometry",
+      "E_anchor",
+      "H_anchor",
+      "C_anchor"
+    ],
+    "edges": [
+      "A_quality->H_anchor:requires",
+      "E_geometry->H_anchor:requires",
+      "E_anchor->H_anchor:requires",
+      "H_anchor->C_anchor:conditional_support"
+    ],
+    "focus": "C_anchor"
+  },
+  {
+    "title": "Agreement can conceal different sequences",
+    "question": "When callers agree, are they describing the same observed bases?",
+    "finding": "Among 170,808 CFTR records resolved by three extraction rules, 83 yielded different coding strings. In 18 of those records, the native-local peptide labels still agreed. The sequence-level disagreement survives the label agreement.",
+    "scope": "A label answers a target-specific question. Sequence correspondence also requires identifying the observed string and the rule that assigns it to the event.",
+    "nodes": [
+      "A_quality",
+      "E_strings",
+      "H_strings",
+      "C_strings"
+    ],
+    "edges": [
+      "A_quality->H_strings:requires",
+      "E_strings->H_strings:requires",
+      "H_strings->C_strings:conditional_support"
+    ],
+    "focus": "C_strings"
+  },
+  {
+    "title": "Keep the unresolved records",
+    "question": "What can be inferred when some events cannot be classified?",
+    "finding": "Start with the original denominator N. If E records are accepted events and U remain unresolved, the lowest attainable proportion is E/N and the highest is (E+U)/N. The two-arm contrast uses the lower endpoint of one arm and the upper endpoint of the other.",
+    "scope": "These are finite-record identification bounds under the stated accepted-label and completion assumptions. They describe what the observations allow, without a sampling confidence interpretation.",
+    "nodes": [
+      "A_labels",
+      "A_completion",
+      "E_counts",
+      "H_hull",
+      "C_hull"
+    ],
+    "edges": [
+      "A_labels->H_hull:requires",
+      "A_completion->H_hull:requires",
+      "E_counts->H_hull:requires",
+      "H_hull->C_hull:conditional_support"
+    ],
+    "focus": "C_hull"
+  },
+  {
+    "title": "Certify a target across interpretations",
+    "question": "How much disagreement can a certificate tolerate?",
+    "finding": "Define the reference, score and admissible alignments before comparing their projections. A target is resolved when every admitted interpretation gives it the same value. A stricter common-string witness checks whether the extraction rules yield the same observed coding string.",
+    "scope": "A certificate belongs to its declared target and domain. Two different strings can still support the same target value, while a broader reference or score domain can change the certificate.",
+    "nodes": [
+      "A_quality",
+      "A_labels",
+      "A_completion",
+      "E_strings",
+      "E_counts",
+      "E_contrasts",
+      "H_witness",
+      "C_witness"
+    ],
+    "edges": [
+      "A_quality->H_witness:requires",
+      "A_labels->H_witness:requires",
+      "A_completion->H_witness:requires",
+      "E_strings->H_witness:requires",
+      "E_counts->H_witness:requires",
+      "E_contrasts->H_witness:requires",
+      "H_witness->C_witness:conditional_support"
+    ],
+    "sources": [
+      "extensions/correspondence_frontier/README.md"
+    ],
+    "focus": "C_witness"
+  },
+  {
+    "title": "Stability depends on what is compared",
+    "question": "Can the contrast stay stable while individual calls change?",
+    "finding": "The alignment sensitivity grid preserved positive lower contrast endpoints while changing some record-level labels. The two results coexist because the aggregate contrast and the membership of its resolved records answer different questions.",
+    "scope": "Track the record identifiers alongside the contrast. Stability over the tested settings belongs to that finite grid and does not calibrate the probability that a molecular call is correct.",
+    "nodes": [
+      "A_quality",
+      "A_labels",
+      "A_completion",
+      "E_grid",
+      "E_labels",
+      "H_grid",
+      "C_grid"
+    ],
+    "edges": [
+      "A_quality->H_grid:requires",
+      "A_labels->H_grid:requires",
+      "A_completion->H_grid:requires",
+      "E_grid->H_grid:requires",
+      "E_labels->H_grid:requires",
+      "H_grid->C_grid:conditional_support"
+    ],
+    "focus": "C_grid"
+  },
+  {
+    "title": "Test transfer in the right unit",
+    "question": "What happens when we change the cohort or the acquisition?",
+    "finding": "MP37 and MP38 tested transfer on reserved germline panels. A separate four-donor comparison showed the cost of filtering: an exact-length majority rule withdrew 25 of 26 discordant calls and 113 of 207 concordant calls. HiFi agreed with the benchmark at all 113 matched HG003/HG004 loci, including 15 Nanopore discordances.",
+    "scope": "Keep donor, locus and acquisition visible. The benchmark tests germline genotype agreement in the declared panels. A favorable result has authority within that unit and design.",
+    "nodes": [
+      "A_validation_scope",
+      "C_grid",
+      "H_transport",
+      "V_MP37",
+      "V_MP38",
+      "V_HIFI",
+      "B_accuracy",
+      "B_transport"
+    ],
+    "edges": [
+      "A_validation_scope->H_transport:requires",
+      "C_grid->H_transport:requires",
+      "H_transport->B_transport:conditional_support",
+      "V_MP37->B_transport:tests",
+      "V_MP38->B_transport:tests",
+      "V_HIFI->B_accuracy:limits"
+    ],
+    "sources": [
+      "extensions/generation_model/validation/results/HOMOPOLYMER_REPLICATION_COMPARISON.json",
+      "extensions/generation_model/validation/results/HOMOPOLYMER_HIFI_CROSSCHECK_REPORT.md"
+    ],
+    "focus": "B_transport"
+  },
+  {
+    "title": "Distinguish a mate from molecular truth",
+    "question": "What does an independent observation have to identify?",
+    "finding": "The external paired-file audit linked 770,673 read pairs at the amplified-insert level. The proportion with both reads at 250 bases differed by 9.44 percentage points between libraries. In COL17A1 Clone3, retained spans support a six-base deletion with two equivalent placements. Each result identifies a different observation unit.",
+    "scope": "Estimating editing accuracy on the original HEK3 or CFTR fragment requires independently informative evidence linked to that physical fragment. The audited historical records leave that quantity unestimated.",
+    "nodes": [
+      "A_validation_scope",
+      "C_hull",
+      "H_accuracy",
+      "V_PAIRED",
+      "V_CLONE",
+      "B_accuracy"
+    ],
+    "edges": [
+      "A_validation_scope->H_accuracy:requires",
+      "C_hull->H_accuracy:requires",
+      "H_accuracy->B_accuracy:conditional_support",
+      "V_PAIRED->B_accuracy:limits",
+      "V_CLONE->B_accuracy:limits"
+    ],
+    "focus": "B_accuracy"
+  },
+  {
+    "title": "Reproduce the claim and test what would change it",
+    "question": "How can a reviewer try to overturn the result?",
+    "finding": "Follow a claim back to its input, event definition, counts and admissible interpretations. The public runner checks the archived counts and reconstructs the exact CFTR contrast. Retained-span reproduction and original FASTQ extraction are distinct operations with separate receipts.",
+    "scope": "A recovered anchor inside the purportedly censored read or a corrected orientation that resolves a coding disagreement would revise the affected observation or contrast. The graph links those revision tests to the claims they concern.",
+    "nodes": [
+      "C_anchor",
+      "C_strings",
+      "F_C_anchor",
+      "F_C_strings"
+    ],
+    "edges": [
+      "F_C_anchor->C_anchor:would_require_revision",
+      "F_C_strings->C_strings:would_require_revision"
+    ],
+    "sources": [
+      "reproducibility/EVIDENCE.md",
+      "reproducibility/README.md"
+    ],
+    "focus": "C_anchor"
+  }
+]

@@ -1,8 +1,10 @@
 {
   "html": "crispr_supergraph.html",
-  "html_sha256": "fadcfc1aece792d58300a31173f05b8dbcfe09a1c9b26fc099ec4e38a122717a",
+  "html_sha256": "1498f4c8fdc1ad856b2e708141fe9c023579e99bd5e50aab75ce720bfc638a74",
   "input_json_sha256": "eee28d8b52dfa6696dc2b6cce29de1097739df11cdfacbecd9b67c9825babbe0",
   "embedded_json_sha256": "92ec519a685a2b64a7f92f275c64e72cd60f49ab9495921a85a9998aa41388a0",
+  "guided_tour_sha256": "912e138b46e63b054b0a24abbcdf69eacac7f2f88a3e688c29164eef42e48df3",
+  "guided_tour_blocks": 8,
   "nodes": 62,
   "edges": 64,
   "AND_gates": 8,

@@ -121,7 +121,77 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE_PATH || 'playwright-c
     await touchPage.locator('[data-node-id="C_strings"]').tap();
     assert.equal(await touchPage.evaluate(() => window.CRISP_SUPERGRAPH.getSelected().id), 'C_strings');
     assert.equal(await touchPage.evaluate(() => window.CRISP_SUPERGRAPH.getState().rightHidden), false);
-    console.log('PASS: desktop drag and depth, persistent layout, palette, evidence inspector and mobile node tap');
+    const manual = await state();
+    const tourState = () => page.evaluate(() => window.CRISP_SUPERGRAPH.getTourState());
+    const tourButton = page.getByRole('button', { name:'Guided tour' });
+    const panel = page.getByRole('region', { name:'When the product hides the evidence' });
+    await page.clock.install();
+    await tourButton.click();
+    assert.equal(await panel.isVisible(), true);
+    assert.match(await panel.innerText(), /13\.23196/);
+    assert.equal((await tourState()).index, 0);
+    const tourBlocks = JSON.parse(await page.locator('#guided-tour-data').textContent());
+    const picker = page.getByRole('combobox', { name:'Jump to a conceptual block' });
+    const durations = [];
+    for (let index=0;index<tourBlocks.length;index++) {
+      await picker.selectOption(String(index));
+      const stage = tourBlocks[index];
+      assert.equal(await page.locator('#tourTitle').innerText(), stage.title);
+      const visible = await page.evaluate(() => window.CRISP_SUPERGRAPH.getVisible());
+      assert.deepEqual(visible.nodes.sort(), [...stage.nodes].sort());
+      assert.deepEqual(await traced(), [...stage.edges].sort());
+      durations.push((await tourState()).remaining);
+    }
+    await picker.selectOption('0');
+    if (process.env.SUPERGRAPH_QA_OUTPUT) {
+      await page.evaluate(()=>Promise.all(document.getAnimations().filter(a=>a.animationName==='tour-reveal').map(a=>a.finished.catch(()=>{}))));
+      await page.screenshot({ path:path.join(process.env.SUPERGRAPH_QA_OUTPUT,'guided-tour-desktop.png') });
+    }
+    await page.getByRole('button',{name:'Play',exact:true}).click();
+    await page.clock.fastForward(1000);
+    await page.getByRole('button',{name:'Pause',exact:true}).click();
+    const paused = await tourState();
+    assert.equal(paused.playing,false);
+    assert.ok(paused.remaining<durations[0]);
+    await page.clock.fastForward(durations[0]+1000);
+    assert.equal((await tourState()).index,0);
+    await page.getByRole('button',{name:'Play',exact:true}).click();
+    await page.clock.fastForward(paused.remaining+250);
+    assert.equal((await tourState()).index,1);
+    await page.getByRole('button',{name:'Previous conceptual block'}).click();
+    assert.equal((await tourState()).index,0);
+    await page.getByRole('button',{name:'Next conceptual block'}).click();
+    assert.equal((await tourState()).index,1);
+    await page.locator('#tourEvidence summary').click();
+    await page.waitForFunction(()=>!window.CRISP_SUPERGRAPH.getTourState().playing);
+    assert.ok(await page.locator('#tourSources a').count()>0);
+    await picker.selectOption(String(tourBlocks.length-1));
+    await page.getByRole('button',{name:'Play',exact:true}).click();
+    await page.clock.fastForward(durations.at(-1)+250);
+    assert.equal((await tourState()).finished,true);
+    await page.getByRole('button',{name:'Replay',exact:true}).click();
+    assert.equal((await tourState()).index,0);
+    await page.keyboard.press('Escape');
+    assert.equal((await tourState()).index,-1);
+    assert.deepEqual(await state(), manual);
+    assert.deepEqual(errors,[]);
+    await touchPage.getByRole('button',{name:'Guided tour'}).tap();
+    const mobileLayout=await touchPage.evaluate(()=>{
+      const graph=document.getElementById('graph').getBoundingClientRect();
+      const panel=document.getElementById('tourPanel').getBoundingClientRect();
+      return {graphBottom:graph.bottom,panelTop:panel.top,panelBottom:panel.bottom,screen:innerHeight,graphHeight:graph.height};
+    });
+    assert.ok(mobileLayout.graphBottom<=mobileLayout.panelTop+1);
+    assert.ok(mobileLayout.panelBottom<=mobileLayout.screen);
+    assert.ok(mobileLayout.graphHeight>300);
+    await touchPage.waitForFunction(()=>document.querySelector('#graph g.node')?.getBoundingClientRect().width>135);
+    await touchPage.getByRole('button',{name:'Next conceptual block'}).tap();
+    assert.match(await touchPage.locator('#tourTitle').innerText(),/Agreement/);
+    if (process.env.SUPERGRAPH_QA_OUTPUT) {
+      await touchPage.evaluate(()=>Promise.all(document.getAnimations().filter(a=>a.animationName==='tour-reveal').map(a=>a.finished.catch(()=>{}))));
+      await touchPage.screenshot({path:path.join(process.env.SUPERGRAPH_QA_OUTPUT,'guided-tour-mobile.png')});
+    }
+    console.log('PASS: graph navigation and tour; '+tourBlocks.length+' evidence-bound blocks, '+Math.round(durations.reduce((a,b)=>a+b,0)/1000)+' seconds of automatic playback');
   } finally {
     await browser.close();
   }

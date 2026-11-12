@@ -73,3 +73,14 @@ Select or drag a card to trace its direct links. Incoming links are dashed
 lilac and outgoing links are solid light blue. A moving highlight follows the
 direction of each link; the static emphasis remains when reduced motion is
 enabled. **Fit connections** frames the direct neighbors of the current item.
+
+
+### Follow the paper's argument
+
+Select **Guided tour** to read eight conceptual blocks in order. Each block
+lights a source-bound subgraph and explains its question, result and scope.
+The explanation sits beside the map on desktop and below it on narrow screens.
+Use **Play** and **Pause**, the previous and next buttons, or the chapter
+selector. Automatic reading time is calculated from the length of each block.
+The tour pauses when you open an evidence list or leave the active tab.
+Closing the tour restores the map view, filters and positions you were using.

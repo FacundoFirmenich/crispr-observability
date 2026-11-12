@@ -296,13 +296,68 @@ html,body{height:100%;height:100dvh}body{display:flex;flex-direction:column}head
 @keyframes travel{to{stroke-dashoffset:-36}}
 @media(prefers-reduced-motion:reduce){.edge-signal{display:none}}
 @media(max-width:860px){.trace-key{display:none}#layerNav button{min-height:34px}.zoom-controls button{min-height:36px}}
+#openTour{border-color:#8ea9eb;background:#25365e;color:#f2f5ff}
+#openTour::before{content:"▶";font-size:.8em;margin-right:.55em;color:#abd6ff}
+.canvas-wrap.tour-active{grid-template-columns:minmax(0,1fr) minmax(240px,310px);grid-template-rows:auto minmax(0,1fr) auto}
+.tour-active #layerNav,.tour-active .map-footer{grid-column:1/-1}
+.tour-active .zoom-controls button:disabled,.tour-open .header-controls button:disabled{display:none}
+.tour-active #layerNav button{cursor:default;opacity:.45}
+.tour-active #layerNav button[data-in-block]{opacity:1;border-color:var(--layer-ink)}
+.tour-active #graph{grid-column:1;grid-row:2}
+.tour-active #tourPanel{grid-column:2;grid-row:2}
+#tourPanel{min-height:0;min-width:0;display:flex;flex-direction:column;gap:10px;padding:13px 14px;background:#182542;border-left:1px solid #536893;box-shadow:-10px 0 30px #0d18345c;color:#edf1fe}
+#tourPanel[hidden]{display:none}
+.tour-top,.tour-controls{display:flex;align-items:center;gap:5px}
+.tour-top{justify-content:space-between;font-size:12px;font-weight:700;color:#b6ccfa}
+#tourPanel button,#tourPanel select{background:#25375e;border:1px solid #5972a2;border-radius:7px;color:#edf1fe;min-height:34px;padding:4px 8px;font:600 12px system-ui}
+#tourPanel button{cursor:pointer;flex:none}
+#tourPanel button:disabled{opacity:.42;cursor:default}
+#tourPanel select{flex:1;min-width:0}
+#tourPlay{min-width:54px}
+.tour-text{overflow:auto;overscroll-behavior:contain;padding-right:5px;font-size:14px;line-height:1.55;scrollbar-width:thin}
+.tour-text h2{margin:2px 0 8px;font-size:20px;line-height:1.2;color:#e7edff}
+.tour-text p{margin:0 0 10px}
+.tour-question{font-weight:700;color:#a8d9ff}
+.tour-scope{border-left:3px solid #c4adf3;padding:6px 8px;background:#263450;border-radius:0 7px 7px 0}
+#tourSources{padding-left:17px;overflow-wrap:anywhere}
+#tourSources a{color:#aed6ff;text-decoration-thickness:1px}
+.tour-reveal{animation:tour-reveal .34s both;animation-delay:var(--reveal,0ms)}
+.edge-trace.tour-link{stroke:#a9d9ff}.edge-trace.tour-condition{stroke:#d9baff;stroke-dasharray:8 5}
+@keyframes tour-reveal{from{opacity:.30}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.tour-reveal{animation:none}}
+@media(max-width:860px){
+ .header-controls{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .tour-open header .header-controls,.tour-open header .subtitle,.tour-active #layerNav{display:none}
+ .canvas-wrap.tour-active{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto auto}
+ .tour-active #graph{grid-row:1}
+ .tour-active #tourPanel{grid-column:1;grid-row:2;max-height:min(43vh,370px);border-left:0;border-top:1px solid #536893;padding:8px 10px;gap:5px}
+ .tour-active .map-footer{grid-row:3}
+ .tour-text{font-size:13px;line-height:1.43}
+ .tour-text h2{font-size:17px;margin:0 0 5px}
+}
 </style></head><body>
-<header><div><h1>CRISPR observability · Scientific supergraph</h1><div class="subtitle">Premises → mechanisms → conditional constraints → evidence → revision tests → scope</div></div><div class="header-controls"><button id="toggleLeft" aria-controls="leftPanel" aria-expanded="true">Filters</button><button id="toggleRight" aria-controls="rightPanel" aria-expanded="true">Inspector</button><button id="focusGraph">Focus graph</button><button id="exportSVG">Export SVG</button><button id="exportJSON">Export view</button><button id="resetView">Reset</button></div></header>
+<header><div><h1>CRISPR observability · Scientific supergraph</h1><div class="subtitle">Premises → mechanisms → conditional constraints → evidence → revision tests → scope</div></div><div class="header-controls"><button id="toggleLeft" aria-controls="leftPanel" aria-expanded="true">Filters</button><button id="toggleRight" aria-controls="rightPanel" aria-expanded="true">Inspector</button><button id="openTour" aria-expanded="false" aria-controls="tourPanel">Guided tour</button><button id="focusGraph">Focus graph</button><button id="exportSVG">Export SVG</button><button id="exportJSON">Export view</button><button id="resetView">Reset</button></div></header>
 <main class="app" id="appLayout"><button class="mobile-backdrop" id="backdrop" aria-label="Close panel" hidden></button>
 <aside id="leftPanel" aria-label="Graph filters"><button class="close-panel" id="closeLeft">Back to graph</button><div class="stat"><b id="validationStat"></b><span class="small">Verified numerical source identities</span><span id="integrityStat" class="small integrity">Checking embedded data…</span></div><div class="stat"><b id="visibleStat"></b><span class="small">Visible nodes / typed links</span></div><label class="small" for="preparation">Preparation for contextual readouts</label><select id="preparation"></select><label class="small" for="domain">Declared event</label><select id="domain"></select><p class="small" id="domainDefinition"></p><p class="meta-note">Preparation and event select preserved witness metrics; the dependency map is shared.</p><label class="sr-only" for="search">Search scientific map</label><input id="search" type="search" placeholder="Search claims, mechanisms, sources…"><h3>Lenses</h3><div id="lenses"></div><h3>Quick views</h3><div id="viewBtns"><button class="view active" data-view="all">All core routes</button><button class="view" data-view="supported">Recorded evidence</button><button class="view" data-view="conditional">Conditional support</button><button class="view" data-view="open">Revision tests</button><button class="view" data-view="blocked">Scope boundaries</button></div><div id="refsBox" class="refs-box"></div><h3>Source detail</h3><label class="lens"><input type="checkbox" id="showSources">Show 22 source-file nodes</label><p class="detail-legend">Source links remain available in the inspector when their nodes are hidden.</p><h3>Accessible node selection</h3><div class="node-options"><label for="nodePicker" class="small">Choose a visible node</label><select id="nodePicker"></select></div><h3>Legend</h3><div id="legend"></div><p class="meta-note">AND gates require every listed premise. A map filter changes navigation, not archived evidence or scientific truth.</p><details><summary class="small">Reference and license</summary><p class="meta-note">Adapted from the published full-canvas KwanTube map accompanying <em>Beyond Redfield</em>, release v3.5.1.1. Derived interface: GPL-3.0-only. Source data retain separate attribution and terms.</p></details></aside>
 <section class="canvas-wrap" aria-label="Spatial scientific map">
 <nav id="layerNav" aria-label="Evidence categories"></nav>
 <svg id="graph" role="group" aria-label="Scientific graph: arrow keys pan, plus and minus zoom, zero fits" tabindex="0"></svg>
+<section id="tourPanel" aria-labelledby="tourTitle" hidden>
+  <div class="tour-top"><span id="tourPosition"></span><button type="button" id="tourClose" aria-label="Close guided tour">Close</button></div>
+  <div class="tour-controls" aria-label="Conceptual blocks">
+    <button type="button" id="tourPrevious" aria-label="Previous conceptual block">‹</button>
+    <button type="button" id="tourPlay">Play</button>
+    <button type="button" id="tourNext" aria-label="Next conceptual block">›</button>
+    <select id="tourPicker" aria-label="Jump to a conceptual block"></select>
+  </div>
+  <div id="tourText" class="tour-text">
+    <h2 id="tourTitle" aria-live="polite"></h2>
+    <p id="tourQuestion" class="tour-question"></p>
+    <p id="tourFinding"></p>
+    <p class="tour-scope"><strong>What the evidence supports</strong><br><span id="tourScope"></span></p>
+    <details id="tourEvidence"><summary>Evidence for this block</summary><ul id="tourSources"></ul></details>
+  </div>
+</section>
 <div class="map-footer">
   <div class="trace-key" id="traceKey" hidden><span class="key-in">Incoming evidence</span><span class="key-out">Outgoing links</span></div>
   <div class="zoom-controls" aria-label="Map controls"><button id="lockLayout" aria-pressed="false" title="Lock card and column positions so every drag pans the map">Lock layout</button><button id="depthBack" aria-label="Previous depth layer">‹</button><button id="depthNext" aria-label="Next depth layer">›</button><button id="depthReset" aria-pressed="false">Depth</button><button id="zoomIn" aria-label="Zoom in">+</button><button id="zoomOut" aria-label="Zoom out">−</button><button id="zoomFit" aria-label="Fit graph">Fit all</button><button id="fitConnections" hidden>Fit connections</button></div>
@@ -312,10 +367,12 @@ html,body{height:100%;height:100dvh}body{display:flex;flex-direction:column}head
 <section class="inspector" id="rightPanel" aria-label="Scientific inspector"><button class="close-panel" id="closeRight">Back to graph</button><h2 id="iTitle">Select a node or a link</h2><div id="iMeta" class="small">Inspect its scientific role, sources and limits.</div><p id="iSummary"></p><div id="iDetails" class="small"></div><div id="iConjunction"></div><h3>Artifacts</h3><div id="iArtifacts" class="small">None selected.</div><h3>Metrics and definitions</h3><div id="iMetrics" class="small metrics">None selected.</div><h3>Contextual witnessed readouts</h3><p class="small">The selected preparation and event change these preserved numbers; they do not change the graph's historical evidence.</p><div id="contextMetrics"></div><details><summary>Interpretation contract</summary><p id="scopeText"></p><p class="source-hash" id="dataHash"></p></details></section>
 </main><div id="tooltip"></div><div id="live" class="sr-only" aria-live="polite"></div>
 <script type="application/json" id="supergraph-data">__SUPERGRAPH_DATA__</script>
+<script type="application/json" id="guided-tour-data">__GUIDED_TOUR_DATA__</script>
 <script>
 /* SPDX-License-Identifier: GPL-3.0-only. Adapted spatial interface, KwanTube v3.5.1.1. */
 (()=>{'use strict';
 const raw=document.getElementById('supergraph-data').textContent;
+const TOUR=JSON.parse(document.getElementById('guided-tour-data').textContent);
 const GRAPH=JSON.parse(raw),EXPECTED='__EMBEDDED_SHA256__',INPUT_SHA='__INPUT_SHA256__';
 const NS='http://www.w3.org/2000/svg',COLORS={supported:'#82b7ff',candidate:'#7ad5fa',conditional:'#d1a6ff',fails:'#f4a6e6',blocked:'#94a3b8',open:'#c084fc',constraint:'#f4b19a',neutral:'#64748b'};
 const $=id=>document.getElementById(id),fmt=n=>Number(n).toLocaleString('en-US'),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -332,6 +389,9 @@ const NODE_WIDTH=228,NODE_HEIGHT=82,ROW_STEP=108,COLUMN_STEP=320;
 const CATEGORY_COLORS=['#96b4fa','#7fd7f4','#b9a6fa','#aec8ed','#8cc5ff','#e2acec','#f3b7a8'];
 const CATEGORY_TITLES=['Premises','Mechanisms','Constraints','Evidence','Validation','Decision tests','Scope'];
 const MOVE_THRESHOLD=5;
+const tour={index:-1,block:null,saved:null,playing:false,finished:false,remaining:0,timer:null,deadline:0,revealUntil:0};
+const tourControls=['toggleLeft','toggleRight','focusGraph','lockLayout','depthBack','depthNext','depthReset'];
+
 const nodeOffsets=new Map(),columnOffsets=new Map();
 const offset=(map,key)=>map.get(key)||{x:0,y:0};
 const sourceURL=path=>'https://github.com/FacundoFirmenich/crispr-observability/blob/'+encodeURIComponent("Ulalito's-Island")+'/'+path.split('/').map(encodeURIComponent).join('/');
@@ -342,12 +402,12 @@ function label(v){return String(v).replace(/_/g,' ');}
 function download(name,text,type){const b=new Blob([text],{type}),u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);}
 function validate(){if(nodes.size!==GRAPH.nodes.length||edges.size!==GRAPH.edges.length)throw Error('Duplicate graph identifiers');for(const e of GRAPH.edges)if(!nodes.has(e.source)||!nodes.has(e.target))throw Error('Unresolved graph link');for(const h of GRAPH.hyperedges)if(!nodes.has(h.conclusion)||!h.premises.every(id=>nodes.has(id)))throw Error('Unresolved conjunction');for(const r of GRAPH.context_metrics.witness_observations)if(![r.N,r.E,r.NE,r.U].every(Number.isInteger)||r.E+r.NE+r.U!==r.N)throw Error('Invalid frozen record partition');}
 function state(){return{lenses:[...activeLenses],view:quickView,search,details:showSources,preparation,domain,selected:selected?{...selected}:null,leftHidden,rightHidden,locked,depth,activeCategory,nodeOffsets:[...nodeOffsets],columnOffsets:[...columnOffsets],transform:{...transform}};}
-function storeView(){const v=state();try{history.replaceState(null,'','#view='+encodeURIComponent(JSON.stringify(v)));}catch{}}
+function storeView(){if(tour.block)return;const v=state();try{history.replaceState(null,'','#view='+encodeURIComponent(JSON.stringify(v)));}catch{}}
 function loadView(){try{const h=new URLSearchParams(location.hash.slice(1));if(!h.has('view'))return;const v=JSON.parse(h.get('view'));if(Array.isArray(v.lenses))activeLenses=new Set(v.lenses.filter(x=>GRAPH.lenses.some(l=>l.id===x)));if(['all','supported','conditional','open','blocked'].includes(v.view))quickView=v.view;if(typeof v.search==='string')search=v.search.slice(0,200);showSources=v.details===true;if(GRAPH.preparations.some(p=>p.id===v.preparation))preparation=v.preparation;if(GRAPH.target_domains.some(d=>d.id===v.domain))domain=v.domain;if(v.selected&&((v.selected.kind==='node'&&nodes.has(v.selected.id))||(v.selected.kind==='edge'&&edges.has(v.selected.id))))selected=v.selected;if(typeof v.leftHidden==='boolean')leftHidden=v.leftHidden;if(typeof v.rightHidden==='boolean')rightHidden=v.rightHidden;locked=v.locked===true;activeCategory=GRAPH.layers.includes(v.activeCategory)?v.activeCategory:null;if(Number.isInteger(v.depth)&&v.depth>=-1&&v.depth<GRAPH.layers.length)depth=v.depth;for(const [name,map,valid] of [['nodeOffsets',nodeOffsets,id=>nodes.has(id)],['columnOffsets',columnOffsets,id=>GRAPH.layers.includes(id)]]){map.clear();if(Array.isArray(v[name]))for(const entry of v[name])if(Array.isArray(entry)&&valid(entry[0])&&Number.isFinite(entry[1]?.x)&&Number.isFinite(entry[1]?.y))map.set(entry[0],entry[1]);}if(v.transform&&['x','y','k'].every(k=>Number.isFinite(v.transform[k]))&&v.transform.k>=.08&&v.transform.k<=4){transform={...v.transform};needsFit=false;}}catch{}}
 function layoutState(){app.classList.toggle('hide-left',leftHidden&&!rightHidden);app.classList.toggle('hide-right',rightHidden&&!leftHidden);app.classList.toggle('hide-both',leftHidden&&rightHidden);$('toggleLeft').setAttribute('aria-expanded',String(!leftHidden));$('toggleRight').setAttribute('aria-expanded',String(!rightHidden));$('backdrop').hidden=!mobile()||(leftHidden&&rightHidden);$('focusGraph').textContent=leftHidden&&rightHidden?'Show panels':'Focus graph';}
 function updateLayout(fit=false){layoutState();if(fit)needsFit=true;requestAnimationFrame(()=>{render();storeView();});}
-function visibleNode(n){if(n.optional_detail&&!showSources)return false;const lensOk=!n.lenses?.length||n.lenses.some(l=>activeLenses.has(l));const viewOk=quickView==='all'||n.status===quickView||(quickView==='conditional'&&n.type==='conjunction');const hay=[n.label,n.type,n.status,n.status_original,n.summary,n.details,...(n.artifacts||[])].join(' ').toLowerCase();return lensOk&&viewOk&&(!search||hay.includes(search));}
-function visibleEdge(e,ids){return(!e.lenses?.length||e.lenses.some(l=>activeLenses.has(l)))&&ids.has(e.source)&&ids.has(e.target);}
+function visibleNode(n){if(tour.block)return tour.block.nodes.includes(n.id);if(n.optional_detail&&!showSources)return false;const lensOk=!n.lenses?.length||n.lenses.some(l=>activeLenses.has(l));const viewOk=quickView==='all'||n.status===quickView||(quickView==='conditional'&&n.type==='conjunction');const hay=[n.label,n.type,n.status,n.status_original,n.summary,n.details,...(n.artifacts||[])].join(' ').toLowerCase();return lensOk&&viewOk&&(!search||hay.includes(search));}
+function visibleEdge(e,ids){if(tour.block)return tour.block.edges.includes(e.id);return(!e.lenses?.length||e.lenses.some(l=>activeLenses.has(l)))&&ids.has(e.source)&&ids.has(e.target);}
 function applyTransform(){const v=$('viewport');if(v)v.setAttribute('transform',`translate(${transform.x},${transform.y}) scale(${transform.k})`);}
 function focusCategory(layer, persist=true){
 const i=GRAPH.layers.indexOf(layer),c=projection(layer,i);
@@ -357,8 +417,79 @@ const x=128+i*COLUMN_STEP+c.x,y=31+c.y;
 transform={x:w/2-x*k,y:20-y*k,k};activeCategory=layer;
 applyTransform();syncCategoryNav();if(persist){storeView();say(layer+' in view');}
 }
+function syncTourControls(){
+$('tourPlay').textContent=tour.playing?'Pause':tour.finished?'Replay':'Play';
+$('tourPrevious').disabled=tour.index<=0;
+$('tourNext').disabled=tour.index>=TOUR.length-1;
+}
+function renderTourPanel(){
+ const block=tour.block;
+ $('tourPosition').textContent='Block '+(tour.index+1)+' of '+TOUR.length;
+ $('tourTitle').textContent=block.title;$('tourQuestion').textContent=block.question;
+ $('tourFinding').textContent=block.finding;$('tourScope').textContent=block.scope;
+ $('tourPicker').value=String(tour.index);$('tourEvidence').open=false;$('tourText').scrollTop=0;
+ const list=$('tourSources'),paths=new Set([...(block.sources||[]),...block.nodes.flatMap(id=>nodes.get(id).artifacts||[])]);
+ list.replaceChildren();
+ for(const path of paths){
+  const item=document.createElement('li'),link=document.createElement('a');
+  link.textContent=path.split('/').at(-1);link.href=sourceURL(path);link.title=path;link.target='_blank';link.rel='noopener';
+  item.append(link);list.append(item);
+ }
+ syncTourControls();
+}
+function blockDuration(block){
+ const words=[block.question,block.finding,block.scope].join(' ').trim().split(/\s+/).length;
+ return 3500+Math.ceil(words*60000/235);
+}
+function changeTourBlock(index){
+ clearTimeout(tour.timer);tour.timer=null;
+ tour.index=Math.max(0,Math.min(TOUR.length-1,index));tour.block=TOUR[tour.index];
+ tour.finished=false;tour.remaining=blockDuration(tour.block);tour.revealUntil=performance.now()+120;
+ renderTourPanel();needsFit=true;render();
+ if(tour.playing)scheduleTour();
+}
+function scheduleTour(){
+ tour.deadline=performance.now()+tour.remaining;
+ tour.timer=setTimeout(()=>{
+  if(tour.index<TOUR.length-1)changeTourBlock(tour.index+1);
+  else{tour.playing=false;tour.finished=true;tour.timer=null;syncTourControls();say('Guided tour complete');}
+ },tour.remaining);
+}
+function pauseTour(){
+ if(!tour.playing)return;
+ clearTimeout(tour.timer);tour.timer=null;tour.playing=false;
+ tour.remaining=Math.max(0,tour.deadline-performance.now());syncTourControls();
+}
+function toggleTourPlayback(){
+ if(tour.playing){pauseTour();return;}
+ if(tour.finished)changeTourBlock(0);
+ tour.playing=true;scheduleTour();syncTourControls();
+}
+function openTour(){
+ if(tour.block){closeTour();return;}
+ tour.saved={leftHidden,rightHidden,transform:{...transform},activeCategory};
+ leftHidden=true;rightHidden=true;layoutState();
+ canvas.classList.add('tour-active');document.body.classList.add('tour-open');$('tourPanel').hidden=false;
+ $('openTour').setAttribute('aria-expanded','true');
+ for(const id of tourControls)$(id).disabled=true;
+ changeTourBlock(0);$('tourPlay').focus({preventScroll:true});
+}
+function closeTour(restoreFocus=true){
+ if(!tour.block)return;
+ pauseTour();tour.index=-1;tour.block=null;tour.finished=false;
+ ({leftHidden,rightHidden,transform,activeCategory}=tour.saved);tour.saved=null;
+ canvas.classList.remove('tour-active');document.body.classList.remove('tour-open');$('tourPanel').hidden=true;
+ $('openTour').setAttribute('aria-expanded','false');
+ for(const id of tourControls)$(id).disabled=false;
+ layoutState();needsFit=false;render();
+ if(restoreFocus)$('openTour').focus({preventScroll:true});
+}
 function syncCategoryNav(){
-for(const button of $('layerNav').children)button.setAttribute('aria-pressed',String(button.dataset.layer===activeCategory));
+const used=tour.block?new Set(tour.block.nodes.map(id=>nodes.get(id).layer)):null;
+for(const button of $('layerNav').children){
+ button.disabled=Boolean(used);button.toggleAttribute('data-in-block',Boolean(used?.has(button.dataset.layer)));
+ button.setAttribute('aria-pressed',String(button.dataset.layer===activeCategory));
+}
 }
 function setDepth(index){depth=index<0?-1:index%GRAPH.layers.length;syncSpatialControls();render();storeView();say(depth<0?'Planar overview':GRAPH.layers[depth]+' in the foreground');}
 function syncSpatialControls(){svg.dataset.locked=String(locked);$('lockLayout').setAttribute('aria-pressed',String(locked));$('lockLayout').textContent=locked?'Unlock layout':'Lock layout';$('depthReset').setAttribute('aria-pressed',String(depth>=0));$('depthReset').textContent=depth<0?'Depth':'Overview';}
@@ -388,6 +519,10 @@ if(x<card.halfWidth*k||x>w-card.halfWidth*k||y<card.halfHeight*k||y>h-card.halfH
 }
 function zoom(factor,cx=svg.clientWidth/2,cy=svg.clientHeight/2){const k=Math.min(4,Math.max(.08,transform.k*factor)),ratio=k/transform.k;transform={x:cx-(cx-transform.x)*ratio,y:cy-(cy-transform.y)*ratio,k};applyTransform();storeView();}
 function activeConnections(visibleEdges){
+if(tour.block){
+ const nodesInBlock=tour.block.nodes,types=new Map(visibleEdges.map(e=>[e.id,e.relation==='limits'||e.relation==='would_require_revision'?'tour-condition':'tour-link']));
+ return {node:tour.block.focus,edge:null,types,neighbors:new Set(nodesInBlock),active:true};
+}
 const node=gesture?.map===nodeOffsets&&moved?gesture.node:selected?.kind==='node'?selected.id:null;
 const edge=node?null:selected?.kind==='edge'?selected.id:null;
 const types=new Map(),neighbors=new Set();
@@ -400,7 +535,7 @@ return{node,edge,types,neighbors,active:Boolean(node||edge)};
 }
 function showTooltip(evt,item){if(mobile())return;clearTimeout(tipTimer);tipTimer=setTimeout(()=>{const t=$('tooltip');t.innerHTML='<b>'+esc(item.label)+'</b><br>'+esc(item.summary||item.relation||'');t.style.display='block';const b=t.getBoundingClientRect();t.style.left=Math.max(8,Math.min(innerWidth-b.width-8,evt.clientX+14))+'px';t.style.top=Math.max(8,Math.min(innerHeight-b.height-8,evt.clientY+12))+'px';},100);}
 function hideTooltip(){clearTimeout(tipTimer);$('tooltip').style.display='none';}
-function select(item,kind,open=true){selected={id:item.id,kind};if(open&&mobile()){rightHidden=false;leftHidden=true;layoutState();}inspect();render();if(kind==='node')revealCard(item.id);storeView();say(item.label);}
+function select(item,kind,open=true){if(tour.block){pauseTour();return;}selected={id:item.id,kind};if(open&&mobile()){rightHidden=false;leftHidden=true;layoutState();}inspect();render();if(kind==='node')revealCard(item.id);storeView();say(item.label);}
 function inspect(){const item=selected?(selected.kind==='node'?nodes.get(selected.id):edges.get(selected.id)):null;if(!item){$('iTitle').textContent='Select a node or a link';$('iMeta').textContent='Inspect its scientific role, sources and limits.';$('iSummary').textContent='';$('iDetails').textContent='';$('iConjunction').replaceChildren();$('iArtifacts').textContent='None selected.';$('iMetrics').textContent='None selected.';return;}
 $('iTitle').textContent=item.label;$('iMeta').innerHTML='<span class="pill">'+esc(selected.kind==='edge'?label(item.relation):label(item.type))+'</span><span class="pill '+esc(item.status)+'">'+esc(label(item.status))+'</span>'+(item.status_original?'<span class="pill">'+esc(label(item.status_original))+'</span>':'');$('iSummary').textContent=item.summary||'';$('iDetails').textContent=item.details||item.scope||'';
 const c=$('iConjunction');c.replaceChildren();if(selected.kind==='edge'){const p=document.createElement('p');p.className='small';p.textContent=nodes.get(item.source).label+' → '+nodes.get(item.target).label;c.append(p);const explanations={supports:'This observation or premise supports the destination under the scope of this link.',requires:'The destination depends on the named premise; inspect both items before carrying the conclusion forward.',tests:'The source evaluates the destination within the recorded test domain.',limits:'The source bounds the destination or narrows where it can be used.'};const meaning=document.createElement('p');meaning.className='note-status';meaning.textContent=explanations[item.relation]||'Read this as a directed '+label(item.relation)+' relation. Use its endpoints and declared scope together.';c.append(meaning);}else{const incoming=GRAPH.edges.filter(e=>e.target===item.id),outgoing=GRAPH.edges.filter(e=>e.source===item.id);for(const [title,links] of [['Evidence and constraints entering this item',incoming],['Conclusions and tests linked from this item',outgoing]]){if(!links.length)continue;const h=document.createElement('p');h.className='note-status';h.textContent=title;c.append(h);for(const e of links){const button=document.createElement('button');button.className='linklike';button.textContent=label(e.relation)+' · '+nodes.get(e.target===item.id?e.source:e.target).label;button.addEventListener('click',()=>select(e,'edge'));const row=document.createElement('div');row.append(button);c.append(row);}}}if(item.required_premises){const p=document.createElement('p');p.className='note-status';p.textContent='AND support requires every listed premise. These dependencies are declared, not an automatic proof of molecular truth.';c.append(p);const ul=document.createElement('ul');for(const id of item.required_premises){const li=document.createElement('li'),b=document.createElement('button');b.className='linklike';b.textContent=nodes.get(id).label;b.addEventListener('click',()=>select(nodes.get(id),'node'));li.append(b);ul.append(li);}c.append(ul);}if(item.falsification){const p=document.createElement('p');p.className='note-status';p.textContent='Revision condition: '+item.falsification;c.append(p);}
@@ -411,13 +546,33 @@ function wrapText(str,max=25){const words=str.split(/\s+/),lines=[''];for(const 
 function render(){
 const vis=GRAPH.nodes.filter(visibleNode),ids=new Set(vis.map(n=>n.id)),es=GRAPH.edges.filter(e=>visibleEdge(e,ids));
 lastVisible={nodes:vis.map(n=>n.id),edges:es.map(e=>e.id)};
-const positions={},columns=GRAPH.layers.map((layer,i)=>{
- const c=projection(layer,i),x=128+i*COLUMN_STEP+c.x,y=31+c.y;
- vis.filter(n=>n.layer===layer).forEach((n,j)=>{
-  const o=offset(nodeOffsets,n.id);positions[n.id]={x:x+o.x,y:y+96+j*ROW_STEP+o.y,z:c.z};
+const guide=tour.block,compact=Boolean(guide&&mobile()),positions={};
+const levels=new Map(guide?.nodes.map(id=>[id,0]));
+if(guide){
+ for(let pass=0;pass<guide.nodes.length-1;pass++){
+  for(const id of guide.edges){
+   const e=edges.get(id);
+   levels.set(e.target,Math.max(levels.get(e.target),levels.get(e.source)+1));
+  }
+ }
+}
+const maxLevel=guide?Math.max(...levels.values()):0;
+const revealOrder=guide?.nodes.slice().sort((a,b)=>levels.get(a)-levels.get(b));
+const groups=guide?Array.from({length:maxLevel+1},(_,level)=>({
+ layer:level===0?'Evidence and premises':level===maxLevel?'Conclusions':'Reasoning',
+ members:guide.nodes.filter(id=>levels.get(id)===level).map(id=>nodes.get(id)),
+ accent:level===0?'#a6c7ff':level===maxLevel?'#c4b5ff':'#9bdcff',
+})):GRAPH.layers.map((layer,i)=>({layer,members:vis.filter(n=>n.layer===layer),accent:CATEGORY_COLORS[i]}));
+const columns=compact?[]:groups.map(({layer,members,accent},i)=>{
+ const c=guide?{x:0,y:0,z:0}:projection(layer,i),x=128+i*(guide?274:COLUMN_STEP)+c.x,y=31+c.y;
+ members.forEach((n,j)=>{
+  const o=guide?{x:0,y:0}:offset(nodeOffsets,n.id);positions[n.id]={x:x+o.x,y:y+(guide?65:96)+j*(guide?94:ROW_STEP)+o.y,z:c.z};
  });
- return{layer,x,y,z:c.z};
+ return{layer,x,y,z:c.z,accent};
 });
+if(compact){
+ revealOrder.forEach((id,i)=>{positions[id]={x:120+(i%2)*246,y:54+Math.floor(i/2)*96,z:0};});
+}
 drawnCards=vis.map(n=>({id:n.id,...positions[n.id],halfWidth:NODE_WIDTH/2,halfHeight:NODE_HEIGHT/2}));
 const points=[...columns,...drawnCards],minX=Math.min(...points.map(p=>p.x))-132,minY=Math.min(...points.map(p=>p.y))-24;
 layout={x:minX,y:minY,width:Math.max(...points.map(p=>p.x))+168-minX,height:Math.max(...points.map(p=>p.y))+55-minY};
@@ -425,19 +580,21 @@ const nodeW=NODE_WIDTH,nodeH=NODE_HEIGHT;
 const focused=document.activeElement;
 const focusAttr=svg.contains(focused)?['data-node-id','data-edge-id','data-column'].find(name=>focused.hasAttribute(name)):null;
 const focusId=focusAttr?focused.getAttribute(focusAttr):null;
-svg.setAttribute('viewBox',`0 0 ${svg.clientWidth||800} ${svg.clientHeight||650}`);svg.replaceChildren();const defs=s('defs');for(const[st,col]of Object.entries({...COLORS,incoming:'#d9baff',outgoing:'#9ee3ff','selected-link':'#e7d8ff'})){const m=s('marker',{id:'arrow-'+st,markerWidth:8,markerHeight:8,refX:8,refY:4,orient:'auto',markerUnits:'userSpaceOnUse'});m.append(s('path',{d:'M0 1L7 4L0 7Z',fill:col}));defs.append(m);}svg.append(defs);const vp=s('g',{id:'viewport'}),columnHeaders=[];vp.append(s('rect',{x:-4000,y:-4000,width:10000,height:10000,fill:'transparent',class:'canvas-bg'}));columns.forEach(({layer,x,y,z},i)=>{
-const g=s('g',{class:'column-handle','data-column':layer,role:'button',tabindex:0,'aria-label':'Column '+layer+'. Enter to inspect, arrow keys to move.'});
-g.append(s('rect',{x:x-114,y:y-18,width:228,height:36,rx:8,fill:z?'#243459':'#293c65',stroke:CATEGORY_COLORS[i]}),s('text',{x,y:y+5,class:'layer-label'},layer));
+svg.setAttribute('viewBox',`0 0 ${svg.clientWidth||800} ${svg.clientHeight||650}`);svg.replaceChildren();const defs=s('defs');for(const[st,col]of Object.entries({...COLORS,incoming:'#d9baff',outgoing:'#9ee3ff','selected-link':'#e7d8ff','tour-link':'#a9d9ff','tour-condition':'#d9baff'})){const m=s('marker',{id:'arrow-'+st,markerWidth:8,markerHeight:8,refX:8,refY:4,orient:'auto',markerUnits:'userSpaceOnUse'});m.append(s('path',{d:'M0 1L7 4L0 7Z',fill:col}));defs.append(m);}svg.append(defs);const vp=s('g',{id:'viewport'}),columnHeaders=[];vp.append(s('rect',{x:-4000,y:-4000,width:10000,height:10000,fill:'transparent',class:'canvas-bg'}));columns.forEach(({layer,x,y,z,accent})=>{
+const attrs=guide?{class:'tour-column'}:{class:'column-handle','data-column':layer,role:'button',tabindex:0,'aria-label':'Column '+layer+'. Enter to inspect, arrow keys to move.'};
+const g=s('g',attrs);
+g.append(s('rect',{x:x-114,y:y-18,width:228,height:36,rx:8,fill:z?'#243459':'#293c65',stroke:accent}),s('text',{x,y:y+5,class:'layer-label'},layer));
 g.addEventListener('keydown',e=>moveKey(e,columnOffsets,layer,()=>describeColumn(layer)));
 columnHeaders.push(g);
 });
 const focus=activeConnections(es),traces=[];
-$('traceKey').hidden=!focus.node||!focus.types.size;
+$('traceKey').hidden=Boolean(guide)||!focus.node||!focus.types.size;
 $('fitConnections').hidden=!focus.types.size;
 for(const e of es){const a=positions[e.source],b=positions[e.target],forward=b.x>=a.x,ax=a.x+(forward?nodeW/2:-nodeW/2),bx=b.x+(forward?-nodeW/2:nodeW/2),mx=(ax+bx)/2;let d;if(a.x===b.x)d=`M${a.x+nodeW/2},${a.y} C${a.x+nodeW/2+46},${a.y} ${b.x+nodeW/2+46},${b.y} ${b.x+nodeW/2},${b.y}`;else d=`M${ax},${a.y}C${mx},${a.y} ${mx},${b.y} ${bx},${b.y}`;const type=focus.types.get(e.id),opacity=focus.active?(type?.36:.10):.54;
 const path=s('path',{d,class:'edge',stroke:'#8197bc','marker-end':'url(#arrow-neutral)',opacity});
 if(type){
  const trace=s('path',{d,class:'edge-trace '+type,'data-trace-edge':e.id,'marker-end':'url(#arrow-'+type+')'});
+ if(guide&&performance.now()<tour.revealUntil){trace.classList.add('tour-reveal');trace.style.setProperty('--reveal',(revealOrder.indexOf(e.source)*95+100)+'ms');}
  const signal=s('path',{d,class:'edge-signal'});
  signal.style.animationDelay=-(performance.now()%1800)+'ms';
  traces.push(trace,signal);
@@ -446,16 +603,18 @@ vp.append(...traces);
 for(const n of vis){const p=positions[n.id],g=s('g',{class:'node','data-node-id':n.id,role:'button',tabindex:0,'aria-label':n.label+', '+label(n.type)+', '+label(n.status),'aria-pressed':String(selected?.kind==='node'&&selected.id===n.id)});const isFocus=focus.node===n.id,inContext=focus.neighbors.has(n.id),left=p.x-nodeW/2,top=p.y-nodeH/2;
 g.style.opacity=focus.active&&!inContext?'.34':String(Math.max(.56,1-.11*p.z));
 if(isFocus)g.dataset.focus='true';else if(inContext)g.dataset.context='true';
+if(guide&&performance.now()<tour.revealUntil){g.classList.add('tour-reveal');g.style.setProperty('--reveal',(revealOrder.indexOf(n.id)*95)+'ms');}
 if(p.z===0&&depth>=0)g.style.filter='drop-shadow(0 4px 5px #728bd0)';
 g.append(s('rect',{class:'card-surface',x:left,y:top,width:nodeW,height:nodeH,rx:n.type==='conjunction'?20:12,fill:isFocus?'#294573':inContext?'#203453':'#172540',stroke:'#526a90'}));
 g.append(s('rect',{class:'card-accent',x:left+1,y:top+9,width:4,height:nodeH-18,rx:2,fill:CATEGORY_COLORS[GRAPH.layers.indexOf(n.layer)]}));
 g.append(s('circle',{class:'card-status',cx:left+15,cy:p.y+22,r:3.4,fill:color(n.status)}));const lines=wrapText(n.label,27);lines.forEach((t,i)=>g.append(s('text',{x:left+13,y:p.y-12+i*17,class:n.type==='conjunction'?'card-text gate-label':'card-text'},t)));g.append(s('text',{x:left+24,y:p.y+26,class:'type'},label(n.type)+' / '+label(n.status)));g.append(s('title',{},n.label));g.addEventListener('keydown',ev=>moveKey(ev,nodeOffsets,n.id,()=>select(n,'node')));g.addEventListener('pointerenter',ev=>showTooltip(ev,n));g.addEventListener('pointerleave',hideTooltip);vp.append(g);}vp.append(...columnHeaders);if(!vis.length)vp.append(s('text',{x:layout.width/2,y:layout.height/2,class:'empty-text'},'No nodes match these filters. Reset or broaden the selection.'));svg.append(vp);
 if(focusAttr)vp.querySelector('['+focusAttr+'="'+CSS.escape(focusId)+'"]')?.focus({preventScroll:true});
-$('visibleStat').textContent=vis.length+' / '+es.length;const picker=$('nodePicker'),old=picker.value;picker.replaceChildren();const placeholder=document.createElement('option');placeholder.value='';placeholder.textContent='Select a visible node…';picker.append(placeholder);for(const n of vis){const o=document.createElement('option');o.value=n.id;o.textContent=n.label;picker.append(o);}picker.value=selected?.kind==='node'&&ids.has(selected.id)?selected.id:old;if(needsFit){if(initialView&&vis.length)focusCategory(GRAPH.layers[1],false);else fitGraph(false);needsFit=false;}else applyTransform();initialView=false;syncCategoryNav();$('refsBox').textContent=GRAPH.paper_refs[quickView]||GRAPH.paper_refs.all;}
+$('visibleStat').textContent=vis.length+' / '+es.length;const picker=$('nodePicker'),old=picker.value;picker.replaceChildren();const placeholder=document.createElement('option');placeholder.value='';placeholder.textContent='Select a visible node…';picker.append(placeholder);for(const n of vis){const o=document.createElement('option');o.value=n.id;o.textContent=n.label;picker.append(o);}picker.value=selected?.kind==='node'&&ids.has(selected.id)?selected.id:old;if(guide&&needsFit){fitGraph(false);needsFit=false;}else if(needsFit){if(initialView&&vis.length)focusCategory(GRAPH.layers[1],false);else fitGraph(false);needsFit=false;}else applyTransform();initialView=false;syncCategoryNav();$('refsBox').textContent=GRAPH.paper_refs[quickView]||GRAPH.paper_refs.all;}
 function syncControls(){syncSpatialControls();$('search').value=search;$('showSources').checked=showSources;$('preparation').value=preparation;$('domain').value=domain;for(const cb of $('lenses').querySelectorAll('input'))cb.checked=activeLenses.has(cb.value);for(const b of $('viewBtns').querySelectorAll('button')){const active=b.dataset.view===quickView;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));}}
-function exportSVG(){const bounds=$('viewport').querySelector('.column-handle')?.parentElement;const background=bounds?.querySelector('.canvas-bg');background?.remove();const box=bounds?.getBBox();if(background)bounds.prepend(background);const copy=svg.cloneNode(true);copy.querySelectorAll('.edge-signal').forEach(e=>e.remove());copy.setAttribute('xmlns',NS);const v=copy.querySelector('#viewport');v.removeAttribute('transform');const x=box?box.x-20:0,y=box?box.y-20:0,w=box?box.width+40:layout.width,h=box?box.height+40:layout.height;copy.setAttribute('viewBox',`${x} ${y} ${w} ${h}`);copy.setAttribute('width',w);copy.setAttribute('height',h);const style=s('style',{},'.node text{fill:#e8edf5;font:12px system-ui}.node .type{fill:#8892b0;font-size:9px}.node .gate-label{fill:#d1a6ff;font-weight:800}.layer-label{fill:#cbd5e1;font:700 13px system-ui;text-anchor:middle}.edge{fill:none;stroke-width:2}.edge-label{fill:#cbd5e1;font:11px system-ui}.edge-hit{display:none}.edge-trace{fill:none;stroke-width:3.2}.edge-trace.incoming{stroke:#d9baff;stroke-dasharray:8 5}.edge-trace.outgoing{stroke:#9ee3ff}.edge-trace.selected-link{stroke:#e7d8ff}');copy.prepend(style);const bg=s('rect',{x,y,width:w,height:h,fill:'#0a0e1a'});copy.insertBefore(bg,copy.firstChild.nextSibling);download('crispr-observability-supergraph.svg',new XMLSerializer().serializeToString(copy),'image/svg+xml;charset=utf-8');}
-function reset(){locked=false;depth=-1;initialView=true;activeCategory=null;nodeOffsets.clear();columnOffsets.clear();activeLenses=new Set(GRAPH.lenses.map(l=>l.id));quickView='all';search='';showSources=false;selected=null;preparation=GRAPH.preparations[0].id;domain=GRAPH.target_domains[0].id;leftHidden=mobile();rightHidden=mobile();needsFit=true;syncControls();layoutState();inspect();renderContext();render();try{history.replaceState(null,'',location.pathname+location.search);}catch{}say('Default graph restored. Archived data unchanged.');}
+function exportSVG(){const bounds=$('viewport');const background=bounds?.querySelector('.canvas-bg');background?.remove();const box=bounds?.getBBox();if(background)bounds.prepend(background);const copy=svg.cloneNode(true);copy.querySelectorAll('.edge-signal').forEach(e=>e.remove());copy.setAttribute('xmlns',NS);const v=copy.querySelector('#viewport');v.removeAttribute('transform');const x=box?box.x-20:0,y=box?box.y-20:0,w=box?box.width+40:layout.width,h=box?box.height+40:layout.height;copy.setAttribute('viewBox',`${x} ${y} ${w} ${h}`);copy.setAttribute('width',w);copy.setAttribute('height',h);const style=s('style',{},'.node text{fill:#e8edf5;font:12px system-ui}.node .type{fill:#8892b0;font-size:9px}.node .gate-label{fill:#d1a6ff;font-weight:800}.layer-label{fill:#cbd5e1;font:700 13px system-ui;text-anchor:middle}.edge{fill:none;stroke-width:2}.edge-label{fill:#cbd5e1;font:11px system-ui}.edge-hit{display:none}.edge-trace{fill:none;stroke-width:3.2}.edge-trace.incoming{stroke:#d9baff;stroke-dasharray:8 5}.edge-trace.outgoing{stroke:#9ee3ff}.edge-trace.selected-link{stroke:#e7d8ff}.edge-trace.tour-link{stroke:#a9d9ff}.edge-trace.tour-condition{stroke:#d9baff;stroke-dasharray:8 5}');copy.prepend(style);const bg=s('rect',{x,y,width:w,height:h,fill:'#0a0e1a'});copy.insertBefore(bg,copy.firstChild.nextSibling);download('crispr-observability-supergraph.svg',new XMLSerializer().serializeToString(copy),'image/svg+xml;charset=utf-8');}
+function reset(){if(tour.block)closeTour(false);locked=false;depth=-1;initialView=true;activeCategory=null;nodeOffsets.clear();columnOffsets.clear();activeLenses=new Set(GRAPH.lenses.map(l=>l.id));quickView='all';search='';showSources=false;selected=null;preparation=GRAPH.preparations[0].id;domain=GRAPH.target_domains[0].id;leftHidden=mobile();rightHidden=mobile();needsFit=true;syncControls();layoutState();inspect();renderContext();render();try{history.replaceState(null,'',location.pathname+location.search);}catch{}say('Default graph restored. Archived data unchanged.');}
 function describeColumn(layer){
+if(tour.block){pauseTour();return;}
 selected=null;inspect();render();
 $('iTitle').textContent=layer;
 $('iSummary').textContent='This column groups '+GRAPH.nodes.filter(n=>n.layer===layer).length+' items by their role in the argument. Dragging the column changes its position, while the evidence links retain their meaning.';
@@ -468,7 +627,7 @@ say(layer);storeView();
 function moveKey(e,map,key,inspectItem){
 if(['Enter',' '].includes(e.key)){e.preventDefault();e.stopPropagation();inspectItem();return;}
 const directions={ArrowLeft:[-14,0],ArrowRight:[14,0],ArrowUp:[0,-14],ArrowDown:[0,14]};
-const delta=directions[e.key];if(!delta||locked)return;e.preventDefault();e.stopPropagation();
+const delta=directions[e.key];if(!delta||locked||tour.block)return;e.preventDefault();e.stopPropagation();
 const attribute=map===nodeOffsets?'data-node-id':'data-column',o=offset(map,key);
 map.set(key,{x:o.x+delta[0],y:o.y+delta[1]});render();storeView();
 [...svg.querySelectorAll('['+attribute+']')].find(el=>el.getAttribute(attribute)===key)?.focus();
@@ -485,7 +644,7 @@ const rect=svg.getBoundingClientRect();
 const x=(e.clientX-rect.left-transform.x)/transform.k,y=(e.clientY-rect.top-transform.y)/transform.k;
 const card=drawnCards.findLast(p=>Math.abs(x-p.x)<=p.halfWidth&&Math.abs(y-p.y)<=p.halfHeight);
 const column=target?.getAttribute('data-column'),node=column?null:card?.id||target?.getAttribute('data-node-id'),edge=target?.getAttribute('data-edge-id');
-const map=locked?null:node?nodeOffsets:column?columnOffsets:null,key=node||column;
+const map=locked||tour.block?null:node?nodeOffsets:column?columnOffsets:null,key=node||column;
 gesture={...point(e),tx:transform.x,ty:transform.y,map,key,start:map?offset(map,key):null,node,edge,column};
 }else if(pointers.size===2){
 const [a,b]=[...pointers.values()],r=svg.getBoundingClientRect();
@@ -530,6 +689,20 @@ svg.addEventListener('pointerup',pointerEnd);svg.addEventListener('pointercancel
 svg.addEventListener('wheel',e=>{e.preventDefault();const r=svg.getBoundingClientRect();zoom(e.deltaY>0?.9:1.1,e.clientX-r.left,e.clientY-r.top);},{passive:false});svg.addEventListener('keydown',e=>{if(e.target!==svg)return;const p={ArrowLeft:[35,0],ArrowRight:[-35,0],ArrowUp:[0,35],ArrowDown:[0,-35]};if(p[e.key]){e.preventDefault();transform.x+=p[e.key][0];transform.y+=p[e.key][1];applyTransform();storeView();}else if(['+','='].includes(e.key)){e.preventDefault();zoom(1.2);}else if(e.key==='-'){e.preventDefault();zoom(1/1.2);}else if(e.key==='0'){e.preventDefault();fitGraph();}});
 async function integrity(){if(globalThis.crypto?.subtle){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(raw)),sha=[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('');if(sha!==EXPECTED)throw Error('Embedded graph fingerprint mismatch');$('integrityStat').textContent='Embedded graph fingerprint verified';}else $('integrityStat').textContent='Embedded fingerprint available; verify with Python offline.';ready=true;}
 try{validate();loadView();
+TOUR.forEach((block,index)=>{const option=document.createElement('option');option.value=String(index);option.textContent=(index+1)+'. '+block.title;$('tourPicker').append(option);});
+$('openTour').addEventListener('click',openTour);
+$('tourPlay').addEventListener('click',toggleTourPlayback);
+$('tourClose').addEventListener('click',()=>closeTour());
+$('tourPrevious').addEventListener('click',()=>changeTourBlock(tour.index-1));
+$('tourNext').addEventListener('click',()=>changeTourBlock(tour.index+1));
+$('tourPicker').addEventListener('change',e=>changeTourBlock(Number(e.target.value)));
+document.addEventListener('visibilitychange',()=>{if(document.hidden)pauseTour();});
+$('tourEvidence').addEventListener('toggle',()=>{if($('tourEvidence').open)pauseTour();});
+$('tourPanel').addEventListener('keydown',e=>{
+ if(e.target.tagName==='SELECT')return;
+ if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();changeTourBlock(tour.index+(e.key==='ArrowLeft'?-1:1));}
+});
+document.addEventListener('keydown',e=>{if(tour.block&&e.key==='Escape'){e.preventDefault();e.stopImmediatePropagation();closeTour();}},true);
 GRAPH.layers.forEach((layer,i)=>{
 const button=document.createElement('button');button.type='button';button.dataset.layer=layer;
 button.textContent=CATEGORY_TITLES[i]||layer;button.title=layer;button.setAttribute('aria-label',layer);
@@ -540,7 +713,7 @@ for(const b of $('viewBtns').querySelectorAll('button'))b.addEventListener('clic
 $('depthBack').addEventListener('click',()=>setDepth(depth<0?GRAPH.layers.length-1:(depth+GRAPH.layers.length-1)%GRAPH.layers.length));
 $('depthNext').addEventListener('click',()=>setDepth(depth+1));
 $('depthReset').addEventListener('click',()=>setDepth(depth<0?0:-1));
-$('zoomIn').addEventListener('click',()=>zoom(1.2));$('zoomOut').addEventListener('click',()=>zoom(1/1.2));$('zoomFit').addEventListener('click',()=>fitGraph());$('fitConnections').addEventListener('click',fitConnections);$('exportSVG').addEventListener('click',exportSVG);$('exportJSON').addEventListener('click',()=>download('crispr-observability-supergraph-view.json',JSON.stringify({embeddedGraphSHA256:EXPECTED,inputModelSHA256:INPUT_SHA,state:state(),selected:selected?{...selected,item:selected.kind==='node'?nodes.get(selected.id):edges.get(selected.id)}:null,visible:lastVisible,context:GRAPH.context_metrics.witness_observations.filter(r=>r.preparation===preparation&&r.event===domain)},null,2),'application/json;charset=utf-8'));$('resetView').addEventListener('click',reset);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&mobile()){leftHidden=true;rightHidden=true;updateLayout();$('graph').focus();}});new ResizeObserver(()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>render(),50);}).observe(canvas);window.addEventListener('hashchange',()=>{loadView();syncControls();layoutState();inspect();renderContext();render();});window.CRISP_SUPERGRAPH={get ready(){return ready;},getState:state,getVisible:()=>({...lastVisible}),getSelected:()=>selected?{...selected,item:selected.kind==='node'?nodes.get(selected.id):edges.get(selected.id)}:null,graphCounts:{nodes:GRAPH.nodes.length,edges:GRAPH.edges.length,hyperedges:GRAPH.hyperedges.length},dataSHA256:EXPECTED,fit:fitGraph,selectNode:id=>select(nodes.get(id),'node'),selectEdge:id=>select(edges.get(id),'edge')};
+$('zoomIn').addEventListener('click',()=>zoom(1.2));$('zoomOut').addEventListener('click',()=>zoom(1/1.2));$('zoomFit').addEventListener('click',()=>fitGraph());$('fitConnections').addEventListener('click',fitConnections);$('exportSVG').addEventListener('click',exportSVG);$('exportJSON').addEventListener('click',()=>download('crispr-observability-supergraph-view.json',JSON.stringify({embeddedGraphSHA256:EXPECTED,inputModelSHA256:INPUT_SHA,state:state(),selected:selected?{...selected,item:selected.kind==='node'?nodes.get(selected.id):edges.get(selected.id)}:null,visible:lastVisible,context:GRAPH.context_metrics.witness_observations.filter(r=>r.preparation===preparation&&r.event===domain)},null,2),'application/json;charset=utf-8'));$('resetView').addEventListener('click',reset);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&mobile()){leftHidden=true;rightHidden=true;updateLayout();$('graph').focus();}});new ResizeObserver(()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if(tour.block)needsFit=true;render();},50);}).observe(svg);window.addEventListener('hashchange',()=>{if(tour.block)closeTour(false);loadView();syncControls();layoutState();inspect();renderContext();render();});window.CRISP_SUPERGRAPH={get ready(){return ready;},getState:state,getTourState:()=>({index:tour.index,playing:tour.playing,finished:tour.finished,remaining:tour.playing?Math.max(0,tour.deadline-performance.now()):tour.remaining}),getVisible:()=>({...lastVisible}),getSelected:()=>selected?{...selected,item:selected.kind==='node'?nodes.get(selected.id):edges.get(selected.id)}:null,graphCounts:{nodes:GRAPH.nodes.length,edges:GRAPH.edges.length,hyperedges:GRAPH.hyperedges.length},dataSHA256:EXPECTED,fit:fitGraph,selectNode:id=>select(nodes.get(id),'node'),selectEdge:id=>select(edges.get(id),'edge')};
 }catch(e){fatal(e);}function fatal(e){console.error(e);ready=false;const n=document.createElement('div');n.className='error-banner';n.setAttribute('role','alert');n.textContent='This graph could not be verified: '+String(e.message||e);canvas.append(n);$('integrityStat').textContent='Verification failed';}
 })();
 </script></body></html>

@@ -160,8 +160,8 @@
       "sha256": "407d75c1b311e619157eff5cf1bbb8af43dafe484b4a86d0d2f2c3ff65df7ed4"
     },
     "code/check_supergraph_interaction.cjs": {
-      "bytes": 7138,
-      "sha256": "49a87cabe478cd8f8904156ab5f30967e71f0218ed2ec00035ba962ee7929f58"
+      "bytes": 11478,
+      "sha256": "f92f72610246c8eee08152f8a1fb858a16337b1eb9d0f0088b3c1b5a8524e3db"
     },
     "code/refresh_public_inventory.py": {
       "bytes": 8150,
@@ -5120,8 +5120,8 @@
       "sha256": "d632ecbec1243b79bcedd115b4a336035e0267c055f528c03ecfb18c8aa06c4b"
     },
     "interactive/supergraph/BUILD_RECEIPT.json": {
-      "bytes": 760,
-      "sha256": "ea6ae4bce1da7b945e7d0cea6f1b5312fd5f5a5a8273238b25959ca5e1f7e9db"
+      "bytes": 879,
+      "sha256": "a923ab4fcb8342c3eb4eb4fd0bf9bce5ea09fdbba8eef42e507ec4d288991537"
     },
     "interactive/supergraph/DATA_MODEL.md": {
       "bytes": 2453,
@@ -5136,8 +5136,8 @@
       "sha256": "c716cbdee31c936ff770c34f87e3d80ad1b6a971ff0de7d4a0e9759128d088e6"
     },
     "interactive/supergraph/README.md": {
-      "bytes": 4178,
-      "sha256": "ff35464074eabe2fa87e08c670e06dabe16dcd869bb6f54649b1cc0e2ef61c10"
+      "bytes": 4746,
+      "sha256": "b20bb71d6c3d640ebbb9cfd59fac3e90ed17c36c4eb4d409bc8936685d0654a8"
     },
     "interactive/supergraph/SOURCE_NOTICE.md": {
       "bytes": 2215,
@@ -5148,8 +5148,8 @@
       "sha256": "d7b41c494a5a154093f620b46c0bd46ffd180a7f79a1ef429035f1e9f68911d7"
     },
     "interactive/supergraph/code/build_supergraph.py": {
-      "bytes": 2207,
-      "sha256": "f23a1560b47c9400a5a77aec425bc58c72125273e59b4243611aede4caf150dc"
+      "bytes": 3589,
+      "sha256": "61b7d151dc04e4d74f5afcf0c3d8f4feaa63ab013c35da50e040d613f28f9ce6"
     },
     "interactive/supergraph/code/check_supergraph.py": {
       "bytes": 1917,
@@ -5160,12 +5160,16 @@
       "sha256": "f56ea5b9e3bc7d82b157c74309770cf906d265069a788910210c9782ada9e894"
     },
     "interactive/supergraph/crispr_supergraph.html": {
-      "bytes": 161460,
-      "sha256": "fadcfc1aece792d58300a31173f05b8dbcfe09a1c9b26fc099ec4e38a122717a"
+      "bytes": 179913,
+      "sha256": "1498f4c8fdc1ad856b2e708141fe9c023579e99bd5e50aab75ce720bfc638a74"
     },
     "interactive/supergraph/crispr_supergraph.template.html": {
-      "bytes": 57084,
-      "sha256": "234429d477a2f46b72ed2e1203a57a9946a30c21cb0d94e53c61bfc6e728138c"
+      "bytes": 68208,
+      "sha256": "e65e31a48124e0da4b769fc091c1aaa23bae7b70cbb11b6d3e77fdb1529290ba"
+    },
+    "interactive/supergraph/guided_tour.json": {
+      "bytes": 8471,
+      "sha256": "912e138b46e63b054b0a24abbcdf69eacac7f2f88a3e688c29164eef42e48df3"
     },
     "interactive/supergraph/paired_library_summary.json": {
       "bytes": 1210,
