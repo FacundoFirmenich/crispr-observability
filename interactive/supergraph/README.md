@@ -60,3 +60,16 @@ Drag nodes independently or move an entire column by its heading. Lock the
 layout to pan from any card. Use the depth arrows to bring one evidence layer
 forward or choose Overview to flatten the map. Depth and position express
 navigation choices. Inspect a card or link to see its role, evidence and scope.
+
+
+### Read the map by category or by connection
+
+The category strip stays above the map while you pan or zoom. Select a category
+to bring its column into view at reading scale, or choose **Fit all** to see the
+whole graph. A card's accent matches its category. Its status remains written
+on the card and marked by the adjacent dot.
+
+Select or drag a card to trace its direct links. Incoming links are dashed
+lilac and outgoing links are solid light blue. A moving highlight follows the
+direction of each link; the static emphasis remains when reduced motion is
+enabled. **Fit connections** frames the direct neighbors of the current item.

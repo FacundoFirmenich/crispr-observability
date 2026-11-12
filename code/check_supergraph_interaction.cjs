@@ -18,8 +18,45 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE_PATH || 'playwright-c
     await page.goto(pathToFileURL(entry).href);
     await page.waitForFunction(() => window.CRISP_SUPERGRAPH?.ready);
     const state = () => page.evaluate(() => window.CRISP_SUPERGRAPH.getState());
-    const node = page.locator('g.node').filter({ hasText: 'Conditional' }).first();
-    const card = await node.count() ? node : page.locator('g.node').first();
+    const nav = page.getByRole('navigation', { name: 'Evidence categories' });
+    assert.equal(await nav.getByRole('button').count(), 7);
+    const navBox = await nav.boundingBox(), graphBox = await page.locator('#graph').boundingBox();
+    assert.ok(navBox.y + navBox.height <= graphBox.y + 1);
+    await nav.getByRole('button', { name: 'External validation' }).click();
+    assert.equal((await state()).activeCategory, 'External validation');
+    await nav.getByRole('button', { name: 'Observation mechanisms' }).click();
+    const card = page.locator('[data-node-id="C_strings"]');
+    const baseline = await card.boundingBox();
+    assert.ok(baseline.width > 140);
+    const model = await page.locator('#supergraph-data').textContent().then(JSON.parse);
+    const expected = async id => {
+      const visible = await page.evaluate(() => window.CRISP_SUPERGRAPH.getVisible().edges);
+      return model.edges.filter(e => visible.includes(e.id) && [e.source,e.target].includes(id)).map(e => e.id).sort();
+    };
+    const traced = () => page.locator('[data-trace-edge]').evaluateAll(items => items.map(n => n.dataset.traceEdge).sort());
+    await card.click();
+    assert.deepEqual(await traced(), await expected('C_strings'));
+    assert.equal(await page.locator('.edge-signal').count(), (await expected('C_strings')).length);
+    assert.ok(await page.locator('.edge-trace.incoming').count() > 0);
+    await page.emulateMedia({ reducedMotion:'reduce' });
+    assert.equal(await page.locator('.edge-signal').first().evaluate(e => getComputedStyle(e).display), 'none');
+    assert.notEqual(await page.locator('.edge-trace').first().evaluate(e => getComputedStyle(e).display), 'none');
+    await page.emulateMedia({ reducedMotion:'no-preference' });
+    await page.getByRole('button', { name: 'Fit connections' }).click();
+    const framed = await page.locator('g.node[data-focus],g.node[data-context]').evaluateAll(cards => {
+      const map = document.getElementById('graph').getBoundingClientRect();
+      return cards.every(card => {
+        const box = card.getBoundingClientRect();
+        return box.left >= map.left - 1 && box.right <= map.right + 1 &&
+          box.top >= map.top - 1 && box.bottom <= map.bottom + 1;
+      });
+    });
+    assert.equal(framed, true);
+    if (process.env.SUPERGRAPH_QA_OUTPUT) {
+      fs.mkdirSync(process.env.SUPERGRAPH_QA_OUTPUT, { recursive: true });
+      await page.screenshot({ path: path.join(process.env.SUPERGRAPH_QA_OUTPUT, 'supergraph-connections.png') });
+    }
+    await nav.getByRole('button', { name: 'Observation mechanisms' }).click();
     const column = page.locator('.column-handle').nth(1);
     const drag = async (locator, dx, dy) => {
       const box = await locator.boundingBox();
@@ -28,11 +65,18 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE_PATH || 'playwright-c
       await page.mouse.move(x, y);
       await page.mouse.down();
       await page.mouse.move(x + dx, y + dy, { steps: 8 });
+      const id = await locator.getAttribute('data-node-id');
+      if (id && !(await state()).locked) {
+        await page.waitForFunction(node => document.querySelector('g.node[data-focus]')?.dataset.nodeId === node, id);
+        assert.deepEqual(await traced(), await expected(id));
+      }
       await page.mouse.up();
       await page.waitForFunction(() => !document.getElementById('graph').classList.contains('dragging'));
     };
     const original = await state();
-    await drag(card, 40, 30);
+    const other = page.locator('[data-node-id="C_anchor"]');
+    await drag(other, 40, 30);
+    assert.deepEqual(await traced(), await expected('C_strings'));
     const moved = await state();
     assert.equal(moved.nodeOffsets.length, 1);
     assert.deepEqual(moved.transform, original.transform);
@@ -72,6 +116,8 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE_PATH || 'playwright-c
     });
     await touchPage.goto(pathToFileURL(entry).href);
     await touchPage.waitForFunction(() => window.CRISP_SUPERGRAPH?.ready);
+    const mobileNav = touchPage.getByRole('navigation', { name: 'Evidence categories' });
+    await mobileNav.getByRole('button', { name:'Observation mechanisms' }).tap();
     await touchPage.locator('[data-node-id="C_strings"]').tap();
     assert.equal(await touchPage.evaluate(() => window.CRISP_SUPERGRAPH.getSelected().id), 'C_strings');
     assert.equal(await touchPage.evaluate(() => window.CRISP_SUPERGRAPH.getState().rightHidden), false);

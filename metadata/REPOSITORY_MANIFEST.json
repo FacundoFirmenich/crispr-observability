@@ -160,8 +160,8 @@
       "sha256": "407d75c1b311e619157eff5cf1bbb8af43dafe484b4a86d0d2f2c3ff65df7ed4"
     },
     "code/check_supergraph_interaction.cjs": {
-      "bytes": 4110,
-      "sha256": "c112a984f54e7649845ad3c2fb3caf6e69fb360011cd383365697862f223cc71"
+      "bytes": 7138,
+      "sha256": "49a87cabe478cd8f8904156ab5f30967e71f0218ed2ec00035ba962ee7929f58"
     },
     "code/refresh_public_inventory.py": {
       "bytes": 8150,
@@ -5121,7 +5121,7 @@
     },
     "interactive/supergraph/BUILD_RECEIPT.json": {
       "bytes": 760,
-      "sha256": "89bfa7320509798aa601672c8be605e2dd936fbdc55e5e903d7159db39b95324"
+      "sha256": "ea6ae4bce1da7b945e7d0cea6f1b5312fd5f5a5a8273238b25959ca5e1f7e9db"
     },
     "interactive/supergraph/DATA_MODEL.md": {
       "bytes": 2453,
@@ -5136,8 +5136,8 @@
       "sha256": "c716cbdee31c936ff770c34f87e3d80ad1b6a971ff0de7d4a0e9759128d088e6"
     },
     "interactive/supergraph/README.md": {
-      "bytes": 3539,
-      "sha256": "12dde43cba9fa6e9bea07ab79287bfe3d3c1b0bf1c387fdb235f0576da864838"
+      "bytes": 4178,
+      "sha256": "ff35464074eabe2fa87e08c670e06dabe16dcd869bb6f54649b1cc0e2ef61c10"
     },
     "interactive/supergraph/SOURCE_NOTICE.md": {
       "bytes": 2215,
@@ -5160,12 +5160,12 @@
       "sha256": "f56ea5b9e3bc7d82b157c74309770cf906d265069a788910210c9782ada9e894"
     },
     "interactive/supergraph/crispr_supergraph.html": {
-      "bytes": 154291,
-      "sha256": "326eabe696ea396c04ee65c920146ae95ffa4e68937db23c8ef0e977f13d6b03"
+      "bytes": 161460,
+      "sha256": "fadcfc1aece792d58300a31173f05b8dbcfe09a1c9b26fc099ec4e38a122717a"
     },
     "interactive/supergraph/crispr_supergraph.template.html": {
-      "bytes": 49915,
-      "sha256": "86bf88cf63a7f5db3a56df33d85b706629cf3f8593a16a915909a72d94abc308"
+      "bytes": 57084,
+      "sha256": "234429d477a2f46b72ed2e1203a57a9946a30c21cb0d94e53c61bfc6e728138c"
     },
     "interactive/supergraph/paired_library_summary.json": {
       "bytes": 1210,
