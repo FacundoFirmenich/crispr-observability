@@ -118,7 +118,7 @@ async function runViewport(baseURL,name,viewport,mobile) {
   await ensurePanel(page,'left',true);
   const initial=(await visible(page)).nodes.length;
   await page.locator('#showSources').check();await settle(page);
-  assert.equal((await visible(page)).nodes.length,57);
+  assert.equal((await visible(page)).nodes.length,model.nodes.length);
   await selectPicker(page,'S_WITNESS_BOUNDS');
   const sourceNode=model.nodes.find(n=>n.id==='S_WITNESS_BOUNDS');
   assert.match(await page.locator('#iMetrics').textContent(),new RegExp(sourceNode.source_identity.sha256));

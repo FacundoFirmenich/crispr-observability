@@ -56,8 +56,8 @@
       "sha256": "bd386b1e5c6982a1e2fc3fc93b93f5468fd75c1b23847750b9ba9a8fda7a52f2"
     },
     ".github/workflows/reviewer-dashboard.yml": {
-      "bytes": 1280,
-      "sha256": "ef6f0b09aff2a82f5b74e0b765e8780411601b1ffb5bc98c547b94789de11fb6"
+      "bytes": 1301,
+      "sha256": "e7ee287454efd9df1dee7baa932e4f867ab73b87b0deb674ccf46b412e830b5b"
     },
     ".github/workflows/scientific-context-checks.yml": {
       "bytes": 807,
@@ -156,8 +156,8 @@
       "sha256": "0d3037853a11df57644f8ef929fa508b11a6e578c592395370261f1f03c2a301"
     },
     "code/check_supergraph_browser.cjs": {
-      "bytes": 19790,
-      "sha256": "b5c1dee82ecb0c0fc6180d77dbe98bc4c29abaf57d17d5c44cd01dc9eb075846"
+      "bytes": 19806,
+      "sha256": "407d75c1b311e619157eff5cf1bbb8af43dafe484b4a86d0d2f2c3ff65df7ed4"
     },
     "code/check_supergraph_interaction.cjs": {
       "bytes": 3570,
@@ -4960,8 +4960,8 @@
       "sha256": "fdf80258e5443b687091ac1bd73fcf2f2f17a43bcdff22d38062b86cb2caac1f"
     },
     "interactive/code/check_explorer.py": {
-      "bytes": 3129,
-      "sha256": "2869dcee36bae6b4d8d07adac59298d633fcdab375ea10e67b5e131d9b92b6a0"
+      "bytes": 3161,
+      "sha256": "1afbd25487be43dc8932d74a22d4fa6c5f99286c1820530c947b642cb7779ecf"
     },
     "interactive/epistemic_graph.html": {
       "bytes": 668087,

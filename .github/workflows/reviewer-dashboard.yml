@@ -19,6 +19,6 @@ jobs:
       - name: Check the browser app
         run: |
           docker run --detach --name reviewer -p 127.0.0.1:8501:8501 crispr-reviewer
-          trap 'docker rm -f reviewer' EXIT
-          curl --retry 12 --retry-connrefused --retry-delay 2 --fail http://127.0.0.1:8501/_stcore/health
+          trap 'docker logs reviewer; docker rm -f reviewer' EXIT
+          curl --retry 12 --retry-all-errors --retry-delay 2 --fail http://127.0.0.1:8501/_stcore/health
           docker exec reviewer python -c "from streamlit.testing.v1 import AppTest; app=AppTest.from_file('reproducibility/reviewer_app.py').run(timeout=40); assert not app.exception, app.exception; assert app.title[0].value == 'CRISPR Observability'"

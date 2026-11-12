@@ -17,7 +17,7 @@ def sha(path):
 
 def main():
     model_path = ROOT / 'evidence_model.json'
-    model = json.loads(model_path.read_text())
+    model = json.loads(model_path.read_text(encoding='utf-8'))
     canonical_sources = []
     for source in model['sources']:
         relative = Path(source['path'])
@@ -27,7 +27,7 @@ def main():
         frozen = ROOT / 'sources' / ('tables' if relative.parts[0] == 'tables' else 'numerical') / relative.name
         assert sha(canonical) == sha(frozen) == source['sha256'], source['path']
         canonical_sources.append(source['path'])
-    html = (ROOT / 'epistemic_graph.html').read_text()
+    html = (ROOT / 'epistemic_graph.html').read_text(encoding='utf-8')
     embedded = re.search(r'<script type="application/json" id="evidence-data">(.*?)</script>', html, re.S)
     assert embedded, 'Embedded evidence-data script is missing'
     raw = embedded.group(1)
