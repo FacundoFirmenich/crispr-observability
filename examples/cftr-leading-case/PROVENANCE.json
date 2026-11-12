@@ -1,0 +1,26 @@
+{
+  "schema": "leading-case-provenance/1",
+  "reads": [
+    {
+      "file": "read1.fa",
+      "read_id": "SRR29623270.2091",
+      "bases": 300,
+      "source": "extensions/correspondence_frontier/inputs/cftr_REAL_ALIGNMENT_CASES.json",
+      "source_sha256": "60e22ae3027994112657cb84f7e82b658edee60c3c1e87576f951760e6795d71",
+      "field": "observed_sequence",
+      "transformation": "Exact sequence copied to single-record FASTA; no base changes."
+    },
+    {
+      "file": "read2.fa",
+      "read_id": "SRR29623271.868",
+      "bases": 300,
+      "source": "extensions/correspondence_frontier/inputs/cftr_REAL_ALIGNMENT_CASES.json",
+      "source_sha256": "60e22ae3027994112657cb84f7e82b658edee60c3c1e87576f951760e6795d71",
+      "field": "observed_sequence",
+      "transformation": "Exact sequence copied to single-record FASTA; no base changes."
+    }
+  ],
+  "anchor_scope": "Geometric reconstruction of the archived CFTR anchor contract; not a base-quality or motif authentication test.",
+  "counterfactual": "read_end=225 changes a parameter only; no extra measured base is created.",
+  "label_scope": "Historical native-local labels are both false for SRR29623271.868 under the two displayed projections. The compare operation itself evaluates strings, not peptide labels."
+}

@@ -218,30 +218,32 @@ def reproduce_retained(root, output, mode):
 def reviewer_menu(root, frozen):
     """Show scoped tasks before touching evidence or creating an output."""
     actions = {
-        "1": ("quick", "all", "Quick verification and replay"),
-        "2": ("full", "all", "Full offline reproduction"),
-        "3": ("full", "editing", "CFTR and COL17A1 only"),
-        "4": ("quick", "germline", "Germline decisions only"),
-        "5": ("counts", "editing", "Retained pair counts and CFTR contrasts"),
+        "1": ("quick", "all", "Quick verification and replay / Verificación rápida"),
+        "2": ("full", "all", "Full offline reproduction / Reproducción completa sin red"),
+        "3": ("full", "editing", "CFTR and COL17A1 only / Sólo CFTR y COL17A1"),
+        "4": ("quick", "germline", "Germline decisions only / Sólo decisiones germinales"),
+        "5": ("counts", "editing", "Retained pair counts and CFTR contrasts / Recuentos de pares y contrastes CFTR"),
     }
     print("\nCRISPR Observability — offline reviewer workspace")
     while True:
         print("\n" + "\n".join(f"{key}. {item[2]}" for key, item in actions.items()))
-        print("6. Open interactive evidence graph\n0. Exit")
+        print("6. Open evidence graph / Abrir grafo\n7. Open 3D laboratory / Abrir laboratorio 3D\n8. Researcher guide / Guía de investigadores\n0. Exit / Salir")
         try:
-            choice = input("Choose a task: ").strip()
+            choice = input("Choose a task / Elija una tarea: ").strip()
         except (EOFError, KeyboardInterrupt):
             return
         if choice == "0":
             return
-        if choice == "6":
+        if choice in {"6", "7", "8"}:
             base = Path(sys.executable).resolve().parent if frozen else root
-            graph = base / "interactive" / "supergraph" / "crispr_supergraph.html"
+            graph = base / {"6": "interactive/supergraph/crispr_supergraph.html",
+                            "7": "interactive/lab/CFTR_OBSERVABILITY_LAB.html",
+                            "8": "docs/researcher-guide.html"}[choice]
             if graph.is_file():
                 print(graph)
                 webbrowser.open(graph.as_uri())
             else:
-                print("The interactive graph is missing from this installation.")
+                print("This component is absent from this build / Este componente falta en este paquete.")
             continue
         if choice not in actions:
             print("Choose a listed number.")

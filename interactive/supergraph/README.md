@@ -1,13 +1,13 @@
-# CRISPR scientific supergraph
+# Epistemic Supergraph: navigate the scientific argument
 
 Download `crispr_supergraph.html` and open it in a browser. The file contains its
 styles, script and frozen graph model and works offline. GitHub's code viewer
 displays source rather than running the interface.
 
-This is the spatial-map adaptation of the published *Beyond Redfield* companion:
+The Supergraph makes the study's evidence structure directly inspectable. Its interface builds on the attributed KwanTube spatial-map architecture:
 a dark full-viewport graph, collapsible filter and inspector panels, scientific
 lenses, status views, node and edge inspection, pan/zoom/fit, and SVG/JSON exports.
-It is a second output; the original four-view numerical explorer is retained.
+It connects mechanisms, assumptions, source artifacts and external checks. The complementary numerical explorer retains the original four-view CFTR scope; Read Observability Lab supplies parameterized computational experiments.
 `Focus graph` collapses both panels. `Filters` and `Inspector` restore them.
 
 On a touchscreen, drag to pan and pinch to zoom. Select a node to open its
@@ -15,7 +15,7 @@ inspector. The filter panel also offers a native node selector. With keyboard
 focus on the canvas, arrow keys pan, `+` and `-` zoom, and `0` fits the graph;
 Enter or Space activates a focused node or link. Escape closes a mobile panel.
 
-The map has 57 nodes and 59 typed links: 21 core nodes, eight AND gates, 22 source
+The preserved historical baseline has 57 nodes and 59 typed links: 21 core nodes, eight AND gates, 22 source
 artifacts and six declared revision tests. The source-file nodes are initially
 hidden for legibility; their links remain available in the inspector. Revision
 tests are conditions requiring evidence, not newly performed experiments.
@@ -77,10 +77,12 @@ enabled. **Fit connections** frames the direct neighbors of the current item.
 
 ### Follow the paper's argument
 
-Select **Guided tour** to read eight conceptual blocks in order. Each block
+Select **Guided tour** to read nine conceptual blocks in order. Each block
 lights a source-bound subgraph and explains its question, result and scope.
 The explanation sits beside the map on desktop and below it on narrow screens.
 Use **Play** and **Pause**, the previous and next buttons, or the chapter
 selector. Automatic reading time is calculated from the length of each block.
 The tour pauses when you open an evidence list or leave the active tab.
 Closing the tour restores the map view, filters and positions you were using.
+
+The current review map has 65 nodes and 67 links, including the laboratory, executable leading case and multi-input engine. Its 21 core nodes and eight original conjunctions retain their scientific source contracts.

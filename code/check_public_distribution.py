@@ -49,7 +49,13 @@ def main():
                                 'source_snapshots', 'source_baseline', 'authoring_MP04',
                                 'node_modules'} for part in relative.parts)
         assert relative.suffix.lower() not in {'.tex', '.docx', '.bundle'}
-        if relative.suffix.lower() == '.zip':
+        if relative.suffix.lower() == '.zip' and name == 'validation/rol-v03-inputs.zip':
+            with zipfile.ZipFile(ROOT / name) as archive:
+                for member in archive.namelist():
+                    part = Path(member)
+                    assert not part.is_absolute() and '..' not in part.parts and '\\' not in member, member
+                    assert part.suffix.lower() in {'.bam', '.bai', '.sam', '.json', '.html', '.mjs', '.js', '.cif', '.sha256'}, member
+        elif relative.suffix.lower() == '.zip':
             assert (re.fullmatch(r'raw_replay/inputs/alleles/(?:mutant|programmed)/SRR[0-9]+\.zip', name) or re.fullmatch(r'extensions/reproduction/external/inputs/(?:nhej|allele_specific|base_editor)_Alleles_frequency_table\.zip', name) or re.fullmatch(r'extensions/correspondence_frontier/inputs/(?:cftr/runs/(?:M_rc|P_rc|MP_fw|MP_rc|PE_zero)|PE_default|hek3/runs/(?:M_fw|P_fw|M_rc|P_rc))/CRISPResso_on_SRR[0-9]+/Alleles_frequency_table\.zip', name))
             with zipfile.ZipFile(ROOT / name) as archive:
                 assert archive.namelist() == ['Alleles_frequency_table.txt']

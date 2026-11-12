@@ -1,0 +1,113 @@
+{
+  "schema": "observability-project/1",
+  "project_id": "cftr-leading-case",
+  "datasets": [
+    {
+      "id": "read1",
+      "type": "sequence",
+      "file": {
+        "path": "read1.fa",
+        "sha256": "8789277b3468f51ef9f687219069d46a24804764949cb51c450f78cc845ad2fa"
+      }
+    },
+    {
+      "id": "read2",
+      "type": "sequence",
+      "file": {
+        "path": "read2.fa",
+        "sha256": "4e8ca1450ca4620484eb02c4142d998be34f553eea7e71475daff0a066c8daba"
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "id": "inspect-real-read",
+      "op": "inspect",
+      "input": "read1"
+    },
+    {
+      "id": "unshifted",
+      "op": "anchor-containment",
+      "anchor": [
+        210,
+        222
+      ],
+      "shift": 0,
+      "read_end": 224
+    },
+    {
+      "id": "shifted",
+      "op": "anchor-containment",
+      "anchor": [
+        210,
+        222
+      ],
+      "shift": 3,
+      "read_end": 224
+    },
+    {
+      "id": "counterfactual-extra-base",
+      "op": "anchor-containment",
+      "anchor": [
+        210,
+        222
+      ],
+      "shift": 3,
+      "read_end": 225
+    },
+    {
+      "id": "unequal-spans",
+      "op": "compare-sequence-spans",
+      "a": {
+        "input": "read1",
+        "span": [
+          114,
+          156
+        ]
+      },
+      "b": {
+        "input": "read1",
+        "span": [
+          114,
+          201
+        ]
+      }
+    },
+    {
+      "id": "equal-label-unequal-string",
+      "op": "compare-sequence-spans",
+      "a": {
+        "input": "read2",
+        "span": [
+          114,
+          186
+        ]
+      },
+      "b": {
+        "input": "read2",
+        "span": [
+          114,
+          153
+        ]
+      }
+    },
+    {
+      "id": "alternative-optimum",
+      "op": "compare-sequence-spans",
+      "a": {
+        "input": "read2",
+        "span": [
+          114,
+          186
+        ]
+      },
+      "b": {
+        "input": "read2",
+        "span": [
+          114,
+          186
+        ]
+      }
+    }
+  ]
+}

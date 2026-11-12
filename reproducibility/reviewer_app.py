@@ -21,20 +21,26 @@ SCOPE = {
 }
 COLORS = ["#527ed7", "#9664cd", "#e38fae"]
 st.set_page_config(page_title="CRISPR Observability", page_icon="🧬", layout="wide")
+language = st.sidebar.selectbox("Language / Idioma", ["English", "Castellano"])
+def T(en, es):
+    return es if language == "Castellano" else en
 st.title("CRISPR Observability")
-st.caption("Explore the public evidence, reproduce a section, and inspect its execution record.")
+st.caption(T("Explore the public evidence, reproduce a section, and inspect its execution record.","Explore la evidencia pública, reproduzca una sección y examine su registro de ejecución."))
 model = json.loads((GRAPH / "review_graph_model.json").read_bytes())
-evidence, replay, ledger = st.tabs(["Evidence and figures", "Reproduce", "Execution ledger"])
+evidence, lab, replay, ledger, guides = st.tabs([
+    T("Evidence and figures", "Evidencia y figuras"), T("3D research laboratory", "Laboratorio 3D"),
+    T("Reproduce", "Reproducir"), T("Execution ledger", "Ledger de ejecución"),
+    T("Researcher guides", "Guías de investigación")])
 
 with evidence:
-    st.subheader("Conditional finite-record bounds")
+    st.subheader(T("Conditional finite-record bounds","Cotas condicionadas sobre registros finitos"))
     rows = pd.DataFrame(model["context_metrics"]["witness_observations"])
-    preparation = st.selectbox("Preparation", list(dict.fromkeys(rows["preparation"])))
+    preparation = st.selectbox(T("Preparation","Preparación"), list(dict.fromkeys(rows["preparation"])))
     subset = rows[rows["preparation"] == preparation]
-    event = st.selectbox("Event", list(dict.fromkeys(subset["event"])))
+    event = st.selectbox(T("Event","Evento"), list(dict.fromkeys(subset["event"])))
     selected = subset[subset["event"] == event]
     bars = alt.Chart(selected).mark_rule(strokeWidth=5).encode(
-        x=alt.X("L_pp:Q", title="Percent of the raw records"),
+        x=alt.X("L_pp:Q", title=T("Percent of the raw records","Porcentaje de registros originales")),
         x2="H_pp:Q",
         y=alt.Y("condition:N", title=None),
         color=alt.Color("condition:N", legend=None, scale=alt.Scale(range=COLORS)),
@@ -42,37 +48,58 @@ with evidence:
     ).interactive()
     st.altair_chart(bars, width="stretch")
     st.dataframe(selected[["run", "condition", "N", "E", "NE", "U", "L_pp", "H_pp"]], hide_index=True)
-    st.caption("The endpoints are bounds conditional on accepted labels. Unresolved records remain in the raw denominator.")
-    st.subheader("Evidence relationships")
+    st.caption(T("The endpoints are bounds conditional on accepted labels. Unresolved records remain in the raw denominator.","Los extremos son cotas condicionadas a las etiquetas aceptadas. Los registros irresueltos permanecen en el denominador original."))
+    st.subheader(T("Evidence relationships","Relaciones entre evidencias"))
     components.html((GRAPH / "crispr_supergraph.html").read_text(encoding="utf-8"), height=740, scrolling=True)
 
 with replay:
-    scope = st.selectbox("Choose the evidence to reproduce", list(SCOPE))
+    scope = st.selectbox(T("Choose the evidence to reproduce","Elija la evidencia que desea reproducir"), list(SCOPE),
+        format_func=lambda x: T(x, {"all":"Todas las secciones", "editing":"CFTR y COL17A1", "germline":"Decisiones germinales"}[SCOPE[x]]))
     section = SCOPE[scope]
     modes = ["quick"] if section == "germline" else ["quick", "counts", "full"]
-    mode = st.radio("Depth of replay", modes, horizontal=True)
-    st.caption("The offline runner replays the distributed inputs and writes its scope to a new execution receipt.")
-    if st.button("Run selected replay", type="primary"):
+    mode = st.radio(T("Depth of replay","Profundidad de reproducción"), modes, horizontal=True)
+    st.caption(T("The offline runner replays the distributed inputs and writes its scope to a new execution receipt.","El motor reproduce las entradas distribuidas y registra su alcance en un recibo nuevo."))
+    if st.button(T("Run selected replay","Ejecutar reproducción seleccionada"), type="primary"):
         stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
         destination = OUTPUT / f"{stamp}-{section}-{mode}"
         command = [sys.executable, "-B", str(ROOT / "reproducibility" / "reproduce.py"),
                    "--section", section, "--mode", mode, "--output", str(destination)]
-        with st.spinner("Replaying frozen evidence…", show_time=True):
+        with st.spinner(T("Replaying frozen evidence…","Reproduciendo evidencia congelada…"), show_time=True):
             result = subprocess.run(command, cwd=ROOT, capture_output=True, text=True,
                                     encoding="utf-8", errors="replace", timeout=1800)
         st.code(result.stdout + result.stderr)
         if result.returncode:
-            st.error(f"The runner exited with status {result.returncode}. See the execution ledger for details.")
+            st.error(T(f"Runner exit status: {result.returncode}. See the ledger.", f"Código de salida: {result.returncode}. Consulte el ledger."))
         else:
-            st.success(f"Replay completed. Evidence and receipt saved in {destination}.")
+            st.info(T(f"Replay completed. Evidence and receipt: {destination}", f"Reproducción terminada. Evidencia y recibo: {destination}"))
 
 with ledger:
-    st.subheader("Local run history")
+    st.subheader(T("Local run history","Historial de ejecuciones"))
     receipts = sorted(OUTPUT.glob("*/REPRODUCTION.json"), reverse=True)
     if not receipts:
-        st.info("Run a replay to create the first receipt.")
+        st.info(T("Run a replay to create the first receipt.","Ejecute una reproducción para crear el primer recibo."))
     else:
-        receipt = st.selectbox("Execution", receipts, format_func=lambda p: p.parent.name)
+        receipt = st.selectbox(T("Execution","Ejecución"), receipts, format_func=lambda p: p.parent.name)
         data = receipt.read_bytes()
         st.json(json.loads(data), expanded=1)
-        st.download_button("Download execution receipt", data, "REPRODUCTION.json", "application/json")
+        st.download_button(T("Download execution receipt","Descargar recibo de ejecución"), data, "REPRODUCTION.json", "application/json")
+
+
+with lab:
+    st.subheader(T("Read Observability Lab", "Read Observability Lab"))
+    st.caption(T("Rotate, inspect, change a parameter and export its computational consequences. Start with the leading case in Researcher guides.",
+                 "Gire, inspeccione, cambie un parámetro y exporte sus consecuencias computacionales. Empiece por el caso guía en Guías de investigación."))
+    html = (ROOT / "interactive/lab/CFTR_OBSERVABILITY_LAB.html").read_text(encoding="utf-8")
+    components.html(html, height=1080, scrolling=True)
+    st.download_button(T("Download standalone laboratory", "Descargar laboratorio autónomo"), html,
+                       "Read_Observability_Lab.html", "text/html")
+with guides:
+    suffix = ".es.md" if language == "Castellano" else ".md"
+    choice = st.selectbox(T("Guide", "Guía"), ["RESEARCHER_GUIDE", "LEADING_CASE", "RESEARCH_LINES", "COMMUNITY_ROADMAP"],
+        format_func=lambda x: {"RESEARCHER_GUIDE": T("Researcher and community guide", "Guía de investigadores y comunidad"),
+            "LEADING_CASE": T("Executable leading case", "Caso guía ejecutable"),
+            "RESEARCH_LINES": T("Three research lines", "Tres líneas de investigación"),
+            "COMMUNITY_ROADMAP": T("Contribute and develop", "Contribuir y desarrollar")}[x])
+    text = (ROOT / "docs" / (choice + suffix)).read_text(encoding="utf-8")
+    st.markdown(text)
+    st.download_button(T("Download editable guide", "Descargar guía editable"), text, choice + suffix, "text/markdown")

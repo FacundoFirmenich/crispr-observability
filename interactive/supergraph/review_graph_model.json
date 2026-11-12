@@ -17,8 +17,8 @@
     "AND_gates": 8,
     "source_artifact_nodes": 22,
     "declared_revision_test_nodes": 6,
-    "total_nodes": 62,
-    "total_edges": 64
+    "total_nodes": 65,
+    "total_edges": 67
   },
   "map_semantics": "Typed navigation of frozen evidence and declared conditional support. AND gates preserve joint premises; ordinary source and revision-condition edges are not causal effects. Node positions, counts and filters do not quantify evidential strength.",
   "source_scope": {
@@ -91,6 +91,7 @@
     "Observation mechanisms",
     "Quantitative constraints",
     "Evidence artifacts",
+    "Research tools",
     "External validation",
     "Decision tests",
     "Scope boundaries"
@@ -2817,6 +2818,77 @@
       ],
       "metrics": {},
       "optional_detail": false
+    },
+    {
+      "id": "T_LAB",
+      "label": "Read Observability Lab",
+      "type": "artifact",
+      "layer": "Research tools",
+      "status": "supported",
+      "status_original": "implemented_research_interface",
+      "summary": "Manipulate read boundaries and sequence spans in a source-bound 3D laboratory; import cases and export replayable results.",
+      "details": "Manipulate read boundaries and sequence spans in a source-bound 3D laboratory; import cases and export replayable results.",
+      "scope": "Implemented access and computation. Tool availability is not independent validation or community adoption.",
+      "falsification": "Replay the named operation and compare its report with the source contract.",
+      "artifacts": [
+        "interactive/lab/README.md",
+        "interactive/lab/CFTR_OBSERVABILITY_LAB.html"
+      ],
+      "lenses": [
+        "reproducibility",
+        "geometry",
+        "correspondence"
+      ],
+      "metrics": {},
+      "optional_detail": false
+    },
+    {
+      "id": "T_CASE",
+      "label": "Executable CFTR leading case",
+      "type": "artifact",
+      "layer": "Research tools",
+      "status": "supported",
+      "status_original": "implemented_research_interface",
+      "summary": "Two authentic reads, seven operations, exact expected outcomes and explicit geometric counterfactuals.",
+      "details": "Two authentic reads, seven operations, exact expected outcomes and explicit geometric counterfactuals.",
+      "scope": "Implemented access and computation. Tool availability is not independent validation or community adoption.",
+      "falsification": "Replay the named operation and compare its report with the source contract.",
+      "artifacts": [
+        "examples/cftr-leading-case/project.json",
+        "examples/cftr-leading-case/PROVENANCE.json",
+        "docs/LEADING_CASE.md"
+      ],
+      "lenses": [
+        "reproducibility",
+        "geometry",
+        "correspondence"
+      ],
+      "metrics": {},
+      "optional_detail": false
+    },
+    {
+      "id": "T_ENGINE",
+      "label": "Multi-input CLI, API and MCP",
+      "type": "artifact",
+      "layer": "Research tools",
+      "status": "supported",
+      "status_original": "implemented_research_interface",
+      "summary": "Named studies share one computational kernel. Six operation types include exact same-record junction evidence; researcher documentation is bilingual.",
+      "details": "Named studies share one computational kernel. Six operation types include exact same-record junction evidence; researcher documentation is bilingual.",
+      "scope": "Implemented access and computation. Tool availability is not independent validation or community adoption.",
+      "falsification": "Replay the named operation and compare its report with the source contract.",
+      "artifacts": [
+        "engine/README.md",
+        "docs/RESEARCH_LINES.md",
+        "docs/RESEARCHER_GUIDE.md"
+      ],
+      "lenses": [
+        "reproducibility",
+        "geometry",
+        "correspondence"
+      ],
+      "metrics": {},
+      "optional_detail": false
     }
   ],
   "edges": [
@@ -3668,6 +3740,42 @@
         "scope"
       ],
       "summary": "The COL17A1 retained spans support local correspondence, under the named admission rules."
+    },
+    {
+      "id": "T_LAB->E_geometry:documents",
+      "source": "T_LAB",
+      "target": "E_geometry",
+      "relation": "documents",
+      "label": "Inspect and replay",
+      "status": "supported",
+      "lenses": [
+        "reproducibility"
+      ],
+      "summary": "This tool exposes or recomputes the linked object; it does not add an independent biological observation."
+    },
+    {
+      "id": "T_CASE->E_strings:documents",
+      "source": "T_CASE",
+      "target": "E_strings",
+      "relation": "documents",
+      "label": "Inspect and replay",
+      "status": "supported",
+      "lenses": [
+        "reproducibility"
+      ],
+      "summary": "This tool exposes or recomputes the linked object; it does not add an independent biological observation."
+    },
+    {
+      "id": "T_ENGINE->T_LAB:documents",
+      "source": "T_ENGINE",
+      "target": "T_LAB",
+      "relation": "documents",
+      "label": "Inspect and replay",
+      "status": "supported",
+      "lenses": [
+        "reproducibility"
+      ],
+      "summary": "This tool exposes or recomputes the linked object; it does not add an independent biological observation."
     }
   ],
   "hyperedges": [

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:read-observability-lab:case:1",
+  "title": "Read Observability Lab portable case",
+  "type": "object",
+  "required": ["schema", "kind", "name"],
+  "properties": {
+    "schema": { "const": "observability-case/1" },
+    "kind": { "enum": ["sequence", "structure"] },
+    "name": { "type": "string", "minLength": 1, "maxLength": 240 },
+    "format": { "type": "string" }
+  },
+  "oneOf": [
+    {
+      "required": ["sequence"],
+      "properties": {
+        "kind": { "const": "sequence" },
+        "sequence": { "type": "string", "pattern": "^[ACGTN]{2,360}$" }
+      }
+    },
+    {
+      "required": ["units", "atoms", "bonds"],
+      "properties": {
+        "kind": { "const": "structure" },
+        "units": { "const": "angstrom" },
+        "atoms": {
+          "type": "array", "minItems": 1, "maxItems": 30000,
+          "items": {
+            "type": "object",
+            "required": ["xyz", "element", "label", "chain"],
+            "properties": {
+              "xyz": { "type": "array", "minItems": 3, "maxItems": 3,
+                "items": { "type": "number", "minimum": -1000000, "maximum": 1000000 } },
+              "element": { "type": "string", "pattern": "^[A-Z][A-Z]?$" },
+              "label": { "type": "string", "maxLength": 100 },
+              "chain": { "type": "string", "minLength": 1, "maxLength": 32, "not": {"const": "*"} }
+            }
+          }
+        },
+        "bonds": { "type": "array", "maxItems": 180000,
+          "items": { "type": "array", "minItems": 2, "maxItems": 2, "uniqueItems": true,
+            "items": { "type": "integer", "minimum": 0, "maximum": 29999 } } }
+      }
+    }
+  ]
+}

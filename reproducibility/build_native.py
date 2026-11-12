@@ -98,7 +98,7 @@ def main():
         for extension in PACKAGED_EXTENSIONS:
             shutil.copytree(ROOT / "extensions" / extension, bundle / "evidence" / "extensions" / extension,
                             ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
-        for name in ("README.md", "EVIDENCE.md"):
+        for name in ("README.md", "LEEME_ES.md", "EVIDENCE.md"):
             shutil.copy2(PROJECT / name, bundle / name)
         for name in ("START_HERE.bat", "START_HERE.command", "START_HERE.sh"):
             if (operating_system == "windows") != name.endswith(".bat"):
@@ -112,6 +112,12 @@ def main():
         graph = Path("interactive/supergraph/crispr_supergraph.html")
         (bundle / graph).parent.mkdir(parents=True)
         shutil.copy2(ROOT / graph, bundle / graph)
+        lab = Path("interactive/lab/CFTR_OBSERVABILITY_LAB.html")
+        (bundle / lab).parent.mkdir(parents=True)
+        shutil.copy2(ROOT / lab, bundle / lab)
+        shutil.copytree(ROOT / "docs", bundle / "docs")
+        shutil.copytree(ROOT / "examples/cftr-leading-case", bundle / "examples/cftr-leading-case")
+        shutil.copy2(ROOT / "interactive/lab/THREE_LICENSE.txt", bundle / "interactive/lab/THREE_LICENSE.txt")
         source = bundle / "source"
         source.mkdir()
         for name in ("reproduce.py", "build_native.py", "requirements-native.txt", "requirements-macos-intel.txt"):
@@ -143,7 +149,7 @@ def main():
                                 cwd=test_root, env=env, check=True, timeout=30)
         if "Full offline reproduction" not in launch.stdout:
             raise ValueError("Packaged launcher did not show the reviewer menu")
-        if not (executable.parent / graph).is_file():
+        if not all((executable.parent / p).is_file() for p in (graph, lab, Path("docs/researcher-guide.html"))):
             raise ValueError("The offline evidence graph is missing")
 
         for mode in dict.fromkeys(("quick", args.test_mode)):

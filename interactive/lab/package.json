@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@gmod/bam": "10.2.0",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "esbuild": "0.25.10",
+    "generic-filehandle2": "2.5.1",
+    "playwright": "1.65.0",
+    "three": "0.180.0",
+    "zod": "4.6.7"
+  }
+}

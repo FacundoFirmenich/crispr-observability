@@ -1,9 +1,9 @@
 name: Reviewer dashboard
 on:
   push:
-    paths: ['reproducibility/**', 'Dockerfile.reviewer', 'interactive/supergraph/**', '.github/workflows/reviewer-dashboard.yml']
+    paths: ['reproducibility/**', 'Dockerfile.reviewer', 'interactive/supergraph/**', 'interactive/lab/**', 'docs/**', '.github/workflows/reviewer-dashboard.yml']
   pull_request:
-    paths: ['reproducibility/**', 'Dockerfile.reviewer', 'interactive/supergraph/**', '.github/workflows/reviewer-dashboard.yml']
+    paths: ['reproducibility/**', 'Dockerfile.reviewer', 'interactive/supergraph/**', 'interactive/lab/**', 'docs/**', '.github/workflows/reviewer-dashboard.yml']
 permissions:
   contents: read
 jobs:
@@ -21,4 +21,4 @@ jobs:
           docker run --detach --name reviewer -p 127.0.0.1:8501:8501 crispr-reviewer
           trap 'docker logs reviewer; docker rm -f reviewer' EXIT
           curl --retry 12 --retry-all-errors --retry-delay 2 --fail http://127.0.0.1:8501/_stcore/health
-          docker exec reviewer python -c "from streamlit.testing.v1 import AppTest; app=AppTest.from_file('reproducibility/reviewer_app.py').run(timeout=40); assert not app.exception, app.exception; assert app.title[0].value == 'CRISPR Observability'"
+          docker exec reviewer python -c "from streamlit.testing.v1 import AppTest; app=AppTest.from_file('reproducibility/reviewer_app.py').run(timeout=40); assert not app.exception, app.exception; assert app.title[0].value == 'CRISPR Observability'; assert len(app.tabs) == 5; app.sidebar.selectbox[0].select('Castellano').run(timeout=40); assert not app.exception, app.exception; assert app.tabs[1].label == 'Laboratorio 3D'"

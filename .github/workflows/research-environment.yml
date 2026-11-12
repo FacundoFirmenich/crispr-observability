@@ -1,0 +1,58 @@
+name: Integrated research environment
+on:
+  workflow_dispatch:
+  push:
+    paths: ['engine/**', 'interactive/lab/**', 'examples/**', 'validation/rol-v03-inputs.zip', '.github/workflows/research-environment.yml']
+  pull_request:
+    paths: ['engine/**', 'interactive/lab/**', 'examples/**', 'validation/rol-v03-inputs.zip', '.github/workflows/research-environment.yml']
+permissions:
+  contents: read
+jobs:
+  scientific-kernels-and-browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - name: Install pinned engine and browser dependencies
+        run: |
+          npm ci --prefix engine --no-audit --no-fund
+          npm ci --prefix interactive/lab --no-audit --no-fund
+      - name: Verify leading case
+        run: |
+          node engine/project-cli.mjs check examples/cftr-leading-case/project.json
+          node examples/cftr-leading-case/verify.mjs > leading-case-result.json
+      - name: Verify frozen inputs and test current source
+        run: |
+          mkdir -p "$RUNNER_TEMP/lab-fixtures"
+          unzip -q validation/rol-v03-inputs.zip -d "$RUNNER_TEMP/lab-fixtures"
+          (cd "$RUNNER_TEMP/lab-fixtures" && sha256sum -c INPUTS.sha256)
+          cp -a interactive/lab/. "$RUNNER_TEMP/lab-fixtures/"
+          cd "$RUNNER_TEMP/lab-fixtures"
+          node build.mjs
+          python alignment-oracle.py
+          node alignment-test.mjs > ALIGNMENT_CURRENT_CHECKS.json
+          node "$GITHUB_WORKSPACE/engine/project-test.mjs" "$RUNNER_TEMP/lab-fixtures"
+          node browser-alignment-test.mjs
+          node mcp-test.mjs > MCP_CURRENT_CHECKS.json
+      - name: Verify exact same-record junction semantics
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y samtools
+          cp engine/testdata/junction-fixture.sam "$RUNNER_TEMP/lab-fixtures/"
+          samtools view -b engine/testdata/junction-fixture.sam | samtools sort -o "$RUNNER_TEMP/lab-fixtures/junction-fixture.bam"
+          samtools index "$RUNNER_TEMP/lab-fixtures/junction-fixture.bam"
+          node engine/project-junction-test.mjs "$RUNNER_TEMP/lab-fixtures"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: research-environment-evidence
+          path: |
+            leading-case-result.json
+            ${{ runner.temp }}/lab-fixtures/*CHECKS.json
+            ${{ runner.temp }}/lab-fixtures/PROJECT_V05_JUNCTION_RESULT.json
+          if-no-files-found: error

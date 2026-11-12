@@ -1,4 +1,26 @@
-# MP05 current frontier — 1 November 2026
+# Current scientific contribution and research environment
+
+The contribution combines product-dependent observability, sequence correspondence,
+target-relative certification and finite-record bounds with an interactive evidence
+environment and reusable computational laboratory. The current entry points are
+[the capability map](COMPANION_CAPABILITIES.md), [the Supergraph](../interactive/supergraph/README.md),
+[Read Observability Lab](../interactive/lab/README.md) and [the multi-input engine](../engine/README.md).
+
+The editing evidence includes CFTR mechanisms, HEK3 fixed-rule transport,
+COL17A1 source reconciliation and retained/nonmodal spans, with explicitly scoped
+K562, HG002 and KEAP1 comparisons. The distinct germline panels quantify both
+discordance withdrawal and concordance sacrifice at the locus/library level.
+The [current evidence map](../reproducibility/EVIDENCE.md) identifies their operations.
+
+The outstanding original-fragment editing-accuracy question remains a measurement
+and linkage requirement. Software completeness, structural rendering, matched
+genotype comparisons and analyst usability each have their own validation scope.
+This distinction strengthens the positive claims by making their domain explicit.
+
+The checkpoint below is preserved as historical scientific context. Its version,
+counts and statements of then-current availability are not the current interface inventory.
+
+# Historical MP05 checkpoint — 1 November 2026
 
 The former source-distribution gaps in geometry/veto, external catalogues and the actual reporting checker are closed by `extensions/reproduction/`. A dated nine-job dedicated PE comparison and seven-subset correspondence ablation are now executed. The earlier material below is retained as a historical boundary record; statements that these particular source paths were absent are superseded by the new README and `REPRODUCTION_SCOPE.md`.
 

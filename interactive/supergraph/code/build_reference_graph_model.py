@@ -12,7 +12,7 @@ import json
 
 LAYERS = [
     "Premises", "Observation mechanisms", "Quantitative constraints",
-    "Evidence artifacts", "External validation", "Decision tests", "Scope boundaries",
+    "Evidence artifacts", "Research tools", "External validation", "Decision tests", "Scope boundaries",
 ]
 LENSES = [
     {"id": "geometry", "label": "Product and read geometry"},
@@ -258,6 +258,24 @@ def main():
                  ["extensions/retained_span_audit/README.md", "reproducibility/EVIDENCE.md"], {})
     edge("V_CLONE", "B_accuracy", "limits", "Clone and fragment scope", "conditional",
          ["transport", "scope"], "The COL17A1 retained spans support local correspondence, under the named admission rules.")
+
+    for ident, title, description, artifacts, target in [
+        ("T_LAB", "Read Observability Lab", "Manipulate read boundaries and sequence spans in a source-bound 3D laboratory; import cases and export replayable results.",
+         ["interactive/lab/README.md", "interactive/lab/CFTR_OBSERVABILITY_LAB.html"], "E_geometry"),
+        ("T_CASE", "Executable CFTR leading case", "Two authentic reads, seven operations, exact expected outcomes and explicit geometric counterfactuals.",
+         ["examples/cftr-leading-case/project.json", "examples/cftr-leading-case/PROVENANCE.json", "docs/LEADING_CASE.md"], "E_strings"),
+        ("T_ENGINE", "Multi-input CLI, API and MCP", "Named studies share one computational kernel. Six operation types include exact same-record junction evidence; researcher documentation is bilingual.",
+         ["engine/README.md", "docs/RESEARCH_LINES.md", "docs/RESEARCHER_GUIDE.md"], "T_LAB"),
+    ]:
+        nodes.append({"id": ident, "label": title, "type": "artifact", "layer": "Research tools",
+                      "status": "supported", "status_original": "implemented_research_interface",
+                      "summary": description, "details": description,
+                      "scope": "Implemented access and computation. Tool availability is not independent validation or community adoption.",
+                      "falsification": "Replay the named operation and compare its report with the source contract.",
+                      "artifacts": artifacts, "lenses": ["reproducibility", "geometry", "correspondence"],
+                      "metrics": {}, "optional_detail": False})
+        edge(ident, target, "documents", "Inspect and replay", "supported", ["reproducibility"],
+             "This tool exposes or recomputes the linked object; it does not add an independent biological observation.")
 
     witness = [row for row in model["observations"] if row["operator"] == "triple_observed_coding_witness"]
     witness_contrasts = [row for row in model["contrasts"] if row["operator"] == "triple_observed_coding_witness"]

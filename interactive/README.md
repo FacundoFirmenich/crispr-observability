@@ -1,4 +1,6 @@
-# Offline evidence explorer
+# Numerical epistemic explorer
+
+Use this focused numerical view to interrogate CFTR counts, attainable bounds and their premises. For the integrated argument and later validation panels use [the Supergraph](supergraph/README.md); for parameter interventions and imported cases use [Read Observability Lab](lab/README.md).
 
 Download `epistemic_graph.html` and open it in a browser. The HTML contains its
 own data, scripts and styles; it does not contact a CDN or require a server.
@@ -40,7 +42,7 @@ is available; the Python checker verifies all three identities without a browser
 The original interface and build code are independently implemented. KwanTube's
 separation of public numerical artifacts from formal text and its inspectable
 evidence map informed the architecture; no KwanTube source code is copied here.
-The scoped MIT grant covers only the enumerated original code. Source data and
+Current original project software is GPL-3.0-only; earlier MIT grants remain valid for their historical versions. See `../LICENSE_SCOPE.md`. Source data and
 scientific content retain their attribution and applicable terms.
 
 The formal article and supplement are absent. Conditional identification hulls

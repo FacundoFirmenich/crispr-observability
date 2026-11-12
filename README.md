@@ -1,202 +1,150 @@
-# CRISPR observability: computational companion
+# CRISPR Observability
 
-## Start a review
+[English](README.md) · [Castellano](README.es.md) · **[Open the research environment](https://facundofirmenich.github.io/crispr-observability/)**
 
-Open the [current integrated evidence graph](interactive/supergraph/crispr_supergraph.html)
-as a downloaded HTML file. Drag an evidence card or a column heading to rearrange
-its position. Lock the layout to pan the whole map. The depth controls cycle
-through evidence layers and the inspector explains incoming and outgoing links.
+**Trace the claim. Inspect the evidence. Change the parameters. Replay the result.**
 
-See the [reviewer workspace](reproducibility/README.md) for the native launch
-menus, selected offline replay, execution receipts, Streamlit dashboard,
-Docker container and interactive notebook.
+CRISPR Observability connects a method for auditing genome-editing readouts to an
+interactive evidence environment and a reusable computational laboratory.
+A product can move the evidence needed to detect it beyond a finite read.
+Different rules can agree on a label while identifying different observed bases.
+The method makes those failures visible and certifies targets over explicitly
+declared interpretation domains.
 
-## Portable reproduction
+## Three connected research capabilities
 
-The [repository guide](docs/REPOSITORY_GUIDE.md) provides an English entry point
-to the software, the scope of each validation, and the historical evidence.
+| Start here | What you can do | Scientific purpose |
+| --- | --- | --- |
+| **[Epistemic Supergraph](interactive/supergraph/crispr_supergraph.html)** | Follow a conceptual tour; inspect claims, required premises and sources; move cards or columns; trace highlighted connections; export the map | Understand and challenge how a conclusion follows from its evidence |
+| **[Read Observability Lab](interactive/lab/CFTR_OBSERVABILITY_LAB.html)** | Rotate sequences and structures in 3D; alter boundaries and spans; inspect SAM/BAM coordinates; import cases; export results, replay and detailed renders | Test the consequences of a specified computational intervention |
+| **[Reproduce the analysis](reproducibility/README.md)** | Launch native Windows, macOS or Linux packages; select quick, counts or full replay; inspect the execution ledger in Streamlit or a notebook | Recompute the published calculations at an explicit evidence scope |
 
-Use the [offline reproduction guide](reproducibility/README.md) and the
-[evidence map](reproducibility/EVIDENCE.md). The unified command combines
-historical COL17A1 replay with the frozen ONT/HiFi decision reconstruction.
-The [integrated validation evidence](extensions/generation_model/validation/)
-preserves local outcomes, protocol timing and adverse results from the MIT
-extension. Manuscript and formal supplement are maintained separately.
+Download an HTML file using GitHub's **Download raw file** control and open it in a
+modern browser. The Supergraph and laboratory are standalone applications; the
+GitHub source preview does not execute them. The laboratory requires WebGL 2.
+Imports and calculations stay in the browser until you explicitly export a file.
 
-## Integrated scientific release: 0.8.1
+### Explore the argument at the resolution you need
 
-The [generation-model and calibration extension](extensions/generation_model/README.md)
-reintegrates MP27/MP28 with the principal line. It preserves the failed literal-
-ancestry gate, adds locus-block source-allele calibration and retains the observed
-noise/catalogue transport failures. Code and full output archives are public;
-the manuscript and formal supplement remain private. The new independent
-extension is MIT; pre-existing license scopes are preserved.
+The **Supergraph** connects the core CFTR findings to later COL17A1, germline and
+external paired-library checks. Its tour advances by conceptual block, with
+play, pause, previous and next controls and a scientific explanation at each step.
+Typed links and conjunction gates preserve the distinction between a premise,
+an observation, a calculation, a limitation and a future revision test.
 
-## Archived source release
+The **[numerical epistemic explorer](interactive/epistemic_graph.html)** gives four
+focused views of the original CFTR counts, bounds, sensitivity and contracts.
+**[PaperGraph](interactive/papergraph/PaperGraph_CRISPR.html)** provides a separate
+guided argument with Student, Technical and Audit reading depths. These are
+complementary views with declared scopes, not interchangeable versions of one graph.
 
-Zenodo preserves the exact **v0.8.1** source snapshot under [10.5281/zenodo.24121127](https://doi.org/10.5281/zenodo.24121127). Cite the native packages by their GitHub release and recorded source commit.
+### Bring your own scientific case
 
-## Historical scientific release: 0.7.1
+Read Observability Lab accepts FASTA, PDB, textual mmCIF, XYZ, SAM, indexed BAM
+and versioned JSON within its [documented format limits](interactive/lab/README.md).
+Its experiments connect coordinates to observed sequence spans and a manipulable
+3D scene. Export the result JSON to preserve parameters and camera state, or a
+PNG for presentation. Structural inspection uses imported coordinates or explicitly
+ideal DNA geometry; it does not predict molecular dynamics or editing efficiency.
 
-The [retained-span audit extension](extensions/retained_span_audit/README.md) provides the current unified quick/full reproduction command, complete COL17A1 retained data, claim/evidence graph, source hashes and explicit execution boundaries. [Download the versioned scientific archives](https://github.com/FacundoFirmenich/crispr-observability/releases/tag/v0.7.1), including 235 historical source-bound evidence files. See [release coverage](extensions/retained_span_audit/RELEASE_COVERAGE.json) before interpreting a reproduced computation as independent biological validation. Manuscript and formal supplementary text remain private for author deposit.
+The **[multi-input engine](engine/README.md)** adds study manifests, reusable
+operations, a JavaScript API, a CLI and an MCP connection for IDE workspaces.
+It can compare multiple named inputs while preserving source provenance and
+project namespaces. The browser currently displays one active case.
+See the [capability and evidence map](docs/COMPANION_CAPABILITIES.md).
 
+## Start with a scientific question
 
-Version **0.6.0 / MP06** (1 November 2026). Public code, numerical data and editable figures for
-a retrospective genome-editing readout audit. The complete manuscript and
-supplement are held privately pending the author's chosen preprint deposition.
+**[Leading case: when one missing base changes what can be observed](docs/LEADING_CASE.md)**
+connects real CFTR reads, a geometric intervention, a seven-operation manifest
+and exact expected outcomes. **[Researcher and community guide](docs/RESEARCHER_GUIDE.md)**
+explains how to import a case, connect MCP, export evidence and contribute.
 
-MP06 adds [complete correspondence and target-relative certificates](extensions/correspondence_frontier/README.md): all optimal paths under an explicit affine objective, the 45-configuration CFTR mechanism experiment, fixed-rule transport on 218,930 authentic HEK3 records and a quantified limit on published aggregate human benchmarking. New Figures 6–7 are in [figures/correspondence_frontier/](figures/correspondence_frontier/). The original tables and all three graph baselines remain unchanged; the graphs do not yet represent this extended source scope.
+The infrastructure is used and adapted across **CRISPR Observability**, **Biogen /
+BioGen S1 (local splicing observability)** and **ChronoWitness (mathematical biology
+and local temporal dynamics)**. [Their integration states differ](docs/RESEARCH_LINES.md):
+native laboratory, applied junction engine and a separate temporal adapter,
+respectively. Shared browser integration for the temporal adapter is pending.
 
-```sh
-python -B extensions/correspondence_frontier/replay.py --work /tmp/crispr-p1-mp06
-```
+Local development used a conventional **2016 Intel Core i5-6200U laptop**.
+Larger campaigns used hosted compute. This is a hardware-provenance statement,
+not a claim that every full campaign runs on an old laptop. Browser inspection,
+native launchers, Docker and Streamlit provide distinct access paths.
 
-## Current methodological frontier
+## A short first reproduction: three commands
 
-The article is **CRISPR P1**. PaperGraph, the other interfaces, figures and code are subordinate article outputs. The complete article and formal supplement remain private until the author's preprint deposit.
-
-MP05 adds the [full finite-record reproduction extension](extensions/reproduction/README.md): original fifteen-stream geometry/quality/veto source, external catalogue parsing, the installable event-contract package, the actual 36-card/24-contrast checker, correspondence ablations and an authenticated dedicated prime-editing comparison. New Figure 5 and Figure S3 are under [figures/frontier/](figures/frontier/). Frozen earlier numerical tables and the existing graph baseline remain unchanged and identified as such.
-
-```sh
-python -B extensions/reproduction/replay.py --work /tmp/crispr-p1-full-replay
-python -B extensions/reproduction/analyze_correspondence.py --output /tmp/crispr-p1-certificate-analysis
-```
-
-The dedicated PE comparison completed nine jobs on the same nine primary streams. It identified 89 unequal coding strings within the former witness; requiring the added correspondence retains 170,632 records and 6,374 unknowns. All three native PE-minus-mock lower endpoints remain unchanged and positive. Native software assignments and matched-event raw bounds are exported separately. These are retrospective conditional results, not comparative accuracy or an independent biological cohort.
-
-## Reproduce the computational checks
-
-With Python 3.11 or later, from this directory:
-
-```sh
-python3 code/run_review_checks.py
-```
-
-The standard-library runner verifies exact derived-table arithmetic and
-reconstructs observers on nine authentic public CFTR FASTQ streams using
-eighteen frozen alignment tables. It checks 177,006 original records, 170,725
-common-string witnesses and 6,281 unknowns against preserved result objects.
-It does not calibrate molecular classification accuracy or establish independent
-biological replication. Source experiments remain attributable to Sousa et al.
-
-## Public assets
-
-- [PaperGraph](interactive/papergraph/PaperGraph_CRISPR.html): a third subordinate
-  reading and scientific-argument tool. Twelve stations distinguish definitions,
-  source facts, formal conditions, adverse cases and consequences. Student,
-  Technical and Audit depths preserve the same quantities and claim boundaries.
-  The public model contains scientific summaries and numerical-source bindings;
-  the complete article and supplement, their snapshots and quoted prose are withheld.
-- `interactive/supergraph/crispr_supergraph.html`: separate dark spatial graph,
-  adapted from the actual published *Beyond Redfield* KwanTube companion.
-  Its side filters, navigable SVG canvas and inspector retain that interface
-  while presenting CRISPR-specific claims, evidence, falsifiers and boundaries.
-- `interactive/epistemic_graph.html`: existing self-contained white evidence explorer,
-  preserved byte for byte.
-  Download and open locally; GitHub's source viewer does not execute HTML.
-  Four views expose conjunctive support paths, event partitions, conditional
-  hulls, sensitivity profiles, source fingerprints and CSV/JSON/SVG exports.
-- `figures/`: editable SVG/PDF/PNG exports, plotting code and exact input tables.
-- `tables/`: nineteen authentic numerical CSVs, retained byte for byte.
-- `raw_replay/`: nine genuine FASTQ inputs, eighteen frozen alignment tables,
-  original comparators and portable replay code.
-- `engine_replay/`: portable source and configurations for the historical
-  144-job alignment sensitivity experiment, with clear preparation/execution scopes.
-- `metadata/`: source identities, provenance, runtime records and release status.
-
-`docs/REPRODUCTION_SCOPE.md` and `docs/SCIENTIFIC_FRONTIER.md` state what each
-operation verifies. Conditional finite-read intervals, source software percentages,
-sequence correspondence and biological truth are distinct quantities.
-
-## Figures
-
-Install `figures/requirements-figures.txt` and run:
+With Python 3.11+ and Git available, choose a persistent research directory, then:
 
 ```sh
-python3 figures/code/generate_figures.py
+git clone https://github.com/FacundoFirmenich/crispr-observability.git
+cd crispr-observability
+python -B reproducibility/reproduce.py --mode quick --output replay-quick
 ```
 
-The plotting source uses an explicit standalone coordinate contract and frozen
-numerical tables. It does not require manuscript prose.
+The output directory must be new. Inspect `replay-quick/REPRODUCTION.json` for the
+executed scope and outcome. Quick mode reconstructs exact CFTR endpoints from
+archived counts, resolves the actual Clone3 example and replays preserved
+ONT/HiFi locus decisions. It is not a fresh sequencing or alignment campaign.
+Elapsed time depends on your system and initial repository transfer.
 
-PaperGraph has separate portrait, landscape and complete argument-atlas figures
-in [figures/papergraph/](figures/papergraph/). Editable SVGs, rendered PNG/PDF
-figures, source and rebuild/check instructions are documented in
-[interactive/papergraph/README.md](interactive/papergraph/README.md). Figure PDFs
-are illustration assets; the article and formal supplement are not distributed.
+For a graphical start without installing Python, use the packages in
+**[native release v0.9.0](https://github.com/FacundoFirmenich/crispr-observability/releases/tag/v0.9.0)**:
+`START_HERE.bat` on Windows, `START_HERE.command` on macOS or `START_HERE.sh`
+on Linux. The [reviewer workspace](reproducibility/README.md) also documents
+Docker, Streamlit, the interactive notebook and granular replay.
 
-## Interactive companions
+## What the evidence establishes
 
-The PaperGraph is a separate third companion. Its dotted reading route is a
-pedagogical sequence, while typed scientific links expose support, qualification,
-refuted inference and unestablished claims. Seven AND groups preserve required
-premises. The model contains 92 nodes and 86 links: 75 scientific relations and
-11 separately labelled reading-order links. Navigation does not create evidence
-or establish causality. All three tools work offline without a CDN.
+| Finding | Observed result | Scope |
+| --- | --- | --- |
+| Product-dependent anchor observability | A +3-base shift takes a required anchor to [213,225) in a 224-base read; one CFTR lower contrast endpoint changes from −10.09177 to +13.23196 percentage points under a common quality mask | Finite recorded universe and declared label assumptions; the earlier interval includes zero |
+| Label agreement can conceal unequal strings | 83 unequal strings among 170,808 jointly resolved records, including 18 with agreeing native-local labels | A correspondence counterexample, not 83 adjudicated molecular errors |
+| Target-relative certification | The target is resolved when every candidate in a complete declared domain gives the same determinate value | Model-relative certificate with explicit abstention |
+| The cost of withdrawal | A fixed four-donor germline rule withdraws 25/26 discordant and 113/207 concordant calls across 241 loci | Locus-level benchmark agreement under the frozen selection and rule |
 
-Argument graphs have direct prior art, including
-[Micropublications (Clark, Ciccarese and Goble, 2014)](https://doi.org/10.1186/2041-1480-5-28).
-This project contributes a source-bound CRISPR reading interface, without claiming
-a new scientific standard or measured educational benefit.
+The [evidence map](reproducibility/EVIDENCE.md) connects each result to its unit,
+input and replay operation. Local disagreements and failed gates remain visible.
+The [scientific scope](docs/SCIENTIFIC_FRONTIER.md) and
+[practical workflow](docs/PRACTICAL_WORKFLOW.md) explain how to reuse the method.
 
-The dark supergraph is a separate tool. Its corresponding editable source,
-model builder, provenance and GPLv3 notice are in
-[interactive/supergraph/README.md](interactive/supergraph/README.md). This is the current integrated evidence graph, including the reserved germline panels, the HiFi cross-check, COL17A1 and the external paired-library audit. The white explorer remains a focused view of the original CFTR counts. It does not
-replace or restyle the white explorer. The original two tools retain their own source models and licenses.
+## Versions, citation and access
 
-The preserved white explorer contains 21 nodes and eight typed AND hyperedges. Its source model
-keeps accepted events, non-events and unknown records separate under each declared
-event, observer and reference. Completion controls choose integer hypothetical
-unknown labels without changing the data. See [interactive/README.md](interactive/README.md)
-for offline use and standard-library rebuild/check commands.
+The **v0.8.1 source snapshot** is archived at
+**[10.5281/zenodo.24121127](https://doi.org/10.5281/zenodo.24121127)**.
+The **v0.9.0 native packages** have their own release and recorded build commit.
+Current graph and laboratory development postdates those archives: cite its exact
+Git commit alongside the component. A development-branch name is not a substitute
+for a versioned citation. New source components are not retroactively included in
+the existing DOI or native binaries.
 
-The exact source inventory is `metadata/REPOSITORY_MANIFEST.json`. Run
-`python3 -B code/check_public_distribution.py` to check its fingerprints and text
-withholding boundary. Generated runtime outputs and browser screenshots are
-excluded from the public source inventory.
+The repository is public. The complete manuscript and formal supplement remain
+private for author deposit. Public code, numerical evidence and interactive tools
+are accessible here; manuscript privacy does not imply that their source code is private.
 
-## Attribution and license
+## Contribute a scientific check
 
-Current personal and institutional acknowledgments are in [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md).
-The verified author identity is in `metadata/AUTHOR_PROFILE_VERIFIED.json`.
-MIT applies only to the original-code allowlist in `metadata/LICENSE_SCOPE.json`.
-The separate KwanTube-derived supergraph code is distributed under GPL-3.0-only,
-with the complete license and modification notice in `interactive/supergraph/`.
-The independently implemented PaperGraph interface code is also in the exact
-MIT allowlist; generated HTML includes scientific content whose source terms
-remain separate. Scientific observations, data, figures and source publications retain their
-distinct attribution and applicable terms; neither code license relicenses them.
-See `raw_replay/DATA_NOTICE.md`.
+Use [scientific feedback](https://github.com/FacundoFirmenich/crispr-observability/issues/new/choose)
+for a localized discrepancy, failed reproduction or supported improvement.
+Include the commit, input identity, command, observed result and affected claim.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Independent use and community adoption
+will be reported when measured; an empty issue tracker is not a performance test.
 
-No preprint DOI is assigned by this repository. The private manuscript and
-supplement will be linked only after the author elects to deposit them.
+## Documentation and provenance
 
-## Added reference and recording-context checks (31 October 2026)
+- [Repository guide](docs/REPOSITORY_GUIDE.md): choose a workflow and evidence scope.
+- [Research environment](docs/COMPANION_CAPABILITIES.md): graph, lab, API, MCP and replay.
+- [Native and dashboard reproduction](reproducibility/README.md).
+- [Evidence and reproduction map](reproducibility/EVIDENCE.md).
+- [Source and historical release coverage](extensions/retained_span_audit/RELEASE_COVERAGE.json).
+- [Integrated generation-model evidence](extensions/generation_model/README.md).
+- [Visual conventions](docs/VISUAL_STYLE.md), [publication policy](PUBLICATION_POLICY.md)
+  and [acknowledgments](ACKNOWLEDGMENTS.md).
 
-This repository accompanies the CRISPR P1 article; all diagrams and interactive
-views are outputs of that paper. The supplementary extension in
-[extensions/scientific_context/](extensions/scientific_context/README.md) adds
-versioned molecular-reference checks, an independent raw quality/length audit
-and accessible reference-sequence carriers. It preserves every original count,
-input and earlier interactive artifact. Two new figure sets are in
-`figures/scientific_context/`. Run
-`python3 -B extensions/scientific_context/check_extension.py` offline.
-These additions neither identify sample isoforms nor establish function,
-molecular accuracy or educational efficacy. Full formal texts remain private.
+## Licensing
 
-## Archival custody
-
-The [MP06 integrity addendum I1](extensions/evidence_integrity/README.md) exports
-complete raw-sequence/quality/coding ledgers for all 177,006 primary CFTR and
-218,930 HEK3 records. Saved-file readback rejoins every original record and
-reconstructs all 204 corresponding MP06 count rows. These are derived audit
-tables, separately named from preserved incomplete native annotations. Frozen
-scientific results and all graph baselines are unchanged.
-
-The standing preservation and recovery rule is in [AGENTS.md](AGENTS.md). Preserve actual files and failed attempts, verify recovery from authorized persistent copies, and report missing originals honestly. A digest or SQL row alone is not a replacement file. When an original cannot be recovered and contributes value to CRISPR P1, the author requires complete recomputation from authentic inputs, verification and integration; preserve the new run's actual provenance. Complete manuscript and supplementary text remain private.
-
-## Verified public KEAP1 sequencing inputs
-
-The [source verification extension](extensions/verified_read_inputs/README.md) pins six public CRISPRnano FASTQ files by accession and checksum and provides a download and integrity checker.
-
-Original project software in release 0.7.1 is GPL-3.0-only. See LICENSE_SCOPE.md for source-data and third-party boundaries. Zenodo metadata is prepared in .zenodo.json; a DOI is not yet assigned.
+Current original observability software, the portable runner and integrated
+laboratory use **GPL-3.0-only**. The independent source-allele extension under
+`extensions/generation_model/` retains **MIT**. Earlier MIT grants and third-party
+notices are preserved. Source data and publications retain their own terms.
+See [LICENSE_SCOPE.md](LICENSE_SCOPE.md); no code licence assigns rights over
+the private manuscript or relabels a third-party dataset.

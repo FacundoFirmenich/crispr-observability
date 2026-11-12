@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {runProject} from '../../engine/project-engine.mjs';
+const root=dirname(fileURLToPath(import.meta.url));
+const report=await runProject(JSON.parse(await readFile(new URL('./project.json',import.meta.url))),root);
+const r=Object.fromEntries(report.results.map(x=>[x.id,x.result]));
+assert.equal(r.unshifted.contained,true);
+assert.equal(r.shifted.observed,11);assert.equal(r.shifted.outside,1);
+assert.equal(r['counterfactual-extra-base'].contained,true);
+assert.deepEqual([r['unequal-spans'].a.length,r['unequal-spans'].b.length],[42,87]);
+assert.equal(r['unequal-spans'].identicalString,false);
+assert.deepEqual([r['equal-label-unequal-string'].a.length,r['equal-label-unequal-string'].b.length],[72,39]);
+assert.equal(r['equal-label-unequal-string'].identicalString,false);
+assert.equal(r['alternative-optimum'].identicalString,true);
+assert.ok(report.datasets.every(x=>x.status==='used'&&x.source.sha256));
+console.log(JSON.stringify({status:'PASS',operations:report.results.length,actualReads:2,scope:'Archived sequences and geometric counterfactual; no new biological measurement',report},null,2));

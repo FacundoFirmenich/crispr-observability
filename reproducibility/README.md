@@ -83,3 +83,18 @@ docker run --rm -p 127.0.0.1:8501:8501 -v crispr-review-results:/results crispr-
 Open `http://localhost:8501`. The named volume retains the execution ledger
 across container restarts. The original root Dockerfile continues to reproduce
 its documented historical review scope.
+
+
+## Evidence navigation and new computational cases
+
+The [Epistemic Supergraph](../interactive/supergraph/README.md) explains how the
+results connect. [Read Observability Lab](../interactive/lab/README.md) offers
+parameterized sequence/structure/alignment experiments and replayable 3D views.
+The [multi-input engine](../engine/README.md) runs named studies through a CLI,
+JavaScript API or MCP. These current source components are distinct from the
+fixed v0.9.0 native package and do not alter its archived execution scope.
+
+
+## Researcher access and community
+
+[English guide](../docs/RESEARCHER_GUIDE.md) · [Guía en castellano](../docs/RESEARCHER_GUIDE.es.md) · [Leading case](../docs/LEADING_CASE.md) · [Three research lines](../docs/RESEARCH_LINES.md).

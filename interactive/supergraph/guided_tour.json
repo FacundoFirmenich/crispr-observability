@@ -181,5 +181,29 @@
       "reproducibility/README.md"
     ],
     "focus": "C_anchor"
+  },
+  {
+    "title": "From the claim to a reusable experiment",
+    "question": "How can another researcher inspect and test this result?",
+    "finding": "Open the 3D laboratory, follow the two-read CFTR leading case, and run the multi-input manifest. Preserve parameters, source identities and unresolved outcomes with each exported result.",
+    "scope": "These tools expose and replay evidence. The three programme uses have different integration states; neither an interface nor a replay creates independent biological truth.",
+    "nodes": [
+      "T_ENGINE",
+      "T_LAB",
+      "T_CASE",
+      "E_geometry",
+      "E_strings"
+    ],
+    "focus": "T_LAB",
+    "edges": [
+      "T_ENGINE->T_LAB:documents",
+      "T_LAB->E_geometry:documents",
+      "T_CASE->E_strings:documents"
+    ],
+    "sources": [
+      "docs/RESEARCHER_GUIDE.md",
+      "docs/LEADING_CASE.md",
+      "docs/RESEARCH_LINES.md"
+    ]
   }
 ]

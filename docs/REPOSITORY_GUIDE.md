@@ -1,30 +1,29 @@
-# Repository guide
+# Choose a research task
 
-Use the [offline reproduction instructions](../reproducibility/README.md) to run the
-native package on Windows, Linux, or macOS. The [evidence map](../reproducibility/EVIDENCE.md)
-links each computation to its observation unit and the evidence that supports it.
-The [validation archive](../extensions/generation_model/validation/README.md) contains
-frozen protocols, local results, and adverse outcomes from the MIT extension.
+| Your question | Start here |
+| --- | --- |
+| Why does a claim follow from these observations? | [Epistemic Supergraph](../interactive/supergraph/README.md) |
+| What changes if I alter a boundary, span or local alignment criterion? | [Read Observability Lab](../interactive/lab/README.md) |
+| Can I run the operations on my own study? | [Multi-input engine: CLI, API and MCP](../engine/README.md) |
+| Can I reproduce the stored scientific calculations? | [Native replay and reviewer workspace](../reproducibility/README.md) |
+| What do the original CFTR partitions and bounds contain? | [Numerical epistemic explorer](../interactive/README.md) |
+| Which evidence supports each operation? | [Capability map](COMPANION_CAPABILITIES.md) and [evidence map](../reproducibility/EVIDENCE.md) |
 
-The repository's current guidance, commands, receipts, and new scientific prose
-use English. Historical records retain the language and exact bytes in which they
-were archived. The legacy Spanish guide records a previous version and remains
-available for historical reference.
+The front page gives a three-command first replay and direct access to the two
+interactive applications. Current guidance is in English. Historical records retain
+their original language and bytes and remain identifiable as historical sources.
 
-Use the [visual conventions](VISUAL_STYLE.md) for new tables and figures. The
-[publication policy](../PUBLICATION_POLICY.md) governs the distribution of
-software, numerical evidence, and privately held manuscripts.
+Artifact identity, decision reconstruction, retained-input recomputation and
+external validation answer different questions. Each result retains its record,
+fragment, locus, library or donor unit. The interactive environment connects these
+levels while keeping their evidence boundaries inspectable.
 
-## What a reproducibility result establishes
+The manuscript and formal supplement remain private for author deposit.
+See [publication policy](../PUBLICATION_POLICY.md), [visual conventions](VISUAL_STYLE.md)
+and [licensing](../LICENSE_SCOPE.md). Cite the precise release or commit used;
+the existing Zenodo DOI identifies v0.8.1, not every subsequent development.
 
-- **Artifact verification** establishes identity against a versioned manifest.
-- **Decision reconstruction** recalculates a decision from frozen counts, scores,
-  or observed categories under an explicit rule.
-- **Retained-input recomputation** reruns the computation on distributed observations
-  and compares its outputs against an independent implementation where supplied.
-- **External validation** requires an explicitly identified comparison acquisition
-  and an observation unit that the linkage actually supports.
 
-Report outcomes at their original record, fragment, locus, library, or donor unit.
-Preserve local discordance, abstention, and the limits of each source. The software
-provides an audit trail for claims of observability and correspondence.
+## Researcher access and community
+
+[English guide](RESEARCHER_GUIDE.md) · [Guía en castellano](RESEARCHER_GUIDE.es.md) · [Leading case](LEADING_CASE.md) · [Three research lines](RESEARCH_LINES.md).

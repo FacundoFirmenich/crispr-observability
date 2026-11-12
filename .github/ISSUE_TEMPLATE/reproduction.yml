@@ -1,0 +1,30 @@
+name: Reproduction or new case / Reproducción o caso nuevo
+description: Report a reproducible discrepancy or propose a documented scientific case.
+title: "[Reproduction / Caso] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Component and commit / Componente y commit
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Input provenance and units / Procedencia y unidades
+      description: Public identifier or permitted fixture, SHA-256, coordinates and evidence unit. Do not share private clinical data.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Exact command or manifest / Comando o manifiesto
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and observed result / Resultado esperado y observado
+      description: Include the receipt and the affected scientific claim; retain failures and unresolved outcomes.
+    validations:
+      required: true

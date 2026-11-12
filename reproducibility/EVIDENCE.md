@@ -14,3 +14,16 @@ See the retained-span claim graph in the bundled evidence directory and the
 validation manifest for exact artifact identities. The repository's upstream
 CFTR/HEK3 replay workflows and source restrictions are indexed by the
 retained-span release coverage document.
+
+
+## Interactive and programmatic research operations
+
+| Component | Input | Operation | Output and interpretation |
+| --- | --- | --- | --- |
+| Epistemic Supergraph | Source-bound graph and tour | Inspect required premises, support links, sources and revision tests | Navigable argument; no new empirical sample |
+| Read Observability Lab | Archived or user-imported case and explicit parameters | Boundary containment, string comparison, coordinate inspection and local alignment audit | Recalculated result, replay, TSV where applicable and 3D render |
+| Multi-input engine | Versioned study manifest and named inputs | Ordered operations with source/type/coordinate validation | Structured report via API/CLI/MCP; cross-file molecule linkage is not inferred |
+
+See [the capability guide](../docs/COMPANION_CAPABILITIES.md) for the connection
+between the paper's claims, the graphs and the laboratory. Current tool development
+is cited by commit; the existing v0.8.1 DOI remains a historical source snapshot.
