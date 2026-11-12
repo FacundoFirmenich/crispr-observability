@@ -9,6 +9,10 @@
 !interactive/
 !interactive/supergraph/
 !interactive/supergraph/**
+!interactive/lab/
+!interactive/lab/CFTR_OBSERVABILITY_LAB.html
+!docs/
+!docs/**
 !reproducibility/
 !reproducibility/reproduce.py
 !reproducibility/reviewer_app.py

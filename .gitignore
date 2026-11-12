@@ -25,3 +25,5 @@ private_prechange/
 .build-native*/
 !extensions/generation_model/validation/results/
 !extensions/generation_model/validation/results/**
+
+!validation/rol-v03-inputs.zip

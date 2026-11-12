@@ -35,7 +35,11 @@ const fileInput={
 
 async function localFile(path){
   if(typeof path!=='string'||isAbsolute(path))throw new Error('Use a workspace-relative file path.');
-  const candidate=await realpath(resolve(workspace,path));
+  const lexical=resolve(workspace,path);
+  const lexicalRelative=relative(workspace,lexical);
+  if(!lexicalRelative||isAbsolute(lexicalRelative)||lexicalRelative==='..'||lexicalRelative.startsWith('..'+sep))
+    throw new Error('The case file must resolve inside the authorized workspace.');
+  const candidate=await realpath(lexical);
   const rel=relative(workspace,candidate);
   if(!rel||isAbsolute(rel)||rel==='..'||rel.startsWith('..'+sep))
     throw new Error('The case file must resolve inside the authorized workspace.');

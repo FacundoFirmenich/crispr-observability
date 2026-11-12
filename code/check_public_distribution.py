@@ -72,7 +72,7 @@ def main():
             assert b'\\begin{document}' not in data, name
             assert b'P1_Revised_Integrated_EN.txt' not in data, name
     release = json.loads((ROOT / 'metadata/RELEASE_STATE.json').read_text())
-    assert release['version'] == inventory['version'] == '0.9.0'
+    assert release['version'] == inventory['version'] == '0.10.0'
     assert release['edition'] == inventory['edition'] == policy['edition'] == 'NATIVE_REPRODUCTION'
     assert release['manuscript_public'] is False and release['supplement_public'] is False
     license_scope = json.loads((ROOT / 'metadata/LICENSE_SCOPE.json').read_text())

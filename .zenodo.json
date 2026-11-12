@@ -1,8 +1,8 @@
 {
-  "title": "CRISPR observability: software and source-bound scientific evidence",
+  "title": "CRISPR Observability: evidence graphs, reusable research laboratory and reproducible analysis",
   "upload_type": "software",
-  "version": "0.9.0",
-  "publication_date": "2026-11-11",
+  "version": "0.10.0",
+  "publication_date": "2026-11-12",
   "access_right": "open",
   "license": "gpl-3.0-only",
   "creators": [
@@ -12,13 +12,17 @@
       "affiliation": "Centro de Estudios del Sur (CEDESUR), Spain and Argentina"
     }
   ],
-  "description": "<p>Computational software and source-bound evidence for genome-editing observability, finite-record identification and sequence correspondence. The release includes the retained COL17A1 pair ledgers, source spans, target-class witnesses, bounded independent path oracle, executable reproduction entry point and epistemic claim/evidence graph. Historical CFTR/HEK3, K562, HG002, KEAP1 and fragment-linkage evidence is included in the Git tree; one large reference file is preserved as hash-verified reconstructable parts.</p><p>Original software: GPL-3.0-only, as selected by the author. Third-party notices and original-study data terms are retained. Manuscript, formal supplementary text and editable manuscript sources are excluded until author-confirmed bioRxiv acceptance. This computational release does not establish independent molecular truth or biological accuracy.</p> Release 0.8.0 integrates conditional generation-model and locus-block calibration evidence; original extension code is MIT and historical components retain their notices. No manuscript or formal supplement is included.<p>Version 0.9.0 integrates frozen validation evidence, independent retained-span replay and cross-acquisition germline decision reconstruction through a single offline entry point. Original FASTQ extraction and new ONT/HiFi read scoring are separate upstream analyses.</p>",
+  "description": "<p>Computational software and source-bound evidence for genome-editing observability, finite-record identification and sequence correspondence. The release includes the retained COL17A1 pair ledgers, source spans, target-class witnesses, bounded independent path oracle, executable reproduction entry point and epistemic claim/evidence graph. Historical CFTR/HEK3, K562, HG002, KEAP1 and fragment-linkage evidence is included in the Git tree; one large reference file is preserved as hash-verified reconstructable parts.</p><p>Original software: GPL-3.0-only, as selected by the author. Third-party notices and original-study data terms are retained. Manuscript, formal supplementary text and editable manuscript sources are excluded until author-confirmed bioRxiv acceptance. This computational release does not establish independent molecular truth or biological accuracy.</p> Release 0.8.0 integrates conditional generation-model and locus-block calibration evidence; original extension code is MIT and historical components retain their notices. No manuscript or formal supplement is included.<p>Version 0.9.0 integrates frozen validation evidence, independent retained-span replay and cross-acquisition germline decision reconstruction through a single offline entry point. Original FASTQ extraction and new ONT/HiFi read scoring are separate upstream analyses.</p><p>Version 0.10.0 integrates the epistemic Supergraph, Read Observability Lab, multi-input v0.5 engine with CLI/API/MCP, an authentic two-read CFTR leading case, English/Spanish researcher documentation, Streamlit and Docker access, and native platform launchers. Three programme research lines have documented, distinct integration states; independent community adoption is not asserted.</p>",
   "keywords": [
     "genome editing",
     "observability",
     "partial identification",
     "sequence correspondence",
-    "reproducibility"
+    "reproducibility",
+    "interactive scientific software",
+    "epistemic graph",
+    "3D laboratory",
+    "MCP"
   ],
   "related_identifiers": [
     {

@@ -1,5 +1,5 @@
 {
-  "version": "0.9.0",
+  "version": "0.10.0",
   "edition": "NATIVE_REPRODUCTION",
   "status": "PUBLIC_COMPUTATIONAL_COMPANION_PRIVATE_MANUSCRIPTS",
   "public_release": true,
@@ -69,22 +69,28 @@
     {
       "path": "interactive/epistemic_graph.html",
       "name": "White evidence and readout explorer",
-      "preserved_sha256": "29fc7fce6805bb50b4a6b2c8340d745d07552bad4b8fa7d5b359a7d35bad6445",
-      "browser_QA": "PASS_AT_4e0d9b801436f9be5ae957201736a1b1744bcb11"
+      "historical_snapshot_sha256": "29fc7fce6805bb50b4a6b2c8340d745d07552bad4b8fa7d5b359a7d35bad6445",
+      "historical_browser_QA": "PASS_AT_4e0d9b801436f9be5ae957201736a1b1744bcb11",
+      "current_sha256": "d7630fb7f3ff4f74cca55a91dcf41e40c8825ffb394bea130946ebb162206a57",
+      "current_validation": "See exact source-commit workflow status."
     },
     {
       "path": "interactive/supergraph/crispr_supergraph.html",
       "name": "KwanTube-derived dark spatial supergraph",
-      "browser_QA": "PASS_AT_4e0d9b801436f9be5ae957201736a1b1744bcb11",
       "code_license": "GPL-3.0-only",
-      "preserved_sha256": "19ae4eac0eb949faeea90027be2151a0257613766ea3370b2390d6f9dd75c31c"
+      "historical_snapshot_sha256": "19ae4eac0eb949faeea90027be2151a0257613766ea3370b2390d6f9dd75c31c",
+      "historical_browser_QA": "PASS_AT_4e0d9b801436f9be5ae957201736a1b1744bcb11",
+      "current_sha256": "53d1418335c46eadcb927422c1e50994642e02d0f6766d3edd798b383fa1dd9a",
+      "current_validation": "See exact source-commit workflow status."
     },
     {
       "path": "interactive/papergraph/PaperGraph_CRISPR.html",
       "name": "PaperGraph: reading guide and typed scientific argument",
-      "browser_QA": "PASS_AT_4e0d9b801436f9be5ae957201736a1b1744bcb11",
       "code_license": "MIT_SCOPED",
-      "model_scope": "Scientific summaries and public numerical bindings; complete article/supplement and literal text anchors withheld"
+      "model_scope": "Scientific summaries and public numerical bindings; complete article/supplement and literal text anchors withheld",
+      "historical_browser_QA": "PASS_AT_4e0d9b801436f9be5ae957201736a1b1744bcb11",
+      "current_sha256": "a2c1728960869dd9988de8ac3a765ed4a3c5a9e5a410b2083ed8ce054ddc3dd7",
+      "current_validation": "See exact source-commit workflow status."
     }
   ],
   "new_supergraph_preserves_existing_explorer_and_data": true,
@@ -117,7 +123,7 @@
     "new_biological_observations": false,
     "original_counts_changed": false
   },
-  "date": "2026-11-01",
+  "date": "2026-11-12",
   "full_geometry_external_contract_replay_included": true,
   "dedicated_PE_mode_source_included": true,
   "dedicated_PE_jobs_executed_in_MP05": 9,
@@ -136,7 +142,7 @@
     "full_text_public": false,
     "actual_CI": "Consult Actions for the exact final commit; no self-certifying future receipt."
   },
-  "current_epistemic_graph": "extensions/retained_span_audit/epistemic_graph.html",
+  "current_epistemic_graph": "interactive/supergraph/crispr_supergraph.html",
   "historical_baseline_count_scope": "Existing original_raw_inputs_included and frozen_alignment_tables_included fields describe the preserved primary CFTR/HEK3 baseline, not all later sources.",
   "generation_model_extension": {
     "path": "extensions/generation_model/",
@@ -153,5 +159,30 @@
     "doi": "10.5281/zenodo.24121127",
     "concept_doi": "10.5281/zenodo.24121088",
     "archive": "FacundoFirmenich/crispr-observability-v0.8.1.zip"
+  },
+  "historical_retained_span_graph": "extensions/retained_span_audit/epistemic_graph.html",
+  "current_research_environment": {
+    "source_version": "0.10.0",
+    "documentation_languages": [
+      "English",
+      "Castellano"
+    ],
+    "landing": "index.html",
+    "lab": "interactive/lab/CFTR_OBSERVABILITY_LAB.html",
+    "multi_input_engine": "engine/README.md",
+    "engine_version": "0.5.0",
+    "leading_case": "examples/cftr-leading-case/project.json",
+    "research_lines": "docs/RESEARCH_LINES.md",
+    "streamlit": "reproducibility/reviewer_app.py",
+    "docker": "Dockerfile.reviewer",
+    "native_platforms": [
+      "Windows x86-64",
+      "Linux x86-64",
+      "macOS Intel",
+      "macOS Apple silicon"
+    ],
+    "native_release_state": "SOURCE_PREPARED_REQUIRES_EXACT_COMMIT_BUILD_RECEIPTS",
+    "author_reported_development_hardware": "2016 laptop, Intel Core i5-6200U 2.30 GHz; larger campaigns on hosted compute",
+    "scope": "Capabilities and access; no new biological measurement or independent user adoption."
   }
 }

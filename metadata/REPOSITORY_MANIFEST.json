@@ -1,5 +1,5 @@
 {
-  "version": "0.9.0",
+  "version": "0.10.0",
   "edition": "NATIVE_REPRODUCTION",
   "source_commit": "86101c106932480cb3d9f69079b54bd0ce5755cd",
   "files": {
@@ -68,12 +68,12 @@
       "sha256": "8f6d661154c1a2a31905e6dbfd20ba2602a012f41a70baefea9488b947efdd3a"
     },
     ".gitignore": {
-      "bytes": 604,
-      "sha256": "d34c0428d7b80f38a4926b2822ef597906d609ad59c4c6dcb27c0ec2d333c5cd"
+      "bytes": 636,
+      "sha256": "b3b4c7c4b1ed7769162c95f71a95fef9478652d9d4763b45cb49a8325af2447b"
     },
     ".zenodo.json": {
-      "bytes": 2112,
-      "sha256": "2ae0014e55a5747ab38bf103a4d35f47aa7c5892a22568145394e2644494c30d"
+      "bytes": 2625,
+      "sha256": "238fbf01a29ad65f30c20ce216046f8adfb4a9860040d7b25dd9237f4deee306"
     },
     "ACKNOWLEDGMENTS.md": {
       "bytes": 532,
@@ -88,8 +88,8 @@
       "sha256": "e56cdb81ef4632af1f598738c52e4fed45fa39b1ae27c182b456ea7d9b07e810"
     },
     "CITATION.cff": {
-      "bytes": 2487,
-      "sha256": "a5475a6e6cf6f5f6001feed15e9df55d13f7554f5e1289777b8a0d76ffbf3291"
+      "bytes": 2662,
+      "sha256": "ee77640f22b15807ec58fee4a75d3d2ba709cb172eea5865363e7d9d8325a7aa"
     },
     "Dockerfile": {
       "bytes": 744,
@@ -100,8 +100,8 @@
       "sha256": "58db19c5398e22b48b9c3680c4414af437e500cff0580bffe6ec1bfd43102b66"
     },
     "Dockerfile.reviewer.dockerignore": {
-      "bytes": 471,
-      "sha256": "2d9ddd675fbb3ec5a1aa86e3bdb6ba2db14ddf8f1837cbcc37ec09c722eadce9"
+      "bytes": 550,
+      "sha256": "6bfc38095bf4453f53a99f45c9f776fde94c9bfaa86ae75b1f43e2918ac428a2"
     },
     "LEEME_ES.md": {
       "bytes": 4591,
@@ -148,8 +148,8 @@
       "sha256": "420b0453c3235d6c8ae65cf21ceeced7a18f7d4f641c86a1e134ed0623e3b289"
     },
     "code/check_public_distribution.py": {
-      "bytes": 7648,
-      "sha256": "03a86cdef68ddfef3e482483413a77097676adc67572432bcc64780fae1efe57"
+      "bytes": 7649,
+      "sha256": "54480695bbf860d48b3f0482771a07e51cfe44196e4062b92c59f3c8eb313412"
     },
     "code/check_selected_p1_tables.py": {
       "bytes": 16873,
@@ -160,8 +160,8 @@
       "sha256": "407d75c1b311e619157eff5cf1bbb8af43dafe484b4a86d0d2f2c3ff65df7ed4"
     },
     "code/check_supergraph_interaction.cjs": {
-      "bytes": 11478,
-      "sha256": "f92f72610246c8eee08152f8a1fb858a16337b1eb9d0f0088b3c1b5a8524e3db"
+      "bytes": 11601,
+      "sha256": "cd50990f0ab212ca970ab83e78640e92a2b5728343dc74a3be6f3db41c250846"
     },
     "code/refresh_public_inventory.py": {
       "bytes": 8150,
@@ -5260,8 +5260,8 @@
       "sha256": "d82805536e74749a6cf9e6b863ee1feb8e3604fe3e25a8278fca8527da4c0962"
     },
     "metadata/RELEASE_STATE.json": {
-      "bytes": 7794,
-      "sha256": "df442ba4a99a042213566ea39bbbc5f1147caab51e0d5a04e071a23a4676f627"
+      "bytes": 9375,
+      "sha256": "9c95b4b7b565abb374a83ae83a5d5560cfa1d705af4cd9da97c59df67a6defed"
     },
     "metadata/RUNTIME_SOURCES.json": {
       "bytes": 3209,
@@ -5636,8 +5636,8 @@
       "sha256": "505c9986e9c3433862b8e1c0c19498fd66945dd32ddd1e069db81ddd4b80c1a8"
     },
     "docs/researcher-guide.html": {
-      "bytes": 15599,
-      "sha256": "c6d46a4e0fdcb88d156ef6b6ab36d76c603515b91d761cb4e0af85003b633a3e"
+      "bytes": 17501,
+      "sha256": "3f5f0077dc8e70d2b4bdf528ade5980d637bccd75f0d408cad74f9b0131842be"
     },
     "engine/junction-evidence.mjs": {
       "bytes": 3001,
@@ -5792,8 +5792,8 @@
       "sha256": "26afb7bd39c6a281d38143bfac879d123e918c03672e74242cbc52635cac493b"
     },
     "interactive/lab/mcp-server.mjs": {
-      "bytes": 11280,
-      "sha256": "8dab44b64ef6a537e894afa6c123992b54af11a68422bc4d22313598f254c44d"
+      "bytes": 11556,
+      "sha256": "9673a29e1802c692303fed6414973e3effc49113ae89b3652f3cc41fcacfd4bf"
     },
     "engine/project-mcp.mjs": {
       "bytes": 1456,
@@ -5826,6 +5826,10 @@
     "validation/rol-v03-inputs.zip": {
       "bytes": 807949,
       "sha256": "f2f39495ab64efe628bdd870e225d8fc03f16c0fd8f2a3eb3285b2d74a2d29ef"
+    },
+    "docs/RELEASE_v0.10.0.md": {
+      "bytes": 1879,
+      "sha256": "2c6d6dc7944a4e7a1bfaf8462338ee42584864d07479ec9fae505e3692a2a979"
     }
   },
   "source_commit_role": "Historical source archive from the 0.7.1 integration",

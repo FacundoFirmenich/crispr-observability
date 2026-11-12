@@ -19,7 +19,8 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE_PATH || 'playwright-c
     await page.waitForFunction(() => window.CRISP_SUPERGRAPH?.ready);
     const state = () => page.evaluate(() => window.CRISP_SUPERGRAPH.getState());
     const nav = page.getByRole('navigation', { name: 'Evidence categories' });
-    assert.equal(await nav.getByRole('button').count(), 7);
+    const model = JSON.parse(fs.readFileSync('interactive/supergraph/review_graph_model.json', 'utf8'));
+    assert.equal(await nav.getByRole('button').count(), model.layers.length);
     const navBox = await nav.boundingBox(), graphBox = await page.locator('#graph').boundingBox();
     assert.ok(navBox.y + navBox.height <= graphBox.y + 1);
     await nav.getByRole('button', { name: 'External validation' }).click();
