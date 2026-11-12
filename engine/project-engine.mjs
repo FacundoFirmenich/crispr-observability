@@ -5,6 +5,7 @@ import {basename, isAbsolute, relative, resolve, sep} from 'node:path';
 import {z} from 'zod';
 import {boundary, compare, revcomp} from './science.js';
 import {readCase} from './import-case.js';
+import {junctionEvidence} from './junction-evidence.mjs';
 import {openIndexedBam} from './bam-input.js';
 import {alignmentTsv, inspectQuery, MAX_CASE_BYTES, MAX_LOCUS_WIDTH, parseSam,
   reportAlignment, validateAlignmentCase} from './alignment.js';
@@ -24,11 +25,16 @@ const dataset = z.discriminatedUnion('type', [
 const window = z.strictObject({ref:z.string().min(1).max(1000),span})
   .refine(x=>x.span[1]-x.span[0]<=MAX_LOCUS_WIDTH, 'Locus exceeds the 50,000-base limit.');
 const operand = z.strictObject({input:id,span,reverse_complement:z.boolean().default(false)});
+const junctionSet=z.array(span).min(2).max(16);
 const job = z.discriminatedUnion('op', [
   z.strictObject({id,op:z.literal('inspect'),input:id}),
   z.strictObject({id,op:z.literal('anchor-containment'),anchor:span,shift:z.number().int().min(-2147483647).max(2147483647),read_end:coord}),
   z.strictObject({id,op:z.literal('compare-sequence-spans'),a:operand,b:operand}),
   z.strictObject({id,op:z.literal('atom-distance'),input:id,atoms:z.tuple([coord,coord])}),
+  z.strictObject({id,op:z.literal('junction-evidence'),input:id,locus:window,
+    read_name:z.string().min(1).max(254).refine(s=>s!=='*','Read identity is required.'),
+    read_group:z.string().min(1).max(1000).optional(),
+    mate:z.enum(['first','last','unpaired']),junctions:junctionSet}),
   z.strictObject({id,op:z.literal('alignment-locus'),input:id,locus:window,
     alignment_index:coord.default(0),query_index:coord.optional(),original_orientation:z.boolean().default(false),
     min_mapq:z.number().int().min(0).max(254).default(0),include_non_primary:z.boolean().default(false)})
@@ -62,7 +68,15 @@ export function validateProject(input){
     jobIds.add(j.id);
     if(j.op==='inspect')requireDataset(j.input,['sequence','structure','alignment','indexed-bam']);
     if(j.op==='atom-distance')requireDataset(j.input,['structure']);
-    if(j.op==='alignment-locus')requireDataset(j.input,['alignment','indexed-bam']);
+    if(j.op==='alignment-locus'||j.op==='junction-evidence')
+      requireDataset(j.input,['alignment','indexed-bam']);
+    if(j.op==='junction-evidence'){
+      const [lo,hi]=j.locus.span;
+      for(const [i,[start,end]] of j.junctions.entries()){
+        if(start<lo||end>hi||(i>0&&start<=j.junctions[i-1][1]))
+          throw new Error('Junctions must be ordered, nonoverlapping with a gap, and inside the locus.');
+      }
+    }
     if(j.op==='compare-sequence-spans'){
       requireDataset(j.a.input,['sequence']);requireDataset(j.b.input,['sequence']);
     }
@@ -174,7 +188,8 @@ async function compute(j,get){
       distance:Math.hypot(...a.xyz.map((x,i)=>x-b.xyz[i]))};
   }
   const [lo,hi]=j.locus.span;
-  const data=d.reader?await d.reader.query(j.locus.ref,lo,hi):d.data;
+  const data=d.reader?await d.reader.query(j.locus.ref,lo,hi,undefined,{allowEmpty:j.op==='junction-evidence'}):d.data;
+  if(j.op==='junction-evidence')return {source:canonical(data.source),...junctionEvidence(data,j)};
   const {read,coverage}=reportAlignment(data,{index:j.alignment_index,lo,hi,minMapq:j.min_mapq,
     includeNonPrimary:j.include_non_primary});
   if(read.ref!==j.locus.ref)throw new Error('Selected alignment is on '+read.ref+', not '+j.locus.ref);
@@ -199,7 +214,7 @@ export async function runProject(input,root){
     try{results.push({id:j.id,op:j.op,parameters:j,result:await compute(j,get)});}
     catch(error){throw new Error('Operation '+j.id+': '+error.message,{cause:error});}
   }
-  return {schema:'observability-project-report/1',engine_version:'0.4.0',project_id:plan.project_id,
+  return {schema:'observability-project-report/1',engine_version:'0.5.0',project_id:plan.project_id,
     manifestSHA256:digest(JSON.stringify(canonical(plan))),
     datasets:plan.datasets.map(x=>{
       const d=loaded.get(x.id);
