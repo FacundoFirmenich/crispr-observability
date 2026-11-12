@@ -1,0 +1,50 @@
+name: Read Observability Lab v0.3 remote validation
+on:
+  push:
+    branches:
+      - lab-web-v03-validation
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Restore exact validation inputs
+        run: |
+          mkdir -p "$RUNNER_TEMP/rol-v03" "$RUNNER_TEMP/CRISPR_ATOMIC_DNA_REVIEW_20261112"
+          unzip -q validation/rol-v03-inputs.zip -d "$RUNNER_TEMP/rol-v03"
+          cp "$RUNNER_TEMP/rol-v03/qa-1BNA.cif" "$RUNNER_TEMP/CRISPR_ATOMIC_DNA_REVIEW_20261112/1BNA.pdb"
+          cd "$RUNNER_TEMP/rol-v03"
+          sha256sum --check INPUTS.sha256
+      - name: Install and rebuild on the runner
+        run: |
+          cd "$RUNNER_TEMP/rol-v03"
+          npm ci --no-fund --no-audit
+          if ! command -v google-chrome >/dev/null; then npx playwright install --with-deps chrome; fi
+          node build.mjs
+          sha256sum CFTR_OBSERVABILITY_LAB.html
+      - name: Verify alignment, browser, replay and MCP
+        run: |
+          set -o pipefail
+          cd "$RUNNER_TEMP/rol-v03"
+          node alignment-test.mjs | tee ALIGNMENT_REMOTE_CHECKS.json
+          node browser-alignment-test.mjs
+          node mcp-test.mjs | tee MCP_REMOTE_CHECKS.json
+      - name: Preserve the remote evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rol-v03-remote-validation
+          path: |
+            ${{ runner.temp }}/rol-v03/*CHECKS.json
+            ${{ runner.temp }}/rol-v03/lab-v3-alignment.png
+            ${{ runner.temp }}/rol-v03/CFTR_OBSERVABILITY_LAB.html
+          if-no-files-found: warn
+          retention-days: 14
