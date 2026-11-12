@@ -31,25 +31,25 @@ export async function openIndexedBam(bamBlob,indexBlob,signal){
   const bam=new BamFile({bamFilehandle:bamHandle,[isCsi?'csiFilehandle':'baiFilehandle']:indexHandle,
     maxCacheBytes:4*1024*1024});
   const header=await bam.getHeaderText({signal});
-  const refLengths=Object.create(null);
+  const refLengths=Object.create(null),refNames=[];
   for(const line of header.split(/\r?\n/)){
     if(!line.startsWith('@SQ\t'))continue;
     const parts=line.split('\t');
     const id=parts.find(x=>x.startsWith('SN:'))?.slice(3),length=Number(parts.find(x=>x.startsWith('LN:'))?.slice(3));
-    if(id&&Number.isSafeInteger(length)&&length>0)refLengths[id]=length;
+    if(id&&Number.isSafeInteger(length)&&length>0){refLengths[id]=length;refNames.push(id);}
   }
   if(!Object.keys(refLengths).length)throw new Error('BAM header has no reference dictionary.');
   let identity;
   return {
     refLengths,
-    async query(ref,start,end,signal){
+    async query(ref,start,end,signal,{allowEmpty=false}={}){
       if(!Object.hasOwn(refLengths,ref)||!Number.isInteger(start)||!Number.isInteger(end)||
         start<0||end<=start||end>refLengths[ref]||end-start>MAX_LOCUS_WIDTH)
         throw new Error('Choose a reference interval within the BAM header and at most 50,000 bases wide.');
       bamHandle.budget=maxRangeBytes;
       const records=await bam.getRecordsForRange(ref,start,end,{signal});
       const mapped=records.filter(r=>!r.isSegmentUnmapped());
-      if(!mapped.length)throw new Error('No mapped records overlap that locus.');
+      if(!mapped.length&&!allowEmpty)throw new Error('No mapped records overlap that locus.');
       if(mapped.length>MAX_READS)throw new Error('The locus has more than 2,500 mapped records. Choose a narrower locus.');
       let estimatedBytes=0;
       const rows=mapped.map((r,ordinal)=>{
@@ -57,8 +57,14 @@ export async function openIndexedBam(bamBlob,indexBlob,signal){
         estimatedBytes+=2*sequence.length+cigar.length+160;
         if(estimatedBytes>MAX_CASE_BYTES)throw new Error('This locus is too large to replay locally. Narrow the interval.');
         const q=r.qual;
+        const rg=r.getTag('RG')??null;
+        estimatedBytes+=240+(typeof rg==='string'?rg.length:0);
+        if(estimatedBytes>MAX_CASE_BYTES)throw new Error('This locus is too large to replay locally. Narrow the interval.');
         const quality=q?.length&&q[0]!==255?Array.from(q,n=>String.fromCharCode(n+33)).join(''):'*';
-        return {name:r.name,flag:r.flags,mapq:r.mq??255,ref,start:r.start,cigar,sequence,quality,ordinal};
+        return {name:r.name,flag:r.flags,mapq:r.mq??255,ref,start:r.start,cigar,sequence,quality,ordinal,
+          evidence:{nh:r.getTag('NH')??null,hi:r.getTag('HI')??null,rg,
+            mateRef:refNames[r.next_refid]??null,mateStart:r.next_pos>=0?r.next_pos:null,
+            templateLength:r.template_length}};
       });
       identity??=Promise.all([
         bamBlob.size<=MAX_CASE_BYTES?bamBlob.arrayBuffer().then(sha256):null,
@@ -67,9 +73,10 @@ export async function openIndexedBam(bamBlob,indexBlob,signal){
       const [bamSHA256,indexSHA256]=await identity;
       signal?.throwIfAborted();
       const sliceSHA256=await sha256(new TextEncoder().encode(JSON.stringify(rows)));
-      return validateAlignmentCase({schema:'observability-alignment/1',kind:'alignment',format:'BAM',
+      const alignment={schema:'observability-alignment/1',kind:'alignment',format:'BAM',
         name:bamBlob.name,records:rows,source:{scope:'indexed locus',region:{ref,start,end},
-          bamBytes:bamBlob.size,bamSHA256,indexName:indexBlob.name,indexSHA256,sliceSHA256,refLengths}});
+          bamBytes:bamBlob.size,bamSHA256,indexName:indexBlob.name,indexSHA256,sliceSHA256,refLengths}};
+      return mapped.length?validateAlignmentCase(alignment):alignment;
     }
   };
 }

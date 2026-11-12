@@ -36,6 +36,51 @@ export function parseCigar(cigar,referenceStart,sequenceLength){
   return {ops,queryLength:query,referenceEnd:reference,hardStart,hardEnd};
 }
 
+const optionalInt=(value,min,max,field)=>{
+  if(value==null)return null;
+  if(!int(value,min,max))throw new Error('Invalid '+field+'.');
+  return value;
+};
+
+function normalizeRecordEvidence(evidence){
+  if(evidence===undefined)return undefined;
+  if(!evidence||typeof evidence!=='object'||Array.isArray(evidence))
+    throw new Error('Invalid alignment record evidence.');
+  const {nh,hi,rg,mateRef,mateStart,templateLength}=evidence;
+  for(const [field,value] of [['RG',rg],['mate reference',mateRef]]){
+    if(value!=null&&(typeof value!=='string'||!value.length||value.length>1000||/[\r\n\t]/.test(value)))
+      throw new Error('Invalid '+field+'.');
+  }
+  return {
+    nh:optionalInt(nh,0,2**31-1,'NH'),
+    hi:optionalInt(hi,0,2**31-1,'HI'),
+    rg:rg??null,
+    mateRef:mateRef??null,
+    mateStart:optionalInt(mateStart,0,2**31-1,'mate start'),
+    templateLength:optionalInt(templateLength,-(2**31),2**31-1,'TLEN')
+  };
+}
+
+function samRecordEvidence(fields){
+  const tags=new Map();
+  for(const field of fields.slice(11)){
+    const tag=field.slice(0,2);
+    if(!['NH','HI','RG'].includes(tag))continue;
+    const match=/^([A-Za-z][A-Za-z0-9]):([iZ]):(.*)$/.exec(field);
+    if(!match||tags.has(tag))throw new Error('Malformed or duplicate '+tag+' tag.');
+    const [, ,type,value]=match;
+    if(tag==='RG'&&type==='Z')tags.set(tag,value);
+    else if(tag!=='RG'&&type==='i'&&/^[+]?\d+$/.test(value))tags.set(tag,Number(value));
+    else throw new Error('Invalid type or value for '+tag+'.');
+  }
+  const [rnext,pnext,tlen]=fields.slice(6,9);
+  if(!rnext||!/^\d+$/.test(pnext)||!/^[+-]?\d+$/.test(tlen))
+    throw new Error('Invalid RNEXT, PNEXT or TLEN.');
+  const mateRef=rnext==='*'?null:rnext==='='?fields[2]:rnext;
+  return {nh:tags.get('NH'),hi:tags.get('HI'),rg:tags.get('RG'),mateRef,
+    mateStart:Number(pnext)===0?null:Number(pnext)-1,templateLength:Number(tlen)};
+}
+
 export function validateAlignment(r){
   if(typeof r?.name!=='string'||!r.name||r.name.length>254||
     !int(r.flag,0,65535)||!int(r.mapq,0,255)||typeof r.ref!=='string'||r.ref==='*'||!r.ref||
@@ -48,14 +93,15 @@ export function validateAlignment(r){
   if(quality!==null&&(sequence===null||typeof quality!=='string'||quality.length!==sequence.length||!/^[!-~]*$/.test(quality)))
     throw new Error('Malformed QUAL or QUAL length does not match SEQ.');
   const derived=parseCigar(r.cigar,r.start,sequence?.length??null);
+  const evidence=normalizeRecordEvidence(r.evidence);
   return {name:r.name,flag:r.flag,mapq:r.mapq,ref:r.ref,start:r.start,cigar:r.cigar,
     sequence:sequence??'*',quality:quality??'*',ordinal:int(r.ordinal,0,2**31-1)?r.ordinal:null,
-    reverse:Boolean(r.flag&16),...derived};
+    reverse:Boolean(r.flag&16),...(evidence?{evidence}:{}),...derived};
 }
 
 function rawRecord(r) {
-  const {name,flag,mapq,ref,start,cigar,sequence,quality,ordinal}=r;
-  return {name,flag,mapq,ref,start,cigar,sequence,quality,ordinal};
+  const {name,flag,mapq,ref,start,cigar,sequence,quality,ordinal,evidence}=r;
+  return {name,flag,mapq,ref,start,cigar,sequence,quality,ordinal,...(evidence?{evidence}:{})};
 }
 
 export function parseSam(name,text,source={}){
@@ -81,7 +127,7 @@ export function parseSam(name,text,source={}){
     try{
       if(records.length>=MAX_READS)throw new Error('Too many mapped records. Load a smaller locus slice.');
       const r=validateAlignment({name:f[0],flag:Number(f[1]),ref:f[2],start:Number(f[3])-1,mapq:Number(f[4]),
-        cigar:f[5],sequence:f[9].toUpperCase(),quality:f[10],ordinal:inputRecords-1});
+        cigar:f[5],sequence:f[9].toUpperCase(),quality:f[10],ordinal:inputRecords-1,evidence:samRecordEvidence(f)});
       if(Object.hasOwn(refLengths,r.ref)&&r.referenceEnd>refLengths[r.ref])throw new Error('Alignment extends past @SQ LN.');
       records.push(rawRecord(r));
     }catch(error){throw new Error(`SAM line ${lineNo}: ${error.message}`);}
