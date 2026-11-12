@@ -67,7 +67,15 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE_PATH || 'playwright-c
       fs.mkdirSync(process.env.SUPERGRAPH_QA_OUTPUT, { recursive: true });
       await page.screenshot({ path: path.join(process.env.SUPERGRAPH_QA_OUTPUT, 'supergraph-depth.png') });
     }
-    console.log('PASS: node and column drag, locked pan, depth, persistence, evidence inspector and palette');
+    const touchPage = await browser.newPage({
+      viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true,
+    });
+    await touchPage.goto(pathToFileURL(entry).href);
+    await touchPage.waitForFunction(() => window.CRISP_SUPERGRAPH?.ready);
+    await touchPage.locator('[data-node-id="C_strings"]').tap();
+    assert.equal(await touchPage.evaluate(() => window.CRISP_SUPERGRAPH.getSelected().id), 'C_strings');
+    assert.equal(await touchPage.evaluate(() => window.CRISP_SUPERGRAPH.getState().rightHidden), false);
+    console.log('PASS: desktop drag and depth, persistent layout, palette, evidence inspector and mobile node tap');
   } finally {
     await browser.close();
   }
