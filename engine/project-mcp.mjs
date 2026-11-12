@@ -1,9 +1,9 @@
 import {McpServer} from '@modelcontextprotocol/sdk/server/mcp.js';
 import {StdioServerTransport} from '@modelcontextprotocol/sdk/server/stdio.js';
 import {realpath,stat} from 'node:fs/promises';
-import {dirname,resolve} from 'node:path';
+import {dirname,basename} from 'node:path';
 import {z} from 'zod';
-import {readManifest,runProject,validateProject} from './project-engine.mjs';
+import {readManifest,runProject,validateProject,workspaceFile} from './project-engine.mjs';
 const [requested,...extra]=process.argv.slice(2);
 if(!requested||extra.length)throw new Error('Usage: node project-mcp.mjs authorized-workspace');
 const workspace=await realpath(requested);
@@ -14,8 +14,10 @@ server.registerTool('lab_project_run',{
   inputSchema:{manifest_path:z.string(),check_only:z.boolean().default(false)}
 },async args=>{
   try{
-    const input=await readManifest(workspace,args.manifest_path);
-    const result=args.check_only?{valid:true,project:validateProject(input)}:await runProject(input,dirname(resolve(workspace,args.manifest_path)));
+    const full=await workspaceFile(workspace,args.manifest_path);
+    const root=dirname(full);
+    const input=await readManifest(root,basename(full));
+    const result=args.check_only?{valid:true,project:validateProject(input)}:await runProject(input,root);
     return {content:[{type:'text',text:JSON.stringify(result)}],structuredContent:result};
   }catch(error){return {isError:true,content:[{type:'text',text:error.message}]};}
 });

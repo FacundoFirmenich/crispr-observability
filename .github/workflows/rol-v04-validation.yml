@@ -1,0 +1,41 @@
+name: Read Observability Lab v0.4 multi-input validation
+on:
+  push:
+    branches:
+      - lab-engine-multientrada-v04
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install engine dependencies on the runner
+        working-directory: engine
+        run: npm ci --no-fund --no-audit
+      - name: Verify frozen public inputs and run the project
+        run: |
+          mkdir -p "$RUNNER_TEMP/rol-v04"
+          unzip -q validation/rol-v03-inputs.zip -d "$RUNNER_TEMP/rol-v04"
+          (cd "$RUNNER_TEMP/rol-v04" && sha256sum --check INPUTS.sha256)
+          node engine/project-test.mjs "$RUNNER_TEMP/rol-v04"
+          node engine/project-cli.mjs schema > "$RUNNER_TEMP/rol-v04/observability-project.schema.json"
+      - name: Preserve the remote evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rol-v04-multientrada
+          path: |
+            ${{ runner.temp }}/rol-v04/PROJECT_V04_*.json
+            ${{ runner.temp }}/rol-v04/project.example.json
+            ${{ runner.temp }}/rol-v04/observability-project.schema.json
+            ${{ runner.temp }}/rol-v04/hg.fa
+            ${{ runner.temp }}/rol-v04/chm.fa
+          if-no-files-found: warn
+          retention-days: 30
