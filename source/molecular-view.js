@@ -40,6 +40,11 @@ export class MolecularView {
     this.marker=new T.Mesh(spheres,selectionMaterial);
     this.marker.visible=false;
     this.scene.add(this.marker);
+    this.measurementMaterial=new T.LineDashedMaterial({color:'#f5c5dd',dashSize:.8,gapSize:.45,depthTest:false});
+    this.measurement=new T.Line(new T.BufferGeometry(),this.measurementMaterial);
+    this.measurement.visible=false;
+    this.measurement.renderOrder=4;
+    this.scene.add(this.measurement);
     this.frame=1;
     this.ray=new T.Raycaster();
     let start;
@@ -82,6 +87,46 @@ export class MolecularView {
 
   draw() {this.renderer.render(this.scene,this.camera);}
 
+  cameraState() {
+    return {position:this.camera.position.toArray(),up:this.camera.up.toArray(),target:this.controls.target.toArray()};
+  }
+
+  restoreCamera(state) {
+    if(!state||!['position','up','target'].every(k=>Array.isArray(state[k])&&state[k].length===3&&
+        state[k].every(n=>Number.isFinite(n)&&Math.abs(n)<=1e7)))throw new Error('Invalid camera state.');
+    const position=new T.Vector3(...state.position),target=new T.Vector3(...state.target),up=new T.Vector3(...state.up);
+    if(position.distanceTo(target)<.1||up.length()<.1)throw new Error('Invalid camera basis.');
+    this.camera.position.copy(position);this.camera.up.copy(up.normalize());
+    this.controls.target.copy(target);
+    this.camera.lookAt(target);
+    this.controls.update();
+    this.draw();
+  }
+
+  renderPng(scale) {
+    if(![1,2,4].includes(scale)||!this.width||!this.height)throw new Error('Choose a render scale of 1×, 2× or 4×.');
+    const factor=Math.min(scale,4096/Math.max(this.width,this.height));
+    const w=Math.max(1,Math.round(this.width*factor)),h=Math.max(1,Math.round(this.height*factor));
+    const ratio=this.renderer.getPixelRatio(),aspect=this.camera.aspect;
+    let dataUrl;
+    try{
+      this.renderer.setPixelRatio(1);
+      this.renderer.setSize(w,h,false);
+      this.camera.aspect=w/h;
+      this.camera.updateProjectionMatrix();
+      this.draw();
+      dataUrl=this.canvas.toDataURL('image/png');
+      if(!dataUrl.startsWith('data:image/png;base64,'))throw new Error('The browser could not encode the PNG.');
+    }finally{
+      this.renderer.setPixelRatio(ratio);
+      this.renderer.setSize(this.width,this.height,false);
+      this.camera.aspect=aspect;
+      this.camera.updateProjectionMatrix();
+      this.draw();
+    }
+    return {dataUrl,width:w,height:h};
+  }
+
   fit() {
     const xScale=Math.max(1,1.25/this.camera.aspect);
     this.camera.up.set(0,1,0);
@@ -95,6 +140,16 @@ export class MolecularView {
   select(p,radius=1.9) {
     this.marker.visible=Boolean(p);
     if(p){this.marker.position.copy(p);this.marker.scale.setScalar(radius);}
+    this.draw();
+  }
+
+  setMeasurement(a,b){
+    this.measurement.visible=Boolean(a&&b);
+    if(a&&b){
+      this.measurement.geometry.dispose();
+      this.measurement.geometry=new T.BufferGeometry().setFromPoints([a,b]);
+      this.measurement.computeLineDistances();
+    }
     this.draw();
   }
 
@@ -134,6 +189,7 @@ export class MolecularView {
     }
     this.frame=frame;
     this.marker.visible=false;
+    this.measurement.visible=false;
     if(reset)this.fit();else this.draw();
   }
 }

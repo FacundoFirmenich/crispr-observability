@@ -1,4 +1,5 @@
 import {Vector3,Box3} from 'three';
+import {readMmcif} from './mmcif.js';
 
 const schema='observability-case/1';
 const maxAtoms=30000, maxBases=360;
@@ -91,9 +92,11 @@ export function readCase(filename,content){
     const sequence=lines.join('').replace(/\s+/g,'').toUpperCase();
     return validatePortable({schema,kind:'sequence',name:head.slice(1,200).trim()||name,sequence,format:'FASTA'});
   }
-  if(ext!=='pdb'&&ext!=='xyz')throw new Error('Supported inputs are PDB, XYZ, DNA FASTA and observability-case/1 JSON.');
+  const isCif=ext==='cif'||ext==='mmcif';
+  if(!isCif&&ext!=='pdb'&&ext!=='xyz')throw new Error('Supported inputs are PDB, mmCIF, XYZ, DNA FASTA and case JSON.');
   return validatePortable({schema,kind:'structure',name,units:'angstrom',
-    format:ext.toUpperCase(),...(ext==='pdb'?readPdb(content):readXyz(content))});
+    format:isCif?'mmCIF':ext.toUpperCase(),
+    ...(isCif?readMmcif(content):ext==='pdb'?readPdb(content):readXyz(content))});
 }
 
 export function importedGeometry(model,chain){

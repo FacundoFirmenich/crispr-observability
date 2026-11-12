@@ -1,6 +1,7 @@
 import {MolecularView, scaffold, atomic, ink} from './molecular-view.js';
 import {boundary,compare,validate,span,flip,revcomp,inSpan,complement} from './science.js';
 import {readCase, importedGeometry} from './import-case.js';
+import {setupGuide} from './guide.js';
 
 const $=id=>document.getElementById(id);
 const data=JSON.parse($('data').textContent);
@@ -18,6 +19,7 @@ const pane=(tag,content,cls)=>{
 const swatches={blue:'blue',violet:'violet',rose:'rose'};
 let mode='edge', view, currentResult, viewSpec, imported, picked, pair, requestedFit=true;
 let renderQueued=false, pinned=null;
+const guide=setupGuide($,selectPreset);
 
 function showError(error) {
   $('webgl-error').hidden=false;
@@ -47,12 +49,35 @@ function pick(row) {
     $('picked').textContent=`#${i} · ${row.label} · (${xyz}) Å${distance===null?' · select another atom to measure':` · distance ${distance.toFixed(3)} Å`}`;
     $(a?'distanceB':'distanceA').value=i;
     pair=a?{a:{label:picked.label,xyz:a},b:{label:row.label,xyz:row.xyz},distance}:null;
+    view?.setMeasurement(picked?.p,row.p);
     reportDistance();
     picked=a?null:row;
   }else{
     $('picked').textContent=`Index ${row.index} · ${row.index<number('readEnd')?'inside the read':'outside the read'}`;
   }
+  if(mode!=='import')$('track-position').value=mode==='atom'?114+row.index:row.index;
   view?.select(row.p,Math.max(row.r*1.35,.84));
+}
+
+function renderTrack(spec) {
+  $('coord-track').hidden=!spec;
+  if(!spec)return;
+  const {lo,hi,rows,title}=spec;
+  $('track-label').textContent=title;
+  $('track-domain').textContent=span([lo,hi]);
+  const slider=$('track-position');
+  slider.min=lo;slider.max=hi-1;slider.value=lo;
+  $('track-rows').replaceChildren(...rows.map(([label,[a,b],color])=>{
+    const line=pane('div','','track-row'),bar=pane('div','','track-bar');
+    const fill=pane('span','',color);
+    const left=Math.max(lo,a),right=Math.min(hi,b);
+    if(left<right){
+      fill.style.left=100*(left-lo)/(hi-lo)+'%';
+      fill.style.width=100*(right-left)/(hi-lo)+'%';bar.append(fill);
+    }
+    line.append(pane('span',label),bar);
+    return line;
+  }));
 }
 
 function reportDistance(){
@@ -63,8 +88,10 @@ function reportDistance(){
   $('input-error').textContent=ok?'':'Use a non-negative distance threshold.';
   const el=$('distance-result');
   currentResult.inputs.threshold=ok?threshold:null;
+  currentResult.inputs.atomIndices=pair?['distanceA','distanceB'].map(number):null;
   currentResult.result.measurement=pair&&ok?{...pair,withinThreshold:pair.distance<=threshold}:null;
   el.textContent=pair&&ok?`${pair.a.label} ↔ ${pair.b.label} · ${pair.distance.toFixed(3)} Å · ${pair.distance<=threshold?'within':'beyond'} ${threshold} Å.`:'Select two atoms to evaluate the threshold.';
+  guide.update(currentResult,mode);
 }
 
 function present(result,metrics,legend,explanation,scope,title) {
@@ -78,6 +105,7 @@ function present(result,metrics,legend,explanation,scope,title) {
   $('legend').replaceChildren(...legend.map(([color,label])=>pane('span',label,`swatch ${swatches[color]}`)));
   $('explanation').textContent=explanation;
   $('scope').textContent=scope;
+  guide.update(result,mode);
 }
 
 function button(label,action) {
@@ -115,7 +143,9 @@ function renderEdge() {
   const boundedHi=Math.min(hi,lo+120);
   const geometry=scaffold(lo,boundedHi,i=>inSpan(i,r.anchor)?(i<L?ink.blue:ink.rose):ink.muted);
   const cutInView=L>=lo&&L<=boundedHi;
-  viewSpec={...geometry,cut:$('cutVisible').checked&&cutInView?geometry.x(L):null};
+  viewSpec={...geometry,cut:$('cutVisible').checked&&cutInView?geometry.x(L):null,track:{
+    lo,hi:boundedHi,title:'Local read coordinates',rows:[
+      ['Read coverage',[0,L],'blue'],['Required anchor',r.anchor,'rose']]}};
   const lost=r.outside?(r.observed?` The first missing anchor base is at index ${Math.max(L,a)}.`:' All anchor bases fall outside the read.'):' The full interval is inside the read.';
   present({kind:'coordinate_containment',inputs:{start,end,shift,L},result:r},
     [['Shifted anchor',span(r.anchor),`from ${span(r.unshifted)}`],
@@ -187,7 +217,8 @@ function renderCompare() {
     const a=inSpan(i,r.a),b=inSpan(i,r.b);
     return a&&b?ink.pale:a?ink.blue:b?ink.rose:ink.muted;
   });
-  viewSpec={...geometry,cut:null};
+  viewSpec={...geometry,cut:null,track:{lo,hi,title:'Displayed record coordinates',
+    rows:[['Interval A',r.a,'blue'],['Interval B',r.b,'rose']]}};
   const selectors=[$('ruleA').value,$('ruleB').value];
   const labels=selectors.map(x=>x.includes(':')||x==='custom'?null:rec.rules[+x]?.native??null);
   const agreement=labels.includes(null)?'Native-event labels are available for selected archived rule outputs only.':
@@ -210,7 +241,8 @@ function renderAtoms() {
     throw new RangeError('Use a non-empty interval within [114, 156).');
   const representation=$('representation').value,strand=$('strands').value;
   const geometry=atomic(molecule,start-114,end-114,strand,representation);
-  viewSpec={...geometry,cut:null};
+  viewSpec={...geometry,cut:null,track:{lo:start,hi:end,title:'Read positions in the modeled crop',
+    rows:[['Modelled span',[start,end],'violet']]}};
   const seq=molecule.seq.slice(start-114,end-114);
   present({kind:'ideal_duplex_inspection',inputs:{start,end,strand,representation},
            result:{visibleAtoms:geometry.points.length,visibleBonds:geometry.links.length,seq}},
@@ -265,6 +297,7 @@ function redraw(fit=false) {
     try {
       ({edge:renderEdge,compare:renderCompare,atom:renderAtoms,import:renderImport})[mode]();
       view?.setModel(viewSpec.points,viewSpec.links,viewSpec.frame,viewSpec.cut,refit);
+      renderTrack(viewSpec.track);
     } catch(error) {
       $('input-error').textContent=error.message;
       $('export').disabled=true;
@@ -281,11 +314,108 @@ function switchMode(value) {
   redraw(true);
 }
 
+function selectPreset(name){
+  if(name==='edge'){
+    switchMode('edge');setBoundary([210,222,3,224]);return;
+  }
+  if(name==='same-label'||name==='span'){
+    updateCases(name==='same-label'?1:0);$('reverse').checked=false;switchMode('compare');return;
+  }
+  if(name==='atom'){
+    $('atomStart').value=114;$('atomEnd').value=156;$('strands').value='both';$('representation').value='bond';
+    switchMode('atom');return;
+  }
+  throw new Error('Unknown preset.');
+}
+
 function download(payload,name) {
   const url=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)+'\n'],{type:'application/json'}));
   const a=document.createElement('a');
   a.href=url;a.download=name;a.click();
   setTimeout(()=>URL.revokeObjectURL(url),1500);
+}
+
+function loadInput(input){
+  if(input.kind==='sequence'){
+    const half=Math.ceil(input.sequence.length/2);
+    const record={id:input.name,length:input.sequence.length,domain:[0,input.sequence.length],
+      segment:input.sequence,portable:input,rules:[{title:'Full sequence',span:[0,input.sequence.length],otherOptimal:[]},
+      {title:'First half',span:[0,half],otherOptimal:[]},{title:'Second half',span:[half,input.sequence.length],otherOptimal:[]}]};
+    cases.push(record);updateCases(cases.length-1);switchMode('compare');
+  }else{
+    imported=input;
+    const chains=[...new Set(input.atoms.map(a=>a.chain))];
+    $('importChain').replaceChildren(new Option('All chains','*'),...chains.map(c=>new Option(c,c)));
+    document.querySelector('[data-mode=import]').hidden=false;
+    switchMode('import');
+  }
+}
+
+function snapshot(){
+  if($('export').disabled||!currentResult)throw new Error('Resolve the input error before exporting.');
+  const portable=mode==='import'?imported:mode==='compare'?cases[+$('record').value].portable:null;
+  const source=portable?{format:portable.format,name:portable.name}:
+    {archivedCommit:audit.commit,auditSHA256:data.audit_sha256,cftrModelSHA256:molecule.sha256};
+  return {schema:'read-observability-result/1',...currentResult,source,
+    ...(portable?{portableInput:portable}:{}),...(mode==='edge'?{showBoundary:$('cutVisible').checked,pinned}:{}),
+    ...(view?{camera:view.cameraState()}:{}),appVersion:'0.2.0'};
+}
+
+const nextFrame=()=>new Promise(resolve=>requestAnimationFrame(resolve));
+
+async function replay(record){
+  if(record?.schema!=='read-observability-result/1'||!record.inputs)throw new Error('Unsupported replay schema.');
+  const i=record.inputs;
+  const expectedArchive=record.source?.auditSHA256;
+  if(expectedArchive&&expectedArchive!==data.audit_sha256)throw new Error('Replay refers to a different archived audit.');
+  if(record.source?.cftrModelSHA256&&record.source.cftrModelSHA256!==molecule.sha256)
+    throw new Error('Replay refers to a different atomic model.');
+  const input=record.portableInput?readCase('portable.json',JSON.stringify(record.portableInput)):null;
+  let measurement;
+  if(record.kind==='coordinate_containment'){
+    boundary(i.start,i.end,i.shift,i.L);
+    const p=record.pinned?.inputs;
+    pinned=p?{inputs:p,result:boundary(p.start,p.end,p.shift,p.L)}:null;
+    $('cutVisible').checked=record.showBoundary!==false;
+    switchMode('edge');setBoundary([i.start,i.end,i.shift,i.L]);
+  }else if(record.kind==='same_record_span_comparison'){
+    const recIndex=audit.cases.findIndex(r=>r.id===record.record);
+    if(input?.kind==='sequence')loadInput(input);
+    else if(recIndex>=0)updateCases(recIndex);
+    else throw new Error('Replay has no portable sequence input or known archive record.');
+    const rec=cases[+$('record').value];
+    compare(rec,i.A,i.B,i.reverse);
+    for(const [index,letter] of ['A','B'].entries()){
+      const selector=i.selectors?.[index]??'custom',candidate=i[letter];
+      const element=$('rule'+letter);
+      const [rule,alt]=selector.split(':').map(Number);
+      const saved=Number.isInteger(alt)?rec.rules[rule]?.otherOptimal[alt]:rec.rules[rule]?.span;
+      element.value=saved&&String(saved)===String(candidate)?selector:'custom';
+      $(letter.toLowerCase()+'0').value=candidate[0];$(letter.toLowerCase()+'1').value=candidate[1];
+    }
+    $('reverse').checked=Boolean(i.reverse);switchMode('compare');
+  }else if(record.kind==='ideal_duplex_inspection'){
+    $('atomStart').value=i.start;$('atomEnd').value=i.end;
+    $('strands').value=i.strand;$('representation').value=i.representation;
+    if(!$('strands').value||!$('representation').value)throw new Error('Unsupported atomic display options.');
+    switchMode('atom');
+  }else if(record.kind==='imported_structure_inspection'&&input?.kind==='structure'){
+    loadInput(input);
+    $('importChain').value=i.chain;
+    if(!$('importChain').value)throw new Error('Replay chain is unavailable in the input structure.');
+    $('distanceCap').value=i.threshold??4;
+    measurement=i.atomIndices;
+  }else throw new Error('Unsupported experiment kind or missing structure input.');
+  await nextFrame();
+  if($('export').disabled)throw new Error($('input-error').textContent);
+  if(measurement){
+    if(!Array.isArray(measurement)||measurement.length!==2||
+      !measurement.every(n=>Number.isInteger(n)&&n>=1&&n<=viewSpec.points.length)||measurement[0]===measurement[1])
+      throw new Error('Replay references invalid visible atom indices.');
+    pick(viewSpec.points[measurement[0]-1]);pick(viewSpec.points[measurement[1]-1]);
+  }
+  if(record.camera&&view)view.restoreCamera(record.camera);
+  return snapshot();
 }
 
 function updateCases(selected=0){
@@ -315,6 +445,11 @@ $('inner').addEventListener('click',()=>setBoundary([203,215,3,224]));
 $('detail').addEventListener('click',()=>{$('atomStart').value=129;$('atomEnd').value=141;redraw(true);});
 $('allAtoms').addEventListener('click',()=>{$('atomStart').value=114;$('atomEnd').value=156;redraw(true);});
 $('resetView').addEventListener('click',()=>view?.fit());
+$('track-position').addEventListener('input',()=>{
+  const index=number('track-position')-(mode==='atom'?114:0);
+  const row=viewSpec.points.find(point=>point.index===index);
+  if(row)pick(row);
+});
 $('distanceCap').addEventListener('input',reportDistance);
 $('measureAtoms').addEventListener('click',()=>{
   const [a,b]=['distanceA','distanceB'].map(id=>viewSpec.points[number(id)-1]);
@@ -322,39 +457,38 @@ $('measureAtoms').addEventListener('click',()=>{
   picked=null;pick(a);pick(b);
 });
 $('clearMeasurement').addEventListener('click',()=>{
-  pair=null;picked=null;$('picked').textContent='';view?.select(null);reportDistance();
+  pair=null;picked=null;$('picked').textContent='';view?.select(null);view?.setMeasurement();reportDistance();
 });
 $('runChecks').addEventListener('click',()=>{
   const tests=validate(audit,molecule);
   $('test-report').textContent=tests.map(({test,pass})=>`${pass?'PASS':'FAIL'} · ${test}`).join('\n');
 });
-$('export').addEventListener('click',()=>download({schema:'read-observability-result/1',
-  ...currentResult,source:currentResult.kind==='imported_structure_inspection'?{format:imported.format,name:imported.name}:
-    {archivedCommit:audit.commit,auditSHA256:data.audit_sha256,cftrModelSHA256:molecule.sha256},
-  ...(mode==='edge'&&pinned?{pinned}:{}),...(mode==='compare'&&cases[+$('record').value].portable?
-    {portableInput:cases[+$('record').value].portable}:{})},'read-observability-result.json'));
+$('export').addEventListener('click',()=>download(snapshot(),'read-observability-replay.json'));
+$('renderPng').disabled=!view;
+$('renderPng').addEventListener('click',()=>{
+  try{
+    snapshot();
+    const png=view.renderPng(number('renderScale'));
+    const a=document.createElement('a');
+    a.href=png.dataUrl;a.download=`read-observability-${mode}-${png.width}x${png.height}.png`;
+    a.click();
+  }catch(error){$('input-error').textContent=error.message;}
+});
 $('loadCase').addEventListener('change',async()=>{
   const file=$('loadCase').files[0];
   if(!file)return;
   $('import-status').textContent='';
   try {
     if(file.size>6_000_000)throw new RangeError('Choose a file smaller than 6 MB for this browser build.');
-    const input=readCase(file.name,await file.text());
-    if(input.kind==='sequence'){
-      const half=Math.ceil(input.sequence.length/2);
-      const record={id:input.name,length:input.sequence.length,domain:[0,input.sequence.length],
-        segment:input.sequence,portable:input,rules:[{title:'Full sequence',span:[0,input.sequence.length],otherOptimal:[]},
-        {title:'First half',span:[0,half],otherOptimal:[]},
-        {title:'Second half',span:[half,input.sequence.length],otherOptimal:[]}]};
-      cases.push(record);updateCases(cases.length-1);switchMode('compare');
+    const body=await file.text();
+    if(file.name.toLowerCase().endsWith('.json')&&JSON.parse(body).schema==='read-observability-result/1'){
+      await replay(JSON.parse(body));
+      $('import-status').textContent=`Recomputed ${file.name}`;
     }else{
-      imported=input;
-      const chains=[...new Set(input.atoms.map(a=>a.chain))];
-      $('importChain').replaceChildren(new Option('All chains','*'),...chains.map(c=>new Option(c,c)));
-      document.querySelector('[data-mode=import]').hidden=false;
-      switchMode('import');
+      const input=readCase(file.name,body);
+      loadInput(input);
+      $('import-status').textContent=`Loaded ${file.name} · ${input.format}`;
     }
-    $('import-status').textContent=`Loaded ${file.name} · ${input.format}`;
   }catch(error){$('import-status').textContent=error.message;}
   finally{$('loadCase').value='';}
 });
@@ -364,4 +498,14 @@ $('downloadCase').addEventListener('click',()=>{
   else $('import-status').textContent='Load a FASTA or a portable sequence case to export it.';
 });
 $('provenance').textContent=`Archived audit commit ${audit.commit}. Atomic coordinates are the CFTR ideal B-DNA model. Input hashes are recorded in every archived-case result export.`;
+window.readObservabilityLab=Object.freeze({
+  snapshot,replay,
+  async preset(name){selectPreset(name);await nextFrame();return snapshot();},
+  async open(name,text){loadInput(readCase(name,text));await nextFrame();return snapshot();},
+  renderPng(scale){
+    snapshot();
+    if(!view)throw new Error('WebGL 2 is required for PNG export.');
+    return view.renderPng(scale);
+  }
+});
 redraw(true);

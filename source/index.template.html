@@ -64,15 +64,31 @@ canvas:active{cursor:grabbing}
 details{border-top:1px solid var(--line);margin-top:13px;padding-top:10px;color:var(--muted);font-size:13px}summary{cursor:pointer;color:var(--ink)}
 pre,code,.seq{font-family:"IBM Plex Mono",Consolas,monospace}pre{margin:5px 0;white-space:pre-wrap;overflow-wrap:anywhere}a{color:var(--blue)}
 .scope-actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:8px}.scope-actions button{font-size:13px}
+.guide{margin:0 0 12px;background:linear-gradient(115deg,#283253,#282546);border:1px solid #6d6ca6;border-radius:13px;padding:15px 17px}
+.guide-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.guide-head p{font-size:13px;color:var(--muted);margin-top:4px}
+.guide-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(190px,.42fr);gap:16px;margin-top:12px}
+.guide-body ol{margin:7px 0 0;padding-left:19px;color:var(--muted);font-size:14px}.guide-body li+li{margin-top:4px}
+.guide-state{border-left:2px solid var(--violet);padding:3px 12px;color:var(--muted);font-size:13px}.guide-state p{margin-top:6px}
+.control-help{font-size:12px;margin-top:12px}.control-help p{margin-top:7px}
+.viewerbar .scope-actions{margin:0}.viewerbar select{width:auto;min-height:28px;font-size:12px;padding:3px 5px}
+.guide [hidden], [hidden]{display:none!important}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.track-wrap{border-top:1px solid var(--line);padding:10px 14px;background:#182441}
+.track-head{display:flex;justify-content:space-between;gap:10px;margin-bottom:4px;color:var(--muted);font-size:12px}
+.track-row{display:grid;grid-template-columns:108px minmax(0,1fr);align-items:center;gap:8px;font-size:12px;margin:3px 0}
+.track-bar{position:relative;border-radius:4px;background:#263352;height:8px;overflow:hidden}
+.track-bar span{position:absolute;top:0;height:100%;border-radius:4px;background:var(--swatch)}
+#track-position{min-height:21px;padding:0;margin:3px 0 0}
 footer{margin-top:15px}
 @media(max-width:820px){main{width:calc(100% - 28px);padding:23px 0 36px}header{grid-template-columns:1fr;margin-bottom:17px}.workbench{grid-template-columns:1fr}.viewer{order:-1}.stage{height:300px}.analysis{grid-template-columns:1fr}.analysis>div+div{border-left:0;border-top:1px solid var(--line);padding:10px 0 0}.viewhelp{font-size:11px}}
 @media(max-width:370px){.card{padding:9px}.viewerbar,.viewerfoot{padding:8px}.panel,.analysis{padding:12px}}
+@media(max-width:650px){.guide-head{align-items:start;flex-direction:column}.guide-body{grid-template-columns:1fr}.guide-state{padding-left:9px}}
 </style>
 <main>
 <header>
  <div><p class="brand">CFTR / FINITE-READ AUDIT</p><h1>Read Observability Lab</h1>
  <p>Rotate the duplex, change the observation rule and inspect exactly what the recorded bases can support.</p></div>
- <div class="import-box"><label for="loadCase">Open a local case</label><input type="file" id="loadCase" accept=".pdb,.xyz,.fa,.fasta,.fna,.json"><small>PDB, XYZ, DNA FASTA or case JSON</small><small id="import-status" role="status"></small></div>
+ <div class="import-box"><label for="loadCase">Open a case or replay</label><input type="file" id="loadCase" accept=".pdb,.cif,.mmcif,.xyz,.fa,.fasta,.fna,.json"><small>PDB, mmCIF, XYZ, DNA FASTA, case or replay JSON</small><small id="import-status" role="status"></small></div>
 </header>
 <nav aria-label="Experiments">
  <button data-mode="edge" aria-pressed="true">Read boundary</button>
@@ -80,6 +96,14 @@ footer{margin-top:15px}
  <button data-mode="atom" aria-pressed="false">Atomic model</button>
  <button data-mode="import" aria-pressed="false" hidden>Imported structure</button>
 </nav>
+<section class="guide" aria-label="How to use the lab">
+ <div class="guide-head"><div><h2 id="guide-title">How to use this lab</h2><p id="guide-summary">Follow the CFTR examples, then apply the same controls to your own case.</p></div>
+ <button id="guide-toggle" aria-expanded="false" aria-controls="guide-body">Open walkthrough</button></div>
+ <div class="guide-body" id="guide-body" hidden>
+  <div><h3 id="guide-step"></h3><ol id="guide-instructions"></ol><div class="scope-actions"><button id="guide-previous">Previous</button><button id="guide-preset">Load example</button><button id="guide-next">Next</button></div></div>
+  <div class="guide-state"><strong>What to look for</strong><p id="guide-expect"></p><p id="guide-result" aria-live="polite"></p></div>
+ </div>
+</section>
 <div class="workbench">
  <section class="panel" aria-label="Experiment controls">
   <div id="control-edge">
@@ -126,10 +150,16 @@ footer{margin-top:15px}
    <div class="actions"><button id="measureAtoms">Measure indexed atoms</button><button id="clearMeasurement">Clear selection</button></div>
   </div>
   <p id="input-error" class="notice" role="status"></p>
+  <details class="control-help"><summary>What these controls change</summary><div id="control-help"></div></details>
  </section>
  <section class="viewer" aria-label="Three-dimensional scene">
-  <div class="viewerbar"><strong id="scene-title">Finite-read geometry</strong><button id="resetView">Fit view</button></div>
+  <div class="viewerbar"><strong id="scene-title">Finite-read geometry</strong><div class="scope-actions"><button id="resetView">Fit view</button><label class="sr-only" for="renderScale">PNG export scale</label><select id="renderScale" aria-label="PNG export scale"><option value="2">2× detail</option><option value="4">4× detail</option></select><button id="renderPng">Export PNG</button></div></div>
   <div class="stage"><canvas id="scene" tabindex="0" aria-label="3D model. Drag to rotate, scroll to zoom, right-drag to pan, or use arrow keys."></canvas><div id="webgl-error" class="stage-error" hidden></div><p class="viewhelp">Drag to orbit · Scroll or pinch to zoom · Right-drag to pan · Click to inspect</p></div>
+  <div id="coord-track" class="track-wrap" hidden>
+   <div class="track-head"><strong id="track-label">Coordinates</strong><span id="track-domain"></span></div>
+   <div id="track-rows"></div>
+   <label class="sr-only" for="track-position">Inspect coordinate in the 3D scene</label><input id="track-position" type="range">
+  </div>
   <div class="viewerfoot"><div id="legend" class="legend"></div><span id="picked" aria-live="polite"></span></div>
  </section>
 </div>
@@ -142,6 +172,7 @@ footer{margin-top:15px}
  <details id="mechanism"><summary>Where prime editing enters the argument</summary>
  <p>In prime editing, a Cas9 nickase makes a single-strand nick, and a reverse transcriptase copies information from the RNA template. A resulting product can differ in length. The first experiment asks how that length change can move a downstream anchor relative to the observation boundary. The parameter is a coordinate displacement in the readout model. The lab does not predict editing, cut positions or efficiency. <a href="https://doi.org/10.1038/s41586-019-1711-4">Anzalone et al., Nature (2019)</a></p></details>
  <details><summary>Reproduce, check and export</summary>
+ <p>Replay JSON preserves inputs, camera and case data. Reopening it reruns the calculation locally. PNG exports the current scene, including any zoom, crop or strand filter.</p>
  <div class="scope-actions"><button id="runChecks">Run regression checks</button><button id="export">Download current experiment · JSON</button></div>
  <pre id="test-report" aria-live="polite"></pre>
  <p id="provenance"></p></details>
