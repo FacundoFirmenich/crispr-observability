@@ -39,6 +39,7 @@ node engine/project-cli.mjs run /workspace/study/project.json > /workspace/study
 ## Lectura del informe
 
 - `exactAnyReported` es `observed` si un único registro del mate seleccionado contiene todos los intervalos requeridos como operaciones CIGAR `N`. Cada alineamiento se comprueba por separado. Una deleción `D` conserva su identidad y queda fuera del recuento de uniones.
+- `exactUniqueReported` exige `NH=1` en un testigo reportado y conserva la abstención por `NH` no informativo. Esta salida permite contrastar estudios cuyo contrato histórico admite alineamientos no primarios.
 - `exactUniquePrimary` exige un registro testigo primario y `NH=1`. Devuelve `indeterminate-nh` ante un testigo primario con `NH` ausente o no informativo. Devuelve `indeterminate-primary` si hay primarios competidores para el mate en la ventana y al menos uno cumple la conjunción.
 - `not-observed-in-input` describe el archivo o la ventana inspeccionada. La disponibilidad de registros, los filtros previos del archivo, el denominador de biblioteca y el significado de `NH` en el alineador son parte del contrato de cada estudio.
 - El informe conserva flags, CIGAR, `NH`, `HI`, `RG`, referencia y posición del mate, `TLEN` y el MAPQ original. Para `MAPQ=255`, la calidad de mapeo evaluable se representa con `null`. El Phred de base se extrae por separado en cada flanco inmediatamente alineado de una unión y es `null` cuando falta. Cada coincidencia queda vinculada al registro que la contiene.

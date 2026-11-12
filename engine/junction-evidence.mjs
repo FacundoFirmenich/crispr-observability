@@ -60,6 +60,8 @@ export function junctionEvidence(input,job){
     localRecordCount:records.length,
     endpoints:{
       exactAnyReported:witnesses.length>0?'observed':'not-observed-in-input',
+      exactUniqueReported:witnesses.some(r=>r.alignmentTagsAndMate?.nh===1)?'observed':
+        witnesses.some(r=>!(r.alignmentTagsAndMate?.nh>=1))?'indeterminate-nh':'not-observed-in-input',
       exactUniquePrimary:primary.length&&competingPrimary?'indeterminate-primary':unique?'observed':unresolved?'indeterminate-nh':'not-observed-in-input'
     },
     records
