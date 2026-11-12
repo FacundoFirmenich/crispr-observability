@@ -160,8 +160,8 @@
       "sha256": "407d75c1b311e619157eff5cf1bbb8af43dafe484b4a86d0d2f2c3ff65df7ed4"
     },
     "code/check_supergraph_interaction.cjs": {
-      "bytes": 11601,
-      "sha256": "cd50990f0ab212ca970ab83e78640e92a2b5728343dc74a3be6f3db41c250846"
+      "bytes": 11617,
+      "sha256": "50a5d81b00cff6109d7fbb503dfee83dd60625398e9e30521fcf2fc91d09dc82"
     },
     "code/refresh_public_inventory.py": {
       "bytes": 8150,
@@ -5830,6 +5830,10 @@
     "docs/RELEASE_v0.10.0.md": {
       "bytes": 1879,
       "sha256": "2c6d6dc7944a4e7a1bfaf8462338ee42584864d07479ec9fae505e3692a2a979"
+    },
+    ".github/workflows/publish-native-release.yml": {
+      "bytes": 2591,
+      "sha256": "4f61b30b7b893021659bb66ce9cc197749a26e950c6876b89550acb5cb222e1b"
     }
   },
   "source_commit_role": "Historical source archive from the 0.7.1 integration",

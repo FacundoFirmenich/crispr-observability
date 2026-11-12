@@ -1,0 +1,65 @@
+name: Publish verified native release
+on:
+  workflow_dispatch:
+    inputs:
+      native_run_id:
+        description: Successful native build run for this exact source commit
+        required: true
+permissions:
+  contents: write
+  actions: read
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Verify build identity and outcome
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ inputs.native_run_id }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/actions/runs/$RUN_ID" > build-run.json
+          python - <<'PY'
+          import json,os
+          r=json.load(open('build-run.json'))
+          assert r['head_sha']==os.environ['GITHUB_SHA']
+          assert r['conclusion']=='success'
+          assert r['name']=='Native scientific reproduction'
+          PY
+      - uses: actions/download-artifact@v4
+        with:
+          run-id: ${{ inputs.native_run_id }}
+          github-token: ${{ github.token }}
+          pattern: crispr-reproduce-*
+          path: native-artifacts
+      - name: Assemble versioned public assets
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,shutil
+          out=Path('release-assets');out.mkdir()
+          archives=list(Path('native-artifacts').rglob('*.tar.gz'))+list(Path('native-artifacts').rglob('*.zip'))
+          assert len(archives)==4,archives
+          hashes=[]
+          for p in archives:
+              target=out/p.name
+              assert not target.exists()
+              shutil.copyfile(p,target)
+              hashes.append(hashlib.sha256(target.read_bytes()).hexdigest()+'  '+target.name)
+          (out/'SHA256SUMS.txt').write_text('\n'.join(sorted(hashes))+'\n')
+          receipts=[]
+          for p in Path('native-artifacts').rglob('REPRODUCTION.json'):
+              r=json.loads(p.read_bytes());assert r['status']=='PASS'
+              receipts.append({'artifact_path':str(p),'receipt':r})
+          assert len(receipts)>=8
+          (out/'NATIVE_REPLAY_RECEIPTS.json').write_text(json.dumps(receipts,indent=2)+'\n')
+          shutil.copyfile('build-run.json',out/'BUILD_RUN.json')
+          PY
+      - name: Publish source tag and native packages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v0.10.0 release-assets/* --target "$GITHUB_SHA" --title "v0.10.0 — Research environment" --notes-file docs/RELEASE_v0.10.0.md
