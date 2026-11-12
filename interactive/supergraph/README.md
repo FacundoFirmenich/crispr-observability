@@ -47,3 +47,16 @@ This tool supplies navigation and computational audit, not new biological
 replication, independent molecular truth or prospective transport validation.
 See `SOURCE_NOTICE.md` and `LICENSE` for the exact published interface reference
 and the GPL scope of this derived component.
+
+
+## Current integrated evidence and navigation
+
+The updated interface embeds `review_graph_model.json`. The original `supergraph_model.json` preserves the source fingerprint used by the historical PaperGraph. The external-validation column links the reserved MP37 and MP38 panels,
+the matched HiFi cross-check, the COL17A1 retained-span replay and the paired
+external library audit to their own limits and sources. The original CFTR
+model and its eight conjunctions remain the source of the numerical explorer.
+
+Drag nodes independently or move an entire column by its heading. Lock the
+layout to pan from any card. Use the depth arrows to bring one evidence layer
+forward or choose Overview to flatten the map. Depth and position express
+navigation choices. Inspect a card or link to see its role, evidence and scope.

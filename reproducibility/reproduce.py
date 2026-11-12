@@ -1,6 +1,8 @@
 """Offline reproduction of frozen public evidence. SPDX-License-Identifier: GPL-3.0-only."""
 
 import argparse
+from datetime import datetime, timezone
+import webbrowser
 import csv
 import hashlib
 import json
@@ -213,37 +215,104 @@ def reproduce_retained(root, output, mode):
         sys.path.pop(0)
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--mode", choices=("quick", "counts", "full"), default="quick")
-    parser.add_argument("--output", type=Path, default=Path("crispr-reproduction-output"),
-                        help="New directory for the evidence receipt and computation outputs")
-    args = parser.parse_args()
+def reviewer_menu(root, frozen):
+    """Show scoped tasks before touching evidence or creating an output."""
+    actions = {
+        "1": ("quick", "all", "Quick verification and replay"),
+        "2": ("full", "all", "Full offline reproduction"),
+        "3": ("full", "editing", "CFTR and COL17A1 only"),
+        "4": ("quick", "germline", "Germline decisions only"),
+        "5": ("counts", "editing", "Retained pair counts and CFTR contrasts"),
+    }
+    print("\nCRISPR Observability — offline reviewer workspace")
+    while True:
+        print("\n" + "\n".join(f"{key}. {item[2]}" for key, item in actions.items()))
+        print("6. Open interactive evidence graph\n0. Exit")
+        try:
+            choice = input("Choose a task: ").strip()
+        except (EOFError, KeyboardInterrupt):
+            return
+        if choice == "0":
+            return
+        if choice == "6":
+            base = Path(sys.executable).resolve().parent if frozen else root
+            graph = base / "interactive" / "supergraph" / "crispr_supergraph.html"
+            if graph.is_file():
+                print(graph)
+                webbrowser.open(graph.as_uri())
+            else:
+                print("The interactive graph is missing from this installation.")
+            continue
+        if choice not in actions:
+            print("Choose a listed number.")
+            continue
+        mode, section, _ = actions[choice]
+        stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+        out = Path.home() / "CRISPR-Observability" / f"{stamp}-{section}-{mode}"
+        try:
+            run_reproduction(root, out, mode, section, frozen)
+            print(f"Evidence and ledger: {out}")
+        except Exception as error:
+            print(f"Reproduction failed: {error}\nOutput location: {out}", file=sys.stderr)
+
+
+def run_reproduction(root, out, mode, section, frozen):
     require(__debug__, "Run with Python assertions enabled")
-    frozen = getattr(sys, "frozen", False)
-    root = (Path(sys.executable).resolve().parent / "evidence" if frozen
-            else Path(__file__).resolve().parents[1])
-    out = args.output.resolve()
     require(not out.is_relative_to(root / "extensions"), "Keep outputs outside the evidence directories")
-    validation = verify_validation(root / "extensions" / "generation_model" / "validation")
     out.mkdir(parents=True, exist_ok=False)
-    retained = reproduce_retained(root / "extensions" / "retained_span_audit", out,
-                                  "example" if args.mode == "quick" else args.mode)
     receipt = {
-        "status": "PASS",
-        "mode": args.mode,
+        "status": "RUNNING",
+        "mode": mode,
+        "section": section,
+        "started_at": datetime.now(timezone.utc).isoformat(),
         "environment": {
             "os": platform.system(), "architecture": platform.machine(),
-            "python": platform.python_version(), "frozen": bool(frozen)
+            "python": platform.python_version(), "frozen": bool(frozen),
         },
-        "retained_spans": retained,
-        "germline_validation": validation,
         "original_fragment_editing_accuracy": "NOT_ESTIMATED",
         "original_fastq_extraction": "NOT_EXECUTED",
     }
-    (out / "REPRODUCTION.json").write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
-    print(f"PASS {args.mode} | {validation['ont']['total_distinct_loci']} ONT loci | "
-          f"{validation['hifi_initial']['C']} HiFi concordances | {out / 'REPRODUCTION.json'}")
+    ledger = out / "REPRODUCTION.json"
+
+    def record():
+        temporary = ledger.with_suffix(".tmp")
+        temporary.write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
+        temporary.replace(ledger)
+
+    record()
+    try:
+        if section in ("all", "germline"):
+            receipt["germline_validation"] = verify_validation(root / "extensions" / "generation_model" / "validation")
+            record()
+        if section in ("all", "editing"):
+            receipt["retained_spans"] = reproduce_retained(
+                root / "extensions" / "retained_span_audit", out, "example" if mode == "quick" else mode
+            )
+        receipt["status"] = "PASS"
+    except BaseException as error:
+        receipt.update(status="FAIL", error=f"{type(error).__name__}: {error}")
+        raise
+    finally:
+        receipt["finished_at"] = datetime.now(timezone.utc).isoformat()
+        record()
+    print(f"PASS {section} / {mode} | {ledger}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--mode", choices=("quick", "counts", "full"), default="quick")
+    parser.add_argument("--section", choices=("all", "editing", "germline"), default="all")
+    parser.add_argument("--output", type=Path, default=Path("crispr-reproduction-output"),
+                        help="New directory for the evidence receipt and computation outputs")
+    parser.add_argument("--menu", action="store_true", help="Open the interactive reviewer menu")
+    args = parser.parse_args()
+    frozen = getattr(sys, "frozen", False)
+    root = (Path(sys.executable).resolve().parent / "evidence" if frozen
+            else Path(__file__).resolve().parents[1])
+    if args.menu or (frozen and len(sys.argv) == 1 and sys.stdin.isatty()):
+        reviewer_menu(root, frozen)
+    else:
+        run_reproduction(root, args.output.resolve(), args.mode, args.section, frozen)
 
 
 if __name__ == "__main__":

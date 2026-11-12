@@ -18,15 +18,20 @@ def main():
     component = Path(__file__).resolve().parents[1]
     p.add_argument("--model", type=Path, default=component.parent / "evidence_model.json")
     p.add_argument("--repository", type=Path, default=component.parent.parent)
-    p.add_argument("--graph", type=Path, default=component / "supergraph_model.json")
+    p.add_argument("--graph", type=Path, default=component / "review_graph_model.json")
     p.add_argument("--output", type=Path, default=component / "MODEL_CONVERSION_CHECK.json")
     a = p.parse_args()
-    original = json.loads(a.model.read_text())
-    graph = json.loads(a.graph.read_text())
+    original = json.loads(a.model.read_bytes())
+    graph = json.loads(a.graph.read_bytes())
     by_id = {n["id"]: n for n in graph["nodes"]}
     assert graph["summary"]["evidence_model_sha256"] == sha(a.model)
     assert graph["sources"] == original["sources"]
     assert graph["hyperedges"] == original["graph"]["hyperedges"]
+    assert {n["id"] for n in graph["nodes"] if n["layer"]=="External validation"} == {
+        "V_MP37", "V_MP38", "V_HIFI", "V_PAIRED", "V_CLONE"
+    }
+    for n in graph["nodes"]:
+        assert all((a.repository / path).is_file() for path in n["artifacts"]), n["id"]
     assert graph["calculation_contract"] == original["calculationContract"]
     for old in original["graph"]["nodes"]:
         current = by_id[old["id"]]

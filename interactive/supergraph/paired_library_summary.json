@@ -1,0 +1,44 @@
+{
+  "public_source": "PRJNA949853",
+  "unit": "Deposited amplified-insert read pairs",
+  "runs": {
+    "SRR24001139": {
+      "library": "PE2_Set2",
+      "pairs": 383421,
+      "observed_maxima": [
+        250,
+        250
+      ],
+      "mate_length_strata": {
+        "MM": 263964,
+        "MS": 54576,
+        "SM": 55952,
+        "SS": 8929
+      },
+      "compressed_sha256": {
+        "SRR24001139_1.fastq.gz": "fe9e8edd90febadfced290aca69f9983ce9e6427f82a7c71a22f0d1592d62363",
+        "SRR24001139_2.fastq.gz": "b3944f5dfd3ec1de7b3000c0949b7f1781d5ae1887855987899afb35a2efd034"
+      }
+    },
+    "SRR24001140": {
+      "library": "PE2_Set1",
+      "pairs": 387252,
+      "observed_maxima": [
+        250,
+        250
+      ],
+      "mate_length_strata": {
+        "MM": 230043,
+        "MS": 75693,
+        "SM": 73347,
+        "SS": 8169
+      },
+      "compressed_sha256": {
+        "SRR24001140_1.fastq.gz": "b636af375c12ce141867f979b10ea767484d90db99857d8e1459874f230536a2",
+        "SRR24001140_2.fastq.gz": "a76d9d095ac77f62c2b78294a7d2ebafba8e47ef37f9d0f05743af74d01151c7"
+      }
+    }
+  },
+  "target_event_overlap": "NOT_EVALUATED",
+  "original_fragment_editing_accuracy": "NOT_ESTIMATED"
+}

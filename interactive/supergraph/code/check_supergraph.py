@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def sha(data):return hashlib.sha256(data).hexdigest()
 def main():
-    model_bytes=(ROOT/'supergraph_model.json').read_bytes();model=json.loads(model_bytes)
+    model_bytes=(ROOT/'review_graph_model.json').read_bytes();model=json.loads(model_bytes)
     html_bytes=(ROOT/'crispr_supergraph.html').read_bytes();html=html_bytes.decode()
     receipt=json.loads((ROOT/'BUILD_RECEIPT.json').read_text())
     match=re.search(r'<script type="application/json" id="supergraph-data">(.*?)</script>',html,re.S)

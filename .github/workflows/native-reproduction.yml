@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'reproducibility/**'
+      - 'interactive/supergraph/**'
       - '.github/workflows/native-reproduction.yml'
       - '.gitattributes'
       - 'code/check_public_distribution.py'

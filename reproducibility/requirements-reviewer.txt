@@ -1,0 +1,3 @@
+-r ../extensions/retained_span_audit/requirements.txt
+llvmlite==0.47.0
+streamlit==1.67.0

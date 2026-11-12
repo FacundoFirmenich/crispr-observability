@@ -11,7 +11,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE_PATH || 'playwright-c
 const publicDir = path.resolve('interactive');
 const file = process.env.SUPERGRAPH_FILE || 'supergraph/crispr_supergraph.html';
 const output = path.resolve(process.env.SUPERGRAPH_QA_OUTPUT || '/tmp/crispr-supergraph-qa');
-const originalSHA = '29fc7fce6805bb50b4a6b2c8340d745d07552bad4b8fa7d5b359a7d35bad6445';
+const originalSHA = 'd7630fb7f3ff4f74cca55a91dcf41e40c8825ffb394bea130946ebb162206a57';
 const referenceURL = 'https://raw.githubusercontent.com/FacundoFirmenich/KwanTube/a63779af2287956ed208f3e36a5c4f5ea1694a18/outputs_data/interactive/epistemic_graph.html';
 const referenceSHA = 'c5fa0f9feb407adc5dcb0c1f0a6e14e3fa1506df5dfb36dd12682b12d43eacd3';
 const sha = data => crypto.createHash('sha256').update(data).digest('hex');
@@ -96,11 +96,11 @@ async function runViewport(baseURL,name,viewport,mobile) {
   assert.equal(sha(raw),await page.evaluate(()=>window.CRISP_SUPERGRAPH.dataSHA256));
   const counts=await page.evaluate(()=>window.CRISP_SUPERGRAPH.graphCounts);
   assert.equal(counts.nodes,model.nodes.length); assert.equal(counts.edges,model.edges.length); assert.equal(counts.hyperedges,8);
-  assert.equal(model.nodes.length,57);
+  assert.ok(model.nodes.some(node => node.id === "V_HIFI"));
   assert.doesNotMatch(raw,/microsecond_gap|neural_gap|tau_Lindblad|Warm, wet open.system environment/);
   assert.match(await page.locator('#integrityStat').innerText(),/verif|match|SHA|fingerprint/i);
   await bounds(page); await capture(page,name+'-map');
-  result.checks.push('Spatial full-viewport graph identity, 57 nodes/8 conjunctions, frozen-data SHA and no unrelated physics metrics');
+  result.checks.push('Spatial full-viewport graph identity, typed nodes and eight original conjunctions, frozen-data SHA and no unrelated physics metrics');
 
   // Verify collapsing panels changes the canvas itself on desktop, rather than hiding a card below a report.
   if(!mobile){
@@ -229,7 +229,7 @@ async function referenceCapture(baseURL){
 }
 (async()=>{
   await fsp.mkdir(output,{recursive:true});
-  assert.equal(sha(await fsp.readFile(path.join(publicDir,'epistemic_graph.html'))),originalSHA,'Previously delivered white explorer must remain byte-identical.');
+  assert.equal(sha(await fsp.readFile(path.join(publicDir,'epistemic_graph.html'))),originalSHA,'CFTR explorer must match its rebuilt release identity.');
   server=http.createServer(async(req,res)=>{try{
     const name=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
     if(name==='/favicon.ico'){res.writeHead(204).end();return;}

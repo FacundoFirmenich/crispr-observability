@@ -12,7 +12,7 @@ import json
 
 LAYERS = [
     "Premises", "Observation mechanisms", "Quantitative constraints",
-    "Evidence artifacts", "Decision tests", "Scope boundaries",
+    "Evidence artifacts", "External validation", "Decision tests", "Scope boundaries",
 ]
 LENSES = [
     {"id": "geometry", "label": "Product and read geometry"},
@@ -22,6 +22,7 @@ LENSES = [
     {"id": "domain", "label": "Reference and target domains"},
     {"id": "reproducibility", "label": "Source identities and replay"},
     {"id": "scope", "label": "Scope and future tests"},
+    {"id": "transport", "label": "External panels and local outcomes"},
 ]
 NODE_LENSES = {
     "E_geometry": ["geometry"], "E_anchor": ["geometry", "identification"],
@@ -65,9 +66,9 @@ def main():
     component = Path(__file__).resolve().parents[1]
     parser.add_argument("--model", type=Path, default=component.parent / "evidence_model.json")
     parser.add_argument("--repository", type=Path, default=component.parent.parent)
-    parser.add_argument("--output", type=Path, default=component / "supergraph_model.json")
+    parser.add_argument("--output", type=Path, default=component / "review_graph_model.json")
     args = parser.parse_args()
-    model = json.loads(args.model.read_text())
+    model = json.loads(args.model.read_bytes())
     model_sha = digest(args.model)
     sources = {row["id"]: row for row in model["sources"]}
     for row in sources.values():
@@ -207,6 +208,57 @@ def main():
         edge(ident, claim["id"], "would_require_revision", "revision condition", "open", lenses,
              "If this stated condition is established, the linked local conclusion must be revised; this is not a reported experimental outcome.")
 
+    validation_root = "extensions/generation_model/validation/results/"
+    def read_result(name):
+        return json.loads((args.repository / (validation_root + name)).read_bytes())
+
+    def current_node(ident, title, summary, scope, artifacts, metrics, status="supported"):
+        nodes.append({
+            "id": ident, "label": title, "type": "evidence", "layer": "External validation",
+            "status": status, "status_original": "public_source_bound_review_checkpoint",
+            "summary": summary, "details": scope, "scope": scope, "artifacts": artifacts,
+            "lenses": ["transport", "reproducibility", "scope"], "metrics": metrics,
+            "optional_detail": False,
+        })
+
+    for case in ("MP37", "MP38"):
+        filename = case + "_RESULT.json"
+        result = read_result(filename)
+        current_node("V_" + case, case + " held-out transfer",
+                     "Transfer of the scoring rules to a reserved germline panel with local outcomes.",
+                     "The selected loci and source conditions define the transfer test. The source retains unresolved calls and stratifies by event size and region.",
+                     [validation_root + filename, validation_root + case + "_LOCAL_OBSERVATIONS.csv"],
+                     {"Planned loci": result["planned_loci"],
+                      "Zero-threshold consensus at 300 bases": result["arms"]["consensus0_300"]["outcomes"],
+                      "Median rule at 300 bases": result["arms"]["median0_300"]["outcomes"]})
+        edge("V_" + case, "B_transport", "tests", "Reserved external transport", "supported",
+             ["transport", "scope"], "A reserved germline panel tests transfer at the locus level under its own domain.")
+
+    hifi = read_result("HOMOPOLYMER_HIFI_CROSSCHECK.json")["donors"]
+    current_node("V_HIFI", "HiFi and Nanopore at matched loci",
+                 "A genotype benchmark distinguishes a stable readout from an accurate call across acquisitions.",
+                 "This comparison concerns germline genotype at matched loci. The donor and locus remain distinct evidence units.",
+                 [validation_root + "HOMOPOLYMER_HIFI_CROSSCHECK.json"],
+                 {donor: value["summary"] for donor, value in hifi.items()})
+    edge("V_HIFI", "B_accuracy", "limits", "Different accuracy estimand", "conditional",
+         ["transport", "scope"], "Germline agreement does not authenticate editing in the original fragment.")
+
+    paired_path = "interactive/supergraph/paired_library_summary.json"
+    paired = json.loads((args.repository / paired_path).read_bytes())
+    current_node("V_PAIRED", "Paired external library audit",
+                 "All deposited mate identifiers link. Joint read lengths differ by library.",
+                 "The unit is the amplified insert. Event coverage and original-molecule editing accuracy remain unestimated.",
+                 [paired_path], paired["runs"])
+    edge("V_PAIRED", "B_accuracy", "limits", "Insert linkage boundary", "conditional",
+         ["transport", "scope"], "Mate linkage locates the same library insert and leaves original-molecule identity open.")
+
+    current_node("V_CLONE", "COL17A1 retained-span replay",
+                 "Clone3, boundary sensitivity and complete retained-span counts link to the public replay.",
+                 "Clone-level and paired-fragment evidence answer different questions from independent truth on HEK3 or CFTR.",
+                 ["extensions/retained_span_audit/README.md", "reproducibility/EVIDENCE.md"], {})
+    edge("V_CLONE", "B_accuracy", "limits", "Clone and fragment scope", "conditional",
+         ["transport", "scope"], "The COL17A1 retained spans support local correspondence, under the named admission rules.")
+
     witness = [row for row in model["observations"] if row["operator"] == "triple_observed_coding_witness"]
     witness_contrasts = [row for row in model["contrasts"] if row["operator"] == "triple_observed_coding_witness"]
     for row in witness:
@@ -217,10 +269,11 @@ def main():
     ids = {node["id"] for node in nodes}
     assert all(row["source"] in ids and row["target"] in ids for row in edges)
     assert len({row["id"] for row in edges}) == len(edges)
-    assert len(nodes) == 57
+
     graph = {
-        "schema_version": "2.0-crispr-reference-map",
+        "schema_version": "2.1-crispr-reference-map",
         "generated_date": model["generatedDate"],
+        "public_evidence_revision": "2026-11-12",
         "title": "CRISPR observability: interactive scientific map",
         "subtitle": "Premises, mechanisms, conditional constraints, source artifacts, revision tests and scope",
         "summary": {
@@ -252,7 +305,7 @@ def main():
         "sources": model["sources"],
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(graph, indent=2, ensure_ascii=False) + "\n")
+    args.output.write_text(json.dumps(graph, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
     print(json.dumps({"status": "PASS", "model_sha256": model_sha,
                       "graph_sha256": digest(args.output), "nodes": len(nodes),
                       "edges": len(edges), "source_identities_verified": len(sources),

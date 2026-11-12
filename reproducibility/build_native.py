@@ -100,6 +100,18 @@ def main():
                             ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
         for name in ("README.md", "EVIDENCE.md"):
             shutil.copy2(PROJECT / name, bundle / name)
+        for name in ("START_HERE.bat", "START_HERE.command", "START_HERE.sh"):
+            if (operating_system == "windows") != name.endswith(".bat"):
+                continue
+            if name.endswith(".command") != (operating_system == "darwin"):
+                continue
+            launcher = bundle / name
+            shutil.copy2(PROJECT / name, launcher)
+            if operating_system != "windows":
+                launcher.chmod(0o755)
+        graph = Path("interactive/supergraph/crispr_supergraph.html")
+        (bundle / graph).parent.mkdir(parents=True)
+        shutil.copy2(ROOT / graph, bundle / graph)
         source = bundle / "source"
         source.mkdir()
         for name in ("reproduce.py", "build_native.py", "requirements-native.txt", "requirements-macos-intel.txt"):
@@ -124,6 +136,16 @@ def main():
         env.pop("PYTHONPATH", None)
         env.pop("PYTHONHOME", None)
         env["PYTHONNOUSERSITE"] = "1"
+        launchers = {"windows": "START_HERE.bat", "darwin": "START_HERE.command", "linux": "START_HERE.sh"}
+        launcher = executable.parent / launchers[operating_system]
+        command = ["cmd.exe", "/d", "/c", str(launcher)] if operating_system == "windows" else [str(launcher)]
+        launch = subprocess.run(command, input="0\n", text=True, capture_output=True,
+                                cwd=test_root, env=env, check=True, timeout=30)
+        if "Full offline reproduction" not in launch.stdout:
+            raise ValueError("Packaged launcher did not show the reviewer menu")
+        if not (executable.parent / graph).is_file():
+            raise ValueError("The offline evidence graph is missing")
+
         for mode in dict.fromkeys(("quick", args.test_mode)):
             report_path = output / ("replay-" + mode)
             subprocess.run([str(executable), "--mode", mode, "--output", str(report_path)],

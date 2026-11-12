@@ -1,5 +1,16 @@
 # CRISPR observability: computational companion
 
+## Start a review
+
+Open the [current integrated evidence graph](interactive/supergraph/crispr_supergraph.html)
+as a downloaded HTML file. Drag an evidence card or a column heading to rearrange
+its position. Lock the layout to pan the whole map. The depth controls cycle
+through evidence layers and the inspector explains incoming and outgoing links.
+
+See the [reviewer workspace](reproducibility/README.md) for the native launch
+menus, selected offline replay, execution receipts, Streamlit dashboard,
+Docker container and interactive notebook.
+
 ## Portable reproduction
 
 The [repository guide](docs/REPOSITORY_GUIDE.md) provides an English entry point
@@ -130,7 +141,7 @@ a new scientific standard or measured educational benefit.
 
 The dark supergraph is a separate tool. Its corresponding editable source,
 model builder, provenance and GPLv3 notice are in
-[interactive/supergraph/README.md](interactive/supergraph/README.md). It does not
+[interactive/supergraph/README.md](interactive/supergraph/README.md). This is the current integrated evidence graph, including the reserved germline panels, the HiFi cross-check, COL17A1 and the external paired-library audit. The white explorer remains a focused view of the original CFTR counts. It does not
 replace or restyle the white explorer. The original two tools retain their own source models and licenses.
 
 The preserved white explorer contains 21 nodes and eight typed AND hyperedges. Its source model

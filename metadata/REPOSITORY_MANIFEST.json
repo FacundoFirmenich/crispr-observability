@@ -36,8 +36,8 @@
       "sha256": "ce60ec40488f9622291f2e58baf1b72f35525453d561cade913d1033ba5476f9"
     },
     ".github/workflows/native-reproduction.yml": {
-      "bytes": 2103,
-      "sha256": "45934454d6d9ebc8b736d521a5aff3af319d3471e2aaeaf1df9ee0ee8fa3751b"
+      "bytes": 2139,
+      "sha256": "baf4f939cb8e810216635472774bb960c6ef740af845f1c5e94ac9373acc37cb"
     },
     ".github/workflows/papergraph-checks.yml": {
       "bytes": 1840,
@@ -55,13 +55,17 @@
       "bytes": 868,
       "sha256": "bd386b1e5c6982a1e2fc3fc93b93f5468fd75c1b23847750b9ba9a8fda7a52f2"
     },
+    ".github/workflows/reviewer-dashboard.yml": {
+      "bytes": 1280,
+      "sha256": "ef6f0b09aff2a82f5b74e0b765e8780411601b1ffb5bc98c547b94789de11fb6"
+    },
     ".github/workflows/scientific-context-checks.yml": {
       "bytes": 807,
       "sha256": "652f22d5225235590f7e8dbaabc3db6578c2856eb5db76018d0a8b7dbc2cc569"
     },
     ".github/workflows/supergraph-checks.yml": {
-      "bytes": 1369,
-      "sha256": "239f3aaf3747583c2ae1859fdf734ffb45a4a16cc9a23e09b30211c91627eae6"
+      "bytes": 1476,
+      "sha256": "8f6d661154c1a2a31905e6dbfd20ba2602a012f41a70baefea9488b947efdd3a"
     },
     ".gitignore": {
       "bytes": 604,
@@ -91,6 +95,14 @@
       "bytes": 744,
       "sha256": "088655d09a42021b2f981bbabdff62dd9b1ff2dc4cdb4df30968c312a269b6db"
     },
+    "Dockerfile.reviewer": {
+      "bytes": 1076,
+      "sha256": "52984c04237587846fa00409bb11e707b363bbdc95da4fceb3f5c3987d9278e3"
+    },
+    "Dockerfile.reviewer.dockerignore": {
+      "bytes": 471,
+      "sha256": "2d9ddd675fbb3ec5a1aa86e3bdb6ba2db14ddf8f1837cbcc37ec09c722eadce9"
+    },
     "LEEME_ES.md": {
       "bytes": 4591,
       "sha256": "05d53a6fdb4ad36609e1201fc70bfc90c33657b0e2ef80b6fc5e3c57b7a09790"
@@ -108,8 +120,8 @@
       "sha256": "ecfafd9e83369debddf2adc591c57446a0f40896a8b50fc4761e28792763a85b"
     },
     "README.md": {
-      "bytes": 12578,
-      "sha256": "c4b782707eec844ff68ae26cbfb7b27729a90f5a05881a404fc74be3c9be5622"
+      "bytes": 13351,
+      "sha256": "8a5c77a1aa7cef64bd22e0d1155a71adc94d977d8956ff4576aaf803e795d624"
     },
     "RELEASE_0_7_0.md": {
       "bytes": 724,
@@ -136,16 +148,20 @@
       "sha256": "420b0453c3235d6c8ae65cf21ceeced7a18f7d4f641c86a1e134ed0623e3b289"
     },
     "code/check_public_distribution.py": {
-      "bytes": 7055,
-      "sha256": "8dbcc9ca502e56100ef5876b3dfc25e97a5f9115f44711fccd30f2601ea64cf2"
+      "bytes": 7165,
+      "sha256": "765cb5e1c19984e7830a67d2f58bf6457172797fc69d94e539fc47a21c7ce94a"
     },
     "code/check_selected_p1_tables.py": {
       "bytes": 16873,
       "sha256": "0d3037853a11df57644f8ef929fa508b11a6e578c592395370261f1f03c2a301"
     },
     "code/check_supergraph_browser.cjs": {
-      "bytes": 19757,
-      "sha256": "a356ac05c4555318344a6fba71909be3edaf4c968f401c84f79251df0f28b137"
+      "bytes": 19790,
+      "sha256": "b5c1dee82ecb0c0fc6180d77dbe98bc4c29abaf57d17d5c44cd01dc9eb075846"
+    },
+    "code/check_supergraph_interaction.cjs": {
+      "bytes": 3570,
+      "sha256": "7aaf1a0ab7dffd71b268c354975b9fbb27bf1f06f02eaa5db92723500c298f20"
     },
     "code/refresh_public_inventory.py": {
       "bytes": 8150,
@@ -4913,7 +4929,7 @@
     },
     "interactive/BUILD_RECEIPT.json": {
       "bytes": 627,
-      "sha256": "6dedefd2a3b4096a7b71612ec2b8a6f12fbd0aaa8e77c125cb0f3df3d95c97e2"
+      "sha256": "61ffa1a35f5c055fac93e589af648885fb2e83ee6d19ed4187712ada5945f91b"
     },
     "interactive/CONTRACT_BOUNDARY_CHECKS.json": {
       "bytes": 529,
@@ -4932,8 +4948,8 @@
       "sha256": "79b219a006af1d5a8f6f56577afe10823810f7556022f1940fdcd908669d52ef"
     },
     "interactive/code/build_explorer.py": {
-      "bytes": 2080,
-      "sha256": "052219168bd57e4bc92d085591e1790fdafe3b2ae399f3008da258ebc85bc637"
+      "bytes": 2129,
+      "sha256": "40a5ab47f1cc7810657d7299af7e7c5a7ba56435e3ce7a19c3af2995f36ac60a"
     },
     "interactive/code/build_model.py": {
       "bytes": 24009,
@@ -4948,16 +4964,16 @@
       "sha256": "2869dcee36bae6b4d8d07adac59298d633fcdab375ea10e67b5e131d9b92b6a0"
     },
     "interactive/epistemic_graph.html": {
-      "bytes": 667877,
-      "sha256": "29fc7fce6805bb50b4a6b2c8340d745d07552bad4b8fa7d5b359a7d35bad6445"
+      "bytes": 668087,
+      "sha256": "d7630fb7f3ff4f74cca55a91dcf41e40c8825ffb394bea130946ebb162206a57"
     },
     "interactive/evidence_model.json": {
       "bytes": 612492,
       "sha256": "f5a9179899bace3f773d45363977152433ca29542fb0b56ba98b63006a4305b4"
     },
     "interactive/explorer.template.html": {
-      "bytes": 55354,
-      "sha256": "d010f8f689b9568ebc36814f3956b9c0cf15bea2d0a1a33094a5ad02651241c8"
+      "bytes": 55564,
+      "sha256": "73da116ec3a52c9f1787bb3685bf1dec2ae209625a618dbe23cf0c58bbe31ecc"
     },
     "interactive/papergraph/ARTIFACT_CHECK.json": {
       "bytes": 577,
@@ -5105,7 +5121,7 @@
     },
     "interactive/supergraph/BUILD_RECEIPT.json": {
       "bytes": 760,
-      "sha256": "3713677063b1e5238f34f0839b771e24e104b9f0833be8748376b7ba24456538"
+      "sha256": "f5dba05bb0677ad92088abc2c45e38894f940286515ee132e9074d3fd1f3b5a7"
     },
     "interactive/supergraph/DATA_MODEL.md": {
       "bytes": 2453,
@@ -5117,39 +5133,47 @@
     },
     "interactive/supergraph/MODEL_CONVERSION_CHECK.json": {
       "bytes": 684,
-      "sha256": "a0e43a6fdb6fce50333256858f6fdc9a45b4a2a3eb9c1b67aefb26ec9a80e38a"
+      "sha256": "c716cbdee31c936ff770c34f87e3d80ad1b6a971ff0de7d4a0e9759128d088e6"
     },
     "interactive/supergraph/README.md": {
-      "bytes": 2719,
-      "sha256": "94c9fb492b2bbc038456021dc08609b0af36ec7ece8e49948488e448ace07e94"
+      "bytes": 3539,
+      "sha256": "12dde43cba9fa6e9bea07ab79287bfe3d3c1b0bf1c387fdb235f0576da864838"
     },
     "interactive/supergraph/SOURCE_NOTICE.md": {
       "bytes": 2215,
       "sha256": "466ffea1b586a5d4331849e775b0a699ef24dc63f4682447f57ed9c3e6667a5a"
     },
     "interactive/supergraph/code/build_reference_graph_model.py": {
-      "bytes": 14835,
-      "sha256": "13494832f758b49a1b37d0e501c0773d07f738e0d2229bd4af6cf2125b893aab"
+      "bytes": 18757,
+      "sha256": "d7b41c494a5a154093f620b46c0bd46ffd180a7f79a1ef429035f1e9f68911d7"
     },
     "interactive/supergraph/code/build_supergraph.py": {
-      "bytes": 2157,
-      "sha256": "f853b2e8e856508314bb9e06b92753ec40cf562a4e71c9695d77ec8f511db115"
+      "bytes": 2207,
+      "sha256": "f23a1560b47c9400a5a77aec425bc58c72125273e59b4243611aede4caf150dc"
     },
     "interactive/supergraph/code/check_supergraph.py": {
-      "bytes": 1915,
-      "sha256": "64507dcfeb773a08c43bcf6449f17e2879527ebe92e8f3c297d718e960ed51cd"
+      "bytes": 1917,
+      "sha256": "637e1414cbb9278d7af59a1bb7c7c9eed24408bd779b93540ff160b3fd0b5f14"
     },
     "interactive/supergraph/code/verify_reference_graph_model.py": {
-      "bytes": 4028,
-      "sha256": "d22de5e65c89a1d042c8cbdfec776f427b9aebc9871c88d0240de6242ed19b82"
+      "bytes": 4302,
+      "sha256": "f56ea5b9e3bc7d82b157c74309770cf906d265069a788910210c9782ada9e894"
     },
     "interactive/supergraph/crispr_supergraph.html": {
-      "bytes": 140001,
-      "sha256": "19ae4eac0eb949faeea90027be2151a0257613766ea3370b2390d6f9dd75c31c"
+      "bytes": 153695,
+      "sha256": "f09b1b0f05f7bd2bf70d46b5de1dd3a1f89a78478a5f89f5c0434046eb121ecf"
     },
     "interactive/supergraph/crispr_supergraph.template.html": {
-      "bytes": 43093,
-      "sha256": "47e0fd08fbbb24344bb85cef1dc165ab3fbfffb8b9a5a7c28683e8760c867a5a"
+      "bytes": 49319,
+      "sha256": "0d5a8bc96c03caf004c5b45ac3e735e20d3bdbe1d37357e153a9c991997048e2"
+    },
+    "interactive/supergraph/paired_library_summary.json": {
+      "bytes": 1210,
+      "sha256": "494304e421e086bf5a3099634c734015a2d0d948f0f4ecd1bb2742a2d9f943a9"
+    },
+    "interactive/supergraph/review_graph_model.json": {
+      "bytes": 137558,
+      "sha256": "eee28d8b52dfa6696dc2b6cce29de1097739df11cdfacbecd9b67c9825babbe0"
     },
     "interactive/supergraph/supergraph_model.json": {
       "bytes": 126680,
@@ -5408,16 +5432,32 @@
       "sha256": "5978c996c62d539811e63309bcf4aa7911e00c1ecaa8dfbd312fffe6c0332c58"
     },
     "reproducibility/README.md": {
-      "bytes": 2659,
-      "sha256": "3e016d7283036a13c18d6fe951ce065b1f79994fc749cd9da412719183e72f6f"
+      "bytes": 4136,
+      "sha256": "d3c2726f050e33735c79b793a6300711e5bfcef485e3ea46bbed00f33d410b98"
+    },
+    "reproducibility/Reviewer_Workbook.ipynb": {
+      "bytes": 2797,
+      "sha256": "77c4e17297e93b48234e8b191a4f405babfc816e4188870020f26d237319c4fb"
+    },
+    "reproducibility/START_HERE.bat": {
+      "bytes": 67,
+      "sha256": "b3ba3ae619b1b4feb175e8b2182da4d30d7b38f8411b374c95bc678cccbdc2af"
+    },
+    "reproducibility/START_HERE.command": {
+      "bytes": 76,
+      "sha256": "e04fee2de96cfb07459a492f119d2c93381bf4e922ea12af4cdec0b57e48d14c"
+    },
+    "reproducibility/START_HERE.sh": {
+      "bytes": 76,
+      "sha256": "e04fee2de96cfb07459a492f119d2c93381bf4e922ea12af4cdec0b57e48d14c"
     },
     "reproducibility/build_native.py": {
-      "bytes": 6794,
-      "sha256": "35a2123f85aaf5ffbfafe0ffbd6c8b84d2093f85d8c5db16a427c21b9de9fe1b"
+      "bytes": 8136,
+      "sha256": "87de4443e11498c1aeee2521dc5fcad4d461ee47e0bf0837cb455930275fa304"
     },
     "reproducibility/reproduce.py": {
-      "bytes": 11679,
-      "sha256": "bf15e08749a44ef0035f5f5e137bc0bfad5091978576ff1787b2ca9f02be760a"
+      "bytes": 14425,
+      "sha256": "0a9679f67a28fe6c780e6e44cd46b71f02e056f038e8c570b1283c309b4b0ddd"
     },
     "reproducibility/requirements-macos-intel.txt": {
       "bytes": 184,
@@ -5426,6 +5466,18 @@
     "reproducibility/requirements-native.txt": {
       "bytes": 311,
       "sha256": "d869f2abcc809836200cce41d827e13c813d612aaadd857538821645ae02af7f"
+    },
+    "reproducibility/requirements-reviewer.txt": {
+      "bytes": 89,
+      "sha256": "49866981ba54fcc6d76157d6d02f6b04dccb6a95d1a5b38a242c146454d17273"
+    },
+    "reproducibility/reviewer-theme.toml": {
+      "bytes": 171,
+      "sha256": "eae8d7917d4046e3c844aca302f933c7fe7dfd34ced975d0afc098cbbbe8c271"
+    },
+    "reproducibility/reviewer_app.py": {
+      "bytes": 4022,
+      "sha256": "8c5407c2f5bc0038cbff5a461e47403186ebe82ec3c556b8097f31263928528f"
     },
     "scripts/create_github_repository.sh": {
       "bytes": 1914,

@@ -29,7 +29,9 @@ jobs:
           PLAYWRIGHT_MODULE_PATH: ${{ runner.temp }}/supergraph-runtime/node_modules/playwright-core
           SUPERGRAPH_QA_OUTPUT: ${{ runner.temp }}/supergraph-qa
           SUPERGRAPH_FILE: supergraph/crispr_supergraph.html
-        run: node code/check_supergraph_browser.cjs
+        run: |
+          node code/check_supergraph_browser.cjs
+          CHROME_PATH="$(command -v google-chrome)" node code/check_supergraph_interaction.cjs
       - name: Retain temporary visual QA evidence
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
