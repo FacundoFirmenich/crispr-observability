@@ -40,7 +40,8 @@ const guideInput={
     {id:'bam-depth',op:'alignment-locus',input:'bam',locus:{ref:hg.ref,span:[hg.lo,hg.hi]},
       min_mapq:0,query_index:0,original_orientation:true},
     {id:'structure-distance',op:'atom-distance',input:'structure',atoms:[0,1]},
-    {id:'threshold',op:'anchor-containment',anchor:[210,222],shift:3,read_end:224}
+    {id:'threshold',op:'anchor-containment',anchor:[210,222],shift:3,read_end:224},
+    {id:'inspect',op:'inspect',input:'hg-sequence'}
   ]
 };
 const out=await runProject(guideInput,root);
@@ -58,6 +59,7 @@ assert.equal(sam.evidence_tsv,bam.evidence_tsv);
 assert.equal(structure.units,'angstrom');
 assert.ok(structure.distance>1 && structure.distance<4);
 assert.equal(anchor.observed,11);
+assert.equal(out.results.at(-1).result.bases,42);
 assert.equal(out.datasets.at(-1).status,'not-read');
 assert.ok(out.datasets.filter(x=>x.status==='used').every(x=>x.source));
 

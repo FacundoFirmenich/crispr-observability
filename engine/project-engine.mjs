@@ -180,7 +180,7 @@ async function compute(j,get){
   if(read.ref!==j.locus.ref)throw new Error('Selected alignment is on '+read.ref+', not '+j.locus.ref);
   const query=j.query_index===undefined?null:inspectQuery(read,j.query_index,j.original_orientation);
   const {name,flag,mapq,ref,start,referenceEnd,cigar,ordinal}=read;
-  return {source:data.source,read:{name,flag,mapq,ref,start,referenceEnd,cigar,ordinal},
+  return {source:canonical(data.source),read:{name,flag,mapq,ref,start,referenceEnd,cigar,ordinal},
     query,coverage,evidence_tsv:alignmentTsv(read,coverage)};
 }
 export async function runProject(input,root){
