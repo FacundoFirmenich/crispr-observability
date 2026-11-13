@@ -5966,6 +5966,14 @@
     ".github/workflows/crispra-export-repair.yml": {
       "bytes": 1880,
       "sha256": "a8fe8a05d80013b0534f22f67f8975422bb0ed5854305d1641df67bf9370b22c"
+    },
+    "extensions/comparative_execution/audit_crispra.R": {
+      "bytes": 1147,
+      "sha256": "56471dd989661f1a880610468a098ac12d24769006639a389ec996551d678ce9"
+    },
+    ".github/workflows/crispra-object-audit.yml": {
+      "bytes": 1377,
+      "sha256": "8f7454808f86aa6e86bc6bf3b2b80e92ffcf09f76964b95daf12e01a0f040230"
     }
   },
   "source_commit_role": "Historical source archive from the 0.7.1 integration",

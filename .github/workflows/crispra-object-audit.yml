@@ -1,0 +1,24 @@
+name: CRISPR-A archived object audit
+on:
+  push:
+    branches: ['genome-comparators-20261113']
+    paths: ['.github/workflows/crispra-object-audit.yml']
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Verify archive and audit original returned objects
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd "$RUNNER_TEMP"
+          gh release download comparison-evidence-43493655364 -R FacundoFirmenich/crispr-observability -p crispra-export-repair-evidence.tar.gz
+          echo '34ea9b0669526602ed8dbb5c428f8cbf00a0b02e881092885c3b3ef64bf3cf13  crispra-export-repair-evidence.tar.gz' | sha256sum -c
+          tar -xzf crispra-export-repair-evidence.tar.gz evidence/template-export
+          docker run --rm -v "$RUNNER_TEMP:$RUNNER_TEMP" -v "$GITHUB_WORKSPACE:$GITHUB_WORKSPACE:ro" msanvicente/crisprgareq@sha256:1ff4d7fdcff07a4e4da6eb88ed1676284abe96d4444ee292822e08e33f6acf0d Rscript "$GITHUB_WORKSPACE/extensions/comparative_execution/audit_crispra.R" "$RUNNER_TEMP/evidence/template-export" "$RUNNER_TEMP/CRISPRA_OBJECT_AUDIT.json"
+          cat CRISPRA_OBJECT_AUDIT.json
+          gh release upload comparison-evidence-43493655364 CRISPRA_OBJECT_AUDIT.json -R FacundoFirmenich/crispr-observability
