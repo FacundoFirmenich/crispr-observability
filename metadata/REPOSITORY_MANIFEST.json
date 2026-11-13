@@ -5932,12 +5932,16 @@
       "sha256": "e7aa15d54fa99ce793c164dcc3fa5c10d6771a6700f3424368fc000110c701ad"
     },
     "extensions/comparative_execution/run_native.py": {
-      "bytes": 3818,
-      "sha256": "d16e591f461304efab191ecd43c7ab162c6535a3d9751d9c3c8580777ec1a09d"
+      "bytes": 4119,
+      "sha256": "b39f8e376ec683bd2a59d7aaf340f4314c3acef601ae4bc05ad7af81b9ad7db2"
     },
     ".github/workflows/comparator-campaign.yml": {
-      "bytes": 2613,
-      "sha256": "87a0524ceaf1f35170f5961537557ab75bb049a9d2399d0f9242d47adc6cde97"
+      "bytes": 2591,
+      "sha256": "31ba46f76a822d3e4007c39a139a266e24f8625401e3358e58268a816f873e02"
+    },
+    "extensions/comparative_execution/EXECUTION_ADDENDUM.md": {
+      "bytes": 1166,
+      "sha256": "951a19217b4f568bd635010a8688d8f53eb027c48607dd86129d68a98eebe1b2"
     }
   },
   "source_commit_role": "Historical source archive from the 0.7.1 integration",

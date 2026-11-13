@@ -1,0 +1,5 @@
+# Execution repair and analytical extension, 13 November 2026
+
+Campaign 43493655364 completed all nine native CRISPResso2 jobs and the complete ampliCan job. CRISPR-A completed initial processing but stopped at native DSL1 staging because two disabled index arguments had the same basename `unused`. The repair supplies distinct empty directories for these disabled arguments. All self-reference flags remain false, and no genome index is used. Inputs, container, upstream code and scientific parameters are unchanged. Only CRISPR-A is rerun; the first campaign and its failure artifacts remain archived. The repair also preserves the Nextflow log on failure.
+
+After evaluating the frozen local-decision cost grid, an exploratory analytical extension enumerates all positive cost-ratio cells induced by training thresholds. Exact rational boundaries and tie behavior are retained. It reports every favorable and adverse interval, not only the ratio six result. This extension is motivated by the observed grid and is not represented as prespecified. Its purpose is to delimit a decision's applicability, not estimate prevalence or guarantee prospective performance.

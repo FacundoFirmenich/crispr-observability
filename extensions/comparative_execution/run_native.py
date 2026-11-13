@@ -20,8 +20,14 @@ def main(engine,work):
    if f.is_file():f.chmod(f.stat().st_mode|0o111)
   rows=json.loads((e/'INPUT_MANIFEST.json').read_bytes());ids=[r['run_accession'] for r in rows];con=json.loads((e/'CONSTRUCT.json').read_bytes());guide=con['spacer_RNA_5to3'].replace('U','T')
   values={'outDir':str(e/'native'),'input':str(w/'inputs/*_{R1,R2}.fastq.gz'),'r2file':False,'inSize':-1,'umiClustering':False,'umiType':'TV','minlen':55,'maxlen':57,'id':.99,'ubs':1,'error':.2,'simGE':False,'simGEfilesPath':str(source/'bin/SimGE'),'simGEid':'unused','simGEsequence':'','cutSite':'','referenceFasta':str(w/'refs/*'),'indexHuman':'unused','indexMouse':'unused','refOrganism':[[r,'other'] for r in ids],'gRNAseq':[[r,guide] for r in ids],'selfRef':[[r,False] for r in ids],'aligner':'minimap2','template_seq':str(w/'templates/*'),'mock':False,'template':True,'spike':'no','samplesNames_file':str(source/'samples.php'),'protCutSite':[[r,-3] for r in ids]}
+  # Native DSL1 stages both index paths even with selfRef=false. Distinct empty
+  # directories prevent a staging-name collision; no genome index is consumed.
+  for key in ['indexHuman','indexMouse']:
+   unused=w/('disabled_'+key);unused.mkdir(exist_ok=True);values[key]=str(unused)
   cfg='params {\n'+'\n'.join(k+' = '+json.dumps(v) for k,v in values.items())+'\n}\n'+"process.container = '"+image+"'\ndocker.enabled = true\nsingularity.enabled = false\nprocess.maxForks = 2\nexecutor.queueSize = 2\n"
-  (e/'native.config').write_text(cfg);run([str(w/'nextflow'),'run','crispr-a.nf','-c',str(e/'native.config'),'-work-dir',str(w/'nf-work'),'-with-trace',str(e/'process-trace.tsv')],source)
-  if (source/'.nextflow.log').exists():shutil.copy2(source/'.nextflow.log',e/'nextflow.log')
+  (e/'native.config').write_text(cfg)
+  try:run([str(w/'nextflow'),'run','crispr-a.nf','-c',str(e/'native.config'),'-work-dir',str(w/'nf-work'),'-with-trace',str(e/'process-trace.tsv')],source)
+  finally:
+   if (source/'.nextflow.log').exists():shutil.copy2(source/'.nextflow.log',e/'nextflow.log')
  (e/'SUCCESS.json').write_text(json.dumps({'engine':engine,'status':'COMPLETE','elapsed_seconds':time.monotonic()-start},indent=2))
 if __name__=='__main__':main(*sys.argv[1:])
