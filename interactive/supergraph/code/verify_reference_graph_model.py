@@ -28,7 +28,8 @@ def main():
     assert graph["sources"] == original["sources"]
     assert graph["hyperedges"] == original["graph"]["hyperedges"]
     assert {n["id"] for n in graph["nodes"] if n["layer"]=="External validation"} == {
-        "V_MP37", "V_MP38", "V_HIFI", "V_PAIRED", "V_CLONE"
+        "V_MP37", "V_MP38", "V_HIFI", "V_PAIRED", "V_CLONE",
+        "V_LOCAL_POLICY", "V_COST_MAP", "V_NATIVE_ANCHOR", "V_NATIVE_RETURN"
     }
     for n in graph["nodes"]:
         assert all((a.repository / path).is_file() for path in n["artifacts"]), n["id"]

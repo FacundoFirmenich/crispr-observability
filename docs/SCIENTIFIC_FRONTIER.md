@@ -12,10 +12,12 @@ K562, HG002 and KEAP1 comparisons. The distinct germline panels quantify both
 discordance withdrawal and concordance sacrifice at the locus/library level.
 The [current evidence map](../reproducibility/EVIDENCE.md) identifies their operations.
 
-The outstanding original-fragment editing-accuracy question remains a measurement
-and linkage requirement. Software completeness, structural rendering, matched
+The original-fragment editing-accuracy question retains its measurement
+and linkage limit and is not a completion gate for this release. Software completeness, structural rendering, matched
 genotype comparisons and analyst usability each have their own validation scope.
 This distinction strengthens the positive claims by making their domain explicit.
+
+The [13 November comparative extension](COMPARATIVE_UPDATE.md) adds fresh CRISPResso2 runs, 27 ampliCan anchor configurations, a verified native return-contract repair, donor-held-out routing and an exact finite-panel cost frontier. Its adverse cost regimes and original failed outputs remain evidence. These results establish specific computational mechanisms and decisions, not a universal accuracy ranking.
 
 The checkpoint below is preserved as historical scientific context. Its version,
 counts and statements of then-current availability are not the current interface inventory.

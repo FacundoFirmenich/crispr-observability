@@ -3,9 +3,11 @@ const path=require('path');
 (async()=>{const browser=await chromium.launch({executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',headless:true,args:['--no-sandbox']});
 try {const page=await browser.newPage({viewport:{width:1440,height:1100}});await page.goto('http://127.0.0.1:8501');
 await page.getByText('Analyse your FASTQ: from observed sequences to a report',{exact:true}).click();
-const inputs=page.locator('input[type=file]');await inputs.nth(1).setInputFiles(path.resolve('raw_replay/inputs/fastq/SRR29623272.fastq.gz'));await inputs.nth(2).setInputFiles(path.resolve('raw_replay/inputs/fastq/SRR29623273.fastq.gz'));
+await page.getByTestId('stFileUploader').filter({hasText:'Treated FASTQ'}).locator('input[type=file]').setInputFiles(path.resolve('raw_replay/inputs/fastq/SRR29623272.fastq.gz'));
+await page.getByTestId('stFileUploader').filter({hasText:'Control FASTQ'}).locator('input[type=file]').setInputFiles(path.resolve('raw_replay/inputs/fastq/SRR29623273.fastq.gz'));
 await page.getByRole('button',{name:'Compute sequence evidence',exact:true}).click();
-await page.getByRole('button',{name:'Download FASTQ evidence and contract',exact:true}).waitFor({timeout:120000});
+try {await page.getByRole('button',{name:'Download FASTQ evidence and contract',exact:true}).waitFor({timeout:120000});}
+catch(e){console.error('Rendered application state:',(await page.locator('body').innerText()).slice(-7000));throw e;}
 const [download]=await Promise.all([page.waitForEvent('download'),page.getByRole('button',{name:'Download FASTQ evidence and contract',exact:true}).click()]);
 const chunks=[];for await(const chunk of await download.createReadStream())chunks.push(chunk);
 const data=JSON.parse(Buffer.concat(chunks).toString('utf8'));const assert=require('node:assert/strict');

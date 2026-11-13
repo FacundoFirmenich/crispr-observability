@@ -188,8 +188,8 @@
       "sha256": "202445a999ed4485b7899e57c0e8229d8ef775b9318702cdc8e0812c20c9547d"
     },
     "docs/SCIENTIFIC_FRONTIER.md": {
-      "bytes": 8257,
-      "sha256": "24ac6a30957475262ffa752418397053a1bb6aa0958c913332d45c18227fead9"
+      "bytes": 8795,
+      "sha256": "57e34eb503723068e833cf5d6248eb154bff18cfbc686dccc8b474f7b6714187"
     },
     "docs/VISUAL_STYLE.md": {
       "bytes": 951,
@@ -5133,7 +5133,7 @@
     },
     "interactive/supergraph/MODEL_CONVERSION_CHECK.json": {
       "bytes": 698,
-      "sha256": "f4a5cbf034e1c87e78c30313cbdf9d94be510bdf9b1df1a21b97bec0f14bac36"
+      "sha256": "cedd5bc5a6d93cebc20ab94c932df63d389a4259b00783668eddf2d1771d80b1"
     },
     "interactive/supergraph/README.md": {
       "bytes": 5231,
@@ -5156,8 +5156,8 @@
       "sha256": "637e1414cbb9278d7af59a1bb7c7c9eed24408bd779b93540ff160b3fd0b5f14"
     },
     "interactive/supergraph/code/verify_reference_graph_model.py": {
-      "bytes": 4302,
-      "sha256": "f56ea5b9e3bc7d82b157c74309770cf906d265069a788910210c9782ada9e894"
+      "bytes": 4380,
+      "sha256": "9a8045603fddfe12e031fa654dd10dec8ec27236756428e499c6e74add4ec1aa"
     },
     "interactive/supergraph/crispr_supergraph.html": {
       "bytes": 198522,
@@ -5260,8 +5260,8 @@
       "sha256": "d82805536e74749a6cf9e6b863ee1feb8e3604fe3e25a8278fca8527da4c0962"
     },
     "metadata/RELEASE_STATE.json": {
-      "bytes": 10017,
-      "sha256": "be85799e76b8fe53b5afe2d85d6a2d86a4362196753409fc12f58b71849bf520"
+      "bytes": 10641,
+      "sha256": "54504fa153eb81e133722b451219e0c4f13543eeae51fe3b4f62923e8f2c2b17"
     },
     "metadata/RUNTIME_SOURCES.json": {
       "bytes": 3209,
@@ -5480,8 +5480,8 @@
       "sha256": "eae8d7917d4046e3c844aca302f933c7fe7dfd34ced975d0afc098cbbbe8c271"
     },
     "reproducibility/reviewer_app.py": {
-      "bytes": 12154,
-      "sha256": "374d6130a70ca9cefa666e9bd0c308b0934c5dfe26916bb72b5b52074de136df"
+      "bytes": 12192,
+      "sha256": "b631e62c708ae0c3590ed54d238ed3ddb55d4602d96dd60620267db8e5c313c8"
     },
     "scripts/create_github_repository.sh": {
       "bytes": 1914,
@@ -5956,8 +5956,8 @@
       "sha256": "2e02a5dc7082b8600bc61149c8cb2a547354cb74f7390163bc8708e29b3b7470"
     },
     "reproducibility/check_fastq_browser.cjs": {
-      "bytes": 1794,
-      "sha256": "4728450a8687710c7eaa78aaa8c77b8796961800745a433d77c98a1e4f64ed2d"
+      "bytes": 2039,
+      "sha256": "544f8a3164b35f1c7e28e80c3ae30ad812ec134a83a7200872e7e8ea229bb1f5"
     },
     "extensions/comparative_execution/CRISPRA_SERIALIZATION_REPAIR.md": {
       "bytes": 985,

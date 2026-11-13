@@ -59,7 +59,7 @@ with start:
         fq_t=st.file_uploader(T("Treated FASTQ", "FASTQ tratado"),type=['gz','fastq','fq'],key='fastq_t')
         fq_c=st.file_uploader(T("Control FASTQ", "FASTQ control"),type=['gz','fastq','fq'],key='fastq_c')
         config_text=st.text_area(T("Observer configuration (editable JSON)","Configuración del observador (JSON editable)"),(ROOT/'examples/observation-report/cftr_fastq_config.json').read_text(),height=250)
-        if st.button(T("Compute sequence evidence", "Calcular evidencia de secuencia"),key='compute_fastq'):
+        if st.button(T("Compute sequence evidence", "Calcular evidencia de secuencia"),key='compute_fastq',disabled=fq_t is None or fq_c is None):
             try:
                 if fq_t is None or fq_c is None:raise ValueError(T("Both FASTQ inputs are required.","Se requieren ambos FASTQ."))
                 config=json.loads(config_text)

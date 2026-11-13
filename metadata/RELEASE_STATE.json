@@ -80,7 +80,7 @@
       "code_license": "GPL-3.0-only",
       "historical_snapshot_sha256": "19ae4eac0eb949faeea90027be2151a0257613766ea3370b2390d6f9dd75c31c",
       "historical_browser_QA": "PASS_AT_4e0d9b801436f9be5ae957201736a1b1744bcb11",
-      "current_sha256": "e8a73887796bc72ee4b98dc04e6e06f3297561f2333ae8a4dd43be4b95bd9e08",
+      "current_sha256": "ed9344e9ffb27a798da187bd8b35b2788e58172ee9f09dde0a3b61ae6955bbcf",
       "current_validation": "See exact source-commit workflow status."
     },
     {
@@ -185,12 +185,26 @@
     "author_reported_development_hardware": "2016 laptop, Intel Core i5-6200U 2.30 GHz; larger campaigns on hosted compute",
     "scope": "Capabilities and access; no new biological measurement or independent user adoption."
   },
-  "source_revision_note": "Post-v0.10.0 guided reporting and source-bound functional linkage audit; native release remains immutable.",
+  "source_revision_note": "Post-v0.10.0 fresh native comparisons, exact local cost map and direct FASTQ interface; prior native packages and DOI remain immutable.",
   "guided_observation_report": {
     "entry": "code/observability_report.py",
     "schema": "examples/observation-report/input.schema.json",
     "standalone_dependencies": "Python standard library",
     "decision_scope": "finite-record conditional contrast",
     "functional_pairing": "UNAUTHENTICATED_ACROSS_ASSAYS"
+  },
+  "current_comparative_extension": {
+    "date": "2026-11-13",
+    "path": "extensions/comparative_execution/",
+    "native_evidence_release": "comparison-evidence-43493655364",
+    "native_crispresso_jobs": 9,
+    "native_amplican_configurations": 27,
+    "native_crispra_variant_jobs": 9,
+    "typed_return_variant_reruns": 9,
+    "local_policy_records": 241,
+    "local_cost_cells": 24,
+    "local_cost_boundary_points": 23,
+    "new_biological_acquisition": false,
+    "state": "Computational experiments completed; consult exact source-commit CI for distribution checks"
   }
 }
