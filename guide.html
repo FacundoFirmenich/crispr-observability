@@ -2,7 +2,8 @@
 <title>Researcher guide · CRISPR Observability</title><style>body{background:#f8f7fc;color:#252953;font:17px/1.6 system-ui;max-width:1100px;margin:40px auto;padding:0 24px}button,a{color:#355b9c}button{font:inherit;padding:9px 20px;border:1px solid #b8bedb;background:#eaf2fb;border-radius:12px;cursor:pointer}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}nav{position:sticky;top:0;background:#f8f7fc;padding:12px 0}table{width:100%;border-collapse:collapse;font-size:15px}td,th{padding:10px;border-bottom:1px solid #d7d9ec;text-align:left;vertical-align:top}th{background:#eaf2fb}pre{background:#eeeafa;padding:15px;border-radius:12px;overflow:auto}code{font-size:.9em}h1,h2{color:#3a397e}article{overflow-x:auto}</style>
 <nav><button onclick="choose('en')">English</button> <button onclick="choose('es')">Castellano</button> · <a href="lab.html">Laboratory / Laboratorio</a> · <a href="supergraph.html">Supergraph</a></nav>
 <article id="en"><h1>Researcher and community guide</h1>
-<p><a href="RESEARCHER_GUIDE.es.md">Castellano</a> · <a href="LEADING_CASE.md">Leading case</a></p>
+<p>Start with the <a href="https://github.com/FacundoFirmenich/crispr-observability/blob/main/docs/START_HERE.md">four-step decision guide</a>.</p>
+<p><a href="https://github.com/FacundoFirmenich/crispr-observability/blob/main/docs/RESEARCHER_GUIDE.es.md">Castellano</a> · <a href="https://github.com/FacundoFirmenich/crispr-observability/blob/main/docs/LEADING_CASE.md">Leading case</a></p>
 <h2>Choose the scientific task</h2>
 <table>
 <thead>
@@ -112,7 +113,7 @@ and rendered exports. See <a href="../interactive/lab/MCP.md">MCP instructions</
 source identities, and distinguish a requested operation from a completed result.
 Never infer sample or molecule identity from a matching filename alone.</p>
 <h2>Reproduction, Streamlit and Docker</h2>
-<p>Native v0.9.0 packages include their Python runtime and frozen inputs:
+<p>Native v0.10.0 packages include their Python runtime and frozen inputs:
 Windows x86-64 <code>START_HERE.bat</code>, Linux x86-64 <code>START_HERE.sh</code>, macOS Intel/Apple
 silicon <code>START_HERE.command</code>. These are platform-specific launchers, not one
 binary for every operating system. Current source updates postdate that fixed
@@ -141,12 +142,12 @@ depends on browser/WebGL support. No dedicated GPU is required by the frozen
 Python replay; runtime and memory depend on the selected scope.</p>
 <h2>Contribute to the research</h2>
 <p>Three programme lines already use or adapt the infrastructure; see their
-<a href="RESEARCH_LINES.md">names and integration states</a>. To contribute, report a
+<a href="https://github.com/FacundoFirmenich/crispr-observability/blob/main/docs/RESEARCH_LINES.md">names and integration states</a>. To contribute, report a
 localized discrepancy with the commit, command/manifest, source hash, coordinate
 system, expected result, observed result and evidence unit. Share only data you
 are permitted to publish. Use an issue for reproducible defects, a discussion
 for scientific questions or proposed use, and a pull request for a tested change.
-The <a href="COMMUNITY_ROADMAP.md">community roadmap</a> lists concrete participation routes.</p>
+The <a href="https://github.com/FacundoFirmenich/crispr-observability/blob/main/docs/COMMUNITY_ROADMAP.md">community roadmap</a> lists concrete participation routes.</p>
 <p>Useful contributions include a new independently documented case, an adversarial
 coordinate fixture, a verified format adapter, an accessible explanation or an
 external reproduction receipt. Report unsuccessful cases too. Citations,+independent use and reproduction are distinct outcomes; none is manufactured
@@ -159,7 +160,8 @@ development. Original current software is GPL-3.0-only; the independent
 generation-model extension retains MIT and dependencies retain their licences.
 The private manuscript and supplement are not included in public source releases.</p>
 </article><article id="es" hidden><h1>Guía para investigadores y comunidad</h1>
-<p><a href="RESEARCHER_GUIDE.md">English</a> · <a href="LEADING_CASE.es.md">Caso guía</a></p>
+<p>Empiece por la <a href="https://github.com/FacundoFirmenich/crispr-observability/blob/main/docs/START_HERE.es.md">guía de decisión en cuatro pasos</a>.</p>
+<p><a href="https://github.com/FacundoFirmenich/crispr-observability/blob/main/docs/RESEARCHER_GUIDE.md">English</a> · <a href="https://github.com/FacundoFirmenich/crispr-observability/blob/main/docs/LEADING_CASE.es.md">Caso guía</a></p>
 <h2>Elegir la tarea científica</h2>
 <table>
 <thead>
@@ -269,7 +271,7 @@ renders. Consulte <a href="../interactive/lab/MCP.md">MCP</a>.</p>
 Pedir una operación no significa haberla ejecutado. Un nombre de archivo
 coincidente no demuestra identidad de muestra ni molécula.</p>
 <h2>Reproducción, Streamlit y Docker</h2>
-<p>Los paquetes nativos v0.9.0 incluyen runtime Python y entradas congeladas:
+<p>Los paquetes nativos v0.10.0 incluyen runtime Python y entradas congeladas:
 Windows x86-64 <code>START_HERE.bat</code>, Linux x86-64 <code>START_HERE.sh</code>, macOS Intel/Apple
 silicon <code>START_HERE.command</code>. Cada binario corresponde a su plataforma. Las
 mejoras actuales de fuente son posteriores a esa release: consulte el commit
@@ -297,12 +299,12 @@ análisis completo se ejecute en cualquier ordenador de diez años. El HTML es
 pequeño, pero el render depende del navegador y WebGL. La reproducción Python
 congelada no requiere una GPU dedicada; recursos y tiempo dependen del alcance.</p>
 <h2>Participar en la investigación</h2>
-<p>La infraestructura se usa o adapta en <a href="RESEARCH_LINES.es.md">tres líneas</a>.
+<p>La infraestructura se usa o adapta en <a href="https://github.com/FacundoFirmenich/crispr-observability/blob/main/docs/RESEARCH_LINES.es.md">tres líneas</a>.
 Para informar un problema aporte commit, comando/manifiesto, hash, coordenadas,
 resultado esperado y observado y unidad de evidencia. Publique sólo datos que
 pueda compartir. Use issues para fallos reproducibles, discussions para
 preguntas y propuestas, y pull requests para cambios contrastados. La
-<a href="COMMUNITY_ROADMAP.es.md">hoja de ruta</a> describe vías concretas.</p>
+<a href="https://github.com/FacundoFirmenich/crispr-observability/blob/main/docs/COMMUNITY_ROADMAP.es.md">hoja de ruta</a> describe vías concretas.</p>
 <p>Son aportes útiles un caso independiente documentado, una prueba adversa de
 coordenadas, un adaptador verificado, una explicación accesible o un recibo de
 reproducción externa. Los resultados desfavorables también cuentan. Citación,

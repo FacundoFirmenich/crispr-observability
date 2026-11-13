@@ -1,0 +1,85 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>CRISPR Observability — decision report</title><style>body{font:17px/1.6 system-ui;max-width:1100px;margin:40px auto;padding:0 24px;color:#283957;background:#fbfaff}h1,h2{color:#49388b}section{padding:22px;background:#eef2fc;border-radius:14px;margin:20px 0}table{border-collapse:collapse;width:100%}td,th{padding:10px;border-bottom:1px solid #cbd3e6;text-align:left}pre{white-space:pre-wrap}summary{cursor:pointer;color:#7055a4}</style><h1>What can these reads establish?</h1><section><h2>1 · Name the question</h2><p>in frame observed coding translates to GTIKENIIFGVSYD</p><p>arithmetic_mean_original_whole_read_Phred33_ge_30</p></section><section><h2>2 · Keep every acquired record</h2><table><tr><th>Arm</th><th>Sample</th><th>N</th><th>E</th><th>NE</th><th>U</th><th>Bounds (%)</th></tr><tr><td>treated</td><td>SRR29623272</td><td>20573</td><td>3563</td><td>15846</td><td>1164</td><td>17.31882–22.97672</td></tr><tr><td>control</td><td>SRR29623273</td><td>17177</td><td>2</td><td>16475</td><td>700</td><td>0.01164–4.08686</td></tr></table></section><section><h2>3 · Read the decision</h2><p><strong>positive for all binary completions</strong></p><p>Treated − control: +13.23196 to +22.96507 percentage points.</p><p>Conditional finite-record contrast under the declared accepted-label assumption. Unknown records remain in the original universe. These bounds are not confidence intervals.</p></section><section><h2>4 · Choose the next measurement</h2><p>If the sign is unresolved, inspect which records are U and which flanks are absent. If it is resolved, test sensitivity to accepted-label error and connect functional measurements only at an authenticated shared unit. Use the 3D laboratory to test geometry, and the Supergraph to trace premises.</p></section><h2>What does abstention buy—and cost?</h2><p>Descriptive concordance against external germline genotype benchmarks in selected donor/tract jurisdictions; not editing accuracy or a threshold sweep.</p><table><tr><th>Donor</th><th>Tract</th><th>Initial C/D/U</th><th>Retained C/D/U</th><th>Discordances removed</th><th>Concordances sacrificed</th></tr><tr><td>HG006</td><td>ge15</td><td>25/5/2</td><td>0/0/32</td><td>1</td><td>1</td></tr><tr><td>HG006</td><td>lt15</td><td>30/2/0</td><td>19/0/13</td><td>1</td><td>11/30</td></tr><tr><td>HG007</td><td>lt15</td><td>30/1/1</td><td>28/0/4</td><td>1</td><td>1/15</td></tr><tr><td>HG007</td><td>ge15</td><td>27/3/2</td><td>0/0/32</td><td>1</td><td>1</td></tr><tr><td>HG003</td><td>ge15</td><td>14/7/2</td><td>1/0/22</td><td>1</td><td>13/14</td></tr><tr><td>HG003</td><td>lt15</td><td>32/0/0</td><td>19/0/13</td><td>not estimable</td><td>13/32</td></tr><tr><td>HG004</td><td>ge15</td><td>18/8/0</td><td>0/1/25</td><td>7/8</td><td>1</td></tr><tr><td>HG004</td><td>lt15</td><td>31/0/1</td><td>27/0/5</td><td>not estimable</td><td>4/31</td></tr></table><p>Report both error withdrawal and information loss. A rule retaining no calls has undefined retained discordance, not zero error.</p><details><summary>Inspect the complete machine-readable report</summary><pre>{
+  &quot;schema_version&quot;: &quot;1.0&quot;,
+  &quot;contract&quot;: {
+    &quot;target&quot;: &quot;in frame observed coding translates to GTIKENIIFGVSYD&quot;,
+    &quot;observation_unit&quot;: &quot;sequenced raw record&quot;,
+    &quot;reference&quot;: &quot;a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849;0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad&quot;,
+    &quot;coordinates&quot;: &quot;identical observed coding string&quot;,
+    &quot;quality_policy&quot;: &quot;arithmetic_mean_original_whole_read_Phred33_ge_30&quot;,
+    &quot;candidate_domain&quot;: &quot;Frozen common observed-coding witness; complete-domain certificates are separate computations&quot;,
+    &quot;accepted_label_assumption&quot;: &quot;Accepted E and NE labels are correct; unresolved labels may take either binary value&quot;,
+    &quot;decision_timing&quot;: &quot;Retrospective; outcomes were known&quot;
+  },
+  &quot;arms&quot;: [
+    {
+      &quot;arm&quot;: &quot;treated&quot;,
+      &quot;sample_id&quot;: &quot;SRR29623272&quot;,
+      &quot;universe_id&quot;: &quot;703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5&quot;,
+      &quot;source_locator&quot;: &quot;M3/WITNESS_COUNTS.json&quot;,
+      &quot;N&quot;: 20573,
+      &quot;E&quot;: 3563,
+      &quot;NE&quot;: 15846,
+      &quot;U&quot;: 1164,
+      &quot;bounds&quot;: {
+        &quot;lower&quot;: {
+          &quot;exact&quot;: &quot;509/2939&quot;,
+          &quot;percent&quot;: 17.3188159237836
+        },
+        &quot;upper&quot;: {
+          &quot;exact&quot;: &quot;4727/20573&quot;,
+          &quot;percent&quot;: 22.976717056335975
+        }
+      },
+      &quot;unresolved_fraction&quot;: {
+        &quot;exact&quot;: &quot;1164/20573&quot;,
+        &quot;percent&quot;: 5.657901132552374
+      },
+      &quot;resolved_only_event_fraction&quot;: {
+        &quot;exact&quot;: &quot;3563/19409&quot;,
+        &quot;percent&quot;: 18.357463032613737
+      }
+    },
+    {
+      &quot;arm&quot;: &quot;control&quot;,
+      &quot;sample_id&quot;: &quot;SRR29623273&quot;,
+      &quot;universe_id&quot;: &quot;f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0&quot;,
+      &quot;source_locator&quot;: &quot;M3/WITNESS_COUNTS.json&quot;,
+      &quot;N&quot;: 17177,
+      &quot;E&quot;: 2,
+      &quot;NE&quot;: 16475,
+      &quot;U&quot;: 700,
+      &quot;bounds&quot;: {
+        &quot;lower&quot;: {
+          &quot;exact&quot;: &quot;2/17177&quot;,
+          &quot;percent&quot;: 0.011643476742155207
+        },
+        &quot;upper&quot;: {
+          &quot;exact&quot;: &quot;702/17177&quot;,
+          &quot;percent&quot;: 4.0868603364964775
+        }
+      },
+      &quot;unresolved_fraction&quot;: {
+        &quot;exact&quot;: &quot;700/17177&quot;,
+        &quot;percent&quot;: 4.075216859754323
+      },
+      &quot;resolved_only_event_fraction&quot;: {
+        &quot;exact&quot;: &quot;2/16477&quot;,
+        &quot;percent&quot;: 0.012138131941494204
+      }
+    }
+  ],
+  &quot;contrast&quot;: {
+    &quot;lower&quot;: {
+      &quot;exact&quot;: &quot;6679915/50483203&quot;,
+      &quot;percent&quot;: 13.231955587287121
+    },
+    &quot;upper&quot;: {
+      &quot;exact&quot;: &quot;81154533/353382421&quot;,
+      &quot;percent&quot;: 22.96507357959382
+    },
+    &quot;decision&quot;: &quot;positive_for_all_binary_completions&quot;
+  },
+  &quot;interpretation&quot;: &quot;Conditional finite-record contrast under the declared accepted-label assumption. Unknown records remain in the original universe. These bounds are not confidence intervals.&quot;,
+  &quot;validation_scope&quot;: &quot;Structural and arithmetic validation; input declarations and classification truth are not independently authenticated.&quot;,
+  &quot;input_sha256&quot;: &quot;3242b03f4579f65f71c1a45ed4ba069e93668fb0978c51617c7c5d343e50a5f9&quot;
+}</pre></details></html>
