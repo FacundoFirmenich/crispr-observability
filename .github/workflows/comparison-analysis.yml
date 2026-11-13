@@ -1,0 +1,35 @@
+name: Native comparison event projection
+on:
+  push:
+    branches: ['genome-comparators-20261113']
+    paths: ['.github/workflows/comparison-analysis.yml']
+permissions:
+  contents: write
+jobs:
+  project:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Authenticate the completed native output
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/native"
+          gh release download comparison-evidence-43493655364 --pattern crispresso-evidence.tar.gz --pattern SHA256SUMS.txt --dir "$RUNNER_TEMP/native"
+          cd "$RUNNER_TEMP/native"
+          sed -n '/crispresso-evidence/p' SHA256SUMS.txt | sed 's@evidence/@@' | sha256sum -c -
+          tar -xzf crispresso-evidence.tar.gz
+      - name: Project the exact acquired records onto the declared events
+        run: |
+          /usr/bin/time -v -o "$RUNNER_TEMP/projection-cost.txt" python extensions/reproduction/pe_mode/analyze.py --runs "$RUNNER_TEMP/native/evidence/runs" --output "$RUNNER_TEMP/projection"
+      - name: Persist projection and measured cost
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/projection"
+          cp "$RUNNER_TEMP/projection-cost.txt" "$RUNNER_TEMP/projection/"
+          tar -czf "$RUNNER_TEMP/native-projection.tar.gz" -C "$RUNNER_TEMP" projection
+          gh release upload comparison-evidence-43493655364 "$RUNNER_TEMP/native-projection.tar.gz"

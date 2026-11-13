@@ -5936,12 +5936,16 @@
       "sha256": "b39f8e376ec683bd2a59d7aaf340f4314c3acef601ae4bc05ad7af81b9ad7db2"
     },
     ".github/workflows/comparator-campaign.yml": {
-      "bytes": 2591,
-      "sha256": "31ba46f76a822d3e4007c39a139a266e24f8625401e3358e58268a816f873e02"
+      "bytes": 2655,
+      "sha256": "b818f95ba4de1f3b393a56a6baf403f1cbdc923caff7dc995c6ba09891b0403f"
     },
     "extensions/comparative_execution/EXECUTION_ADDENDUM.md": {
       "bytes": 1166,
       "sha256": "951a19217b4f568bd635010a8688d8f53eb027c48607dd86129d68a98eebe1b2"
+    },
+    ".github/workflows/comparison-analysis.yml": {
+      "bytes": 1599,
+      "sha256": "e37e91d17aedd340be6cf23271680e51c70760769abf69a5d354ec4726bfdbdf"
     }
   },
   "source_commit_role": "Historical source archive from the 0.7.1 integration",
