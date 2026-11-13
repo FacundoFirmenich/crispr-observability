@@ -1,0 +1,11 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE_PATH||'playwright-core');
+const path=require('path');
+(async()=>{const browser=await chromium.launch({executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',headless:true,args:['--no-sandbox']});
+try {const page=await browser.newPage({viewport:{width:1440,height:1100}});await page.goto('http://127.0.0.1:8501');
+await page.getByText('Analyse your FASTQ: from observed sequences to a report',{exact:true}).click();
+const inputs=page.locator('input[type=file]');await inputs.nth(1).setInputFiles(path.resolve('raw_replay/inputs/fastq/SRR29623272.fastq.gz'));await inputs.nth(2).setInputFiles(path.resolve('raw_replay/inputs/fastq/SRR29623273.fastq.gz'));
+await page.getByRole('button',{name:'Compute sequence evidence',exact:true}).click();
+await page.getByRole('button',{name:'Download FASTQ evidence and contract',exact:true}).waitFor({timeout:120000});
+const iframe=page.frameLocator('iframe').last();await iframe.getByText('Treated − control: +13.11530 to +22.69773 percentage points.',{exact:true}).waitFor();
+console.log(JSON.stringify({status:'PASS',input:'Authentic CFTR SRR29623272 and SRR29623273',expected_exact_DNA_contrast_pp:[13.11530,22.69773],browser:'Chromium',upload_files_written_by_app:false}));
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1)});

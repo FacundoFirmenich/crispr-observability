@@ -8,6 +8,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'code'))
 from observability_report import analyse, demo_input, render, utility
+from fastq_decision import count_bytes, input_from_counts
 
 import altair as alt
 import pandas as pd
@@ -52,6 +53,29 @@ with start:
         st.download_button(T("Download editable input contract","Descargar contrato de entrada editable"),json.dumps(data,indent=2),'observation-input.json','application/json')
     except (ValueError,KeyError,TypeError) as exc:
         st.error(T("Contract rejected: ","Contrato rechazado: ")+str(exc))
+
+    with st.expander(T("Analyse your FASTQ: from observed sequences to a report", "Analice su FASTQ: de las secuencias observadas al informe")):
+        st.markdown(T("Upload treated and control reads, then define the exact sequence between two anchors. The supplied configuration is for the documented CFTR example. Change it for a different assay. Files are processed in memory on the machine hosting this app; no upload file is written to disk. Limit: 20 MB and 250,000 records per file. The CLI handles larger inputs.", "Cargue lecturas de tratado y control y defina la secuencia exacta entre dos anclas. La configuración inicial corresponde al ejemplo CFTR documentado: cámbiela para otro ensayo. Los archivos se procesan en memoria en el equipo que aloja esta aplicación, sin persistirlos en disco. Límite: 20 MB y 250.000 registros por archivo; la CLI admite entradas mayores."))
+        fq_t=st.file_uploader(T("Treated FASTQ", "FASTQ tratado"),type=['gz','fastq','fq'],key='fastq_t')
+        fq_c=st.file_uploader(T("Control FASTQ", "FASTQ control"),type=['gz','fastq','fq'],key='fastq_c')
+        config_text=st.text_area(T("Observer configuration (editable JSON)","Configuración del observador (JSON editable)"),(ROOT/'examples/observation-report/cftr_fastq_config.json').read_text(),height=250)
+        if st.button(T("Compute sequence evidence", "Calcular evidencia de secuencia"),key='compute_fastq'):
+            try:
+                if fq_t is None or fq_c is None:raise ValueError(T("Both FASTQ inputs are required.","Se requieren ambos FASTQ."))
+                config=json.loads(config_text)
+                with st.spinner(T("Reading all records and preserving unresolved observations…","Leyendo todos los registros y conservando los irresueltos…")):
+                    fq_input=input_from_counts(count_bytes(fq_t.getvalue(),fq_t.name,config),count_bytes(fq_c.getvalue(),fq_c.name,config),config)
+                    fq_result=analyse(fq_input)
+                st.session_state['fastq_report']=(fq_input,fq_result)
+            except (ValueError,KeyError,TypeError,UnicodeError,OSError) as exc:
+                st.session_state.pop('fastq_report',None);st.error(str(exc))
+        if 'fastq_report' in st.session_state:
+            fq_input,fq_result=st.session_state['fastq_report']
+            st.caption(T("Result for the last completed computation; rerun after changing inputs.","Resultado del último cálculo completado; vuelva a ejecutar tras cambiar las entradas."))
+            st.json(fq_result['contrast'])
+            components.html(render(fq_result),height=700,scrolling=True)
+            st.download_button(T("Download FASTQ report", "Descargar informe FASTQ"),render(fq_result),'fastq-report.html','text/html')
+            st.download_button(T("Download FASTQ evidence and contract", "Descargar evidencia FASTQ y contrato"),json.dumps({'input':fq_input,'result':fq_result},indent=2),'fastq-evidence.json','application/json')
 
 with evidence:
     st.subheader(T("Conditional finite-record bounds","Cotas condicionadas sobre registros finitos"))

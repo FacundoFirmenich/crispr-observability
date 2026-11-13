@@ -1,7 +1,7 @@
 """Full authentic-data regression; no invented biological observations."""
 from pathlib import Path
 import json,unittest
-from fastq_decision import count,ROOT
+from fastq_decision import count,count_bytes,input_from_counts,ROOT
 class AuthenticFASTQ(unittest.TestCase):
     def test_all_nine_libraries(self):
         c=json.loads((ROOT/'examples/observation-report/cftr_fastq_config.json').read_bytes())
@@ -11,6 +11,8 @@ class AuthenticFASTQ(unittest.TestCase):
         for r in selected:
             got=count(ROOT/'raw_replay/inputs/fastq'/(r['run_accession']+'.fastq.gz'),c)
             self.assertEqual({k:got[k] for k in ['N','E','NE','U']},{k:r[k] for k in ['N','E','NE','U']},r['run_accession'])
+            source=ROOT/'raw_replay/inputs/fastq'/(r['run_accession']+'.fastq.gz')
+            self.assertEqual(got,count_bytes(source.read_bytes(),source.name,c))
     def test_invalid_configuration(self):
         from fastq_decision import validate
         with self.assertRaises(ValueError):validate({'left_anchor':'','right_anchor':'A','exact_insert':'A','max_span':3,'min_mean_phred':30,'reference':'test'})

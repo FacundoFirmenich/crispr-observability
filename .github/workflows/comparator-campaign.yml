@@ -2,7 +2,7 @@ name: Native comparator campaign
 on:
   push:
     branches: ['genome-comparators-20261113']
-    paths: ['extensions/comparative_execution/run_native.py', 'extensions/comparative_execution/prepare.py', 'extensions/comparative_execution/run_amplican.R']
+    paths: ['extensions/comparative_execution/RERUN_NATIVE.json']
 permissions:
   contents: read
 jobs:

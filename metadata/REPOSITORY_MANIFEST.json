@@ -56,8 +56,8 @@
       "sha256": "bd386b1e5c6982a1e2fc3fc93b93f5468fd75c1b23847750b9ba9a8fda7a52f2"
     },
     ".github/workflows/reviewer-dashboard.yml": {
-      "bytes": 1589,
-      "sha256": "fc694ca89f1b03fc17ebb8cd117248c3fb619548c3f725b16d5ca022e903b0a3"
+      "bytes": 1866,
+      "sha256": "40e886573295820e7657d516918218667681b5beafe97c752c19bdc1a9b741bb"
     },
     ".github/workflows/scientific-context-checks.yml": {
       "bytes": 807,
@@ -5480,8 +5480,8 @@
       "sha256": "eae8d7917d4046e3c844aca302f933c7fe7dfd34ced975d0afc098cbbbe8c271"
     },
     "reproducibility/reviewer_app.py": {
-      "bytes": 9125,
-      "sha256": "df0c7cc0f40c25c122ade1d102e51c84afca493276e3fb5dee20436d8181d3c1"
+      "bytes": 12154,
+      "sha256": "374d6130a70ca9cefa666e9bd0c308b0934c5dfe26916bb72b5b52074de136df"
     },
     "scripts/create_github_repository.sh": {
       "bytes": 1914,
@@ -5892,12 +5892,12 @@
       "sha256": "a3cd40fe07ae223db2f57a337a2afd4e32ac9caef70afb7f9f4ffef4000b2531"
     },
     "code/fastq_decision.py": {
-      "bytes": 4883,
-      "sha256": "f5af8d0ca51bcd62fc49386bc4fbbe9a5f9e38df0f7ffa51d94aef53f00aada5"
+      "bytes": 5616,
+      "sha256": "c8491177de7478e8abe5ba5d12a0c55d9a9fd6778fa3b4342084796226c57f6b"
     },
     "code/test_fastq_decision.py": {
-      "bytes": 1119,
-      "sha256": "cb06fcd20d42334c4ca93bf22bbd62dc7e5b05f9d6eb88df6fb8cdcd5160618a"
+      "bytes": 1313,
+      "sha256": "00b406d3f9c969bdb7d116f40f066d4ee2e93e899ab4b3a9e5d1b0dccf404f75"
     },
     "docs/COMPARATIVE_SCOPE.md": {
       "bytes": 3113,
@@ -5936,8 +5936,8 @@
       "sha256": "bff9162ead1bf3728828d4dce9fdb3bb959081a6128c2deb857f7b80da5f124b"
     },
     ".github/workflows/comparator-campaign.yml": {
-      "bytes": 2655,
-      "sha256": "b818f95ba4de1f3b393a56a6baf403f1cbdc923caff7dc995c6ba09891b0403f"
+      "bytes": 2561,
+      "sha256": "212b25735e19e0afd8d2f8a9a1b1ba01c12827e1192cca226f4aaeef595f40ee"
     },
     "extensions/comparative_execution/EXECUTION_ADDENDUM.md": {
       "bytes": 1166,
@@ -5954,6 +5954,10 @@
     ".github/workflows/assignment-probe.yml": {
       "bytes": 1213,
       "sha256": "2e02a5dc7082b8600bc61149c8cb2a547354cb74f7390163bc8708e29b3b7470"
+    },
+    "reproducibility/check_fastq_browser.cjs": {
+      "bytes": 1365,
+      "sha256": "f23e1c9a5458724534c8db4a6d4bf804ea1bce1ca7855dd9e46f6cfcc80f10be"
     }
   },
   "source_commit_role": "Historical source archive from the 0.7.1 integration",

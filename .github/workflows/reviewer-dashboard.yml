@@ -16,9 +16,11 @@ jobs:
           persist-credentials: false
       - run: docker build -f Dockerfile.reviewer -t crispr-reviewer .
       - run: docker run --rm crispr-reviewer python reproducibility/reproduce.py --section germline --output /results/germline
+      - run: npm install --prefix "$RUNNER_TEMP/browser-runtime" --ignore-scripts --no-audit --no-fund --save-exact playwright-core@1.64.1
       - name: Check the browser app
         run: |
           docker run --detach --name reviewer -p 127.0.0.1:8501:8501 crispr-reviewer
           trap 'docker logs reviewer; docker rm -f reviewer' EXIT
           curl --retry 12 --retry-all-errors --retry-delay 2 --fail http://127.0.0.1:8501/_stcore/health
           docker exec reviewer python -c "from streamlit.testing.v1 import AppTest; app=AppTest.from_file('reproducibility/reviewer_app.py').run(timeout=40); assert not app.exception, app.exception; assert app.title[0].value == 'CRISPR Observability'; assert len(app.tabs) == 6; app.sidebar.selectbox[0].select('Castellano').run(timeout=40); assert not app.exception, app.exception; assert app.tabs[0].label == 'Empezar aquí'; assert app.tabs[2].label == 'Laboratorio 3D'"
+          PLAYWRIGHT_MODULE_PATH="$RUNNER_TEMP/browser-runtime/node_modules/playwright-core" node reproducibility/check_fastq_browser.cjs
