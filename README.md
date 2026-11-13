@@ -94,7 +94,7 @@ ONT/HiFi locus decisions. It is not a fresh sequencing or alignment campaign.
 Elapsed time depends on your system and initial repository transfer.
 
 For a graphical start without installing Python, use the packages in
-**[native release v0.10.0](https://github.com/FacundoFirmenich/crispr-observability/releases/tag/v0.10.0)**:
+**[latest native research release](https://github.com/FacundoFirmenich/crispr-observability/releases/latest)**:
 `START_HERE.bat` on Windows, `START_HERE.command` on macOS or `START_HERE.sh`
 on Linux. The [reviewer workspace](reproducibility/README.md) also documents
 Docker, Streamlit, the interactive notebook and granular replay.
@@ -117,7 +117,9 @@ The [scientific scope](docs/SCIENTIFIC_FRONTIER.md) and
 
 The **v0.8.1 source snapshot** is archived at
 **[10.5281/zenodo.24121127](https://doi.org/10.5281/zenodo.24121127)**.
-The **v0.10.0 native packages** have their own release and recorded build commit.
+The **research-20261113 native packages** were rebuilt and replayed from source commit
+`0b4fe68b92abf753c2fae20662c77ec35dbddc7a`; their release records the exact build and
+replay scope. The previous v0.10.0 packages remain available.
 Current graph and laboratory development postdates those archives: cite its exact
 Git commit alongside the component. A development-branch name is not a substitute
 for a versioned citation. New source components are not retroactively included in

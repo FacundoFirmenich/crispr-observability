@@ -54,7 +54,7 @@ cd crispr-observability
 python -B reproducibility/reproduce.py --mode quick --output replay-quick
 ```
 
-Para abrir sin instalar Python, use la [release nativa v0.10.0](https://github.com/FacundoFirmenich/crispr-observability/releases/tag/v0.10.0):
+Para abrir sin instalar Python, use la [release nativa actual](https://github.com/FacundoFirmenich/crispr-observability/releases/latest):
 `START_HERE.bat` en Windows x86-64, `START_HERE.sh` en Linux x86-64 o
 `START_HERE.command` en macOS Intel/Apple silicon. El recibo `REPRODUCTION.json`
 declara qué se ejecutó. El dashboard Streamlit y el contenedor Docker están
@@ -80,7 +80,9 @@ de evidencia y las instrucciones de reproducción antes de interpretar una cifra
 ## Versiones y contribuciones
 
 El DOI [10.5281/zenodo.24121127](https://doi.org/10.5281/zenodo.24121127) identifica
-v0.8.1. Los paquetes v0.10.0 y el desarrollo posterior tienen sus propios commits.
+v0.8.1. Los paquetes research-20261113 fueron recompilados y reproducidos desde el
+commit 0b4fe68b92abf753c2fae20662c77ec35dbddc7a; su release identifica el alcance y
+la construcción. Los paquetes v0.10.0 anteriores permanecen disponibles.
 Las capacidades nuevas no se atribuyen retrospectivamente a esos archivos.
 Manuscrito y suplemento permanecen privados para el depósito del autor.
 
