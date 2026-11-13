@@ -17,8 +17,8 @@
     "AND_gates": 8,
     "source_artifact_nodes": 22,
     "declared_revision_test_nodes": 6,
-    "total_nodes": 65,
-    "total_edges": 67
+    "total_nodes": 67,
+    "total_edges": 69
   },
   "map_semantics": "Typed navigation of frozen evidence and declared conditional support. AND gates preserve joint premises; ordinary source and revision-condition edges are not causal effects. Node positions, counts and filters do not quantify evidential strength.",
   "source_scope": {
@@ -2820,6 +2820,57 @@
       "optional_detail": false
     },
     {
+      "id": "V_FUNCTION",
+      "label": "CFTR functional context and linkage gate",
+      "type": "artifact",
+      "layer": "Evidence artifacts",
+      "status": "conditional",
+      "status_original": "public_source_bound_review_checkpoint",
+      "summary": "Recovered Figure 4 source cells show condition-level channel responses. Across six possible sequence/function pairings, F&I Pearson correlation ranges from -0.998609 to 0.916136.",
+      "details": "Three donor-level observations per condition. Replicate column order does not authenticate a shared culture, library or original fragment. Paired correlation remains unadmitted.",
+      "scope": "Three donor-level observations per condition. Replicate column order does not authenticate a shared culture, library or original fragment. Paired correlation remains unadmitted.",
+      "artifacts": [
+        "examples/observation-report/functional_bridge.json",
+        "docs/FUNCTIONAL_BRIDGE.md",
+        "code/functional_bridge.py"
+      ],
+      "lenses": [
+        "transport",
+        "reproducibility",
+        "scope"
+      ],
+      "metrics": {
+        "Functional pairing": "UNAUTHENTICATED_ACROSS_ASSAYS",
+        "Same pool": "NOT_ESTABLISHED"
+      },
+      "optional_detail": false
+    },
+    {
+      "id": "T_REPORT",
+      "label": "Four-step observation report",
+      "type": "artifact",
+      "layer": "Research tools",
+      "status": "supported",
+      "status_original": "implemented_research_interface",
+      "summary": "Define, account, decide and investigate. A dependency-free Python entry point and guided Streamlit view emit exact JSON and readable HTML; local withdrawal costs remain visible.",
+      "details": "Define, account, decide and investigate. A dependency-free Python entry point and guided Streamlit view emit exact JSON and readable HTML; local withdrawal costs remain visible.",
+      "scope": "Implemented access and computation. Tool availability is not independent validation or community adoption.",
+      "falsification": "Replay the named operation and compare its report with the source contract.",
+      "artifacts": [
+        "code/observability_report.py",
+        "docs/START_HERE.md",
+        "examples/observation-report/report.json",
+        "examples/observation-report/local_utility.json"
+      ],
+      "lenses": [
+        "reproducibility",
+        "geometry",
+        "correspondence"
+      ],
+      "metrics": {},
+      "optional_detail": false
+    },
+    {
       "id": "T_LAB",
       "label": "Read Observability Lab",
       "type": "artifact",
@@ -3740,6 +3791,31 @@
         "scope"
       ],
       "summary": "The COL17A1 retained spans support local correspondence, under the named admission rules."
+    },
+    {
+      "id": "V_FUNCTION->B_accuracy:limits",
+      "source": "V_FUNCTION",
+      "target": "B_accuracy",
+      "relation": "limits",
+      "label": "Functional response is not fragment truth",
+      "status": "conditional",
+      "lenses": [
+        "transport",
+        "scope"
+      ],
+      "summary": "Condition-level functional context does not independently label individual sequenced fragments."
+    },
+    {
+      "id": "T_REPORT->T_CASE:documents",
+      "source": "T_REPORT",
+      "target": "T_CASE",
+      "relation": "documents",
+      "label": "Inspect and replay",
+      "status": "supported",
+      "lenses": [
+        "reproducibility"
+      ],
+      "summary": "This tool exposes or recomputes the linked object; it does not add an independent biological observation."
     },
     {
       "id": "T_LAB->E_geometry:documents",

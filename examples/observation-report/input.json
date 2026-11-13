@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "comparability": "same_declared_contract",
+  "contract": {
+    "target": "in frame observed coding translates to GTIKENIIFGVSYD",
+    "observation_unit": "sequenced raw record",
+    "reference": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849;0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad",
+    "coordinates": "identical observed coding string",
+    "quality_policy": "arithmetic_mean_original_whole_read_Phred33_ge_30",
+    "candidate_domain": "Frozen common observed-coding witness; complete-domain certificates are separate computations",
+    "accepted_label_assumption": "Accepted E and NE labels are correct; unresolved labels may take either binary value",
+    "decision_timing": "Retrospective; outcomes were known"
+  },
+  "provenance": {
+    "frozen_contract_sha256": "7c877d730e5684c7c87742b9cc8baff107c439f9fdb2dc559f003a1fdc3eab46",
+    "event_contract_sha256": "f30778b5f859b36ea574c91f49fe56b6eedcf6934bd6d5ab9a049f0efcc83ec8"
+  },
+  "treated": {
+    "sample_id": "SRR29623272",
+    "universe_id": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5",
+    "source_locator": "M3/WITNESS_COUNTS.json",
+    "N": 20573,
+    "E": 3563,
+    "NE": 15846,
+    "U": 1164
+  },
+  "control": {
+    "sample_id": "SRR29623273",
+    "universe_id": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0",
+    "source_locator": "M3/WITNESS_COUNTS.json",
+    "N": 17177,
+    "E": 2,
+    "NE": 16475,
+    "U": 700
+  }
+}

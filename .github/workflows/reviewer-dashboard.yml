@@ -21,4 +21,4 @@ jobs:
           docker run --detach --name reviewer -p 127.0.0.1:8501:8501 crispr-reviewer
           trap 'docker logs reviewer; docker rm -f reviewer' EXIT
           curl --retry 12 --retry-all-errors --retry-delay 2 --fail http://127.0.0.1:8501/_stcore/health
-          docker exec reviewer python -c "from streamlit.testing.v1 import AppTest; app=AppTest.from_file('reproducibility/reviewer_app.py').run(timeout=40); assert not app.exception, app.exception; assert app.title[0].value == 'CRISPR Observability'; assert len(app.tabs) == 5; app.sidebar.selectbox[0].select('Castellano').run(timeout=40); assert not app.exception, app.exception; assert app.tabs[1].label == 'Laboratorio 3D'"
+          docker exec reviewer python -c "from streamlit.testing.v1 import AppTest; app=AppTest.from_file('reproducibility/reviewer_app.py').run(timeout=40); assert not app.exception, app.exception; assert app.title[0].value == 'CRISPR Observability'; assert len(app.tabs) == 6; app.sidebar.selectbox[0].select('Castellano').run(timeout=40); assert not app.exception, app.exception; assert app.tabs[0].label == 'Empezar aquí'; assert app.tabs[2].label == 'Laboratorio 3D'"

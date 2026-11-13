@@ -259,7 +259,19 @@ def main():
     edge("V_CLONE", "B_accuracy", "limits", "Clone and fragment scope", "conditional",
          ["transport", "scope"], "The COL17A1 retained spans support local correspondence, under the named admission rules.")
 
+    current_node("V_FUNCTION", "CFTR functional context and linkage gate",
+                 "Recovered Figure 4 source cells show condition-level channel responses. Across six possible sequence/function pairings, F&I Pearson correlation ranges from -0.998609 to 0.916136.",
+                 "Three donor-level observations per condition. Replicate column order does not authenticate a shared culture, library or original fragment. Paired correlation remains unadmitted.",
+                 ["examples/observation-report/functional_bridge.json", "docs/FUNCTIONAL_BRIDGE.md", "code/functional_bridge.py"],
+                 {"Functional pairing": "UNAUTHENTICATED_ACROSS_ASSAYS", "Same pool": "NOT_ESTABLISHED"}, status="conditional")
+    nodes[-1]["layer"] = "Evidence artifacts"
+    nodes[-1]["type"] = "artifact"
+    edge("V_FUNCTION", "B_accuracy", "limits", "Functional response is not fragment truth", "conditional",
+         ["transport", "scope"], "Condition-level functional context does not independently label individual sequenced fragments.")
+
     for ident, title, description, artifacts, target in [
+        ("T_REPORT", "Four-step observation report", "Define, account, decide and investigate. A dependency-free Python entry point and guided Streamlit view emit exact JSON and readable HTML; local withdrawal costs remain visible.",
+         ["code/observability_report.py", "docs/START_HERE.md", "examples/observation-report/report.json", "examples/observation-report/local_utility.json"], "T_CASE"),
         ("T_LAB", "Read Observability Lab", "Manipulate read boundaries and sequence spans in a source-bound 3D laboratory; import cases and export replayable results.",
          ["interactive/lab/README.md", "interactive/lab/CFTR_OBSERVABILITY_LAB.html"], "E_geometry"),
         ("T_CASE", "Executable CFTR leading case", "Two authentic reads, seven operations, exact expected outcomes and explicit geometric counterfactuals.",

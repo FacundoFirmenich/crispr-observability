@@ -1,5 +1,7 @@
 # Guía para investigadores y comunidad
 
+Empiece por la [guía de decisión en cuatro pasos](START_HERE.es.md).
+
 [English](RESEARCHER_GUIDE.md) · [Caso guía](LEADING_CASE.es.md)
 
 ## Elegir la tarea científica
@@ -70,7 +72,7 @@ coincidente no demuestra identidad de muestra ni molécula.
 
 ## Reproducción, Streamlit y Docker
 
-Los paquetes nativos v0.9.0 incluyen runtime Python y entradas congeladas:
+Los paquetes nativos v0.10.0 incluyen runtime Python y entradas congeladas:
 Windows x86-64 `START_HERE.bat`, Linux x86-64 `START_HERE.sh`, macOS Intel/Apple
 silicon `START_HERE.command`. Cada binario corresponde a su plataforma. Las
 mejoras actuales de fuente son posteriores a esa release: consulte el commit

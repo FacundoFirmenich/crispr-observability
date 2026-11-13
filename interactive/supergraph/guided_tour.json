@@ -205,5 +205,41 @@
       "docs/LEADING_CASE.md",
       "docs/RESEARCH_LINES.md"
     ]
+  },
+  {
+    "title": "Start with a decision, not an interface",
+    "question": "What should I do with my own counts?",
+    "finding": "Define the event, preserve E/NE/U, compute the exact contrast and choose the next check. The guided report also exposes local discordance removal and concordance loss.",
+    "scope": "Arithmetic and structural validation of declared inputs; the report does not independently authenticate labels.",
+    "nodes": [
+      "T_REPORT",
+      "T_CASE"
+    ],
+    "focus": "T_REPORT",
+    "edges": [
+      "T_REPORT->T_CASE:documents"
+    ],
+    "sources": [
+      "docs/START_HERE.md",
+      "examples/observation-report/report.json"
+    ]
+  },
+  {
+    "title": "Connect to function only through a verified link",
+    "question": "Can the functional result calibrate these sequence calls?",
+    "finding": "The published PE responses exceed the mock responses at condition level. However, six possible assignments of three functional labels change the sign and size of the apparent sequence-function correlation.",
+    "scope": "Functional context is admitted; a paired correlation, same-pool identity and original-fragment truth remain unauthenticated.",
+    "nodes": [
+      "V_FUNCTION",
+      "B_accuracy"
+    ],
+    "focus": "V_FUNCTION",
+    "edges": [
+      "V_FUNCTION->B_accuracy:limits"
+    ],
+    "sources": [
+      "docs/FUNCTIONAL_BRIDGE.md",
+      "examples/observation-report/functional_bridge.json"
+    ]
   }
 ]

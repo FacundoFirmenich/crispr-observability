@@ -1,14 +1,14 @@
 {
   "status": "PASS",
   "input_model_sha256": "f5a9179899bace3f773d45363977152433ca29542fb0b56ba98b63006a4305b4",
-  "graph_sha256": "d41c3e525401588d9a9ef0bc46b231267e06dd2d6679e38fffb6fdfc433363e7",
+  "graph_sha256": "88c8c1ec9c95c6127085cdf393edfaf786eb2b8b2be090955fb8d1cb62b4d8f8",
   "graph_rebuild_byte_identical": true,
   "canonical_source_fingerprints_verified": 22,
   "core_node_source_fields_preserved": 21,
   "AND_hyperedges_preserved_with_all_premises": 8,
   "declared_revision_tests_not_new_experiments": 6,
   "witness_rows_bytewise_structure_preserved": 18,
-  "total_nodes": 65,
-  "total_edges": 67,
+  "total_nodes": 67,
+  "total_edges": 69,
   "scope": "Source identity and data-to-graph conversion consistency. Not molecular calibration, prospective validation or independent human replication."
 }

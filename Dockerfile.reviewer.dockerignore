@@ -13,6 +13,11 @@
 !interactive/lab/CFTR_OBSERVABILITY_LAB.html
 !docs/
 !docs/**
+!code/
+!code/observability_report.py
+!extensions/reproduction/
+!extensions/reproduction/contract/
+!extensions/reproduction/contract/**
 !reproducibility/
 !reproducibility/reproduce.py
 !reproducibility/reviewer_app.py

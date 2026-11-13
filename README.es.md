@@ -1,5 +1,7 @@
 # CRISPR Observability
 
+**Empiece por una respuesta utilizable:** [guía de cuatro pasos](docs/START_HERE.es.md) · [entrada JSON auténtica](examples/observation-report/input.json) · [informe de decisión](examples/observation-report/report.html). Entrada guiada Streamlit o CLI con Python, sin conocimientos previos de grafos.
+
 [English](README.md) · [Abrir el entorno de investigación](https://facundofirmenich.github.io/crispr-observability/)
 
 **Seguir la afirmación. Examinar la evidencia. Cambiar parámetros. Reproducir el resultado.**
@@ -48,7 +50,7 @@ cd crispr-observability
 python -B reproducibility/reproduce.py --mode quick --output replay-quick
 ```
 
-Para abrir sin instalar Python, use la [release nativa v0.9.0](https://github.com/FacundoFirmenich/crispr-observability/releases/tag/v0.9.0):
+Para abrir sin instalar Python, use la [release nativa v0.10.0](https://github.com/FacundoFirmenich/crispr-observability/releases/tag/v0.10.0):
 `START_HERE.bat` en Windows x86-64, `START_HERE.sh` en Linux x86-64 o
 `START_HERE.command` en macOS Intel/Apple silicon. El recibo `REPRODUCTION.json`
 declara qué se ejecutó. El dashboard Streamlit y el contenedor Docker están
@@ -74,7 +76,7 @@ de evidencia y las instrucciones de reproducción antes de interpretar una cifra
 ## Versiones y contribuciones
 
 El DOI [10.5281/zenodo.24121127](https://doi.org/10.5281/zenodo.24121127) identifica
-v0.8.1. Los paquetes v0.9.0 y el desarrollo posterior tienen sus propios commits.
+v0.8.1. Los paquetes v0.10.0 y el desarrollo posterior tienen sus propios commits.
 Las capacidades nuevas no se atribuyen retrospectivamente a esos archivos.
 Manuscrito y suplemento permanecen privados para el depósito del autor.
 

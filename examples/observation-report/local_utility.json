@@ -1,0 +1,335 @@
+{
+  "source": "extensions/generation_model/validation/results/HOMOPOLYMER_REPLICATION_COMPARISON.json",
+  "source_sha256": "f8b8b4a6682b5a7bb4e0b025a50109fc2329f7582b3ebd4f220d4298e040743c",
+  "scope": "Descriptive concordance against external germline genotype benchmarks in selected donor/tract jurisdictions; not editing accuracy or a threshold sweep.",
+  "local_rows": [
+    {
+      "donor": "HG006",
+      "tract": "ge15",
+      "N": 32,
+      "initial": {
+        "C": 25,
+        "D": 5,
+        "U": 2
+      },
+      "final": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "discordances_removed": {
+        "exact": "1",
+        "percent": 100.0
+      },
+      "concordances_sacrificed": {
+        "exact": "1",
+        "percent": 100.0
+      },
+      "break_even_discordance_to_abstention_cost": "6",
+      "coverage_before": {
+        "exact": "15/16",
+        "percent": 93.75
+      },
+      "coverage_after": {
+        "exact": "0",
+        "percent": 0.0
+      },
+      "discordance_among_retained_before": {
+        "exact": "1/6",
+        "percent": 16.666666666666668
+      },
+      "discordance_among_retained_after": null
+    },
+    {
+      "donor": "HG006",
+      "tract": "lt15",
+      "N": 32,
+      "initial": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "final": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "discordances_removed": {
+        "exact": "1",
+        "percent": 100.0
+      },
+      "concordances_sacrificed": {
+        "exact": "11/30",
+        "percent": 36.666666666666664
+      },
+      "break_even_discordance_to_abstention_cost": "13/2",
+      "coverage_before": {
+        "exact": "1",
+        "percent": 100.0
+      },
+      "coverage_after": {
+        "exact": "19/32",
+        "percent": 59.375
+      },
+      "discordance_among_retained_before": {
+        "exact": "1/16",
+        "percent": 6.25
+      },
+      "discordance_among_retained_after": {
+        "exact": "0",
+        "percent": 0.0
+      }
+    },
+    {
+      "donor": "HG007",
+      "tract": "lt15",
+      "N": 32,
+      "initial": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "final": {
+        "C": 28,
+        "D": 0,
+        "U": 4
+      },
+      "discordances_removed": {
+        "exact": "1",
+        "percent": 100.0
+      },
+      "concordances_sacrificed": {
+        "exact": "1/15",
+        "percent": 6.666666666666667
+      },
+      "break_even_discordance_to_abstention_cost": "3",
+      "coverage_before": {
+        "exact": "31/32",
+        "percent": 96.875
+      },
+      "coverage_after": {
+        "exact": "7/8",
+        "percent": 87.5
+      },
+      "discordance_among_retained_before": {
+        "exact": "1/31",
+        "percent": 3.225806451612903
+      },
+      "discordance_among_retained_after": {
+        "exact": "0",
+        "percent": 0.0
+      }
+    },
+    {
+      "donor": "HG007",
+      "tract": "ge15",
+      "N": 32,
+      "initial": {
+        "C": 27,
+        "D": 3,
+        "U": 2
+      },
+      "final": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "discordances_removed": {
+        "exact": "1",
+        "percent": 100.0
+      },
+      "concordances_sacrificed": {
+        "exact": "1",
+        "percent": 100.0
+      },
+      "break_even_discordance_to_abstention_cost": "10",
+      "coverage_before": {
+        "exact": "15/16",
+        "percent": 93.75
+      },
+      "coverage_after": {
+        "exact": "0",
+        "percent": 0.0
+      },
+      "discordance_among_retained_before": {
+        "exact": "1/10",
+        "percent": 10.0
+      },
+      "discordance_among_retained_after": null
+    },
+    {
+      "donor": "HG003",
+      "tract": "ge15",
+      "N": 23,
+      "initial": {
+        "C": 14,
+        "D": 7,
+        "U": 2
+      },
+      "final": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "discordances_removed": {
+        "exact": "1",
+        "percent": 100.0
+      },
+      "concordances_sacrificed": {
+        "exact": "13/14",
+        "percent": 92.85714285714286
+      },
+      "break_even_discordance_to_abstention_cost": "20/7",
+      "coverage_before": {
+        "exact": "21/23",
+        "percent": 91.30434782608695
+      },
+      "coverage_after": {
+        "exact": "1/23",
+        "percent": 4.3478260869565215
+      },
+      "discordance_among_retained_before": {
+        "exact": "1/3",
+        "percent": 33.333333333333336
+      },
+      "discordance_among_retained_after": {
+        "exact": "0",
+        "percent": 0.0
+      }
+    },
+    {
+      "donor": "HG003",
+      "tract": "lt15",
+      "N": 32,
+      "initial": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "final": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "discordances_removed": null,
+      "concordances_sacrificed": {
+        "exact": "13/32",
+        "percent": 40.625
+      },
+      "break_even_discordance_to_abstention_cost": null,
+      "coverage_before": {
+        "exact": "1",
+        "percent": 100.0
+      },
+      "coverage_after": {
+        "exact": "19/32",
+        "percent": 59.375
+      },
+      "discordance_among_retained_before": {
+        "exact": "0",
+        "percent": 0.0
+      },
+      "discordance_among_retained_after": {
+        "exact": "0",
+        "percent": 0.0
+      }
+    },
+    {
+      "donor": "HG004",
+      "tract": "ge15",
+      "N": 26,
+      "initial": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "final": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "discordances_removed": {
+        "exact": "7/8",
+        "percent": 87.5
+      },
+      "concordances_sacrificed": {
+        "exact": "1",
+        "percent": 100.0
+      },
+      "break_even_discordance_to_abstention_cost": "25/7",
+      "coverage_before": {
+        "exact": "1",
+        "percent": 100.0
+      },
+      "coverage_after": {
+        "exact": "1/26",
+        "percent": 3.8461538461538463
+      },
+      "discordance_among_retained_before": {
+        "exact": "4/13",
+        "percent": 30.76923076923077
+      },
+      "discordance_among_retained_after": {
+        "exact": "1",
+        "percent": 100.0
+      }
+    },
+    {
+      "donor": "HG004",
+      "tract": "lt15",
+      "N": 32,
+      "initial": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "final": {
+        "C": 27,
+        "D": 0,
+        "U": 5
+      },
+      "discordances_removed": null,
+      "concordances_sacrificed": {
+        "exact": "4/31",
+        "percent": 12.903225806451612
+      },
+      "break_even_discordance_to_abstention_cost": null,
+      "coverage_before": {
+        "exact": "31/32",
+        "percent": 96.875
+      },
+      "coverage_after": {
+        "exact": "27/32",
+        "percent": 84.375
+      },
+      "discordance_among_retained_before": {
+        "exact": "0",
+        "percent": 0.0
+      },
+      "discordance_among_retained_after": {
+        "exact": "0",
+        "percent": 0.0
+      }
+    }
+  ],
+  "totals": {
+    "initial": {
+      "C": 207,
+      "D": 26,
+      "U": 8
+    },
+    "final": {
+      "C": 94,
+      "D": 1,
+      "U": 146
+    }
+  },
+  "decision_loss": {
+    "definition": "L = c_D * discordant_calls + c_U * unresolved_calls; concordant_calls have zero loss",
+    "extra_unresolved": 138,
+    "discordances_removed": 25,
+    "break_even_c_D_over_c_U": "138/25",
+    "scope": "Decision sensitivity under user-specified costs; costs are not estimated or optimized from these outcomes."
+  },
+  "interpretation": "Report both error withdrawal and information loss. A rule retaining no calls has undefined retained discordance, not zero error."
+}

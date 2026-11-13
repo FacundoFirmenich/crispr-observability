@@ -1,0 +1,329 @@
+{
+  "source_doi": "10.1038/s41551-024-01233-3",
+  "source_attribution": "Sousa et al., original Figure 4 and Supplementary Table 2; CC BY 4.0 article. Derived analysis by the CRISPR Observability project.",
+  "provenance": [
+    {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41551-024-01233-3/MediaObjects/41551_2024_1233_MOESM4_ESM.xlsx",
+      "filename": "41551_2024_1233_MOESM4_ESM.xlsx",
+      "sha256": "079ff7cd6f2ca70453882eb01429d48712c781e3e13e4a4beee054f4bd866851",
+      "MB": 0.108234,
+      "worksheets_parsed": [
+        "Figure 1",
+        "Figure 2",
+        "Figure 3",
+        "Figure 4",
+        "ED Figure 1",
+        "ED Figure 2",
+        "ED Figure 3",
+        "ED Figure 4",
+        "ED Figure 6",
+        "ED Figure 7",
+        "ED Figure 8",
+        "ED Figure 9",
+        "ED Figure 10"
+      ]
+    },
+    {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41551-024-01233-3/MediaObjects/41551_2024_1233_MOESM3_ESM.xlsx",
+      "filename": "41551_2024_1233_MOESM3_ESM.xlsx",
+      "sha256": "8c7e5104f58ba3ece7784552bb2396df94008f1d132d8db1d741490f3d1d6e0a",
+      "MB": 0.766851,
+      "worksheets_parsed": [
+        "ST1 Sequencing Primers",
+        "ST2 gRNA sequences + SRA files",
+        "ST3 CIRCLEseq epegRNA",
+        "ST4 CIRCLEseq ngRNA",
+        "ST5 CIRCLEseq dsgRNA"
+      ]
+    }
+  ],
+  "source_cells": {
+    "B4": "Fig. 4a",
+    "D4": "CFTR F508del CTT insertion",
+    "G4": "indels",
+    "D5": "Replicate 1",
+    "E5": "Replicate 2",
+    "F5": "Replicate 3",
+    "G5": "Replicate 1",
+    "H5": "Replicate 2",
+    "I5": "Replicate 3",
+    "C6": "Untreated Cells",
+    "D6": "7.3810000000000004E-3",
+    "E6": "0",
+    "F6": "3.372E-3",
+    "G6": "8.8567000000000007E-2",
+    "H6": "0.259413",
+    "I6": "0.236008",
+    "C7": "Mock Treatment",
+    "D7": "1.1849E-2",
+    "E7": "4.797E-3",
+    "F7": "0",
+    "G7": "0.24883",
+    "H7": "0.21105099999999999",
+    "I7": "0.167961",
+    "C8": "PE Treated Cells",
+    "D8": "17.986719999999998",
+    "E8": "30.943079999999998",
+    "F8": "26.505030000000001",
+    "G8": "5.5412369999999997",
+    "H8": "6.9225899999999996",
+    "I8": "7.1015290000000002",
+    "B139": "Fig. 4c",
+    "D139": "Mock",
+    "G139": "Mock_ETI",
+    "J139": "PE treated",
+    "M139": "nonCF",
+    "D140": "Replicate 1",
+    "E140": "Replicate 2",
+    "F140": "Replicate 3",
+    "G140": "Replicate 1",
+    "H140": "Replicate 2",
+    "I140": "Replicate 3",
+    "J140": "Replicate 1",
+    "K140": "Replicate 2",
+    "L140": "Replicate 3",
+    "M140": "Replicate 1",
+    "N140": "Replicate 2",
+    "O140": "Replicate 3",
+    "B141": "\u0394Isc(\u03bcA/cm^-2)",
+    "C141": "F&I",
+    "D141": "-0.34216669999999999",
+    "E141": "-1.0758232999999999",
+    "F141": "-1.0234182999999999",
+    "G141": "11.393230000000001",
+    "H141": "8.5957849999999993",
+    "I141": "12.720280000000001",
+    "J141": "10.0214797",
+    "K141": "19.765526699999999",
+    "L141": "12.8944473",
+    "M141": "22.240839999999999",
+    "N141": "17.6046367",
+    "O141": "17.256304499999999",
+    "C142": "CFTR-172",
+    "D142": "-1.6368533000000001",
+    "E142": "-0.53020670000000003",
+    "F142": "0.35449711",
+    "G142": "-9.0674200000000003",
+    "H142": "-4.1707400000000003",
+    "I142": "-9.0442999999999998",
+    "J142": "-11.186683",
+    "K142": "-11.473380000000001",
+    "L142": "-6.5535730000000001",
+    "M142": "-22.919",
+    "N142": "-29.250633000000001",
+    "O142": "-17.774177000000002"
+  },
+  "figure4a_metadata_cells": {
+    "A191": "F4a",
+    "B191": "primary CF patient airway epithelial cells ",
+    "C191": "PRJNA1055086",
+    "D191": "Fig4a_LAS283_001_CFB-26-16_Unmanipulated.fastq.gz",
+    "E191": "Fig4a_LAS284-039_CFB-26-02_unmanipulated.fastq.gz",
+    "F191": "Fig4a_LAS284-037_CFB-06-04_unmanipulated.fastq.gz",
+    "G191": "untreated",
+    "H191": "CFTR F508del",
+    "I191": "NGG2",
+    "J191": "SE2",
+    "A192": "F4a",
+    "B192": "primary CF patient airway epithelial cells ",
+    "C192": "PRJNA1055086",
+    "D192": "Fig4a_LAS283_002_CFB-26-16_Mock.fastq.gz",
+    "E192": "Fig4a_LAS284-040_CFB-26-02_mock.fastq.gz",
+    "F192": "Fig4a_LAS284-038_CFB-06-04_mock.fastq.gz",
+    "G192": "mock",
+    "H192": "CFTR F508del",
+    "I192": "NGG2",
+    "J192": "SE2",
+    "A193": "F4a",
+    "B193": "primary CF patient airway epithelial cells ",
+    "C193": "PRJNA1055086",
+    "D193": "Fig4a_LAS283_004_CFB-26-16_PE6c-epeg147-nsgRNA-dsgRNA.fastq.gz",
+    "E193": "Fig4a_LAS284-002_CFB-26-02_PE6c-epeg147-nsgRNA-dsgRNA.fastq.gz",
+    "F193": "Fig4a_LAS284-014_CFB-06-04_PE6c-epeg147-nsgRNA-dsgRNA.fastq.gz",
+    "G193": "PE treated",
+    "H193": "CFTR F508del",
+    "I193": "NGG2",
+    "J193": "SE2",
+    "K193": "LrAS0147",
+    "L193": "UCUGUAUCUAUAUUCAUCAU",
+    "M193": "GUUUUAGAGCUAGAAAUAGCAAGUUAAAAUAAGGCUAGUCCGUUAUCAACUUGAAAAAGUGGCACCGAGUCGGUGC",
+    "N193": "UGGCACCAUUAAAGAAAAUAUCAUCUUUGGUGUGAGUUACG",
+    "O193": "AUGAAUAUAGAUA",
+    "P193": "CGCGGUUCUAUCUAGUUACGCGUUAAACCAACUAGAA",
+    "Q193": "LrAS0085",
+    "R193": "GGAGAACUGGAGCCUUCAGA",
+    "S193": "GUUUUAGAGCUAGAAAUAGCAAGUUAAAAUAAGGCUAGUCCGUUAUCAACUUGAAAAAGUGGCACCGAGUCGGUGCUUUU",
+    "T193": "LrAS0129",
+    "U193": "UUACCUCUUCUAGU",
+    "V193": "GUUUUAGAGCUAGAAAUAGCAAGUUAAAAUAAGGCUAGUCCGUUAUCAACUUGAAAAAGUGGCACCGAGUCGGUGCUUU"
+  },
+  "published_CTT_insertion_percent": [
+    17.98672,
+    30.94308,
+    26.50503
+  ],
+  "endpoints": {
+    "F_and_I": {
+      "unit": "microampere per square centimetre",
+      "sign_convention": "published response",
+      "treated": [
+        10.0214797,
+        19.7655267,
+        12.8944473
+      ],
+      "mock": [
+        -0.3421667,
+        -1.0758233,
+        -1.0234183
+      ],
+      "unpaired_cross_difference_range": [
+        10.3636464,
+        20.84135
+      ],
+      "all_observed_treated_exceed_all_observed_mock": true,
+      "conditional_column_order_pearson": 0.916136337306979,
+      "pairing_sensitivity_all_six": [
+        {
+          "functional_replicate_order": [
+            0,
+            1,
+            2
+          ],
+          "pearson": 0.916136337306979
+        },
+        {
+          "functional_replicate_order": [
+            0,
+            2,
+            1
+          ],
+          "pearson": 0.45364265104820345
+        },
+        {
+          "functional_replicate_order": [
+            1,
+            0,
+            2
+          ],
+          "pearson": -0.9986090287576196
+        },
+        {
+          "functional_replicate_order": [
+            1,
+            2,
+            0
+          ],
+          "pearson": -0.8052290227245024
+        },
+        {
+          "functional_replicate_order": [
+            2,
+            0,
+            1
+          ],
+          "pearson": -0.11090731458247646
+        },
+        {
+          "functional_replicate_order": [
+            2,
+            1,
+            0
+          ],
+          "pearson": 0.544966377709416
+        }
+      ],
+      "pairing_sensitivity_range": [
+        -0.9986090287576196,
+        0.916136337306979
+      ]
+    },
+    "CFTR_inhibitor_response": {
+      "unit": "microampere per square centimetre",
+      "sign_convention": "negative of published inhibitor response",
+      "treated": [
+        11.186683,
+        11.47338,
+        6.553573
+      ],
+      "mock": [
+        1.6368533,
+        0.5302067,
+        -0.35449711
+      ],
+      "unpaired_cross_difference_range": [
+        4.9167197,
+        11.827877110000001
+      ],
+      "all_observed_treated_exceed_all_observed_mock": true,
+      "conditional_column_order_pearson": -0.12757306199242108,
+      "pairing_sensitivity_all_six": [
+        {
+          "functional_replicate_order": [
+            0,
+            1,
+            2
+          ],
+          "pearson": -0.12757306199242108
+        },
+        {
+          "functional_replicate_order": [
+            0,
+            2,
+            1
+          ],
+          "pearson": -0.72800442971035
+        },
+        {
+          "functional_replicate_order": [
+            1,
+            0,
+            2
+          ],
+          "pearson": -0.22972092158266075
+        },
+        {
+          "functional_replicate_order": [
+            1,
+            2,
+            0
+          ],
+          "pearson": -0.7951627314113012
+        },
+        {
+          "functional_replicate_order": [
+            2,
+            0,
+            1
+          ],
+          "pearson": 0.9227357934037222
+        },
+        {
+          "functional_replicate_order": [
+            2,
+            1,
+            0
+          ],
+          "pearson": 0.9577253512930108
+        }
+      ],
+      "pairing_sensitivity_range": [
+        -0.7951627314113012,
+        0.9577253512930108
+      ]
+    }
+  },
+  "pairing_status": "UNAUTHENTICATED_ACROSS_ASSAYS",
+  "same_pool_status": "NOT_ESTABLISHED",
+  "scope": "Three donor-level source observations per condition. Pairing sensitivity enumerates possible label assignments, not new biological observations; it is not a confidence interval or a validated sequence-function correlation.",
+  "reason": "Both panels label Replicate 1-3, but the functional table lacks donor/culture identifiers authenticating correspondence to the sequencing file names. Column order alone is not a join key. The paper describes functional recording after three weeks of differentiation.",
+  "required_link_fields": [
+    "donor_id",
+    "culture_or_pool_id",
+    "condition",
+    "sampling_time",
+    "sequencing_library_id",
+    "functional_assay_id",
+    "source_manifest_supporting_link"
+  ],
+  "decision": "Admit condition-level descriptive functional context. Do not calibrate read-level certificates, pair records across assays, or infer sequence-function dose response from unauthenticated row order."
+}

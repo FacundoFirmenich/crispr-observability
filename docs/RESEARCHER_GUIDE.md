@@ -1,5 +1,7 @@
 # Researcher and community guide
 
+Start with the [four-step decision guide](START_HERE.md).
+
 [Castellano](RESEARCHER_GUIDE.es.md) · [Leading case](LEADING_CASE.md)
 
 ## Choose the scientific task
@@ -70,7 +72,7 @@ Never infer sample or molecule identity from a matching filename alone.
 
 ## Reproduction, Streamlit and Docker
 
-Native v0.9.0 packages include their Python runtime and frozen inputs:
+Native v0.10.0 packages include their Python runtime and frozen inputs:
 Windows x86-64 `START_HERE.bat`, Linux x86-64 `START_HERE.sh`, macOS Intel/Apple
 silicon `START_HERE.command`. These are platform-specific launchers, not one
 binary for every operating system. Current source updates postdate that fixed

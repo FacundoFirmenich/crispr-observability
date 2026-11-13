@@ -1,0 +1,25 @@
+name: Guided observation report
+on:
+  push:
+    paths: ['code/observability_report.py', 'code/test_observability_report.py', 'examples/observation-report/**', '.github/workflows/observation-report.yml']
+  pull_request:
+    paths: ['code/observability_report.py', 'code/test_observability_report.py', 'examples/observation-report/**', '.github/workflows/observation-report.yml']
+permissions:
+  contents: read
+jobs:
+  report:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - run: python code/test_observability_report.py
+      - run: python code/observability_report.py demo --output "$RUNNER_TEMP/observation-report"
+      - name: Compare replay with distributed results
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          expected=Path('examples/observation-report')
+          actual=Path(os.environ['RUNNER_TEMP'])/'observation-report'
+          for name in ['input.json','report.json','local_utility.json']:
+              assert json.loads((expected/name).read_bytes())==json.loads((actual/name).read_bytes()),name
+          PY

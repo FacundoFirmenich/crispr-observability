@@ -6,6 +6,9 @@ from pathlib import Path
 import subprocess
 import sys
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'code'))
+from observability_report import analyse, demo_input, render, utility
+
 import altair as alt
 import pandas as pd
 import streamlit as st
@@ -27,10 +30,28 @@ def T(en, es):
 st.title("CRISPR Observability")
 st.caption(T("Explore the public evidence, reproduce a section, and inspect its execution record.","Explore la evidencia pública, reproduzca una sección y examine su registro de ejecución."))
 model = json.loads((GRAPH / "review_graph_model.json").read_bytes())
-evidence, lab, replay, ledger, guides = st.tabs([
+start, evidence, lab, replay, ledger, guides = st.tabs([
+    T("Start here", "Empezar aquí"),
     T("Evidence and figures", "Evidencia y figuras"), T("3D research laboratory", "Laboratorio 3D"),
     T("Reproduce", "Reproducir"), T("Execution ledger", "Ledger de ejecución"),
     T("Researcher guides", "Guías de investigación")])
+
+with start:
+    st.subheader(T("One question. Four steps. A reproducible answer.", "Una pregunta. Cuatro pasos. Una respuesta reproducible."))
+    st.markdown(T("**Question:** do the acquired CFTR records resolve a positive treated–mock contrast for the declared native-local sequence event?", "**Pregunta:** ¿los registros CFTR adquiridos resuelven un contraste positivo entre tratado y mock para el evento local declarado?"))
+    st.markdown(T("**1. Define** the event and quality policy. **2. Account** for E, NE and U. **3. Interpret** the exact bounds. **4. Choose** the next check or measurement.", "**1. Defina** evento y calidad. **2. Conserve** E, NE y U. **3. Interprete** las cotas exactas. **4. Elija** la comprobación o medición siguiente."))
+    data=demo_input()
+    upload=st.file_uploader(T("Optional: load your observation contract (JSON)","Opcional: cargue su contrato de observación (JSON)"),type=['json'])
+    try:
+        if upload:data=json.loads(upload.getvalue())
+        result=analyse(data)
+        st.info(T("The output validates declared counts and arithmetic. It does not independently authenticate your labels.", "El resultado valida los recuentos declarados y la aritmética. No autentica independientemente sus etiquetas."))
+        components.html(render(result,utility() if upload is None else None),height=900,scrolling=True)
+        st.download_button(T("Download decision report (HTML)","Descargar informe de decisión (HTML)"),render(result,utility() if upload is None else None),'observability-report.html','text/html')
+        st.download_button(T("Download exact results (JSON)","Descargar resultados exactos (JSON)"),json.dumps(result,indent=2),'observability-report.json','application/json')
+        st.download_button(T("Download editable input contract","Descargar contrato de entrada editable"),json.dumps(data,indent=2),'observation-input.json','application/json')
+    except (ValueError,KeyError,TypeError) as exc:
+        st.error(T("Contract rejected: ","Contrato rechazado: ")+str(exc))
 
 with evidence:
     st.subheader(T("Conditional finite-record bounds","Cotas condicionadas sobre registros finitos"))

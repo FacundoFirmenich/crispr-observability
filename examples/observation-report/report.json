@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "contract": {
+    "target": "in frame observed coding translates to GTIKENIIFGVSYD",
+    "observation_unit": "sequenced raw record",
+    "reference": "a7393f9183cf447ef31f15c731ceda74fa0c34da9c83a6d0c1c7bc5408102849;0f9a368a6cb4baec63d85415285fd45251b40af27ff07bcb0da061cf0add04ad",
+    "coordinates": "identical observed coding string",
+    "quality_policy": "arithmetic_mean_original_whole_read_Phred33_ge_30",
+    "candidate_domain": "Frozen common observed-coding witness; complete-domain certificates are separate computations",
+    "accepted_label_assumption": "Accepted E and NE labels are correct; unresolved labels may take either binary value",
+    "decision_timing": "Retrospective; outcomes were known"
+  },
+  "arms": [
+    {
+      "arm": "treated",
+      "sample_id": "SRR29623272",
+      "universe_id": "703b0ee2b000ba62806b029f1e4ed4b6f00f7e7c3f1a1f188ae6a99f7ee373d5",
+      "source_locator": "M3/WITNESS_COUNTS.json",
+      "N": 20573,
+      "E": 3563,
+      "NE": 15846,
+      "U": 1164,
+      "bounds": {
+        "lower": {
+          "exact": "509/2939",
+          "percent": 17.3188159237836
+        },
+        "upper": {
+          "exact": "4727/20573",
+          "percent": 22.976717056335975
+        }
+      },
+      "unresolved_fraction": {
+        "exact": "1164/20573",
+        "percent": 5.657901132552374
+      },
+      "resolved_only_event_fraction": {
+        "exact": "3563/19409",
+        "percent": 18.357463032613737
+      }
+    },
+    {
+      "arm": "control",
+      "sample_id": "SRR29623273",
+      "universe_id": "f254f1bcad52ad8a06e6e9621fb634f97d5e0dd2461fa35dfe6514536db153b0",
+      "source_locator": "M3/WITNESS_COUNTS.json",
+      "N": 17177,
+      "E": 2,
+      "NE": 16475,
+      "U": 700,
+      "bounds": {
+        "lower": {
+          "exact": "2/17177",
+          "percent": 0.011643476742155207
+        },
+        "upper": {
+          "exact": "702/17177",
+          "percent": 4.0868603364964775
+        }
+      },
+      "unresolved_fraction": {
+        "exact": "700/17177",
+        "percent": 4.075216859754323
+      },
+      "resolved_only_event_fraction": {
+        "exact": "2/16477",
+        "percent": 0.012138131941494204
+      }
+    }
+  ],
+  "contrast": {
+    "lower": {
+      "exact": "6679915/50483203",
+      "percent": 13.231955587287121
+    },
+    "upper": {
+      "exact": "81154533/353382421",
+      "percent": 22.96507357959382
+    },
+    "decision": "positive_for_all_binary_completions"
+  },
+  "interpretation": "Conditional finite-record contrast under the declared accepted-label assumption. Unknown records remain in the original universe. These bounds are not confidence intervals.",
+  "validation_scope": "Structural and arithmetic validation; input declarations and classification truth are not independently authenticated.",
+  "input_sha256": "3242b03f4579f65f71c1a45ed4ba069e93668fb0978c51617c7c5d343e50a5f9"
+}

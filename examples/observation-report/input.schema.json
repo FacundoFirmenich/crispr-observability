@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Finite-record observation report input",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "comparability",
+    "contract",
+    "treated",
+    "control"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "comparability": {
+      "const": "same_declared_contract"
+    },
+    "contract": {
+      "type": "object",
+      "required": [
+        "target",
+        "observation_unit",
+        "reference",
+        "coordinates",
+        "quality_policy",
+        "candidate_domain",
+        "accepted_label_assumption",
+        "decision_timing"
+      ],
+      "properties": {
+        "target": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observation_unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "coordinates": {
+          "type": "string",
+          "minLength": 1
+        },
+        "quality_policy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "candidate_domain": {
+          "type": "string",
+          "minLength": 1
+        },
+        "accepted_label_assumption": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision_timing": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "treated": {
+      "type": "object",
+      "required": [
+        "sample_id",
+        "universe_id",
+        "source_locator",
+        "N",
+        "E",
+        "NE",
+        "U"
+      ],
+      "properties": {
+        "sample_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "universe_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "N": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "E": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "NE": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "U": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "control": {
+      "type": "object",
+      "required": [
+        "sample_id",
+        "universe_id",
+        "source_locator",
+        "N",
+        "E",
+        "NE",
+        "U"
+      ],
+      "properties": {
+        "sample_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "universe_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "N": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "E": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "NE": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "U": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

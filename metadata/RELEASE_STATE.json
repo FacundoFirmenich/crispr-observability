@@ -36,7 +36,7 @@
   "historical_verified_alignment_jobs_in_MP02": 144,
   "full_alignment_large_original_outputs_included_in_repository": false,
   "source_SRA_accessions_currently_resolved": 9,
-  "repository_default_branch": "Ulalito's-Island",
+  "repository_default_branch": "main",
   "release_date": "2026-11-11",
   "public_source_release_does_not_certify_human_final_manuscript_approval": true,
   "complete_author_profile_recovered": true,
@@ -80,7 +80,7 @@
       "code_license": "GPL-3.0-only",
       "historical_snapshot_sha256": "19ae4eac0eb949faeea90027be2151a0257613766ea3370b2390d6f9dd75c31c",
       "historical_browser_QA": "PASS_AT_4e0d9b801436f9be5ae957201736a1b1744bcb11",
-      "current_sha256": "53d1418335c46eadcb927422c1e50994642e02d0f6766d3edd798b383fa1dd9a",
+      "current_sha256": "c89c9455968cfffe4de4360b1f648f699111c4c4f6bbbb1bccc53e39bf4be88b",
       "current_validation": "See exact source-commit workflow status."
     },
     {
@@ -184,5 +184,13 @@
     "native_release_state": "SOURCE_PREPARED_REQUIRES_EXACT_COMMIT_BUILD_RECEIPTS",
     "author_reported_development_hardware": "2016 laptop, Intel Core i5-6200U 2.30 GHz; larger campaigns on hosted compute",
     "scope": "Capabilities and access; no new biological measurement or independent user adoption."
+  },
+  "source_revision_note": "Post-v0.10.0 guided reporting and source-bound functional linkage audit; native release remains immutable.",
+  "guided_observation_report": {
+    "entry": "code/observability_report.py",
+    "schema": "examples/observation-report/input.schema.json",
+    "standalone_dependencies": "Python standard library",
+    "decision_scope": "finite-record conditional contrast",
+    "functional_pairing": "UNAUTHENTICATED_ACROSS_ASSAYS"
   }
 }
