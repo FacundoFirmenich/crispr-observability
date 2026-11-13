@@ -6,6 +6,10 @@ await page.getByText('Analyse your FASTQ: from observed sequences to a report',{
 const inputs=page.locator('input[type=file]');await inputs.nth(1).setInputFiles(path.resolve('raw_replay/inputs/fastq/SRR29623272.fastq.gz'));await inputs.nth(2).setInputFiles(path.resolve('raw_replay/inputs/fastq/SRR29623273.fastq.gz'));
 await page.getByRole('button',{name:'Compute sequence evidence',exact:true}).click();
 await page.getByRole('button',{name:'Download FASTQ evidence and contract',exact:true}).waitFor({timeout:120000});
-const iframe=page.frameLocator('iframe').last();await iframe.getByText('Treated − control: +13.11530 to +22.69773 percentage points.',{exact:true}).waitFor();
+const [download]=await Promise.all([page.waitForEvent('download'),page.getByRole('button',{name:'Download FASTQ evidence and contract',exact:true}).click()]);
+const chunks=[];for await(const chunk of await download.createReadStream())chunks.push(chunk);
+const data=JSON.parse(Buffer.concat(chunks).toString('utf8'));const assert=require('node:assert/strict');
+assert.equal(data.input.treated.N,20573);assert.equal(data.input.control.N,17177);
+assert.ok(Math.abs(data.result.contrast.lower.percent-13.11530)<0.00001);assert.ok(Math.abs(data.result.contrast.upper.percent-22.69773)<0.00001);
 console.log(JSON.stringify({status:'PASS',input:'Authentic CFTR SRR29623272 and SRR29623273',expected_exact_DNA_contrast_pp:[13.11530,22.69773],browser:'Chromium',upload_files_written_by_app:false}));
 }finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1)});
