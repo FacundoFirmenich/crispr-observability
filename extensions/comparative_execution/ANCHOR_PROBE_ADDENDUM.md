@@ -1,0 +1,5 @@
+# Native assignment-anchor probe
+
+The completed ampliCan output contains unassigned sequence families with substitutions concentrated at the first four positions (examples retain the downstream reference substring). Its configured assignment anchor was reference [0,20). This motivates, after observing the first run, a declared exploratory control at [4,24) and [8,28), with the same 20-base length, all nine libraries, native engine/container, reference, donor and filtering options. No outcome is discarded and neither alternative is chosen as a new primary analysis. The identity of these anchors is computational; the first-position variation is not assigned a biological or instrument cause without source evidence.
+
+Report weighted record admission, native HDR and edited counts, their native denominators, and coordinate-specific assignment conditions. A higher admitted count is not by itself improved accuracy. The question is whether a small, target-distal change in assay configuration materially changes the reported denominator or category fraction. Preserve the original run and all local results.

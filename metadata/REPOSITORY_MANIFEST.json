@@ -5932,8 +5932,8 @@
       "sha256": "e7aa15d54fa99ce793c164dcc3fa5c10d6771a6700f3424368fc000110c701ad"
     },
     "extensions/comparative_execution/run_native.py": {
-      "bytes": 4119,
-      "sha256": "b39f8e376ec683bd2a59d7aaf340f4314c3acef601ae4bc05ad7af81b9ad7db2"
+      "bytes": 4810,
+      "sha256": "bff9162ead1bf3728828d4dce9fdb3bb959081a6128c2deb857f7b80da5f124b"
     },
     ".github/workflows/comparator-campaign.yml": {
       "bytes": 2655,
@@ -5946,6 +5946,14 @@
     ".github/workflows/comparison-analysis.yml": {
       "bytes": 1599,
       "sha256": "e37e91d17aedd340be6cf23271680e51c70760769abf69a5d354ec4726bfdbdf"
+    },
+    "extensions/comparative_execution/ANCHOR_PROBE_ADDENDUM.md": {
+      "bytes": 1113,
+      "sha256": "685541ee7136e7c72932af56a530d1aed3ad6bb6cfd36f74fcd1784743f66d79"
+    },
+    ".github/workflows/assignment-probe.yml": {
+      "bytes": 1213,
+      "sha256": "2e02a5dc7082b8600bc61149c8cb2a547354cb74f7390163bc8708e29b3b7470"
     }
   },
   "source_commit_role": "Historical source archive from the 0.7.1 integration",

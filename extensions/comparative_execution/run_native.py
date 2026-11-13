@@ -1,5 +1,5 @@
 from pathlib import Path
-import json,subprocess,sys,time,os,shutil
+import json,subprocess,sys,time,os,shutil,csv
 ROOT=Path(__file__).resolve().parents[2]
 IMAGE={'crispresso':'pinellolab/crispresso2:v2.3.4','amplican':'quay.io/biocontainers/bioconductor-amplican@sha256:d32eebb4c7ebe251d81b24ad142f23f65699ccfc74b98efd24486e6021b2e4c1','crispra':'msanvicente/crisprgareq@sha256:1ff4d7fdcff07a4e4da6eb88ed1676284abe96d4444ee292822e08e33f6acf0d'}
 def main(engine,work):
@@ -13,6 +13,12 @@ def main(engine,work):
   for row in json.loads((e/'INPUT_MANIFEST.json').read_bytes()):
    rid=row['run_accession'];run(container+['CRISPResso','-r1',str(w/'inputs'/(rid+'_R1.fastq.gz')),'-a',seq,'-an','observed_mutant','-n',rid,'-o',str(e/'runs'),'--n_processes','1','--write_detailed_allele_table','--fastq_output','--suppress_report','--suppress_plots','--prime_editing_pegRNA_spacer_seq',con['spacer_RNA_5to3'],'--prime_editing_pegRNA_extension_seq',con['RTT_RNA_5to3']+con['PBS_RNA_5to3'],'--prime_editing_pegRNA_scaffold_seq',con['scaffold_RNA_5to3'],'--prime_editing_nicking_guide_seq',con['nsgRNA_spacer_RNA_5to3']])
  elif engine=='amplican':
+  offset=int(os.environ.get('ASSIGNMENT_ANCHOR_OFFSET','0'));assert offset in [0,4,8]
+  if offset:
+   p=w/'amplican.csv';rows=list(csv.DictReader(p.open()));ref=json.loads((e/'REFERENCE.json').read_bytes())['sequence']
+   for row in rows:row['Forward_Primer']=ref[offset:offset+20]
+   with p.open('w',newline='') as f:writer=csv.DictWriter(f,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+  (e/'ASSIGNMENT_ANCHOR.json').write_text(json.dumps({'reference_interval':[offset,offset+20],'role':'computational assignment anchor, not recovered experimental PCR primer','timing':'offset zero in original plan; offsets four and eight in exploratory mechanism addendum'}))
   shutil.copy2(Path(__file__).parent/'run_amplican.R',w/'run_amplican.R');run(container+['Rscript',str(w/'run_amplican.R'),str(w)])
  else:
   source=w/'upstream';run(['git','clone','--quiet','https://bitbucket.org/synbiolab/crispr-a_nextflow.git',str(source)]);run(['git','checkout','--quiet','e5c6c8df1711df6de1f9c3c832ee297d5c48d18d'],source)

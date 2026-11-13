@@ -1,0 +1,32 @@
+name: Native assignment anchor probe
+on:
+  push:
+    branches: ['genome-comparators-20261113']
+    paths: ['.github/workflows/assignment-probe.yml']
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        offset: [4,8]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Authenticate the same nine input libraries
+        run: python extensions/comparative_execution/prepare.py "$RUNNER_TEMP/campaign"
+      - name: Execute the declared anchor relocation
+        env:
+          ASSIGNMENT_ANCHOR_OFFSET: ${{ matrix.offset }}
+        run: python extensions/comparative_execution/run_native.py amplican "$RUNNER_TEMP/campaign"
+      - name: Preserve complete probe evidence
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OFFSET: ${{ matrix.offset }}
+        run: |
+          sudo chmod -R a+rX "$RUNNER_TEMP/campaign/evidence"
+          tar -czf "$RUNNER_TEMP/amplican-anchor-$OFFSET.tar.gz" -C "$RUNNER_TEMP/campaign" evidence
+          gh release upload comparison-evidence-43493655364 "$RUNNER_TEMP/amplican-anchor-$OFFSET.tar.gz"
