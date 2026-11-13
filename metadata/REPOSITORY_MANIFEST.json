@@ -96,12 +96,12 @@
       "sha256": "088655d09a42021b2f981bbabdff62dd9b1ff2dc4cdb4df30968c312a269b6db"
     },
     "Dockerfile.reviewer": {
-      "bytes": 1322,
-      "sha256": "dec1a72515a94cd9e1ae999ae0b02d17dc740b4165e177d9f01b749e71fde3a3"
+      "bytes": 1480,
+      "sha256": "71ce75894316f91bc14f4f531f43500e7ffbead89c48d8b57aff1d07b9ae5ef6"
     },
     "Dockerfile.reviewer.dockerignore": {
-      "bytes": 685,
-      "sha256": "e8d695fafa0e16e0c0d893f5ad4a5ec1bdcf75554b28df2d69df2403b026abe8"
+      "bytes": 802,
+      "sha256": "4a92f02be7597b5c7d76cab83bcaf6ff4ba5e71b2ea4997c0ef025e42c644db4"
     },
     "LEEME_ES.md": {
       "bytes": 4591,
@@ -5932,8 +5932,8 @@
       "sha256": "e7aa15d54fa99ce793c164dcc3fa5c10d6771a6700f3424368fc000110c701ad"
     },
     "extensions/comparative_execution/run_native.py": {
-      "bytes": 4810,
-      "sha256": "bff9162ead1bf3728828d4dce9fdb3bb959081a6128c2deb857f7b80da5f124b"
+      "bytes": 6131,
+      "sha256": "99ade0c5d7abc8143ec68dad2c5c5a7878ad8d709a9d140e412cf701c8a4f2d9"
     },
     ".github/workflows/comparator-campaign.yml": {
       "bytes": 2561,
@@ -5958,6 +5958,14 @@
     "reproducibility/check_fastq_browser.cjs": {
       "bytes": 1365,
       "sha256": "f23e1c9a5458724534c8db4a6d4bf804ea1bce1ca7855dd9e46f6cfcc80f10be"
+    },
+    "extensions/comparative_execution/CRISPRA_SERIALIZATION_REPAIR.md": {
+      "bytes": 985,
+      "sha256": "a076d471b2a82b9d42bdcb97fee5f08490a05ceae02204a18837bc0dbb4ee2aa"
+    },
+    ".github/workflows/crispra-export-repair.yml": {
+      "bytes": 1880,
+      "sha256": "a8fe8a05d80013b0534f22f67f8975422bb0ed5854305d1641df67bf9370b22c"
     }
   },
   "source_commit_role": "Historical source archive from the 0.7.1 integration",

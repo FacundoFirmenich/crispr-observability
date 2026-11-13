@@ -1,5 +1,5 @@
 from pathlib import Path
-import json,subprocess,sys,time,os,shutil,csv
+import json,subprocess,sys,time,os,shutil,csv,hashlib
 ROOT=Path(__file__).resolve().parents[2]
 IMAGE={'crispresso':'pinellolab/crispresso2:v2.3.4','amplican':'quay.io/biocontainers/bioconductor-amplican@sha256:d32eebb4c7ebe251d81b24ad142f23f65699ccfc74b98efd24486e6021b2e4c1','crispra':'msanvicente/crisprgareq@sha256:1ff4d7fdcff07a4e4da6eb88ed1676284abe96d4444ee292822e08e33f6acf0d'}
 def main(engine,work):
@@ -22,6 +22,17 @@ def main(engine,work):
   shutil.copy2(Path(__file__).parent/'run_amplican.R',w/'run_amplican.R');run(container+['Rscript',str(w/'run_amplican.R'),str(w)])
  else:
   source=w/'upstream';run(['git','clone','--quiet','https://bitbucket.org/synbiolab/crispr-a_nextflow.git',str(source)]);run(['git','checkout','--quiet','e5c6c8df1711df6de1f9c3c832ee297d5c48d18d'],source)
+  if os.environ.get('CRISPRA_EXPORT_REPAIR')=='1':
+   script=source/'bin/VC_parser-cigar.R';original=script.read_bytes();before='write.csv(t_info[3:length(t_info)],file=paste0(results_path, "_template-reads.csv"))'
+   after='''saveRDS(t_info, file=paste0(results_path, "_template-object.rds"))
+    export_objects <- t_info[3:length(t_info)]
+    export_rows <- do.call(rbind, lapply(seq_along(export_objects), function(j) {
+      values <- as.character(unlist(export_objects[[j]], recursive=TRUE, use.names=FALSE))
+      data.frame(component=rep(j+2L,length(values)), index=seq_along(values), value=values)
+    }))
+    write.csv(export_rows, file=paste0(results_path, "_template-reads.csv"), row.names=FALSE)'''
+   text=original.decode();assert text.count(before)==1;text=text.replace(before,after);script.write_text(text)
+   (e/'EXPORT_REPAIR.json').write_text(json.dumps({'scope':'CSV serialization only; t_info and all scientific calculations unchanged','original_sha256':hashlib.sha256(original).hexdigest(),'patched_sha256':hashlib.sha256(script.read_bytes()).hexdigest(),'before':before,'after':after},indent=2))
   for f in (source/'bin').rglob('*'):
    if f.is_file():f.chmod(f.stat().st_mode|0o111)
   rows=json.loads((e/'INPUT_MANIFEST.json').read_bytes());ids=[r['run_accession'] for r in rows];con=json.loads((e/'CONSTRUCT.json').read_bytes());guide=con['spacer_RNA_5to3'].replace('U','T')
@@ -35,5 +46,8 @@ def main(engine,work):
   try:run([str(w/'nextflow'),'run','crispr-a.nf','-c',str(e/'native.config'),'-work-dir',str(w/'nf-work'),'-with-trace',str(e/'process-trace.tsv')],source)
   finally:
    if (source/'.nextflow.log').exists():shutil.copy2(source/'.nextflow.log',e/'nextflow.log')
+   for pattern in ['*_template-object.rds','*_template-reads.csv']:
+    for f in (w/'nf-work').rglob(pattern):
+     dest=e/'template-export';dest.mkdir(exist_ok=True);shutil.copy2(f,dest/f.name)
  (e/'SUCCESS.json').write_text(json.dumps({'engine':engine,'status':'COMPLETE','elapsed_seconds':time.monotonic()-start},indent=2))
 if __name__=='__main__':main(*sys.argv[1:])

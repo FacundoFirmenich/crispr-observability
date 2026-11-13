@@ -1,0 +1,42 @@
+name: CRISPR-A export compatibility execution
+on:
+  push:
+    branches: ['genome-comparators-20261113']
+    paths: ['.github/workflows/crispra-export-repair.yml']
+permissions:
+  contents: write
+  actions: read
+jobs:
+  compatibility:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '11'
+      - name: Preserve the preceding failed run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 43494837211 -n native-crispra -D "$RUNNER_TEMP/prior"
+          mv "$RUNNER_TEMP/prior/crispra-evidence.tar.gz" "$RUNNER_TEMP/crispra-staging-repaired-failure.tar.gz"
+          gh release upload comparison-evidence-43493655364 "$RUNNER_TEMP/crispra-staging-repaired-failure.tar.gz"
+      - name: Authenticate inputs and prepare pinned runtime
+        run: |
+          python extensions/comparative_execution/prepare.py "$RUNNER_TEMP/campaign"
+          curl -fsSL https://github.com/nextflow-io/nextflow/releases/download/v21.10.6/nextflow-21.10.6-all -o "$RUNNER_TEMP/campaign/nextflow"
+          chmod +x "$RUNNER_TEMP/campaign/nextflow"
+      - name: Execute with export-only repair
+        env:
+          CRISPRA_EXPORT_REPAIR: '1'
+        run: python extensions/comparative_execution/run_native.py crispra "$RUNNER_TEMP/campaign"
+      - name: Persist complete compatibility evidence
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sudo chmod -R a+rX "$RUNNER_TEMP/campaign/evidence"
+          tar -czf "$RUNNER_TEMP/crispra-export-repair-evidence.tar.gz" -C "$RUNNER_TEMP/campaign" evidence
+          gh release upload comparison-evidence-43493655364 "$RUNNER_TEMP/crispra-export-repair-evidence.tar.gz"

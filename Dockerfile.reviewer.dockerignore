@@ -15,6 +15,10 @@
 !docs/**
 !code/
 !code/observability_report.py
+!code/fastq_decision.py
+!examples/
+!examples/observation-report/
+!examples/observation-report/cftr_fastq_config.json
 !extensions/reproduction/
 !extensions/reproduction/contract/
 !extensions/reproduction/contract/**
