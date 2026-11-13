@@ -1,0 +1,28 @@
+name: CRISPR-A typed-interface intervention
+on:
+  push:
+    branches: ['genome-comparators-20261113']
+    paths: ['.github/workflows/crispra-interface-repair.yml']
+permissions:
+  contents: write
+jobs:
+  intervention:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Reexecute all nine archived variant stages
+        run: python extensions/comparative_execution/repair_crispra.py "$RUNNER_TEMP/typed"
+      - name: Verify every repaired return object
+        run: |
+          mkdir "$RUNNER_TEMP/typed/objects"
+          sudo find "$RUNNER_TEMP/typed/result" -name '*_template-object.rds' -exec cp '{}' "$RUNNER_TEMP/typed/objects/" \;
+          docker run --rm -v "$RUNNER_TEMP:$RUNNER_TEMP" -v "$GITHUB_WORKSPACE:$GITHUB_WORKSPACE:ro" msanvicente/crisprgareq@sha256:1ff4d7fdcff07a4e4da6eb88ed1676284abe96d4444ee292822e08e33f6acf0d Rscript "$GITHUB_WORKSPACE/extensions/comparative_execution/audit_crispra.R" "$RUNNER_TEMP/typed/objects" "$RUNNER_TEMP/typed/result/TYPED_OBJECT_AUDIT.json"
+      - name: Preserve all intervention evidence
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sudo chmod -R a+rX "$RUNNER_TEMP/typed/result"
+          tar -czf "$RUNNER_TEMP/crispra-typed-interface-evidence.tar.gz" -C "$RUNNER_TEMP/typed" result
+          gh release upload comparison-evidence-43493655364 "$RUNNER_TEMP/crispra-typed-interface-evidence.tar.gz"
