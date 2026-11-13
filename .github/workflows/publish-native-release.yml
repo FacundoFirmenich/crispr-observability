@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           persist-credentials: false
+          ref: 0b4fe68b92abf753c2fae20662c77ec35dbddc7a
       - name: Verify build identity and outcome
         env:
           GH_TOKEN: ${{ github.token }}
@@ -25,7 +26,7 @@ jobs:
           python - <<'PY'
           import json,os
           r=json.load(open('build-run.json'))
-          assert r['head_sha']==os.environ['GITHUB_SHA']
+          assert r['head_sha']=='0b4fe68b92abf753c2fae20662c77ec35dbddc7a'
           assert r['conclusion']=='success'
           assert r['name']=='Native scientific reproduction'
           PY
@@ -62,4 +63,19 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create v0.10.0 release-assets/* --target "$GITHUB_SHA" --title "v0.10.0 — Research environment" --notes-file docs/RELEASE_v0.10.0.md
+          cat > /tmp/COMPARATIVE_RELEASE.md <<'EOF'
+          # Comparative research revision, 13 November 2026
+
+          Source: 0b4fe68b92abf753c2fae20662c77ec35dbddc7a. All 19 source checks passed before publication.
+
+          Fresh executions cover nine CRISPResso2 jobs, 27 ampliCan library/anchor configurations, nine CRISPR-A native variant stages and nine typed-return interventions. A four-donor, 241-observation analysis provides the complete finite-panel cost map, including adverse regions. See docs/COMPARATIVE_UPDATE.md and docs/NATIVE_EXECUTION_ADJUDICATION.md. Native comparator archives remain in the separate comparison-evidence-43493655364 release.
+
+          Four native packages below were built and replayed from this exact source on Windows x86-64, Linux x86-64, macOS Intel and macOS Apple silicon. Their offline reproduction scope remains the retained-span and generation-model validation modules; the complete comparative source is in the source archive and does not run automatically inside the frozen native replayer. Packages include the current Supergraph and laboratory. Source-based Streamlit and Docker provide the direct FASTQ workflow.
+
+          The current Supergraph has 73 nodes, 75 relations and 14 guided conceptual blocks. Previous releases are preserved. All manuscripts, supplements and their LaTeX sources remain private. DOI 10.5281/zenodo.24121127 identifies the earlier v0.8.1 snapshot, not this revision.
+
+          ## Castellano
+
+          Revisión científica con ejecuciones comparativas nuevas, transiciones enlazadas por identidad y mapa local de costes completo, incluidos los resultados adversos. Los cuatro paquetes autoejecutables provienen del commit indicado y fueron reproducidos en sus respectivas plataformas. Su alcance de reproducción nativa sigue siendo el de los módulos expresamente incluidos; la nueva comparación se reproduce desde los scripts de la distribución fuente. El Supergraph, el laboratorio y la documentación están actualizados. Manuscritos y fuentes LaTeX privados; versiones anteriores conservadas.
+          EOF
+          gh release create research-20261113 release-assets/* --target "0b4fe68b92abf753c2fae20662c77ec35dbddc7a" --title "Comparative research revision — 13 November 2026" --notes-file /tmp/COMPARATIVE_RELEASE.md --latest
