@@ -1,5 +1,7 @@
 # CRISPR Observability
 
+[FASTQ entry and tutorial / Entrada FASTQ y tutorial](docs/START_HERE.md) · [Comparative scope](docs/COMPARATIVE_SCOPE.md)
+
 **Start with a usable answer:** [four-step guide](docs/START_HERE.md) · [authentic input JSON](examples/observation-report/input.json) · [decision report](examples/observation-report/report.html). Python-only CLI and guided Streamlit entry; no graph expertise required.
 
 [English](README.md) · [Castellano](README.es.md) · **[Open the research environment](https://facundofirmenich.github.io/crispr-observability/)**

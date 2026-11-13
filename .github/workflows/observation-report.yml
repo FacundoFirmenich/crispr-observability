@@ -1,9 +1,9 @@
 name: Guided observation report
 on:
   push:
-    paths: ['code/observability_report.py', 'code/test_observability_report.py', 'examples/observation-report/**', '.github/workflows/observation-report.yml']
+    paths: ['code/observability_report.py', 'code/test_observability_report.py', 'code/fastq_decision.py', 'code/test_fastq_decision.py', 'code/compare_frozen_callers.py', 'examples/observation-report/**', '.github/workflows/observation-report.yml']
   pull_request:
-    paths: ['code/observability_report.py', 'code/test_observability_report.py', 'examples/observation-report/**', '.github/workflows/observation-report.yml']
+    paths: ['code/observability_report.py', 'code/test_observability_report.py', 'code/fastq_decision.py', 'code/test_fastq_decision.py', 'code/compare_frozen_callers.py', 'examples/observation-report/**', '.github/workflows/observation-report.yml']
 permissions:
   contents: read
 jobs:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
       - run: python code/test_observability_report.py
+      - run: python code/test_fastq_decision.py
+      - run: python code/compare_frozen_callers.py --output "$RUNNER_TEMP/caller-comparison.json"
       - run: python code/observability_report.py demo --output "$RUNNER_TEMP/observation-report"
       - name: Compare replay with distributed results
         run: |

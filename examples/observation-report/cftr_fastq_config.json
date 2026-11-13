@@ -1,0 +1,9 @@
+{
+  "left_anchor": "TGGATTATGCCT",
+  "right_anchor": "ATGAATATAGATACAGAAGC",
+  "exact_insert": "GGCACCATTAAAGAAAATATCATCTTTGGTGTGAGTTACG",
+  "max_span": 350,
+  "min_mean_phred": 30,
+  "reference": "raw_replay/metadata/REFERENCE.json; frozen CFTR exact programmed core",
+  "decision_timing": "Retrospective authentic CFTR replay; target observer differs from the three-operator native-peptide witness"
+}

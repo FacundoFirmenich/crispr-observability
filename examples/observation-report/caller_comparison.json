@@ -1,0 +1,365 @@
+{
+  "status": "PASS",
+  "engine": "CRISPResso2 2.3.4",
+  "scope": "Historical same-record output-accounting replay; nine libraries; no fresh caller execution or independent editing truth",
+  "source_sha256": {
+    "PE_TOOL_VS_EVENT_COMPARISON.csv": "feb446f9585f65d57b910c6ec1ec3c4ac17a925f9f4f1f34e9f17adbf365e8b0",
+    "PE_NATIVE_TOOL_METRICS.csv": "b220d0ca9fa60f0852c44dc81c7213172a1db2ae8a7acb6ad4f33f8845049ae1",
+    "PE_EVENT_BOUNDS.csv": "ed53e6329d7223fb9b0e678576fbef0b9641e3f37deba20c9e07b439f89ae10f",
+    "PE_ANALYSIS_VERIFICATION.json": "a6e4b640a90950ce556e4fbe3f0378ab011e003b09ab97a7caed399d5085c0c2"
+  },
+  "rows": [
+    {
+      "run": "SRR29623274",
+      "condition": "untreated",
+      "raw_N": 13762,
+      "Q30": 13558,
+      "aligned": 13549,
+      "outside_aligned_denominator": 213,
+      "prime_assigned": 0,
+      "prime_assignment_over_aligned": "0",
+      "prime_assignment_over_raw": "0",
+      "native_local:PE_selected_reference": {
+        "E": 1,
+        "NE": 13548,
+        "U": 213,
+        "lower": "1/13762",
+        "upper": "107/6881"
+      },
+      "native_local:old_three_operator_witness": {
+        "E": 1,
+        "NE": 13175,
+        "U": 586,
+        "lower": "1/13762",
+        "upper": "587/13762"
+      },
+      "exact_programmed:PE_selected_reference": {
+        "E": 0,
+        "NE": 13549,
+        "U": 213,
+        "lower": "0",
+        "upper": "213/13762"
+      },
+      "exact_programmed:old_three_operator_witness": {
+        "E": 0,
+        "NE": 13176,
+        "U": 586,
+        "lower": "0",
+        "upper": "293/6881"
+      }
+    },
+    {
+      "run": "SRR29623266",
+      "condition": "untreated",
+      "raw_N": 13617,
+      "Q30": 13498,
+      "aligned": 13491,
+      "outside_aligned_denominator": 126,
+      "prime_assigned": 0,
+      "prime_assignment_over_aligned": "0",
+      "prime_assignment_over_raw": "0",
+      "native_local:PE_selected_reference": {
+        "E": 0,
+        "NE": 13491,
+        "U": 126,
+        "lower": "0",
+        "upper": "14/1513"
+      },
+      "native_local:old_three_operator_witness": {
+        "E": 0,
+        "NE": 13290,
+        "U": 327,
+        "lower": "0",
+        "upper": "109/4539"
+      },
+      "exact_programmed:PE_selected_reference": {
+        "E": 0,
+        "NE": 13491,
+        "U": 126,
+        "lower": "0",
+        "upper": "14/1513"
+      },
+      "exact_programmed:old_three_operator_witness": {
+        "E": 0,
+        "NE": 13290,
+        "U": 327,
+        "lower": "0",
+        "upper": "109/4539"
+      }
+    },
+    {
+      "run": "SRR29623268",
+      "condition": "untreated",
+      "raw_N": 29956,
+      "Q30": 29677,
+      "aligned": 29660,
+      "outside_aligned_denominator": 296,
+      "prime_assigned": 1,
+      "prime_assignment_over_aligned": "1/29660",
+      "prime_assignment_over_raw": "1/29956",
+      "native_local:PE_selected_reference": {
+        "E": 0,
+        "NE": 29658,
+        "U": 298,
+        "lower": "0",
+        "upper": "149/14978"
+      },
+      "native_local:old_three_operator_witness": {
+        "E": 0,
+        "NE": 29172,
+        "U": 784,
+        "lower": "0",
+        "upper": "196/7489"
+      },
+      "exact_programmed:PE_selected_reference": {
+        "E": 0,
+        "NE": 29658,
+        "U": 298,
+        "lower": "0",
+        "upper": "149/14978"
+      },
+      "exact_programmed:old_three_operator_witness": {
+        "E": 0,
+        "NE": 29172,
+        "U": 784,
+        "lower": "0",
+        "upper": "196/7489"
+      }
+    },
+    {
+      "run": "SRR29623273",
+      "condition": "mock",
+      "raw_N": 17177,
+      "Q30": 16887,
+      "aligned": 16879,
+      "outside_aligned_denominator": 298,
+      "prime_assigned": 3,
+      "prime_assignment_over_aligned": "3/16879",
+      "prime_assignment_over_raw": "3/17177",
+      "native_local:PE_selected_reference": {
+        "E": 2,
+        "NE": 16876,
+        "U": 299,
+        "lower": "2/17177",
+        "upper": "301/17177"
+      },
+      "native_local:old_three_operator_witness": {
+        "E": 2,
+        "NE": 16475,
+        "U": 700,
+        "lower": "2/17177",
+        "upper": "702/17177"
+      },
+      "exact_programmed:PE_selected_reference": {
+        "E": 2,
+        "NE": 16876,
+        "U": 299,
+        "lower": "2/17177",
+        "upper": "301/17177"
+      },
+      "exact_programmed:old_three_operator_witness": {
+        "E": 2,
+        "NE": 16475,
+        "U": 700,
+        "lower": "2/17177",
+        "upper": "702/17177"
+      }
+    },
+    {
+      "run": "SRR29623265",
+      "condition": "mock",
+      "raw_N": 21041,
+      "Q30": 20855,
+      "aligned": 20848,
+      "outside_aligned_denominator": 193,
+      "prime_assigned": 1,
+      "prime_assignment_over_aligned": "1/20848",
+      "prime_assignment_over_raw": "1/21041",
+      "native_local:PE_selected_reference": {
+        "E": 0,
+        "NE": 20848,
+        "U": 193,
+        "lower": "0",
+        "upper": "193/21041"
+      },
+      "native_local:old_three_operator_witness": {
+        "E": 0,
+        "NE": 20528,
+        "U": 513,
+        "lower": "0",
+        "upper": "513/21041"
+      },
+      "exact_programmed:PE_selected_reference": {
+        "E": 0,
+        "NE": 20848,
+        "U": 193,
+        "lower": "0",
+        "upper": "193/21041"
+      },
+      "exact_programmed:old_three_operator_witness": {
+        "E": 0,
+        "NE": 20528,
+        "U": 513,
+        "lower": "0",
+        "upper": "513/21041"
+      }
+    },
+    {
+      "run": "SRR29623267",
+      "condition": "mock",
+      "raw_N": 27024,
+      "Q30": 26805,
+      "aligned": 26791,
+      "outside_aligned_denominator": 233,
+      "prime_assigned": 0,
+      "prime_assignment_over_aligned": "0",
+      "prime_assignment_over_raw": "0",
+      "native_local:PE_selected_reference": {
+        "E": 0,
+        "NE": 26789,
+        "U": 235,
+        "lower": "0",
+        "upper": "235/27024"
+      },
+      "native_local:old_three_operator_witness": {
+        "E": 0,
+        "NE": 26392,
+        "U": 632,
+        "lower": "0",
+        "upper": "79/3378"
+      },
+      "exact_programmed:PE_selected_reference": {
+        "E": 0,
+        "NE": 26789,
+        "U": 235,
+        "lower": "0",
+        "upper": "235/27024"
+      },
+      "exact_programmed:old_three_operator_witness": {
+        "E": 0,
+        "NE": 26392,
+        "U": 632,
+        "lower": "0",
+        "upper": "79/3378"
+      }
+    },
+    {
+      "run": "SRR29623272",
+      "condition": "PE treated",
+      "raw_N": 20573,
+      "Q30": 20212,
+      "aligned": 20176,
+      "outside_aligned_denominator": 397,
+      "prime_assigned": 4485,
+      "prime_assignment_over_aligned": "345/1552",
+      "prime_assignment_over_raw": "4485/20573",
+      "native_local:PE_selected_reference": {
+        "E": 3694,
+        "NE": 16384,
+        "U": 495,
+        "lower": "3694/20573",
+        "upper": "4189/20573"
+      },
+      "native_local:old_three_operator_witness": {
+        "E": 3563,
+        "NE": 15846,
+        "U": 1164,
+        "lower": "509/2939",
+        "upper": "4727/20573"
+      },
+      "exact_programmed:PE_selected_reference": {
+        "E": 3670,
+        "NE": 16408,
+        "U": 495,
+        "lower": "3670/20573",
+        "upper": "595/2939"
+      },
+      "exact_programmed:old_three_operator_witness": {
+        "E": 3539,
+        "NE": 15870,
+        "U": 1164,
+        "lower": "3539/20573",
+        "upper": "4703/20573"
+      }
+    },
+    {
+      "run": "SRR29623271",
+      "condition": "PE treated",
+      "raw_N": 19184,
+      "Q30": 18982,
+      "aligned": 18880,
+      "outside_aligned_denominator": 304,
+      "prime_assigned": 6856,
+      "prime_assignment_over_aligned": "857/2360",
+      "prime_assignment_over_raw": "857/2398",
+      "native_local:PE_selected_reference": {
+        "E": 5851,
+        "NE": 12939,
+        "U": 394,
+        "lower": "5851/19184",
+        "upper": "6245/19184"
+      },
+      "native_local:old_three_operator_witness": {
+        "E": 5673,
+        "NE": 12602,
+        "U": 909,
+        "lower": "5673/19184",
+        "upper": "3291/9592"
+      },
+      "exact_programmed:PE_selected_reference": {
+        "E": 5782,
+        "NE": 13008,
+        "U": 394,
+        "lower": "2891/9592",
+        "upper": "386/1199"
+      },
+      "exact_programmed:old_three_operator_witness": {
+        "E": 5605,
+        "NE": 12670,
+        "U": 909,
+        "lower": "5605/19184",
+        "upper": "3257/9592"
+      }
+    },
+    {
+      "run": "SRR29623270",
+      "condition": "PE treated",
+      "raw_N": 14672,
+      "Q30": 14536,
+      "aligned": 14490,
+      "outside_aligned_denominator": 182,
+      "prime_assigned": 4611,
+      "prime_assignment_over_aligned": "1537/4830",
+      "prime_assignment_over_raw": "4611/14672",
+      "native_local:PE_selected_reference": {
+        "E": 3887,
+        "NE": 10524,
+        "U": 261,
+        "lower": "3887/14672",
+        "upper": "1037/3668"
+      },
+      "native_local:old_three_operator_witness": {
+        "E": 3741,
+        "NE": 10265,
+        "U": 666,
+        "lower": "3741/14672",
+        "upper": "4407/14672"
+      },
+      "exact_programmed:PE_selected_reference": {
+        "E": 3849,
+        "NE": 10562,
+        "U": 261,
+        "lower": "3849/14672",
+        "upper": "2055/7336"
+      },
+      "exact_programmed:old_three_operator_witness": {
+        "E": 3706,
+        "NE": 10300,
+        "U": 666,
+        "lower": "1853/7336",
+        "upper": "1093/3668"
+      }
+    }
+  ],
+  "interpretation": "A native Prime-edited assignment and an exact-DNA or native-local event have different definitions. Denominator-normalized assignment remains an assignment, not event accuracy. No ampliCan/CRISPR-A execution is represented by these rows."
+}

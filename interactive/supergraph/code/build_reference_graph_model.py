@@ -270,6 +270,10 @@ def main():
          ["transport", "scope"], "Condition-level functional context does not independently label individual sequenced fragments.")
 
     for ident, title, description, artifacts, target in [
+        ("T_FASTQ", "FASTQ to an exact-DNA decision", "Streaming exact-anchor observer, raw denominator retention and HTML/JSON reports. Regression agrees with nine archived CFTR libraries; this is not complete alignment-domain certification.",
+         ["code/fastq_decision.py", "code/test_fastq_decision.py", "examples/observation-report/cftr_fastq_config.json"], "T_REPORT"),
+        ("T_TUTORIAL", "Seven-block CFTR learning route", "Bilingual conceptual tutorial with explicit observation units and interpretation checkpoints. Duration is a design target; independent usability testing remains pending.",
+         ["interactive/CFTR_TUTORIAL.html", "docs/PROSPECTIVE_VALIDATION.md", "docs/COMPARATIVE_SCOPE.md"], "T_REPORT"),
         ("T_REPORT", "Four-step observation report", "Define, account, decide and investigate. A dependency-free Python entry point and guided Streamlit view emit exact JSON and readable HTML; local withdrawal costs remain visible.",
          ["code/observability_report.py", "docs/START_HERE.md", "examples/observation-report/report.json", "examples/observation-report/local_utility.json"], "T_CASE"),
         ("T_LAB", "Read Observability Lab", "Manipulate read boundaries and sequence spans in a source-bound 3D laboratory; import cases and export replayable results.",

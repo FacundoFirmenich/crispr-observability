@@ -1,0 +1,19 @@
+# Prospective validation and usability protocol — design, not completed evidence
+
+Freeze the protocol, software commit, reference sequences, event definitions, quality policies, candidate domains and primary comparator before generating new editing libraries. Historical freezes are not prospective preregistration. Recruit an experimental partner and obtain the applicable institutional ethics and consent determinations before collecting data; no approval or recruitment is claimed here.
+
+## Primary experiment
+Use new treated and mock cultures with independent biological replicates and a predefined sampling frame spanning the intended event/sequence contexts. Keep donor, culture, extraction, library, molecular identifier, acquisition and assay identifiers distinct. Randomize processing order and blind the adjudicator to method output. The experimental laboratory should design sample numbers from a declared minimum meaningful paired improvement and nuisance estimates obtained independently of the test cohort; no invented power calculation is supplied.
+
+For original-fragment truth, require an independently informative measurement linked to the original template, documenting molecular-tag assignment before amplification, collision handling, consensus dependence and assay error. R1/R2 agreement, two analyses of one read, clone identity and two assays of a pool are separate evidence levels. Do not promote any of these automatically to original-molecule truth.
+
+Compare version-pinned CRISPResso2, ampliCan and CRISPR-A only on their compatible input domains. Match target definitions, references, event windows, quality policies and the acquired universe; retain native outputs separately. Predeclare adapters before scoring test labels. Report TP, FP, TN, FN and unresolved counts at each local jurisdiction; coverage and retained-call risk; false calls withdrawn and correct calls sacrificed. A method abstaining on every observation must not receive zero error or undefined sensitivity disguised as success. Use donor/culture-level uncertainty when sampling inference is warranted, and display insufficient strata explicitly. Threshold sweeps and post-hoc hypotheses belong to secondary analyses.
+
+## Sequence–function pilot
+Require a signed/source-supported crosswalk with donor, culture/pool, condition, sampling time, sequencing library and functional-assay identifier. Use aliquots from the same culture where possible, specify whether destructive measurements are on matched aliquots, and retain the timing difference. Estimate descriptive paired associations only after authenticating the join; independently measured sequence endpoints and CFTR current are not interchangeable. Three donors permit a small descriptive pilot, not a general dose–response claim. Archive every candidate pairing rejected and the reason. Public Sousa values remain condition-level context until this join is available.
+
+## Usability pilot
+Recruit 5–8 independent experimental biologists for a formative pilot (not a powered population estimate). Consent to observation and minimize personal data. Supply the canonical CFTR task and a second compatible dataset without coaching. Record task completion, time, assistance requests, interpretation of U, distinction between assignment/event/accuracy, and ability to export the provenance report. Predeclare critical misinterpretations and retain all failures. The tutorial's 15–20 minute duration is a design target until measured. A broader usability claim requires subsequent external validation.
+
+## Status
+Protocol prepared; no new participants, prospective acquisitions, functional crosswalk or independent same-fragment labels have been obtained. These are explicit outstanding experimental tasks, not software defects that can be closed by another replay.

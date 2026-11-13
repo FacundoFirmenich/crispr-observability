@@ -17,8 +17,8 @@
     "AND_gates": 8,
     "source_artifact_nodes": 22,
     "declared_revision_test_nodes": 6,
-    "total_nodes": 67,
-    "total_edges": 69
+    "total_nodes": 69,
+    "total_edges": 71
   },
   "map_semantics": "Typed navigation of frozen evidence and declared conditional support. AND gates preserve joint premises; ordinary source and revision-condition edges are not causal effects. Node positions, counts and filters do not quantify evidential strength.",
   "source_scope": {
@@ -2846,6 +2846,54 @@
       "optional_detail": false
     },
     {
+      "id": "T_FASTQ",
+      "label": "FASTQ to an exact-DNA decision",
+      "type": "artifact",
+      "layer": "Research tools",
+      "status": "supported",
+      "status_original": "implemented_research_interface",
+      "summary": "Streaming exact-anchor observer, raw denominator retention and HTML/JSON reports. Regression agrees with nine archived CFTR libraries; this is not complete alignment-domain certification.",
+      "details": "Streaming exact-anchor observer, raw denominator retention and HTML/JSON reports. Regression agrees with nine archived CFTR libraries; this is not complete alignment-domain certification.",
+      "scope": "Implemented access and computation. Tool availability is not independent validation or community adoption.",
+      "falsification": "Replay the named operation and compare its report with the source contract.",
+      "artifacts": [
+        "code/fastq_decision.py",
+        "code/test_fastq_decision.py",
+        "examples/observation-report/cftr_fastq_config.json"
+      ],
+      "lenses": [
+        "reproducibility",
+        "geometry",
+        "correspondence"
+      ],
+      "metrics": {},
+      "optional_detail": false
+    },
+    {
+      "id": "T_TUTORIAL",
+      "label": "Seven-block CFTR learning route",
+      "type": "artifact",
+      "layer": "Research tools",
+      "status": "supported",
+      "status_original": "implemented_research_interface",
+      "summary": "Bilingual conceptual tutorial with explicit observation units and interpretation checkpoints. Duration is a design target; independent usability testing remains pending.",
+      "details": "Bilingual conceptual tutorial with explicit observation units and interpretation checkpoints. Duration is a design target; independent usability testing remains pending.",
+      "scope": "Implemented access and computation. Tool availability is not independent validation or community adoption.",
+      "falsification": "Replay the named operation and compare its report with the source contract.",
+      "artifacts": [
+        "interactive/CFTR_TUTORIAL.html",
+        "docs/PROSPECTIVE_VALIDATION.md",
+        "docs/COMPARATIVE_SCOPE.md"
+      ],
+      "lenses": [
+        "reproducibility",
+        "geometry",
+        "correspondence"
+      ],
+      "metrics": {},
+      "optional_detail": false
+    },
+    {
       "id": "T_REPORT",
       "label": "Four-step observation report",
       "type": "artifact",
@@ -3804,6 +3852,30 @@
         "scope"
       ],
       "summary": "Condition-level functional context does not independently label individual sequenced fragments."
+    },
+    {
+      "id": "T_FASTQ->T_REPORT:documents",
+      "source": "T_FASTQ",
+      "target": "T_REPORT",
+      "relation": "documents",
+      "label": "Inspect and replay",
+      "status": "supported",
+      "lenses": [
+        "reproducibility"
+      ],
+      "summary": "This tool exposes or recomputes the linked object; it does not add an independent biological observation."
+    },
+    {
+      "id": "T_TUTORIAL->T_REPORT:documents",
+      "source": "T_TUTORIAL",
+      "target": "T_REPORT",
+      "relation": "documents",
+      "label": "Inspect and replay",
+      "status": "supported",
+      "lenses": [
+        "reproducibility"
+      ],
+      "summary": "This tool exposes or recomputes the linked object; it does not add an independent biological observation."
     },
     {
       "id": "T_REPORT->T_CASE:documents",

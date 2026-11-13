@@ -36,3 +36,17 @@ The demo includes eight donor-by-tract jurisdictions from the existing four-dono
 ## Functional evidence
 
 Published CFTR ion-channel measurements provide biological context. To correlate them with sequence bounds, first authenticate donor, culture/pool, condition, time and assay/library identifiers. Repeated `Replicate 1` labels do not establish that link. See `FUNCTIONAL_BRIDGE.md` for the recovered values and the pairing sensitivity.
+
+## From FASTQ to a report
+
+For a declared exact DNA insert between unique exact anchors, run the standard-library entry point on your persistent input files:
+
+```sh
+python code/fastq_decision.py --treated treated.fastq.gz --control mock.fastq.gz --config examples/observation-report/cftr_fastq_config.json --output /persistent/new-report
+```
+
+The supplied configuration is specifically CFTR. For another locus, explicitly replace both anchors, the expected insert, reference description, maximum span and quality threshold before examining the outcome. The observer checks both orientations, retains low-quality/missing/ambiguous-anchor records as U, rejects malformed FASTQ and duplicate read identifiers, and refuses to overwrite reports. The parser accepts four-line FASTQ with uppercase ACGTN and Phred+33; other encodings need explicit conversion. It streams the records and keeps an identifier set in memory. It does not imply unique original molecules or certify all alignment paths.
+
+The CFTR exact-DNA example gives 13.11530–22.69773 percentage points for the treated–mock contrast. Its target is different from the native-local three-operator witness used by the count-only demo. Do not mix their labels or compare them as accuracy estimates.
+
+Open [the guided tutorial](../interactive/CFTR_TUTORIAL.html). Its 15–20 minute duration is a design target, not a measured usability result. See [comparative scope](COMPARATIVE_SCOPE.md) and [prospective validation](PROSPECTIVE_VALIDATION.md).
