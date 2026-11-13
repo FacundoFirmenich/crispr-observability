@@ -1,5 +1,7 @@
 # CRISPR Observability
 
+**New comparative evidence (13 November):** native CFTR executions and assignment-anchor controls, donor-held-out local decisions with exact cost boundaries, and direct FASTQ upload in Streamlit. [Results and scope](docs/COMPARATIVE_UPDATE.md). The original observation contracts and adverse results remain available.
+
 [FASTQ entry and tutorial / Entrada FASTQ y tutorial](docs/START_HERE.md) · [Comparative scope](docs/COMPARATIVE_SCOPE.md)
 
 **Start with a usable answer:** [four-step guide](docs/START_HERE.md) · [authentic input JSON](examples/observation-report/input.json) · [decision report](examples/observation-report/report.html). Python-only CLI and guided Streamlit entry; no graph expertise required.

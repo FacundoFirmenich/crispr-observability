@@ -241,5 +241,60 @@
       "docs/FUNCTIONAL_BRIDGE.md",
       "examples/observation-report/functional_bridge.json"
     ]
+  },
+  {
+    "title": "Intervene on native admission",
+    "question": "Can a stable percentage conceal a changed denominator?",
+    "finding": "The first anchor relocation gives a net gain of 61617. The second gives 71, comprising 209 newly admitted and 138 newly excluded records. Admission sets are not nested; category responses differ.",
+    "scope": "An exploratory configuration intervention; admission gain is not an accuracy estimate.",
+    "nodes": [
+      "V_NATIVE_ANCHOR",
+      "E_anchor"
+    ],
+    "focus": "V_NATIVE_ANCHOR",
+    "edges": [
+      "V_NATIVE_ANCHOR->E_anchor:tests"
+    ],
+    "sources": [
+      "extensions/comparative_execution/results/AMP_ANCHOR_SUMMARY.json"
+    ]
+  },
+  {
+    "title": "Map where a local decision pays",
+    "question": "When does local routing outperform the same rule applied everywhere?",
+    "finding": "Held-out local loss improves at cost six, but worsens in other regimes. Exact enumeration bounds its favorable interval by 17/3 < r <= 20/3.",
+    "scope": "Known germline panels, donor-held-out evaluation and explicit costs. Every adverse regime remains part of the result.",
+    "nodes": [
+      "V_COST_MAP",
+      "V_LOCAL_POLICY",
+      "B_transport"
+    ],
+    "focus": "V_LOCAL_POLICY",
+    "edges": [
+      "V_COST_MAP->V_LOCAL_POLICY:limits",
+      "V_LOCAL_POLICY->B_transport:tests"
+    ],
+    "sources": [
+      "extensions/comparative_execution/results/LOCAL_POLICY.json",
+      "extensions/comparative_execution/results/COST_FRONTIER.json"
+    ]
+  },
+  {
+    "title": "Check what a returned count means",
+    "question": "Can a completed analysis violate its own reporting interface?",
+    "finding": "Three native template objects contain multiple counts where the caller expects one count and a type. A typed-return repair reconciles 897, 1398 and 882 linked IDs and preserves all six control tables.",
+    "scope": "A pinned-version implementation intervention. Matching aligned patterns is not independent biological truth.",
+    "nodes": [
+      "V_NATIVE_RETURN",
+      "T_REPORT"
+    ],
+    "focus": "V_NATIVE_RETURN",
+    "edges": [
+      "V_NATIVE_RETURN->T_REPORT:tests"
+    ],
+    "sources": [
+      "extensions/comparative_execution/results/CRISPRA_INTERFACE_RESULT.json",
+      "extensions/comparative_execution/INTERFACE_REPAIR_ADDENDUM.md"
+    ]
   }
 ]

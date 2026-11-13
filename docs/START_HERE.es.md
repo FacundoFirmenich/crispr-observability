@@ -30,3 +30,7 @@ El puente funcional CFTR recupera medidas de canal auténticas. La correlación 
 ## Entrada desde FASTQ
 
 La nueva entrada `code/fastq_decision.py` acepta tratado, mock, configuración y directorio de salida nuevo. Use el comando de la guía inglesa con rutas persistentes. La configuración incluida es exclusivamente CFTR: para otro locus hay que definir sus anclas, inserto esperado, referencia, longitud máxima y calidad antes de observar el resultado. Conserva los registros no resueltos, verifica ambas orientaciones y rechaza archivos mal formados o identificadores repetidos. No certifica todos los alineamientos ni identifica moléculas originales. El intervalo del ADN exacto es 13,11530–22,69773 pp y no debe mezclarse con el evento de péptido del ejemplo anterior. El tutorial interactivo explica esa diferencia; su duración prevista de 15–20 minutos todavía no está validada con usuarios.
+
+## Entrada directa de secuencias en Streamlit
+
+En **Empezar aquí**, abra **Analice su FASTQ**. Cargue tratado y control en FASTQ o gzip, revise o edite la configuración CFTR y pulse **Calcular evidencia de secuencia**. Descargue el informe HTML y la evidencia/contrato JSON. Vuelva a calcular tras cambiar entradas. El procesamiento se realiza en memoria del equipo que aloja la aplicación, sin persistir los archivos cargados. Límites: 20 MB y 250.000 registros por archivo; la CLI admite entradas mayores. El observador de anclas exactas no certifica todos los alineamientos.

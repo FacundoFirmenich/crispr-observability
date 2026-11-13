@@ -1,0 +1,4675 @@
+{
+  "status": "COMPLETE",
+  "source_sha256": "f8b8b4a6682b5a7bb4e0b025a50109fc2329f7582b3ebd4f220d4298e040743c",
+  "plan_sha256": "9655e6278239950332cd1d536451bda508fdc5185a0ef40ac4e25e830adadd5a",
+  "timing": "Exploratory donor-held-out reanalysis of previously observed panels; policies fixed before this evaluation",
+  "N": 241,
+  "donors": [
+    "HG003",
+    "HG004",
+    "HG006",
+    "HG007"
+  ],
+  "cost_grid": [
+    2,
+    4,
+    6,
+    10,
+    20
+  ],
+  "rows": [
+    {
+      "cost_ratio": 2,
+      "policy": "baseline",
+      "C": 207,
+      "D": 26,
+      "U": 8,
+      "loss": 60,
+      "coverage": "233/241",
+      "retained_discordance": "26/233"
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "majority",
+      "C": 94,
+      "D": 1,
+      "U": 146,
+      "loss": 148,
+      "coverage": "95/241",
+      "retained_discordance": "1/95"
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "pooled_empirical",
+      "C": 207,
+      "D": 26,
+      "U": 8,
+      "loss": 60,
+      "coverage": "233/241",
+      "retained_discordance": "26/233"
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_empirical",
+      "C": 207,
+      "D": 26,
+      "U": 8,
+      "loss": 60,
+      "coverage": "233/241",
+      "retained_discordance": "26/233"
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_beta11",
+      "C": 207,
+      "D": 26,
+      "U": 8,
+      "loss": 60,
+      "coverage": "233/241",
+      "retained_discordance": "26/233"
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "baseline",
+      "C": 207,
+      "D": 26,
+      "U": 8,
+      "loss": 112,
+      "coverage": "233/241",
+      "retained_discordance": "26/233"
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "majority",
+      "C": 94,
+      "D": 1,
+      "U": 146,
+      "loss": 150,
+      "coverage": "95/241",
+      "retained_discordance": "1/95"
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "pooled_empirical",
+      "C": 207,
+      "D": 26,
+      "U": 8,
+      "loss": 112,
+      "coverage": "233/241",
+      "retained_discordance": "26/233"
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_empirical",
+      "C": 180,
+      "D": 23,
+      "U": 38,
+      "loss": 130,
+      "coverage": "203/241",
+      "retained_discordance": "23/203"
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_beta11",
+      "C": 180,
+      "D": 23,
+      "U": 38,
+      "loss": 130,
+      "coverage": "203/241",
+      "retained_discordance": "23/203"
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "baseline",
+      "C": 207,
+      "D": 26,
+      "U": 8,
+      "loss": 164,
+      "coverage": "233/241",
+      "retained_discordance": "26/233"
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "majority",
+      "C": 94,
+      "D": 1,
+      "U": 146,
+      "loss": 152,
+      "coverage": "95/241",
+      "retained_discordance": "1/95"
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "pooled_empirical",
+      "C": 116,
+      "D": 8,
+      "U": 117,
+      "loss": 165,
+      "coverage": "124/241",
+      "retained_discordance": "2/31"
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_empirical",
+      "C": 124,
+      "D": 4,
+      "U": 113,
+      "loss": 137,
+      "coverage": "128/241",
+      "retained_discordance": "1/32"
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_beta11",
+      "C": 111,
+      "D": 4,
+      "U": 126,
+      "loss": 150,
+      "coverage": "115/241",
+      "retained_discordance": "4/115"
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "baseline",
+      "C": 207,
+      "D": 26,
+      "U": 8,
+      "loss": 268,
+      "coverage": "233/241",
+      "retained_discordance": "26/233"
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "majority",
+      "C": 94,
+      "D": 1,
+      "U": 146,
+      "loss": 156,
+      "coverage": "95/241",
+      "retained_discordance": "1/95"
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "pooled_empirical",
+      "C": 94,
+      "D": 1,
+      "U": 146,
+      "loss": 156,
+      "coverage": "95/241",
+      "retained_discordance": "1/95"
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_empirical",
+      "C": 107,
+      "D": 4,
+      "U": 130,
+      "loss": 170,
+      "coverage": "111/241",
+      "retained_discordance": "4/111"
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_beta11",
+      "C": 107,
+      "D": 4,
+      "U": 130,
+      "loss": 170,
+      "coverage": "111/241",
+      "retained_discordance": "4/111"
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "baseline",
+      "C": 207,
+      "D": 26,
+      "U": 8,
+      "loss": 528,
+      "coverage": "233/241",
+      "retained_discordance": "26/233"
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "majority",
+      "C": 94,
+      "D": 1,
+      "U": 146,
+      "loss": 166,
+      "coverage": "95/241",
+      "retained_discordance": "1/95"
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "pooled_empirical",
+      "C": 94,
+      "D": 1,
+      "U": 146,
+      "loss": 166,
+      "coverage": "95/241",
+      "retained_discordance": "1/95"
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_empirical",
+      "C": 105,
+      "D": 3,
+      "U": 133,
+      "loss": 193,
+      "coverage": "108/241",
+      "retained_discordance": "1/36"
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_beta11",
+      "C": 94,
+      "D": 1,
+      "U": 146,
+      "loss": 166,
+      "coverage": "95/241",
+      "retained_discordance": "1/95"
+    }
+  ],
+  "local_decisions": [
+    {
+      "cost_ratio": 2,
+      "policy": "baseline",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 25,
+        "D": 5,
+        "U": 2
+      },
+      "loss": 12
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "baseline",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "baseline",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 3
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "baseline",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 27,
+        "D": 3,
+        "U": 2
+      },
+      "loss": 8
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "baseline",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 14,
+        "D": 7,
+        "U": 2
+      },
+      "loss": 16
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "baseline",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "loss": 0
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "baseline",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "loss": 16
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "baseline",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "majority",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "majority",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "majority",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 28,
+        "D": 0,
+        "U": 4
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "majority",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "majority",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "majority",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "majority",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 27
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "majority",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 27,
+        "D": 0,
+        "U": 5
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 95,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/95",
+        "expected_unit_loss_change": "59/95"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 25,
+        "D": 5,
+        "U": 2
+      },
+      "loss": 12
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 95,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/95",
+        "expected_unit_loss_change": "59/95"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 21,
+        "estimated_discordant_fraction": "1/5",
+        "expected_unit_loss_change": "3/5"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 3
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 21,
+        "estimated_discordant_fraction": "1/5",
+        "expected_unit_loss_change": "3/5"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 27,
+        "D": 3,
+        "U": 2
+      },
+      "loss": 8
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 18,
+        "estimated_discordant_fraction": "6/35",
+        "expected_unit_loss_change": "23/35"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 14,
+        "D": 7,
+        "U": 2
+      },
+      "loss": 16
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 18,
+        "estimated_discordant_fraction": "6/35",
+        "expected_unit_loss_change": "23/35"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "loss": 0
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 109,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/109",
+        "expected_unit_loss_change": "73/109"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "loss": 16
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 109,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/109",
+        "expected_unit_loss_change": "73/109"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_empirical",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 17,
+        "estimated_discordant_fraction": "17/75",
+        "expected_unit_loss_change": "41/75"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 25,
+        "D": 5,
+        "U": 2
+      },
+      "loss": 12
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_empirical",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 1,
+        "estimated_discordant_fraction": "1/20",
+        "expected_unit_loss_change": "9/10"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_empirical",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 30,
+        "discordant": 2,
+        "estimated_discordant_fraction": "1/15",
+        "expected_unit_loss_change": "13/15"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 3
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_empirical",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 19,
+        "estimated_discordant_fraction": "19/75",
+        "expected_unit_loss_change": "37/75"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 27,
+        "D": 3,
+        "U": 2
+      },
+      "loss": 8
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_empirical",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 85,
+        "discordant": 15,
+        "estimated_discordant_fraction": "3/17",
+        "expected_unit_loss_change": "11/17"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 14,
+        "D": 7,
+        "U": 2
+      },
+      "loss": 16
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_empirical",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 3,
+        "estimated_discordant_fraction": "3/20",
+        "expected_unit_loss_change": "7/10"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "loss": 0
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_empirical",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 80,
+        "discordant": 15,
+        "estimated_discordant_fraction": "3/16",
+        "expected_unit_loss_change": "5/8"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "loss": 16
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_empirical",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 29,
+        "discordant": 3,
+        "estimated_discordant_fraction": "3/29",
+        "expected_unit_loss_change": "23/29"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_beta11",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 17,
+        "estimated_discordant_fraction": "18/77",
+        "expected_unit_loss_change": "41/77"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 25,
+        "D": 5,
+        "U": 2
+      },
+      "loss": 12
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_beta11",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 1,
+        "estimated_discordant_fraction": "1/11",
+        "expected_unit_loss_change": "9/11"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_beta11",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 30,
+        "discordant": 2,
+        "estimated_discordant_fraction": "3/32",
+        "expected_unit_loss_change": "13/16"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 3
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_beta11",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 19,
+        "estimated_discordant_fraction": "20/77",
+        "expected_unit_loss_change": "37/77"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 27,
+        "D": 3,
+        "U": 2
+      },
+      "loss": 8
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_beta11",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 85,
+        "discordant": 15,
+        "estimated_discordant_fraction": "16/87",
+        "expected_unit_loss_change": "55/87"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 14,
+        "D": 7,
+        "U": 2
+      },
+      "loss": 16
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_beta11",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 3,
+        "estimated_discordant_fraction": "2/11",
+        "expected_unit_loss_change": "7/11"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "loss": 0
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_beta11",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 80,
+        "discordant": 15,
+        "estimated_discordant_fraction": "8/41",
+        "expected_unit_loss_change": "25/41"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "loss": 16
+    },
+    {
+      "cost_ratio": 2,
+      "policy": "local_beta11",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 29,
+        "discordant": 3,
+        "estimated_discordant_fraction": "4/31",
+        "expected_unit_loss_change": "23/31"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "baseline",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 25,
+        "D": 5,
+        "U": 2
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "baseline",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 8
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "baseline",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "baseline",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 27,
+        "D": 3,
+        "U": 2
+      },
+      "loss": 14
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "baseline",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 14,
+        "D": 7,
+        "U": 2
+      },
+      "loss": 30
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "baseline",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "loss": 0
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "baseline",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "baseline",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "majority",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "majority",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "majority",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 28,
+        "D": 0,
+        "U": 4
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "majority",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "majority",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "majority",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "majority",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 29
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "majority",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 27,
+        "D": 0,
+        "U": 5
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 95,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/95",
+        "expected_unit_loss_change": "23/95"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 25,
+        "D": 5,
+        "U": 2
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 95,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/95",
+        "expected_unit_loss_change": "23/95"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 8
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 21,
+        "estimated_discordant_fraction": "1/5",
+        "expected_unit_loss_change": "1/5"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 21,
+        "estimated_discordant_fraction": "1/5",
+        "expected_unit_loss_change": "1/5"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 27,
+        "D": 3,
+        "U": 2
+      },
+      "loss": 14
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 18,
+        "estimated_discordant_fraction": "6/35",
+        "expected_unit_loss_change": "11/35"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 14,
+        "D": 7,
+        "U": 2
+      },
+      "loss": 30
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 18,
+        "estimated_discordant_fraction": "6/35",
+        "expected_unit_loss_change": "11/35"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "loss": 0
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 109,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/109",
+        "expected_unit_loss_change": "37/109"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 109,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/109",
+        "expected_unit_loss_change": "37/109"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_empirical",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 17,
+        "estimated_discordant_fraction": "17/75",
+        "expected_unit_loss_change": "7/75"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 25,
+        "D": 5,
+        "U": 2
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_empirical",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 1,
+        "estimated_discordant_fraction": "1/20",
+        "expected_unit_loss_change": "4/5"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 8
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_empirical",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 30,
+        "discordant": 2,
+        "estimated_discordant_fraction": "1/15",
+        "expected_unit_loss_change": "11/15"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_empirical",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 19,
+        "estimated_discordant_fraction": "19/75",
+        "expected_unit_loss_change": "-1/75"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_empirical",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 85,
+        "discordant": 15,
+        "estimated_discordant_fraction": "3/17",
+        "expected_unit_loss_change": "5/17"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 14,
+        "D": 7,
+        "U": 2
+      },
+      "loss": 30
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_empirical",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 3,
+        "estimated_discordant_fraction": "3/20",
+        "expected_unit_loss_change": "2/5"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "loss": 0
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_empirical",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 80,
+        "discordant": 15,
+        "estimated_discordant_fraction": "3/16",
+        "expected_unit_loss_change": "1/4"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_empirical",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 29,
+        "discordant": 3,
+        "estimated_discordant_fraction": "3/29",
+        "expected_unit_loss_change": "17/29"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_beta11",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 17,
+        "estimated_discordant_fraction": "18/77",
+        "expected_unit_loss_change": "5/77"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 25,
+        "D": 5,
+        "U": 2
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_beta11",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 1,
+        "estimated_discordant_fraction": "1/11",
+        "expected_unit_loss_change": "7/11"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 8
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_beta11",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 30,
+        "discordant": 2,
+        "estimated_discordant_fraction": "3/32",
+        "expected_unit_loss_change": "5/8"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_beta11",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 19,
+        "estimated_discordant_fraction": "20/77",
+        "expected_unit_loss_change": "-3/77"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_beta11",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 85,
+        "discordant": 15,
+        "estimated_discordant_fraction": "16/87",
+        "expected_unit_loss_change": "23/87"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 14,
+        "D": 7,
+        "U": 2
+      },
+      "loss": 30
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_beta11",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 3,
+        "estimated_discordant_fraction": "2/11",
+        "expected_unit_loss_change": "3/11"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "loss": 0
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_beta11",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 80,
+        "discordant": 15,
+        "estimated_discordant_fraction": "8/41",
+        "expected_unit_loss_change": "9/41"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 4,
+      "policy": "local_beta11",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 29,
+        "discordant": 3,
+        "estimated_discordant_fraction": "4/31",
+        "expected_unit_loss_change": "15/31"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "baseline",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 25,
+        "D": 5,
+        "U": 2
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "baseline",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 12
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "baseline",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 7
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "baseline",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 27,
+        "D": 3,
+        "U": 2
+      },
+      "loss": 20
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "baseline",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 14,
+        "D": 7,
+        "U": 2
+      },
+      "loss": 44
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "baseline",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "loss": 0
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "baseline",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "loss": 48
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "baseline",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "majority",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "majority",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "majority",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 28,
+        "D": 0,
+        "U": 4
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "majority",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "majority",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "majority",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "majority",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 31
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "majority",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 27,
+        "D": 0,
+        "U": 5
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 95,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/95",
+        "expected_unit_loss_change": "-13/95"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 95,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/95",
+        "expected_unit_loss_change": "-13/95"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 21,
+        "estimated_discordant_fraction": "1/5",
+        "expected_unit_loss_change": "-1/5"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 28,
+        "D": 0,
+        "U": 4
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 21,
+        "estimated_discordant_fraction": "1/5",
+        "expected_unit_loss_change": "-1/5"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 18,
+        "estimated_discordant_fraction": "6/35",
+        "expected_unit_loss_change": "-1/35"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 18,
+        "estimated_discordant_fraction": "6/35",
+        "expected_unit_loss_change": "-1/35"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 109,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/109",
+        "expected_unit_loss_change": "1/109"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "loss": 48
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 109,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/109",
+        "expected_unit_loss_change": "1/109"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_empirical",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 17,
+        "estimated_discordant_fraction": "17/75",
+        "expected_unit_loss_change": "-9/25"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_empirical",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 1,
+        "estimated_discordant_fraction": "1/20",
+        "expected_unit_loss_change": "7/10"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 12
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_empirical",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 30,
+        "discordant": 2,
+        "estimated_discordant_fraction": "1/15",
+        "expected_unit_loss_change": "3/5"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 7
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_empirical",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 19,
+        "estimated_discordant_fraction": "19/75",
+        "expected_unit_loss_change": "-13/25"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_empirical",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 85,
+        "discordant": 15,
+        "estimated_discordant_fraction": "3/17",
+        "expected_unit_loss_change": "-1/17"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_empirical",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 3,
+        "estimated_discordant_fraction": "3/20",
+        "expected_unit_loss_change": "1/10"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "loss": 0
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_empirical",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 80,
+        "discordant": 15,
+        "estimated_discordant_fraction": "3/16",
+        "expected_unit_loss_change": "-1/8"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 31
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_empirical",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 29,
+        "discordant": 3,
+        "estimated_discordant_fraction": "3/29",
+        "expected_unit_loss_change": "11/29"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_beta11",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 17,
+        "estimated_discordant_fraction": "18/77",
+        "expected_unit_loss_change": "-31/77"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_beta11",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 1,
+        "estimated_discordant_fraction": "1/11",
+        "expected_unit_loss_change": "5/11"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 12
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_beta11",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 30,
+        "discordant": 2,
+        "estimated_discordant_fraction": "3/32",
+        "expected_unit_loss_change": "7/16"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 7
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_beta11",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 19,
+        "estimated_discordant_fraction": "20/77",
+        "expected_unit_loss_change": "-43/77"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_beta11",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 85,
+        "discordant": 15,
+        "estimated_discordant_fraction": "16/87",
+        "expected_unit_loss_change": "-3/29"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_beta11",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 3,
+        "estimated_discordant_fraction": "2/11",
+        "expected_unit_loss_change": "-1/11"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_beta11",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 80,
+        "discordant": 15,
+        "estimated_discordant_fraction": "8/41",
+        "expected_unit_loss_change": "-7/41"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 31
+    },
+    {
+      "cost_ratio": 6,
+      "policy": "local_beta11",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 29,
+        "discordant": 3,
+        "estimated_discordant_fraction": "4/31",
+        "expected_unit_loss_change": "7/31"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "baseline",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 25,
+        "D": 5,
+        "U": 2
+      },
+      "loss": 52
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "baseline",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 20
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "baseline",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 11
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "baseline",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 27,
+        "D": 3,
+        "U": 2
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "baseline",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 14,
+        "D": 7,
+        "U": 2
+      },
+      "loss": 72
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "baseline",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "loss": 0
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "baseline",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "loss": 80
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "baseline",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "majority",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "majority",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "majority",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 28,
+        "D": 0,
+        "U": 4
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "majority",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "majority",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "majority",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "majority",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 35
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "majority",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 27,
+        "D": 0,
+        "U": 5
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 95,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/95",
+        "expected_unit_loss_change": "-17/19"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 95,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/95",
+        "expected_unit_loss_change": "-17/19"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 21,
+        "estimated_discordant_fraction": "1/5",
+        "expected_unit_loss_change": "-1"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 28,
+        "D": 0,
+        "U": 4
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 21,
+        "estimated_discordant_fraction": "1/5",
+        "expected_unit_loss_change": "-1"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 18,
+        "estimated_discordant_fraction": "6/35",
+        "expected_unit_loss_change": "-5/7"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 18,
+        "estimated_discordant_fraction": "6/35",
+        "expected_unit_loss_change": "-5/7"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 109,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/109",
+        "expected_unit_loss_change": "-71/109"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 35
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 109,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/109",
+        "expected_unit_loss_change": "-71/109"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 27,
+        "D": 0,
+        "U": 5
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_empirical",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 17,
+        "estimated_discordant_fraction": "17/75",
+        "expected_unit_loss_change": "-19/15"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_empirical",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 1,
+        "estimated_discordant_fraction": "1/20",
+        "expected_unit_loss_change": "1/2"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 20
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_empirical",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 30,
+        "discordant": 2,
+        "estimated_discordant_fraction": "1/15",
+        "expected_unit_loss_change": "1/3"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 11
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_empirical",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 19,
+        "estimated_discordant_fraction": "19/75",
+        "expected_unit_loss_change": "-23/15"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_empirical",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 85,
+        "discordant": 15,
+        "estimated_discordant_fraction": "3/17",
+        "expected_unit_loss_change": "-13/17"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_empirical",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 3,
+        "estimated_discordant_fraction": "3/20",
+        "expected_unit_loss_change": "-1/2"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_empirical",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 80,
+        "discordant": 15,
+        "estimated_discordant_fraction": "3/16",
+        "expected_unit_loss_change": "-7/8"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 35
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_empirical",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 29,
+        "discordant": 3,
+        "estimated_discordant_fraction": "3/29",
+        "expected_unit_loss_change": "-1/29"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 27,
+        "D": 0,
+        "U": 5
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_beta11",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 17,
+        "estimated_discordant_fraction": "18/77",
+        "expected_unit_loss_change": "-103/77"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_beta11",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 1,
+        "estimated_discordant_fraction": "1/11",
+        "expected_unit_loss_change": "1/11"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 20
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_beta11",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 30,
+        "discordant": 2,
+        "estimated_discordant_fraction": "3/32",
+        "expected_unit_loss_change": "1/16"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 11
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_beta11",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 19,
+        "estimated_discordant_fraction": "20/77",
+        "expected_unit_loss_change": "-123/77"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_beta11",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 85,
+        "discordant": 15,
+        "estimated_discordant_fraction": "16/87",
+        "expected_unit_loss_change": "-73/87"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_beta11",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 3,
+        "estimated_discordant_fraction": "2/11",
+        "expected_unit_loss_change": "-9/11"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_beta11",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 80,
+        "discordant": 15,
+        "estimated_discordant_fraction": "8/41",
+        "expected_unit_loss_change": "-39/41"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 35
+    },
+    {
+      "cost_ratio": 10,
+      "policy": "local_beta11",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 29,
+        "discordant": 3,
+        "estimated_discordant_fraction": "4/31",
+        "expected_unit_loss_change": "-9/31"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 27,
+        "D": 0,
+        "U": 5
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "baseline",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 25,
+        "D": 5,
+        "U": 2
+      },
+      "loss": 102
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "baseline",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 40
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "baseline",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 1,
+        "U": 1
+      },
+      "loss": 21
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "baseline",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 27,
+        "D": 3,
+        "U": 2
+      },
+      "loss": 62
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "baseline",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 14,
+        "D": 7,
+        "U": 2
+      },
+      "loss": 142
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "baseline",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 32,
+        "D": 0,
+        "U": 0
+      },
+      "loss": 0
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "baseline",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 18,
+        "D": 8,
+        "U": 0
+      },
+      "loss": 160
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "baseline",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "retain",
+      "counts": {
+        "C": 31,
+        "D": 0,
+        "U": 1
+      },
+      "loss": 1
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "majority",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "majority",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "majority",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 28,
+        "D": 0,
+        "U": 4
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "majority",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "majority",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "majority",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "majority",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 45
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "majority",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {},
+      "action": "majority",
+      "counts": {
+        "C": 27,
+        "D": 0,
+        "U": 5
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 95,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/95",
+        "expected_unit_loss_change": "-53/19"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 95,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/95",
+        "expected_unit_loss_change": "-53/19"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 21,
+        "estimated_discordant_fraction": "1/5",
+        "expected_unit_loss_change": "-3"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 28,
+        "D": 0,
+        "U": 4
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 21,
+        "estimated_discordant_fraction": "1/5",
+        "expected_unit_loss_change": "-3"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 18,
+        "estimated_discordant_fraction": "6/35",
+        "expected_unit_loss_change": "-17/7"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 105,
+        "discordant": 18,
+        "estimated_discordant_fraction": "6/35",
+        "expected_unit_loss_change": "-17/7"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 109,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/109",
+        "expected_unit_loss_change": "-251/109"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 45
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "pooled_empirical",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 109,
+        "discordant": 18,
+        "estimated_discordant_fraction": "18/109",
+        "expected_unit_loss_change": "-251/109"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 27,
+        "D": 0,
+        "U": 5
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_empirical",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 17,
+        "estimated_discordant_fraction": "17/75",
+        "expected_unit_loss_change": "-53/15"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_empirical",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 1,
+        "estimated_discordant_fraction": "1/20",
+        "expected_unit_loss_change": "0"
+      },
+      "action": "retain",
+      "counts": {
+        "C": 30,
+        "D": 2,
+        "U": 0
+      },
+      "loss": 40
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_empirical",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 30,
+        "discordant": 2,
+        "estimated_discordant_fraction": "1/15",
+        "expected_unit_loss_change": "-1/3"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 28,
+        "D": 0,
+        "U": 4
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_empirical",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 19,
+        "estimated_discordant_fraction": "19/75",
+        "expected_unit_loss_change": "-61/15"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_empirical",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 85,
+        "discordant": 15,
+        "estimated_discordant_fraction": "3/17",
+        "expected_unit_loss_change": "-43/17"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_empirical",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 3,
+        "estimated_discordant_fraction": "3/20",
+        "expected_unit_loss_change": "-2"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_empirical",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 80,
+        "discordant": 15,
+        "estimated_discordant_fraction": "3/16",
+        "expected_unit_loss_change": "-11/4"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 45
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_empirical",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 29,
+        "discordant": 3,
+        "estimated_discordant_fraction": "3/29",
+        "expected_unit_loss_change": "-31/29"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 27,
+        "D": 0,
+        "U": 5
+      },
+      "loss": 5
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_beta11",
+      "held_out_donor": "HG006",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 17,
+        "estimated_discordant_fraction": "18/77",
+        "expected_unit_loss_change": "-283/77"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_beta11",
+      "held_out_donor": "HG006",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 1,
+        "estimated_discordant_fraction": "1/11",
+        "expected_unit_loss_change": "-9/11"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_beta11",
+      "held_out_donor": "HG007",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 30,
+        "discordant": 2,
+        "estimated_discordant_fraction": "3/32",
+        "expected_unit_loss_change": "-7/8"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 28,
+        "D": 0,
+        "U": 4
+      },
+      "loss": 4
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_beta11",
+      "held_out_donor": "HG007",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG004",
+        "HG006"
+      ],
+      "training": {
+        "withdrawn": 75,
+        "discordant": 19,
+        "estimated_discordant_fraction": "20/77",
+        "expected_unit_loss_change": "-323/77"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 0,
+        "U": 32
+      },
+      "loss": 32
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_beta11",
+      "held_out_donor": "HG003",
+      "tract": "ge15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 85,
+        "discordant": 15,
+        "estimated_discordant_fraction": "16/87",
+        "expected_unit_loss_change": "-233/87"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 1,
+        "D": 0,
+        "U": 22
+      },
+      "loss": 22
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_beta11",
+      "held_out_donor": "HG003",
+      "tract": "lt15",
+      "training_donors": [
+        "HG004",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 20,
+        "discordant": 3,
+        "estimated_discordant_fraction": "2/11",
+        "expected_unit_loss_change": "-29/11"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 19,
+        "D": 0,
+        "U": 13
+      },
+      "loss": 13
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_beta11",
+      "held_out_donor": "HG004",
+      "tract": "ge15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 80,
+        "discordant": 15,
+        "estimated_discordant_fraction": "8/41",
+        "expected_unit_loss_change": "-119/41"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 0,
+        "D": 1,
+        "U": 25
+      },
+      "loss": 45
+    },
+    {
+      "cost_ratio": 20,
+      "policy": "local_beta11",
+      "held_out_donor": "HG004",
+      "tract": "lt15",
+      "training_donors": [
+        "HG003",
+        "HG006",
+        "HG007"
+      ],
+      "training": {
+        "withdrawn": 29,
+        "discordant": 3,
+        "estimated_discordant_fraction": "4/31",
+        "expected_unit_loss_change": "-49/31"
+      },
+      "action": "majority",
+      "counts": {
+        "C": 27,
+        "D": 0,
+        "U": 5
+      },
+      "loss": 5
+    }
+  ],
+  "scope": "External germline benchmark concordance; no original-fragment editing claim. The folds reuse training donors and may share loci across donors."
+}

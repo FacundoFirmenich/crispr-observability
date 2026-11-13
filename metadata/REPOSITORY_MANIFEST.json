@@ -120,8 +120,8 @@
       "sha256": "ecfafd9e83369debddf2adc591c57446a0f40896a8b50fc4761e28792763a85b"
     },
     "README.md": {
-      "bytes": 10176,
-      "sha256": "275de6119e844066edcb31619bc75caff06c92a595726dbba557b49f1a28e4ae"
+      "bytes": 10497,
+      "sha256": "9fe64abffbdb5d81314ba5c81a6ee3264499310cf039312576a283199518eb06"
     },
     "RELEASE_0_7_0.md": {
       "bytes": 724,
@@ -5121,7 +5121,7 @@
     },
     "interactive/supergraph/BUILD_RECEIPT.json": {
       "bytes": 880,
-      "sha256": "c28326af16d39782b3dad211f96a289d38b472c2d1828edf1ab869e0ffcd7da0"
+      "sha256": "c64e2c8a368e2393301954da7b67adeb97970477e64c1cde518f8805bca30f84"
     },
     "interactive/supergraph/DATA_MODEL.md": {
       "bytes": 2453,
@@ -5144,8 +5144,8 @@
       "sha256": "466ffea1b586a5d4331849e775b0a699ef24dc63f4682447f57ed9c3e6667a5a"
     },
     "interactive/supergraph/code/build_reference_graph_model.py": {
-      "bytes": 22811,
-      "sha256": "e9ce31d5a5a4a4e46b9f164ab1e6cde7710a215a6e16e60561c246e3284c4e9b"
+      "bytes": 27035,
+      "sha256": "86ae39abb7cd2d7e38c333e92cae875a0ca38183f36b73135ef5d775d05f03c5"
     },
     "interactive/supergraph/code/build_supergraph.py": {
       "bytes": 3589,
@@ -5160,24 +5160,24 @@
       "sha256": "f56ea5b9e3bc7d82b157c74309770cf906d265069a788910210c9782ada9e894"
     },
     "interactive/supergraph/crispr_supergraph.html": {
-      "bytes": 190602,
-      "sha256": "e8a73887796bc72ee4b98dc04e6e06f3297561f2333ae8a4dd43be4b95bd9e08"
+      "bytes": 198522,
+      "sha256": "ed9344e9ffb27a798da187bd8b35b2788e58172ee9f09dde0a3b61ae6955bbcf"
     },
     "interactive/supergraph/crispr_supergraph.template.html": {
       "bytes": 68208,
       "sha256": "e65e31a48124e0da4b769fc091c1aaa23bae7b70cbb11b6d3e77fdb1529290ba"
     },
     "interactive/supergraph/guided_tour.json": {
-      "bytes": 11081,
-      "sha256": "8d3460f5528abec54c8f0f4d27f661b46f4a0da9f36505ab3bb5c76ae942793c"
+      "bytes": 13472,
+      "sha256": "77631f7385a9c7f6b673922f2e63f64a70b3f2acf52cf4878d3f95e7d5cf811d"
     },
     "interactive/supergraph/paired_library_summary.json": {
       "bytes": 1210,
       "sha256": "494304e421e086bf5a3099634c734015a2d0d948f0f4ecd1bb2742a2d9f943a9"
     },
     "interactive/supergraph/review_graph_model.json": {
-      "bytes": 148229,
-      "sha256": "1aba9d93870d14e4d49ac207511baf9bcb3a86656cc99accd863631770d573a9"
+      "bytes": 155466,
+      "sha256": "0cc37a04a27d4e77d47fca7c070adaa7a9f74db692b4c6881462bd2476b3b709"
     },
     "interactive/supergraph/supergraph_model.json": {
       "bytes": 126680,
@@ -5656,8 +5656,8 @@
       "sha256": "e09d796a209d8a4616e3350f66477abd6dcfae8ef397af74289acd924a9b6964"
     },
     "README.es.md": {
-      "bytes": 6158,
-      "sha256": "4b4ba597cb8ee11b97eb1cf2e9901c44cc4236ce973faea660aef9a8bdd049c3"
+      "bytes": 6505,
+      "sha256": "7f6597211220d9a926c3a0a53a75ceb6690e550fbcd241174d3fd108c8934ba6"
     },
     "engine/bam-input.js": {
       "bytes": 4451,
@@ -5856,12 +5856,12 @@
       "sha256": "343bb05a21f054686d4b35b2aba243490b9e91245b767275f8fcaf0dfec85b49"
     },
     "docs/START_HERE.es.md": {
-      "bytes": 3358,
-      "sha256": "46382933bbecbf095b3555792007063f7a8d98922d946c0cc65a215b18b39c8f"
+      "bytes": 3945,
+      "sha256": "1648383fd25ac305db1581ece777436344896f8b28f21fd0af482a3071832e1b"
     },
     "docs/START_HERE.md": {
-      "bytes": 5099,
-      "sha256": "d238df0b5f78970d2c278d9c95ec8f17155cd7ef7f7e8660b6c78a2427059a19"
+      "bytes": 5672,
+      "sha256": "fcf1c628083106b754246fc4510333eb0778db394589f46020bcd9e30ac843eb"
     },
     "examples/observation-report/functional_bridge.json": {
       "bytes": 10060,
@@ -5900,8 +5900,8 @@
       "sha256": "00b406d3f9c969bdb7d116f40f066d4ee2e93e899ab4b3a9e5d1b0dccf404f75"
     },
     "docs/COMPARATIVE_SCOPE.md": {
-      "bytes": 3113,
-      "sha256": "29b3788af874677a7b1b269233f28175e4db498d60b1d601e44d38761de640f1"
+      "bytes": 3579,
+      "sha256": "e88a7fa7c77bbf25cdcc74dc60866050c0c8d6abb8ce3d4dd3e09b93092bdcb1"
     },
     "docs/PROSPECTIVE_VALIDATION.md": {
       "bytes": 3824,
@@ -5986,6 +5986,94 @@
     ".github/workflows/crispra-interface-repair.yml": {
       "bytes": 1504,
       "sha256": "6d250db3e49745ae111e7a5462a64bc77462399368ea47212f7112caabcdfcdc"
+    },
+    ".github/workflows/comparative-decisions.yml": {
+      "bytes": 380,
+      "sha256": "62e5cc77911ec5a7d31896b00e8da629e3ae15f63ad6f37374fadeaa6321c8d1"
+    },
+    "docs/COMPARATIVE_UPDATE.es.md": {
+      "bytes": 4343,
+      "sha256": "b09429b7f1cd6c8132901fc6847ed6e4c146420a0d17a5eb965181dac78bfd9f"
+    },
+    "docs/COMPARATIVE_UPDATE.md": {
+      "bytes": 4616,
+      "sha256": "633f707d4f9c41dbcd4743fe0fa77c81f6ffcaca843b8fc334f26a12ea0977e6"
+    },
+    "docs/NATIVE_EXECUTION_ADJUDICATION.md": {
+      "bytes": 2837,
+      "sha256": "39f63dbd545a345ee9892b304ff4d285a897e414a93ed36cf3a2f9c0819f025c"
+    },
+    "extensions/comparative_execution/check_results.py": {
+      "bytes": 1783,
+      "sha256": "9875b387c5ea11552aa6b367cdb51f9c0ddb8ec5b0cfbc2ef47fe7647f7f006e"
+    },
+    "extensions/comparative_execution/collect_native.py": {
+      "bytes": 3744,
+      "sha256": "5a4a873ebe063564261e6390389f738cd48772c7e1566dd7d2ff7805c2d6e75e"
+    },
+    "extensions/comparative_execution/cost_frontier.py": {
+      "bytes": 3904,
+      "sha256": "a1b67dd2384fc3759edfd78160db7474e59035d0668c2433fc0686d47ece4502"
+    },
+    "extensions/comparative_execution/local_policy.py": {
+      "bytes": 3152,
+      "sha256": "6aea899c4357459e2ebacbbd82f10cfa79e106d54f5ae563bdad505a347d6f78"
+    },
+    "extensions/comparative_execution/plot_results.py": {
+      "bytes": 2551,
+      "sha256": "cd9fe24047c0145d3b6212b50f9b1ec4c38c4735e3993dc58e0e97d15b2f65a5"
+    },
+    "extensions/comparative_execution/results/AMP_ANCHOR_SUMMARY.json": {
+      "bytes": 21084,
+      "sha256": "10877eaa0680e81b15a64baaa8ddee40bc7fd6a3bc1f95afab3fbf0ed7221882"
+    },
+    "extensions/comparative_execution/results/COST_FRONTIER.json": {
+      "bytes": 296584,
+      "sha256": "a960c599e912f81e0a724cd4ed55d5dd5c13ac03ffe91c3742f1ac2d55c633c0"
+    },
+    "extensions/comparative_execution/results/CRISPRA_INTERFACE_RESULT.json": {
+      "bytes": 20159,
+      "sha256": "33647c21fbb94c45e4605f740131a7419b3c16ed82e07ff2f4b552b1f90074a9"
+    },
+    "extensions/comparative_execution/results/CRISPRA_OBJECT_AUDIT.json": {
+      "bytes": 3052,
+      "sha256": "2bfdf29e67b4024812386ad349b42eff3d7b5e64bf566968c43dd28c9d6ad69c"
+    },
+    "extensions/comparative_execution/results/LOCAL_POLICY.json": {
+      "bytes": 98759,
+      "sha256": "abfa72392875f7ea0251d4abf25deee9fe77c595a65680cb95bf84067aaff2e2"
+    },
+    "extensions/comparative_execution/results/native_projection/PE_ANALYSIS_VERIFICATION.json": {
+      "bytes": 54653,
+      "sha256": "2c5ab1780b8d6622dd60be650e20a649cc9dd49e4e87edb86b901a26edee8acb"
+    },
+    "extensions/comparative_execution/results/native_projection/PE_CLASS_VS_LOCAL_EVENTS.csv": {
+      "bytes": 3865,
+      "sha256": "bdbd4c12b433b02af44eb3a1624b1ca8e24acd2866f9d823b46e97635864ebb2"
+    },
+    "extensions/comparative_execution/results/native_projection/PE_EVENT_BOUNDS.csv": {
+      "bytes": 6997,
+      "sha256": "ed53e6329d7223fb9b0e678576fbef0b9641e3f37deba20c9e07b439f89ae10f"
+    },
+    "extensions/comparative_execution/results/native_projection/PE_EVENT_CONTRASTS.csv": {
+      "bytes": 4283,
+      "sha256": "27ca939ee7369b6f69c0b7e002e01b5cb3f6b0b4babda2473142a52013851ee8"
+    },
+    "extensions/comparative_execution/results/native_projection/PE_NATIVE_TOOL_METRICS.csv": {
+      "bytes": 3120,
+      "sha256": "b220d0ca9fa60f0852c44dc81c7213172a1db2ae8a7acb6ad4f33f8845049ae1"
+    },
+    "extensions/comparative_execution/results/native_projection/PE_STRING_DISAGREEMENTS.csv": {
+      "bytes": 20704,
+      "sha256": "6e32dec30203f322930795822c622bbc35453cb6e8f21f6f5db90c498ccbede1"
+    },
+    "extensions/comparative_execution/results/native_projection/PE_TOOL_VS_EVENT_COMPARISON.csv": {
+      "bytes": 1618,
+      "sha256": "feb446f9585f65d57b910c6ec1ec3c4ac17a925f9f4f1f34e9f17adbf365e8b0"
+    },
+    "extensions/comparative_execution/results/native_projection/projection-cost.txt": {
+      "bytes": 869,
+      "sha256": "3797e1d6b31209791ebb38a7a430a3bf6bf597899215593e0a54a871ed9f7a44"
     }
   },
   "source_commit_role": "Historical source archive from the 0.7.1 integration",

@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1-crispr-reference-map",
   "generated_date": "2026-10-28",
-  "public_evidence_revision": "2026-11-12",
+  "public_evidence_revision": "2026-11-13",
   "title": "CRISPR observability: interactive scientific map",
   "subtitle": "Premises, mechanisms, conditional constraints, source artifacts, revision tests and scope",
   "summary": {
@@ -17,8 +17,8 @@
     "AND_gates": 8,
     "source_artifact_nodes": 22,
     "declared_revision_test_nodes": 6,
-    "total_nodes": 69,
-    "total_edges": 71
+    "total_nodes": 73,
+    "total_edges": 75
   },
   "map_semantics": "Typed navigation of frozen evidence and declared conditional support. AND gates preserve joint premises; ordinary source and revision-condition edges are not causal effects. Node positions, counts and filters do not quantify evidential strength.",
   "source_scope": {
@@ -2852,8 +2852,8 @@
       "layer": "Research tools",
       "status": "supported",
       "status_original": "implemented_research_interface",
-      "summary": "Streaming exact-anchor observer, raw denominator retention and HTML/JSON reports. Regression agrees with nine archived CFTR libraries; this is not complete alignment-domain certification.",
-      "details": "Streaming exact-anchor observer, raw denominator retention and HTML/JSON reports. Regression agrees with nine archived CFTR libraries; this is not complete alignment-domain certification.",
+      "summary": "Streaming exact-anchor observer, direct in-memory Streamlit FASTQ upload, raw denominator retention and HTML/JSON reports. Regression agrees with nine archived CFTR libraries; this is not complete alignment-domain certification.",
+      "details": "Streaming exact-anchor observer, direct in-memory Streamlit FASTQ upload, raw denominator retention and HTML/JSON reports. Regression agrees with nine archived CFTR libraries; this is not complete alignment-domain certification.",
       "scope": "Implemented access and computation. Tool availability is not independent validation or community adoption.",
       "falsification": "Replay the named operation and compare its report with the source contract.",
       "artifacts": [
@@ -2987,6 +2987,121 @@
         "correspondence"
       ],
       "metrics": {},
+      "optional_detail": false
+    },
+    {
+      "id": "V_LOCAL_POLICY",
+      "label": "Donor-held-out local decision routing",
+      "type": "evidence",
+      "layer": "External validation",
+      "status": "supported",
+      "status_original": "public_source_bound_review_checkpoint",
+      "summary": "At discordance cost six, local loss is 137 versus 164 for baseline, 152 for always-majority and 165 for pooled routing.",
+      "details": "All five costs and eight donor/tract cells are retained. Local routing is worse than baseline at cost four and worse than always-majority at ten and twenty. This is retrospective genotype transport, not fragment-editing accuracy.",
+      "scope": "All five costs and eight donor/tract cells are retained. Local routing is worse than baseline at cost four and worse than always-majority at ten and twenty. This is retrospective genotype transport, not fragment-editing accuracy.",
+      "artifacts": [
+        "extensions/comparative_execution/results/LOCAL_POLICY.json",
+        "extensions/comparative_execution/local_policy.py"
+      ],
+      "lenses": [
+        "transport",
+        "reproducibility",
+        "scope"
+      ],
+      "metrics": {
+        "N": 241,
+        "Cost grid": [
+          2,
+          4,
+          6,
+          10,
+          20
+        ],
+        "Cost six C/D/U": [
+          124,
+          4,
+          113
+        ]
+      },
+      "optional_detail": false
+    },
+    {
+      "id": "V_COST_MAP",
+      "label": "Exact applicability map of local routing",
+      "type": "evidence",
+      "layer": "External validation",
+      "status": "supported",
+      "status_original": "public_source_bound_review_checkpoint",
+      "summary": "The empirical local policy beats both fixed policies and pooled routing precisely for 17/3 < cost ratio <= 20/3 on this panel.",
+      "details": "Exploratory enumeration after the frozen cost grid; 24 open cells and 23 boundary points preserve ties and adverse regimes. This is not prospective dominance.",
+      "scope": "Exploratory enumeration after the frozen cost grid; 24 open cells and 23 boundary points preserve ties and adverse regimes. This is not prospective dominance.",
+      "artifacts": [
+        "extensions/comparative_execution/results/COST_FRONTIER.json",
+        "extensions/comparative_execution/cost_frontier.py"
+      ],
+      "lenses": [
+        "transport",
+        "reproducibility",
+        "scope"
+      ],
+      "metrics": {
+        "Open cells": 24,
+        "Boundary points": 23
+      },
+      "optional_detail": false
+    },
+    {
+      "id": "V_NATIVE_ANCHOR",
+      "label": "Executed native assignment-anchor intervention",
+      "type": "evidence",
+      "layer": "External validation",
+      "status": "supported",
+      "status_original": "public_source_bound_review_checkpoint",
+      "summary": "On 175010 Q30 records, ampliCan admission is 112822, 174439 and 174510 at anchor offsets zero, four and eight.",
+      "details": "All nine libraries use the same native version and input. Relocation also changes the primer-excluded event boundary. The offset-four to offset-eight net gain of 71 comprises 209 admissions and 138 exclusions. More admission is not demonstrated accuracy; native HDR and generic edited categories remain distinct.",
+      "scope": "All nine libraries use the same native version and input. Relocation also changes the primer-excluded event boundary. The offset-four to offset-eight net gain of 71 comprises 209 admissions and 138 exclusions. More admission is not demonstrated accuracy; native HDR and generic edited categories remain distinct.",
+      "artifacts": [
+        "extensions/comparative_execution/results/AMP_ANCHOR_SUMMARY.json",
+        "extensions/comparative_execution/ANCHOR_PROBE_ADDENDUM.md"
+      ],
+      "lenses": [
+        "transport",
+        "reproducibility",
+        "scope"
+      ],
+      "metrics": {
+        "Q30 input": 175010,
+        "Assigned": [
+          112822,
+          174439,
+          174510
+        ]
+      },
+      "optional_detail": false
+    },
+    {
+      "id": "V_NATIVE_RETURN",
+      "label": "Native return-contract intervention",
+      "type": "evidence",
+      "layer": "External validation",
+      "status": "supported",
+      "status_original": "public_source_bound_review_checkpoint",
+      "summary": "Three treated libraries return multiple counts before the event type. The first counts are 2, 4 and 1; linked-ID totals are 897, 1398 and 882.",
+      "details": "The original objects and native outputs are preserved. Scalar-interface validity is distinct from biological truth. All nine typed-return reruns pass, and the six control tables are unchanged. The intervention changes aggregation, not aligned data or matching criteria.",
+      "scope": "The original objects and native outputs are preserved. Scalar-interface validity is distinct from biological truth. All nine typed-return reruns pass, and the six control tables are unchanged. The intervention changes aggregation, not aligned data or matching criteria.",
+      "artifacts": [
+        "extensions/comparative_execution/results/CRISPRA_INTERFACE_RESULT.json",
+        "extensions/comparative_execution/INTERFACE_REPAIR_ADDENDUM.md"
+      ],
+      "lenses": [
+        "transport",
+        "reproducibility",
+        "scope"
+      ],
+      "metrics": {
+        "Affected treated libraries": 3,
+        "Controls with scalar interface": 6
+      },
       "optional_detail": false
     }
   ],
@@ -3924,6 +4039,58 @@
         "reproducibility"
       ],
       "summary": "This tool exposes or recomputes the linked object; it does not add an independent biological observation."
+    },
+    {
+      "id": "V_LOCAL_POLICY->B_transport:tests",
+      "source": "V_LOCAL_POLICY",
+      "target": "B_transport",
+      "relation": "tests",
+      "label": "Hold out each donor",
+      "status": "supported",
+      "lenses": [
+        "transport",
+        "scope"
+      ],
+      "summary": "Training excludes the evaluated donor; shared loci and relatedness remain dependence considerations."
+    },
+    {
+      "id": "V_COST_MAP->V_LOCAL_POLICY:limits",
+      "source": "V_COST_MAP",
+      "target": "V_LOCAL_POLICY",
+      "relation": "limits",
+      "label": "Bound the favorable jurisdiction",
+      "status": "supported",
+      "lenses": [
+        "transport",
+        "sensitivity"
+      ],
+      "summary": "The complete decision-cost map prevents selection of one favorable cost from becoming a universal claim."
+    },
+    {
+      "id": "V_NATIVE_ANCHOR->E_anchor:tests",
+      "source": "V_NATIVE_ANCHOR",
+      "target": "E_anchor",
+      "relation": "tests",
+      "label": "Intervene on an observation boundary",
+      "status": "supported",
+      "lenses": [
+        "geometry",
+        "sensitivity"
+      ],
+      "summary": "This new native-engine sensitivity complements the finite-read downstream-anchor mechanism; it is not the same experiment."
+    },
+    {
+      "id": "V_NATIVE_RETURN->T_REPORT:tests",
+      "source": "V_NATIVE_RETURN",
+      "target": "T_REPORT",
+      "relation": "tests",
+      "label": "Check the event contract at an interface",
+      "status": "supported",
+      "lenses": [
+        "reproducibility",
+        "scope"
+      ],
+      "summary": "Execution success does not guarantee that count, type and identifiers retain their declared meanings."
     }
   ],
   "hyperedges": [

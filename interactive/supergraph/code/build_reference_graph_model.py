@@ -270,7 +270,7 @@ def main():
          ["transport", "scope"], "Condition-level functional context does not independently label individual sequenced fragments.")
 
     for ident, title, description, artifacts, target in [
-        ("T_FASTQ", "FASTQ to an exact-DNA decision", "Streaming exact-anchor observer, raw denominator retention and HTML/JSON reports. Regression agrees with nine archived CFTR libraries; this is not complete alignment-domain certification.",
+        ("T_FASTQ", "FASTQ to an exact-DNA decision", "Streaming exact-anchor observer, direct in-memory Streamlit FASTQ upload, raw denominator retention and HTML/JSON reports. Regression agrees with nine archived CFTR libraries; this is not complete alignment-domain certification.",
          ["code/fastq_decision.py", "code/test_fastq_decision.py", "examples/observation-report/cftr_fastq_config.json"], "T_REPORT"),
         ("T_TUTORIAL", "Seven-block CFTR learning route", "Bilingual conceptual tutorial with explicit observation units and interpretation checkpoints. Duration is a design target; independent usability testing remains pending.",
          ["interactive/CFTR_TUTORIAL.html", "docs/PROSPECTIVE_VALIDATION.md", "docs/COMPARATIVE_SCOPE.md"], "T_REPORT"),
@@ -293,6 +293,31 @@ def main():
         edge(ident, target, "documents", "Inspect and replay", "supported", ["reproducibility"],
              "This tool exposes or recomputes the linked object; it does not add an independent biological observation.")
 
+    comparison_root = "extensions/comparative_execution/results/"
+    policy = json.loads((args.repository / (comparison_root + "LOCAL_POLICY.json")).read_bytes())
+    current_node("V_LOCAL_POLICY", "Donor-held-out local decision routing",
+                 "At discordance cost six, local loss is 137 versus 164 for baseline, 152 for always-majority and 165 for pooled routing.",
+                 "All five costs and eight donor/tract cells are retained. Local routing is worse than baseline at cost four and worse than always-majority at ten and twenty. This is retrospective genotype transport, not fragment-editing accuracy.",
+                 [comparison_root + "LOCAL_POLICY.json", "extensions/comparative_execution/local_policy.py"],
+                 {"N": policy["N"], "Cost grid": policy["cost_grid"], "Cost six C/D/U": [124,4,113]})
+    edge("V_LOCAL_POLICY", "B_transport", "tests", "Hold out each donor", "supported", ["transport","scope"], "Training excludes the evaluated donor; shared loci and relatedness remain dependence considerations.")
+    current_node("V_COST_MAP", "Exact applicability map of local routing",
+                 "The empirical local policy beats both fixed policies and pooled routing precisely for 17/3 < cost ratio <= 20/3 on this panel.",
+                 "Exploratory enumeration after the frozen cost grid; 24 open cells and 23 boundary points preserve ties and adverse regimes. This is not prospective dominance.",
+                 [comparison_root + "COST_FRONTIER.json", "extensions/comparative_execution/cost_frontier.py"], {"Open cells":24,"Boundary points":23})
+    edge("V_COST_MAP", "V_LOCAL_POLICY", "limits", "Bound the favorable jurisdiction", "supported", ["transport","sensitivity"], "The complete decision-cost map prevents selection of one favorable cost from becoming a universal claim.")
+    current_node("V_NATIVE_ANCHOR", "Executed native assignment-anchor intervention",
+                 "On 175010 Q30 records, ampliCan admission is 112822, 174439 and 174510 at anchor offsets zero, four and eight.",
+                 "All nine libraries use the same native version and input. Relocation also changes the primer-excluded event boundary. The offset-four to offset-eight net gain of 71 comprises 209 admissions and 138 exclusions. More admission is not demonstrated accuracy; native HDR and generic edited categories remain distinct.",
+                 [comparison_root + "AMP_ANCHOR_SUMMARY.json", "extensions/comparative_execution/ANCHOR_PROBE_ADDENDUM.md"], {"Q30 input":175010,"Assigned":[112822,174439,174510]})
+    edge("V_NATIVE_ANCHOR", "E_anchor", "tests", "Intervene on an observation boundary", "supported", ["geometry","sensitivity"], "This new native-engine sensitivity complements the finite-read downstream-anchor mechanism; it is not the same experiment.")
+
+    current_node("V_NATIVE_RETURN", "Native return-contract intervention",
+                 "Three treated libraries return multiple counts before the event type. The first counts are 2, 4 and 1; linked-ID totals are 897, 1398 and 882.",
+                 "The original objects and native outputs are preserved. Scalar-interface validity is distinct from biological truth. All nine typed-return reruns pass, and the six control tables are unchanged. The intervention changes aggregation, not aligned data or matching criteria.",
+                 [comparison_root + "CRISPRA_INTERFACE_RESULT.json", "extensions/comparative_execution/INTERFACE_REPAIR_ADDENDUM.md"], {"Affected treated libraries":3,"Controls with scalar interface":6})
+    edge("V_NATIVE_RETURN", "T_REPORT", "tests", "Check the event contract at an interface", "supported", ["reproducibility","scope"], "Execution success does not guarantee that count, type and identifiers retain their declared meanings.")
+
     witness = [row for row in model["observations"] if row["operator"] == "triple_observed_coding_witness"]
     witness_contrasts = [row for row in model["contrasts"] if row["operator"] == "triple_observed_coding_witness"]
     for row in witness:
@@ -307,7 +332,7 @@ def main():
     graph = {
         "schema_version": "2.1-crispr-reference-map",
         "generated_date": model["generatedDate"],
-        "public_evidence_revision": "2026-11-12",
+        "public_evidence_revision": "2026-11-13",
         "title": "CRISPR observability: interactive scientific map",
         "subtitle": "Premises, mechanisms, conditional constraints, source artifacts, revision tests and scope",
         "summary": {

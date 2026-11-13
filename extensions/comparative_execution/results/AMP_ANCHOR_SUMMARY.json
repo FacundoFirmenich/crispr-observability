@@ -1,0 +1,632 @@
+{
+  "source_release": "https://github.com/FacundoFirmenich/crispr-observability/releases/download/comparison-evidence-43493655364/",
+  "rows": [
+    {
+      "run": "SRR29623274",
+      "condition": "untreated",
+      "preparation": 1,
+      "anchor_offset": 0,
+      "raw_N": 13762,
+      "Q30": 13558,
+      "assigned": 8704,
+      "unassigned_Q30": 4854,
+      "native_filtered": 8704,
+      "native_edited": 192,
+      "native_HDR": 0
+    },
+    {
+      "run": "SRR29623266",
+      "condition": "untreated",
+      "preparation": 2,
+      "anchor_offset": 0,
+      "raw_N": 13617,
+      "Q30": 13498,
+      "assigned": 8690,
+      "unassigned_Q30": 4808,
+      "native_filtered": 8690,
+      "native_edited": 207,
+      "native_HDR": 0
+    },
+    {
+      "run": "SRR29623268",
+      "condition": "untreated",
+      "preparation": 3,
+      "anchor_offset": 0,
+      "raw_N": 29956,
+      "Q30": 29677,
+      "assigned": 19303,
+      "unassigned_Q30": 10374,
+      "native_filtered": 19303,
+      "native_edited": 437,
+      "native_HDR": 0
+    },
+    {
+      "run": "SRR29623273",
+      "condition": "mock",
+      "preparation": 1,
+      "anchor_offset": 0,
+      "raw_N": 17177,
+      "Q30": 16887,
+      "assigned": 10771,
+      "unassigned_Q30": 6116,
+      "native_filtered": 10771,
+      "native_edited": 249,
+      "native_HDR": 2
+    },
+    {
+      "run": "SRR29623265",
+      "condition": "mock",
+      "preparation": 2,
+      "anchor_offset": 0,
+      "raw_N": 21041,
+      "Q30": 20855,
+      "assigned": 13503,
+      "unassigned_Q30": 7352,
+      "native_filtered": 13503,
+      "native_edited": 300,
+      "native_HDR": 0
+    },
+    {
+      "run": "SRR29623267",
+      "condition": "mock",
+      "preparation": 3,
+      "anchor_offset": 0,
+      "raw_N": 27024,
+      "Q30": 26805,
+      "assigned": 17270,
+      "unassigned_Q30": 9535,
+      "native_filtered": 17270,
+      "native_edited": 352,
+      "native_HDR": 0
+    },
+    {
+      "run": "SRR29623272",
+      "condition": "PE treated",
+      "preparation": 1,
+      "anchor_offset": 0,
+      "raw_N": 20573,
+      "Q30": 20212,
+      "assigned": 12925,
+      "unassigned_Q30": 7287,
+      "native_filtered": 12925,
+      "native_edited": 3043,
+      "native_HDR": 2615
+    },
+    {
+      "run": "SRR29623271",
+      "condition": "PE treated",
+      "preparation": 2,
+      "anchor_offset": 0,
+      "raw_N": 19184,
+      "Q30": 18982,
+      "assigned": 12371,
+      "unassigned_Q30": 6611,
+      "native_filtered": 12371,
+      "native_edited": 4569,
+      "native_HDR": 4113
+    },
+    {
+      "run": "SRR29623270",
+      "condition": "PE treated",
+      "preparation": 3,
+      "anchor_offset": 0,
+      "raw_N": 14672,
+      "Q30": 14536,
+      "assigned": 9285,
+      "unassigned_Q30": 5251,
+      "native_filtered": 9285,
+      "native_edited": 3075,
+      "native_HDR": 2697
+    },
+    {
+      "run": "SRR29623274",
+      "condition": "untreated",
+      "preparation": 1,
+      "anchor_offset": 4,
+      "raw_N": 13762,
+      "Q30": 13558,
+      "assigned": 13510,
+      "unassigned_Q30": 48,
+      "native_filtered": 13510,
+      "native_edited": 790,
+      "native_HDR": 0
+    },
+    {
+      "run": "SRR29623266",
+      "condition": "untreated",
+      "preparation": 2,
+      "anchor_offset": 4,
+      "raw_N": 13617,
+      "Q30": 13498,
+      "assigned": 13455,
+      "unassigned_Q30": 43,
+      "native_filtered": 13455,
+      "native_edited": 733,
+      "native_HDR": 0
+    },
+    {
+      "run": "SRR29623268",
+      "condition": "untreated",
+      "preparation": 3,
+      "anchor_offset": 4,
+      "raw_N": 29956,
+      "Q30": 29677,
+      "assigned": 29580,
+      "unassigned_Q30": 97,
+      "native_filtered": 29580,
+      "native_edited": 1618,
+      "native_HDR": 1
+    },
+    {
+      "run": "SRR29623273",
+      "condition": "mock",
+      "preparation": 1,
+      "anchor_offset": 4,
+      "raw_N": 17177,
+      "Q30": 16887,
+      "assigned": 16828,
+      "unassigned_Q30": 59,
+      "native_filtered": 16828,
+      "native_edited": 982,
+      "native_HDR": 3
+    },
+    {
+      "run": "SRR29623265",
+      "condition": "mock",
+      "preparation": 2,
+      "anchor_offset": 4,
+      "raw_N": 21041,
+      "Q30": 20855,
+      "assigned": 20798,
+      "unassigned_Q30": 57,
+      "native_filtered": 20798,
+      "native_edited": 1070,
+      "native_HDR": 1
+    },
+    {
+      "run": "SRR29623267",
+      "condition": "mock",
+      "preparation": 3,
+      "anchor_offset": 4,
+      "raw_N": 27024,
+      "Q30": 26805,
+      "assigned": 26729,
+      "unassigned_Q30": 76,
+      "native_filtered": 26729,
+      "native_edited": 1451,
+      "native_HDR": 0
+    },
+    {
+      "run": "SRR29623272",
+      "condition": "PE treated",
+      "preparation": 1,
+      "anchor_offset": 4,
+      "raw_N": 20573,
+      "Q30": 20212,
+      "assigned": 20136,
+      "unassigned_Q30": 76,
+      "native_filtered": 20136,
+      "native_edited": 5244,
+      "native_HDR": 4020
+    },
+    {
+      "run": "SRR29623271",
+      "condition": "PE treated",
+      "preparation": 2,
+      "anchor_offset": 4,
+      "raw_N": 19184,
+      "Q30": 18982,
+      "assigned": 18910,
+      "unassigned_Q30": 72,
+      "native_filtered": 18910,
+      "native_edited": 7422,
+      "native_HDR": 6334
+    },
+    {
+      "run": "SRR29623270",
+      "condition": "PE treated",
+      "preparation": 3,
+      "anchor_offset": 4,
+      "raw_N": 14672,
+      "Q30": 14536,
+      "assigned": 14493,
+      "unassigned_Q30": 43,
+      "native_filtered": 14493,
+      "native_edited": 5147,
+      "native_HDR": 4213
+    },
+    {
+      "run": "SRR29623274",
+      "condition": "untreated",
+      "preparation": 1,
+      "anchor_offset": 8,
+      "raw_N": 13762,
+      "Q30": 13558,
+      "assigned": 13519,
+      "unassigned_Q30": 39,
+      "native_filtered": 13519,
+      "native_edited": 525,
+      "native_HDR": 0
+    },
+    {
+      "run": "SRR29623266",
+      "condition": "untreated",
+      "preparation": 2,
+      "anchor_offset": 8,
+      "raw_N": 13617,
+      "Q30": 13498,
+      "assigned": 13466,
+      "unassigned_Q30": 32,
+      "native_filtered": 13466,
+      "native_edited": 533,
+      "native_HDR": 0
+    },
+    {
+      "run": "SRR29623268",
+      "condition": "untreated",
+      "preparation": 3,
+      "anchor_offset": 8,
+      "raw_N": 29956,
+      "Q30": 29677,
+      "assigned": 29594,
+      "unassigned_Q30": 83,
+      "native_filtered": 29594,
+      "native_edited": 1096,
+      "native_HDR": 1
+    },
+    {
+      "run": "SRR29623273",
+      "condition": "mock",
+      "preparation": 1,
+      "anchor_offset": 8,
+      "raw_N": 17177,
+      "Q30": 16887,
+      "assigned": 16834,
+      "unassigned_Q30": 53,
+      "native_filtered": 16834,
+      "native_edited": 692,
+      "native_HDR": 3
+    },
+    {
+      "run": "SRR29623265",
+      "condition": "mock",
+      "preparation": 2,
+      "anchor_offset": 8,
+      "raw_N": 21041,
+      "Q30": 20855,
+      "assigned": 20810,
+      "unassigned_Q30": 45,
+      "native_filtered": 20810,
+      "native_edited": 747,
+      "native_HDR": 1
+    },
+    {
+      "run": "SRR29623267",
+      "condition": "mock",
+      "preparation": 3,
+      "anchor_offset": 8,
+      "raw_N": 27024,
+      "Q30": 26805,
+      "assigned": 26730,
+      "unassigned_Q30": 75,
+      "native_filtered": 26730,
+      "native_edited": 989,
+      "native_HDR": 0
+    },
+    {
+      "run": "SRR29623272",
+      "condition": "PE treated",
+      "preparation": 1,
+      "anchor_offset": 8,
+      "raw_N": 20573,
+      "Q30": 20212,
+      "assigned": 20141,
+      "unassigned_Q30": 71,
+      "native_filtered": 20141,
+      "native_edited": 4977,
+      "native_HDR": 4025
+    },
+    {
+      "run": "SRR29623271",
+      "condition": "PE treated",
+      "preparation": 2,
+      "anchor_offset": 8,
+      "raw_N": 19184,
+      "Q30": 18982,
+      "assigned": 18913,
+      "unassigned_Q30": 69,
+      "native_filtered": 18913,
+      "native_edited": 7198,
+      "native_HDR": 6336
+    },
+    {
+      "run": "SRR29623270",
+      "condition": "PE treated",
+      "preparation": 3,
+      "anchor_offset": 8,
+      "raw_N": 14672,
+      "Q30": 14536,
+      "assigned": 14503,
+      "unassigned_Q30": 33,
+      "native_filtered": 14503,
+      "native_edited": 4986,
+      "native_HDR": 4214
+    }
+  ],
+  "execution": [
+    {
+      "offset": 0,
+      "native_seconds": 57.85851694300001,
+      "total_seconds": 110.04689701400001
+    },
+    {
+      "offset": 4,
+      "native_seconds": 95.19032321399999,
+      "total_seconds": 125.50513987300002
+    },
+    {
+      "offset": 8,
+      "native_seconds": 73.21472525300001,
+      "total_seconds": 129.581074753
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/FacundoFirmenich/crispr-observability/releases/download/comparison-evidence-43493655364/amplican-evidence.tar.gz",
+      "sha256": "36526989bc0b4c0bef36af2d9b16f7cb529bf0d07149aea4e8e6aaf4561940a1"
+    },
+    {
+      "url": "https://github.com/FacundoFirmenich/crispr-observability/releases/download/comparison-evidence-43493655364/amplican-anchor-4.tar.gz",
+      "sha256": "aef88cb57793bf9b2238acab62f7e7f1b17be51a96e16aa530966bb5b4b3cd5c"
+    },
+    {
+      "url": "https://github.com/FacundoFirmenich/crispr-observability/releases/download/comparison-evidence-43493655364/amplican-anchor-8.tar.gz",
+      "sha256": "f5d56e1d338ba3b72ba2683b390d22b0be192e59f5103c4c38f031af612b0c51"
+    }
+  ],
+  "admission_transitions": [
+    {
+      "run": "SRR29623265",
+      "from_offset": 0,
+      "to_offset": 4,
+      "newly_assigned_weighted_records": 7295,
+      "newly_unassigned_weighted_records": 0,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 5488,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623266",
+      "from_offset": 0,
+      "to_offset": 4,
+      "newly_assigned_weighted_records": 4765,
+      "newly_unassigned_weighted_records": 0,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 3513,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623267",
+      "from_offset": 0,
+      "to_offset": 4,
+      "newly_assigned_weighted_records": 9459,
+      "newly_unassigned_weighted_records": 0,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 7082,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623268",
+      "from_offset": 0,
+      "to_offset": 4,
+      "newly_assigned_weighted_records": 10277,
+      "newly_unassigned_weighted_records": 0,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 7694,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623270",
+      "from_offset": 0,
+      "to_offset": 4,
+      "newly_assigned_weighted_records": 5208,
+      "newly_unassigned_weighted_records": 0,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 3847,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623271",
+      "from_offset": 0,
+      "to_offset": 4,
+      "newly_assigned_weighted_records": 6540,
+      "newly_unassigned_weighted_records": 1,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 4856,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623272",
+      "from_offset": 0,
+      "to_offset": 4,
+      "newly_assigned_weighted_records": 7211,
+      "newly_unassigned_weighted_records": 0,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 5351,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623273",
+      "from_offset": 0,
+      "to_offset": 4,
+      "newly_assigned_weighted_records": 6057,
+      "newly_unassigned_weighted_records": 0,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 4446,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623274",
+      "from_offset": 0,
+      "to_offset": 4,
+      "newly_assigned_weighted_records": 4807,
+      "newly_unassigned_weighted_records": 1,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 3554,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623265",
+      "from_offset": 4,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 24,
+      "newly_unassigned_weighted_records": 12,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 0,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623266",
+      "from_offset": 4,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 16,
+      "newly_unassigned_weighted_records": 5,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 0,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623267",
+      "from_offset": 4,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 30,
+      "newly_unassigned_weighted_records": 29,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 0,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623268",
+      "from_offset": 4,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 31,
+      "newly_unassigned_weighted_records": 17,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 0,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623270",
+      "from_offset": 4,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 16,
+      "newly_unassigned_weighted_records": 6,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 0,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623271",
+      "from_offset": 4,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 20,
+      "newly_unassigned_weighted_records": 17,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 0,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623272",
+      "from_offset": 4,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 29,
+      "newly_unassigned_weighted_records": 24,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 0,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623273",
+      "from_offset": 4,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 23,
+      "newly_unassigned_weighted_records": 17,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 0,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623274",
+      "from_offset": 4,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 20,
+      "newly_unassigned_weighted_records": 11,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 0,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623265",
+      "from_offset": 0,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 7308,
+      "newly_unassigned_weighted_records": 1,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 5488,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623266",
+      "from_offset": 0,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 4776,
+      "newly_unassigned_weighted_records": 0,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 3513,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623267",
+      "from_offset": 0,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 9461,
+      "newly_unassigned_weighted_records": 1,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 7082,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623268",
+      "from_offset": 0,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 10291,
+      "newly_unassigned_weighted_records": 0,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 7694,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623270",
+      "from_offset": 0,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 5218,
+      "newly_unassigned_weighted_records": 0,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 3847,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623271",
+      "from_offset": 0,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 6544,
+      "newly_unassigned_weighted_records": 2,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 4856,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623272",
+      "from_offset": 0,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 7221,
+      "newly_unassigned_weighted_records": 5,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 5351,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623273",
+      "from_offset": 0,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 6068,
+      "newly_unassigned_weighted_records": 5,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 4446,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    },
+    {
+      "run": "SRR29623274",
+      "from_offset": 0,
+      "to_offset": 8,
+      "newly_assigned_weighted_records": 4818,
+      "newly_unassigned_weighted_records": 3,
+      "newly_assigned_matching_reference_4_24_at_read_4_24": 3554,
+      "linkage": "Exact full observed forward/reverse sequence family and unchanged multiplicity within run; not molecular identity or retained original read IDs"
+    }
+  ]
+}

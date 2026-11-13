@@ -50,3 +50,7 @@ The supplied configuration is specifically CFTR. For another locus, explicitly r
 The CFTR exact-DNA example gives 13.11530–22.69773 percentage points for the treated–mock contrast. Its target is different from the native-local three-operator witness used by the count-only demo. Do not mix their labels or compare them as accuracy estimates.
 
 Open [the guided tutorial](../interactive/CFTR_TUTORIAL.html). Its 15–20 minute duration is a design target, not a measured usability result. See [comparative scope](COMPARATIVE_SCOPE.md) and [prospective validation](PROSPECTIVE_VALIDATION.md).
+
+## Direct sequence input in Streamlit
+
+In **Start here**, expand **Analyse your FASTQ**. Upload treated and control FASTQ or gzip files, inspect or edit the CFTR configuration, then select **Compute sequence evidence**. Download the HTML report and the combined JSON evidence/contract. Recompute after changing inputs. Files are processed in host memory without persistent upload files; a hosted app processes data on its host. Limits are 20 MB and 250,000 records per file. The CLI streams larger inputs. The exact-anchor observer is not all-alignment certification.

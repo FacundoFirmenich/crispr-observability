@@ -1,5 +1,7 @@
 # CRISPR Observability
 
+**Nueva evidencia comparativa (13 de noviembre):** ejecuciones nativas CFTR y controles del ancla de asignación, decisiones locales con donante reservado y fronteras exactas de coste, y carga directa de FASTQ en Streamlit. [Resultados y alcance](docs/COMPARATIVE_UPDATE.es.md). Se conservan los contratos originales y los resultados adversos.
+
 [FASTQ entry and tutorial / Entrada FASTQ y tutorial](docs/START_HERE.md) · [Comparative scope](docs/COMPARATIVE_SCOPE.md)
 
 **Empiece por una respuesta utilizable:** [guía de cuatro pasos](docs/START_HERE.es.md) · [entrada JSON auténtica](examples/observation-report/input.json) · [informe de decisión](examples/observation-report/report.html). Entrada guiada Streamlit o CLI con Python, sin conocimientos previos de grafos.
