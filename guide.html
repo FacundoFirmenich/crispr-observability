@@ -1,0 +1,318 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Researcher guide · CRISPR Observability</title><style>body{background:#f8f7fc;color:#252953;font:17px/1.6 system-ui;max-width:1100px;margin:40px auto;padding:0 24px}button,a{color:#355b9c}button{font:inherit;padding:9px 20px;border:1px solid #b8bedb;background:#eaf2fb;border-radius:12px;cursor:pointer}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}nav{position:sticky;top:0;background:#f8f7fc;padding:12px 0}table{width:100%;border-collapse:collapse;font-size:15px}td,th{padding:10px;border-bottom:1px solid #d7d9ec;text-align:left;vertical-align:top}th{background:#eaf2fb}pre{background:#eeeafa;padding:15px;border-radius:12px;overflow:auto}code{font-size:.9em}h1,h2{color:#3a397e}article{overflow-x:auto}</style>
+<nav><button onclick="choose('en')">English</button> <button onclick="choose('es')">Castellano</button> · <a href="lab.html">Laboratory / Laboratorio</a> · <a href="supergraph.html">Supergraph</a></nav>
+<article id="en"><h1>Researcher and community guide</h1>
+<p><a href="RESEARCHER_GUIDE.es.md">Castellano</a> · <a href="LEADING_CASE.md">Leading case</a></p>
+<h2>Choose the scientific task</h2>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Entry point</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Understand or challenge a claim</td>
+<td>Epistemic Supergraph and PaperGraph</td>
+<td>Traceable premises, sources and scope; exportable map</td>
+</tr>
+<tr>
+<td>Inspect exact historical counts</td>
+<td>Numerical epistemic explorer</td>
+<td>Original finite-record counts and conditional intervals</td>
+</tr>
+<tr>
+<td>Manipulate a sequence/structure or inspect an alignment</td>
+<td>Read Observability Lab</td>
+<td>Interactive 3D scene, coordinate report, result/replay JSON, PNG and alignment TSV where applicable</td>
+</tr>
+<tr>
+<td>Run several named inputs or connect an IDE</td>
+<td>Multi-input engine CLI/API/MCP</td>
+<td>Versioned manifest and structured source-bound report</td>
+</tr>
+<tr>
+<td>Recompute published calculations</td>
+<td>Native launcher, Python runner, Streamlit or notebook</td>
+<td>Scoped calculation and execution receipt</td>
+</tr>
+</tbody>
+</table>
+<p>These interfaces answer different questions. A graphical scene is not an
+alignment oracle; a source checksum authenticates bytes, not a biological label.
+Start with the leading case, then bring a case whose coordinate and evidence
+contracts you can state explicitly.</p>
+<h2>Open the tools</h2>
+<p>The repository landing page links the standalone tools. Download the HTML if
+offline work is preferable. Use a modern WebGL 2 browser for the laboratory.
+Orbit by dragging the scene; zoom with the wheel; use the camera and view controls
+to restore orientation. The Supergraph supports individual cards, columns,
+whole-map movement, highlighted relations and a conceptual play/pause tour.
+PaperGraph provides Student, Technical and Audit explanations.</p>
+<p>The browser laboratory presents five modes: anchor containment, competing spans,
+ideal DNA, imported structures and read alignments. Change one parameter at a
+time and inspect the explanation and numerical result, then save the replay.
+Source-bound views and deliberate what-if changes remain distinguishable.</p>
+<h2>Bring your inputs</h2>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Contract</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FASTA</td>
+<td>One sequence, 2–360 ACGTN bases; short local inspection</td>
+</tr>
+<tr>
+<td>PDB / textual mmCIF / XYZ</td>
+<td>Normalized atom coordinates; at most 30,000 atoms and 6 MB text; declared structural provenance</td>
+</tr>
+<tr>
+<td>SAM</td>
+<td>Record/CIGAR inspection with explicit reference and locus</td>
+</tr>
+<tr>
+<td>BAM plus BAI/CSI</td>
+<td>Local indexed access; BAI tested with public fixtures; CSI fixture coverage remains limited</td>
+</tr>
+<tr>
+<td>Portable JSON</td>
+<td>Versioned sequence, structure, alignment or replay schema; incompatible schemas rejected</td>
+</tr>
+<tr>
+<td>Project manifest</td>
+<td>Up to 32 named inputs and 64 ordered operations; SHA-256 checks available</td>
+</tr>
+</tbody>
+</table>
+<p>Coordinates are zero-based, half-open. Structural distances use angstroms.
+The alignment window is at most 50,000 reference bases and 2,500 records.
+The browser holds one active case; the engine supports multiple named inputs.
+CRAM and whole-genome streaming are outside the present implementation. Read
+the format-specific <a href="../interactive/lab/README.md">laboratory guide</a> and
+<a href="../engine/GUIA_EVIDENCIA_SPLICING_v0.5.md">junction contract</a> before conversion.</p>
+<p>Import normalizes supported formats into portable JSON. Export preserves a
+replayable computational case; it is not a lossless converter for every field
+of every source format. Keep the original file and hash alongside the normalized
+case. Absence from a bounded input window means not observed there.</p>
+<h2>Programmatic work and MCP</h2>
+<p>Install the pinned engine dependencies with <code>npm ci --prefix engine</code>. Use
+<code>node engine/project-cli.mjs check &lt;manifest&gt;</code> followed by <code>run &lt;manifest&gt;</code>.
+The same kernel is available through JavaScript and the stdio MCP server:
+<code>node engine/project-mcp.mjs &lt;authorized-study-directory&gt;</code>. The server exposes
+<code>lab_project_run</code>; paths remain inside that directory. The separate browser MCP
+bridge supports normalization, boundary and span calculations, alignment reports
+and rendered exports. See <a href="../interactive/lab/MCP.md">MCP instructions</a>.</p>
+<p>An agent should submit an explicit manifest, retain the returned parameters and
+source identities, and distinguish a requested operation from a completed result.
+Never infer sample or molecule identity from a matching filename alone.</p>
+<h2>Reproduction, Streamlit and Docker</h2>
+<p>Native v0.9.0 packages include their Python runtime and frozen inputs:
+Windows x86-64 <code>START_HERE.bat</code>, Linux x86-64 <code>START_HERE.sh</code>, macOS Intel/Apple
+silicon <code>START_HERE.command</code>. These are platform-specific launchers, not one
+binary for every operating system. Current source updates postdate that fixed
+release; consult the release commit before attributing new tools to a package.</p>
+<p>The source dashboard has English/Spanish controls, interactive evidence,
+Supergraph, laboratory, scoped replay, execution ledger and community guides:</p>
+<pre><code class="language-sh">python -m pip install -r reproducibility/requirements-reviewer.txt
+python -m streamlit run reproducibility/reviewer_app.py
+</code></pre>
+<p>Alternatively:</p>
+<pre><code class="language-sh">docker build -f Dockerfile.reviewer -t crispr-reviewer .
+docker run --rm -p 127.0.0.1:8501:8501 -v crispr-review-results:/results crispr-reviewer
+</code></pre>
+<p>Open <code>http://localhost:8501</code>. The named volume retains outputs. The Docker
+dashboard includes browser tools and Python reproduction; the Node engine has
+its separately pinned installation. Quick/counts/full replay have different
+scopes; read the receipt. Choose a persistent output location rather than an
+ephemeral container or a crowded local disk. No launcher starts Colab or Kaggle.</p>
+<h2>Hardware and realistic accessibility</h2>
+<p>Local development and editorial verification used a conventional 2016 laptop
+with an Intel Core i5-6200U at 2.30 GHz, as reported by the author. Larger scientific
+campaigns used hosted resources; native builds use platform CI. This establishes
+the development context, not a benchmark that every full workflow runs on a
+ten-year-old computer. The standalone laboratory is small, but rendering still
+depends on browser/WebGL support. No dedicated GPU is required by the frozen
+Python replay; runtime and memory depend on the selected scope.</p>
+<h2>Contribute to the research</h2>
+<p>Three programme lines already use or adapt the infrastructure; see their
+<a href="RESEARCH_LINES.md">names and integration states</a>. To contribute, report a
+localized discrepancy with the commit, command/manifest, source hash, coordinate
+system, expected result, observed result and evidence unit. Share only data you
+are permitted to publish. Use an issue for reproducible defects, a discussion
+for scientific questions or proposed use, and a pull request for a tested change.
+The <a href="COMMUNITY_ROADMAP.md">community roadmap</a> lists concrete participation routes.</p>
+<p>Useful contributions include a new independently documented case, an adversarial
+coordinate fixture, a verified format adapter, an accessible explanation or an
+external reproduction receipt. Report unsuccessful cases too. Citations,+independent use and reproduction are distinct outcomes; none is manufactured
+through badges, promotional claims or issue counts.</p>
+<h2>Publish and cite a result</h2>
+<p>Retain original inputs, code commit, manifest, complete report, evidence unit,
+unresolved outcomes and renderer/replay version. Cite the exact component and
+version. DOI 10.5281/zenodo.24121127 identifies v0.8.1, not later laboratory
+development. Original current software is GPL-3.0-only; the independent
+generation-model extension retains MIT and dependencies retain their licences.
+The private manuscript and supplement are not included in public source releases.</p>
+</article><article id="es" hidden><h1>Guía para investigadores y comunidad</h1>
+<p><a href="RESEARCHER_GUIDE.md">English</a> · <a href="LEADING_CASE.es.md">Caso guía</a></p>
+<h2>Elegir la tarea científica</h2>
+<table>
+<thead>
+<tr>
+<th>Tarea</th>
+<th>Entrada</th>
+<th>Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entender o cuestionar una afirmación</td>
+<td>Supergraph y PaperGraph</td>
+<td>Premisas, fuentes, alcance y mapa exportable</td>
+</tr>
+<tr>
+<td>Examinar recuentos históricos exactos</td>
+<td>Explorador epistémico numérico</td>
+<td>Recuentos originales e intervalos condicionados</td>
+</tr>
+<tr>
+<td>Manipular secuencias/estructuras o examinar alineamientos</td>
+<td>Read Observability Lab</td>
+<td>Escena 3D, coordenadas, JSON/replay, PNG y TSV de alineamiento cuando corresponda</td>
+</tr>
+<tr>
+<td>Usar varias entradas o conectar un IDE</td>
+<td>Motor CLI/API/MCP</td>
+<td>Manifiesto versionado e informe con procedencia</td>
+</tr>
+<tr>
+<td>Recalcular resultados publicados</td>
+<td>Autoejecutable, Python, Streamlit o cuaderno</td>
+<td>Cálculo delimitado y recibo de ejecución</td>
+</tr>
+</tbody>
+</table>
+<p>Cada interfaz responde una pregunta. La escena no reemplaza al cálculo del
+alineamiento, y el hash identifica los datos, no autentica la etiqueta biológica.
+Empiece por el caso guía y declare después el contrato de su propio estudio.</p>
+<h2>Abrir y navegar</h2>
+<p>La portada enlaza las herramientas; descargue los HTML para trabajar sin red.
+El laboratorio necesita WebGL 2. Arrastre para orbitar, utilice la rueda para
+acercar y los controles de cámara para recuperar la orientación. El Supergraph
+permite mover tarjetas, columnas y el mapa, resaltar relaciones y seguir un
+recorrido conceptual con reproducción y pausa. PaperGraph ofrece tres niveles
+de explicación: Student, Technical y Audit.</p>
+<p>El laboratorio tiene cinco modos: contención de anclas, tramos competidores,
+ADN ideal, estructuras importadas y alineamientos. Cambie una variable, examine
+la explicación y el resultado, y guarde el replay. Las vistas de datos
+conservados y los cambios contrafactuales mantienen alcances distintos. Los
+controles internos del visor molecular conservan sus nombres científicos en
+inglés; esta guía y el dashboard proporcionan orientación en castellano.</p>
+<h2>Incorporar datos</h2>
+<table>
+<thead>
+<tr>
+<th>Entrada</th>
+<th>Contrato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FASTA</td>
+<td>Una secuencia, 2–360 bases ACGTN, inspección local</td>
+</tr>
+<tr>
+<td>PDB / mmCIF textual / XYZ</td>
+<td>Coordenadas normalizadas; hasta 30.000 átomos y 6 MB de texto</td>
+</tr>
+<tr>
+<td>SAM</td>
+<td>Registro, CIGAR, referencia y ventana explícitos</td>
+</tr>
+<tr>
+<td>BAM con BAI/CSI</td>
+<td>Lectura indexada local; BAI contrastado con fixtures públicos; cobertura de pruebas CSI limitada</td>
+</tr>
+<tr>
+<td>JSON portátil</td>
+<td>Esquemas versionados de secuencia, estructura, alineamiento o replay</td>
+</tr>
+<tr>
+<td>Manifiesto</td>
+<td>Hasta 32 entradas y 64 operaciones; comprobación SHA-256 opcional</td>
+</tr>
+</tbody>
+</table>
+<p>Las coordenadas empiezan en cero y usan intervalos semiabiertos. Las distancias
+atómicas se expresan en angstroms. La ventana admite hasta 50.000 posiciones y
+2.500 registros. El visor mantiene un caso activo; el motor admite entradas
+múltiples. CRAM y procesamiento genómico completo no están implementados.
+Consulte la <a href="../interactive/lab/README.md">guía de formatos</a> y el
+<a href="../engine/GUIA_EVIDENCIA_SPLICING_v0.5.md">contrato de uniones</a>.</p>
+<p>La importación normaliza a JSON; no preserva necesariamente todos los campos
+de cada formato original. Conserve fuente y hash junto al caso. «No observado»
+en una ventana acotada no equivale a ausencia en toda la biblioteca.</p>
+<h2>Trabajo programático y MCP</h2>
+<p>Instale con <code>npm ci --prefix engine</code>. Valide con
+<code>node engine/project-cli.mjs check &lt;manifiesto&gt;</code> y ejecute con <code>run</code>.
+El mismo núcleo funciona desde JavaScript y desde el servidor stdio:
+<code>node engine/project-mcp.mjs &lt;directorio-autorizado&gt;</code>. Expone <code>lab_project_run</code>
+y restringe las rutas al espacio autorizado. El puente MCP del visor permite
+normalizar, calcular anclas y tramos, inspeccionar alineamientos y exportar
+renders. Consulte <a href="../interactive/lab/MCP.md">MCP</a>.</p>
+<p>El agente debe conservar manifiesto, parámetros y fuentes de cada resultado.
+Pedir una operación no significa haberla ejecutado. Un nombre de archivo
+coincidente no demuestra identidad de muestra ni molécula.</p>
+<h2>Reproducción, Streamlit y Docker</h2>
+<p>Los paquetes nativos v0.9.0 incluyen runtime Python y entradas congeladas:
+Windows x86-64 <code>START_HERE.bat</code>, Linux x86-64 <code>START_HERE.sh</code>, macOS Intel/Apple
+silicon <code>START_HERE.command</code>. Cada binario corresponde a su plataforma. Las
+mejoras actuales de fuente son posteriores a esa release: consulte el commit
+antes de atribuirle capacidades nuevas a un paquete antiguo.</p>
+<p>El dashboard tiene controles en castellano e inglés, evidencia, Supergraph,
+laboratorio, reproducción por alcance, ledger y guías:</p>
+<pre><code class="language-sh">python -m pip install -r reproducibility/requirements-reviewer.txt
+python -m streamlit run reproducibility/reviewer_app.py
+</code></pre>
+<p>O utilice el contenedor:</p>
+<pre><code class="language-sh">docker build -f Dockerfile.reviewer -t crispr-reviewer .
+docker run --rm -p 127.0.0.1:8501:8501 -v crispr-review-results:/results crispr-reviewer
+</code></pre>
+<p>Abra <code>http://localhost:8501</code>. El volumen conserva resultados. Docker incluye
+visores y reproducción Python; el motor Node tiene instalación separada y
+versionada. Quick/counts/full tienen alcances diferentes que constan en el
+recibo. Elija almacenamiento persistente adecuado. Ningún lanzador inicia
+Colab ni Kaggle.</p>
+<h2>Hardware y accesibilidad real</h2>
+<p>El desarrollo local y la revisión editorial se realizaron en un portátil
+convencional de 2016, Intel Core i5-6200U a 2,30 GHz, según informa el autor.
+Las campañas grandes utilizaron recursos alojados y los binarios se construyen
+en CI nativa. Esto describe el contexto de desarrollo; no prueba que todo
+análisis completo se ejecute en cualquier ordenador de diez años. El HTML es
+pequeño, pero el render depende del navegador y WebGL. La reproducción Python
+congelada no requiere una GPU dedicada; recursos y tiempo dependen del alcance.</p>
+<h2>Participar en la investigación</h2>
+<p>La infraestructura se usa o adapta en <a href="RESEARCH_LINES.es.md">tres líneas</a>.
+Para informar un problema aporte commit, comando/manifiesto, hash, coordenadas,
+resultado esperado y observado y unidad de evidencia. Publique sólo datos que
+pueda compartir. Use issues para fallos reproducibles, discussions para
+preguntas y propuestas, y pull requests para cambios contrastados. La
+<a href="COMMUNITY_ROADMAP.es.md">hoja de ruta</a> describe vías concretas.</p>
+<p>Son aportes útiles un caso independiente documentado, una prueba adversa de
+coordenadas, un adaptador verificado, una explicación accesible o un recibo de
+reproducción externa. Los resultados desfavorables también cuentan. Citación,
+uso independiente y reproducción son resultados distintos; no se sustituyen
+con insignias, promoción o recuentos de issues.</p>
+<h2>Publicar y citar</h2>
+<p>Conserve entradas originales, commit, manifiesto, informe, unidad de evidencia,
+resultados irresueltos y versión del visor. Cite componente y versión exactos.
+El DOI 10.5281/zenodo.24121127 corresponde a v0.8.1, no al laboratorio posterior.
+El código actual original es GPL-3.0-only; la extensión de modelos generativos
+retiene MIT y cada dependencia conserva su licencia. El manuscrito y el
+suplemento privados no forman parte de las releases públicas de código.</p>
+</article><script>function choose(l){document.documentElement.lang=l;for(const x of ['en','es'])document.getElementById(x).hidden=x!==l}</script></html>
