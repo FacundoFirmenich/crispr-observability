@@ -5918,6 +5918,26 @@
     "interactive/CFTR_TUTORIAL.html": {
       "bytes": 5085,
       "sha256": "134575703ec3b1264d009e2ec6813d9875c86c2dbb5358da9274165593e6a9c8"
+    },
+    "extensions/comparative_execution/ANALYSIS_PLAN.md": {
+      "bytes": 4541,
+      "sha256": "9655e6278239950332cd1d536451bda508fdc5185a0ef40ac4e25e830adadd5a"
+    },
+    "extensions/comparative_execution/prepare.py": {
+      "bytes": 2867,
+      "sha256": "6b1631cf541513fa426456572e961d807167e152ece1697a5e9761c00ad3289f"
+    },
+    "extensions/comparative_execution/run_amplican.R": {
+      "bytes": 460,
+      "sha256": "e7aa15d54fa99ce793c164dcc3fa5c10d6771a6700f3424368fc000110c701ad"
+    },
+    "extensions/comparative_execution/run_native.py": {
+      "bytes": 3818,
+      "sha256": "d16e591f461304efab191ecd43c7ab162c6535a3d9751d9c3c8580777ec1a09d"
+    },
+    ".github/workflows/comparator-campaign.yml": {
+      "bytes": 2613,
+      "sha256": "87a0524ceaf1f35170f5961537557ab75bb049a9d2399d0f9242d47adc6cde97"
     }
   },
   "source_commit_role": "Historical source archive from the 0.7.1 integration",

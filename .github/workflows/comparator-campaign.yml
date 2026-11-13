@@ -1,0 +1,65 @@
+name: Native comparator campaign
+on:
+  push:
+    branches: ['genome-comparators-20261113']
+    paths: ['extensions/comparative_execution/**', '.github/workflows/comparator-campaign.yml']
+permissions:
+  contents: read
+jobs:
+  native:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 100
+    strategy:
+      fail-fast: false
+      matrix:
+        engine: [crispresso, amplican, crispra]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-java@v4
+        if: matrix.engine == 'crispra'
+        with:
+          distribution: temurin
+          java-version: '11'
+      - name: Authenticate and freeze inputs
+        run: python extensions/comparative_execution/prepare.py "$RUNNER_TEMP/campaign"
+      - name: Prepare pinned Nextflow
+        if: matrix.engine == 'crispra'
+        run: |
+          curl -fsSL https://github.com/nextflow-io/nextflow/releases/download/v21.10.6/nextflow-21.10.6-all -o "$RUNNER_TEMP/campaign/nextflow"
+          chmod +x "$RUNNER_TEMP/campaign/nextflow"
+      - name: Execute native engine
+        run: python extensions/comparative_execution/run_native.py '${{ matrix.engine }}' "$RUNNER_TEMP/campaign"
+      - name: Preserve native evidence
+        if: always()
+        run: |
+          sudo chmod -R a+rX "$RUNNER_TEMP/campaign/evidence"
+          tar -czf "$RUNNER_TEMP/${{ matrix.engine }}-evidence.tar.gz" -C "$RUNNER_TEMP/campaign" evidence
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: native-${{ matrix.engine }}
+          path: ${{ runner.temp }}/${{ matrix.engine }}-evidence.tar.gz
+          retention-days: 90
+          if-no-files-found: error
+  custody:
+    if: always()
+    needs: native
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: native-*
+          path: evidence
+          merge-multiple: true
+      - name: Persist complete evidence as a versioned research asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          COMMIT: ${{ github.sha }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          sha256sum evidence/* > evidence/SHA256SUMS.txt
+          printf '%s\n' 'Native computational evidence; successes and failures retained. Manuscripts excluded. This is not a software production release.' > notes.txt
+          gh release create "comparison-evidence-$RUN_ID" evidence/* --repo "$REPO" --target "$COMMIT" --prerelease --title "Native comparison evidence $RUN_ID" --notes-file notes.txt
